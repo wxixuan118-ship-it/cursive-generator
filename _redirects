@@ -1,0 +1,19 @@
+# Non-www → www (301)
+https://cursive-text-generator.net/*  https://www.cursive-text-generator.net/:splat  301!
+
+# Duplicate URL consolidation
+/cursive-text-generator        /    301
+/cursive-text-generator.html   /    301
+/index.html                    /    301
+
+# Clean URLs → .html pages
+/cursive-fonts                   /cursive-fonts.html                   301
+/cursive-alphabet                /cursive-alphabet.html                301
+/cursive-name-generator          /cursive-name-generator.html          301
+/instagram-cursive-text          /instagram-cursive-text.html          301
+/fancy-text-generator            /fancy-text-generator.html            301
+/cursive-bold-generator          /cursive-bold-generator.html          301
+/calligraphy-text-generator      /calligraphy-text-generator.html      301
+/handwriting-font-generator      /handwriting-font-generator.html      301
+/cursive-letters-a-z             /cursive-letters-a-z.html             301
+/free-commercial-cursive-fonts   /free-commercial-cursive-fonts.html   301

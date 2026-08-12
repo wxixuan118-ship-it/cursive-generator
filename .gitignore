@@ -1,0 +1,11 @@
+.DS_Store
+.vercel
+.vercel-home/
+node_modules/
+*.log
+.npm-cache/
+scripts/
+package.json
+package-lock.json
+README.md
+README_DEPLOY.md
