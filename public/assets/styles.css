@@ -121,15 +121,12 @@ a {
 }
 
 .tool-section {
-  padding: 42px 0 46px;
+  padding: 24px 0 28px;
 }
 
 .tool-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
-  gap: 28px;
-  align-items: center;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
+  max-width: 760px;
 }
 
 .eyebrow {
@@ -171,19 +168,6 @@ h1 {
   font-size: 18px;
 }
 
-.intro-art {
-  aspect-ratio: 4 / 3;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  border: 1px solid var(--line);
-}
-
-.intro-art img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .generator-shell {
   display: grid;
@@ -525,11 +509,7 @@ select {
     grid-template-columns: 1fr;
   }
 
-  .intro-art {
-    max-width: 320px;
-  }
-
-  .input-panel,
+.input-panel,
   .seo-aside {
     position: static;
   }
