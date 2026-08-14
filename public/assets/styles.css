@@ -12,6 +12,10 @@
   --gold: #b68a3a;
   --blue: #335c81;
   --shadow: 0 16px 42px rgba(31, 46, 39, 0.12);
+  /* Generator controls */
+  --output-fs: clamp(24px, 4vw, 38px);
+  --result-bg: #ffffff;
+  --result-text: var(--ink);
 }
 
 * {
@@ -280,8 +284,10 @@ select {
 .result-card {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--result-bg, #fff);
+  color: var(--result-text, var(--ink));
   padding: 16px;
+  transition: background 0.18s, color 0.18s;
 }
 
 .result-top {
@@ -296,11 +302,124 @@ select {
   font-weight: 850;
 }
 
+.result-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* ── Extra controls row ──────────────────────────────────────────────────── */
+.controls-extra {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  align-items: center;
+}
+
+.ctrl-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.ctrl-group label {
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.size-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 110px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--line);
+  accent-color: var(--sage);
+  cursor: pointer;
+}
+
+.size-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--sage);
+  cursor: pointer;
+}
+
+/* ── Background swatches ─────────────────────────────────────────────────── */
+.bg-swatches {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
+  outline: none;
+  transition: transform 0.12s, box-shadow 0.12s;
+}
+
+.swatch:hover {
+  transform: scale(1.15);
+}
+
+.swatch.active {
+  border-color: var(--sage);
+  box-shadow: 0 0 0 2px var(--sage-soft);
+}
+
+.swatch-picker {
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  background: none;
+}
+
+/* ── Download button ─────────────────────────────────────────────────────── */
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  font: inherit;
+  font-size: 12px;
+  color: var(--muted);
+  cursor: pointer;
+  white-space: nowrap;
+  min-height: 32px;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.btn-download:hover {
+  background: var(--sage-soft);
+  color: var(--sage);
+  border-color: var(--sage);
+}
+
 .output {
   min-height: 48px;
   overflow-wrap: anywhere;
-  font-size: clamp(24px, 4vw, 38px);
+  font-size: var(--output-fs, clamp(24px, 4vw, 38px));
   line-height: 1.25;
+  transition: font-size 0.1s;
 }
 
 .seo-section {
