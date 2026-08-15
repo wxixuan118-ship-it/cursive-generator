@@ -1,377 +1,1640 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Generated 2026-08-15 — 268 URLs -->
 
-  <!-- HOMEPAGE -->
+  <!-- OTHER -->
   <url>
-    <loc>https://www.cursive-text-generator.net/</loc>
+    <loc>https://www.cursive-text-generator.net//</loc>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- NAME TOOLS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/name/signature-generator/</loc>
+    <priority>0.95</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <!-- CORE TOOL PAGES -->
   <url>
+    <loc>https://www.cursive-text-generator.net/calligraphy-text-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-bold-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-font-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
     <loc>https://www.cursive-text-generator.net/cursive-name-generator.html</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-text-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-writing-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/fancy-text-generator.html</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/handwriting-font-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/instagram-cursive-text.html</loc>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+  <!-- TATTOO -->
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-bold-generator.html</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/calligraphy-text-generator.html</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/handwriting-font-generator.html</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.cursive-text-generator.net/tattoo/cursive-tattoo-font-generator/</loc>
+    <priority>0.90</priority>
+    <changefreq>weekly</changefreq>
   </url>
 
-  <!-- RESOURCE PAGES -->
+  <!-- NAME TOOLS -->
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-fonts.html</loc>
-    <priority>0.9</priority>
+    <loc>https://www.cursive-text-generator.net/name/name-practice-generator/</loc>
+    <priority>0.88</priority>
     <changefreq>weekly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-alphabet.html</loc>
-    <priority>0.9</priority>
+    <loc>https://www.cursive-text-generator.net/name/name-tracing-generator/</loc>
+    <priority>0.88</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+  <!-- COPY AND PASTE -->
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-letters-a-z.html</loc>
-    <priority>0.82</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.cursive-text-generator.net/copy-and-paste/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
+  <!-- CURSIVE FOR PLATFORMS -->
   <url>
-    <loc>https://www.cursive-text-generator.net/free-commercial-cursive-fonts.html</loc>
-    <priority>0.82</priority>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.cursive-text-generator.net/cursive-for/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
+  <!-- CURSIVE LETTERS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- CURSIVE NAMES -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- CURSIVE NUMBERS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- CURSIVE STYLES -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-styles/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- CURSIVE SYMBOLS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- FONT GENERATORS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- GENERATORS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- OTHER -->
   <url>
     <loc>https://www.cursive-text-generator.net/canva-signature-logo-templates.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
 
-  <!-- USE-CASE PAGES (MODULE 3) -->
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for/</loc>
-    <priority>0.9</priority>
+    <loc>https://www.cursive-text-generator.net/cursive-alphabet.html</loc>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for/instagram/</loc>
-    <priority>0.88</priority>
+    <loc>https://www.cursive-text-generator.net/cursive-fonts.html</loc>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for/tiktok/</loc>
-    <priority>0.88</priority>
+    <loc>https://www.cursive-text-generator.net/cursive-letters-a-z.html</loc>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for/facebook/</loc>
-    <priority>0.85</priority>
+    <loc>https://www.cursive-text-generator.net/free-commercial-cursive-fonts.html</loc>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <!-- CURSIVE FOR PLATFORMS -->
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-for/discord/</loc>
-    <priority>0.85</priority>
+    <priority>0.75</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/facebook/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/instagram/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/linkedin/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/pinterest/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/reddit/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/snapchat/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/threads/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/tiktok/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/twitter/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-for/usernames/</loc>
-    <priority>0.87</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for-bios/</loc>
-    <priority>0.87</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for-captions/</loc>
-    <priority>0.87</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for-tattoos/</loc>
-    <priority>0.88</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for-weddings/</loc>
-    <priority>0.88</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-for-logos/</loc>
-    <priority>0.85</priority>
+    <priority>0.75</priority>
     <changefreq>monthly</changefreq>
   </url>
 
-  <!-- COPY-AND-PASTE HUB + PAGES -->
   <url>
-    <loc>https://www.cursive-text-generator.net/copy-and-paste/</loc>
-    <priority>0.92</priority>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.cursive-text-generator.net/cursive-for/whatsapp/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for/youtube/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- FONT GENERATORS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/alex-brush/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/allura/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/dancing-script/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/great-vibes/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/pacifico/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/pinyon-script/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/sacramento/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/satisfy/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/tangerine/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/yellowtail/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- GENERATORS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/aesthetic/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/bold-cursive/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/bubble-letters/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/calligraphy/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/cursed-text/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/cursive-script/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/cursive-translator/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/cute/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/fancy-cursive/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/gothic/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/old-english/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/generators/print-to-cursive/</loc>
+    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- COPY AND PASTE -->
   <url>
     <loc>https://www.cursive-text-generator.net/copy-and-paste/cursive-font/</loc>
-    <priority>0.88</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/copy-and-paste/cursive-letters/</loc>
-    <priority>0.88</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/copy-and-paste/cursive-writing/</loc>
-    <priority>0.88</priority>
-    <changefreq>monthly</changefreq>
-  </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/copy-and-paste/cursive-signature/</loc>
-    <priority>0.88</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <!-- CORE TOOL PAGES -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/copy-and-paste/cursive-writing/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- COPY AND PASTE -->
   <url>
     <loc>https://www.cursive-text-generator.net/copy-and-paste/fancy-cursive/</loc>
-    <priority>0.88</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/copy-and-paste/handwritten-font/</loc>
-    <priority>0.88</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
 
-  <!-- CURSIVE STYLES HUB + STYLE PAGES -->
+  <!-- CURSIVE FOR USE CASES -->
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-styles/</loc>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.cursive-text-generator.net/cursive-for-bios/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for-captions/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for-logos/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for-tattoos/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-for-weddings/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- CURSIVE STYLES -->
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-styles/bold-cursive/</loc>
-    <priority>0.85</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-styles/elegant-cursive/</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-styles/fancy-cursive/</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-styles/cute-cursive/</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-styles/classic-cursive/</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-styles/modern-cursive/</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-styles/italic-cursive/</loc>
-    <priority>0.85</priority>
-    <changefreq>monthly</changefreq>
-  </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-styles/calligraphy-cursive/</loc>
-    <priority>0.85</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-styles/classic-cursive/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-styles/cute-cursive/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-styles/elegant-cursive/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-styles/fancy-cursive/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-styles/handwritten-cursive/</loc>
-    <priority>0.85</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-styles/italic-cursive/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-styles/modern-cursive/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-styles/script-cursive/</loc>
-    <priority>0.85</priority>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
 
-  <!-- CURSIVE NAMES HUB + LETTER HUBS + NAME PAGES (MODULE 4) -->
+  <!-- CURSIVE SYMBOLS -->
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-names/</loc>
-    <priority>0.92</priority>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/arrow/</loc>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
-  <!-- Letter hubs -->
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/a/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/b/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/c/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/d/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/e/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/g/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/h/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/i/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/j/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/l/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/m/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/n/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/o/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/p/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/r/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/s/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/t/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/v/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/w/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/z/</loc><priority>0.75</priority><changefreq>monthly</changefreq></url>
-  <!-- Individual name pages (100 names) -->
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/emma/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/olivia/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/charlotte/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/amelia/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/sophia/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/mia/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/isabella/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/ava/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/evelyn/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/luna/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/harper/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/camila/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/sofia/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/eleanor/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/elizabeth/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/ella/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/scarlett/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/emily/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/hazel/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/lily/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/gianna/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/violet/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/aurora/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/nora/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/chloe/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/ellie/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/mila/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/aria/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/avery/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/layla/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/abigail/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/penelope/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/madison/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/grace/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/riley/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/zoey/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/naomi/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/victoria/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/hannah/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/stella/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/natalie/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/zoe/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/leah/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/skylar/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/lucy/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/paisley/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/savannah/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/brooklyn/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/bella/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/claire/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/liam/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/noah/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/oliver/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/james/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/elijah/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/mateo/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/theodore/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/henry/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/lucas/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/william/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/benjamin/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/sebastian/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/jack/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/aiden/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/owen/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/samuel/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/daniel/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/mason/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/alexander/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/asher/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/logan/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/ethan/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/levi/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/michael/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/matthew/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/wyatt/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/jackson/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/ryan/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/luke/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/julian/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/grayson/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/josiah/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/gabriel/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/lincoln/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/ezra/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/cameron/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/hudson/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/isaiah/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/eli/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/andrew/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/caleb/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/nathan/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/carter/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/thomas/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/charles/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/adam/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/joseph/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/david/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/jayden/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.cursive-text-generator.net/cursive-names/jaxon/</loc><priority>0.82</priority><changefreq>monthly</changefreq></url>
 
-  <!-- UTILITY PAGES -->
   <url>
-    <loc>https://www.cursive-text-generator.net/sitemap.html</loc>
-    <priority>0.5</priority>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/butterfly/</loc>
+    <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/about.html</loc>
-    <priority>0.4</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/crown/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/contact.html</loc>
-    <priority>0.4</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/flower/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/privacy.html</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/heart/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/terms.html</loc>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/moon/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/sparkle/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-symbols/star/</loc>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- CURSIVE LETTERS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/a-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/b-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/c-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/d-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/e-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/f-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/g-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/h-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/i-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/j-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/k-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/l-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/m-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/n-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/o-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/p-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/q-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/r-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/s-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/t-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/u-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/v-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/w-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/x-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/y-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters/z-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- CURSIVE NUMBERS -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/0-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/1-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/2-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/3-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/4-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/5-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/6-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/7-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/8-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-numbers/9-in-cursive/</loc>
+    <priority>0.65</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- CURSIVE NAMES -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/a/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/abigail/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/adam/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/aiden-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/aiden/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/alexander/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/amelia/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/andrew/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/aria/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/asher/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/aurora/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ava-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ava/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/avery/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/b/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/bella/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/benjamin/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/brooklyn/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/c/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/caleb/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/cameron/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/camila/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/carter/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/charles/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/charlotte-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/charlotte/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/chloe/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/claire/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/d/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/daniel/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/david/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/e/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/eleanor/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/eli/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/elijah-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/elijah/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/elizabeth/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ella-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ella/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ellie/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/emily-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/emily/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/emma-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/emma/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ethan-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ethan/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/evelyn/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ezra/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/g/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/gabriel/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/gianna/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/grace-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/grace/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/grayson/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/h/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/hannah/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/harper/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/hazel/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/henry/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/hudson/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/i/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/isabella-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/isabella/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/isaiah/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/j/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/jack/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/jackson/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/james-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/james/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/jaxon/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/jayden/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/joseph/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/josiah/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/julian/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/l/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/layla/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/leah/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/levi/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/liam-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/liam/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/lily/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/lincoln/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/logan-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/logan/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/lucas-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/lucas/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/lucy/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/luke/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/luna/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/m/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/madison/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/mason-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/mason/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/mateo/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/matthew/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/mia-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/mia/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/michael/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/mila/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/n/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/naomi/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/natalie/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/nathan/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/noah-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/noah/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/nora/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/o/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/oliver-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/oliver/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/olivia-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/olivia/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/owen/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/p/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/paisley/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/penelope/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/r/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/riley/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/ryan/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/s/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/samuel/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/savannah/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/scarlett/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/sebastian/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/skylar/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/sofia/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/sophia-in-cursive/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/sophia/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/stella/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/t/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/theodore/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/thomas/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/v/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/victoria/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/violet/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/w/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/william/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/wyatt/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/z/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/zoe/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-names/zoey/</loc>
+    <priority>0.60</priority>
+    <changefreq>monthly</changefreq>
   </url>
 
 </urlset>
