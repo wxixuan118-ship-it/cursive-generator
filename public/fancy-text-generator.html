@@ -20,8 +20,26 @@
       })(window,document,"clarity","script","xtizgdek92");
     },2000);});
   </script>
-  <title>Fancy Text Generator — Create Cool Unicode Text Styles Online</title>
-  <meta name="description" content="Free fancy text generator — convert plain text into cool Unicode styles including cursive, bold script, old style, double-struck, and more. Copy and paste anywhere instantly.">
+  <title>Fancy Text Generator — 300+ Cool Unicode Styles Online</title>
+  <meta name="description" content="Free fancy text generator — 300+ Unicode styles including cursive, bold, gothic, aesthetic, cute, love, glitch, and gaming. Type once, copy to Instagram, TikTok, WhatsApp, Discord instantly.">
+  <style>
+    .fg-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 10px;padding:0}
+    .fg-tab{padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--muted);font-size:13px;cursor:pointer;transition:all .15s;white-space:nowrap}
+    .fg-tab:hover{border-color:var(--sage);color:var(--sage)}
+    .fg-tab.active{background:var(--sage);color:#fff;border-color:var(--sage)}
+    .fg-search{width:100%;padding:9px 14px;border:1px solid var(--line);border-radius:8px;font-size:15px;background:var(--panel);color:var(--ink);margin-bottom:8px;box-sizing:border-box}
+    .fg-search:focus{outline:2px solid var(--sage);border-color:var(--sage)}
+    .fg-count{font-size:13px;color:var(--muted);margin-bottom:10px}
+    .fg-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+    .fg-fav-btn{background:none;border:none;cursor:pointer;font-size:18px;color:var(--coral);padding:2px 6px;line-height:1;border-radius:4px;transition:transform .1s}
+    .fg-fav-btn:hover{transform:scale(1.3)}
+    .fg-copy-btn{font-size:13px;padding:5px 12px}
+    .fg-highlight{animation:fg-flash .6s ease-out}
+    @keyframes fg-flash{0%{background:var(--sage-soft)}100%{background:transparent}}
+    .fg-output-click{cursor:pointer}
+    .fg-output-click:hover{background:var(--soft)}
+    @media(max-width:600px){.fg-tab{padding:5px 10px;font-size:12px}}
+  </style>
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.cursive-text-generator.net/fancy-text-generator.html">
   <meta property="og:title" content="Fancy Text Generator — Create Cool Unicode Text Styles Online">
@@ -203,33 +221,27 @@
       <div class="wrap">
         <div class="tool-intro">
           <div>
-            <span class="eyebrow">5 styles — copy and paste anywhere</span>
-            <h1>Fancy Text Generator — Create Cool Unicode Text Styles Online</h1>
-            <p>Type any text and instantly convert it into fancy Unicode styles — cursive, bold script, old style, double-struck, and clean fancy. Copy the result and paste it into Instagram, TikTok, Discord, or any app.</p>
+            <span class="eyebrow">300+ styles — copy and paste anywhere</span>
+            <h1>Fancy Text Generator — 300+ Unicode Styles Online</h1>
+            <p>Type any text and instantly see it in 300+ copy-paste styles — cursive, bold, gothic, cute, aesthetic, love, gaming, glitch, and more. No fonts to install. Works on Instagram, TikTok, WhatsApp, Discord, and any app that supports text.</p>
           </div>
           </div>
 
         <div class="generator-shell">
           <div class="panel input-panel">
             <label for="text-input">Enter your text</label>
-            <textarea id="text-input" data-input placeholder="Fancy Text">Fancy Text</textarea>
-            <div class="controls">
-              <div class="select-wrap">
-                <label for="preset">Style</label>
-                <select id="preset" data-preset>
-                  <option value="all">All styles</option>
-                  <option value="script">Cursive Script</option>
-                  <option value="boldScript">Bold Cursive</option>
-                  <option value="fraktur">Old Style Script</option>
-                  <option value="double">Double-Struck</option>
-                  <option value="monospace">Clean Fancy</option>
-                </select>
-              </div>
-              <button class="button secondary" type="button" data-clear>Clear</button>
+            <textarea id="text-input" data-fg-input placeholder="Hello">Hello</textarea>
+            <div class="fg-controls">
+              <button class="button secondary" type="button" data-fg-clear>Clear</button>
+              <button class="button secondary" type="button" data-fg-random title="Jump to a random style">🎲 Random</button>
             </div>
-            <p class="meta-note">Click any result to copy. Switch styles to compare different fancy text looks.</p>
+            <p class="meta-note">Click any result to copy. ♡ to save favorites.</p>
           </div>
-          <div class="results" data-results aria-live="polite"></div>
+          <div data-fg-tabs class="fg-tabs" role="tablist" aria-label="Style categories"></div>
+          <input type="search" class="fg-search" data-fg-search placeholder="Search 300+ styles… try cursive, heart, gothic, cute" aria-label="Search styles">
+          <div class="fg-count" data-fg-count aria-live="polite"></div>
+          <div class="results fg-results" data-fg-results aria-live="polite"></div>
+          <div data-fg-sentinel aria-hidden="true" style="height:1px;margin:0"></div>
         </div>
       </div>
     </section>
@@ -238,35 +250,40 @@
     <section class="style-showcase">
       <div class="wrap">
         <div class="section-heading">
-          <span class="eyebrow">All styles</span>
-          <h2>Fancy Text Styles Available</h2>
-          <p>Five distinct Unicode fancy text styles — each with its own personality and best use case.</p>
+          <span class="eyebrow">Style categories</span>
+          <h2>300+ Fancy Text Styles</h2>
+          <p>Organised into 14 categories — from cursive and gothic to cute, love, gaming, and glitch. All generated from Unicode — no fonts required.</p>
         </div>
         <div class="style-showcase-grid">
           <div class="style-card">
-            <span class="style-label">Cursive Script</span>
-            <div class="style-preview">𝒢𝓇𝒶𝒸ℯ</div>
-            <p class="style-desc">Elegant, flowing script. Best for personal names, bios, signatures, and anything that needs a soft, handwritten feel.</p>
+            <span class="style-label">Cursive &amp; Script</span>
+            <div class="style-preview">𝓗𝓮𝓵𝓵𝓸 / 𝒢𝓇𝒶𝒸ℯ</div>
+            <p class="style-desc">Bold Cursive and Cursive Script — the most-copied styles on Instagram, TikTok, and WhatsApp. Plus 30+ decorated cursive combos.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Bold Cursive</span>
-            <div class="style-preview">𝓑𝓸𝓵𝓭</div>
-            <p class="style-desc">Heavy script with strong visual impact. Best for Instagram display names, TikTok bios, and headline phrases.</p>
+            <span class="style-label">Gothic &amp; Bold</span>
+            <div class="style-preview">𝔊𝔬𝔱𝔥𝔦𝔠 / 𝐁𝐨𝐥𝐝</div>
+            <p class="style-desc">Fraktur Gothic, Bold Gothic, Math Bold, Sans Bold — dramatic to powerful. Includes gaming and dark aesthetic combos.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Old Style Script</span>
-            <div class="style-preview">𝔊𝔬𝔱𝔥𝔦𝔠</div>
-            <p class="style-desc">Gothic Fraktur letterforms. Popular for gaming usernames, tattoo lettering concepts, and dark aesthetic profiles.</p>
+            <span class="style-label">Cute &amp; Love</span>
+            <div class="style-preview">♡ 𝓗𝓮𝓵𝓵𝓸 ♡ / ˚ʚ♡ɞ˚</div>
+            <p class="style-desc">Heart frames, flower wraps, soft swirls — cute and love category styles optimised for WhatsApp and Instagram bio.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Double-Struck</span>
-            <div class="style-preview">𝔻𝕠𝕦𝕓𝕝𝕖</div>
-            <p class="style-desc">Mathematical blackboard bold. Clean and geometric — suits technical profiles, creators, and modern minimalist aesthetics.</p>
+            <span class="style-label">Aesthetic</span>
+            <div class="style-preview">ｈｅｌｌｏ / ⋆｡°✩</div>
+            <p class="style-desc">Fullwidth aesthetic, spaced vaporwave, yin-yang, minimal dash, moon frames — the aesthetic category for vibe profiles.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Clean Fancy</span>
-            <div class="style-preview">𝙲𝚕𝚎𝚊𝚗</div>
-            <p class="style-desc">Monospace-based fancy text. Most readable of all styles — best when you want a subtle, stylish look that stays legible.</p>
+            <span class="style-label">Symbols &amp; Glitch</span>
+            <div class="style-preview">h̶e̶l̶l̶o̶ / ⓗⓔⓛⓛⓞ</div>
+            <p class="style-desc">Strikethrough, underline, overline, circled, zalgo glitch, upside-down — striking effects for usernames and creative profiles.</p>
+          </div>
+          <div class="style-card">
+            <span class="style-label">Gaming &amp; Social</span>
+            <div class="style-preview">⚔ 𝔥𝔢𝔩𝔩𝔬 ⚔ / ꧁𝓗𝓮꧂</div>
+            <p class="style-desc">HP bar, sword frames, crown wrap, crown frame ꧁꧂ — styles built for Discord nicknames, gaming usernames, and social bios.</p>
           </div>
         </div>
       </div>
@@ -434,7 +451,8 @@
     </div>
   </footer>
   <div class="toast" data-toast role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=20260814" defer></script>
+  <script src="assets/style-engine.js?v=20260818" defer></script>
+  <script src="assets/fancy-app.js?v=20260818" defer></script>
   <script>
     function toggleNav(btn){
       var d=document.getElementById('nav-drawer');

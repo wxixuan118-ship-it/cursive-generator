@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Generated 2026-08-15 — 268 URLs -->
+  <!-- Generated 2026-08-18 — 270 URLs -->
 
   <!-- OTHER -->
   <url>
@@ -143,6 +143,12 @@
   <!-- FONT GENERATORS -->
   <url>
     <loc>https://www.cursive-text-generator.net/fonts/</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/whatsapp-fonts/</loc>
     <priority>0.85</priority>
     <changefreq>weekly</changefreq>
   </url>
