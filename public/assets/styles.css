@@ -680,6 +680,47 @@ select {
   color: var(--ink);
 }
 
+.footer-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 40px;
+  padding: 40px 20px 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer-col-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.footer-col a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.footer-col a:hover {
+  color: var(--ink);
+}
+@media (max-width: 680px) {
+  .footer-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 420px) {
+  .footer-body {
+    grid-template-columns: 1fr;
+  }
+}
+
 .legal-section {
   padding: 54px 0 72px;
 }
