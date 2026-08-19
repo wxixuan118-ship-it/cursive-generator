@@ -17,7 +17,8 @@ var searchEl = document.querySelector('[data-fg-search]');
 if (!input || !results) return;
 
 // ── State ─────────────────────────────────────────────────────────────────────
-var currentCat   = 'all';
+var currentCat   = results.getAttribute('data-fg-default-cat') || 'all';
+var worksheetEnabled = results.hasAttribute('data-fg-worksheet');
 var currentQuery = '';
 var favorites    = loadFavs();
 var PAGE_SIZE    = 50;
@@ -77,6 +78,59 @@ function rebuildList() {
     countEl.textContent = visibleList.length + ' ' + suffix;
   }
   renderBatch();
+}
+
+// ── Download a practice worksheet (A–Z reference + practice rows) ────────────
+function downloadPracticeSheet(sid) {
+  var styleObj = SE.STYLES.filter(function(x){ return x.id === sid; })[0];
+  if (!styleObj) return;
+  var U = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  var L = 'abcdefghijklmnopqrstuvwxyz';
+  function s(c){ try{ return styleObj.fn(c); }catch(e){ return c; } }
+  function grid(str) {
+    return Array.from(str).map(function(c){
+      return '<div class="lc"><span class="lp">'+c+'</span><span class="ls">'+s(c)+'</span></div>';
+    }).join('');
+  }
+  function row(str){ return Array.from(str).map(s).join(' '); }
+  var html = '<!doctype html><html><head><meta charset="utf-8">'+
+    '<title>'+styleObj.name+' Practice Sheet</title>'+
+    '<style>'+
+    '@media print{@page{size:A4;margin:15mm}button{display:none!important}}'+
+    'body{font-family:Arial,Helvetica,sans-serif;margin:28px 32px;color:#222;max-width:680px}'+
+    'h1{font-size:19px;margin:0 0 2px}'+
+    '.sub{font-size:11px;color:#aaa;margin:0 0 18px}'+
+    '.lbl{font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#999;margin:16px 0 6px}'+
+    '.grid{display:grid;grid-template-columns:repeat(13,1fr);gap:4px;margin-bottom:6px}'+
+    '.lc{text-align:center;border:1px solid #eee;border-radius:3px;padding:3px 1px}'+
+    '.lp{display:block;font-size:9px;color:#bbb;line-height:1.2}'+
+    '.ls{display:block;font-size:20px;line-height:1.3}'+
+    '.pr{border-bottom:1.5px solid #ccc;min-height:44px;font-size:22px;letter-spacing:.04em;padding:4px 2px;margin-bottom:8px;word-break:break-all}'+
+    '.tr{color:#ddd;border-bottom-color:#e8e8e8}'+
+    '.bl{border-bottom:1.5px dashed #ddd;min-height:44px;margin-bottom:8px}'+
+    'button{margin-top:14px;padding:8px 20px;background:#2d6a4f;color:#fff;border:none;border-radius:6px;font-size:13px;cursor:pointer}'+
+    '</style></head><body>'+
+    '<h1>'+styleObj.name+' Practice Sheet</h1>'+
+    '<div class="sub">cursive-text-generator.net &nbsp;·&nbsp; Print or Save as PDF</div>'+
+    '<div class="lbl">Uppercase A–Z</div>'+
+    '<div class="grid">'+grid(U)+'</div>'+
+    '<div class="lbl">Lowercase a–z</div>'+
+    '<div class="grid">'+grid(L)+'</div>'+
+    '<div class="lbl">Practice — Uppercase</div>'+
+    '<div class="pr">'+row(U)+'</div>'+
+    '<div class="pr tr">'+row(U)+'</div>'+
+    '<div class="bl"></div>'+
+    '<div class="lbl">Practice — Lowercase</div>'+
+    '<div class="pr">'+row(L)+'</div>'+
+    '<div class="pr tr">'+row(L)+'</div>'+
+    '<div class="bl"></div>'+
+    '<button onclick="window.print()">🖨 Print / Save as PDF</button>'+
+    '</body></html>';
+  var win = window.open('','_blank','width=760,height=960');
+  if (!win){ showToast('Allow pop-ups for this site'); return; }
+  win.document.write(html);
+  win.document.close();
+  win.focus();
 }
 
 // ── Download a style card as PNG ─────────────────────────────────────────────
@@ -156,6 +210,7 @@ function renderBatch() {
         '<div class="result-actions">' +
           '<button class="fg-fav-btn" data-fg-fav="' + escHtml(s.id) + '" aria-label="' + (isFav(s.id)?'Remove from saved':'Save style') + '">' + (isFav(s.id)?'♥':'♡') + '</button>' +
           '<button class="btn-download fg-dl-btn" data-fg-dl="' + escHtml(s.id) + '" title="Download as PNG">⬇ Save</button>' +
+          (worksheetEnabled ? '<button class="btn-download fg-ws-btn" data-fg-ws="' + escHtml(s.id) + '" title="Download A–Z practice worksheet">📄 Sheet</button>' : '') +
           '<button class="button copy fg-copy-btn" data-fg-copy="' + escHtml(s.id) + '" aria-label="Copy ' + escHtml(s.name) + '">Copy</button>' +
         '</div>' +
       '</div>' +
@@ -277,6 +332,11 @@ results.addEventListener('click', function(e) {
   var dlBtn = e.target.closest('[data-fg-dl]');
   if (dlBtn) {
     downloadFancyCard(dlBtn.getAttribute('data-fg-dl'));
+    return;
+  }
+  var wsBtn = e.target.closest('[data-fg-ws]');
+  if (wsBtn) {
+    downloadPracticeSheet(wsBtn.getAttribute('data-fg-ws'));
     return;
   }
   // Click on output div = copy

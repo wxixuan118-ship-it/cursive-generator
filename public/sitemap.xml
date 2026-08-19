@@ -41,6 +41,12 @@
     <changefreq>weekly</changefreq>
   </url>
 
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-text-generator.html</loc>
+    <priority>0.95</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
 
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-writing-generator.html</loc>
