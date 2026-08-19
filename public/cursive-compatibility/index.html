@@ -66,6 +66,9 @@
     .style-card .style-name { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
     .style-card .style-range { font-size: 11px; color: var(--muted); margin-top: 3px; }
     .tested-note { font-size: 12px; color: var(--muted); margin-bottom: 1.5rem; padding: 8px 12px; background: var(--surface); border-radius: 6px; border-left: 3px solid var(--sage); }
+    /* override legal-panel p colour so body text is readable */
+    .legal-panel p { color: var(--ink); }
+    .legal-panel p.tested-note, .legal-panel td { color: var(--ink); }
     @media (max-width: 560px) {
       .style-grid { grid-template-columns: 1fr; }
     }
@@ -152,8 +155,9 @@
   </nav>
 
   <main class="page">
-    <div class="wrap seo-layout">
-      <article class="seo-copy">
+    <section class="legal-section">
+    <div class="wrap">
+      <article class="legal-panel">
 
         <h1>Cursive Unicode Compatibility Test</h1>
         <p>Not every cursive Unicode style works in every field on every platform. This page maps exactly where <strong>Script</strong>, <strong>Bold Script</strong>, and <strong>Fraktur</strong> render correctly — and which specific fields block them entirely.</p>
@@ -499,6 +503,7 @@
 
       </article>
     </div>
+    </section>
   </main>
 
   <footer class="site-footer">
