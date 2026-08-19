@@ -79,6 +79,62 @@ function rebuildList() {
   renderBatch();
 }
 
+// ── Download a style card as PNG ─────────────────────────────────────────────
+function downloadFancyCard(sid) {
+  var outEl = results.querySelector('[data-fg-output="' + sid + '"]');
+  if (!outEl) return;
+  var text = outEl.textContent;
+  var styleObj = SE.STYLES.filter(function(x){ return x.id === sid; })[0];
+  var styleName = styleObj ? styleObj.name : sid;
+  var fs = 48, PAD = 48, FOOTER = 32, MAX_W = 1200;
+  var ratio = Math.min(window.devicePixelRatio || 2, 3);
+
+  var tmp = document.createElement('canvas');
+  var tc  = tmp.getContext('2d');
+  var FONT = fs + "px 'Segoe UI','SF Pro Display',Arial,sans-serif";
+  tc.font = FONT;
+  var textW = tc.measureText(text).width;
+
+  var cW = Math.max(420, Math.min(textW + PAD * 2, MAX_W));
+  var cH = fs * 1.6 + PAD * 2 + FOOTER;
+
+  var canvas = document.createElement('canvas');
+  canvas.width  = Math.round(cW * ratio);
+  canvas.height = Math.round(cH * ratio);
+  var ctx = canvas.getContext('2d');
+  ctx.scale(ratio, ratio);
+
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, cW, cH);
+  ctx.font = FONT;
+  ctx.fillStyle = '#1a1a1a';
+  ctx.textBaseline = 'alphabetic';
+
+  var usableW = cW - PAD * 2;
+  if (textW > usableW) {
+    var words = text.split(' '), line = '', y = PAD + fs;
+    for (var wi = 0; wi < words.length; wi++) {
+      var test = line ? line + ' ' + words[wi] : words[wi];
+      if (ctx.measureText(test).width > usableW && line) {
+        ctx.fillText(line, PAD, y); line = words[wi]; y += fs * 1.4;
+      } else { line = test; }
+    }
+    if (line) ctx.fillText(line, PAD, y);
+  } else {
+    ctx.fillText(text, PAD, PAD + fs);
+  }
+
+  ctx.font = "13px 'Segoe UI',Arial,sans-serif";
+  ctx.fillStyle = '#aaaaaa';
+  ctx.fillText(styleName + ' · cursive-text-generator.net', PAD, cH - 10);
+
+  var slug = (text.slice(0, 20).replace(/\s+/g, '-').replace(/[^a-z0-9-]/gi, '') || 'cursive');
+  var a = document.createElement('a');
+  a.download = slug + '-' + sid.replace(/[^a-z0-9]/gi, '') + '.png';
+  a.href = canvas.toDataURL('image/png');
+  a.click();
+}
+
 // ── Render a batch of cards ───────────────────────────────────────────────────
 function renderBatch() {
   var text = (input.value.trim() || input.placeholder || 'Hello');
@@ -99,6 +155,7 @@ function renderBatch() {
         '<div class="result-title">' + escHtml(s.name) + '</div>' +
         '<div class="result-actions">' +
           '<button class="fg-fav-btn" data-fg-fav="' + escHtml(s.id) + '" aria-label="' + (isFav(s.id)?'Remove from saved':'Save style') + '">' + (isFav(s.id)?'♥':'♡') + '</button>' +
+          '<button class="btn-download fg-dl-btn" data-fg-dl="' + escHtml(s.id) + '" title="Download as PNG">⬇ Save</button>' +
           '<button class="button copy fg-copy-btn" data-fg-copy="' + escHtml(s.id) + '" aria-label="Copy ' + escHtml(s.name) + '">Copy</button>' +
         '</div>' +
       '</div>' +
@@ -215,6 +272,11 @@ results.addEventListener('click', function(e) {
   var favBtn = e.target.closest('[data-fg-fav]');
   if (favBtn) {
     toggleFav(favBtn.getAttribute('data-fg-fav'));
+    return;
+  }
+  var dlBtn = e.target.closest('[data-fg-dl]');
+  if (dlBtn) {
+    downloadFancyCard(dlBtn.getAttribute('data-fg-dl'));
     return;
   }
   // Click on output div = copy
