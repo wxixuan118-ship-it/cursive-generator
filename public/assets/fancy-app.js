@@ -264,11 +264,26 @@ function setupObserver() {
 }
 
 // ── Tabs ──────────────────────────────────────────────────────────────────────
+var CAT_EMOJI = {all:'✨',cursive:'✍️',bold:'💪',italic:'✦',gothic:'🖤',bubble:'🫧',cute:'🌸',love:'💕',aesthetic:'🌿',fancy:'🎨',gaming:'🎮',glitch:'⚡',symbols:'✺',social:'📱'};
+
 function buildTabs() {
   if (!tabsEl) return;
-  var cats = SE.ALL_CATS.concat([{id:'favorites', label:'♥ Saved'}]);
+  var emojiMode = tabsEl.hasAttribute('data-fg-emoji-tabs');
+  var cats = SE.ALL_CATS.concat([{id:'favorites', label:'Saved'}]);
   tabsEl.innerHTML = cats.map(function(c) {
-    return '<button class="fg-tab' + (c.id===currentCat?' active':'') + '" data-cat="' + c.id + '">' + c.label + '</button>';
+    var active = c.id === currentCat ? ' active' : '';
+    if (!emojiMode) {
+      var lbl = c.id === 'favorites' ? '♥ Saved' : c.label;
+      return '<button class="fg-tab' + active + '" data-cat="' + c.id + '">' + lbl + '</button>';
+    }
+    var count = c.id === 'all' ? SE.STYLES.length
+              : c.id === 'favorites' ? favorites.length
+              : SE.STYLES.filter(function(s){ return s.cats && s.cats.indexOf(c.id) > -1; }).length;
+    var em = CAT_EMOJI[c.id] || '';
+    var displayLabel = c.id === 'favorites' ? '♥ Saved' : c.label;
+    var badge = c.id !== 'favorites' ? '<span class="fg-tab-count">' + count + '</span>' : '';
+    return '<button class="fg-tab' + active + '" data-cat="' + c.id + '">' +
+           (em ? em + ' ' : '') + displayLabel + badge + '</button>';
   }).join('');
 }
 
