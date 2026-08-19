@@ -376,6 +376,12 @@
   </url>
 
   <url>
+    <loc>https://www.cursive-text-generator.net/cursive-compatibility/</loc>
+    <priority>0.85</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
     <loc>https://www.cursive-text-generator.net/generators/cursive-translator/</loc>
     <priority>0.75</priority>
     <changefreq>monthly</changefreq>

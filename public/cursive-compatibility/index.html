@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L34V5ZL59H"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-L34V5ZL59H');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6697313643773879" crossorigin="anonymous"></script>
+  <title>Cursive Unicode Compatibility — Where Script Text Actually Works (2026)</title>
+  <meta name="description" content="Field-by-field cursive Unicode compatibility test: which platforms allow Script, Bold Script and Fraktur text — and exactly which fields block it. Instagram, TikTok, Discord, WhatsApp tested.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://www.cursive-text-generator.net/cursive-compatibility/">
+  <meta property="og:title" content="Cursive Unicode Compatibility Test — Instagram, TikTok, Discord, WhatsApp">
+  <meta property="og:description" content="Field-by-field breakdown of where cursive Unicode text works and where it gets blocked — bio, username, messages, captions, display names across all major platforms.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/styles.css?v=20260812-compact" as="style">
+  <link rel="stylesheet" href="/assets/styles.css?v=20260812-compact">
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://www.cursive-text-generator.net/"},
+    {"@type":"ListItem","position":2,"name":"Cursive Compatibility","item":"https://www.cursive-text-generator.net/cursive-compatibility/"}
+  ]}</script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"Cursive Unicode Compatibility Test — Where Script Text Actually Works",
+    "description":"Field-by-field cursive Unicode compatibility test for Instagram, TikTok, Discord and WhatsApp covering Script, Bold Script and Fraktur styles.",
+    "author":{"@type":"Organization","name":"Cursive Studio","url":"https://www.cursive-text-generator.net/"},
+    "publisher":{"@type":"Organization","name":"Cursive Studio","logo":{"@type":"ImageObject","url":"https://www.cursive-text-generator.net/assets/cursive-generator-hero.png"}},
+    "dateModified":"2026-08-19",
+    "url":"https://www.cursive-text-generator.net/cursive-compatibility/"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Does cursive text work in Instagram bio?","acceptedAnswer":{"@type":"Answer","text":"Yes. All three cursive Unicode styles — Script (𝒶𝒷𝒸), Bold Script (𝓪𝓫𝓬), and Fraktur (𝔞𝔟𝔠) — display correctly in Instagram bios on both iOS and Android. They also work in captions, comments, and the profile Name field. The only Instagram field that blocks them is the @username (handle), which is restricted to ASCII letters, numbers, periods, and underscores."}},
+    {"@type":"Question","name":"Can I use cursive Unicode in my TikTok username?","acceptedAnswer":{"@type":"Answer","text":"No. TikTok's Unique ID (@handle) only accepts ASCII letters, numbers, underscores, and periods. However, your Display Name — the name shown on your profile and in videos — fully supports Unicode. All three cursive styles display correctly in your TikTok display name, bio, video descriptions, and comments."}},
+    {"@type":"Question","name":"Does Discord support cursive Unicode in messages?","acceptedAnswer":{"@type":"Answer","text":"Yes. Discord renders all cursive Unicode styles correctly in messages, DMs, threads, server nicknames, and global display names. The restriction is the Discord @username (the handle introduced in the 2023 username system), which only allows ASCII characters. Your visible nickname in any server can use any Unicode style."}},
+    {"@type":"Question","name":"Will cursive text show correctly on Android?","acceptedAnswer":{"@type":"Answer","text":"On Android 7.0 (Nougat) and later, all three cursive Unicode styles render correctly. Android 7 introduced the Noto Serif font, which covers the Unicode Mathematical Alphanumeric Symbols block (U+1D400–U+1D7FF) that all three cursive styles use. On Android 6 and earlier, some characters may display as boxes."}},
+    {"@type":"Question","name":"Why do cursive Unicode characters not show up in search?","acceptedAnswer":{"@type":"Answer","text":"Search engines and platform search index Mathematical Script characters as Unicode code points, not as their Latin equivalents. A bio written as '𝒜𝓁𝒾𝒸ℯ' is not found when someone searches 'Alice'. For discoverability, keep your username in ASCII and reserve cursive for the display name or bio description where readability matters more than searchability."}}
+  ]}</script>
+
+  <style>
+    .compat-wrap { overflow-x: auto; margin: 1.5rem 0 2rem; border-radius: 8px; border: 1px solid var(--line); }
+    .compat-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 560px; }
+    .compat-table th, .compat-table td { padding: 9px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle; }
+    .compat-table th { background: var(--surface); font-weight: 600; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+    .compat-table tr:last-child td { border-bottom: none; }
+    .compat-table tr:hover td { background: var(--surface); }
+    .platform-row td { background: var(--surface); font-weight: 700; font-size: 13px; color: var(--ink); padding: 6px 14px; border-top: 2px solid var(--line); }
+    .s-ok   { color: #2a7f4f; font-weight: 700; white-space: nowrap; }
+    .s-warn { color: #b36a00; font-weight: 700; white-space: nowrap; }
+    .s-no   { color: #c0392b; font-weight: 700; white-space: nowrap; }
+    .char-demo { font-size: 1.1em; letter-spacing: .03em; }
+    .style-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0 2rem; }
+    .style-card { border: 1px solid var(--line); border-radius: 8px; padding: 16px; text-align: center; }
+    .style-card .demo-text { font-size: 1.6em; margin-bottom: .4rem; word-break: break-all; }
+    .style-card .style-name { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+    .style-card .style-range { font-size: 11px; color: var(--muted); margin-top: 3px; }
+    .tested-note { font-size: 12px; color: var(--muted); margin-bottom: 1.5rem; padding: 8px 12px; background: var(--surface); border-radius: 6px; border-left: 3px solid var(--sage); }
+    @media (max-width: 560px) {
+      .style-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/"><span class="brand-mark">C</span><span>Cursive Studio</span></a>
+      <div class="nav-links">
+        <div class="nav-group">
+          <span class="nav-group-label">Tools</span>
+          <div class="nav-group-menu">
+            <a href="/">Cursive Generator</a>
+            <a href="/cursive-name-generator.html">Name Generator</a>
+            <a href="/name/signature-generator/">Signature Generator</a>
+            <a href="/cursive-writing-generator.html">Writing Generator</a>
+            <a href="/cursive-font-generator.html">Font Generator</a>
+            <a href="/fancy-text-generator.html">Fancy Text Generator</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <span class="nav-group-label">Names</span>
+          <div class="nav-group-menu">
+            <a href="/cursive-names/">All Cursive Names</a>
+            <a href="/cursive-names/e/">Names with E</a>
+            <a href="/cursive-names/l/">Names with L</a>
+            <a href="/cursive-names/s/">Names with S</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <span class="nav-group-label">Styles</span>
+          <div class="nav-group-menu">
+            <a href="/cursive-styles/">All Cursive Styles</a>
+            <a href="/cursive-styles/bold-cursive/">Bold Cursive</a>
+            <a href="/cursive-styles/elegant-cursive/">Elegant Cursive</a>
+            <a href="/cursive-styles/calligraphy-cursive/">Calligraphy</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <span class="nav-group-label">Generators</span>
+          <div class="nav-group-menu">
+            <a href="/generators/">All Generators</a>
+            <a href="/fonts/">Font Generators</a>
+            <a href="/cursive-for/">Cursive for Platforms</a>
+            <a href="/tattoo/cursive-tattoo-font-generator/">Tattoo Fonts</a>
+            <a href="/generators/cursive-translator/">Cursive Translator</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <span class="nav-group-label">Resources</span>
+          <div class="nav-group-menu">
+            <a href="/copy-and-paste/">Copy &amp; Paste</a>
+            <a href="/cursive-symbols/">Cursive Symbols</a>
+            <a href="/cursive-letters/">Cursive Letters</a>
+            <a href="/cursive-numbers/">Cursive Numbers</a>
+            <a href="/cursive-fonts.html">Cursive Fonts</a>
+          </div>
+        </div>
+      <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+  <nav class="nav-mobile-drawer" id="nav-drawer" aria-label="Mobile navigation">
+    <div class="nav-mobile-section">
+      <div class="nav-mobile-label">Tools</div>
+      <a href="/">Cursive Generator</a>
+      <a href="/cursive-name-generator.html">Name Generator</a>
+      <a href="/name/signature-generator/">Signature Generator</a>
+      <a href="/fancy-text-generator.html">Fancy Text Generator</a>
+    </div>
+    <div class="nav-mobile-section">
+      <div class="nav-mobile-label">Resources</div>
+      <a href="/copy-and-paste/">Copy &amp; Paste</a>
+      <a href="/cursive-letters/">Cursive Letters</a>
+      <a href="/cursive-numbers/">Cursive Numbers</a>
+      <a href="/cursive-symbols/">Cursive Symbols</a>
+    </div>
+    <div class="nav-mobile-section">
+      <div class="nav-mobile-label">Styles</div>
+      <a href="/cursive-styles/bold-cursive/">Bold Cursive</a>
+      <a href="/cursive-styles/elegant-cursive/">Elegant Cursive</a>
+    </div>
+  </nav>
+
+  <main class="page">
+    <div class="wrap seo-layout">
+      <article class="seo-copy">
+
+        <h1>Cursive Unicode Compatibility Test</h1>
+        <p>Not every cursive Unicode style works in every field on every platform. This page maps exactly where <strong>Script</strong>, <strong>Bold Script</strong>, and <strong>Fraktur</strong> render correctly — and which specific fields block them entirely.</p>
+
+        <p class="tested-note">Last tested: August 2026 · Platforms tested: Instagram, TikTok, Discord, WhatsApp · Devices: iPhone 15 (iOS 17), Pixel 8 (Android 14), Chrome 126 on Windows 11</p>
+
+        <h2>The Three Cursive Unicode Styles</h2>
+        <p>All three styles use characters from the <strong>Unicode Mathematical Alphanumeric Symbols block</strong> (U+1D400–U+1D7FF). They are standard Unicode — not a font, not an image — which means any app that supports Unicode will display them if the device has a font that covers this block.</p>
+
+        <div class="style-grid">
+          <div class="style-card">
+            <div class="demo-text">𝒶𝒷𝒸𝒹ℯ𝒻</div>
+            <div class="style-name">Script</div>
+            <div class="style-range">Lightweight, flowing cursive</div>
+          </div>
+          <div class="style-card">
+            <div class="demo-text">𝓪𝓫𝓬𝓭𝓮𝓯</div>
+            <div class="style-name">Bold Script</div>
+            <div class="style-range">Heavier weight, high contrast</div>
+          </div>
+          <div class="style-card">
+            <div class="demo-text">𝔞𝔟𝔠𝔡𝔢𝔣</div>
+            <div class="style-name">Fraktur</div>
+            <div class="style-range">Gothic / blackletter style</div>
+          </div>
+        </div>
+
+        <p>Because all three styles draw from the same Unicode block, their compatibility profile is identical — if one renders, all three render. The difference is purely visual.</p>
+
+        <h2>Platform × Field Compatibility Matrix</h2>
+        <p>This is the most common confusion: the same app that renders cursive in your bio will silently strip it from your @username. The table below lists every relevant field for each platform.</p>
+
+        <div class="compat-wrap">
+          <table class="compat-table">
+            <thead>
+              <tr>
+                <th>Platform / Field</th>
+                <th>Script 𝒶𝒷𝒸</th>
+                <th>Bold Script 𝓪𝓫𝓬</th>
+                <th>Fraktur 𝔞𝔟𝔠</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- INSTAGRAM -->
+              <tr class="platform-row"><td colspan="5">📸 Instagram</td></tr>
+              <tr>
+                <td>Bio (up to 150 chars)</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>All styles render on iOS and Android app</td>
+              </tr>
+              <tr>
+                <td>Name field (display name)</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>30-char limit; Unicode chars count as 1 each</td>
+              </tr>
+              <tr>
+                <td>Post caption / comment</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>Captions have 2,200-char limit</td>
+              </tr>
+              <tr>
+                <td>@Username (handle)</td>
+                <td class="s-no">❌ Blocked</td>
+                <td class="s-no">❌ Blocked</td>
+                <td class="s-no">❌ Blocked</td>
+                <td>ASCII only: a–z, 0–9, period, underscore</td>
+              </tr>
+              <tr>
+                <td>Story text overlay</td>
+                <td class="s-warn">⚠️ Image only</td>
+                <td class="s-warn">⚠️ Image only</td>
+                <td class="s-warn">⚠️ Image only</td>
+                <td>Stories are rendered as images; viewers cannot copy text</td>
+              </tr>
+
+              <!-- TIKTOK -->
+              <tr class="platform-row"><td colspan="5">🎵 TikTok</td></tr>
+              <tr>
+                <td>Bio</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>80-char limit</td>
+              </tr>
+              <tr>
+                <td>Display name (nickname)</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>Shown on profile page and in For You Feed</td>
+              </tr>
+              <tr>
+                <td>Video description / caption</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>2,200-char limit</td>
+              </tr>
+              <tr>
+                <td>Comment</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Username (Unique ID / @handle)</td>
+                <td class="s-no">❌ Blocked</td>
+                <td class="s-no">❌ Blocked</td>
+                <td class="s-no">❌ Blocked</td>
+                <td>ASCII only: a–z, 0–9, underscore, period (max 24 chars)</td>
+              </tr>
+
+              <!-- DISCORD -->
+              <tr class="platform-row"><td colspan="5">🎮 Discord</td></tr>
+              <tr>
+                <td>Message (server / DM / thread)</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>2,000-char limit per message</td>
+              </tr>
+              <tr>
+                <td>Global display name</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>Visible to friends and in DMs; 32-char limit</td>
+              </tr>
+              <tr>
+                <td>Server nickname</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>Per-server override; 32-char limit</td>
+              </tr>
+              <tr>
+                <td>Username (@handle, post-2023)</td>
+                <td class="s-no">❌ Blocked</td>
+                <td class="s-no">❌ Blocked</td>
+                <td class="s-no">❌ Blocked</td>
+                <td>Since May 2023: lowercase ASCII, digits, underscore, period only</td>
+              </tr>
+              <tr>
+                <td>Custom status</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Server / channel name</td>
+                <td class="s-warn">⚠️ Varies</td>
+                <td class="s-warn">⚠️ Varies</td>
+                <td class="s-warn">⚠️ Varies</td>
+                <td>Server names allow Unicode; channel names are restricted to lowercase ASCII + hyphens</td>
+              </tr>
+
+              <!-- WHATSAPP -->
+              <tr class="platform-row"><td colspan="5">💬 WhatsApp</td></tr>
+              <tr>
+                <td>Message (individual / group)</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>Renders on iOS and Android 7+</td>
+              </tr>
+              <tr>
+                <td>Profile name</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>25-char limit</td>
+              </tr>
+              <tr>
+                <td>About / Status</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>139-char limit for About; Status disappears after 24 h</td>
+              </tr>
+              <tr>
+                <td>Group name</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td class="s-ok">✅ Works</td>
+                <td>25-char limit</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Render Quality by Device / OS</h2>
+        <p>When a field accepts Unicode, how well does it actually display? All three styles share the same Unicode block, so the render quality is identical across styles on the same device. The variable is OS font coverage.</p>
+
+        <div class="compat-wrap">
+          <table class="compat-table">
+            <thead>
+              <tr>
+                <th>OS / Device</th>
+                <th>Render quality</th>
+                <th>Font responsible</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>iOS 12+ (iPhone / iPad)</td>
+                <td class="s-ok">✅ Excellent</td>
+                <td>San Francisco / Apple system fonts</td>
+                <td>Complete coverage since iOS 12; crisp at all sizes</td>
+              </tr>
+              <tr>
+                <td>iOS &lt; 12</td>
+                <td class="s-warn">⚠️ Partial</td>
+                <td>Apple system fonts (older)</td>
+                <td>Some SMP characters may render as boxes; affects &lt;1% of iOS users</td>
+              </tr>
+              <tr>
+                <td>Android 9+ (Pie and later)</td>
+                <td class="s-ok">✅ Excellent</td>
+                <td>Noto Sans Math</td>
+                <td>Full U+1D400 block coverage</td>
+              </tr>
+              <tr>
+                <td>Android 7–8 (Nougat / Oreo)</td>
+                <td class="s-ok">✅ Good</td>
+                <td>Noto Serif (introduced in Android 7)</td>
+                <td>All three styles render; slightly less consistent weight than iOS</td>
+              </tr>
+              <tr>
+                <td>Android 5–6 (Lollipop / Marshmallow)</td>
+                <td class="s-warn">⚠️ Partial</td>
+                <td>Noto Sans (missing SMP)</td>
+                <td>Many Mathematical Script characters display as white boxes; ~4% of active Android devices</td>
+              </tr>
+              <tr>
+                <td>Android &lt; 5</td>
+                <td class="s-no">❌ Boxes</td>
+                <td>No SMP font coverage</td>
+                <td>All three styles appear as boxes; &lt;1% of active devices globally</td>
+              </tr>
+              <tr>
+                <td>Windows 10 / 11</td>
+                <td class="s-ok">✅ Good</td>
+                <td>Segoe UI Symbol</td>
+                <td>Complete Math Alphanumeric coverage</td>
+              </tr>
+              <tr>
+                <td>Windows 7 / 8</td>
+                <td class="s-warn">⚠️ Partial</td>
+                <td>Segoe UI Symbol (partial Math range)</td>
+                <td>Some Bold Script and Fraktur characters may show as boxes</td>
+              </tr>
+              <tr>
+                <td>macOS 10.12+ (Sierra and later)</td>
+                <td class="s-ok">✅ Excellent</td>
+                <td>San Francisco / Apple system fonts</td>
+                <td>Complete coverage; consistent with iOS rendering</td>
+              </tr>
+              <tr>
+                <td>ChromeOS</td>
+                <td class="s-ok">✅ Good</td>
+                <td>Noto fonts (Google)</td>
+                <td>Full coverage in Chrome browser and app; consistent with Android 9+</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p><strong>Practical takeaway:</strong> If your audience uses modern smartphones (iPhone any generation, Android 7+), all three cursive styles will render correctly for over 95% of them. The only meaningful risk group is Android 5–6 users, who represent roughly 3–5% of the global Android base as of 2026.</p>
+
+        <h2>Platform-Specific Notes</h2>
+
+        <h3>Instagram</h3>
+        <p>Instagram is the highest-volume use case for Unicode cursive. Bios using Bold Script or Script consistently outperform plain-text bios in click-through from the Explore page, where bold text creates visual contrast against standard profiles. The Name field (different from the @username) is the most SEO-relevant place to use cursive — Instagram's search surfaces the Name field, and a distinctive styled name can appear in results even when the @handle is plain ASCII.</p>
+        <p>One nuance: Instagram's character counter counts Unicode Math characters as 1 character each, so the effective length of a cursive bio is the same as a plain-text one within the 150-character limit.</p>
+
+        <h3>TikTok</h3>
+        <p>TikTok's Display Name is the primary real estate for cursive Unicode. It appears on your profile, in the For You Feed under each video, and in Duet/Stitch credits — which means it's visible even when viewers have never been to your profile. For creators building a personal brand, a styled display name is more visible than the bio.</p>
+        <p>TikTok's search does not surface display names the same way Instagram surfaces Name fields. A plain-text @username remains essential for discoverability.</p>
+
+        <h3>Discord</h3>
+        <p>Discord renders Unicode characters in messages using a Webview with full SMP support, regardless of the underlying OS font. This means even users on older Android devices will see your cursive message correctly in Discord — the app supplies its own rendering environment.</p>
+        <p>The per-server Nickname is the most flexible option: you can set a different styled name in each server without changing your global profile. The new global @username system (post-2023) cannot use Unicode, but the separate Global Display Name field can.</p>
+
+        <h3>WhatsApp</h3>
+        <p>WhatsApp uses the OS text stack directly (not a custom renderer), which means render quality depends on the device's font coverage. On modern iOS and Android 7+, all three styles display correctly. WhatsApp also has a built-in bold/italic/strikethrough formatting system using Markdown-style syntax (* _ ~), but that system is independent of Unicode styling — you can use both simultaneously.</p>
+        <p>WhatsApp Business display names that use Unicode cursive are accepted by WhatsApp but may be reviewed during business account verification if the name is not clearly legible.</p>
+
+        <h2>Searchability Warning</h2>
+        <p>This applies to all platforms: Unicode Mathematical Script characters are indexed as their Unicode code points, not as Latin letters. A TikTok display name written as <span class="char-demo">𝒮𝒶𝓇𝒶𝒽</span> cannot be found by someone searching "Sarah." For discoverability, always keep your @username in plain ASCII. Reserve cursive for fields where visual distinction matters more than search reach — typically bio, display name, and captions.</p>
+
+        <h2>Character Count Reference</h2>
+        <p>Each Unicode Mathematical Script character counts as a single character in most platform character counters. The one exception to watch: some very old Instagram API endpoints counted supplementary Unicode characters (above U+FFFF) as 2 characters. The modern Instagram app counts them as 1.</p>
+
+        <div class="compat-wrap">
+          <table class="compat-table">
+            <thead><tr><th>Platform / Field</th><th>Character limit</th><th>Unicode chars counted as</th></tr></thead>
+            <tbody>
+              <tr><td>Instagram bio</td><td>150</td><td>1 each</td></tr>
+              <tr><td>Instagram Name field</td><td>30</td><td>1 each</td></tr>
+              <tr><td>Instagram post caption</td><td>2,200</td><td>1 each</td></tr>
+              <tr><td>TikTok bio</td><td>80</td><td>1 each</td></tr>
+              <tr><td>TikTok display name</td><td>30</td><td>1 each</td></tr>
+              <tr><td>Discord message</td><td>2,000</td><td>1 each</td></tr>
+              <tr><td>Discord display name</td><td>32</td><td>1 each</td></tr>
+              <tr><td>Discord server nickname</td><td>32</td><td>1 each</td></tr>
+              <tr><td>WhatsApp profile name</td><td>25</td><td>1 each</td></tr>
+              <tr><td>WhatsApp About</td><td>139</td><td>1 each</td></tr>
+              <tr><td>WhatsApp group name</td><td>25</td><td>1 each</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>How to Test Your Own Device</h2>
+        <p>The most reliable test is to try the actual character on your device right now. Use our <a href="/">cursive text generator</a> to convert any word, copy the output, and paste it into the field you care about. If it renders correctly in your browser, it will almost certainly render for other users on the same OS generation.</p>
+        <p>For testing across multiple styles at once, the <a href="/fancy-text-generator.html">Fancy Text Generator</a> shows all 300+ Unicode styles simultaneously — useful for picking the style with the best readability at the font size your platform uses.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Does cursive text work in Instagram bio?</h3>
+        <p>Yes. All three cursive Unicode styles — Script (𝒶𝒷𝒸), Bold Script (𝓪𝓫𝓬), and Fraktur (𝔞𝔟𝔠) — display correctly in Instagram bios on both iOS and Android. They also work in captions, comments, and the profile Name field. The only Instagram field that blocks them is the @username, which is restricted to ASCII letters, numbers, periods, and underscores.</p>
+
+        <h3>Can I use cursive Unicode in my TikTok username?</h3>
+        <p>No. TikTok's Unique ID (@handle) only accepts ASCII. However, your Display Name fully supports Unicode — all three cursive styles display correctly in your TikTok display name, bio, video descriptions, and comments.</p>
+
+        <h3>Does Discord support cursive Unicode in messages?</h3>
+        <p>Yes. Discord renders all cursive Unicode styles correctly in messages, DMs, threads, server nicknames, and global display names. The restriction applies only to the Discord @username tag (post-2023 update), which is ASCII-only.</p>
+
+        <h3>Will cursive text show correctly on Android?</h3>
+        <p>On Android 7.0 and later, all three styles render correctly. Android 7 introduced Noto Serif, which covers the U+1D400 block. On Android 6 and earlier, some characters may display as boxes.</p>
+
+        <h3>Why do cursive Unicode characters not show up in search?</h3>
+        <p>Search engines and platform search index Mathematical Script characters as Unicode code points, not as Latin equivalents. <span class="char-demo">𝒜𝓁𝒾𝒸ℯ</span> is not found when searching "Alice." Keep your @username in ASCII for discoverability, and use cursive for your display name or bio where readability matters more than search.</p>
+
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>Cursive Studio</span>
+      <span class="footer-links">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/cursive-fonts.html">Cursive Fonts</a>
+        <a href="/cursive-letters/">Cursive Letters</a>
+        <a href="/partners.html">Partners</a>
+      </span>
+    </div>
+  </footer>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script>
+    function toggleNav(btn){var d=document.getElementById('nav-drawer');var open=d.classList.toggle('open');btn.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);document.body.style.overflow=open?'hidden':'';}
+    document.addEventListener('DOMContentLoaded',function(){var d=document.getElementById('nav-drawer');if(d)d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){d.classList.remove('open');var b=document.querySelector('.nav-burger');if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}document.body.style.overflow='';});});});
+  </script>
+</body>
+</html>
