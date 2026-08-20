@@ -3,30 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L34V5ZL59H"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-L34V5ZL59H');
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());gtag('config','G-L34V5ZL59H');
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6697313643773879" crossorigin="anonymous"></script>
   <script>
     window.addEventListener('load',function(){setTimeout(function(){
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window,document,"clarity","script","xtizgdek92");
     },2000);});
   </script>
-  <title>Cursive Bold Generator - Copy & Paste Bold Script Text</title>
-  <meta name="description" content="Create bold cursive text for free. Type, preview, and 1-click copy bold script letters for Instagram, TikTok, bios, captions, names, and headings.">
+
+  <title>Cursive Bold Generator – Free Bold Cursive Text Copy &amp; Paste</title>
+  <meta name="description" content="Create bold cursive text instantly with our free cursive bold generator. Type your text, choose a style, then copy and paste it into Instagram, TikTok, WhatsApp, Discord, and more.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.cursive-text-generator.net/cursive-bold-generator.html">
-  <meta property="og:title" content="Cursive Bold Generator - Copy & Paste Bold Script Text">
-  <meta property="og:description" content="Create bold cursive text for free. Type, preview, and 1-click copy bold script letters for Instagram, TikTok, bios, captions, names, and headings.">
+  <meta property="og:title" content="Cursive Bold Generator – Free Bold Cursive Text Copy &amp; Paste">
+  <meta property="og:description" content="Free cursive bold generator — create bold cursive text for Instagram, TikTok, WhatsApp and Discord. Type, choose a style, copy and paste instantly.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -34,15 +31,114 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="preload" href="assets/styles.css?v=20260812-compact" as="style">
   <link rel="stylesheet" href="assets/styles.css?v=20260812-compact">
+
+  <style>
+    /* ── Single-column generator ── */
+    .generator-shell{grid-template-columns:1fr!important;gap:0!important}
+    .input-panel{position:static!important;padding:0 0 20px;border:none!important;background:transparent!important;box-shadow:none!important;border-bottom:1px solid var(--line);margin-bottom:20px}
+    textarea[data-fg-input]{min-height:80px;font-size:17px}
+
+    /* ── Category tabs ── */
+    .fg-cat-label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin:0 0 8px;display:flex;align-items:center;gap:6px}
+    .fg-cat-label::before{content:"";width:20px;height:2px;background:var(--coral)}
+    .fg-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px;padding:0}
+    .fg-tab{padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--muted);font-size:13px;cursor:pointer;transition:all .15s;white-space:nowrap;display:inline-flex;align-items:center}
+    .fg-tab:hover{border-color:var(--sage);color:var(--sage)}
+    .fg-tab.active{background:var(--sage);color:#fff;border-color:var(--sage)}
+    .fg-tab-count{display:inline-flex;align-items:center;justify-content:center;background:var(--line);border-radius:999px;font-size:11px;font-weight:700;min-width:20px;height:18px;padding:0 5px;margin-left:5px;line-height:1;color:var(--muted)}
+    .fg-tab.active .fg-tab-count{background:rgba(255,255,255,.25);color:#fff}
+
+    /* ── Controls row ── */
+    .tool-controls-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .char-count{font-size:12px;color:var(--muted)}
+    .copy-all-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border:1px solid var(--sage);border-radius:8px;background:transparent;color:var(--sage);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .15s;margin-top:16px}
+    .copy-all-btn:hover,.copy-all-btn.done{background:var(--sage);color:#fff}
+
+    /* ── Comparison strip ── */
+    .vc-strip{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:20px 0}
+    .vc-row{display:flex;align-items:center;border-bottom:1px solid var(--line)}
+    .vc-row:last-child{border-bottom:none}
+    .vc-label{width:110px;flex-shrink:0;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:13px 16px;border-right:1px solid var(--line);background:var(--paper)}
+    .vc-text{padding:13px 16px;font-size:22px;line-height:1.3;flex:1;word-break:break-word}
+
+    /* ── Mini demo ── */
+    .mini-demo{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:20px;max-width:520px;margin:20px 0}
+    .mini-demo-label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:6px}
+    .mini-demo-input{font-size:15px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--muted);margin-bottom:10px}
+    .mini-demo-arrow{font-size:20px;text-align:center;color:var(--sage);margin:4px 0;line-height:1}
+    .mini-demo-output-row{display:flex;align-items:center;gap:12px;margin-top:10px}
+    .mini-demo-output{font-size:26px;flex:1;word-break:break-word;line-height:1.3}
+    .mini-copy-btn{flex-shrink:0;padding:8px 18px;border-radius:8px;background:var(--sage);color:#fff;border:none;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:background .15s}
+    .mini-copy-btn:hover{opacity:.88}
+
+    /* ── Platform cards ── */
+    .platform-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin:20px 0}
+    .platform-card{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--paper)}
+    .platform-icon{font-size:22px;display:block;margin-bottom:7px}
+    .platform-card h3{font-size:15px;font-weight:700;margin:0 0 5px}
+    .platform-card p{font-size:13px;color:var(--muted);margin:0;line-height:1.5}
+
+    /* ── Related tools ── */
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:20px 0}
+    .related-card{border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--paper);text-decoration:none;color:var(--body);transition:box-shadow .15s;display:block}
+    .related-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.08);border-color:var(--sage)}
+    .related-card strong{display:block;font-size:15px;margin-bottom:4px;color:var(--sage)}
+    .related-card span{font-size:13px;color:var(--muted)}
+
+    /* ── FAQ ── */
+    .faq-item{border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:8px}
+    .faq-item summary{font-weight:700;cursor:pointer;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .faq-item summary::after{content:"＋";font-size:18px;color:var(--sage);flex-shrink:0;transition:transform .2s}
+    .faq-item[open] summary::after{content:"−"}
+    .faq-item p{margin:10px 0 0;color:var(--muted);line-height:1.65;font-size:14px}
+  </style>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Cursive Bold Generator",
-    "applicationCategory": "UtilitiesApplication",
-    "operatingSystem": "Any",
-    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-    "description": "Create bold cursive text for free. Type, preview, and 1-click copy bold script letters for Instagram, TikTok, bios, captions, names, and headings."
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Cursive Text Generator","item":"https://www.cursive-text-generator.net/"},
+          {"@type":"ListItem","position":2,"name":"Cursive Bold Generator","item":"https://www.cursive-text-generator.net/cursive-bold-generator.html"}
+        ]
+      },
+      {
+        "@type": "WebApplication",
+        "name": "Cursive Bold Generator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"},
+        "url": "https://www.cursive-text-generator.net/cursive-bold-generator.html",
+        "description": "Free online cursive bold generator. Create bold cursive Unicode text, copy and paste for Instagram, TikTok, WhatsApp and Discord. No sign-up required."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type":"Question","name":"What is a cursive bold generator?",
+            "acceptedAnswer":{"@type":"Answer","text":"A cursive bold generator is a free online tool that converts regular text into bold cursive Unicode characters. These characters look like bold handwriting or script and can be copied and pasted into Instagram bios, TikTok usernames, WhatsApp messages, Discord display names, and other text fields — no font installation required."}
+          },
+          {
+            "@type":"Question","name":"Is the cursive bold generator free?",
+            "acceptedAnswer":{"@type":"Answer","text":"Yes — the cursive bold generator is completely free. There is no sign-up, no account, no download, and no usage limit. Type your text, choose a style, and copy it in one click."}
+          },
+          {
+            "@type":"Question","name":"How do I make cursive text bold?",
+            "acceptedAnswer":{"@type":"Answer","text":"Type your text in the generator above. The tool uses Unicode mathematical bold script characters to produce text that is both script-style (cursive) and visually heavy (bold) at the same time. Click Copy on the style you prefer, then paste it anywhere that accepts text."}
+          },
+          {
+            "@type":"Question","name":"Can I copy and paste bold cursive text?",
+            "acceptedAnswer":{"@type":"Answer","text":"Yes. All styles generated by this cursive bold generator are standard Unicode characters, not images or special fonts. They paste directly into Instagram, TikTok, WhatsApp, Discord, Twitter/X, email signatures, and most other platforms. Appearance may vary slightly depending on the device and app."}
+          },
+          {
+            "@type":"Question","name":"Why does bold cursive text look different on some devices?",
+            "acceptedAnswer":{"@type":"Answer","text":"Unicode character rendering depends on the fonts installed on the viewer's operating system and the app's own Unicode support level. Devices made after 2018 generally render bold cursive styles correctly. Bold Cursive and Bold Script have the broadest compatibility. If you are unsure, test with a short word before sharing widely."}
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -66,7 +162,7 @@
             <a href="/cursive-fonts.html">Cursive Fonts</a>
           </div>
         </div>
-      <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
+        <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
       </div>
     </nav>
   </header>
@@ -74,6 +170,7 @@
     <div class="nav-mobile-section">
       <div class="nav-mobile-label">Tools</div>
       <a href="/">Cursive Generator</a>
+      <a href="/cursive-writing-generator.html">Writing Generator</a>
       <a href="/fancy-text-generator.html">Fancy Text Generator</a>
     </div>
     <div class="nav-mobile-section">
@@ -84,73 +181,218 @@
 
   <main class="page">
 
+    <!-- ═══ TOOL ═══ -->
     <section class="tool-section" id="tool">
       <div class="wrap">
+        <nav aria-label="Breadcrumb" style="font-size:13px;color:var(--muted);margin-bottom:14px">
+          <a href="/" style="color:var(--muted)">Home</a>
+          <span style="margin:0 6px">›</span>
+          <span>Cursive Bold Generator</span>
+        </nav>
+
         <div class="tool-intro">
           <div>
-            <span class="eyebrow">Bold script for stronger display text</span>
+            <span class="eyebrow">Free · real-time · copy &amp; paste</span>
             <h1>Cursive Bold Generator</h1>
-            <p>Use the cursive bold generator when normal script feels too light. Type a name, phrase, caption, or heading, then copy bold cursive text in one click.</p>
+            <p>Turn regular text into bold cursive styles instantly. Type anything below, choose your favourite style, and copy it in one click.</p>
           </div>
-          </div>
+        </div>
+
         <div class="generator-shell">
           <div class="panel input-panel">
-            <label for="text-input">Enter your text</label>
-            <textarea id="text-input" data-input placeholder="Bold Cursive Generator">Bold Cursive Generator</textarea>
-            <div class="controls">
-              <div class="select-wrap">
-                <label for="preset">Style</label>
-                <select id="preset" data-preset>
-                  <option value="all">All styles</option>
-                  <option value="script">Cursive Script</option>
-                  <option value="boldScript" selected>Bold Cursive</option>
-                  <option value="fraktur">Old Style Script</option>
-                  <option value="double">Double-Struck</option>
-                  <option value="monospace">Clean Fancy</option>
-                </select>
-              </div>
-              <button class="button secondary" type="button" data-clear>Clear</button>
+            <label for="bold-input">Type your text</label>
+            <textarea id="bold-input" data-fg-input placeholder="Hello World">Hello World</textarea>
+            <div class="tool-controls-row" style="margin-top:8px">
+              <button class="button secondary" type="button" data-fg-clear>Clear</button>
+              <span class="char-count"><span id="char-count">11</span> characters</span>
             </div>
-            <p class="meta-note">Use the 1-click copy button, then preview the result inside the app or page where you plan to paste it.</p>
+            <p class="meta-note" style="margin-top:12px">Click any result to copy. Use ♡ to save favourites — retrieve them from the Saved tab any time.</p>
           </div>
-          <div class="results" data-results aria-live="polite"></div>
+
+          <div>
+            <div class="fg-cat-label">Bold Cursive Styles</div>
+            <div data-fg-tabs data-fg-emoji-tabs class="fg-tabs" role="tablist" aria-label="Style categories"></div>
+            <div data-fg-results data-fg-default-cat="bold" aria-live="polite"></div>
+            <div style="display:flex;justify-content:flex-end;margin-top:14px">
+              <button class="copy-all-btn" id="copy-all-btn">&#10064; Copy All</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- ═══ SEO CONTENT ═══ -->
     <section class="seo-section" id="guide">
       <div class="wrap seo-layout">
         <aside class="seo-aside">
           <h2>Related Searches</h2>
           <div class="keyword-list">
             <span>cursive bold generator</span>
-            <span>bold cursive text</span>
-            <span>bold script text</span>
-            <span>copy and paste cursive</span>
-            <span>Instagram fonts</span>
-            <a href="/">cursive generator</a>
+            <span>bold cursive generator</span>
+            <span>bold cursive font generator free</span>
+            <span>bold cursive font copy and paste</span>
+            <span>bold script font</span>
             <a href="/">cursive text generator</a>
+            <a href="/cursive-text-generator.html">cursive text generator</a>
+            <a href="/calligraphy-text-generator.html">calligraphy generator</a>
+            <a href="/fancy-text-generator.html">fancy text generator</a>
           </div>
         </aside>
+
         <article class="seo-copy">
-          <h2>Cursive Bold Generator Guide</h2>
-          <h3>When to Use Bold Cursive</h3>
-          <p>Bold cursive works best for short phrases that need stronger visual weight. It can make a display name, caption opener, short quote, or creative heading stand out while still keeping the soft personality of script lettering.</p>
-          <h3>Copy and Paste Workflow</h3>
-          <p>Type your text, keep the bold cursive style selected, and use the 1-click copy button. The output is Unicode text, so it can often be pasted into social profiles, messages, notes, and design drafts without installing a font.</p>
-          <p>Want lighter or more decorative script options alongside bold? The <a href="/">cursive text generator</a> on our homepage displays all style variants together — copy whichever fits best.</p>
-          <h3>Best Platforms to Test</h3>
-          <p>Preview bold cursive text inside the app where you plan to use it. Instagram, TikTok, profile bio fields, and messaging apps may render Unicode characters slightly differently across mobile and desktop devices.</p>
-          <h3>Readability Tip</h3>
-          <p>Bold script is decorative, so shorter is usually better. Use it for names, headings, and emotional phrases, but keep important instructions and long paragraphs in normal readable text.</p>
-          <h3>Related Cursive Tools</h3>
-          <p>For broader styles, start with the <a href="/">cursive generator</a>. You can also try the <a href="/">cursive text generator</a>, <a href="cursive-bold-generator.html">cursive bold generator</a>, <a href="calligraphy-text-generator.html">calligraphy text generator</a>, handwriting font generator, and <a href="cursive-letters-a-z.html">cursive letters A-Z</a> reference.</p>
+
+          <h2>Free Cursive Bold Generator</h2>
+          <p>The Cursive Bold Generator converts regular text into bold cursive-style Unicode characters. Enter a name, word, caption, bio, or message above and the tool generates multiple styles instantly — no button press needed, no sign-up, no download.</p>
+          <p>Because the output is standard Unicode text rather than an image or a font file, it works wherever text is accepted: social media bios, chat messages, email signatures, documents, and more. You get the visual personality of bold cursive handwriting combined with the convenience of copyable plain text.</p>
+
+          <h2>How to Use the Cursive Bold Generator</h2>
+          <ol style="padding-left:20px;line-height:2.1">
+            <li><strong>Type your text</strong> — enter a name, phrase, bio, or short message in the text field above.</li>
+            <li><strong>Choose a bold cursive style</strong> — the Bold tab is selected by default, showing the most relevant styles first. Browse the results and click ♡ to save any favourites.</li>
+            <li><strong>Copy and paste</strong> — click Copy. The button confirms with ✓ Copied. Paste into Instagram, TikTok, WhatsApp, Discord, or any text field on your device.</li>
+          </ol>
+
+          <h2>Cursive Bold Font Generator: How It Works</h2>
+          <h3>Is it actually a font?</h3>
+          <p>No — and that is what makes it useful. Traditional font files (.ttf, .otf, .woff) must be installed on the viewer's device before they will render. Text generated by a cursive bold font generator uses Unicode characters instead: code points that already exist in the standard character set of every modern phone and computer.</p>
+          <p>Here is what that means in practice:</p>
+
+          <div class="vc-strip">
+            <div class="vc-row"><div class="vc-label">Normal</div><div class="vc-text" style="font-size:17px">Hello World</div></div>
+            <div class="vc-row"><div class="vc-label">Bold</div><div class="vc-text">𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝</div></div>
+            <div class="vc-row"><div class="vc-label">Cursive</div><div class="vc-text">𝒽𝑒𝓁𝓁𝑜 𝓌𝑜𝓇𝓁𝒹</div></div>
+            <div class="vc-row"><div class="vc-label">Bold Cursive</div><div class="vc-text">𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭</div></div>
+          </div>
+
+          <p>Each row contains ordinary text — the difference is which Unicode character each letter maps to. Bold Cursive uses the Mathematical Bold Script block, which gives letters that are both script-style and visually heavier than the standard cursive range.</p>
+
+          <h2>Bold Cursive Copy and Paste</h2>
+          <p>The simplest use of this generator is a direct copy-and-paste into any supported text field. No font installation is required on either end — the reader's device renders the characters from its own built-in font.</p>
+
+          <div class="mini-demo">
+            <div class="mini-demo-label">Your text</div>
+            <div class="mini-demo-input" id="mini-input-display">Hello World</div>
+            <div class="mini-demo-arrow">↓</div>
+            <div class="mini-demo-label">Bold cursive</div>
+            <div class="mini-demo-output-row">
+              <div class="mini-demo-output" id="mini-output">𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭</div>
+              <button class="mini-copy-btn" id="mini-copy-btn">Copy</button>
+            </div>
+          </div>
+
+          <p>Paste the result into a supported field: Instagram Bio or Name, TikTok display name, WhatsApp status or message, Discord display name, Twitter/X bio, or any other text input that accepts Unicode. Appearance may vary depending on the platform, operating system, and character support.</p>
+
+          <h2>Where Can You Use Cursive Bold Text?</h2>
+          <div class="platform-grid">
+            <div class="platform-card">
+              <span class="platform-icon">📸</span>
+              <h3>Instagram</h3>
+              <p>Bio, Name field, and captions. The Name field appears in search results, making bold cursive especially effective there.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">🎵</span>
+              <h3>TikTok</h3>
+              <p>Display name and bio. Bold styles stay legible at TikTok's smaller comment font sizes.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">💬</span>
+              <h3>WhatsApp</h3>
+              <p>Messages, status, group names, and display name. Unicode text pastes directly — no image needed.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">🎮</span>
+              <h3>Discord</h3>
+              <p>Display name, server name, and messages. Bold Script is widely used in gaming communities.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">👤</span>
+              <h3>Facebook</h3>
+              <p>Posts, profile name, and comments. Most modern browsers and the Facebook app render bold cursive Unicode correctly.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">🐦</span>
+              <h3>Twitter / X</h3>
+              <p>Bio, display name, and posts. Works on both the web and the mobile app.</p>
+            </div>
+          </div>
+          <p style="font-size:13px;color:var(--muted)">Appearance may vary depending on the platform, operating system, browser, and Unicode character support.</p>
+
+          <h2>Cursive vs Bold Cursive</h2>
+          <p>Choosing between regular cursive and bold cursive depends on context and visual weight.</p>
+          <div class="vc-strip">
+            <div class="vc-row"><div class="vc-label">Normal</div><div class="vc-text" style="font-size:17px">Hello World</div></div>
+            <div class="vc-row"><div class="vc-label">Bold</div><div class="vc-text">𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝</div></div>
+            <div class="vc-row"><div class="vc-label">Cursive</div><div class="vc-text">𝒽𝑒𝓁𝓁𝑜 𝓌𝑜𝓇𝓁𝒹</div></div>
+            <div class="vc-row"><div class="vc-label">Bold Cursive</div><div class="vc-text">𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭</div></div>
+          </div>
+          <p>Regular cursive is delicate and elegant — good for flowing captions and formal names. Bold cursive adds visual weight while keeping the script personality, making it ideal for display names, bio headers, and short phrases that need to stand out. Plain bold removes the script character entirely. For most social media use, bold cursive offers the most distinctive combination.</p>
+          <p>Need more cursive styles beyond bold? The <a href="/">cursive text generator</a> on the homepage covers 300+ styles across cursive, gothic, aesthetic, bubble, and more.</p>
+
+          <h2>Related Cursive Tools</h2>
+          <div class="related-grid">
+            <a class="related-card" href="/">
+              <strong>Cursive Text Generator</strong>
+              <span>The full collection — 300+ styles covering every cursive, gothic, cute, and aesthetic variant.</span>
+            </a>
+            <a class="related-card" href="/calligraphy-text-generator.html">
+              <strong>Calligraphy Text Generator</strong>
+              <span>Unicode calligraphy plus real font previews (Great Vibes, Tangerine, Dancing Script) with PNG download.</span>
+            </a>
+            <a class="related-card" href="/cursive-practice-sheets/">
+              <strong>Cursive Practice Sheets</strong>
+              <span>Printable A–Z cursive practice worksheets for learning and refining handwriting.</span>
+            </a>
+          </div>
+
+          <h2>FAQ</h2>
+          <details class="faq-item">
+            <summary>What is a cursive bold generator?</summary>
+            <p>A cursive bold generator is a free online tool that converts regular text into bold cursive Unicode characters. These characters resemble bold handwriting and can be copied and pasted into Instagram, TikTok, WhatsApp, Discord, and other text fields — no font installation required on either end.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is the cursive bold generator free?</summary>
+            <p>Yes — completely free, with no account, no sign-up, and no usage limit. Type your text, choose a style, and copy it in one click.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I make cursive text bold?</summary>
+            <p>Type your text in the generator above. The tool maps each character to a Unicode Mathematical Bold Script code point, producing text that is both script-style (cursive) and visually heavier (bold) at the same time. Click Copy on whichever result you prefer.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I copy and paste bold cursive text?</summary>
+            <p>Yes. All results are standard Unicode text — not images or special font files. They paste directly into Instagram, TikTok, WhatsApp, Discord, Twitter/X, email, and most other platforms. Appearance may vary slightly by device and app.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why does bold cursive text look different on some devices?</summary>
+            <p>Rendering depends on the fonts installed on the viewer's device and the app's Unicode support. Most devices made after 2018 handle bold cursive correctly. If compatibility matters, Bold Cursive and Bold Script have the broadest device support — test with a short word first if you are unsure.</p>
+          </details>
+
         </article>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
+    <div class="footer-body">
+      <div class="footer-col">
+        <strong class="footer-col-title">Cursive Tools</strong>
+        <a href="/">Cursive Text Generator</a>
+        <a href="/cursive-font-generator.html">Font Generator</a>
+        <a href="/cursive-converter/">Cursive Converter</a>
+      </div>
+      <div class="footer-col">
+        <strong class="footer-col-title">Popular Styles</strong>
+        <a href="/fancy-text-generator.html">Fancy Text</a>
+        <a href="/calligraphy-text-generator.html">Calligraphy</a>
+        <a href="/cursive-bold-generator.html">Bold Cursive</a>
+      </div>
+      <div class="footer-col">
+        <strong class="footer-col-title">Resources</strong>
+        <a href="/cursive-alphabet.html">Cursive Alphabet</a>
+        <a href="/cursive-practice-sheets/">Practice Sheets</a>
+        <a href="/cursive-letters-a-z.html">Cursive Letters A-Z</a>
+      </div>
+    </div>
     <div class="footer-inner">
       <span>Cursive Text Generator</span>
       <span class="footer-links">
@@ -163,27 +405,92 @@
       </span>
     </div>
   </footer>
+
   <div class="toast" data-toast role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=20260814" defer></script>
+
+  <script src="assets/style-engine.js?v=20260818" defer></script>
+  <script src="assets/fancy-app.js?v=20260818" defer></script>
   <script>
-    function toggleNav(btn){
-      var d=document.getElementById('nav-drawer');
-      var open=d.classList.toggle('open');
-      btn.classList.toggle('open',open);
-      btn.setAttribute('aria-expanded',open);
-      document.body.style.overflow=open?'hidden':'';
+    function toggleNav(btn) {
+      var d = document.getElementById('nav-drawer');
+      var open = d.classList.toggle('open');
+      btn.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', open);
+      document.body.style.overflow = open ? 'hidden' : '';
     }
-    // close drawer on link click
-    document.addEventListener('DOMContentLoaded',function(){
-      var d=document.getElementById('nav-drawer');
-      if(d) d.querySelectorAll('a').forEach(function(a){
-        a.addEventListener('click',function(){
-          d.classList.remove('open');
-          var b=document.querySelector('.nav-burger');
-          if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}
-          document.body.style.overflow='';
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+      /* Nav drawer */
+      var drawer = document.getElementById('nav-drawer');
+      if (drawer) drawer.querySelectorAll('a').forEach(function(a) {
+        a.addEventListener('click', function() {
+          drawer.classList.remove('open');
+          var b = document.querySelector('.nav-burger');
+          if (b) { b.classList.remove('open'); b.setAttribute('aria-expanded','false'); }
+          document.body.style.overflow = '';
         });
       });
+
+      /* Char counter */
+      var input   = document.querySelector('[data-fg-input]');
+      var countEl = document.getElementById('char-count');
+      if (input && countEl) {
+        countEl.textContent = input.value.length;
+        input.addEventListener('input', function() { countEl.textContent = input.value.length; });
+      }
+
+      /* Copy All */
+      var resultsEl   = document.querySelector('[data-fg-results]');
+      var copyAllBtn  = document.getElementById('copy-all-btn');
+      var toast       = document.querySelector('[data-toast]');
+      if (copyAllBtn && resultsEl) {
+        copyAllBtn.addEventListener('click', function() {
+          var outputs = resultsEl.querySelectorAll('[data-fg-output]');
+          var lines = [];
+          outputs.forEach(function(el) { var t = el.textContent.trim(); if (t) lines.push(t); });
+          if (!lines.length) return;
+          navigator.clipboard.writeText(lines.join('\n')).then(function() {
+            copyAllBtn.textContent = '✓ All Copied!';
+            copyAllBtn.classList.add('done');
+            setTimeout(function() { copyAllBtn.innerHTML = '&#10064; Copy All'; copyAllBtn.classList.remove('done'); }, 2000);
+          });
+        });
+      }
+
+      /* Mini demo — sync from main results */
+      var miniInputDisplay = document.getElementById('mini-input-display');
+      var miniOutput       = document.getElementById('mini-output');
+      var miniCopyBtn      = document.getElementById('mini-copy-btn');
+
+      function syncMini() {
+        if (input && miniInputDisplay) {
+          var txt = input.value.trim() || (input.getAttribute('placeholder') || 'Hello World');
+          miniInputDisplay.textContent = txt;
+        }
+        var firstResult = resultsEl && resultsEl.querySelector('[data-fg-output]');
+        if (firstResult && miniOutput) {
+          miniOutput.textContent = firstResult.textContent.trim() || miniOutput.textContent;
+        }
+      }
+
+      if (resultsEl) {
+        new MutationObserver(syncMini).observe(resultsEl, {childList:true, subtree:true, characterData:true});
+      }
+      if (input) input.addEventListener('input', function() { setTimeout(syncMini, 80); });
+      syncMini();
+
+      if (miniCopyBtn && miniOutput) {
+        miniCopyBtn.addEventListener('click', function() {
+          var text = miniOutput.textContent.trim();
+          if (!text) return;
+          navigator.clipboard.writeText(text).then(function() {
+            miniCopyBtn.textContent = '✓ Copied';
+            setTimeout(function() { miniCopyBtn.textContent = 'Copy'; }, 2000);
+          });
+        });
+      }
+
     });
   </script>
 </body>
