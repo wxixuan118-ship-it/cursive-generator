@@ -5,27 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L34V5ZL59H"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-L34V5ZL59H');
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());gtag('config','G-L34V5ZL59H');
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6697313643773879" crossorigin="anonymous"></script>
   <script>
     window.addEventListener('load',function(){setTimeout(function(){
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window,document,"clarity","script","xtizgdek92");
     },2000);});
   </script>
-  <title>Cursive Font Generator — Preview &amp; Copy Cursive Fonts Instantly</title>
-  <meta name="description" content="Free cursive font generator — type any text and instantly preview it in multiple cursive and script font styles. Compare, copy, and paste your favourite cursive font anywhere. No download needed.">
+
+  <title>Cursive Font Generator – Free Copy &amp; Paste Cursive Fonts</title>
+  <meta name="description" content="Free cursive font generator with 100+ fancy, bold, italic, cute, handwriting and calligraphy styles. Generate cursive text and copy &amp; paste it into Instagram, TikTok, Discord, and more.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.cursive-text-generator.net/cursive-font-generator.html">
-  <meta property="og:title" content="Cursive Font Generator — Preview &amp; Copy Cursive Fonts Instantly">
-  <meta property="og:description" content="Preview your text in multiple cursive font styles — Cursive Script, Bold Cursive, Old Style, and more. Free, instant, no download. Copy and paste anywhere.">
+  <meta property="og:title" content="Cursive Font Generator – Free Copy &amp; Paste Cursive Fonts">
+  <meta property="og:description" content="Free cursive font generator with 100+ fancy, calligraphy, bold, italic and cute styles. Type, choose a style, copy and paste anywhere.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -34,62 +32,130 @@
   <link rel="preload" href="assets/styles.css?v=20260812-compact" as="style">
   <link rel="stylesheet" href="assets/styles.css?v=20260812-compact">
 
+  <style>
+    /* ── Single-column generator ── */
+    .generator-shell{grid-template-columns:1fr!important;gap:0!important}
+    .input-panel{position:static!important;padding:0 0 20px;border:none!important;background:transparent!important;box-shadow:none!important;border-bottom:1px solid var(--line);margin-bottom:20px}
+    textarea[data-fg-input]{min-height:80px;font-size:17px}
+
+    /* ── Category tabs ── */
+    .fg-cat-label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin:0 0 8px;display:flex;align-items:center;gap:6px}
+    .fg-cat-label::before{content:"";width:20px;height:2px;background:var(--coral)}
+    .fg-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px;padding:0}
+    .fg-tab{padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--muted);font-size:13px;cursor:pointer;transition:all .15s;white-space:nowrap;display:inline-flex;align-items:center}
+    .fg-tab:hover{border-color:var(--sage);color:var(--sage)}
+    .fg-tab.active{background:var(--sage);color:#fff;border-color:var(--sage)}
+    .fg-tab-count{display:inline-flex;align-items:center;justify-content:center;background:var(--line);border-radius:999px;font-size:11px;font-weight:700;min-width:20px;height:18px;padding:0 5px;margin-left:5px;line-height:1;color:var(--muted)}
+    .fg-tab.active .fg-tab-count{background:rgba(255,255,255,.25);color:#fff}
+
+    /* ── Controls row ── */
+    .tool-controls-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .char-count{font-size:12px;color:var(--muted)}
+    .copy-all-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border:1px solid var(--sage);border-radius:8px;background:transparent;color:var(--sage);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .15s;margin-top:16px}
+    .copy-all-btn:hover,.copy-all-btn.done{background:var(--sage);color:#fff}
+
+    /* ── Style strip (comparison rows) ── */
+    .style-strip{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:20px 0}
+    .style-row{display:flex;align-items:center;border-bottom:1px solid var(--line)}
+    .style-row:last-child{border-bottom:none}
+    .style-row-label{width:120px;flex-shrink:0;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:13px 16px;border-right:1px solid var(--line);background:var(--paper)}
+    .style-row-text{padding:13px 16px;font-size:22px;line-height:1.3;flex:1;word-break:break-word}
+
+    /* ── Compat table ── */
+    .compat-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+    .compat-table th,.compat-table td{padding:10px 14px;border:1px solid var(--line);text-align:left}
+    .compat-table th{background:var(--paper);font-weight:700}
+    .compat-ok{color:#2e7d32;font-weight:700}
+    .compat-note{color:var(--muted);font-size:12px}
+
+    /* ── Mini demo ── */
+    .mini-demo{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:20px;max-width:520px;margin:20px 0}
+    .mini-demo-label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:6px}
+    .mini-demo-input-text{font-size:15px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--muted);margin-bottom:10px}
+    .mini-demo-arrow{font-size:20px;text-align:center;color:var(--sage);margin:4px 0;line-height:1}
+    .mini-demo-output-row{display:flex;align-items:center;gap:12px;margin-top:10px}
+    .mini-demo-output{font-size:26px;flex:1;word-break:break-word;line-height:1.3}
+    .mini-copy-btn{flex-shrink:0;padding:8px 18px;border-radius:8px;background:var(--sage);color:#fff;border:none;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;transition:background .15s}
+    .mini-copy-btn:hover{opacity:.88}
+
+    /* ── Cursive examples grid ── */
+    .examples-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin:16px 0}
+    .example-card{border:1px solid var(--line);border-radius:10px;padding:14px 16px;background:var(--paper)}
+    .example-card-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:6px}
+    .example-card-text{font-size:24px;line-height:1.3;word-break:break-word;margin-bottom:8px}
+    .example-copy-btn{padding:5px 12px;border-radius:6px;border:1px solid var(--line);background:transparent;color:var(--sage);font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;transition:all .15s}
+    .example-copy-btn:hover{background:var(--sage);color:#fff;border-color:var(--sage)}
+
+    /* ── Platform grid ── */
+    .platform-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin:20px 0}
+    .platform-card{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--paper)}
+    .platform-icon{font-size:22px;display:block;margin-bottom:7px}
+    .platform-card h3{font-size:15px;font-weight:700;margin:0 0 5px}
+    .platform-card p{font-size:13px;color:var(--muted);margin:0;line-height:1.5}
+
+    /* ── Related tools ── */
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin:20px 0}
+    .related-card{border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--paper);text-decoration:none;color:var(--body);transition:box-shadow .15s;display:block}
+    .related-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.08);border-color:var(--sage)}
+    .related-card strong{display:block;font-size:15px;margin-bottom:4px;color:var(--sage)}
+    .related-card span{font-size:13px;color:var(--muted)}
+
+    /* ── FAQ ── */
+    .faq-item{border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:8px}
+    .faq-item summary{font-weight:700;cursor:pointer;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .faq-item summary::after{content:"＋";font-size:18px;color:var(--sage);flex-shrink:0;transition:transform .2s}
+    .faq-item[open] summary::after{content:"−"}
+    .faq-item p{margin:10px 0 0;color:var(--muted);line-height:1.65;font-size:14px}
+  </style>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Home","item":"https://www.cursive-text-generator.net/"},
-      {"@type":"ListItem","position":2,"name":"Cursive Font Generator","item":"https://www.cursive-text-generator.net/cursive-font-generator.html"}
-    ]
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Cursive Font Generator",
-    "applicationCategory": "DesignApplication",
-    "operatingSystem": "Any",
-    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-    "url": "https://www.cursive-text-generator.net/cursive-font-generator.html",
-    "description": "A free online cursive font generator to preview, compare, and copy multiple cursive and script font styles as Unicode text — no download required."
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+    "@graph": [
       {
-        "@type": "Question",
-        "name": "What is a cursive font generator?",
-        "acceptedAnswer": {"@type": "Answer", "text": "A cursive font generator is an online tool that lets you type text and instantly preview it across multiple cursive and script font styles. Unlike a traditional font selector in a design app, a cursive font generator produces Unicode text — not a font file — so the styled result can be copied and pasted into any platform that accepts Unicode, including Instagram, TikTok, Discord, and Google Docs."}
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Cursive Text Generator","item":"https://www.cursive-text-generator.net/"},
+          {"@type":"ListItem","position":2,"name":"Cursive Font Generator","item":"https://www.cursive-text-generator.net/cursive-font-generator.html"}
+        ]
       },
       {
-        "@type": "Question",
-        "name": "How do I use a cursive font generator to copy and paste?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Type your text into the input box on this page. All available cursive font styles are shown simultaneously so you can compare them. Click the 1-Click Copy button beneath the style you prefer. Your cursive font text is instantly on your clipboard — paste it with Ctrl+V (or Cmd+V on Mac) or long-press Paste on mobile."}
+        "@type": "WebApplication",
+        "name": "Cursive Font Generator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"},
+        "url": "https://www.cursive-text-generator.net/cursive-font-generator.html",
+        "description": "Free cursive font generator with 100+ styles — fancy, calligraphy, handwriting, bold, italic, cute. Generate cursive text and copy & paste it anywhere. No sign-up required."
       },
       {
-        "@type": "Question",
-        "name": "What is the best cursive font for Instagram?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Bold Cursive (𝓗𝓮𝓵𝓵𝓸) is the best cursive font for Instagram because its thick strokes remain legible on mobile screens even at small display sizes. Cursive Script (ℋℯ𝓁𝓁ℴ) is more elegant and refined — ideal for bio text where users zoom in. Test both in this generator and paste your preferred result directly into Instagram's profile editor."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between a cursive font and a script font?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Cursive and script are closely related terms. In typography, script fonts mimic handwriting, while cursive specifically refers to connected, flowing letterforms. In everyday use, the terms are interchangeable. This generator provides both — Cursive Script and Bold Cursive are fully connected and flowing, while Old Style Script draws from historical calligraphy traditions."}
-      },
-      {
-        "@type": "Question",
-        "name": "Can I use a cursive font generator for logo design?",
-        "acceptedAnswer": {"@type": "Answer", "text": "A cursive font generator is an excellent starting point for logo ideation. Type your brand name and compare how it looks in each cursive style to identify the right aesthetic before investing in a professional logo. For a finished logo you will need a downloadable font file — see our free commercial cursive fonts directory for options that are legal to use in commercial branding."}
-      },
-      {
-        "@type": "Question",
-        "name": "Is the cursive font generator free?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes, completely free. No account, no download, no usage limit. Generate and copy as many cursive font styles as you need."}
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type":"Question","name":"What is a cursive font generator?",
+            "acceptedAnswer":{"@type":"Answer","text":"A cursive font generator is a free online tool that converts normal text into cursive-style Unicode characters. Because the output is standard text — not an image or a font file — it can be copied and pasted into Instagram, TikTok, WhatsApp, Discord, Twitter/X, email signatures, and anywhere else that accepts Unicode. No font download or installation is required on either end."}
+          },
+          {
+            "@type":"Question","name":"Is the cursive font generator free?",
+            "acceptedAnswer":{"@type":"Answer","text":"Yes — completely free with no account, no sign-up, and no usage limit. Type your text, choose a style from the category tabs, and copy in one click."}
+          },
+          {
+            "@type":"Question","name":"How do I use a cursive font generator to copy and paste?",
+            "acceptedAnswer":{"@type":"Answer","text":"Type your text into the generator above. The tool produces styled results in real time — no button press needed. Click Copy next to the style you want (or use Copy All to grab every style at once). Then paste with Ctrl+V (or Cmd+V on Mac) or long-press Paste on mobile."}
+          },
+          {
+            "@type":"Question","name":"Is this actually a font, or is it something else?",
+            "acceptedAnswer":{"@type":"Answer","text":"It is Unicode text, not a downloadable font file (.ttf / .otf / .woff). Each letter is mapped to a matching character in the Unicode Mathematical Script, Bold Script, or Fraktur blocks — characters that exist in every modern device's built-in Unicode support. The result looks like a cursive font but behaves like plain text: it copies, pastes, and renders without any installation."}
+          },
+          {
+            "@type":"Question","name":"Which cursive font style is best for Instagram?",
+            "acceptedAnswer":{"@type":"Answer","text":"Bold Cursive (𝓗𝓮𝓵𝓵𝓸) is the most popular choice for Instagram because its heavier stroke weight stays legible at the small display size Instagram uses for bios and Name fields on mobile. Fancy Cursive Script (𝒽𝑒𝓁𝓁𝑜) is more elegant but can appear thin on small screens. Test both in the generator above and paste your preferred result directly into Instagram's profile editor."}
+          },
+          {
+            "@type":"Question","name":"Why does my cursive text look different on some devices?",
+            "acceptedAnswer":{"@type":"Answer","text":"Unicode character rendering depends on the fonts installed on the viewer's operating system and the Unicode support level of the app. Most devices made after 2018 render cursive styles correctly. Bold Cursive has the broadest device compatibility because its heavier weight is less dependent on fine rendering detail. If in doubt, test with a short word in the target app before sharing widely."}
+          }
+        ]
       }
     ]
   }
@@ -115,7 +181,7 @@
             <a href="/cursive-fonts.html">Cursive Fonts</a>
           </div>
         </div>
-      <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
+        <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
       </div>
     </nav>
   </header>
@@ -123,6 +189,7 @@
     <div class="nav-mobile-section">
       <div class="nav-mobile-label">Tools</div>
       <a href="/">Cursive Generator</a>
+      <a href="/cursive-writing-generator.html">Writing Generator</a>
       <a href="/fancy-text-generator.html">Fancy Text Generator</a>
     </div>
     <div class="nav-mobile-section">
@@ -131,260 +198,400 @@
     </div>
   </nav>
 
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <div class="wrap">
-      <ol class="breadcrumb-list">
-        <li><a href="/">Home</a></li>
-        <li aria-current="page">Cursive Font Generator</li>
-      </ol>
-    </div>
-  </nav>
-
   <main class="page">
-    <!-- HERO + GENERATOR -->
+
+    <!-- ═══ TOOL ═══ -->
     <section class="tool-section" id="tool">
       <div class="wrap">
+        <nav aria-label="Breadcrumb" style="font-size:13px;color:var(--muted);margin-bottom:14px">
+          <a href="/" style="color:var(--muted)">Home</a>
+          <span style="margin:0 6px">›</span>
+          <span>Cursive Font Generator</span>
+        </nav>
+
         <div class="tool-intro">
           <div>
-            <span class="eyebrow">Compare all cursive fonts, copy in one click</span>
-            <h1>Cursive Font Generator — Preview All Cursive Styles Instantly</h1>
-            <p>Type any text and instantly preview it across every available cursive font style. Compare Cursive Script, Bold Cursive, Old Style Script, and more — then copy your favourite in one click and paste it anywhere.</p>
+            <span class="eyebrow">Free · 100+ styles · real-time · copy &amp; paste</span>
+            <h1>Cursive Font Generator</h1>
+            <p style="font-size:17px;font-weight:600;color:var(--sage);margin:4px 0 6px">Generate Free Cursive Fonts to Copy &amp; Paste</p>
+            <p>Type your text below and instantly generate 100+ cursive font styles — fancy, bold, italic, calligraphy, handwriting, cute and more. Filter by category, click Copy, and paste anywhere.</p>
           </div>
         </div>
 
         <div class="generator-shell">
           <div class="panel input-panel">
-            <label for="text-input">Enter your text</label>
-            <textarea id="text-input" data-input placeholder="Cursive Font">Cursive Font</textarea>
-            <div class="controls">
-              <div class="select-wrap">
-                <label for="preset">Style</label>
-                <select id="preset" data-preset>
-                  <option value="all">All styles</option>
-                  <option value="script">Cursive Script</option>
-                  <option value="boldScript">Bold Cursive</option>
-                  <option value="fraktur">Old Style Script</option>
-                  <option value="double">Double-Struck</option>
-                  <option value="monospace">Clean Fancy</option>
-                </select>
-              </div>
-              <button class="button secondary" type="button" data-clear>Clear</button>
+            <label for="font-gen-input">Enter your text</label>
+            <textarea id="font-gen-input" data-fg-input placeholder="Cursive Font Generator">Cursive Font Generator</textarea>
+            <div class="tool-controls-row" style="margin-top:8px">
+              <button class="button secondary" type="button" data-fg-clear>Clear</button>
+              <span class="char-count"><span id="char-count">23</span> characters</span>
             </div>
-            <p class="meta-note">Click any style to copy its cursive font text, then paste it anywhere.</p>
+            <p class="meta-note" style="margin-top:12px">Click any result to copy. Use ♡ to save favourites — retrieve them from the Saved tab any time.</p>
           </div>
-          <div class="results" data-results aria-live="polite"></div>
-        </div>
-      </div>
-    </section>
 
-    <!-- FONT COMPARISON SHOWCASE -->
-    <section class="style-showcase">
-      <div class="wrap">
-        <div class="section-heading">
-          <span class="eyebrow">Font style guide</span>
-          <h2>Cursive Font Styles — Side by Side</h2>
-          <p>Every cursive font style has a distinct personality. Compare them here to find the right one for your project, bio, or brand.</p>
-        </div>
-        <div class="style-showcase-grid">
-          <div class="style-card">
-            <span class="style-label">Cursive Script — Classic</span>
-            <div class="style-preview">𝒞𝓊𝓇𝓈𝒾𝓋𝑒 𝐹𝑜𝓃𝓉</div>
-            <p class="style-desc"><strong>Best for:</strong> Invitations, personal bios, poetry. Thin flowing letterforms that feel authentic to traditional cursive penmanship.</p>
-          </div>
-          <div class="style-card">
-            <span class="style-label">Bold Cursive — Impact</span>
-            <div class="style-preview">𝓒𝓾𝓻𝓼𝓲𝓿𝓮 𝓕𝓸𝓷𝓽</div>
-            <p class="style-desc"><strong>Best for:</strong> Instagram, TikTok, display names. Thick strokes hold up on small screens and at a distance.</p>
-          </div>
-          <div class="style-card">
-            <span class="style-label">Old Style Script — Gothic</span>
-            <div class="style-preview">ℭ𝔲𝔯𝔰𝔦𝔳𝔢 𝔉𝔬𝔫𝔱</div>
-            <p class="style-desc"><strong>Best for:</strong> Gaming, fantasy themes, vintage aesthetics. Dramatic Fraktur-inspired letterforms with strong character.</p>
-          </div>
-          <div class="style-card">
-            <span class="style-label">Double-Struck — Modern</span>
-            <div class="style-preview">ℂ𝕦𝕣𝕤𝕚𝕧𝕖 𝔽𝕠𝕟𝕥</div>
-            <p class="style-desc"><strong>Best for:</strong> Tech and math aesthetics, minimalist profiles. Bold outlined letters with a clean, structured look.</p>
-          </div>
-          <div class="style-card">
-            <span class="style-label">Clean Fancy — Subtle</span>
-            <div class="style-preview">𝙲𝚞𝚛𝚜𝚒𝚟𝚎 𝙵𝚘𝚗𝚝</div>
-            <p class="style-desc"><strong>Best for:</strong> Readable decorative text. Monospace styling with a subtle flair — great when legibility is as important as looks.</p>
-          </div>
-          <div class="style-card">
-            <span class="style-label">Italic Script — Elegant</span>
-            <div class="style-preview">𝐶𝑢𝑟𝑠𝑖𝑣𝑒 𝐹𝑜𝑛𝑡</div>
-            <p class="style-desc"><strong>Best for:</strong> Professional contexts, email signatures, refined branding. A balanced mix of readability and script elegance.</p>
+          <div>
+            <div class="fg-cat-label">Cursive Font Styles</div>
+            <div data-fg-tabs data-fg-emoji-tabs class="fg-tabs" role="tablist" aria-label="Style categories"></div>
+            <div data-fg-results data-fg-default-cat="cursive" aria-live="polite"></div>
+            <div style="display:flex;justify-content:flex-end;margin-top:14px">
+              <button class="copy-all-btn" id="copy-all-btn">&#10064; Copy All</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- USE CASES -->
-    <section class="use-cases-section">
-      <div class="wrap">
-        <div class="section-heading">
-          <span class="eyebrow">Use cases</span>
-          <h2>What to Use a Cursive Font Generator For</h2>
-          <p>A cursive font generator is faster than opening design software and works everywhere Unicode text is accepted.</p>
-        </div>
-        <div class="use-cases-grid">
-          <div class="use-case-card">
-            <span class="uc-icon">🎨</span>
-            <strong>Logo &amp; Brand Ideation</strong>
-            <p>Preview your brand name in every cursive font style to quickly identify the right aesthetic before working with a designer or choosing a downloadable font.</p>
-          </div>
-          <div class="use-case-card">
-            <span class="uc-icon">📸</span>
-            <strong>Instagram &amp; TikTok Profiles</strong>
-            <p>Replace your display name or bio with a cursive font style that stands out. Bold Cursive is the most legible option on mobile — test it above before pasting.</p>
-          </div>
-          <div class="use-case-card">
-            <span class="uc-icon">💌</span>
-            <strong>Invitations &amp; Cards</strong>
-            <p>Add elegant script text to digital wedding invitations, birthday cards, and event announcements without opening Canva or installing a font.</p>
-          </div>
-          <div class="use-case-card">
-            <span class="uc-icon">🖊</span>
-            <strong>Email Signatures</strong>
-            <p>Use a subtle cursive font style — like Italic Script or Clean Fancy — to add personality to your email signature name without looking unprofessional.</p>
-          </div>
-          <div class="use-case-card">
-            <span class="uc-icon">📝</span>
-            <strong>Documents &amp; Presentations</strong>
-            <p>Paste cursive font text into Google Docs, Slides, Notion, or Word for headings, pull quotes, and decorative titles that need a handcrafted touch.</p>
-          </div>
-          <div class="use-case-card">
-            <span class="uc-icon">🎮</span>
-            <strong>Gaming &amp; Discord Usernames</strong>
-            <p>Old Style Script and Bold Cursive are popular for gaming usernames and Discord display names because they create a distinctive visual identity in chat and leaderboards.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SEO CONTENT -->
+    <!-- ═══ SEO CONTENT ═══ -->
     <section class="seo-section" id="guide">
       <div class="wrap seo-layout">
         <aside class="seo-aside">
           <h2>Related Searches</h2>
           <div class="keyword-list">
             <span>cursive font generator</span>
-            <span>cursive font copy paste</span>
+            <span>cursive font generator free</span>
+            <span>cursive font copy and paste</span>
+            <span>cursive font generator online</span>
+            <span>fancy cursive font generator</span>
+            <span>calligraphy cursive font generator</span>
+            <span>cute cursive font generator</span>
             <a href="/">cursive text generator</a>
-            <a href="/cursive-writing-generator.html">cursive writing generator</a>
-            <a href="/cursive-fonts.html">cursive fonts</a>
-            <a href="/free-commercial-cursive-fonts.html">free cursive fonts</a>
-            <span>script font generator</span>
-            <span>best cursive font</span>
-            <span>cursive font for instagram</span>
-            <span>cursive font online</span>
+            <a href="/calligraphy-text-generator.html">calligraphy generator</a>
+            <a href="/cursive-bold-generator.html">bold cursive generator</a>
+            <a href="/fancy-text-generator.html">fancy text generator</a>
           </div>
         </aside>
+
         <article class="seo-copy">
-          <h2>Everything You Need to Know About Cursive Font Generators</h2>
 
-          <h3>What Makes a Cursive Font Generator Different?</h3>
-          <p>A standard font picker in Google Docs or Word shows you fonts that are installed on your system or loaded via the web — and the styled text only looks correct on devices that have the same font. A cursive font generator works differently: it converts each letter into a Unicode character from the Mathematical Script or Fraktur Unicode blocks, producing text that looks styled on any device without a font being installed.</p>
-          <p>The practical difference is portability. Text generated here can be copied and pasted into Instagram, TikTok, WhatsApp, Discord, email, or any other app, and it will render correctly as cursive on the recipient's screen regardless of what fonts they have installed.</p>
-          <p>For the widest selection of cursive styles in one place, our free <a href="/">cursive text generator</a> lets you compare bold script, italic, calligraphy, and more side by side before copying.</p>
+          <h2>What Is a Cursive Font Generator?</h2>
+          <p>A cursive font generator is a free online tool that converts ordinary text into cursive-style characters you can copy and paste anywhere. Unlike a traditional font file that must be installed on the viewer's device, the output of a cursive font generator is Unicode text — a series of characters that exist in every modern operating system's standard character set. The result looks like a cursive font but behaves like plain text: it copies, pastes, renders, and travels without any installation on either end.</p>
+          <p>This generator covers the full range of cursive aesthetics: from flowing script and elegant calligraphy to bold handwriting, cute decorative styles, and thin italic faces. The tab filters at the top let you narrow results instantly — click Cursive for traditional script, Calligraphy for formal pen styles, Italic for slanted text, or Cute for playful decorative variants.</p>
 
-          <h3>Cursive Font Styles Explained</h3>
-          <p><strong>Cursive Script</strong> uses the Unicode Mathematical Script block (U+1D400–U+1D7FF). Letters are thin, slanted, and closely resemble traditional pen-on-paper cursive handwriting. This is the most authentic-looking cursive style and the best choice when elegance is the priority.</p>
-          <p><strong>Bold Cursive</strong> uses the Mathematical Bold Script block. The letterforms are the same as Cursive Script but with a heavier weight, making them more legible at small sizes. This is the recommended style for Instagram display names, TikTok usernames, and any context where the text will be read on a mobile screen at a small point size.</p>
-          <p><strong>Old Style Script</strong> draws from the Fraktur Unicode block. Its Gothic, blackletter letterforms create a vintage, calligraphic aesthetic that looks very different from modern cursive. It is popular for gaming personas, creative usernames, and any project where an antique or dramatic look is desired.</p>
-          <p><strong>Double-Struck</strong> uses outlined, bold letterforms originally designed for mathematical notation. The style is modern, clean, and structured — it reads as technical or minimalist rather than traditional cursive.</p>
+          <h2>How to Use the Cursive Font Generator</h2>
+          <ol style="padding-left:20px;line-height:2.1">
+            <li><strong>Type your text</strong> — enter a name, word, caption, bio line, or short phrase into the text box above.</li>
+            <li><strong>Filter by style</strong> — the Cursive tab is selected by default. Click Calligraphy, Bold, Italic, Cute, or any other category to narrow the results to that style family.</li>
+            <li><strong>Copy and paste</strong> — click Copy on the result you want. The button confirms with ✓ Copied. Paste into Instagram, TikTok, WhatsApp, Discord, Twitter/X, or any text field that accepts Unicode.</li>
+          </ol>
 
-          <h3>Cursive Font Generator vs. Downloadable Cursive Fonts</h3>
-          <p>A cursive font generator is ideal when you need styled text fast and want it to be pasteable anywhere — social media, messaging apps, documents. A downloadable font file is the right choice when you need precise control over size, tracking, kerning, and layout in a design tool like Adobe Illustrator, Figma, or Canva.</p>
-          <p>For logo design, professional print materials, or branded merchandise, a downloadable cursive font gives you much more flexibility. Browse our curated list of <a href="free-commercial-cursive-fonts.html">free commercial cursive fonts</a> to find options that are legally cleared for use in commercial projects.</p>
+          <h2>Cursive Font Styles</h2>
+          <p>The generator supports over 100 distinct cursive styles across seven categories. Here is what each one looks like and when to use it.</p>
 
-          <h3>Best Cursive Fonts for Specific Platforms</h3>
-          <p>For <strong>Instagram</strong>: Bold Cursive renders most clearly in both the Name field and bio. The thicker strokes remain readable at the size Instagram displays profile text on mobile. See our full Instagram cursive text guide for step-by-step instructions.</p>
-          <p>For <strong>TikTok</strong>: Bold Cursive is the strongest choice. TikTok usernames appear at a small size in the feed — Bold Cursive's weight ensures the letters don't become illegible.</p>
-          <p>For <strong>Discord</strong>: Any style works in messages and profile bios, since Discord renders full Unicode. Old Style Script is particularly popular in gaming communities for the dramatic visual impact it creates in chat.</p>
-          <p>For <strong>Wedding invitations and cards</strong>: Cursive Script is the most authentic choice. Its flowing letterforms most closely resemble the calligraphy handwriting traditionally used on formal stationery.</p>
+          <div class="style-strip">
+            <div class="style-row"><div class="style-row-label">Fancy Cursive</div><div class="style-row-text">𝒞𝓊𝓇𝓈𝒾𝓋𝑒 𝐹𝑜𝓃𝓉</div></div>
+            <div class="style-row"><div class="style-row-label">Bold Cursive</div><div class="style-row-text">𝓒𝓾𝓻𝓼𝓲𝓿𝓮 𝓕𝓸𝓷𝓽</div></div>
+            <div class="style-row"><div class="style-row-label">Calligraphy</div><div class="style-row-text">ℭ𝔲𝔯𝔰𝔦𝔳𝔢 𝔉𝔬𝔫𝔱</div></div>
+            <div class="style-row"><div class="style-row-label">Handwriting</div><div class="style-row-text">𝓒𝓾𝓻𝓼𝓲𝓿𝓮 𝓕𝓸𝓷𝓽</div></div>
+            <div class="style-row"><div class="style-row-label">Italic</div><div class="style-row-text">𝐶𝑢𝑟𝑠𝑖𝑣𝑒 𝐹𝑜𝑛𝑡</div></div>
+            <div class="style-row"><div class="style-row-label">Cute</div><div class="style-row-text">Ｃｕｒｓｉｖｅ　Ｆｏｎｔ</div></div>
+          </div>
 
-          <h2>Cursive Font Generator FAQ</h2>
+          <h3>Fancy Cursive Fonts</h3>
+          <p>Fancy cursive fonts use the Unicode Mathematical Script block — thin, slanted letterforms that closely resemble flowing pen-on-paper cursive handwriting. They work best for Instagram bios and display names, digital invitations, poetry captions, and any context where elegance matters more than legibility at small sizes.</p>
 
-          <h3>Which cursive font style looks most like real handwriting?</h3>
-          <p>Cursive Script (𝒞𝓊𝓇𝓈𝒾𝓋𝑒) uses the thinnest, most flowing Unicode letterforms and most closely resembles traditional cursive penmanship. For a bolder handwriting aesthetic, Bold Cursive (𝓒𝓾𝓻𝓼𝓲𝓿𝓮) adds weight while keeping the same flowing character.</p>
+          <h3>Calligraphy Cursive Fonts</h3>
+          <p>Calligraphy-style results draw from the Fraktur and Gothic Unicode blocks. The letterforms are more angular and architectural than cursive script — inspired by historical pen-drawn manuscripts. Use them for gaming personas, vintage aesthetics, tattoo reference text, and creative usernames that need a dramatic, distinctive look. For Google Fonts calligraphy with PNG download, see the <a href="/calligraphy-text-generator.html">calligraphy text generator</a>.</p>
 
-          <h3>Can I use a cursive font generator for commercial use?</h3>
-          <p>The Unicode characters generated by this tool are standard text characters — there are no font licensing restrictions on using them in a commercial context such as a social media profile, business bio, or branded post. For downloadable font files, check the licence of each font individually. Our <a href="free-commercial-cursive-fonts.html">free commercial cursive fonts</a> page lists fonts that explicitly permit commercial use.</p>
+          <h3>Handwriting Cursive Fonts</h3>
+          <p>Handwriting styles reproduce the feel of quick, natural cursive writing — slightly less formal than Fancy Cursive, slightly more fluid than Bold. They are popular for WhatsApp display names, social media captions, and short quotes that need a personal, hand-crafted tone.</p>
 
-          <h3>Why does my cursive font look different on different devices?</h3>
-          <p>Unicode cursive characters are rendered using each device's system fallback fonts. On iOS, Android, Windows, and macOS, the exact weight and curve of the letterforms may vary slightly. The overall style is preserved, but fine details like stroke thickness can differ. Always preview in the target app before publishing.</p>
+          <h3>Italic Cursive Fonts</h3>
+          <p>Italic cursive fonts use the Mathematical Italic block — slanted letterforms without the full script curl of cursive. The result reads as professional and understated: good for email signatures, document headings, and presentation titles where a subtle stylistic lift is preferred over a dramatic effect.</p>
 
-          <h3>What is the most popular cursive font style?</h3>
-          <p>Bold Cursive is the most widely used style on social media because it balances aesthetic appeal with legibility on mobile screens. Cursive Script is more popular for invitations, cards, and contexts where elegance is more important than readability at small sizes.</p>
+          <h3>Cute &amp; Pretty Cursive Fonts</h3>
+          <p>Cute and pretty cursive variants layer symbols, hearts, stars, and decorative flourishes around the core text. They are popular on TikTok and Instagram for bios and name fields that want to convey warmth and personality. The generator includes dozens of combinations — browse the Cute tab to see all options.</p>
+
+          <h3>Thin Cursive Fonts</h3>
+          <p>Thin cursive styles use the lightest-weight cursive Unicode characters available — delicate, airy letterforms that look refined on light backgrounds. They are best suited to Instagram bio text and profile names where the visual effect is a whisper rather than a statement.</p>
+
+          <h2>Cursive Font Generator vs. Traditional Fonts</h2>
+          <h3>Is this actually a font?</h3>
+          <p>No — and that distinction is what makes it useful for social media. A traditional font file (.ttf, .otf, .woff) must be installed on the viewer's device to render correctly. Text generated by a cursive font generator uses Unicode characters instead: specific code points that exist in every modern phone and computer's built-in support, independent of any installed font.</p>
+          <p>This means the cursive text you generate here can be pasted into an Instagram bio, a TikTok display name, a Discord message, or a WhatsApp status and the person reading it will see the cursive style correctly — regardless of what fonts they have installed, what device they use, or what app they are reading in.</p>
+          <p>For projects that require a downloadable font file — logos, print materials, Canva designs, Adobe Illustrator work — you need a real .ttf or .otf file. Browse <a href="/cursive-fonts.html">free cursive fonts</a> for options that are legally cleared for commercial use.</p>
+
+          <h3>Compatibility at a glance</h3>
+          <table class="compat-table">
+            <thead><tr><th>Platform</th><th>Cursive Unicode</th><th>Notes</th></tr></thead>
+            <tbody>
+              <tr><td>Instagram</td><td class="compat-ok">✓ Supported</td><td class="compat-note">Bio, Name field, captions, comments</td></tr>
+              <tr><td>TikTok</td><td class="compat-ok">✓ Supported</td><td class="compat-note">Display name, bio</td></tr>
+              <tr><td>WhatsApp</td><td class="compat-ok">✓ Supported</td><td class="compat-note">Status, messages, display name</td></tr>
+              <tr><td>Discord</td><td class="compat-ok">✓ Supported</td><td class="compat-note">Display name, messages</td></tr>
+              <tr><td>Facebook</td><td class="compat-ok">✓ Supported</td><td class="compat-note">Posts, comments, name (varies)</td></tr>
+              <tr><td>Twitter / X</td><td class="compat-ok">✓ Supported</td><td class="compat-note">Bio, display name, posts</td></tr>
+            </tbody>
+          </table>
+          <p style="font-size:12px;color:var(--muted);margin-top:6px">Appearance may vary by device, OS version, and app. Unicode support has been broad on devices made after 2018.</p>
+
+          <h2>Cursive Font Generator: Copy and Paste</h2>
+          <p>The core use case is simple: generate a cursive text style, copy it, and paste it into the app or field where you need it. Because the output is plain Unicode text, there is no image to embed, no font to install, and no compatibility hurdle. Here is a live example synced from the generator above:</p>
+
+          <div class="mini-demo">
+            <div class="mini-demo-label">Your text</div>
+            <div class="mini-demo-input-text" id="mini-input-display">Cursive Font Generator</div>
+            <div class="mini-demo-arrow">↓</div>
+            <div class="mini-demo-label">Fancy cursive</div>
+            <div class="mini-demo-output-row">
+              <div class="mini-demo-output" id="mini-output">𝒞𝓊𝓇𝓈𝒾𝓋𝑒 𝐹𝑜𝓃𝓉 𝒢𝑒𝓃𝑒𝓇𝒶𝓉𝑜𝓇</div>
+              <button class="mini-copy-btn" id="mini-copy-btn">Copy</button>
+            </div>
+          </div>
+
+          <h2>Cursive Fonts for Different Uses</h2>
+          <h3>Cursive Fonts for Instagram</h3>
+          <p>Instagram supports Unicode in both the Name field and the bio. The Name field is what appears in search results, so using a distinctive cursive font style there can make your profile more recognisable. Bold Cursive is the recommended style because its heavier weight remains legible at the small size Instagram renders text on mobile devices. Fancy Cursive Script is the more elegant option for bio text, where readers zoom in to read.</p>
+
+          <h3>Cursive Fonts for Tattoos</h3>
+          <p>Tattoo artists and clients use cursive font generators to sketch out lettering concepts before committing to a design. Generate your phrase in several styles, take a screenshot, and bring it to your consultation as a reference. The calligraphy and gothic styles in particular are popular for tattoo lettering — they draw from the same Fraktur traditions used in traditional tattoo script. For dedicated tattoo font styles, bookmark the Gothic tab in the generator above.</p>
+
+          <h3>Cursive Fonts for Names and Bios</h3>
+          <p>A cursive name generator is one of the most common uses for this tool. Enter your name, browse the styles, and paste the result into your Instagram Name field, TikTok display name, Discord username, or any other profile. Fancy Cursive and Bold Cursive are the most popular choices for names because they are both recognisably script-style and broadly readable.</p>
+
+          <h3>Cursive Fonts for Social Media</h3>
+          <p>Beyond profile names and bios, cursive font text works in captions, comments, tweets, status messages, and group names. Short phrases in cursive stand out in a feed of plain text. For longer posts, use cursive sparingly — a single cursive line in an otherwise plain caption draws the eye more effectively than a wall of styled text.</p>
+
+          <h2>Popular Cursive Text Examples</h2>
+          <p>Here are common phrases in different cursive font styles to show what your text will look like before you type it.</p>
+
+          <div class="examples-grid">
+            <div class="example-card">
+              <div class="example-card-label">Fancy Cursive</div>
+              <div class="example-card-text">𝒽𝑒𝓁𝓁𝑜 𝓌𝑜𝓇𝓁𝒹</div>
+              <button class="example-copy-btn" data-copy="𝒽𝑒𝓁𝓁𝑜 𝓌𝑜𝓇𝓁𝒹">Copy</button>
+            </div>
+            <div class="example-card">
+              <div class="example-card-label">Bold Cursive</div>
+              <div class="example-card-text">𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭</div>
+              <button class="example-copy-btn" data-copy="𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭">Copy</button>
+            </div>
+            <div class="example-card">
+              <div class="example-card-label">Italic Cursive</div>
+              <div class="example-card-text">𝐻𝑒𝑙𝑙𝑜 𝑊𝑜𝑟𝑙𝑑</div>
+              <button class="example-copy-btn" data-copy="𝐻𝑒𝑙𝑙𝑜 𝑊𝑜𝑟𝑙𝑑">Copy</button>
+            </div>
+            <div class="example-card">
+              <div class="example-card-label">Gothic / Calligraphy</div>
+              <div class="example-card-text">ℌ𝔢𝔩𝔩𝔬 𝔚𝔬𝔯𝔩𝔡</div>
+              <button class="example-copy-btn" data-copy="ℌ𝔢𝔩𝔩𝔬 𝔚𝔬𝔯𝔩𝔡">Copy</button>
+            </div>
+          </div>
+
+          <h2>Where Can You Use Cursive Text?</h2>
+          <div class="platform-grid">
+            <div class="platform-card">
+              <span class="platform-icon">📸</span>
+              <h3>Instagram</h3>
+              <p>Bio, Name field, captions, comments. The Name field appears in search — cursive fonts help your profile stand out.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">🎵</span>
+              <h3>TikTok</h3>
+              <p>Display name and bio. Bold Cursive stays legible at TikTok's smaller comment font sizes.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">💬</span>
+              <h3>WhatsApp</h3>
+              <p>Messages, status, group names, display name. Unicode text pastes directly — no image needed.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">🎮</span>
+              <h3>Discord</h3>
+              <p>Display name, server names, messages. Gothic and Bold Script styles are popular in gaming communities.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">🐦</span>
+              <h3>Twitter / X</h3>
+              <p>Bio, display name, posts. Works on both web and mobile app.</p>
+            </div>
+            <div class="platform-card">
+              <span class="platform-icon">📧</span>
+              <h3>Email &amp; Docs</h3>
+              <p>Email signatures, Google Docs headings, Notion pages, Slack messages, presentation titles.</p>
+            </div>
+          </div>
+
+          <h2>Frequently Asked Questions</h2>
+
+          <details class="faq-item">
+            <summary>What is a cursive font generator?</summary>
+            <p>A cursive font generator converts normal text into cursive-style Unicode characters. Because the output is standard text — not an image or font file — it can be copied and pasted into Instagram, TikTok, WhatsApp, Discord, Twitter/X, and anywhere else that accepts Unicode. No font download or installation is required on either end.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is the cursive font generator free?</summary>
+            <p>Yes — completely free with no account, no sign-up, and no usage limit. Type your text, choose a style from the category tabs, and copy in one click.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I copy and paste cursive fonts?</summary>
+            <p>Type in the generator above, then click Copy next to any result. Use Copy All to grab all visible styles at once. Paste with Ctrl+V (Windows) or Cmd+V (Mac), or long-press → Paste on mobile. The text works in any field that accepts Unicode — no additional steps needed.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is this actually a font, or is it Unicode?</summary>
+            <p>It is Unicode text, not a downloadable font file. Each letter is mapped to a matching character in the Unicode Mathematical Script, Bold Script, or Fraktur blocks — characters built into every modern device. The result looks like a cursive font but travels as plain text. For real .ttf / .otf font files, see our <a href="/cursive-fonts.html">cursive fonts</a> page.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which cursive font is best for Instagram?</summary>
+            <p>Bold Cursive (𝓗𝓮𝓵𝓵𝓸) is the top choice for Instagram because its heavier stroke weight stays legible on mobile at the small size Instagram uses for Name fields and bios. Fancy Cursive Script (𝒽𝑒𝓁𝓁𝑜) is more delicate and elegant — best when readers will zoom in to read the bio, not just skim it.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why does cursive text look different on some devices?</summary>
+            <p>Unicode rendering depends on the fonts installed on the viewer's OS and the app's own Unicode support level. Most devices made after 2018 render cursive styles correctly. Bold Cursive has the broadest compatibility because its heavier weight is less dependent on fine rendering detail. Test with a short word in the target app before sharing widely.</p>
+          </details>
+
+          <h2>Explore More Cursive Generators</h2>
+          <div class="related-grid">
+            <a class="related-card" href="/">
+              <strong>Cursive Text Generator</strong>
+              <span>The full collection — 300+ styles covering every cursive, gothic, aesthetic, bubble and fancy variant.</span>
+            </a>
+            <a class="related-card" href="/cursive-bold-generator.html">
+              <strong>Cursive Bold Generator</strong>
+              <span>Focused on bold cursive styles — 106 heavy-stroke script variants for maximum visual impact.</span>
+            </a>
+            <a class="related-card" href="/calligraphy-text-generator.html">
+              <strong>Calligraphy Text Generator</strong>
+              <span>Unicode calligraphy plus real Google Fonts preview (Great Vibes, Dancing Script) with PNG download.</span>
+            </a>
+            <a class="related-card" href="/fancy-text-generator.html">
+              <strong>Fancy Text Generator</strong>
+              <span>All 300+ fancy Unicode styles in one place — cursive, italic, bubble letters, aesthetic, glitch and more.</span>
+            </a>
+          </div>
+
         </article>
       </div>
     </section>
 
-    <!-- RELATED TOOLS -->
-    <section class="related-tools">
-      <div class="wrap">
-        <div class="section-heading">
-          <span class="eyebrow">More tools</span>
-          <h2>Related Cursive Tools</h2>
-        </div>
-        <div class="tool-grid">
-          <a class="tool-card" href="/">
-            <span>𝒞</span>
-            <strong>Cursive Generator</strong>
-            <em>The main cursive text generator for any word or phrase.</em>
-          </a>
-          <a class="tool-card" href="cursive-writing-generator.html">
-            <span>𝒲</span>
-            <strong>Cursive Writing Generator</strong>
-            <em>Generate handwriting-style cursive script for invitations and creative projects.</em>
-          </a>
-          <a class="tool-card" href="free-commercial-cursive-fonts.html">
-            <span>𝒻</span>
-            <strong>Free Cursive Fonts</strong>
-            <em>Downloadable cursive fonts cleared for commercial use in logos and branding.</em>
-          </a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
+    <div class="footer-body">
+      <div class="footer-col">
+        <strong class="footer-col-title">Cursive Tools</strong>
+        <a href="/">Cursive Text Generator</a>
+        <a href="/cursive-font-generator.html">Font Generator</a>
+        <a href="/cursive-converter/">Cursive Converter</a>
+      </div>
+      <div class="footer-col">
+        <strong class="footer-col-title">Popular Styles</strong>
+        <a href="/fancy-text-generator.html">Fancy Text</a>
+        <a href="/calligraphy-text-generator.html">Calligraphy</a>
+        <a href="/cursive-bold-generator.html">Bold Cursive</a>
+      </div>
+      <div class="footer-col">
+        <strong class="footer-col-title">Resources</strong>
+        <a href="/cursive-fonts.html">Cursive Fonts</a>
+        <a href="/cursive-alphabet.html">Cursive Alphabet</a>
+        <a href="/cursive-practice-sheets/">Practice Sheets</a>
+      </div>
+    </div>
     <div class="footer-inner">
       <span>Cursive Text Generator</span>
       <span class="footer-links">
-        <a href="/">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms</a>
-        <a href="cursive-fonts.html">Cursive Fonts</a>
         <a href="canva-signature-logo-templates.html">Templates</a>
         <a href="partners.html">Partners</a>
       </span>
     </div>
   </footer>
+
   <div class="toast" data-toast role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=20260814" defer></script>
+
+  <script src="assets/style-engine.js?v=20260818" defer></script>
+  <script src="assets/fancy-app.js?v=20260818" defer></script>
   <script>
-    function toggleNav(btn){
-      var d=document.getElementById('nav-drawer');
-      var open=d.classList.toggle('open');
-      btn.classList.toggle('open',open);
-      btn.setAttribute('aria-expanded',open);
-      document.body.style.overflow=open?'hidden':'';
+    function toggleNav(btn) {
+      var d = document.getElementById('nav-drawer');
+      var open = d.classList.toggle('open');
+      btn.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', open);
+      document.body.style.overflow = open ? 'hidden' : '';
     }
-    document.addEventListener('DOMContentLoaded',function(){
-      var d=document.getElementById('nav-drawer');
-      if(d) d.querySelectorAll('a').forEach(function(a){
-        a.addEventListener('click',function(){
-          d.classList.remove('open');
-          var b=document.querySelector('.nav-burger');
-          if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}
-          document.body.style.overflow='';
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+      /* Nav drawer */
+      var drawer = document.getElementById('nav-drawer');
+      if (drawer) drawer.querySelectorAll('a').forEach(function(a) {
+        a.addEventListener('click', function() {
+          drawer.classList.remove('open');
+          var b = document.querySelector('.nav-burger');
+          if (b) { b.classList.remove('open'); b.setAttribute('aria-expanded','false'); }
+          document.body.style.overflow = '';
         });
       });
+
+      /* Char counter */
+      var input   = document.querySelector('[data-fg-input]');
+      var countEl = document.getElementById('char-count');
+      if (input && countEl) {
+        countEl.textContent = input.value.length;
+        input.addEventListener('input', function() { countEl.textContent = input.value.length; });
+      }
+
+      /* Copy All */
+      var resultsEl  = document.querySelector('[data-fg-results]');
+      var copyAllBtn = document.getElementById('copy-all-btn');
+      if (copyAllBtn && resultsEl) {
+        copyAllBtn.addEventListener('click', function() {
+          var outputs = resultsEl.querySelectorAll('[data-fg-output]');
+          var lines = [];
+          outputs.forEach(function(el) { var t = el.textContent.trim(); if (t) lines.push(t); });
+          if (!lines.length) return;
+          navigator.clipboard.writeText(lines.join('\n')).then(function() {
+            copyAllBtn.textContent = '✓ All Copied!';
+            copyAllBtn.classList.add('done');
+            setTimeout(function() { copyAllBtn.innerHTML = '&#10064; Copy All'; copyAllBtn.classList.remove('done'); }, 2000);
+          });
+        });
+      }
+
+      /* Mini demo — sync from first cursive result */
+      var miniInputDisplay = document.getElementById('mini-input-display');
+      var miniOutput       = document.getElementById('mini-output');
+      var miniCopyBtn      = document.getElementById('mini-copy-btn');
+
+      function syncMini() {
+        if (input && miniInputDisplay) {
+          miniInputDisplay.textContent = input.value.trim() || (input.getAttribute('placeholder') || 'Cursive Font Generator');
+        }
+        if (resultsEl && miniOutput) {
+          var first = resultsEl.querySelector('[data-fg-output]');
+          if (first && first.textContent.trim()) miniOutput.textContent = first.textContent.trim();
+        }
+      }
+
+      if (resultsEl) new MutationObserver(syncMini).observe(resultsEl, {childList:true, subtree:true, characterData:true});
+      if (input) input.addEventListener('input', function() { setTimeout(syncMini, 80); });
+      syncMini();
+
+      if (miniCopyBtn && miniOutput) {
+        miniCopyBtn.addEventListener('click', function() {
+          var text = miniOutput.textContent.trim();
+          if (!text) return;
+          navigator.clipboard.writeText(text).then(function() {
+            miniCopyBtn.textContent = '✓ Copied';
+            setTimeout(function() { miniCopyBtn.textContent = 'Copy'; }, 2000);
+          });
+        });
+      }
+
+      /* Example copy buttons */
+      document.querySelectorAll('.example-copy-btn[data-copy]').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var text = btn.getAttribute('data-copy');
+          if (!text) return;
+          navigator.clipboard.writeText(text).then(function() {
+            var orig = btn.textContent;
+            btn.textContent = '✓ Copied';
+            setTimeout(function() { btn.textContent = orig; }, 2000);
+          });
+        });
+      });
+
     });
   </script>
 </body>
