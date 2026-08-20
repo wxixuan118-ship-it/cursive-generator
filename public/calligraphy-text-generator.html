@@ -21,28 +21,126 @@
       })(window,document,"clarity","script","xtizgdek92");
     },2000);});
   </script>
-  <title>Calligraphy Text Generator - Copy & Paste Elegant Script</title>
-  <meta name="description" content="Free calligraphy text generator for elegant script-style Unicode letters. Create, preview, and copy calligraphy text for cards, names, invitations, and bios.">
+  <title>Calligraphy Text Generator — Copy &amp; Paste + Real Font Preview</title>
+  <meta name="description" content="Free calligraphy text generator with two modes: Unicode copy-and-paste calligraphy for Instagram, TikTok, WhatsApp and Discord, plus 10 real calligraphy font previews with PNG download.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.cursive-text-generator.net/calligraphy-text-generator.html">
-  <meta property="og:title" content="Calligraphy Text Generator - Copy & Paste Elegant Script">
-  <meta property="og:description" content="Free calligraphy text generator for elegant script-style Unicode letters. Create, preview, and copy calligraphy text for cards, names, invitations, and bios.">
+  <meta property="og:title" content="Calligraphy Text Generator — Copy &amp; Paste + Real Font Preview">
+  <meta property="og:description" content="Free calligraphy text generator with two modes: Unicode copy-and-paste calligraphy for Instagram, TikTok, WhatsApp and Discord, plus 10 real calligraphy font previews with PNG download.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <!-- Google Fonts for real calligraphy preview -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&family=Tangerine:wght@400;700&family=Pinyon+Script&family=Sacramento&family=Allura&family=Pacifico&family=Satisfy&family=Alex+Brush&family=Yellowtail&display=swap" rel="stylesheet">
   <link rel="preload" href="assets/styles.css?v=20260812-compact" as="style">
   <link rel="stylesheet" href="assets/styles.css?v=20260812-compact">
+
+  <style>
+    /* ── Single-column generator layout ── */
+    .generator-shell{grid-template-columns:1fr!important;gap:0!important}
+    .input-panel{position:static!important;padding:0 0 20px;border:none!important;background:transparent!important;box-shadow:none!important;border-bottom:1px solid var(--line);margin-bottom:20px}
+    textarea[data-fg-input]{min-height:80px;font-size:17px}
+
+    /* ── Category label ── */
+    .fg-cat-label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--sage);margin:0 0 8px;display:flex;align-items:center;gap:6px}
+    .fg-cat-label::before{content:"";width:20px;height:2px;background:var(--coral)}
+
+    /* ── Category tabs ── */
+    .fg-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px;padding:0}
+    .fg-tab{padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--muted);font-size:13px;cursor:pointer;transition:all .15s;white-space:nowrap;display:inline-flex;align-items:center}
+    .fg-tab:hover{border-color:var(--sage);color:var(--sage)}
+    .fg-tab.active{background:var(--sage);color:#fff;border-color:var(--sage)}
+    .fg-tab-count{display:inline-flex;align-items:center;justify-content:center;background:var(--line);border-radius:999px;font-size:11px;font-weight:700;min-width:20px;height:18px;padding:0 5px;margin-left:5px;line-height:1;color:var(--muted)}
+    .fg-tab.active .fg-tab-count{background:rgba(255,255,255,.25);color:#fff}
+
+    /* ── Platform paste strip ── */
+    .platform-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;background:var(--paper)}
+    .platform-strip .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+    .platform-label{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px;flex-shrink:0}
+    .platform-chip{display:inline-flex;align-items:center;gap:5px;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:13px;background:var(--bg);color:var(--body);white-space:nowrap}
+
+    /* ── Real Font Preview ── */
+    .fp-section{padding:64px 0}
+    .fp-controls{display:flex;flex-wrap:wrap;gap:20px;margin-bottom:24px;padding:18px 20px;background:var(--paper);border:1px solid var(--line);border-radius:12px;align-items:flex-end}
+    .fp-ctrl{display:flex;flex-direction:column;gap:5px}
+    .fp-ctrl label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+    .fp-ctrl input[type=range]{width:130px;accent-color:var(--sage);cursor:pointer}
+    .fp-ctrl input[type=color]{width:44px;height:34px;border:1px solid var(--line);border-radius:8px;padding:2px 3px;cursor:pointer;background:none}
+    .fp-val{font-size:12px;color:var(--sage);font-weight:700}
+    .fp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+    .fp-card{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper);transition:box-shadow .15s}
+    .fp-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.08)}
+    .fp-preview{padding:28px 20px;min-height:96px;display:flex;align-items:center;justify-content:center;text-align:center;word-break:break-word;line-height:1.3}
+    .fp-foot{display:flex;align-items:center;justify-content:space-between;padding:9px 14px;border-top:1px solid var(--line)}
+    .fp-font-name{font-size:12px;color:var(--muted);font-weight:600}
+    .fp-dl-btn{font-size:12px;padding:5px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--body);cursor:pointer;transition:all .15s;font-family:inherit}
+    .fp-dl-btn:hover{background:var(--sage);color:#fff;border-color:var(--sage)}
+
+    /* ── WhatsApp guide ── */
+    .wp-section{padding:64px 0;background:var(--paper);border-top:1px solid var(--line)}
+    .wp-steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin:28px 0 32px}
+    .wp-step{display:flex;gap:14px;align-items:flex-start}
+    .wp-num{flex-shrink:0;width:32px;height:32px;border-radius:50%;background:var(--sage);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center}
+    .wp-text{font-size:15px;color:var(--body);padding-top:4px}
+    .tip-card{background:var(--bg);border:1px solid var(--line);border-left:4px solid var(--sage);border-radius:8px;padding:16px 20px;max-width:640px;font-size:14px;line-height:1.6;color:var(--body)}
+    .tip-card strong{color:var(--sage)}
+  </style>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Calligraphy Text Generator",
-    "applicationCategory": "UtilitiesApplication",
-    "operatingSystem": "Any",
-    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-    "description": "Free calligraphy text generator for elegant script-style Unicode letters. Create, preview, and copy calligraphy text for cards, names, invitations, and bios."
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Cursive Text Generator","item":"https://www.cursive-text-generator.net/"},
+          {"@type":"ListItem","position":2,"name":"Calligraphy Text Generator","item":"https://www.cursive-text-generator.net/calligraphy-text-generator.html"}
+        ]
+      },
+      {
+        "@type": "WebApplication",
+        "name": "Calligraphy Text Generator",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"},
+        "url": "https://www.cursive-text-generator.net/calligraphy-text-generator.html",
+        "description": "Free online calligraphy text generator with Unicode copy-and-paste styles and real calligraphy font previews with PNG download."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a calligraphy text generator?",
+            "acceptedAnswer": {"@type":"Answer","text":"A calligraphy text generator converts plain text into calligraphy-style characters. This tool offers two modes: Unicode calligraphy you can copy and paste into Instagram, TikTok, WhatsApp, and Discord without any app, and real calligraphy font previews (Great Vibes, Dancing Script, Tangerine, and more) you can download as a PNG image."}
+          },
+          {
+            "@type": "Question",
+            "name": "Can I paste calligraphy text into Instagram, TikTok, and WhatsApp?",
+            "acceptedAnswer": {"@type":"Answer","text":"Yes. The Unicode calligraphy styles in this generator are standard Unicode characters, not images or fonts. They paste directly into Instagram bio and name, TikTok username, WhatsApp status and messages, Discord display name, and most modern apps and websites."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do I use calligraphy text in WhatsApp?",
+            "acceptedAnswer": {"@type":"Answer","text":"Type your message or name in the text field, click the Cursive tab to see calligraphy styles, click Copy on the style you want, then open WhatsApp and paste. Unicode calligraphy works in WhatsApp messages, group chat names, status, and display name — no image needed."}
+          },
+          {
+            "@type": "Question",
+            "name": "What fonts are in the calligraphy font preview?",
+            "acceptedAnswer": {"@type":"Answer","text":"The real font preview includes Great Vibes, Dancing Script, Tangerine, Pinyon Script, Sacramento, Allura, Pacifico, Satisfy, Alex Brush, and Yellowtail. These are genuine calligraphy and script Google Fonts rendered live in your browser, with adjustable size, letter spacing, and colours, then downloadable as PNG."}
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Unicode calligraphy and real calligraphy fonts?",
+            "acceptedAnswer": {"@type":"Answer","text":"Unicode calligraphy uses special characters built into the Unicode standard that look like calligraphy and can be pasted anywhere text is accepted — social media bios, chat messages, email. Real calligraphy fonts are typefaces (Great Vibes, Tangerine, etc.) that produce a more authentic handwritten look but must be shared as an image. Use Unicode for pasting anywhere; use font preview and PNG download for design projects, cards, and invitations."}
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -74,6 +172,7 @@
     <div class="nav-mobile-section">
       <div class="nav-mobile-label">Tools</div>
       <a href="/">Cursive Generator</a>
+      <a href="/cursive-writing-generator.html">Writing Generator</a>
       <a href="/fancy-text-generator.html">Fancy Text Generator</a>
     </div>
     <div class="nav-mobile-section">
@@ -84,72 +183,193 @@
 
   <main class="page">
 
+    <!-- ═══════════════════════════════════════════════════
+         A: UNICODE CALLIGRAPHY GENERATOR
+    ════════════════════════════════════════════════════ -->
     <section class="tool-section" id="tool">
       <div class="wrap">
         <div class="tool-intro">
           <div>
-            <span class="eyebrow">Elegant script-style text online</span>
+            <span class="eyebrow">Unicode · instant copy · 300+ calligraphy styles</span>
             <h1>Calligraphy Text Generator</h1>
-            <p>Create calligraphy-style text without downloading fonts. Enter a word or message, preview elegant script letters, and copy the version that fits your card, bio, invitation, or note.</p>
+            <p>Create beautiful calligraphy text online for free. Type your text, choose a style, then copy and paste it into Instagram, TikTok, WhatsApp, or Discord — or scroll down to preview real calligraphy fonts and download as PNG.</p>
           </div>
-          </div>
+        </div>
+
         <div class="generator-shell">
           <div class="panel input-panel">
-            <label for="text-input">Enter your text</label>
-            <textarea id="text-input" data-input placeholder="Calligraphy Text">Calligraphy Text</textarea>
+            <label for="calli-input">Enter your text</label>
+            <textarea id="calli-input" data-fg-input placeholder="Your Name">Your Name</textarea>
             <div class="controls">
-              <div class="select-wrap">
-                <label for="preset">Style</label>
-                <select id="preset" data-preset>
-                  <option value="all">All styles</option>
-                  <option value="script" selected>Cursive Script</option>
-                  <option value="boldScript">Bold Cursive</option>
-                  <option value="fraktur">Old Style Script</option>
-                  <option value="double">Double-Struck</option>
-                  <option value="monospace">Clean Fancy</option>
-                </select>
-              </div>
-              <button class="button secondary" type="button" data-clear>Clear</button>
+              <button class="button secondary" type="button" data-fg-clear>Clear</button>
             </div>
-            <p class="meta-note">Use the 1-click copy button, then preview the result inside the app or page where you plan to paste it.</p>
+            <p class="meta-note">Click any result once to copy it instantly — no right-click needed. Unicode calligraphy pastes directly into social bios, chat messages, and most text fields on any device.</p>
           </div>
-          <div class="results" data-results aria-live="polite"></div>
+          <div>
+            <div class="fg-cat-label">Calligraphy Styles</div>
+            <div data-fg-tabs data-fg-emoji-tabs class="fg-tabs" role="tablist" aria-label="Style categories"></div>
+            <div data-fg-results data-fg-default-cat="cursive" aria-live="polite"></div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Platform paste strip -->
+    <div class="platform-strip">
+      <div class="wrap">
+        <span class="platform-label">Paste to</span>
+        <span class="platform-chip">📸 Instagram</span>
+        <span class="platform-chip">🎵 TikTok</span>
+        <span class="platform-chip">💬 WhatsApp</span>
+        <span class="platform-chip">🎮 Discord</span>
+        <span class="platform-chip">👤 Facebook</span>
+        <span class="platform-chip">🐦 Twitter / X</span>
+        <span class="platform-chip">📧 Email Signature</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         B: REAL CALLIGRAPHY FONT PREVIEW
+    ════════════════════════════════════════════════════ -->
+    <section class="fp-section" id="font-preview">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">Real calligraphy fonts · PNG download</span>
+          <h2>Calligraphy Font Preview</h2>
+          <p>See your text rendered in 10 authentic calligraphy and script typefaces. Adjust size, letter spacing, and colours — then download as a PNG image for cards, invitations, or design projects.</p>
+        </div>
+
+        <div class="fp-controls">
+          <div class="fp-ctrl">
+            <label for="fp-size">Font size</label>
+            <input type="range" id="fp-size" min="18" max="72" value="42">
+            <span class="fp-val" id="fp-size-val">42px</span>
+          </div>
+          <div class="fp-ctrl">
+            <label for="fp-spacing">Letter spacing</label>
+            <input type="range" id="fp-spacing" min="0" max="12" value="1" step="0.5">
+            <span class="fp-val" id="fp-spacing-val">1px</span>
+          </div>
+          <div class="fp-ctrl">
+            <label for="fp-color">Text colour</label>
+            <input type="color" id="fp-color" value="#1a1a2e">
+          </div>
+          <div class="fp-ctrl">
+            <label for="fp-bg">Background</label>
+            <input type="color" id="fp-bg" value="#fff8f0">
+          </div>
+        </div>
+
+        <div class="fp-grid" id="fp-grid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+         C: WHATSAPP GUIDE
+    ════════════════════════════════════════════════════ -->
+    <section class="wp-section" id="whatsapp">
+      <div class="wrap">
+        <span class="eyebrow">Platform guide</span>
+        <h2>Calligraphy Text Generator for WhatsApp</h2>
+        <p>WhatsApp supports Unicode text in messages, group names, status, and display name — which means the calligraphy styles generated above work directly in WhatsApp without screenshots or image sharing.</p>
+
+        <div class="wp-steps">
+          <div class="wp-step">
+            <div class="wp-num">1</div>
+            <div class="wp-text">Type your message or name in the <a href="#tool">text field above</a></div>
+          </div>
+          <div class="wp-step">
+            <div class="wp-num">2</div>
+            <div class="wp-text">Click the <strong>Cursive</strong> tab to filter calligraphy styles</div>
+          </div>
+          <div class="wp-step">
+            <div class="wp-num">3</div>
+            <div class="wp-text">Click <strong>Copy</strong> on any style you want to use</div>
+          </div>
+          <div class="wp-step">
+            <div class="wp-num">4</div>
+            <div class="wp-text">Open WhatsApp and paste — works in chat, Status, and display name</div>
+          </div>
+        </div>
+
+        <p class="tip-card"><strong>Tip:</strong> Bold Cursive and Cursive Script both render clearly at WhatsApp's small message font size. If you are sending to people who may have older Android devices, test with a short word first — very ornate styles may show as boxes on devices without full Unicode support. Most phones from 2018 onwards render all styles correctly.</p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════
+         D: SEO CONTENT
+    ════════════════════════════════════════════════════ -->
     <section class="seo-section" id="guide">
       <div class="wrap seo-layout">
         <aside class="seo-aside">
           <h2>Related Searches</h2>
           <div class="keyword-list">
             <span>calligraphy text generator</span>
-            <span>script text generator</span>
-            <span>cursive font generator</span>
-            <span>invitation text</span>
-            <span>copyable calligraphy</span>
+            <span>calligraphy text copy and paste</span>
+            <span>calligraphy font generator</span>
+            <span>calligraphy name generator</span>
+            <span>calligraphy text for whatsapp</span>
+            <span>calligraphy text for instagram</span>
+            <span>great vibes font</span>
+            <span>dancing script font</span>
             <a href="/">cursive generator</a>
-            <a href="/">cursive text generator</a>
+            <a href="/cursive-text-generator.html">cursive text generator</a>
+            <a href="/cursive-bold-generator.html">bold cursive generator</a>
+            <a href="/fancy-text-generator.html">fancy text generator</a>
+            <a href="/cursive-fonts.html">cursive fonts</a>
+            <a href="/cursive-alphabet.html">cursive alphabet</a>
           </div>
         </aside>
         <article class="seo-copy">
-          <h2>Calligraphy Text Generator Guide</h2>
-          <h3>What This Generator Does</h3>
-          <p>A calligraphy text generator turns plain letters into decorative Unicode characters with a script or handwritten look. It is useful when you want a graceful accent quickly without opening a design program.</p>
-          <h3>Cards and Invitations</h3>
-          <p>Calligraphy text is a natural fit for greetings, thank-you notes, wedding messages, birthday cards, and invitation headings. Use it for names, opening words, and closing lines rather than entire paragraphs.</p>
-          <h3>No Font Download Needed</h3>
-          <p>The result is copyable text, not a font file. That means you can paste it into many fields that do not allow custom fonts, including profile pages, captions, comments, and notes.</p>
-          <h3>Preview Before Publishing</h3>
-          <p>Different systems may show script characters with different spacing. Paste the result into your final destination and check it on both phone and desktop before saving.</p>
-          <h3>Related Cursive Tools</h3>
-          <p>For broader styles, start with the <a href="/">cursive generator</a>. You can also try the <a href="/">cursive text generator</a>, <a href="cursive-bold-generator.html">cursive bold generator</a>, <a href="calligraphy-text-generator.html">calligraphy text generator</a>, handwriting font generator, and <a href="cursive-letters-a-z.html">cursive letters A-Z</a> reference.</p>
+          <h2>Complete Guide to Calligraphy Text Generators</h2>
+
+          <h3>What Is a Calligraphy Text Generator?</h3>
+          <p>A calligraphy text generator is an online tool that transforms plain text into calligraphy-style lettering. This tool offers two distinct modes. The first produces Unicode calligraphy — special characters that look like elegant script and can be copied and pasted into any text field, social media profile, chat message, or document without installing a single font. The second renders your text in genuine calligraphy typefaces (Great Vibes, Tangerine, Dancing Script, and seven others) and lets you download a PNG image for design work.</p>
+
+          <h3>Unicode Calligraphy vs. Real Calligraphy Fonts</h3>
+          <p>Unicode calligraphy characters such as 𝒴𝑜𝓊𝓇 𝒩𝒶𝓂ℯ or 𝓨𝓸𝓾𝓻 𝓝𝓪𝓶𝓮 are genuine characters encoded in the Unicode standard, the same system that defines every letter, number, emoji, and symbol on your device. They paste directly into Instagram bios, TikTok usernames, WhatsApp messages, Discord display names, Twitter/X bios, and ordinary documents — no font file is needed on either the sender's or the viewer's device.</p>
+          <p>Real calligraphy fonts — Great Vibes, Tangerine, Pinyon Script, Allura, and the other typefaces in the preview section — are typefaces that produce a more authentic, hand-lettered appearance. They cannot be pasted as plain text; they are shared as images. Use the font preview for cards, invitations, logos, social media graphics, and any situation where an image is the intended output.</p>
+
+          <h3>Calligraphy for Instagram and TikTok</h3>
+          <p>Unicode calligraphy is popular for Instagram bios, display names, and captions because it appears as text rather than as an image — meaning it is searchable, accessible to screen readers, and renders at any resolution. The most widely used calligraphy styles on Instagram are Cursive Script (𝒴𝑜𝓊𝓇 𝒩𝒶𝓂ℯ), Bold Cursive (𝓨𝓸𝓾𝓻 𝓝𝓪𝓶𝓮), and Old Style Script (𝔜𝔬𝔲𝔯 𝔑𝔞𝔪𝔢). On TikTok, Bold Cursive is particularly effective in display names because it remains legible at the small sizes TikTok uses in comment threads.</p>
+
+          <h3>Calligraphy for Cards and Invitations</h3>
+          <p>For printed or digital cards, wedding invitations, birthday announcements, and thank-you notes, the real font preview section is the right tool. Type your name or message, choose a font — Pinyon Script and Great Vibes suit formal occasions; Sacramento and Alex Brush suit modern minimalist designs — adjust the font size and letter spacing, set the text and background colours to match your project, and download the PNG. The downloaded image can be inserted into any design software, Google Slides, Canva, or shared directly.</p>
+
+          <h3>Which Calligraphy Fonts Are Available?</h3>
+          <p>The font preview includes ten typefaces. <strong>Great Vibes</strong> is a flowing, large-loop formal script. <strong>Dancing Script</strong> is lively informal handwriting that reads naturally in both long words and short names. <strong>Tangerine</strong> is thin and elegant, ideal for formal headings. <strong>Pinyon Script</strong> recreates Victorian-era copperplate calligraphy. <strong>Sacramento</strong> is a minimalist modern brush script. <strong>Allura</strong> has smooth, deeply connected strokes. <strong>Pacifico</strong> is a retro casual brush script with a 1950s feel. <strong>Satisfy</strong> is an informal brush hand. <strong>Alex Brush</strong> is a refined pointed-pen brush script. <strong>Yellowtail</strong> is a connected retro brush face. All are available under the SIL Open Font Licence.</p>
+
+          <h3>How to Download Calligraphy as a PNG</h3>
+          <p>Type your text in the generator at the top of this page. Scroll to the Calligraphy Font Preview section. Use the size and letter-spacing sliders to adjust the layout. Set the text and background colours with the colour pickers. Click the <em>PNG</em> button on any font card. The image downloads immediately — no sign-up required.</p>
         </article>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
+    <div class="footer-body">
+      <div class="footer-col">
+        <strong class="footer-col-title">Cursive Tools</strong>
+        <a href="/">Cursive Text Generator</a>
+        <a href="/cursive-font-generator.html">Font Generator</a>
+        <a href="/cursive-converter/">Cursive Converter</a>
+      </div>
+      <div class="footer-col">
+        <strong class="footer-col-title">Popular Styles</strong>
+        <a href="/fancy-text-generator.html">Fancy Text</a>
+        <a href="/cursive-bold-generator.html">Bold Cursive</a>
+        <a href="/calligraphy-text-generator.html">Calligraphy</a>
+      </div>
+      <div class="footer-col">
+        <strong class="footer-col-title">Resources</strong>
+        <a href="/cursive-alphabet.html">Cursive Alphabet</a>
+        <a href="/cursive-practice-sheets/">Practice Sheets</a>
+        <a href="/cursive-letters-a-z.html">Cursive Letters A-Z</a>
+      </div>
+    </div>
     <div class="footer-inner">
       <span>Cursive Text Generator</span>
       <span class="footer-links">
@@ -162,27 +382,138 @@
       </span>
     </div>
   </footer>
+
   <div class="toast" data-toast role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=20260814" defer></script>
+
+  <script src="assets/style-engine.js?v=20260818" defer></script>
+  <script src="assets/fancy-app.js?v=20260818" defer></script>
   <script>
-    function toggleNav(btn){
-      var d=document.getElementById('nav-drawer');
-      var open=d.classList.toggle('open');
-      btn.classList.toggle('open',open);
-      btn.setAttribute('aria-expanded',open);
-      document.body.style.overflow=open?'hidden':'';
+    /* ── Real Calligraphy Font Preview ───────────────────────────── */
+    var FP_FONTS = [
+      {name:'Great Vibes',    family:"'Great Vibes', cursive"},
+      {name:'Dancing Script', family:"'Dancing Script', cursive"},
+      {name:'Tangerine',      family:"'Tangerine', cursive"},
+      {name:'Pinyon Script',  family:"'Pinyon Script', cursive"},
+      {name:'Sacramento',     family:"'Sacramento', cursive"},
+      {name:'Allura',         family:"'Allura', cursive"},
+      {name:'Pacifico',       family:"'Pacifico', cursive"},
+      {name:'Satisfy',        family:"'Satisfy', cursive"},
+      {name:'Alex Brush',     family:"'Alex Brush', cursive"},
+      {name:'Yellowtail',     family:"'Yellowtail', cursive"}
+    ];
+
+    function fpEsc(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
     }
-    // close drawer on link click
-    document.addEventListener('DOMContentLoaded',function(){
-      var d=document.getElementById('nav-drawer');
-      if(d) d.querySelectorAll('a').forEach(function(a){
-        a.addEventListener('click',function(){
-          d.classList.remove('open');
-          var b=document.querySelector('.nav-burger');
-          if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}
-          document.body.style.overflow='';
+
+    function initFontPreview() {
+      var input    = document.querySelector('[data-fg-input]');
+      var grid     = document.getElementById('fp-grid');
+      var sizeEl   = document.getElementById('fp-size');
+      var sizeVal  = document.getElementById('fp-size-val');
+      var spacEl   = document.getElementById('fp-spacing');
+      var spacVal  = document.getElementById('fp-spacing-val');
+      var colorEl  = document.getElementById('fp-color');
+      var bgEl     = document.getElementById('fp-bg');
+      if (!input || !grid) return;
+
+      function getText() {
+        return input.value.trim() || (input.getAttribute('placeholder') || 'Your Name');
+      }
+
+      function renderGrid() {
+        var text    = getText();
+        var size    = sizeEl.value;
+        var spacing = spacEl.value;
+        var color   = colorEl.value;
+        var bg      = bgEl.value;
+        sizeVal.textContent = size + 'px';
+        spacVal.textContent = spacing + 'px';
+
+        grid.innerHTML = FP_FONTS.map(function(f) {
+          return '<div class="fp-card">' +
+            '<div class="fp-preview" style="font-family:' + f.family + ';font-size:' + size + 'px;letter-spacing:' + spacing + 'px;color:' + color + ';background:' + bg + '">' +
+              fpEsc(text) +
+            '</div>' +
+            '<div class="fp-foot">' +
+              '<span class="fp-font-name">' + fpEsc(f.name) + '</span>' +
+              '<button class="fp-dl-btn" data-fp-dl="' + fpEsc(f.family) + '" data-fp-name="' + fpEsc(f.name) + '">&#8595; PNG</button>' +
+            '</div>' +
+          '</div>';
+        }).join('');
+      }
+
+      function downloadFontPng(text, family, size, spacing, color, bg, name) {
+        var px = parseInt(size, 10);
+        var ls = parseFloat(spacing) || 0;
+        document.fonts.load(px + 'px ' + family, text).then(function() {
+          var canvas = document.createElement('canvas');
+          var ctx    = canvas.getContext('2d');
+          var pad    = 48;
+          ctx.font   = px + 'px ' + family;
+          if ('letterSpacing' in ctx) ctx.letterSpacing = ls + 'px';
+          var tw = ctx.measureText(text).width + ls * Math.max(0, text.length - 1);
+          canvas.width  = Math.max(320, Math.ceil(tw) + pad * 2);
+          canvas.height = px * 2 + pad;
+          ctx.fillStyle = bg;
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          ctx.font          = px + 'px ' + family;
+          if ('letterSpacing' in ctx) ctx.letterSpacing = ls + 'px';
+          ctx.fillStyle     = color;
+          ctx.textBaseline  = 'middle';
+          ctx.textAlign     = 'center';
+          ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+          var a = document.createElement('a');
+          a.download = ((text.slice(0, 20) || 'calligraphy').replace(/[^a-z0-9]/gi, '-').toLowerCase()) +
+                       '-' + name.replace(/\s+/g, '-').toLowerCase() + '.png';
+          a.href = canvas.toDataURL('image/png');
+          a.click();
         });
+      }
+
+      input.addEventListener('input', renderGrid);
+      sizeEl.addEventListener('input', renderGrid);
+      spacEl.addEventListener('input', renderGrid);
+      colorEl.addEventListener('input', renderGrid);
+      bgEl.addEventListener('input', renderGrid);
+
+      grid.addEventListener('click', function(e) {
+        var btn = e.target.closest('[data-fp-dl]');
+        if (!btn) return;
+        downloadFontPng(
+          getText(),
+          btn.getAttribute('data-fp-dl'),
+          sizeEl.value, spacEl.value,
+          colorEl.value, bgEl.value,
+          btn.getAttribute('data-fp-name')
+        );
       });
+
+      renderGrid();
+    }
+
+    /* ── Nav toggle ───────────────────────────────────────────────── */
+    function toggleNav(btn) {
+      var d = document.getElementById('nav-drawer');
+      var open = d.classList.toggle('open');
+      btn.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', open);
+      document.body.style.overflow = open ? 'hidden' : '';
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      initFontPreview();
+      var drawer = document.getElementById('nav-drawer');
+      if (drawer) {
+        drawer.querySelectorAll('a').forEach(function(a) {
+          a.addEventListener('click', function() {
+            drawer.classList.remove('open');
+            var b = document.querySelector('.nav-burger');
+            if (b) { b.classList.remove('open'); b.setAttribute('aria-expanded', 'false'); }
+            document.body.style.overflow = '';
+          });
+        });
+      }
     });
   </script>
 </body>
