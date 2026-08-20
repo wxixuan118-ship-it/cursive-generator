@@ -1,12 +1,7 @@
 .DS_Store
 .vercel
 .vercel-home/
+.npm-cache/
 node_modules/
 *.log
-.npm-cache/
-scripts/
-package.json
 package-lock.json
-README.md
-README_DEPLOY.md
-cursive-generator-hero.png

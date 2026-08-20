@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "indexnow": "node scripts/submit-indexnow.mjs"
+  }
+}
