@@ -1,54 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.cursive-text-generator.net/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/calligraphy-text-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-bold-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-font-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-writing-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/fancy-text-generator.html</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/canva-signature-logo-templates.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-alphabet.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-fonts.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-letters-a-z.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-practice-sheets/</loc>
+    <loc>https://www.cursive-text-generator.net/cursive-practice-sheets</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-converter/</loc>
+    <loc>https://www.cursive-text-generator.net/cursive-converter</loc>
+    <priority>0.85</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-compatibility/</loc>
+    <loc>https://www.cursive-text-generator.net/cursive-compatibility</loc>
+    <priority>0.85</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/about.html</loc>
+    <loc>https://www.cursive-text-generator.net/cursive-name-generator</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/contact.html</loc>
+    <loc>https://www.cursive-text-generator.net/cursive-signature-generator</loc>
+    <priority>0.85</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/privacy.html</loc>
+    <loc>https://www.cursive-text-generator.net/cursive-name-tracing-generator</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.cursive-text-generator.net/terms.html</loc>
+    <loc>https://www.cursive-text-generator.net/cursive-name-practice-generator</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
+
 </urlset>
