@@ -1366,3 +1366,17 @@ select {
   .nav-group { display: none; }
   .nav-burger { display: flex; }
 }
+
+
+.cluster-flow {
+  margin: 28px 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--sage-soft);
+}
+.cluster-flow strong { display: block; margin-bottom: 8px; }
+.cluster-flow a { color: var(--sage); font-weight: 800; text-decoration: none; }
+.cluster-flow a:hover { text-decoration: underline; }
+.cluster-flow .flow-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.cluster-flow .flow-links a { padding: 7px 10px; border: 1px solid rgba(47,107,79,.2); border-radius: 8px; background: #fff; }

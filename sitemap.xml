@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- ── Homepage ── -->
   <url>
     <loc>https://www.cursive-text-generator.net/</loc>
   </url>
-  <!-- ── Generator tools ── -->
   <url>
-    <loc>https://www.cursive-text-generator.net/cursive-text-generator.html</loc>
+    <loc>https://www.cursive-text-generator.net/copy-and-paste/</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/letters/</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/names/</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/fonts/</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/worksheets/</loc>
   </url>
   <url>
     <loc>https://www.cursive-text-generator.net/type-cursive.html</loc>
@@ -15,7 +25,19 @@
     <loc>https://www.cursive-text-generator.net/cursive-name-generator.html</loc>
   </url>
   <url>
+    <loc>https://www.cursive-text-generator.net/cursive-name-tracing-generator.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-name-practice-generator.html</loc>
+  </url>
+  <url>
     <loc>https://www.cursive-text-generator.net/cursive-letters-generator.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-letters-a-z.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-alphabet.html</loc>
   </url>
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-signature-generator.html</loc>
@@ -25,6 +47,9 @@
   </url>
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-font-generator.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-fonts.html</loc>
   </url>
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-bold-generator.html</loc>
@@ -38,7 +63,12 @@
   <url>
     <loc>https://www.cursive-text-generator.net/cursive-converter.html</loc>
   </url>
-  <!-- ── Copy & Paste ── -->
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-compatibility.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cursive-text-generator.net/cursive-practice-sheets.html</loc>
+  </url>
   <url>
     <loc>https://www.cursive-text-generator.net/copy-and-paste-cursive-writing.html</loc>
   </url>
@@ -48,31 +78,6 @@
   <url>
     <loc>https://www.cursive-text-generator.net/copy-and-paste-cursive-signature.html</loc>
   </url>
-  <!-- ── Name cluster ── -->
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-name-tracing-generator.html</loc>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-name-practice-generator.html</loc>
-  </url>
-  <!-- ── Letters / Alphabet ── -->
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-alphabet.html</loc>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-letters-a-z.html</loc>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-fonts.html</loc>
-  </url>
-  <!-- ── Practice / Education ── -->
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-practice-sheets.html</loc>
-  </url>
-  <url>
-    <loc>https://www.cursive-text-generator.net/cursive-compatibility.html</loc>
-  </url>
-  <!-- ── Other ── -->
   <url>
     <loc>https://www.cursive-text-generator.net/canva-signature-logo-templates.html</loc>
   </url>
