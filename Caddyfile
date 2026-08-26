@@ -1,0 +1,56 @@
+# Caddyfile for cursive-text-generator.net
+# Handles www/non-www redirect and URL consolidation
+
+# Redirect non-www to www
+cursive-text-generator.net {
+  redir https://www.cursive-text-generator.net{uri} permanent
+}
+
+# Main domain
+www.cursive-text-generator.net {
+  # Serve from public directory
+  root * /public
+  file_server
+
+  # ─── URL Consolidation (301 redirects) ───
+
+  # Redirect /cursive-text-generator.html to home
+  redir /cursive-text-generator.html / permanent
+
+  # Redirect /cursive-text-generator directory to home
+  redir /cursive-text-generator / permanent
+  redir /cursive-text-generator/ / permanent
+
+  # ─── Handle 404s ───
+  error /404.html 404
+
+  # ─── Enable gzip compression ───
+  encode gzip
+
+  # ─── Security headers ───
+  header / {
+    X-Frame-Options "SAMEORIGIN"
+    X-Content-Type-Options "nosniff"
+    X-XSS-Protection "1; mode=block"
+    Referrer-Policy "strict-origin-when-cross-origin"
+    Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  }
+
+  # ─── Cache control ───
+  # Cache static assets for 30 days
+  header /assets/* {
+    Cache-Control "public, max-age=2592000, immutable"
+  }
+  header /extension/* {
+    Cache-Control "public, max-age=86400"
+  }
+
+  # HTML pages: cache 1 day (for sitemaps, etc.)
+  header *.html {
+    Cache-Control "public, max-age=86400, must-revalidate"
+  }
+
+  # ─── Enable HTTP/2 Server Push (optional) ───
+  # push /assets/styles.css
+  # push /assets/script.js
+}
