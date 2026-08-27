@@ -21,6 +21,11 @@ www.cursive-text-generator.net {
   redir /cursive-text-generator / permanent
   redir /cursive-text-generator/ / permanent
 
+  # Letters is a navigation category, not a standalone hub page
+  redir /letters /cursive-letters-generator.html permanent
+  redir /letters/ /cursive-letters-generator.html permanent
+  redir /letters/index.html /cursive-letters-generator.html permanent
+
   # ─── Handle 404s ───
   error /404.html 404
 
