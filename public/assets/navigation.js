@@ -1,7 +1,7 @@
 (function () {
   const primary = [
     ["Generator", "/"],
-    ["Letters", "/letters/"],
+    ["Letters", "/cursive-letters-generator.html"],
     ["Names", "/names/"],
     ["Fonts", "/fonts/"],
     ["Worksheets", "/worksheets/"]

@@ -49,6 +49,16 @@
       "permanent": true
     },
     {
+      "source": "/letters/",
+      "destination": "/cursive-letters-generator.html",
+      "permanent": true
+    },
+    {
+      "source": "/letters/index.html",
+      "destination": "/cursive-letters-generator.html",
+      "permanent": true
+    },
+    {
       "source": "/cursive-fonts",
       "destination": "/cursive-fonts.html",
       "permanent": true
