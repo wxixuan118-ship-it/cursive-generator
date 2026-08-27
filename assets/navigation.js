@@ -30,8 +30,7 @@
     fonts: [
       ["Cursive Fonts", "/cursive-fonts.html"],
       ["Copy & Paste", "/copy-and-paste/"],
-      ["Bold Cursive", "/cursive-bold-generator.html"],
-      ["Compatibility", "/cursive-compatibility.html"]
+      ["Bold Cursive", "/cursive-bold-generator.html"]
     ],
     worksheets: [
       ["Practice Sheets", "/cursive-practice-sheets.html"],
