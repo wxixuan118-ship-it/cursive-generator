@@ -26,6 +26,17 @@ www.cursive-text-generator.net {
   redir /letters/ /cursive-letters-generator.html permanent
   redir /letters/index.html /cursive-letters-generator.html permanent
 
+  # Category labels link directly to their primary tools
+  redir /names /cursive-name-generator.html permanent
+  redir /names/ /cursive-name-generator.html permanent
+  redir /names/index.html /cursive-name-generator.html permanent
+  redir /fonts /cursive-fonts.html permanent
+  redir /fonts/ /cursive-fonts.html permanent
+  redir /fonts/index.html /cursive-fonts.html permanent
+  redir /worksheets /cursive-practice-sheets.html permanent
+  redir /worksheets/ /cursive-practice-sheets.html permanent
+  redir /worksheets/index.html /cursive-practice-sheets.html permanent
+
   # ─── Handle 404s ───
   error /404.html 404
 

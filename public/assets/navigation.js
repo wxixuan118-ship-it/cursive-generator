@@ -2,9 +2,9 @@
   const primary = [
     ["Generator", "/"],
     ["Letters", "/cursive-letters-generator.html"],
-    ["Names", "/names/"],
-    ["Fonts", "/fonts/"],
-    ["Worksheets", "/worksheets/"]
+    ["Names", "/cursive-name-generator.html"],
+    ["Fonts", "/cursive-fonts.html"],
+    ["Worksheets", "/cursive-practice-sheets.html"]
   ];
 
   const sections = {

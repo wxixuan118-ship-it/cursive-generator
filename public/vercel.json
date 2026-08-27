@@ -59,6 +59,21 @@
       "permanent": true
     },
     {
+      "source": "/names/:path*",
+      "destination": "/cursive-name-generator.html",
+      "permanent": true
+    },
+    {
+      "source": "/fonts/:path*",
+      "destination": "/cursive-fonts.html",
+      "permanent": true
+    },
+    {
+      "source": "/worksheets/:path*",
+      "destination": "/cursive-practice-sheets.html",
+      "permanent": true
+    },
+    {
       "source": "/cursive-fonts",
       "destination": "/cursive-fonts.html",
       "permanent": true
