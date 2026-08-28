@@ -4,9 +4,10 @@ http://www.cursive-text-generator.net/*   https://www.cursive-text-generator.net
 https://cursive-text-generator.net/*      https://www.cursive-text-generator.net/:splat  301!
 
 # Duplicate URL consolidation
-/cursive-text-generator                    /                                          301
-/cursive-text-generator/                   /                                          301
-/cursive-text-generator.html               /                                          301
+# /cursive-text-generator.html is a real landing page (main keyword "cursive text
+# generator"); the homepage / targets "cursive generator". Do NOT redirect it.
+/cursive-text-generator                    /cursive-text-generator.html               301
+/cursive-text-generator/                   /cursive-text-generator.html               301
 /index.html                                /                                          301
 /letters                                  /cursive-letters-generator.html             301!
 /letters/                                 /cursive-letters-generator.html             301!
@@ -37,6 +38,7 @@ https://cursive-text-generator.net/*      https://www.cursive-text-generator.net
 /cursive-letters-a-z                       /cursive-letters-a-z.html                  301
 /cursive-letters-generator                 /cursive-letters-generator.html            301
 /free-commercial-cursive-fonts             /cursive-fonts.html                        301
+/free-commercial-cursive-fonts.html        /cursive-fonts.html                        301
 /cursive-converter                         /cursive-converter.html                    301
 /cursive-converter/                        /cursive-converter.html                    301
 /cursive-compatibility                     /cursive-compatibility.html                301
@@ -49,3 +51,19 @@ https://cursive-text-generator.net/*      https://www.cursive-text-generator.net
 /copy-and-paste/cursive-signature          /copy-and-paste-cursive-signature.html     301
 /copy-and-paste/cursive-signature/         /copy-and-paste-cursive-signature.html     301
 /copy-and-paste/cursive-signature/index.html /copy-and-paste-cursive-signature.html     301
+/copy-and-paste/cursive-writing            /copy-and-paste-cursive-writing.html       301
+/copy-and-paste/cursive-writing/           /copy-and-paste-cursive-writing.html       301
+/copy-and-paste/cursive-writing/index.html /copy-and-paste-cursive-writing.html       301
+
+# Legacy directory-style pages removed 2026-08-28 — 301 to their flat .html equivalents
+/cursive-bold-font-generator               /cursive-bold-generator.html               301
+/cursive-bold-font-generator/              /cursive-bold-generator.html               301
+/cursive-bold-font-generator/index.html    /cursive-bold-generator.html               301
+/cursive-converter/index.html              /cursive-converter.html                    301
+/cursive-compatibility/index.html          /cursive-compatibility.html                301
+/cursive-name-generator/index.html         /cursive-name-generator.html               301
+/cursive-name-practice-generator/index.html /cursive-name-practice-generator.html     301
+/cursive-name-tracing-generator/index.html /cursive-name-tracing-generator.html       301
+/cursive-practice-sheets/index.html        /cursive-practice-sheets.html              301
+/cursive-signature-generator/index.html    /cursive-signature-generator.html          301
+/cursive-text-generator/index.html         /cursive-text-generator.html               301

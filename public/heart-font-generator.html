@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L34V5ZL59H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L34V5ZL59H');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6697313643773879" crossorigin="anonymous"></script>
+  <script>
+    window.addEventListener('load',function(){setTimeout(function(){
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window,document,"clarity","script","xtizgdek92");
+    },2000);});
+  </script>
+
+  <title>Heart Font Generator ♡ Copy &amp; Paste Heart Text &amp; Symbols</title>
+  <meta name="description" content="Create cute heart fonts, love text, and aesthetic heart symbols instantly. Type your text, choose a heart style, and copy and paste it anywhere for free.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://www.cursive-text-generator.net/heart-font-generator.html">
+  <meta property="og:title" content="Heart Font Generator ♡ Copy &amp; Paste Heart Text">
+  <meta property="og:description" content="Create cute heart fonts, love text, and aesthetic heart symbols instantly. Type your text, choose a heart style, and copy and paste it anywhere for free.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Heart Font Generator ♡ Copy &amp; Paste Heart Text">
+  <meta name="twitter:description" content="Create cute heart fonts, love text, and aesthetic heart symbols instantly. Type your text, choose a heart style, and copy and paste it anywhere for free.">
+  <meta name="twitter:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/styles.css?v=20260827" as="style">
+  <link rel="stylesheet" href="assets/styles.css?v=20260827">
+
+  <style>
+    /* ── Heart Font Generator — page-specific styles ── */
+    .hf-intro-sub{font-size:17px;font-weight:600;color:var(--coral);margin:4px 0 6px}
+    .tool-intro p{display:block}
+    .tool-intro .eyebrow{display:inline-flex}
+
+    .hf-shell{max-width:960px}
+    .hf-input-panel{padding:20px}
+    #hf-input{width:100%;min-height:96px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:14px 16px;color:var(--ink);background:#fffefa;font:19px/1.45 inherit}
+    #hf-input:focus{outline:3px solid rgba(201,111,89,.18);border-color:var(--coral)}
+    .hf-input-row{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .hf-hint{margin:12px 0 0;color:var(--muted);font-size:14px}
+
+    /* filter chips */
+    .hf-chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 4px}
+    .hf-chip{padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font-size:13px;font-weight:700;cursor:pointer;transition:all .15s;white-space:nowrap}
+    .hf-chip:hover{border-color:var(--coral);color:var(--coral)}
+    .hf-chip.active{background:var(--coral);color:#fff;border-color:var(--coral)}
+    .hf-chip:focus-visible{outline:3px solid rgba(201,111,89,.35);outline-offset:1px}
+    .hf-count{font-size:13px;color:var(--muted);margin:10px 0 0}
+
+    /* result cards */
+    .hf-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+    .hf-card{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:14px 16px;box-shadow:0 4px 14px rgba(31,46,39,.06)}
+    .hf-card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+    .hf-name{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--sage)}
+    .hf-out{font-size:clamp(20px,2.4vw,26px);line-height:1.35;overflow-wrap:anywhere;cursor:pointer;border-radius:6px;padding:2px 4px;margin:-2px -4px;transition:background .15s}
+    .hf-out:hover{background:var(--sage-soft)}
+    .hf-out:focus-visible{outline:3px solid rgba(47,107,79,.35)}
+    .hf-copy{flex-shrink:0;min-width:78px;min-height:34px;padding:6px 12px;border-radius:8px;border:1px solid var(--sage);background:var(--sage-soft);color:var(--sage);font:inherit;font-size:13px;font-weight:800;cursor:pointer;transition:all .15s}
+    .hf-copy:hover{background:var(--sage);color:#fff}
+    .hf-copy.is-copied{background:var(--sage);color:#fff;border-color:var(--sage)}
+    .hf-copy:focus-visible{outline:3px solid rgba(47,107,79,.35);outline-offset:1px}
+    .hf-empty{color:var(--muted);padding:20px 0}
+
+    /* symbol library */
+    .sym-block{margin-top:22px}
+    .sym-block h3{font-size:15px;margin-bottom:10px;color:var(--muted)}
+    .sym-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:8px}
+    .sym{position:relative;display:flex;align-items:center;justify-content:center;min-height:52px;border:1px solid var(--line);border-radius:8px;background:var(--panel);font-size:24px;cursor:pointer;transition:all .15s;user-select:all}
+    .sym:hover{border-color:var(--coral);background:#fff;transform:translateY(-1px)}
+    .sym:focus-visible{outline:3px solid rgba(201,111,89,.35)}
+    .sym.copied::after{content:"Copied!";position:absolute;top:-10px;right:-6px;background:var(--sage);color:#fff;font-size:10px;font-weight:800;padding:2px 6px;border-radius:6px;letter-spacing:.02em}
+    .combo-grid{grid-template-columns:repeat(auto-fill,minmax(104px,1fr))}
+    .combo-grid .sym{font-size:18px;letter-spacing:.02em}
+
+    /* phrase cards */
+    .phrase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}
+    .phrase-card{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:16px 18px;box-shadow:0 4px 14px rgba(31,46,39,.06)}
+    .phrase-card h3{font-size:16px;margin-bottom:10px}
+    .phrase-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--line)}
+    .phrase-row:first-of-type{border-top:none}
+    .phrase-out{font-size:17px;overflow-wrap:anywhere;cursor:pointer;flex:1}
+    .phrase-out:hover{color:var(--coral)}
+    .mini-copy{flex-shrink:0;min-height:30px;padding:4px 10px;border-radius:7px;border:1px solid var(--line);background:transparent;color:var(--muted);font:inherit;font-size:12px;font-weight:800;cursor:pointer}
+    .mini-copy:hover{background:var(--sage-soft);color:var(--sage);border-color:var(--sage)}
+    .mini-copy.is-copied{background:var(--sage);color:#fff;border-color:var(--sage)}
+
+    /* try-your-text mini preview */
+    .hf-mini-wrap{margin-top:18px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+
+    /* FAQ */
+    .faq-list{margin-top:22px;max-width:820px}
+    .faq-item{border-top:1px solid var(--line);padding:16px 0}
+    .faq-item:last-child{border-bottom:1px solid var(--line)}
+    .faq-item h3{font-size:18px;margin-bottom:6px}
+    .faq-item p{margin:0;color:#3f4d46;font-size:16px}
+
+    .heart-rule{border:none;border-top:1px solid var(--line);text-align:center;overflow:visible;margin:0}
+    .heart-rule::after{content:"♡";position:relative;top:-13px;background:var(--paper);padding:0 14px;color:var(--coral);font-size:18px}
+
+    @media (max-width:720px){
+      .hf-grid,.phrase-grid,.hf-mini-wrap{grid-template-columns:1fr}
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://www.cursive-text-generator.net/"},
+      {"@type":"ListItem","position":2,"name":"Heart Font Generator","item":"https://www.cursive-text-generator.net/heart-font-generator.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Heart Font Generator",
+    "applicationCategory": "DesignApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires a modern browser with Unicode support",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+    "url": "https://www.cursive-text-generator.net/heart-font-generator.html",
+    "description": "A free heart font generator that turns plain text into cute heart fonts, love text, decorative heart symbols, and heart emoji you can copy and paste anywhere."
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a heart font generator?",
+        "acceptedAnswer": {"@type": "Answer", "text": "A heart font generator is a free online tool that turns the text you type into heart-themed styles you can copy and paste. It combines decorative heart symbols, Unicode styled letters, and heart emoji to create looks like ♡ Love You ♡, ୨♡୧ 𝓛𝓸𝓿𝓮 𝓨𝓸𝓾 ୨♡୧, and 💗 Love You 💗. Nothing is installed — the output is plain characters that travel with your text."}
+      },
+      {
+        "@type": "Question",
+        "name": "How do I copy and paste heart fonts?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Type your text in the box at the top of the page, pick a style you like, and press its Copy button (or tap the result itself). The button shows \"Copied! ♡\" for a moment. Then paste it wherever you need it — an Instagram bio, a TikTok caption, a Discord message, or a text — with your device's normal paste action."}
+      },
+      {
+        "@type": "Question",
+        "name": "Are heart fonts real fonts?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Mostly no. Most results are made from standard Unicode characters — decorative heart symbols such as ♡ and ♥, styled letter ranges such as mathematical script, and heart emoji — rather than an installable font file. Because they are ordinary characters, they keep their appearance when you paste them, but they are not fonts you download or add to a design program."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use heart fonts on Instagram?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Heart symbols, styled Unicode letters, and heart emoji all work in Instagram bios, names, captions, and comments. Paste a short phrase into the profile editor and preview it before saving, since very small heart glyphs can look faint at bio size on some phones."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use heart fonts on TikTok?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. TikTok display names, bios, and captions accept Unicode heart symbols and styled text. Bolder decorations such as ♥, ❥, and heart emoji stay the most readable at the small sizes TikTok uses."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use heart fonts in Discord?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can paste heart text into Discord messages, your display name, and server nicknames. Discord renders heart symbols and emoji well; note that channel names force lowercase and replace spaces with dashes, so keep those to a single symbol plus a word."}
+      },
+      {
+        "@type": "Question",
+        "name": "What does ♡ mean?",
+        "acceptedAnswer": {"@type": "Answer", "text": "♡ is the outline (hollow) heart symbol, Unicode U+2661 \"White Heart Suit.\" People use it as a soft, minimal sign of love, affection, or a favourite — a gentler alternative to the solid heart. It carries no official platform meaning; it is decorative."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between ♡ and ♥?",
+        "acceptedAnswer": {"@type": "Answer", "text": "They are two separate Unicode characters. ♡ (U+2661) is the hollow heart outline and reads as light or understated. ♥ (U+2665, \"Black Heart Suit\") is the solid filled heart and reads as stronger or bolder. Some apps recolour ♥ or show it as an emoji; ♡ almost always stays a thin outline."}
+      },
+      {
+        "@type": "Question",
+        "name": "How do I make cute heart text?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Pick a style from the Cute category above — for example ♡₊˚ Love You ˚₊♡ or ˚ʚ♡ɞ˚ Love You ˚ʚ♡ɞ˚ — or build your own by wrapping a word with a small heart plus a sparkle or dot accent such as ♡ ‧₊˚. Keep it short so it stays readable in a bio or username."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is the heart font generator free?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. It is completely free with no account, no download, and no limit. Everything runs in your browser, so you can generate and copy as many heart styles as you want."}
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/"><span class="brand-mark">C</span><span>Cursive Text Generator</span></a>
+      <div class="nav-links">
+        <div class="nav-group">
+          <span class="nav-group-label">Tools</span>
+          <div class="nav-group-menu">
+            <a href="/">Cursive Generator</a>
+            <a href="/cursive-writing-generator.html">Writing Generator</a>
+            <a href="/cursive-font-generator.html">Font Generator</a>
+            <a href="/fancy-text-generator.html">Fancy Text Generator</a>
+            <a href="/heart-font-generator.html">Heart Font Generator</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <span class="nav-group-label">Resources</span>
+          <div class="nav-group-menu">
+            <a href="/cursive-fonts.html">Cursive Fonts</a>
+          </div>
+        </div>
+        <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+  <nav class="nav-mobile-drawer" id="nav-drawer" aria-label="Mobile navigation">
+    <div class="nav-mobile-section">
+      <div class="nav-mobile-label">Tools</div>
+      <a href="/">Cursive Generator</a>
+      <a href="/cursive-font-generator.html">Font Generator</a>
+      <a href="/fancy-text-generator.html">Fancy Text Generator</a>
+      <a href="/heart-font-generator.html">Heart Font Generator</a>
+    </div>
+    <div class="nav-mobile-section">
+      <div class="nav-mobile-label">Resources</div>
+      <a href="/cursive-fonts.html">Cursive Fonts</a>
+    </div>
+  </nav>
+
+  <main class="page">
+    <!-- ═══ TOOL + HERO ═══ -->
+    <section class="tool-section" id="tool">
+      <div class="wrap">
+        <nav aria-label="Breadcrumb" style="font-size:13px;color:var(--muted);margin-bottom:14px">
+          <a href="/" style="color:var(--muted)">Home</a>
+          <span style="margin:0 6px">›</span>
+          <span>Heart Font Generator</span>
+        </nav>
+
+        <div class="tool-intro">
+          <div>
+            <span class="eyebrow">Free · 60+ heart styles · real-time · copy &amp; paste</span>
+            <h1>Heart Font Generator ♡ Copy &amp; Paste Heart Text</h1>
+        <figure class="page-preview" style="margin:16px 0 6px;max-width:460px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper)">
+          <img src="assets/previews/heart-font-generator.svg" width="1200" height="630" loading="lazy" decoding="async"
+               style="display:block;width:100%;height:auto" alt="The words &quot;Heart Font&quot; shown in cursive script — preview from the Heart Font Generator">
+          <figcaption style="font-size:13px;color:var(--muted);padding:8px 14px">&ldquo;Heart Font&rdquo; rendered by the heart font generator</figcaption>
+        </figure>
+            <p class="hf-intro-sub">Cute heart fonts, love text, and aesthetic heart symbols</p>
+            <p>Type anything below to turn it into cute heart fonts, love text, and aesthetic heart styles. Copy your favorite result for Instagram, TikTok, Discord, messages, usernames, and bios.</p>
+          </div>
+        </div>
+
+        <div class="generator-shell hf-shell" style="display:block">
+          <div class="panel hf-input-panel">
+            <label for="hf-input">Enter your text</label>
+            <textarea id="hf-input" data-hf-sync placeholder="Type your text here ♡" autocomplete="off" spellcheck="false">Love You</textarea>
+            <div class="hf-input-row">
+              <button class="button secondary" type="button" id="hf-clear">Clear</button>
+              <span class="hf-hint" style="margin:0">Tap a result or press its Copy button — it copies instantly.</span>
+            </div>
+          </div>
+
+          <div class="hf-chips" role="group" aria-label="Filter heart styles by category">
+            <button class="hf-chip active" type="button" data-cat="all" aria-pressed="true">All</button>
+            <button class="hf-chip" type="button" data-cat="cute" aria-pressed="false">♡ Cute</button>
+            <button class="hf-chip" type="button" data-cat="simple" aria-pressed="false">♥ Simple</button>
+            <button class="hf-chip" type="button" data-cat="aesthetic" aria-pressed="false">✨ Aesthetic</button>
+            <button class="hf-chip" type="button" data-cat="fancy" aria-pressed="false">💖 Fancy</button>
+            <button class="hf-chip" type="button" data-cat="love" aria-pressed="false">❥ Love</button>
+            <button class="hf-chip" type="button" data-cat="symbols" aria-pressed="false">✦ Symbols</button>
+            <button class="hf-chip" type="button" data-cat="emoji" aria-pressed="false">💗 Emoji</button>
+          </div>
+          <p class="hf-count" id="hf-count" aria-live="polite"></p>
+          <div class="hf-grid" id="hf-grid" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ HEART SYMBOLS LIBRARY ═══ -->
+    <section class="style-showcase">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">Symbol library</span>
+          <h2>Heart Symbols Copy and Paste</h2>
+          <p>Tap any heart to copy it on its own. These are single Unicode characters and emoji — paste them into names, bios, captions, and messages.</p>
+        </div>
+
+        <div class="sym-block">
+          <h3>Text heart symbols</h3>
+          <div class="sym-grid" id="sym-text" aria-label="Text heart symbols"></div>
+        </div>
+        <div class="sym-block">
+          <h3>Heart emoji</h3>
+          <div class="sym-grid" id="sym-emoji" aria-label="Heart emoji"></div>
+        </div>
+        <div class="sym-block">
+          <h3>Heart combinations people actually copy</h3>
+          <div class="sym-grid combo-grid" id="sym-combo" aria-label="Heart symbol combinations"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ POPULAR HEART TEXT ═══ -->
+    <section class="use-cases-section">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">Ready to copy</span>
+          <h2>Popular Heart Text Styles</h2>
+          <p>Common phrases already wrapped in heart fonts. Tap a line or its button to copy it.</p>
+        </div>
+        <div class="phrase-grid" id="phrase-grid"></div>
+      </div>
+    </section>
+
+    <!-- ═══ TRY YOUR OWN TEXT ═══ -->
+    <section class="font-section">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">Live preview</span>
+          <h2>Try Heart Fonts With Your Own Text</h2>
+          <p>Heart fonts combine Unicode characters, decorative hearts, symbols, and emojis. They can usually be copied directly into social profiles, messages, usernames, and captions.</p>
+        </div>
+        <div class="panel hf-input-panel" style="max-width:620px">
+          <label for="hf-input-2">Your text (synced with the generator above)</label>
+          <textarea id="hf-input-2" data-hf-sync placeholder="Type your text here ♡" autocomplete="off" spellcheck="false" style="min-height:64px"></textarea>
+        </div>
+        <div class="hf-mini-wrap" id="hf-mini"></div>
+        <p class="hf-hint">These are not downloadable font files. Each result is one of three things: <strong>Unicode styled text</strong> (letters swapped for look-alike characters), <strong>decorative heart symbols</strong> (characters like ♡ and ❥), or <strong>emoji</strong> (like 💖). All three copy and paste as plain text.</p>
+      </div>
+    </section>
+
+    <!-- ═══ USE CASES ═══ -->
+    <section class="use-cases-section" style="background:#fffefa">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">Platform guide</span>
+          <h2>Where Can You Use Heart Fonts?</h2>
+          <p>Heart symbols and styled Unicode text work in most apps that accept text. Here is where people use them most.</p>
+        </div>
+        <div class="use-cases-grid">
+          <div class="use-case-card">
+            <span class="uc-icon">📸</span>
+            <strong>Instagram</strong>
+            <p>Add a heart to your bio, name field, captions, comments, and username. Keep it to a symbol plus a short phrase so it stays legible at profile size.</p>
+          </div>
+          <div class="use-case-card">
+            <span class="uc-icon">🎵</span>
+            <strong>TikTok</strong>
+            <p>Use heart text in your bio, captions, and display name. Bolder hearts like ♥ and ❥ and heart emoji read best on TikTok's small text.</p>
+          </div>
+          <div class="use-case-card">
+            <span class="uc-icon">🎮</span>
+            <strong>Discord</strong>
+            <p>Paste heart styles into server nicknames, messages, and status. Channel names lowercase text and swap spaces for dashes, so use one symbol plus a word there.</p>
+          </div>
+          <div class="use-case-card">
+            <span class="uc-icon">💬</span>
+            <strong>Messages</strong>
+            <p>Send romantic messages, Valentine's messages, and anniversary messages with a heart-wrapped name or line. Works in SMS, WhatsApp, and most chat apps.</p>
+          </div>
+          <div class="use-case-card">
+            <span class="uc-icon">🔖</span>
+            <strong>Usernames</strong>
+            <p>Build cute usernames, gaming names, and profile names by framing a nickname with ♡ or ୨♡୧. Check the target platform's allowed-character rules first.</p>
+          </div>
+          <div class="use-case-card">
+            <span class="uc-icon">✍️</span>
+            <strong>Bios &amp; captions</strong>
+            <p>Break up a bio with a heart divider, or open a caption with a heart accent. Pair it with our other Unicode tools for a matching look across your profile.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SEO CONTENT ═══ -->
+    <section class="seo-section" id="guide">
+      <div class="wrap seo-layout">
+        <aside class="seo-aside">
+          <h2>Related tools</h2>
+          <div class="keyword-list">
+            <a href="/">Cursive Font Generator</a>
+            <a href="/fancy-text-generator.html">Fancy Text Generator</a>
+            <a href="/cursive-writing-generator.html">Cursive Writing Generator</a>
+            <a href="/cursive-name-generator.html">Cursive Name Generator</a>
+            <a href="/cursive-bold-generator.html">Bold Text Generator</a>
+            <a href="/cursive-fonts.html">Cursive Fonts</a>
+            <span>heart symbols copy and paste</span>
+            <span>heart text</span>
+          </div>
+        </aside>
+        <article class="seo-copy">
+          <h2>What Is a Heart Font Generator?</h2>
+          <p>A heart font generator is an online tool that turns plain text into heart-themed styles you can copy and paste. It does this by combining three kinds of characters: decorative heart symbols such as ♡, ♥, and ❥; styled Unicode letters that look like a different typeface; and heart emoji such as 💖 and 💗. The tool assembles these into ready-made results — for example <span aria-hidden="true">♡ Love You ♡</span>, <span aria-hidden="true">୨♡୧ 𝓛𝓸𝓿𝓮 𝓨𝓸𝓾 ୨♡୧</span>, or <span aria-hidden="true">˗ˏˋ ♡ Love You ♡ ˎˊ˗</span> — so you do not have to build them character by character.</p>
+          <p>Nothing is installed and nothing is downloaded. Because every result is made of ordinary Unicode characters, the styling travels with the text when you paste it, which is why heart fonts are popular for social media bios, usernames, display names, captions, and messages.</p>
+
+          <h2>How to Generate Heart Text</h2>
+          <p>The process is designed to take a few seconds:</p>
+          <ol>
+            <li><strong>Enter your text.</strong> Type a word or short phrase into the box at the top of the page. Results update as you type.</li>
+            <li><strong>Browse heart font styles.</strong> Scroll the result cards, or use the category filters — Cute, Simple, Aesthetic, Fancy, Love, Symbols, Emoji — to narrow them down.</li>
+            <li><strong>Click Copy and paste it anywhere.</strong> Press the Copy button on a card (or tap the result itself), then paste into Instagram, TikTok, Discord, a username field, or a message.</li>
+          </ol>
+          <p>Shorter phrases work best. A single word framed by one or two heart symbols stays readable everywhere; a long sentence wrapped in decorations can get cut off in a bio or username field.</p>
+
+          <h2>Heart Fonts vs. Heart Symbols</h2>
+          <p>It helps to separate two things this tool produces. <strong>Heart symbols</strong> are individual characters — ♡, ♥, ❣, ❥, ღ, ෆ — and emoji like 💕. You drop them in beside normal text and your letters stay exactly as they were. <strong>Heart fonts</strong>, in the loose sense people mean online, also transform the letters themselves: the generator maps each A–Z letter to a look-alike character from a Unicode range such as mathematical script (𝓛𝓸𝓿𝓮) before adding the heart decoration.</p>
+          <p>Neither one is a font file. A traditional font is software your device loads to draw text; these are just characters. That distinction matters for accessibility and for platforms that only accept a limited character set, which is covered below.</p>
+
+          <h2>Cute and Aesthetic Heart Fonts</h2>
+          <p>The look of a heart style comes mostly from what surrounds the word. A plain outline heart (♡ Love You ♡) reads as clean and minimal. Adding a small raised accent — ♡₊˚ Love You ˚₊♡ — makes it feel cute and soft. Swapping in curved brackets and a swirl — ꒰ ♡ ꒱ or ˚ʚ♡ɞ˚ — pushes it toward kawaii. Pairing hearts with stars, moons, or dots — ⋆｡♡ … ♡｡⋆ — gives the aesthetic, "vibe profile" style. Heavier frames like ༺♡༻ or ꧁♡꧂ feel fancy or dramatic. Emoji hearts (💖, 💗, 💞) are the boldest and most colourful option and are the most reliable on older phones.</p>
+          <p>Because the decoration is separate from the letters, you can keep the same word and cycle through cute, romantic, minimal, aesthetic, and fancy versions until one fits the place you are pasting it.</p>
+
+          <h2>Heart Fonts for Social Media</h2>
+          <p>Most platforms do not offer a built-in font picker, so pasted Unicode is the usual way to style text. On <strong>Instagram</strong>, heart symbols and styled letters work in the bio, name field, captions, and comments — preview before saving, since thin outline hearts can look faint at bio size. On <strong>TikTok</strong>, display names, bios, and captions accept the same characters; bolder hearts and emoji stay clearest. On <strong>Discord</strong>, heart text works in messages, display names, and server nicknames, but channel names force lowercase and replace spaces with dashes. For <strong>usernames</strong> and gaming tags, check the allowed-character rules first — some sign-up forms reject non-ASCII characters. For <strong>messages</strong>, anything goes: SMS, WhatsApp, and chat apps all render heart characters.</p>
+          <p>One caution for every platform: screen readers may read decorative Unicode letters oddly or skip them, so keep essential information — names, dates, links — in normal text and use heart fonts for accent and decoration.</p>
+
+          <p>Looking for more text styles? Try our <a href="/fancy-text-generator.html">Fancy Text Generator</a> for additional Unicode styles, or use the <a href="/">Cursive Font Generator</a> for handwritten-looking script. For names specifically, the <a href="/cursive-name-generator.html">Cursive Name Generator</a> is tuned for short personal names, and the <a href="/cursive-bold-generator.html">Bold Text Generator</a> produces heavier strokes that hold up at small sizes.</p>
+
+          <hr class="heart-rule">
+
+          <h2>Heart Font Generator FAQ</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>What is a heart font generator?</h3>
+              <p>A heart font generator is a free online tool that turns the text you type into heart-themed styles you can copy and paste. It combines decorative heart symbols, Unicode styled letters, and heart emoji to create looks like ♡ Love You ♡, ୨♡୧ 𝓛𝓸𝓿𝓮 𝓨𝓸𝓾 ୨♡୧, and 💗 Love You 💗. Nothing is installed — the output is plain characters that travel with your text.</p>
+            </div>
+            <div class="faq-item">
+              <h3>How do I copy and paste heart fonts?</h3>
+              <p>Type your text in the box at the top of the page, pick a style you like, and press its Copy button (or tap the result itself). The button shows "Copied! ♡" for a moment. Then paste it wherever you need it — an Instagram bio, a TikTok caption, a Discord message, or a text — with your device's normal paste action.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Are heart fonts real fonts?</h3>
+              <p>Mostly no. Most results are made from standard Unicode characters — decorative heart symbols such as ♡ and ♥, styled letter ranges such as mathematical script, and heart emoji — rather than an installable font file. Because they are ordinary characters, they keep their appearance when you paste them, but they are not fonts you download or add to a design program.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Can I use heart fonts on Instagram?</h3>
+              <p>Yes. Heart symbols, styled Unicode letters, and heart emoji all work in Instagram bios, names, captions, and comments. Paste a short phrase into the profile editor and preview it before saving, since very small heart glyphs can look faint at bio size on some phones.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Can I use heart fonts on TikTok?</h3>
+              <p>Yes. TikTok display names, bios, and captions accept Unicode heart symbols and styled text. Bolder decorations such as ♥, ❥, and heart emoji stay the most readable at the small sizes TikTok uses.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Can I use heart fonts in Discord?</h3>
+              <p>Yes. You can paste heart text into Discord messages, your display name, and server nicknames. Discord renders heart symbols and emoji well; note that channel names force lowercase and replace spaces with dashes, so keep those to a single symbol plus a word.</p>
+            </div>
+            <div class="faq-item">
+              <h3>What does ♡ mean?</h3>
+              <p>♡ is the outline (hollow) heart symbol, Unicode U+2661 "White Heart Suit." People use it as a soft, minimal sign of love, affection, or a favourite — a gentler alternative to the solid heart. It carries no official platform meaning; it is decorative.</p>
+            </div>
+            <div class="faq-item">
+              <h3>What is the difference between ♡ and ♥?</h3>
+              <p>They are two separate Unicode characters. ♡ (U+2661) is the hollow heart outline and reads as light or understated. ♥ (U+2665, "Black Heart Suit") is the solid filled heart and reads as stronger or bolder. Some apps recolour ♥ or show it as an emoji; ♡ almost always stays a thin outline.</p>
+            </div>
+            <div class="faq-item">
+              <h3>How do I make cute heart text?</h3>
+              <p>Pick a style from the Cute category above — for example ♡₊˚ Love You ˚₊♡ or ˚ʚ♡ɞ˚ Love You ˚ʚ♡ɞ˚ — or build your own by wrapping a word with a small heart plus a sparkle or dot accent such as ♡ ‧₊˚. Keep it short so it stays readable in a bio or username.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Is the heart font generator free?</h3>
+              <p>Yes. It is completely free with no account, no download, and no limit. Everything runs in your browser, so you can generate and copy as many heart styles as you want.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ═══ RELATED TOOLS ═══ -->
+    <section class="related-tools">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">More tools</span>
+          <h2>More Text Generators</h2>
+        </div>
+        <div class="tool-grid">
+          <a class="tool-card" href="/fancy-text-generator.html">
+            <span>✦</span>
+            <strong>Fancy Text Generator</strong>
+            <em>300+ Unicode styles — cursive, gothic, cute, aesthetic, and more.</em>
+          </a>
+          <a class="tool-card" href="/">
+            <span>𝒞</span>
+            <strong>Cursive Font Generator</strong>
+            <em>Elegant script styles for any text, copy and paste ready.</em>
+          </a>
+          <a class="tool-card" href="/cursive-writing-generator.html">
+            <span>✍</span>
+            <strong>Cursive Writing Generator</strong>
+            <em>Flowing handwriting-style text for notes, captions, and cards.</em>
+          </a>
+          <a class="tool-card" href="/cursive-name-generator.html">
+            <span>𝒩</span>
+            <strong>Cursive Name Generator</strong>
+            <em>Quick cursive styling tuned for short personal names.</em>
+          </a>
+          <a class="tool-card" href="/cursive-bold-generator.html">
+            <span>𝐁</span>
+            <strong>Bold Text Generator</strong>
+            <em>Heavier strokes that stay legible at small display sizes.</em>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>Cursive Text Generator</span>
+      <span class="footer-links">
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="cursive-fonts.html">Cursive Fonts</a>
+        <a href="canva-signature-logo-templates.html">Templates</a>
+        <a href="partners.html">Partners</a>
+        <a href="/cursive-compatibility.html">Compatibility</a>
+      </span>
+    </div>
+  </footer>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script>
+  (function(){
+    'use strict';
+
+    /* ── Unicode letter maps (lowercase a-z, uppercase A-Z) ── */
+    var M = {
+      script:     ['𝒶𝒷𝒸𝒹ℯ𝒻ℊ𝒽𝒾𝒿𝓀𝓁𝓂𝓃ℴ𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏','𝒜ℬ𝒞𝒟ℰℱ𝒢ℋℐ𝒥𝒦ℒℳ𝒩𝒪𝒫𝒬ℛ𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵'],
+      boldScript: ['𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃','𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩'],
+      bold:       ['𝐚𝐛𝐜𝐝𝐞𝐟𝐠𝐡𝐢𝐣𝐤𝐥𝐦𝐧𝐨𝐩𝐪𝐫𝐬𝐭𝐮𝐯𝐰𝐱𝐲𝐳','𝐀𝐁𝐂𝐃𝐄𝐅𝐆𝐇𝐈𝐉𝐊𝐋𝐌𝐍𝐎𝐏𝐐𝐑𝐒𝐓𝐔𝐕𝐖𝐗𝐘𝐙'],
+      boldItalic: ['𝒂𝒃𝒄𝒅𝒆𝒇𝒈𝒉𝒊𝒋𝒌𝒍𝒎𝒏𝒐𝒑𝒒𝒓𝒔𝒕𝒖𝒗𝒘𝒙𝒚𝒛','𝑨𝑩𝑪𝑫𝑬𝑭𝑮𝑯𝑰𝑱𝑲𝑳𝑴𝑵𝑶𝑷𝑸𝑹𝑺𝑻𝑼𝑽𝑾𝑿𝒀𝒁'],
+      italic:     ['𝑎𝑏𝑐𝑑𝑒𝑓𝑔ℎ𝑖𝑗𝑘𝑙𝑚𝑛𝑜𝑝𝑞𝑟𝑠𝑡𝑢𝑣𝑤𝑥𝑦𝑧','𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝐼𝐽𝐾𝐿𝑀𝑁𝑂𝑃𝑄𝑅𝑆𝑇𝑈𝑉𝑊𝑋𝑌𝑍'],
+      mono:       ['𝚊𝚋𝚌𝚍𝚎𝚏𝚐𝚑𝚒𝚓𝚔𝚕𝚖𝚗𝚘𝚙𝚚𝚛𝚜𝚝𝚞𝚟𝚠𝚡𝚢𝚣','𝙰𝙱𝙲𝙳𝙴𝙵𝙶𝙷𝙸𝙹𝙺𝙻𝙼𝙽𝙾𝙿𝚀𝚁𝚂𝚃𝚄𝚅𝚆𝚇𝚈𝚉'],
+      double:     ['𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫','𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ'],
+      fw:         ['ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ','ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ'],
+      circled:    ['ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ','ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ'],
+      smallcaps:  ['ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘqʀꜱᴛᴜᴠᴡxʏᴢ','ABCDEFGHIJKLMNOPQRSTUVWXYZ'],
+      fraktur:    ['𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷','𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ']
+    };
+
+    function tf(text, key){
+      if (!key || !M[key]) return text;
+      var lo = Array.from(M[key][0]), up = Array.from(M[key][1]);
+      return Array.from(text).map(function(ch){
+        var c = ch.charCodeAt(0);
+        if (c >= 97 && c <= 122) return lo[c - 97] || ch;
+        if (c >= 65 && c <= 90)  return up[c - 65] || ch;
+        return ch;
+      }).join('');
+    }
+
+    /* ── Style catalogue (n=name, c=categories, f=letter transform, p=prefix, s=suffix) ── */
+    var STYLES = [
+      /* Simple */
+      {n:'Heart Outline', c:'simple', p:'♡ ', s:' ♡'},
+      {n:'Solid Heart', c:'simple', p:'♥ ', s:' ♥'},
+      {n:'Red Heart', c:'simple', p:'❤️ ', s:' ❤️'},
+      {n:'Heart & Dot', c:'simple', p:'♡ • ', s:' • ♡'},
+      {n:'Trailing Heart', c:'simple', p:'', s:' ♡'},
+      {n:'Heart Hug', c:'simple', p:'♡ ', s:' ♡', tight:true},
+      {n:'Triple Heart', c:'simple', p:'♡♡♡ ', s:' ♡♡♡'},
+      {n:'Heartbeat', c:'simple', p:'♡ ~ ', s:' ~ ♡'},
+
+      /* Cute */
+      {n:'Cutie Bracket', c:'cute', p:'꒰ ♡ ꒱ ', s:''},
+      {n:'Sparkle Heart', c:'cute', p:'♡₊˚ ', s:' ˚₊♡'},
+      {n:'Bubbly Heart', c:'cute', p:'｡ﾟ♡ ', s:' ♡ﾟ｡'},
+      {n:'Kawaii Face', c:'cute', p:'(♡‿♡) ', s:''},
+      {n:'Heart Swirl', c:'cute', p:'˚ʚ♡ɞ˚ ', s:' ˚ʚ♡ɞ˚'},
+      {n:'Soft Heart', c:'cute', p:'♡ˎˊ˗ ', s:' ˗ˏˋ♡'},
+      {n:'Cloud Heart', c:'cute', p:'☁︎♡ ', s:' ♡☁︎'},
+      {n:'Cherub Script', c:'cute', f:'boldScript', p:'꒰ ♡ ꒱ ', s:''},
+      {n:'Petal Heart', c:'cute', p:'⑅ ♡ ', s:' ♡ ⑅'},
+
+      /* Aesthetic */
+      {n:'Aesthetic Frame', c:'aesthetic', p:'˗ˏˋ ♡ ', s:' ♡ ˎˊ˗'},
+      {n:'Star & Heart', c:'aesthetic', p:'⋆｡♡ ', s:' ♡｡⋆'},
+      {n:'Moon Heart', c:'aesthetic', p:'☾ ♡ ', s:' ♡ ☽'},
+      {n:'Minimal Heart', c:'aesthetic', p:'♡ ⋆ ', s:' ⋆ ♡'},
+      {n:'Dotted Heart', c:'aesthetic', p:'♡ ‧₊˚ ', s:' ˚₊‧ ♡'},
+      {n:'Halo Heart', c:'aesthetic', p:'♡°｡ ', s:' ｡°♡'},
+      {n:'Leaf Heart', c:'aesthetic', p:'୨ ♡ ୧ ', s:''},
+      {n:'Constellation', c:'aesthetic', p:'✦ ⋆ ♡ ', s:' ♡ ⋆ ✦'},
+      {n:'Wide Aesthetic', c:'aesthetic', f:'fw', p:'♡ ', s:' ♡'},
+
+      /* Fancy */
+      {n:'Tibetan Heart', c:'fancy', p:'༺♡༻ ', s:' ༺♡༻'},
+      {n:'Ornate Heart', c:'fancy', p:'⋅˚₊‧ ୨♡୧ ‧₊˚ ⋅ ', s:''},
+      {n:'Royal Heart', c:'fancy', p:'꧁♡꧂ ', s:' ꧁♡꧂'},
+      {n:'Winged Heart', c:'fancy', p:'⇜ ♡ ', s:' ♡ ⇝'},
+      {n:'Bold Frame', c:'fancy', p:'━♡━ ', s:' ━♡━'},
+      {n:'Double Line', c:'fancy', p:'══♡══ ', s:''},
+      {n:'Flourish Heart', c:'fancy', p:'❦ ', s:' ❧'},
+      {n:'Deco Heart', c:'fancy', p:'❥ •°• ', s:' •°• ❥'},
+      {n:'Fancy Script', c:'fancy', f:'boldItalic', p:'♡ ', s:' ♡'},
+
+      /* Love (letters transformed) */
+      {n:'Love Script', c:'love', f:'script', p:'♡ ', s:' ♡'},
+      {n:'Bold Love', c:'love', f:'bold', p:'♥ ', s:' ♥'},
+      {n:'Cursive Heart', c:'love', f:'boldScript', p:'୨♡୧ ', s:' ୨♡୧'},
+      {n:'Georgian Love', c:'love', f:'script', p:'ღ ', s:' ღ'},
+      {n:'Italic Love', c:'love', f:'italic', p:'❥ ', s:' ❥'},
+      {n:'Bubble Love', c:'love', f:'circled', p:'♡ ', s:' ♡'},
+      {n:'Gothic Love', c:'love', f:'fraktur', p:'♥ ', s:' ♥'},
+      {n:'Mono Love', c:'love', f:'mono', p:'♡ ', s:' ♡'},
+      {n:'Small Caps Love', c:'love', f:'smallcaps', p:'♡ ', s:' ♡'},
+      {n:'Double-Struck Love', c:'love', f:'double', p:'❣ ', s:' ❣'},
+
+      /* Symbols (text glyph hearts) */
+      {n:'Heart Bud ❥', c:'symbols', p:'❥ ', s:' ❥'},
+      {n:'Georgian ღ', c:'symbols', p:'ღ ', s:' ღ'},
+      {n:'Sinhala ෆ', c:'symbols', p:'ෆ ', s:' ෆ'},
+      {n:'Lepcha ᰔ', c:'symbols', p:'ᰔ ', s:' ᰔ'},
+      {n:'Cham ꨄ', c:'symbols', p:'ꨄ ', s:' ꨄ'},
+      {n:'Georgian დ', c:'symbols', p:'დ ', s:' დ'},
+      {n:'Bengali ও', c:'symbols', p:'ও ', s:' ও'},
+      {n:'Ampersand Heart', c:'symbols', p:'❣ ', s:' ❣'},
+
+      /* Emoji */
+      {n:'Pink Heart', c:'emoji', p:'💗 ', s:' 💗'},
+      {n:'Two Hearts', c:'emoji', p:'💞 ', s:' 💞'},
+      {n:'Sparkling Heart', c:'emoji', p:'💖 ', s:' 💖'},
+      {n:'Heart Arrow', c:'emoji', p:'💘 ', s:' 💘'},
+      {n:'Growing Heart', c:'emoji', p:'💓 ', s:' 💓'},
+      {n:'Heart Gift', c:'emoji', p:'💝 ', s:' 💝'},
+      {n:'White Heart', c:'emoji', p:'🤍 ', s:' 🤍'},
+      {n:'Heart Decoration', c:'emoji', p:'💟 ', s:' 💟'},
+      {n:'Revolving Hearts', c:'emoji', p:'💗💓 ', s:' 💓💗'}
+    ];
+
+    var DEFAULT_TEXT = 'Love You';
+
+    /* ── DOM refs ── */
+    var inputs = Array.prototype.slice.call(document.querySelectorAll('[data-hf-sync]'));
+    var mainInput = document.getElementById('hf-input');
+    var grid = document.getElementById('hf-grid');
+    var countEl = document.getElementById('hf-count');
+    var chips = Array.prototype.slice.call(document.querySelectorAll('.hf-chip'));
+    var clearBtn = document.getElementById('hf-clear');
+    var toastEl = document.querySelector('[data-toast]');
+    var miniWrap = document.getElementById('hf-mini');
+    var phraseGrid = document.getElementById('phrase-grid');
+
+    var activeCat = 'all';
+    var toastTimer;
+
+    function currentText(){
+      var v = (mainInput && mainInput.value || '').replace(/\s+$/,'');
+      return v.length ? v : DEFAULT_TEXT;
+    }
+
+    function esc(s){
+      return String(s).replace(/[&<>"']/g, function(c){
+        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+      });
+    }
+
+    function render(st, text){
+      if (st.tight) return (st.p || '') + tf(text, st.f) + (st.s || '');
+      return (st.p || '') + tf(text, st.f) + (st.s || '');
+    }
+
+    function showToast(msg){
+      if (!toastEl) return;
+      toastEl.textContent = msg;
+      toastEl.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 1600);
+    }
+
+    function fallbackCopy(str){
+      var ta = document.createElement('textarea');
+      ta.value = str;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'absolute';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+
+    function copyText(str, btn){
+      var after = function(){
+        flash(btn);
+        showToast('Copied! ♡');
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(str).then(after, function(){ fallbackCopy(str); after(); });
+      } else {
+        fallbackCopy(str);
+        after();
+      }
+    }
+
+    function flash(btn){
+      if (!btn || btn.classList.contains('is-copied')) return;
+      var orig = btn.getAttribute('data-orig') || btn.textContent;
+      btn.setAttribute('data-orig', orig);
+      btn.textContent = 'Copied! ♡';
+      btn.classList.add('is-copied');
+      setTimeout(function(){
+        btn.textContent = btn.getAttribute('data-orig');
+        btn.classList.remove('is-copied');
+      }, 1500);
+    }
+
+    /* ── Main results ── */
+    function build(){
+      var text = currentText();
+      var html = '';
+      var shown = 0;
+      for (var i = 0; i < STYLES.length; i++){
+        var st = STYLES[i];
+        if (activeCat !== 'all' && (' ' + st.c + ' ').indexOf(' ' + activeCat + ' ') === -1) continue;
+        var out = render(st, text);
+        shown++;
+        html += '<div class="hf-card">' +
+          '<div class="hf-card-head">' +
+            '<span class="hf-name">' + esc(st.n) + '</span>' +
+            '<button class="hf-copy" type="button" data-copy="' + esc(out) + '" aria-label="Copy ' + esc(st.n) + ' style">Copy</button>' +
+          '</div>' +
+          '<div class="hf-out" role="button" tabindex="0" data-copy="' + esc(out) + '" aria-label="Copy this text">' + esc(out) + '</div>' +
+        '</div>';
+      }
+      grid.innerHTML = html || '<p class="hf-empty">No styles in this category.</p>';
+      countEl.textContent = shown + (shown === 1 ? ' style' : ' styles') + (activeCat === 'all' ? '' : ' in ' + activeCat);
+    }
+
+    /* ── Mini preview (Try your own text) ── */
+    var MINI = [
+      {n:'Outline', p:'♡ ', s:' ♡'},
+      {n:'Solid', p:'♥ ', s:' ♥'},
+      {n:'Cursive Heart', f:'boldScript', p:'୨♡୧ ', s:' ୨♡୧'},
+      {n:'Sparkle', p:'♡₊˚ ', s:' ˚₊♡'},
+      {n:'Georgian', f:'script', p:'ღ ', s:' ღ'},
+      {n:'Emoji', p:'💖 ', s:' 💖'}
+    ];
+    function buildMini(){
+      if (!miniWrap) return;
+      var text = currentText();
+      var html = '';
+      for (var i = 0; i < MINI.length; i++){
+        var m = MINI[i];
+        var out = (m.p || '') + tf(text, m.f) + (m.s || '');
+        html += '<div class="hf-card">' +
+          '<div class="hf-card-head"><span class="hf-name">' + esc(m.n) + '</span>' +
+          '<button class="hf-copy" type="button" data-copy="' + esc(out) + '" aria-label="Copy ' + esc(m.n) + ' preview">Copy</button></div>' +
+          '<div class="hf-out" role="button" tabindex="0" data-copy="' + esc(out) + '" aria-label="Copy this text">' + esc(out) + '</div></div>';
+      }
+      miniWrap.innerHTML = html;
+    }
+
+    /* ── Popular phrases ── */
+    var PHRASES = ['Love','I Love You','My Love','Forever','Best Friends','Sweetheart','XOXO','Be Mine','Love You Forever','My Girl','My Boy','Angel','Princess'];
+    var PHRASE_STYLES = [
+      {p:'♡ ', s:' ♡'},
+      {f:'boldScript', p:'୨♡୧ ', s:' ୨♡୧'},
+      {f:'script', p:'ღ ', s:' ღ'},
+      {p:'˗ˏˋ ♡ ', s:' ♡ ˎˊ˗'},
+      {p:'💗 ', s:' 💗'}
+    ];
+    function buildPhrases(){
+      if (!phraseGrid) return;
+      var html = '';
+      for (var i = 0; i < PHRASES.length; i++){
+        var phrase = PHRASES[i];
+        var rows = '';
+        for (var j = 0; j < PHRASE_STYLES.length; j++){
+          var ps = PHRASE_STYLES[j];
+          var out = (ps.p || '') + tf(phrase, ps.f) + (ps.s || '');
+          rows += '<div class="phrase-row">' +
+            '<span class="phrase-out" role="button" tabindex="0" data-copy="' + esc(out) + '" aria-label="Copy ' + esc(phrase) + ' style">' + esc(out) + '</span>' +
+            '<button class="mini-copy" type="button" data-copy="' + esc(out) + '" aria-label="Copy ' + esc(phrase) + ' style">Copy</button>' +
+          '</div>';
+        }
+        html += '<div class="phrase-card"><h3>' + esc(phrase) + '</h3>' + rows + '</div>';
+      }
+      phraseGrid.innerHTML = html;
+    }
+
+    /* ── Symbol library ── */
+    var SYM_TEXT = ['♡','♥','❤','❣','❥','❦','❧','ღ','ෆ','ᰔ','ꨄ','დ','ও','ᥫᩣ'];
+    var SYM_EMOJI = ['💗','💖','💕','💞','💓','💘','💝','💟','🤍','🩷','❤️','🧡','💛','💚','💙','💜','🤎','🖤','💔','❣️','💌','💋'];
+    var SYM_COMBO = ['♡♡♡','♥♥♥','♡₊˚','˚₊♡','୨♡୧','༺♡༻','♡∞','∞♡','♡‧₊˚','⋆♡⋆','♡˖°','˗ˏˋ♡ˎˊ˗','˚ʚ♡ɞ˚','꒰♡꒱','.•♥•.','♡~♡'];
+
+    function fillSyms(id, list){
+      var el = document.getElementById(id);
+      if (!el) return;
+      var html = '';
+      for (var i = 0; i < list.length; i++){
+        html += '<button class="sym" type="button" data-copy="' + esc(list[i]) + '" aria-label="Copy heart symbol ' + esc(list[i]) + '">' + esc(list[i]) + '</button>';
+      }
+      el.innerHTML = html;
+    }
+
+    /* ── Event wiring ── */
+    function handleCopyTarget(target){
+      var node = target.closest ? target.closest('[data-copy]') : null;
+      if (!node) return false;
+      var str = node.getAttribute('data-copy');
+      if (str == null) return false;
+      if (node.classList.contains('sym')){
+        copyText(str, null);
+        node.classList.add('copied');
+        setTimeout(function(){ node.classList.remove('copied'); }, 1100);
+        return true;
+      }
+      var btn = node.classList.contains('hf-copy') || node.classList.contains('mini-copy') ? node : null;
+      copyText(str, btn);
+      return true;
+    }
+
+    document.addEventListener('click', function(e){
+      if (e.target.closest && e.target.closest('[data-copy]')) handleCopyTarget(e.target);
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+      var node = e.target.closest ? e.target.closest('[data-copy]') : null;
+      if (!node) return;
+      if (node.tagName === 'BUTTON') return; /* native */
+      e.preventDefault();
+      handleCopyTarget(e.target);
+    });
+
+    inputs.forEach(function(el){
+      el.addEventListener('input', function(){
+        inputs.forEach(function(other){ if (other !== el) other.value = el.value; });
+        build();
+        buildMini();
+      });
+    });
+
+    if (clearBtn){
+      clearBtn.addEventListener('click', function(){
+        inputs.forEach(function(el){ el.value = ''; });
+        if (mainInput) mainInput.focus();
+        build();
+        buildMini();
+      });
+    }
+
+    chips.forEach(function(chip){
+      chip.addEventListener('click', function(){
+        activeCat = chip.getAttribute('data-cat') || 'all';
+        chips.forEach(function(c){
+          var on = c === chip;
+          c.classList.toggle('active', on);
+          c.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        build();
+      });
+    });
+
+    /* sync secondary input initial value */
+    inputs.forEach(function(el){ if (el !== mainInput) el.value = mainInput ? mainInput.value : ''; });
+
+    build();
+    buildMini();
+    buildPhrases();
+    fillSyms('sym-text', SYM_TEXT);
+    fillSyms('sym-emoji', SYM_EMOJI);
+    fillSyms('sym-combo', SYM_COMBO);
+  })();
+  </script>
+
+  <script>
+    function toggleNav(btn){
+      var d=document.getElementById('nav-drawer');
+      var open=d.classList.toggle('open');
+      btn.classList.toggle('open',open);
+      btn.setAttribute('aria-expanded',open);
+      document.body.style.overflow=open?'hidden':'';
+    }
+    document.addEventListener('DOMContentLoaded',function(){
+      var d=document.getElementById('nav-drawer');
+      if(d) d.querySelectorAll('a').forEach(function(a){
+        a.addEventListener('click',function(){
+          d.classList.remove('open');
+          var b=document.querySelector('.nav-burger');
+          if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}
+          document.body.style.overflow='';
+        });
+      });
+    });
+  </script>
+  <script src="/assets/navigation.js?v=20260827e" defer></script>
+</body>
+</html>

@@ -5,3 +5,8 @@
 node_modules/
 *.log
 package-lock.json
+
+# build config / local artifacts — never deploy
+public/package.json
+cursive-extension.zip
+public/cursive-extension.zip
