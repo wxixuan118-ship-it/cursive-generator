@@ -21,6 +21,9 @@ www.cursive-text-generator.net {
   redir /cursive-text-generator / permanent
   redir /cursive-text-generator/ / permanent
 
+  # Keep the homepage on its shortest canonical URL
+  redir /index.html / permanent
+
   # Letters is a navigation category, not a standalone hub page
   redir /letters /cursive-letters-generator.html permanent
   redir /letters/ /cursive-letters-generator.html permanent
