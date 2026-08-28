@@ -5,11 +5,12 @@ A static SEO-focused cursive font generator and cursive text generator website.
 ## Pages
 
 - `/` targets `cursive font generator`
-- `/cursive-text-generator.html` targets `cursive text generator`
+- `/` is the canonical `cursive text generator` page
+- `/cursive-text-generator` and `/cursive-text-generator.html` redirect to `/`
 
 ## Deploy
 
-This project is ready for Vercel as a static site. Import the GitHub repository into Vercel or upload this folder directly.
+This project is deployed as a static site with Anysites.
 
 Production domain configured in metadata:
 
