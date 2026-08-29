@@ -98,6 +98,7 @@
             <a href="/cursive-fonts.html">Cursive Fonts</a>
           </div>
         </div>
+        <a href="/heart-font-generator.html">Emoji</a>
       <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
       </div>
     </nav>
@@ -116,7 +117,8 @@
       <a href="/">Cursive Generator</a>
       <a href="/fancy-text-generator.html">Fancy Text Generator</a>
     </div>
-  </nav>
+        <a href="/heart-font-generator.html">Emoji</a>
+    </nav>
 
   <main class="page">
     <section class="legal-section">
@@ -130,6 +132,11 @@
 
         <h2>The Three Cursive Unicode Styles</h2>
         <p>All three styles use characters from the <strong>Unicode Mathematical Alphanumeric Symbols block</strong> (U+1D400–U+1D7FF). They are standard Unicode — not a font, not an image — which means any app that supports Unicode will display them if the device has a font that covers this block.</p>
+          <figure class="page-preview" style="margin:28px 0;max-width:560px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper)">
+          <img src="assets/previews/cursive-compatibility.svg" width="1200" height="630" loading="lazy" decoding="async"
+          style="display:block;width:100%;height:auto" alt="The words &quot;Cursive&quot; shown in cursive Unicode script — preview from the Cursive Unicode Compatibility Test">
+          <figcaption style="font-size:13px;color:var(--muted);padding:8px 14px">&ldquo;Cursive&rdquo; rendered by the cursive unicode compatibility test</figcaption>
+          </figure>
 
         <div class="style-grid">
           <div class="style-card">
@@ -469,11 +476,6 @@
     </div>
     </section>
     <div class="wrap" style="padding:8px 0 32px">
-      <figure class="page-preview" style="margin:16px 0 6px;max-width:460px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper)">
-          <img src="assets/previews/cursive-compatibility.svg" width="1200" height="630" loading="lazy" decoding="async"
-               style="display:block;width:100%;height:auto" alt="The words &quot;Cursive&quot; shown in cursive Unicode script — preview from the Cursive Unicode Compatibility Test">
-          <figcaption style="font-size:13px;color:var(--muted);padding:8px 14px">&ldquo;Cursive&rdquo; rendered by the cursive unicode compatibility test</figcaption>
-        </figure>
     </div>
   </main>
 
@@ -497,6 +499,6 @@
     function toggleNav(btn){var d=document.getElementById('nav-drawer');var open=d.classList.toggle('open');btn.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);document.body.style.overflow=open?'hidden':'';}
     document.addEventListener('DOMContentLoaded',function(){var d=document.getElementById('nav-drawer');if(d)d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){d.classList.remove('open');var b=document.querySelector('.nav-burger');if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}document.body.style.overflow='';});});});
   </script>
-  <script src="/assets/navigation.js?v=20260827e" defer></script>
+  <script src="/assets/navigation.js?v=20260829a" defer></script>
 </body>
 </html>

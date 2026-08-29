@@ -4,7 +4,8 @@
     ["Letters", "/cursive-letters-generator.html"],
     ["Names", "/cursive-name-generator.html"],
     ["Fonts", "/cursive-fonts.html"],
-    ["Worksheets", "/cursive-practice-sheets.html"]
+    ["Worksheets", "/cursive-practice-sheets.html"],
+    ["Emoji", "/heart-font-generator.html"]
   ];
 
   const sections = {
@@ -32,6 +33,11 @@
       ["Copy & Paste", "/copy-and-paste/"],
       ["Bold Cursive", "/cursive-bold-generator.html"]
     ],
+    emoji: [
+      ["Heart Fonts", "/heart-font-generator.html"],
+      ["Fancy Text", "/fancy-text-generator.html"],
+      ["Copy & Paste", "/copy-and-paste/"]
+    ],
     worksheets: [
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
@@ -47,6 +53,8 @@
   if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator"])) current = "names";
   if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "name-tracing", "name-practice"])) current = "worksheets";
+  // emoji / symbol tools — add new slugs here as the section grows
+  if (inPath(["heart-font", "emoji", "symbol"])) current = "emoji";
 
   const link = ([label, href], active) =>
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;
