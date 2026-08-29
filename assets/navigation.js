@@ -35,6 +35,7 @@
     ],
     emoji: [
       ["Heart Fonts", "/heart-font-generator.html"],
+      ["Rose Fonts", "/rose-font-generator.html"],
       ["Fancy Text", "/fancy-text-generator.html"],
       ["Copy & Paste", "/copy-and-paste/"]
     ],
@@ -54,7 +55,7 @@
   if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "name-tracing", "name-practice"])) current = "worksheets";
   // emoji / symbol tools — add new slugs here as the section grows
-  if (inPath(["heart-font", "emoji", "symbol"])) current = "emoji";
+  if (inPath(["heart-font", "rose-font", "emoji", "symbol"])) current = "emoji";
 
   const link = ([label, href], active) =>
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;
