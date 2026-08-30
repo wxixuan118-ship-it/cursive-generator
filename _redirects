@@ -1,7 +1,13 @@
-# Canonical host and HTTPS (301)
-http://cursive-text-generator.net/*       https://www.cursive-text-generator.net/:splat  301!
-http://www.cursive-text-generator.net/*   https://www.cursive-text-generator.net/:splat  301!
-https://cursive-text-generator.net/*      https://www.cursive-text-generator.net/:splat  301!
+# ─── Canonical host: https://www.cursive-text-generator.net ───
+# DO NOT add host/domain redirect lines here. Cloudflare Pages does not support them:
+# "Domain-level redirects ❌" — https://developers.cloudflare.com/pages/configuration/redirects/
+# Netlify-style absolute-URL sources (http://cursive-text-generator.net/* -> ...) are
+# silently ignored by Pages; three such lines lived here until 2026-08-30 and never fired,
+# which is why apex and www both returned 200 for months.
+#
+# The apex -> www 301 is configured as a zone-level Cloudflare Redirect Rule
+# (dashboard: Rules -> Redirect Rules). That runs before Pages and covers every path,
+# including the homepage. If apex ever stops redirecting, check that rule first.
 
 # Duplicate URL consolidation
 # /cursive-text-generator.html is a real landing page (main keyword "cursive text
