@@ -5,7 +5,8 @@
     ["Names", "/cursive-name-generator.html"],
     ["Fonts", "/cursive-fonts.html"],
     ["Worksheets", "/cursive-practice-sheets.html"],
-    ["Emoji", "/heart-font-generator.html"]
+    ["Emoji", "/heart-font-generator.html"],
+    ["Theme", "/super-bowl-2027-font-generator.html"]
   ];
 
   const sections = {
@@ -40,6 +41,13 @@
       ["Fancy Text", "/fancy-text-generator.html"],
       ["Copy & Paste", "/copy-and-paste/"]
     ],
+    theme: [
+      ["Super Bowl 2027", "/super-bowl-2027-font-generator.html"],
+      ["Stranger Things", "/stranger-things-font-generator.html"],
+      ["Marvel", "/marvel-font-generator.html"],
+      ["Harry Potter", "/harry-potter-font-generator.html"],
+      ["Barbie", "/barbie-font-generator.html"]
+    ],
     worksheets: [
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
@@ -57,6 +65,8 @@
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "name-tracing", "name-practice"])) current = "worksheets";
   // emoji / symbol tools — add new slugs here as the section grows
   if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
+  // seasonal / event theme tools — add new slugs here as the section grows
+  if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
 
   const link = ([label, href], active) =>
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;
