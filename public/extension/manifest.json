@@ -1,10 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Cursive Text Generator",
-  "short_name": "Cursive",
-  "description": "Type any text and instantly get 8 cursive Unicode styles. Copy and paste into Instagram, TikTok, Discord, WhatsApp bio, and more.",
-  "version": "1.0.0",
-  "permissions": ["clipboardWrite"],
+  "description": "Convert text into eight Unicode cursive styles and copy the selected result.",
+  "version": "1.0.1",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Cursive Text Generator",

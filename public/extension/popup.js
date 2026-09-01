@@ -77,7 +77,7 @@ function downloadPng(cursiveText, styleName) {
 }
 
 function buildStylePills() {
-  var bar = document.getElementById('styles'); bar.innerHTML = '';
+  var bar = document.getElementById('styles'); bar.replaceChildren();
   STYLES.forEach(function(s) {
     var b = document.createElement('button');
     b.className = 'style-pill' + (s.k === active.k ? ' active' : '');
@@ -96,14 +96,21 @@ function buildPrimary() {
 
 function buildAllRows() {
   var text = getInput();
-  var wrap = document.getElementById('all-rows'); wrap.innerHTML = '';
+  var wrap = document.getElementById('all-rows'); wrap.replaceChildren();
   STYLES.forEach(function(s) {
     var out = text ? cv(text, s.k) : '';
     var row = document.createElement('div');
     row.className = 'style-row';
-    row.innerHTML = '<div class="style-row-name">' + s.name + '</div>'
-      + '<div class="style-row-out">' + out + '</div>'
-      + '<div class="style-row-copy">Copy</div>';
+    var name = document.createElement('div');
+    name.className = 'style-row-name';
+    name.textContent = s.name;
+    var output = document.createElement('div');
+    output.className = 'style-row-out';
+    output.textContent = out;
+    var copy = document.createElement('div');
+    copy.className = 'style-row-copy';
+    copy.textContent = 'Copy';
+    row.append(name, output, copy);
     row.addEventListener('click', function() { copyText(out); });
     wrap.appendChild(row);
   });
