@@ -37,8 +37,8 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-  <link rel="preload" href="assets/styles.css?v=20260827" as="style">
-  <link rel="stylesheet" href="assets/styles.css?v=20260827">
+  <link rel="preload" href="assets/styles.css?v=20260902" as="style">
+  <link rel="stylesheet" href="assets/styles.css?v=20260902">
 
   <!-- Organization Schema -->
   <script type="application/ld+json">
@@ -209,22 +209,33 @@
             <label for="text-input">Enter your text</label>
             <textarea id="text-input" data-input placeholder="Cursive Generator">Cursive Generator</textarea>
             <div class="controls">
-              <div class="select-wrap">
-                <label for="preset">Style</label>
-                <select id="preset" data-preset>
-                  <option value="all">All styles</option>
-                  <option value="script">Cursive Script</option>
-                  <option value="boldScript">Bold Cursive</option>
-                  <option value="fraktur">Old Style Script</option>
-                  <option value="double">Double-Struck</option>
-                  <option value="monospace">Clean Fancy</option>
-                </select>
-              </div>
               <button class="button secondary" type="button" data-clear>Clear</button>
             </div>
-            <p class="meta-note">Tip: click a result once to copy it, then paste the cursive text into your profile, caption, note, or design draft.</p>
+            <p class="meta-note">Type first, choose a style below, then copy or download your finished text.</p>
           </div>
-          <div class="results" data-results aria-live="polite"></div>
+          <section class="font-choice" aria-labelledby="font-choice-title">
+            <div class="generator-section-heading">
+              <span id="font-choice-title">2. Choose a font</span>
+              <p>Swipe sideways to explore every style.</p>
+            </div>
+            <div class="style-strip" data-style-strip role="tablist" aria-label="Cursive font styles"></div>
+          </section>
+          <section class="selected-output" aria-labelledby="selected-output-title">
+            <div class="generator-section-heading">
+              <span id="selected-output-title">3. Your result</span>
+              <p>Copy and downloads automatically include our site link.</p>
+            </div>
+            <article class="result-card result-card-selected">
+              <div class="result-top">
+                <div class="result-title" data-style-name>Cursive Script</div>
+                <div class="result-actions">
+                  <button class="btn-download" type="button" data-dl title="Download as PNG">Download PNG</button>
+                  <button class="button copy" type="button" data-copy aria-label="Copy selected style">1-Click Copy</button>
+                </div>
+              </div>
+              <div class="output" data-output aria-live="polite"></div>
+            </article>
+          </section>
         </div>
       </div>
     </section>
@@ -590,7 +601,7 @@
     </div>
   </footer>
   <div class="toast" data-toast role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=20260814" defer></script>
+  <script src="assets/app.js?v=20260902" defer></script>
   <script>
     function toggleNav(btn){
       var d=document.getElementById('nav-drawer');
