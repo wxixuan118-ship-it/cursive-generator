@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build:font": "./.venv/bin/python scripts/build-font.py",
     "indexnow": "node scripts/submit-indexnow.mjs"
   }
 }
