@@ -16,6 +16,9 @@ Files included:
 - README.txt
 - preview-primary.png
 - preview-specimen.png
+- preview-package-cover.png
+- preview-uppercase-study.png
+- preview-character-companion.png
 
 How to use:
 - Install the TTF or OTF file on desktop systems for design apps.

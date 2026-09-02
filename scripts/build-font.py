@@ -128,7 +128,9 @@ def contours_for_elements(elements, slant):
     contours = []
     for element in elements:
         if element["type"] == "stroke":
-            stroke_contours = stroke_to_contours(element["points"], element["width"] * 0.72, element["closed"])
+            # This release uses a dense, rounded brush weight rather than the
+            # thin signature stroke from the original prototype.
+            stroke_contours = stroke_to_contours(element["points"], element["width"] * 1.55, element["closed"])
             contours.extend(apply_slant(contour, slant) for contour in stroke_contours)
         else:
             contour = ellipse_contour(element["center"], element["rx"], element["ry"])
@@ -297,6 +299,9 @@ Files included:
 - README.txt
 - preview-primary.png
 - preview-specimen.png
+- preview-package-cover.png
+- preview-uppercase-study.png
+- preview-character-companion.png
 
 How to use:
 - Install the TTF or OTF file on desktop systems for design apps.
@@ -520,11 +525,18 @@ def build():
     )
 
     zip_path = ASSET_DIR / f"{DIST_NAME}.zip"
+    release_artworks = [
+        (PREVIEW_DIR / "ctg-signature-script-package-cover.png", "preview-package-cover.png"),
+        (PREVIEW_DIR / "ctg-signature-script-uppercase-study.png", "preview-uppercase-study.png"),
+        (PREVIEW_DIR / "ctg-signature-script-character-companion.png", "preview-character-companion.png"),
+    ]
     with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
         for item in [ttf_path, otf_path, woff2_path, license_path, readme_path]:
             archive.write(item, arcname=item.name)
         archive.write(primary_preview, arcname="preview-primary.png")
         archive.write(specimen_preview, arcname="preview-specimen.png")
+        for source_path, archive_name in release_artworks:
+            archive.write(source_path, arcname=archive_name)
 
     report = {
         "family_name": family_name,
