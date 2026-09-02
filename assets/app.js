@@ -237,7 +237,7 @@ async function copyText(text) {
 
 // ── Download as PNG ──────────────────────────────────────────────────────────
 function downloadCard(key) {
-  const outputEl = selectedOutput || results?.querySelector(`[data-output="${key}"]`);
+  const outputEl = (key && results?.querySelector(`[data-output="${key}"]`)) || selectedOutput;
   if (!outputEl) return;
 
   const text      = outputEl.textContent;
@@ -314,6 +314,10 @@ function downloadCard(key) {
 }
 
 // ── Render ───────────────────────────────────────────────────────────────────
+function escapeHtml(value) {
+  return value.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+}
+
 function render() {
   if (!input) return;
   const text     = input.value.trim() || input.placeholder;
@@ -321,12 +325,30 @@ function render() {
     styleStrip.innerHTML = Object.entries(alphabets).map(([key, ab]) => `
       <button class="style-option" type="button" role="tab" aria-selected="${key === selectedStyle}" data-style="${key}">
         <span>${ab.name}</span>
-        <strong>${convert("Signature", ab)}</strong>
+        <strong>${convert("Aa", ab)}</strong>
       </button>`).join("");
   }
   if (selectedOutput) {
     selectedOutput.textContent = convert(text, alphabets[selectedStyle]);
-    styleName.textContent = alphabets[selectedStyle].name;
+    if (styleName) styleName.textContent = alphabets[selectedStyle].name;
+  }
+  if (results) {
+    const selected = presetSelect ? presetSelect.value : "all";
+    const entries  = selected === "all"
+      ? Object.entries(alphabets)
+      : Object.entries(alphabets).filter(([k]) => k === selected);
+
+    results.innerHTML = entries.map(([key, ab]) => `
+      <article class="result-card">
+        <div class="result-top">
+          <div class="result-title">${ab.name}</div>
+          <div class="result-actions">
+            <button class="btn-download" type="button" data-dl="${key}" title="Download as PNG">⬇ Save</button>
+            <button class="button copy" type="button" data-copy="${key}" aria-label="Copy ${ab.name}">Copy</button>
+          </div>
+        </div>
+        <div class="output" data-output="${key}">${escapeHtml(convert(text, ab))}</div>
+      </article>`).join("");
   }
 }
 
@@ -345,12 +367,13 @@ styleStrip?.addEventListener("click", event => {
 document.addEventListener("click", e => {
   const copyBtn = e.target.closest("[data-copy]");
   if (copyBtn) {
-    const out = selectedOutput || results?.querySelector(`[data-output="${copyBtn.dataset.copy}"]`);
+    const key = copyBtn.dataset.copy;
+    const out = (key && results?.querySelector(`[data-output="${key}"]`)) || selectedOutput;
     if (out) copyText(out.textContent);
     return;
   }
   const dlBtn = e.target.closest("[data-dl]");
-  if (dlBtn) downloadCard(selectedStyle);
+  if (dlBtn) downloadCard(dlBtn.dataset.dl || selectedStyle);
 });
 
 // ── Init ─────────────────────────────────────────────────────────────────────
