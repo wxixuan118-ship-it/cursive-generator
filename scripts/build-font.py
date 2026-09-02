@@ -463,7 +463,7 @@ def build():
         ttf_path,
         primary_preview,
         "CTG Signature Script",
-        ["Beautiful Things", "Olivia & James", "Signature"],
+        ["Make A Mark ★", "Smile Big ☺", "Create ✦ Play ✦ Repeat"],
         width=1440,
         height=840,
         font_size=132,
@@ -476,8 +476,9 @@ def build():
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
             "abcdefghijklmnopqrstuvwxyz",
             "0123456789",
-            "Create Something Beautiful",
-            "Cursive Text Generator",
+            "★  ✦  ☺",
+            "Make A Mark",
+            "Create · Play · Repeat",
         ],
         width=1800,
         height=1080,
@@ -508,11 +509,10 @@ def build():
   <div class="sample">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
   <div class="sample">abcdefghijklmnopqrstuvwxyz</div>
   <div class="sample">0123456789</div>
-  <div class="sample">Beautiful Things</div>
-  <div class="sample">Olivia &amp; James</div>
-  <div class="sample">Create Something Beautiful</div>
-  <div class="sample">Signature</div>
-  <div class="sample">Cursive Text Generator</div>
+  <div class="sample">★ &nbsp; ✦ &nbsp; ☺</div>
+  <div class="sample">Make A Mark ★</div>
+  <div class="sample">Smile Big ☺</div>
+  <div class="sample">Create ✦ Play ✦ Repeat</div>
 </body>
 </html>
 """,

@@ -47,6 +47,15 @@ def ellipse(cx, cy, rx, ry):
     }
 
 
+def star(cx, cy, outer_radius, inner_radius, points=5):
+    outline = []
+    for index in range(points * 2):
+        radius = outer_radius if index % 2 == 0 else inner_radius
+        angle = math.radians(-90 + index * 180 / points)
+        outline.append((cx + math.cos(angle) * radius, cy + math.sin(angle) * radius))
+    return stroke(outline + [outline[0]], 42, closed=True)
+
+
 def translate(elements, dx=0, dy=0):
     translated = []
     for element in elements:
@@ -449,6 +458,15 @@ def punctuation():
         "quotedblright": glyph(274, *dbl_quote),
         "minus": glyph(320, stroke([(64, 188), (256, 188)], 44)),
         "ampersand.alt": glyph(688, stroke([(538, 120), (412, 24), (252, 44), (166, 160), (236, 276), (418, 414), (522, 520), (458, 640), (302, 656), (182, 584), (166, 434), (274, 310), (530, 118), (644, 14)], 70)),
+        "blackstar": glyph(660, star(322, 350, 268, 112)),
+        "sparkle": glyph(520, stroke([(260, 650), (294, 384), (474, 350), (294, 316), (260, 50), (226, 316), (46, 350), (226, 384), (260, 650)], 48, closed=True)),
+        "smile": glyph(
+            760,
+            stroke(bowl_loop(330, 340, 266, 266), 48, closed=True),
+            ellipse(240, 448, 26, 36),
+            ellipse(420, 448, 26, 36),
+            stroke([(178, 250), (256, 164), (334, 148), (418, 170), (486, 256)], 52),
+        ),
     }
 
 
@@ -490,6 +508,9 @@ def build_source():
         "\u00b0": "degree",
         "\u201c": "quotedblleft",
         "\u201d": "quotedblright",
+        "\u2605": "blackstar",
+        "\u2726": "sparkle",
+        "\u263a": "smile",
     }
     for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
         charmap[letter] = letter

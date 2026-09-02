@@ -1,8 +1,8 @@
 {
   "family_name": "CTG Signature Script",
   "postscript_name": "CTGSignatureScript-Regular",
-  "glyph_count": 95,
-  "required_characters": " !\"#$%&'()+,-./0123456789:;=?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]_abcdefghijklmnopqrstuvwxyz\u00a9\u00ae\u00b0\u2013\u2014\u201c\u201d",
+  "glyph_count": 98,
+  "required_characters": " !\"#$%&'()+,-./0123456789:;=?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]_abcdefghijklmnopqrstuvwxyz\u00a9\u00ae\u00b0\u2013\u2014\u201c\u201d\u2605\u263a\u2726",
   "outputs": [
     "/Users/w118/Documents/Codex/2026-08-31/https-github-com-wxixuan118-ship-it-2/cursive-generator/assets/fonts/ctg-signature-script/CTGSignatureScript.ttf",
     "/Users/w118/Documents/Codex/2026-08-31/https-github-com-wxixuan118-ship-it-2/cursive-generator/assets/fonts/ctg-signature-script/CTGSignatureScript.otf",
