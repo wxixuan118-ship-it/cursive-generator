@@ -15,7 +15,7 @@ FONT_META = {
         "for signatures, invitations, social graphics, quotes, branding, and creative personal projects."
     ),
     "website": "https://www.cursive-text-generator.net/",
-    "version": "Version 1.000",
+    "version": "Version 1.100",
     "license_name": "SIL Open Font License, Version 1.1",
     "license_url": "https://openfontlicense.org",
     "units_per_em": 1000,

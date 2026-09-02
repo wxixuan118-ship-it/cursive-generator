@@ -33,38 +33,27 @@ def load_source():
 
 
 def catmull_rom(points, samples=18, closed=False):
+    """Smooth a skeleton without the overshoot that caused self-intersections."""
     if len(points) < 2:
         return points
-    pts = list(points)
-    if closed:
-        pts = [points[-2], *points, points[1], points[2]]
-        segment_range = range(1, len(points) + 1)
-    else:
-        pts = [points[0], *points, points[-1]]
-        segment_range = range(1, len(pts) - 2)
 
-    out = []
-    for i in segment_range:
-        p0, p1, p2, p3 = pts[i - 1], pts[i], pts[i + 1], pts[i + 2]
-        for step in range(samples):
-            t = step / float(samples)
-            t2 = t * t
-            t3 = t2 * t
-            x = 0.5 * (
-                (2 * p1[0])
-                + (-p0[0] + p2[0]) * t
-                + (2 * p0[0] - 5 * p1[0] + 4 * p2[0] - p3[0]) * t2
-                + (-p0[0] + 3 * p1[0] - 3 * p2[0] + p3[0]) * t3
-            )
-            y = 0.5 * (
-                (2 * p1[1])
-                + (-p0[1] + p2[1]) * t
-                + (2 * p0[1] - 5 * p1[1] + 4 * p2[1] - p3[1]) * t2
-                + (-p0[1] + 3 * p1[1] - 3 * p2[1] + p3[1]) * t3
-            )
-            out.append((x, y))
-    out.append(points[0] if closed else points[-1])
-    return simplify(out)
+    result = list(points)
+    # Corner cutting preserves intended gesture but avoids the looped, spiky
+    # overshoot ordinary Catmull-Rom produces at tight handwriting turns.
+    for _ in range(4):
+        refined = []
+        pairs = list(zip(result, result[1:]))
+        if closed:
+            pairs.append((result[-1], result[0]))
+        else:
+            refined.append(result[0])
+        for (ax, ay), (bx, by) in pairs:
+            refined.append((0.75 * ax + 0.25 * bx, 0.75 * ay + 0.25 * by))
+            refined.append((0.25 * ax + 0.75 * bx, 0.25 * ay + 0.75 * by))
+        if not closed:
+            refined.append(result[-1])
+        result = refined
+    return simplify(result, tolerance=0.35)
 
 
 def simplify(points, tolerance=0.6):
@@ -85,54 +74,37 @@ def unit_normal(a, b):
     return (-dy / length, dx / length)
 
 
-def stroke_to_contour(points, width, closed):
+def stroke_to_contours(points, width, closed):
     centerline = catmull_rom(points, samples=20, closed=closed)
     if closed and centerline[0] == centerline[-1]:
         centerline = centerline[:-1]
     half = width / 2.0
-    normals = []
-    count = len(centerline)
-    for i, point in enumerate(centerline):
-        prev_point = centerline[i - 1 if i > 0 else (count - 1 if closed else 0)]
-        next_point = centerline[(i + 1) % count] if closed else centerline[min(i + 1, count - 1)]
-        nx1, ny1 = unit_normal(prev_point, point)
-        nx2, ny2 = unit_normal(point, next_point)
-        nx = nx1 + nx2
-        ny = ny1 + ny2
-        norm = math.hypot(nx, ny)
-        if norm < 1e-6:
-            nx, ny = unit_normal(prev_point, next_point)
-        else:
-            nx /= norm
-            ny /= norm
-        normals.append((nx, ny))
-
-    left = []
-    right = []
-    for (x, y), (nx, ny) in zip(centerline, normals):
-        left.append((x + nx * half, y + ny * half))
-        right.append((x - nx * half, y - ny * half))
-
+    contours = []
+    pairs = list(zip(centerline, centerline[1:]))
     if closed:
-        return simplify(left + right[::-1])
+        pairs.append((centerline[-1], centerline[0]))
 
-    start_cap = []
-    sx, sy = centerline[0]
-    snx, sny = normals[0]
-    start_angle = math.atan2(-sny, -snx)
-    for idx in range(10):
-        angle = start_angle + math.pi * idx / 9
-        start_cap.append((sx + math.cos(angle) * half, sy + math.sin(angle) * half))
-
-    end_cap = []
-    ex, ey = centerline[-1]
-    enx, eny = normals[-1]
-    end_angle = math.atan2(eny, enx)
-    for idx in range(10):
-        angle = end_angle + math.pi * idx / 9
-        end_cap.append((ex + math.cos(angle) * half, ey + math.sin(angle) * half))
-
-    return simplify(start_cap + left[1:-1] + end_cap + right[-2:0:-1])
+    # Each short segment is a rounded pen stamp. Keeping the stamps as
+    # overlapping contours is deliberate: it avoids self-intersecting outline
+    # polygons at reversals, which were responsible for the torn-looking joins.
+    for start, end in pairs:
+        nx, ny = unit_normal(start, end)
+        ax, ay = start
+        bx, by = end
+        contours.append(
+            [
+                (ax + nx * half, ay + ny * half),
+                (bx + nx * half, by + ny * half),
+                (bx - nx * half, by - ny * half),
+                (ax - nx * half, ay - ny * half),
+            ]
+        )
+    for index, point in enumerate(centerline):
+        if index % 3 == 0 or index == len(centerline) - 1:
+            # Segment quads are clockwise, so keep the round joins clockwise
+            # too; opposite windings would punch dotted holes into the stroke.
+            contours.append(list(reversed(ellipse_contour(point, half, half, steps=12))))
+    return contours
 
 
 def ellipse_contour(center, rx, ry, steps=32):
@@ -156,10 +128,11 @@ def contours_for_elements(elements, slant):
     contours = []
     for element in elements:
         if element["type"] == "stroke":
-            contour = stroke_to_contour(element["points"], element["width"], element["closed"])
+            stroke_contours = stroke_to_contours(element["points"], element["width"] * 0.72, element["closed"])
+            contours.extend(apply_slant(contour, slant) for contour in stroke_contours)
         else:
             contour = ellipse_contour(element["center"], element["rx"], element["ry"])
-        contours.append(apply_slant(contour, slant))
+            contours.append(apply_slant(contour, slant))
     return contours
 
 
