@@ -198,33 +198,31 @@
       <div class="wrap">
         <div class="tool-intro">
           <div>
-            <span class="eyebrow">Free · instant preview · one-click copy</span>
+            <nav class="generator-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/cursive-fonts.html">Font Generator</a><span>/</span><span>Cursive</span></nav>
             <h1>Cursive Generator</h1>
             <p>Type any text and instantly generate cursive fonts — Bold Cursive, Script, Calligraphy, and more. Copy with one click and paste anywhere: Instagram bio, TikTok username, Discord name, WhatsApp status, or any invitation.</p>
           </div>
           </div>
 
         <div class="generator-shell">
-          <div class="panel input-panel">
-            <label for="text-input">Enter your text</label>
-            <textarea id="text-input" data-input placeholder="Cursive Generator">Cursive Generator</textarea>
-            <div class="controls">
-              <button class="button secondary" type="button" data-clear>Clear</button>
-            </div>
-            <p class="meta-note">Type first, choose a style below, then copy or download your finished text.</p>
-          </div>
           <section class="font-choice" aria-labelledby="font-choice-title">
-            <div class="generator-section-heading">
-              <span id="font-choice-title">2. Choose a font</span>
-              <p>Swipe sideways to explore every style.</p>
-            </div>
+            <span class="sr-only" id="font-choice-title">Choose a cursive font</span>
             <div class="style-strip" data-style-strip role="tablist" aria-label="Cursive font styles"></div>
           </section>
+          <div class="input-panel input-panel-search">
+            <label class="sr-only" for="text-input">Enter your text</label>
+            <span class="search-mark" aria-hidden="true"></span>
+            <textarea id="text-input" data-input rows="1" placeholder="Cursive Generator">Cursive Generator</textarea>
+            <button class="clear-search" type="button" data-clear aria-label="Clear text">×</button>
+          </div>
+          <div class="ad-slot" aria-label="Advertisement">ADVERTISEMENT</div>
           <section class="selected-output" aria-labelledby="selected-output-title">
-            <div class="generator-section-heading">
-              <span id="selected-output-title">3. Your result</span>
-              <p>Copy and downloads automatically include our site link.</p>
+            <div class="result-tabs" aria-label="Output type">
+              <span class="active">Copy-Paste Fonts</span>
+              <span>Graphic Fonts</span>
             </div>
+            <h2 id="selected-output-title">Cursive Font Styles</h2>
+            <p class="result-note">Copy and downloads automatically include our site link.</p>
             <article class="result-card result-card-selected">
               <div class="result-top">
                 <div class="result-title" data-style-name>Cursive Script</div>

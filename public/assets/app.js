@@ -355,5 +355,4 @@ document.addEventListener("click", e => {
 
 // ── Init ─────────────────────────────────────────────────────────────────────
 populateSelect();
-injectExtraControls();
 render();
