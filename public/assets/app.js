@@ -89,6 +89,10 @@ const results      = document.querySelector("[data-results]");
 const clearButton  = document.querySelector("[data-clear]");
 const presetSelect = document.querySelector("[data-preset]");
 const toast        = document.querySelector("[data-toast]");
+const styleStrip   = document.querySelector("[data-style-strip]");
+const selectedOutput = document.querySelector("[data-output]");
+const styleName    = document.querySelector("[data-style-name]");
+let selectedStyle = "script";
 
 // ── State ────────────────────────────────────────────────────────────────────
 let bgMode   = "transparent"; // current bg mode key
@@ -224,8 +228,8 @@ function showToast(message) {
 
 async function copyText(text) {
   try {
-    await navigator.clipboard.writeText(text);
-    showToast("Copied — paste it anywhere");
+    await navigator.clipboard.writeText(`${text}\nhttps://www.cursive-text-generator.net/`);
+    showToast("Copied with our site link included");
   } catch {
     showToast("Select and copy the text manually");
   }
@@ -233,7 +237,7 @@ async function copyText(text) {
 
 // ── Download as PNG ──────────────────────────────────────────────────────────
 function downloadCard(key) {
-  const outputEl = results?.querySelector(`[data-output="${key}"]`);
+  const outputEl = selectedOutput || results?.querySelector(`[data-output="${key}"]`);
   if (!outputEl) return;
 
   const text      = outputEl.textContent;
@@ -300,7 +304,7 @@ function downloadCard(key) {
   // Footer label
   ctx.font      = `13px 'Segoe UI',Arial,sans-serif`;
   ctx.fillStyle = sub;
-  ctx.fillText(`${styleName} · cursive-text-generator.net`, PAD, cH - 10);
+  ctx.fillText(`${styleName} · https://www.cursive-text-generator.net/`, PAD, cH - 10);
 
   // Trigger download
   const a      = document.createElement("a");
@@ -311,27 +315,19 @@ function downloadCard(key) {
 
 // ── Render ───────────────────────────────────────────────────────────────────
 function render() {
-  if (!input || !results || !presetSelect) return;
+  if (!input) return;
   const text     = input.value.trim() || input.placeholder;
-  const selected = presetSelect.value;
-  const entries  = selected === "all"
-    ? Object.entries(alphabets)
-    : Object.entries(alphabets).filter(([k]) => k === selected);
-
-  results.innerHTML = entries.map(([key, ab]) => {
-    const output = convert(text, ab);
-    return `
-      <article class="result-card">
-        <div class="result-top">
-          <div class="result-title">${ab.name}</div>
-          <div class="result-actions">
-            <button class="btn-download" type="button" data-dl="${key}" title="Download as PNG">⬇ Save</button>
-            <button class="button copy" type="button" data-copy="${key}" aria-label="Copy ${ab.name}">1-Click Copy</button>
-          </div>
-        </div>
-        <div class="output" data-output="${key}">${output}</div>
-      </article>`;
-  }).join("");
+  if (styleStrip) {
+    styleStrip.innerHTML = Object.entries(alphabets).map(([key, ab]) => `
+      <button class="style-option" type="button" role="tab" aria-selected="${key === selectedStyle}" data-style="${key}">
+        <span>${ab.name}</span>
+        <strong>${convert("Signature", ab)}</strong>
+      </button>`).join("");
+  }
+  if (selectedOutput) {
+    selectedOutput.textContent = convert(text, alphabets[selectedStyle]);
+    styleName.textContent = alphabets[selectedStyle].name;
+  }
 }
 
 // ── Event listeners ──────────────────────────────────────────────────────────
@@ -339,15 +335,22 @@ input?.addEventListener("input", render);
 presetSelect?.addEventListener("change", render);
 clearButton?.addEventListener("click", () => { input.value = ""; input.focus(); render(); });
 
-results?.addEventListener("click", e => {
+styleStrip?.addEventListener("click", event => {
+  const option = event.target.closest("[data-style]");
+  if (!option) return;
+  selectedStyle = option.dataset.style;
+  render();
+});
+
+document.addEventListener("click", e => {
   const copyBtn = e.target.closest("[data-copy]");
   if (copyBtn) {
-    const out = results.querySelector(`[data-output="${copyBtn.dataset.copy}"]`);
+    const out = selectedOutput || results?.querySelector(`[data-output="${copyBtn.dataset.copy}"]`);
     if (out) copyText(out.textContent);
     return;
   }
   const dlBtn = e.target.closest("[data-dl]");
-  if (dlBtn) downloadCard(dlBtn.dataset.dl);
+  if (dlBtn) downloadCard(selectedStyle);
 });
 
 // ── Init ─────────────────────────────────────────────────────────────────────
