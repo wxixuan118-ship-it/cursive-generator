@@ -485,7 +485,9 @@
       </div>
       <div class="footer-col footer-partners">
         <strong class="footer-col-title">Partners</strong>
-        <div class="partner-badges">
+        <div class="partner-carousel" data-partner-carousel>
+          <button class="partner-carousel-btn" type="button" data-partner-prev aria-label="Show previous partners" disabled>&lsaquo;</button>
+          <div class="partner-badges">
         <a href="https://bowora.com/?via=x9x6uocg" target="_blank" rel="noopener" aria-label="Featured on Bowora" style="display:inline-flex;align-items:center;gap:10px;width:170px;height:50px;box-sizing:border-box;background:#fff;color:#000;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;padding:8px 14px;border-radius:8px;text-decoration:none;border:1px solid #e8e8e8;">
           <img src="https://bowora.com/logo.svg" alt="" width="35" height="35" loading="lazy" style="display:block;width:35px;height:35px;object-fit:contain;">
           <span style="display:flex;flex-direction:column;line-height:1.2;text-align:left;">
@@ -564,6 +566,11 @@
         <a href="https://best-ai.org" target="_blank" rel="dofollow" aria-label="Listed on Best-AI.org">
           <img src="https://best-ai.org/images/badge-best-ai-org.png" srcset="https://best-ai.org/images/badge-best-ai-org.png 1x, https://best-ai.org/images/badge-best-ai-org@2x.png 2x" alt="Listed on Best-AI.org" width="200" height="48" loading="lazy" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
         </a>
+        <a href="https://toolbit.ai/ai-tool/cursive-text-generator-net?ref=embed" target="_blank" rel="noopener" data-tb-secret="bd7459f9280dbac54e4d78ccf247c0c07b9e7138fbc4b71f" aria-label="Featured on ToolBit.ai - Cursive Text Generator">
+          <img src="https://cdn.toolbit.ai/external-share-img/light-featured.svg" alt="Featured on ToolBit.ai - Cursive Text Generator" width="250" height="76" loading="lazy" style="display:block;width:250px;height:76px;max-width:100%;object-fit:contain;border:0;" />
+        </a>
+        </div>
+          <button class="partner-carousel-btn" type="button" data-partner-next aria-label="Show more partners">&rsaquo;</button>
         </div>
       </div>
       <div class="footer-col">
@@ -610,6 +617,25 @@
           if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}
           document.body.style.overflow='';
         });
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded',function(){
+      document.querySelectorAll('[data-partner-carousel]').forEach(function(carousel){
+        var track=carousel.querySelector('.partner-badges');
+        var prev=carousel.querySelector('[data-partner-prev]');
+        var next=carousel.querySelector('[data-partner-next]');
+        var update=function(){
+          var max=track.scrollWidth-track.clientWidth-1;
+          prev.disabled=track.scrollLeft<=1;
+          next.disabled=track.scrollLeft>=max;
+        };
+        prev.addEventListener('click',function(){track.scrollBy({left:-220,behavior:'smooth'});});
+        next.addEventListener('click',function(){track.scrollBy({left:220,behavior:'smooth'});});
+        track.addEventListener('scroll',update,{passive:true});
+        window.addEventListener('resize',update);
+        update();
       });
     });
   </script>
