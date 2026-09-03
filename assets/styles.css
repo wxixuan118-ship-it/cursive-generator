@@ -800,8 +800,8 @@ select {
 }
 
 .footer-body {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 32px 40px;
   padding: 40px 20px 24px;
   max-width: 1180px;
@@ -811,6 +811,7 @@ select {
   display: flex;
   flex-direction: column;
   gap: 7px;
+  flex: 1 1 180px;
 }
 .footer-col-title {
   font-size: 11px;
@@ -830,36 +831,41 @@ select {
   color: var(--ink);
 }
 .footer-partners {
-  grid-column: 1 / -1;
+  flex: 0 0 100%;
+  order: 2;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
 }
 .partner-badges {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 14px 18px;
+  align-items: flex-start;
+  gap: 16px 20px;
 }
 .partner-badges > a {
   display: inline-flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex: 0 0 auto;
+  min-width: 150px;
   min-height: 60px;
 }
 .partner-badges img {
   max-height: 72px;
   object-fit: contain;
+  vertical-align: middle;
 }
 @media (max-width: 680px) {
   .footer-body {
-    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 24px;
   }
 }
 @media (max-width: 420px) {
   .footer-body {
-    grid-template-columns: 1fr;
+    gap: 24px;
   }
   .partner-badges {
-    gap: 12px;
+    gap: 12px 14px;
   }
 }
 
