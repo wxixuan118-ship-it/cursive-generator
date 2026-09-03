@@ -833,6 +833,10 @@ select {
 .footer-partners {
   flex: 0 0 100%;
   order: 2;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
   padding-top: 8px;
   border-top: 1px solid var(--line);
 }
@@ -853,9 +857,14 @@ select {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100%;
   min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
 }
 .partner-carousel-btn {
+  position: relative;
+  z-index: 1;
   flex: 0 0 32px;
   width: 32px;
   height: 32px;
