@@ -1,0 +1,111 @@
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@lower_med  = [a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute ccaron ccedilla d dotlessi dotlessj e eacute ecircumflex edieresis egrave emacron eogonek eth f g gbreve germandbls h i iacute icircumflex idieresis igrave j k l lacute m n nacute ntilde o oacute ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p q r s sacute scaron scedilla t thorn u uacute ucircumflex udieresis ugrave uhungarumlaut umacron v w x y yacute ydieresis z zacute zcaron];
+@lower_init = [a.init aacute.init abreve.init acircumflex.init adieresis.init ae.init agrave.init amacron.init aogonek.init aring.init atilde.init b.init c.init cacute.init ccaron.init ccedilla.init d.init dotlessi.init dotlessj.init e.init eacute.init ecircumflex.init edieresis.init egrave.init emacron.init eogonek.init eth.init f.init g.init gbreve.init germandbls.init h.init i.init iacute.init icircumflex.init idieresis.init igrave.init j.init k.init l.init lacute.init m.init n.init nacute.init ntilde.init o.init oacute.init ocircumflex.init odieresis.init oe.init ograve.init ohungarumlaut.init omacron.init oslash.init otilde.init p.init q.init r.init s.init sacute.init scaron.init scedilla.init t.init thorn.init u.init uacute.init ucircumflex.init udieresis.init ugrave.init uhungarumlaut.init umacron.init v.init w.init x.init y.init yacute.init ydieresis.init z.init zacute.init zcaron.init];
+@lower_fina = [a.fina aacute.fina abreve.fina acircumflex.fina adieresis.fina ae.fina agrave.fina amacron.fina aogonek.fina aring.fina atilde.fina b.fina c.fina cacute.fina ccaron.fina ccedilla.fina d.fina dotlessi.fina dotlessj.fina e.fina eacute.fina ecircumflex.fina edieresis.fina egrave.fina emacron.fina eogonek.fina eth.fina f.fina g.fina gbreve.fina germandbls.fina h.fina i.fina iacute.fina icircumflex.fina idieresis.fina igrave.fina j.fina k.fina l.fina lacute.fina m.fina n.fina nacute.fina ntilde.fina o.fina oacute.fina ocircumflex.fina odieresis.fina oe.fina ograve.fina ohungarumlaut.fina omacron.fina oslash.fina otilde.fina p.fina q.fina r.fina s.fina sacute.fina scaron.fina scedilla.fina t.fina thorn.fina u.fina uacute.fina ucircumflex.fina udieresis.fina ugrave.fina uhungarumlaut.fina umacron.fina v.fina w.fina x.fina y.fina yacute.fina ydieresis.fina z.fina zacute.fina zcaron.fina];
+@lower_isol = [a.isol aacute.isol abreve.isol acircumflex.isol adieresis.isol ae.isol agrave.isol amacron.isol aogonek.isol aring.isol atilde.isol b.isol c.isol cacute.isol ccaron.isol ccedilla.isol d.isol dotlessi.isol dotlessj.isol e.isol eacute.isol ecircumflex.isol edieresis.isol egrave.isol emacron.isol eogonek.isol eth.isol f.isol g.isol gbreve.isol germandbls.isol h.isol i.isol iacute.isol icircumflex.isol idieresis.isol igrave.isol j.isol k.isol l.isol lacute.isol m.isol n.isol nacute.isol ntilde.isol o.isol oacute.isol ocircumflex.isol odieresis.isol oe.isol ograve.isol ohungarumlaut.isol omacron.isol oslash.isol otilde.isol p.isol q.isol r.isol s.isol sacute.isol scaron.isol scedilla.isol t.isol thorn.isol u.isol uacute.isol ucircumflex.isol udieresis.isol ugrave.isol uhungarumlaut.isol umacron.isol v.isol w.isol x.isol y.isol yacute.isol ydieresis.isol z.isol zacute.isol zcaron.isol];
+@upper_conn = [A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla D E Eacute Ecircumflex Edieresis Egrave Emacron Eogonek Eth F G Gbreve H I Iacute Icircumflex Idieresis Igrave J K L Lacute M N Nacute Ntilde O OE Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P Q R S Sacute Scaron Scedilla T Thorn U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron V W X Y Yacute Ydieresis Z Zacute Zcaron];
+@upper_isol = [A.isol AE.isol Aacute.isol Abreve.isol Acircumflex.isol Adieresis.isol Agrave.isol Amacron.isol Aogonek.isol Aring.isol Atilde.isol B.isol C.isol Cacute.isol Ccaron.isol Ccedilla.isol D.isol E.isol Eacute.isol Ecircumflex.isol Edieresis.isol Egrave.isol Emacron.isol Eogonek.isol Eth.isol F.isol G.isol Gbreve.isol H.isol I.isol Iacute.isol Icircumflex.isol Idieresis.isol Igrave.isol J.isol K.isol L.isol Lacute.isol M.isol N.isol Nacute.isol Ntilde.isol O.isol OE.isol Oacute.isol Ocircumflex.isol Odieresis.isol Ograve.isol Ohungarumlaut.isol Omacron.isol Oslash.isol Otilde.isol P.isol Q.isol R.isol S.isol Sacute.isol Scaron.isol Scedilla.isol T.isol Thorn.isol U.isol Uacute.isol Ucircumflex.isol Udieresis.isol Ugrave.isol Uhungarumlaut.isol Umacron.isol V.isol W.isol X.isol Y.isol Yacute.isol Ydieresis.isol Z.isol Zacute.isol Zcaron.isol];
+@joins_left  = [@lower_med @lower_init @upper_conn];
+@joins_right = [@lower_med @lower_init @lower_fina @lower_isol];
+
+# Contextual joining.  Letters are drawn with both an entry and an exit stroke
+# by default; the lead-in is dropped at the start of a word and the exit is
+# swapped for a terminal at the end of one.
+feature calt {
+    lookup ctg_initial {
+        ignore sub @joins_left @lower_med';
+        sub @lower_med' by @lower_init;
+    } ctg_initial;
+
+    lookup ctg_final {
+        ignore sub @lower_med' [@lower_med @lower_init];
+        ignore sub @lower_init' [@lower_med @lower_init];
+        sub @lower_med' by @lower_fina;
+        sub @lower_init' by @lower_isol;
+    } ctg_final;
+
+    lookup ctg_capital {
+        ignore sub @upper_conn' @joins_right;
+        sub @upper_conn' by @upper_isol;
+    } ctg_capital;
+
+    # A hand never draws the same letter twice the same way.
+    lookup ctg_doubled {
+    sub e e' by e.alt;
+    sub e e.fina' by e.fina.alt;
+    sub e.init e' by e.alt;
+    sub e.init e.fina' by e.fina.alt;
+    sub l l' by l.alt;
+    sub l l.fina' by l.fina.alt;
+    sub l.init l' by l.alt;
+    sub l.init l.fina' by l.fina.alt;
+    sub m m' by m.alt;
+    sub m m.fina' by m.fina.alt;
+    sub m.init m' by m.alt;
+    sub m.init m.fina' by m.fina.alt;
+    sub n n' by n.alt;
+    sub n n.fina' by n.fina.alt;
+    sub n.init n' by n.alt;
+    sub n.init n.fina' by n.fina.alt;
+    sub o o' by o.alt;
+    sub o o.fina' by o.fina.alt;
+    sub o.init o' by o.alt;
+    sub o.init o.fina' by o.fina.alt;
+    sub r r' by r.alt;
+    sub r r.fina' by r.fina.alt;
+    sub r.init r' by r.alt;
+    sub r.init r.fina' by r.fina.alt;
+    sub s s' by s.alt;
+    sub s s.fina' by s.fina.alt;
+    sub s.init s' by s.alt;
+    sub s.init s.fina' by s.fina.alt;
+    sub t t' by t.alt;
+    sub t t.fina' by t.fina.alt;
+    sub t.init t' by t.alt;
+    sub t.init t.fina' by t.fina.alt;
+    sub u u' by u.alt;
+    sub u u.fina' by u.fina.alt;
+    sub u.init u' by u.alt;
+    sub u.init u.fina' by u.fina.alt;
+    sub f f' by f.alt;
+    sub f f.fina' by f.fina.alt;
+    sub f.init f' by f.alt;
+    sub f.init f.fina' by f.fina.alt;
+    sub p p' by p.alt;
+    sub p p.fina' by p.fina.alt;
+    sub p.init p' by p.alt;
+    sub p.init p.fina' by p.fina.alt;
+    sub g g' by g.alt;
+    sub g g.fina' by g.fina.alt;
+    sub g.init g' by g.alt;
+    sub g.init g.fina' by g.fina.alt;
+    sub c c' by c.alt;
+    sub c c.fina' by c.fina.alt;
+    sub c.init c' by c.alt;
+    sub c.init c.fina' by c.fina.alt;
+    } ctg_doubled;
+} calt;
+
+# Optional joined double-t and double-f, written with one continuous crossbar.
+feature dlig {
+    sub t t by t_t;
+    sub t t.fina by t_t;
+    sub t.init t by t_t;
+    sub t.init t.fina by t_t;
+    sub f f by f_f;
+    sub f f.fina by f_f;
+    sub f.init f by f_f;
+    sub f.init f.fina by f_f;
+} dlig;
+
+feature kern {
+    pos [a.fina e.fina o.fina n.fina m.fina u.fina r.fina t.fina s.fina c.fina d.fina h.fina i.fina k.fina l.fina b.fina v.fina w.fina x.fina z.fina] [period comma] -55;
+    pos [a.fina e.fina o.fina n.fina m.fina u.fina r.fina t.fina s.fina c.fina d.fina h.fina i.fina k.fina l.fina b.fina v.fina w.fina x.fina z.fina] [quoteright quotedblright] -30;
+    pos [A.isol B.isol C.isol D.isol E.isol F.isol G.isol H.isol I.isol J.isol K.isol L.isol M.isol N.isol O.isol P.isol Q.isol R.isol S.isol T.isol U.isol V.isol W.isol X.isol Y.isol Z.isol] [period comma] -40;
+    pos [parenleft bracketleft braceleft] [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z] -25;
+    pos [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z] [parenright bracketright braceright] -25;
+    pos quoteleft [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z] -20;
+} kern;
