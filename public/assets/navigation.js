@@ -25,7 +25,7 @@
     ],
     names: [
       ["Name Generator", "/cursive-name-generator.html"],
-      ["Signature Generator", "/cursive-signature-generator.html"],
+      ["Signature Generator", "/copy-and-paste-cursive-signature.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"]
     ],

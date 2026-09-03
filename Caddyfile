@@ -47,8 +47,8 @@ www.cursive-text-generator.net {
   redir @namet /cursive-name-tracing-generator.html permanent
   @sheets path /cursive-practice-sheets /cursive-practice-sheets/ /cursive-practice-sheets/index.html
   redir @sheets /cursive-practice-sheets.html permanent
-  @sig path /cursive-signature-generator /cursive-signature-generator/ /cursive-signature-generator/index.html
-  redir @sig /cursive-signature-generator.html permanent
+  @sig path /cursive-signature-generator.html /cursive-signature-generator /cursive-signature-generator/ /cursive-signature-generator/index.html
+  redir @sig /copy-and-paste-cursive-signature.html permanent
   @boldfont path /cursive-bold-font-generator /cursive-bold-font-generator/ /cursive-bold-font-generator/index.html
   redir @boldfont /cursive-bold-generator.html permanent
 
