@@ -3,6 +3,8 @@
 .vercel-home/
 .npm-cache/
 node_modules/
+__pycache__/
+*.pyc
 .venv/
 *.log
 package-lock.json

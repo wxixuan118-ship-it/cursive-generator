@@ -1,0 +1,60 @@
+<!doctype html><meta charset="utf-8"><title>CTG Everly Script - test sheet</title><style>
+@font-face {
+  font-family: 'CTG Everly Script';
+  src: url('./CTGEverlyScript.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: block;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #faf7f1; color: #1c1a17;
+       font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+.script { font-family: 'CTG Everly Script', cursive; font-weight: 400; }
+.label { font-size: 12px; letter-spacing: .18em; text-transform: uppercase;
+         color: #a2947f; }
+
+body { padding: 48px 60px; max-width: 1180px; margin: 0 auto; }
+h1 { font-size: 22px; margin-bottom: 4px; }
+p.note { color: #7d735f; font-size: 14px; margin-bottom: 26px; }
+section { border-top: 1px solid #e6ded0; padding: 20px 0; }
+h2 { font-size: 11px; letter-spacing: .2em; text-transform: uppercase;
+     color: #a2947f; margin-bottom: 12px; }
+.s { font-family: 'CTG Everly Script', cursive; }
+.s.xl { font-size: 62px; line-height: 1.45; }
+.s.lg { font-size: 44px; line-height: 1.5; }
+.s.md { font-size: 30px; line-height: 1.6; }
+.s.sm { font-size: 19px; line-height: 1.7; }
+.dlig { font-feature-settings: "dlig" 1; }
+.nocalt { font-variant-ligatures: no-contextual; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+</style>
+<h1>CTG Everly Script &mdash; test sheet</h1>
+<p class="note">Loaded from CTGEverlyScript-Regular.woff2. If the text below is
+not cursive, the font failed to load.</p>
+
+<section><h2>1. Uppercase A&ndash;Z</h2><div class="s lg">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div></section>
+<section><h2>2. Lowercase a&ndash;z</h2><div class="s lg">abcdefghijklmnopqrstuvwxyz</div></section>
+<section><h2>3. Digits 0&ndash;9</h2><div class="s lg">0123456789</div></section>
+<section><h2>4. Punctuation</h2><div class="s md">. , : ; ! ? &apos; &quot; &lsquo; &rsquo; &ldquo; &rdquo; - &ndash; &mdash; _ ( ) [ ] { } / \ | &amp; @ # $ % + = * &lt; &gt; ^ ~ &deg; &plusmn; &times; &divide; &sect; &para; &bull; &hellip; &laquo; &raquo; &iexcl; &iquest; &copy; &reg; &trade; &euro; &pound; &yen; &cent; &curren; &brvbar; &not; &ordf; &ordm; &sup1; &sup2; &sup3; &frac14; &frac12; &frac34;</div></section>
+<section><h2>5. Accented characters</h2><div class="s md">&Aacute;&Agrave;&Acirc;&Auml;&Atilde;&Aring;&Ccedil;&Eacute;&Egrave;&Ecirc;&Euml;&Iacute;&Igrave;&Icirc;&Iuml;&Ntilde;&Oacute;&Ograve;&Ocirc;&Ouml;&Otilde;&Oslash;&Uacute;&Ugrave;&Ucirc;&Uuml;&Yacute;&Yuml;&AElig;&OElig;&ETH;&THORN;<br>
+&aacute;&agrave;&acirc;&auml;&atilde;&aring;&ccedil;&eacute;&egrave;&ecirc;&euml;&iacute;&igrave;&icirc;&iuml;&ntilde;&oacute;&ograve;&ocirc;&ouml;&otilde;&oslash;&uacute;&ugrave;&ucirc;&uuml;&yacute;&yuml;&aelig;&oelig;&szlig;&eth;&thorn;<br>
+r&eacute;sum&eacute; &nbsp; ca&ntilde;&oacute;n &nbsp; fa&ccedil;ade &nbsp; Str&aring;le &nbsp; Gr&uuml;&szlig;e &nbsp; cr&egrave;me br&ucirc;l&eacute;e</div></section>
+<section><h2>6. Common letter combinations</h2><div class="s lg">th he ll lo ve ing tt ss oo ee ri wr st ly</div></section>
+<section><h2>7. Long words</h2><div class="s md">extraordinarily &nbsp; uncharacteristically &nbsp; incomprehensibility<br>
+handwriting &nbsp; congratulations &nbsp; unforgettable &nbsp; wildflowers</div></section>
+<section><h2>8. Uppercase + lowercase</h2><div class="s lg">Beautiful Things &nbsp; Love Yourself<br>Dream Without Fear &nbsp; Forever &amp; Always<br>Handwritten with Love</div></section>
+<section><h2>9. Contextual joining (calt on / off)</h2>
+<div class="two">
+  <div><div class="label">calt on (default)</div><div class="s lg">stellar morning</div></div>
+  <div><div class="label">calt off</div><div class="s lg nocalt">stellar morning</div></div>
+</div></section>
+<section><h2>10. Discretionary ligatures (dlig)</h2>
+<div class="two">
+  <div><div class="label">default</div><div class="s lg">little offer</div></div>
+  <div><div class="label">dlig on</div><div class="s lg dlig">little offer</div></div>
+</div></section>
+<section><h2>11. Size ladder</h2>
+<div class="s xl">Everly 62</div><div class="s lg">Everly Script 44</div>
+<div class="s md">The quick brown fox jumps over the lazy dog 30</div>
+<div class="s sm">The quick brown fox jumps over the lazy dog 0123456789 19</div></section>
+<section><h2>12. Paragraph</h2><div class="s md">She wrote the whole letter by hand, looping every
+word into the next, and signed it with the kind of flourish that only comes from
+years of practice. Forever &amp; always, she said, and meant it.</div></section>

@@ -1,0 +1,106 @@
+{
+  "CTGEverlyScript-Regular.ttf": {
+    "outlines": "glyf",
+    "glyphs": 604,
+    "encoded": 257,
+    "unitsPerEm": 1000,
+    "features": [
+      "calt",
+      "dlig",
+      "kern"
+    ],
+    "coverage": {
+      "Basic Latin letters": {
+        "required": 52,
+        "present": 52,
+        "missing": []
+      },
+      "Digits": {
+        "required": 10,
+        "present": 10,
+        "missing": []
+      },
+      "ASCII punctuation": {
+        "required": 33,
+        "present": 33,
+        "missing": []
+      },
+      "Latin-1 Supplement": {
+        "required": 96,
+        "present": 96,
+        "missing": []
+      },
+      "Typographic punctuation": {
+        "required": 12,
+        "present": 12,
+        "missing": []
+      }
+    },
+    "failures": [],
+    "warnings": [
+      "CTGEverlyScript-Regular.ttf: heavy glyphs: Y(934), AE(970), OE(919), f_f(1375), t_t(912)"
+    ]
+  },
+  "rasterise": {
+    "CTGEverlyScript-Regular.ttf": {
+      "loaded": true,
+      "drew_ink": true
+    },
+    "CTGEverlyScript-Regular.otf": {
+      "loaded": true,
+      "drew_ink": true
+    }
+  },
+  "CTGEverlyScript-Regular.otf": {
+    "outlines": "CFF ",
+    "glyphs": 602,
+    "encoded": 257,
+    "unitsPerEm": 1000,
+    "features": [
+      "calt",
+      "dlig",
+      "kern"
+    ],
+    "coverage": {
+      "Basic Latin letters": {
+        "required": 52,
+        "present": 52,
+        "missing": []
+      },
+      "Digits": {
+        "required": 10,
+        "present": 10,
+        "missing": []
+      },
+      "ASCII punctuation": {
+        "required": 33,
+        "present": 33,
+        "missing": []
+      },
+      "Latin-1 Supplement": {
+        "required": 96,
+        "present": 96,
+        "missing": []
+      },
+      "Typographic punctuation": {
+        "required": 12,
+        "present": 12,
+        "missing": []
+      }
+    },
+    "failures": [],
+    "warnings": []
+  },
+  "woff2": {
+    "flavor": "woff2",
+    "glyphs": 604
+  },
+  "joins": {
+    "checked": 52,
+    "failures": []
+  },
+  "summary": {
+    "passed": true,
+    "failures": []
+  }
+}
