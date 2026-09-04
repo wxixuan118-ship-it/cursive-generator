@@ -31,8 +31,9 @@
 /cursive-alphabet                          /cursive-alphabet.html                     301
 /cursive-name-generator                    /cursive-name-generator.html               301
 /cursive-name-generator/                   /cursive-name-generator.html               301
-/cursive-signature-generator               /cursive-signature-generator.html          301
-/cursive-signature-generator/              /cursive-signature-generator.html          301
+/cursive-signature-generator               /copy-and-paste-cursive-signature.html     301
+/cursive-signature-generator/              /copy-and-paste-cursive-signature.html     301
+/cursive-signature-generator.html         /copy-and-paste-cursive-signature.html     301
 /cursive-name-tracing-generator            /cursive-name-tracing-generator.html       301
 /cursive-name-tracing-generator/           /cursive-name-tracing-generator.html       301
 /cursive-name-practice-generator           /cursive-name-practice-generator.html      301
@@ -51,9 +52,10 @@
 /cursive-compatibility/                    /cursive-compatibility.html                301
 /cursive-practice-sheets                   /cursive-practice-sheets.html              301
 /cursive-practice-sheets/                  /cursive-practice-sheets.html              301
-/copy-and-paste/cursive-font               /copy-and-paste-cursive-font.html          301
-/copy-and-paste/cursive-font/              /copy-and-paste-cursive-font.html          301
-/copy-and-paste/cursive-font/index.html    /copy-and-paste-cursive-font.html          301
+/copy-and-paste/cursive-font               /                                          301
+/copy-and-paste/cursive-font/              /                                          301
+/copy-and-paste/cursive-font/index.html    /                                          301
+/copy-and-paste-cursive-font.html          /                                          301
 /copy-and-paste/cursive-signature          /copy-and-paste-cursive-signature.html     301
 /copy-and-paste/cursive-signature/         /copy-and-paste-cursive-signature.html     301
 /copy-and-paste/cursive-signature/index.html /copy-and-paste-cursive-signature.html     301
@@ -71,5 +73,5 @@
 /cursive-name-practice-generator/index.html /cursive-name-practice-generator.html     301
 /cursive-name-tracing-generator/index.html /cursive-name-tracing-generator.html       301
 /cursive-practice-sheets/index.html        /cursive-practice-sheets.html              301
-/cursive-signature-generator/index.html    /cursive-signature-generator.html          301
+/cursive-signature-generator/index.html    /copy-and-paste-cursive-signature.html     301
 /cursive-text-generator/index.html         /cursive-text-generator.html               301
