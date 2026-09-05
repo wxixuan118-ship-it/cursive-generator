@@ -441,7 +441,7 @@
         <p>TikTok's search does not surface display names the same way Instagram surfaces Name fields. A plain-text @username remains essential for discoverability.</p>
 
         <h3>Discord</h3>
-        <p>Discord renders Unicode characters in messages using a Webview with full SMP support, regardless of the underlying OS font. This means even users on older Android devices will see your cursive message correctly in Discord — the app supplies its own rendering environment.</p>
+        <p>Discord renders Unicode characters in messages using a Webview with full SMP support, regardless of the underlying OS font. This means even users on older Android devices will see your cursive message correctly in Discord — the app supplies its own rendering environment. If Discord is the platform you are styling for, our <a href="/fonts-for-discord.html">fonts for Discord generator</a> covers each field — display name, nickname, server, category and role names — and which of them keep the styling.</p>
         <p>The per-server Nickname is the most flexible option: you can set a different styled name in each server without changing your global profile. The new global @username system (post-2023) cannot use Unicode, but the separate Global Display Name field can.</p>
 
         <h3>WhatsApp</h3>
@@ -521,6 +521,6 @@
     function toggleNav(btn){var d=document.getElementById('nav-drawer');var open=d.classList.toggle('open');btn.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);document.body.style.overflow=open?'hidden':'';}
     document.addEventListener('DOMContentLoaded',function(){var d=document.getElementById('nav-drawer');if(d)d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){d.classList.remove('open');var b=document.querySelector('.nav-burger');if(b){b.classList.remove('open');b.setAttribute('aria-expanded','false');}document.body.style.overflow='';});});});
   </script>
-  <script src="/assets/navigation.js?v=20260831b" defer></script>
+  <script src="/assets/navigation.js?v=20260905a" defer></script>
 </body>
 </html>
