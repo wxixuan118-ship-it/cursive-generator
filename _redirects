@@ -10,10 +10,13 @@
 # including the homepage. If apex ever stops redirecting, check that rule first.
 
 # Duplicate URL consolidation
-# /cursive-text-generator.html is a real landing page (main keyword "cursive text
-# generator"); the homepage / targets "cursive generator". Do NOT redirect it.
-/cursive-text-generator                    /cursive-text-generator.html               301
-/cursive-text-generator/                   /cursive-text-generator.html               301
+# /cursive-text-generator.html was consolidated into the homepage 2026-09-05 — both
+# targeted the same intent. All of its variants now 301 to /.
+# These are forced (301!) because the .html file is still in the repo, and on
+# Cloudflare Pages a static asset wins over an unforced redirect rule.
+/cursive-text-generator.html               /                                          301!
+/cursive-text-generator                    /                                          301!
+/cursive-text-generator/                   /                                          301!
 /index.html                                /                                          301
 /letters                                  /cursive-letters-generator.html             301!
 /letters/                                 /cursive-letters-generator.html             301!
@@ -28,7 +31,6 @@
 /worksheets/                             /cursive-practice-sheets.html               301!
 /worksheets/index.html                   /cursive-practice-sheets.html               301!
 /cursive-fonts                             /cursive-fonts.html                        301
-/cursive-alphabet                          /cursive-alphabet.html                     301
 /cursive-name-generator                    /cursive-name-generator.html               301
 /cursive-name-generator/                   /cursive-name-generator.html               301
 /cursive-signature-generator               /copy-and-paste-cursive-signature.html     301
@@ -75,4 +77,16 @@
 /cursive-name-tracing-generator/index.html /cursive-name-tracing-generator.html       301
 /cursive-practice-sheets/index.html        /cursive-practice-sheets.html              301
 /cursive-signature-generator/index.html    /copy-and-paste-cursive-signature.html     301
-/cursive-text-generator/index.html         /cursive-text-generator.html               301
+/cursive-text-generator/index.html         /                                          301!
+
+# Letter pages: the nested index.html serves 200 as a duplicate of the trailing-slash
+# canonical. Forced (301!) because the file really exists and a static asset otherwise
+# wins over an unforced rule on Cloudflare Pages. Mirrors the Caddyfile rule.
+/cursive-letters/:letter/index.html        /cursive-letters/:letter/                  301!
+
+# cursive-alphabet.html retired 2026-09-05 — second copy-intent page competing with the
+# A–Z hub. Forced (301!) so it holds even if the file is ever restored to the repo.
+/cursive-alphabet.html                     /cursive-letters-a-z.html                  301!
+/cursive-alphabet                          /cursive-letters-a-z.html                  301!
+/cursive-alphabet/                         /cursive-letters-a-z.html                  301!
+/cursive-alphabet/index.html               /cursive-letters-a-z.html                  301!

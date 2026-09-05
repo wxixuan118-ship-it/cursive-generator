@@ -20,7 +20,6 @@
     letters: [
       ["Letters Generator", "/cursive-letters-generator.html"],
       ["Letters A–Z", "/cursive-letters-a-z.html"],
-      ["Cursive Alphabet", "/cursive-alphabet.html"],
       ["Converter", "/cursive-converter.html"]
     ],
     names: [
@@ -32,7 +31,8 @@
     fonts: [
       ["Cursive Fonts", "/cursive-fonts.html"],
       ["Copy & Paste", "/copy-and-paste/"],
-      ["Bold Cursive", "/cursive-bold-generator.html"]
+      ["Bold Cursive", "/cursive-bold-generator.html"],
+      ["Discord Fonts", "/fonts-for-discord.html"]
     ],
     emoji: [
       ["Heart Fonts", "/heart-font-generator.html"],
@@ -52,7 +52,6 @@
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
-      ["Cursive Alphabet", "/cursive-alphabet.html"]
     ]
   };
 
@@ -61,7 +60,7 @@
   let current = "generator";
   if (path.startsWith("/letters/") || inPath(["letters", "alphabet", "converter"])) current = "letters";
   if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator"])) current = "names";
-  if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
+  if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "name-tracing", "name-practice"])) current = "worksheets";
   // emoji / symbol tools — add new slugs here as the section grows
   if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
