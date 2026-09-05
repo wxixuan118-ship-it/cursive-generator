@@ -99,6 +99,29 @@
       </div>`;
   }
 
+  const closeDrawer = () => {
+    const drawer = document.querySelector("#nav-drawer");
+    if (!drawer) return;
+    drawer.classList.remove("open");
+    const burger = document.querySelector(".nav-burger");
+    if (burger) {
+      burger.classList.remove("open");
+      burger.setAttribute("aria-expanded", "false");
+    }
+    document.body.style.overflow = "";
+  };
+
+  // This module rebuilds #nav-drawer above, which discards any listener a page
+  // bound to the original links — so the close-on-navigate handler belongs here.
+  if (oldDrawer) {
+    oldDrawer.addEventListener("click", (event) => {
+      if (event.target.closest("a")) closeDrawer();
+    });
+  }
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeDrawer();
+  });
+
   window.toggleNav = function (button) {
     const drawer = document.querySelector("#nav-drawer");
     if (!drawer) return;
