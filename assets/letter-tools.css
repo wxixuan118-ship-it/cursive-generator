@@ -1,0 +1,40 @@
+/* letter-tools.css — generator + practice sheet blocks on the 26 letter pages */
+.lt-tools{border-top:1px solid var(--line)}
+.lt-tools h2{margin-top:0}
+.lt-lead{color:var(--muted);font-size:15px;margin:6px 0 18px;max-width:62ch}
+.lt-gen{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;max-width:620px}
+.lt-field{flex:1 1 320px;display:flex;flex-direction:column;gap:6px}
+.lt-field label{font-size:13px;font-weight:700;color:var(--sage)}
+.lt-field input{width:100%;box-sizing:border-box;padding:11px 13px;font:inherit;font-size:16px;
+  border:1px solid var(--line);border-radius:9px;background:var(--paper);color:inherit}
+.lt-field input:focus-visible{outline:3px solid rgba(47,107,79,.35);outline-offset:1px}
+.lt-out{display:grid;gap:8px;margin-top:16px;max-width:620px}
+.lt-row{display:flex;align-items:center;gap:14px;width:100%;text-align:left;cursor:pointer;
+  padding:11px 14px;border:1px solid var(--line);border-radius:9px;background:var(--paper);
+  color:inherit;font:inherit;transition:border-color .15s,background .15s}
+.lt-row:hover{border-color:var(--sage);background:var(--sage-soft)}
+.lt-row:focus-visible{outline:3px solid rgba(47,107,79,.35);outline-offset:2px}
+.lt-name{flex:0 0 132px;font-size:12px;font-weight:700;color:var(--sage)}
+/* Mathematical Alphanumeric Symbols are absent from the body UI font. */
+.lt-val{font-size:21px;line-height:1.35;word-break:break-word;
+  font-family:"Apple Symbols","Segoe UI Symbol","Cambria Math","STIX Two Math","Noto Sans Math","Noto Sans Symbols 2","DejaVu Sans",serif}
+.lt-empty{color:var(--muted);font-size:14px;margin:0}
+.lt-btns{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 18px}
+.lt-btns button{padding:10px 16px;font:inherit;font-size:14px;font-weight:600;cursor:pointer;
+  border:1px solid var(--sage);border-radius:9px;background:var(--sage);color:#fff}
+.lt-btns button.ghost{background:transparent;color:var(--sage)}
+.lt-btns button:hover{opacity:.88}
+.lt-btns button:disabled{opacity:.5;cursor:default}
+.lt-sheet{max-width:620px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.lt-sheet svg{display:block;width:100%;height:auto}
+
+/* Print only the sheet — everything else is screen furniture. */
+@media print{
+  @page{size:A4 portrait;margin:0}
+  body>*:not(main){display:none!important}
+  main>section:not(.lt-tools){display:none!important}
+  .lt-tools{border:0}
+  .lt-tools .wrap>*:not(.lt-sheet-wrap){display:none!important}
+  .lt-sheet-wrap>*:not(.lt-sheet){display:none!important}
+  .lt-sheet{border:0;border-radius:0;max-width:none}
+}

@@ -17,12 +17,11 @@ www.cursive-text-generator.net {
   # 301s to its canonical flat .html page. Kept in sync with public/_redirects.
 
   # Homepage variants
-  # NOTE: /cursive-text-generator.html is a REAL landing page targeting the main
-  # keyword "cursive text generator"; the homepage / targets "cursive generator".
-  # Never redirect /cursive-text-generator.html away.
+  # /cursive-text-generator.html was consolidated into the homepage 2026-09-05 —
+  # both targeted the same intent, so every variant now 301s to /.
   redir /index.html / permanent
-  @ctgdir path /cursive-text-generator /cursive-text-generator/ /cursive-text-generator/index.html
-  redir @ctgdir /cursive-text-generator.html permanent
+  @ctgdir path /cursive-text-generator.html /cursive-text-generator /cursive-text-generator/ /cursive-text-generator/index.html
+  redir @ctgdir / permanent
 
   # Navigation category labels -> primary tool
   @letters path /letters /letters/ /letters/index.html
@@ -62,7 +61,6 @@ www.cursive-text-generator.net {
 
   # Bare (extensionless) pretty URLs -> flat .html
   redir /cursive-fonts /cursive-fonts.html permanent
-  redir /cursive-alphabet /cursive-alphabet.html permanent
   redir /cursive-letters-a-z /cursive-letters-a-z.html permanent
   redir /cursive-letters-generator /cursive-letters-generator.html permanent
   redir /fancy-text-generator /fancy-text-generator.html permanent
@@ -71,6 +69,16 @@ www.cursive-text-generator.net {
   @freefonts path /free-commercial-cursive-fonts /free-commercial-cursive-fonts.html
   redir @freefonts /cursive-fonts.html permanent
   redir /handwriting-font-generator / permanent
+
+  # cursive-alphabet.html retired 2026-09-05 — it was a second copy-intent page competing
+  # with the A–Z hub. All variants 301 to the hub, which absorbs its links and rankings.
+  @alphabet path /cursive-alphabet.html /cursive-alphabet /cursive-alphabet/ /cursive-alphabet/index.html
+  redir @alphabet /cursive-letters-a-z.html permanent
+
+  # Letter pages: /cursive-letters/x-in-cursive/index.html serves 200 as a duplicate of
+  # the trailing-slash canonical. Root /index.html is handled above; nested ones were not.
+  @letterIndex path_regexp letteridx ^/cursive-letters/([a-z])-in-cursive/index\.html$
+  redir @letterIndex /cursive-letters/{re.letteridx.1}-in-cursive/ permanent
 
   # ─── Handle 404s ───
   error /404.html 404

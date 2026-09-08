@@ -21,7 +21,6 @@
     letters: [
       ["Letters Generator", "/cursive-letters-generator.html"],
       ["Letters A–Z", "/cursive-letters-a-z.html"],
-      ["Cursive Alphabet", "/cursive-alphabet.html"],
       ["Converter", "/cursive-converter.html"]
     ],
     names: [
@@ -54,7 +53,6 @@
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
-      ["Cursive Alphabet", "/cursive-alphabet.html"]
     ],
     alternative: [
       ["Aesthetic Fonts", "/aesthetic-fonts.html"],
