@@ -8,7 +8,8 @@
     ["Alternative", "/aesthetic-fonts.html"],
     ["Dark", "/gothic-font-generator.html"],
     ["Emoji", "/heart-font-generator.html"],
-    ["Theme", "/super-bowl-2027-font-generator.html"]
+    ["Theme", "/super-bowl-2027-font-generator.html"],
+    ["Lettering", "/tattoo-font-generator.html"]
   ];
 
   const sections = {
@@ -50,6 +51,14 @@
       ["Harry Potter", "/harry-potter-font-generator.html"],
       ["Barbie", "/barbie-font-generator.html"]
     ],
+    lettering: [
+      ["Tattoo Fonts", "/tattoo-font-generator.html"],
+      ["Chicano Lettering", "/chicano-font-generator.html"],
+      ["Gangster Fonts", "/gangster-font-generator.html"],
+      ["Old English", "/old-english-font-generator.html"],
+      ["College Block", "/college-block-font-generator.html"],
+      ["Varsity Fonts", "/varsity-font-generator.html"]
+    ],
     worksheets: [
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
@@ -88,6 +97,8 @@
   if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
   // seasonal / event theme tools — add new slugs here as the section grows
   if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
+  // lettering-style generators — keep LAST so these slugs win over the checks above
+  if (inPath(["chicano-font", "tattoo-font", "gangster-font", "old-english-font", "college-block-font", "varsity-font"])) current = "lettering";
 
   const link = ([label, href], active) =>
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;
