@@ -145,6 +145,13 @@ var DECOS = [
   {id:'d-cu4', name:'Six Star',         cats:'cute',               p:'✰ ',     s:' ✰'},
   {id:'d-cu5', name:'Parenthesis Soft', cats:'cute',               p:'◟ ',     s:' ◞'},
   {id:'d-cu6', name:'Petal Wrap',       cats:'cute aesthetic',     p:'⑅ ',     s:' ⑅'},
+  {id:'d-bow1',name:'Coquette Bow',     cats:'cute aesthetic love',p:'୨୧ ',    s:' ୨୧'},
+  {id:'d-bow2',name:'Ribbon Frame',     cats:'cute love',          p:'౨ৎ ',    s:' ౨ৎ'},
+  {id:'d-bow3',name:'Bow & Heart',      cats:'cute aesthetic love',p:'୨ৎ ♡ ', s:' ♡ ୨ৎ'},
+  {id:'d-bow4',name:'Soft Ribbon',      cats:'cute aesthetic',     p:'⋆୨୧˚ ',  s:' ˚୨୧⋆'},
+  {id:'d-h8',  name:'Heart Arrow',      cats:'love aesthetic',     p:'❥ ',     s:' ❥'},
+  {id:'d-h9',  name:'Love Knot',        cats:'love cute',          p:'ღ ',     s:' ღ'},
+  {id:'d-h10', name:'Soft Heart',       cats:'love cute aesthetic',p:'ෆ ',     s:' ෆ'},
   // Aesthetic
   {id:'d-ae1', name:'Dot Rhythm',       cats:'aesthetic',          p:'· · · ', s:' · · ·'},
   {id:'d-ae2', name:'Yin Yang',         cats:'aesthetic',          p:'☯ ',     s:' ☯'},
@@ -243,8 +250,8 @@ DECOS.forEach(function(d) {
 // ── Layer 5: Curated Combos (base + decoration) ───────────────────────────────
 // Matrix: base key → array of deco IDs to pair with it
 var COMBO_MATRIX = {
-  boldScript: ['d-h1','d-h2','d-h3','d-h4','d-h6','d-s1','d-s2','d-s4','d-sp1','d-sp2','d-f1','d-f2','d-f3','d-c1','d-cel1','d-fn1','d-fn2','d-fn3','d-j1','d-j2','d-cu1','d-cu2','d-cu4','d-ae2','d-so1','d-m1','d-dia1','d-a2','d-s5','d-s6'],
-  script:     ['d-h1','d-h4','d-h6','d-s1','d-s4','d-sp2','d-f1','d-f2','d-f3','d-c1','d-cel1','d-fn1','d-fn2','d-j1','d-cu1','d-cu2','d-ae1','d-ae8','d-m1','d-dia1'],
+  boldScript: ['d-h1','d-h2','d-h3','d-h4','d-h6','d-bow1','d-bow2','d-bow3','d-bow4','d-h8','d-h9','d-h10','d-s1','d-s2','d-s4','d-sp1','d-sp2','d-f1','d-f2','d-f3','d-c1','d-cel1','d-fn1','d-fn2','d-fn3','d-j1','d-j2','d-cu1','d-cu2','d-cu4','d-ae2','d-so1','d-m1','d-dia1','d-a2','d-s5','d-s6'],
+  script:     ['d-h1','d-h4','d-h6','d-bow1','d-bow2','d-bow4','d-h8','d-h9','d-h10','d-s1','d-s4','d-sp2','d-f1','d-f2','d-f3','d-c1','d-cel1','d-fn1','d-fn2','d-j1','d-cu1','d-cu2','d-ae1','d-ae8','d-m1','d-dia1'],
   fraktur:    ['d-c1','d-c2','d-c3','d-g1','d-g3','d-g2','d-a3','d-dia1','d-fn2','d-bk1','d-g7','d-fn8','d-fn9','d-fn7'],
   boldFraktur:['d-c1','d-g1','d-g3','d-fn1','d-fn2','d-a3','d-dia2','d-fn7','d-bk1','d-fn8','d-g6','d-g7'],
   bold:       ['d-s1','d-s2','d-dia1','d-a1','d-a2','d-bk1','d-bk2','d-g2','d-fn1','d-c1','d-h2','d-fn7','d-a3','d-dia2'],
