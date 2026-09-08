@@ -64,11 +64,56 @@ function upsideDown(t){ return Array.from(t).map(function(c){return FLIP[c]||c;}
 function spaced(t){ return Array.from(t).join(' '); }
 function spacedFW(t){ return Array.from(mapText(t,'fullwidth')).join(' '); }
 
-function zalgoLight(t) {
-  var mk=['́','̀','̈','̣','̥','̤'];
-  return Array.from(t).map(function(c,i){
-    if(c===' ')return c;
-    return c+mk[i%mk.length]+(i%3===0?mk[(i+2)%mk.length]:'');
+// ── ZALGO / GLITCH ────────────────────────────────────────────────────────────
+// Combining marks stack on top of the base character. The counts below are
+// capped on purpose: an uncapped zalgo generator stalls text shaping on mobile,
+// so every level has a hard per-character ceiling and the input is truncated.
+function cpRange(from, to) {
+  var a = [];
+  for (var i = from; i <= to; i++) a.push(String.fromCharCode(i));
+  return a;
+}
+var ZALGO_UP = cpRange(0x0300, 0x0315)
+  .concat(cpRange(0x033D, 0x0344), cpRange(0x0346, 0x0346), cpRange(0x034A, 0x034C),
+          cpRange(0x0350, 0x0352), cpRange(0x0357, 0x0357), cpRange(0x035B, 0x035B),
+          cpRange(0x0363, 0x036F));
+var ZALGO_MID = cpRange(0x0334, 0x0338).concat(cpRange(0x035C, 0x0362));
+var ZALGO_DOWN = cpRange(0x0316, 0x0333)
+  .concat(cpRange(0x0339, 0x033C), cpRange(0x0345, 0x0345), cpRange(0x0347, 0x0349),
+          cpRange(0x034D, 0x034E), cpRange(0x0353, 0x0356), cpRange(0x0359, 0x035A));
+
+var ZALGO_LEVELS = {
+  light:  { up:1, mid:0, down:1 },
+  medium: { up:2, mid:1, down:2 },
+  heavy:  { up:4, mid:2, down:4 }
+};
+var ZALGO_MAX_INPUT = 80;  // characters transformed before the input is cut off
+var ZALGO_MAX_MARKS = 10;  // absolute ceiling of combining marks per character
+
+function pickMark(arr) { return arr[Math.floor(Math.random()*arr.length)]; }
+
+function zalgo(text, level) {
+  var cfg  = ZALGO_LEVELS[level] || ZALGO_LEVELS.light;
+  var up   = Math.min(cfg.up,   ZALGO_MAX_MARKS);
+  var mid  = Math.min(cfg.mid,  ZALGO_MAX_MARKS - up);
+  var down = Math.min(cfg.down, ZALGO_MAX_MARKS - up - mid);
+  return Array.from(String(text)).slice(0, ZALGO_MAX_INPUT).map(function(c) {
+    if (c === ' ' || c === '\n' || c === '\t') return c;
+    var out = c, i;
+    for (i=0; i<up;   i++) out += pickMark(ZALGO_UP);
+    for (i=0; i<mid;  i++) out += pickMark(ZALGO_MID);
+    for (i=0; i<down; i++) out += pickMark(ZALGO_DOWN);
+    return out;
+  }).join('');
+}
+
+function reversed(t) { return Array.from(t).reverse().join(''); }
+
+function alternating(t) {
+  var i = 0;
+  return Array.from(t).map(function(c) {
+    if (!/[a-z]/i.test(c)) return c;
+    return (i++ % 2) ? c.toUpperCase() : c.toLowerCase();
   }).join('');
 }
 
@@ -136,7 +181,7 @@ var DECOS = [
   {id:'d-fn5', name:'Dot Pattern',      cats:'fancy aesthetic',    p:'•.• ',   s:' •.•'},
   {id:'d-fn6', name:'Bold Line',        cats:'fancy',              p:'━━ ',    s:' ━━'},
   {id:'d-fn7', name:'Double Line',      cats:'fancy',              p:'══ ',    s:' ══'},
-  {id:'d-fn8', name:'Gothic Cross',     cats:'gothic symbols',     p:'† ',     s:' †'},
+  {id:'d-fn8', name:'Dagger Cross',     cats:'gothic symbols',     p:'† ',     s:' †'},
   {id:'d-fn9', name:'Cross Ornate',     cats:'gothic symbols',     p:'✝ ',     s:' ✝'},
   // Cute
   {id:'d-cu1', name:'Cute Curl ꒰꒱',    cats:'cute',               p:'꒰ ',     s:' ꒱'},
@@ -175,6 +220,38 @@ var DECOS = [
   {id:'d-so3', name:'Checkmark',        cats:'social symbols',     p:'✔ ',     s:' ✔'},
   {id:'d-so4', name:'Bullet Wrap',      cats:'social',             p:'• ',     s:' •'},
   {id:'d-so5', name:'Fancy Bio',        cats:'social fancy',       p:'»• ',    s:' •«'},
+  // Dark cluster - horror / creepy / scary
+  {id:'d-dk1', name:'Skull',            cats:'scary creepy gaming halloween',   p:'☠ ',   s:' ☠'},
+  {id:'d-dk2', name:'Ghost',            cats:'creepy scary halloween',          p:'👻 ',  s:' 👻'},
+  {id:'d-dk3', name:'Bat',              cats:'scary gothic halloween',          p:'🦇 ',  s:' 🦇'},
+  {id:'d-dk4', name:'Spider Web',       cats:'scary creepy halloween',          p:'🕸 ',  s:' 🕸'},
+  {id:'d-dk5', name:'Spider',           cats:'scary creepy freaky halloween',   p:'🕷 ',  s:' 🕷'},
+  {id:'d-dk6', name:'Pumpkin',          cats:'scary halloween',       p:'🎃 ',  s:' 🎃'},
+  {id:'d-dk7', name:'Coffin',           cats:'scary creepy gothic',   p:'⚰ ',   s:' ⚰'},
+  {id:'d-dk8', name:'Candle',           cats:'creepy gothic',         p:'🕯 ',  s:' 🕯'},
+  {id:'d-dk9', name:'Watching Eye',     cats:'creepy freaky weird',   p:'👁 ',  s:' 👁'},
+  {id:'d-dk10',name:'Wilted Rose',      cats:'gothic creepy',         p:'🥀 ',  s:' 🥀'},
+  {id:'d-dk11',name:'Skull Pair',       cats:'scary gaming halloween',          p:'☠☠ ',  s:' ☠☠'},
+  {id:'d-dk12',name:'Moon & Bat',       cats:'creepy scary gothic',   p:'☾🦇 ', s:' 🦇☽'},
+  // Dark cluster - gothic / medieval
+  {id:'d-gt1', name:'Quill',            cats:'gothic',                p:'🖋 ',  s:' 🖋'},
+  {id:'d-gt2', name:'Old Scroll',       cats:'gothic',                p:'📜 ',  s:' 📜'},
+  {id:'d-gt3', name:'Iron Chain',       cats:'gothic scary freaky',   p:'⛓ ',   s:' ⛓'},
+  {id:'d-gt4', name:'Cross & Rose',     cats:'gothic creepy',         p:'†🥀 ', s:' 🥀†'},
+  // Dark cluster - glitch / freaky
+  {id:'d-fr1', name:'Static Noise',     cats:'glitch freaky weird',   p:'⣿⣿ ',  s:' ⣿⣿'},
+  {id:'d-fr2', name:'Warning',          cats:'freaky glitch weird',   p:'⚠ ',   s:' ⚠'},
+  {id:'d-fr3', name:'Jagged Edge',      cats:'freaky weird symbols',  p:'ᐳ ',   s:' ᐸ'},
+  {id:'d-fr4', name:'Crossed Out',      cats:'freaky glitch',         p:'✕ ',   s:' ✕'},
+  {id:'d-fr5', name:'Signal Bars',      cats:'glitch freaky',         p:'▚▞ ',  s:' ▞▚'},
+  {id:'d-fr6', name:'Broken Frame',     cats:'glitch freaky weird',   p:'⟦ ',   s:' ⟧'},
+  {id:'d-fr7', name:'Corrupted Block',  cats:'glitch freaky',         p:'░▓█ ',  s:' █▓░'},
+  // Dark cluster - weird / strange
+  {id:'d-wd1', name:'Question Chaos',   cats:'weird freaky',          p:'¿ ',   s:' ?'},
+  {id:'d-wd2', name:'Wiggle',           cats:'weird aesthetic',       p:'〜 ',   s:' 〜'},
+  {id:'d-wd3', name:'Dice',             cats:'weird gaming freaky',   p:'🎲 ',  s:' 🎲'},
+  {id:'d-wd4', name:'Alien',            cats:'weird freaky',          p:'👽 ',  s:' 👽'},
+  {id:'d-wd5', name:'Upside Marks',     cats:'weird freaky symbols',  p:'¡ ',   s:' !'},
 ];
 
 // ── BUILD STYLES ARRAY ────────────────────────────────────────────────────────
@@ -221,6 +298,8 @@ BASE_META.forEach(function(row) {
 push({ id:'upside-down', name:'Upside Down',     cats:'symbols glitch', tags:'flip reverse funny upside',    fn:upsideDown });
 push({ id:'spaced',      name:'S p a c e d',     cats:'aesthetic',      tags:'spaced vaporwave aesthetic',   fn:spaced });
 push({ id:'spaced-fw',   name:'Ａ ｅ ｓ ｔ ｈ', cats:'aesthetic',      tags:'aesthetic vaporwave fullwidth', fn:spacedFW });
+push({ id:'reversed',    name:'Reversed Text',    cats:'weird freaky symbols', tags:'reversed backwards mirror weird strange', fn:reversed });
+push({ id:'alternating', name:'Alternating Case', cats:'weird freaky',         tags:'alternating mocking funny weird random',  fn:alternating });
 
 // ── Layer 3: Combining Mark Styles (12) ──────────────────────────────────────
 [
@@ -240,7 +319,9 @@ push({ id:'spaced-fw',   name:'Ａ ｅ ｓ ｔ ｈ', cats:'aesthetic',      tags
   var mark=row[0], name=row[1], cats=row[2], tags=row[3];
   push({ id:'cm-'+mark, name:name, cats:cats, tags:tags, fn:(function(m){return function(t){return addCM(t,CM[m]);};})(mark) });
 });
-push({ id:'cm-zalgo', name:'Glitch Text', cats:'glitch', tags:'glitch zalgo creepy horror', fn:zalgoLight });
+push({ id:'zalgo-light',  name:'Glitch Light',  cats:'glitch light freaky',        tags:'glitch zalgo light subtle corrupted',      fn:function(t){ return zalgo(t,'light'); } });
+push({ id:'zalgo-medium', name:'Glitch Medium', cats:'glitch medium zalgo creepy', tags:'glitch zalgo medium corrupted broken',     fn:function(t){ return zalgo(t,'medium'); } });
+push({ id:'zalgo-heavy',  name:'Glitch Heavy',  cats:'glitch heavy zalgo scary',  tags:'glitch zalgo heavy corrupted broken horror', fn:function(t){ return zalgo(t,'heavy'); } });
 
 // ── Layer 4: Decoration-Only Styles (plain text + prefix/suffix) ─────────────
 DECOS.forEach(function(d) {
@@ -252,22 +333,22 @@ DECOS.forEach(function(d) {
 var COMBO_MATRIX = {
   boldScript: ['d-h1','d-h2','d-h3','d-h4','d-h6','d-bow1','d-bow2','d-bow3','d-bow4','d-h8','d-h9','d-h10','d-s1','d-s2','d-s4','d-sp1','d-sp2','d-f1','d-f2','d-f3','d-c1','d-cel1','d-fn1','d-fn2','d-fn3','d-j1','d-j2','d-cu1','d-cu2','d-cu4','d-ae2','d-so1','d-m1','d-dia1','d-a2','d-s5','d-s6'],
   script:     ['d-h1','d-h4','d-h6','d-bow1','d-bow2','d-bow4','d-h8','d-h9','d-h10','d-s1','d-s4','d-sp2','d-f1','d-f2','d-f3','d-c1','d-cel1','d-fn1','d-fn2','d-j1','d-cu1','d-cu2','d-ae1','d-ae8','d-m1','d-dia1'],
-  fraktur:    ['d-c1','d-c2','d-c3','d-g1','d-g3','d-g2','d-a3','d-dia1','d-fn2','d-bk1','d-g7','d-fn8','d-fn9','d-fn7'],
-  boldFraktur:['d-c1','d-g1','d-g3','d-fn1','d-fn2','d-a3','d-dia2','d-fn7','d-bk1','d-fn8','d-g6','d-g7'],
-  bold:       ['d-s1','d-s2','d-dia1','d-a1','d-a2','d-bk1','d-bk2','d-g2','d-fn1','d-c1','d-h2','d-fn7','d-a3','d-dia2'],
-  boldItalic: ['d-h2','d-sp1','d-s4','d-f1','d-j1','d-j3','d-h6','d-c1','d-fn1','d-fn2','d-ae8'],
-  italic:     ['d-f1','d-cel1','d-ae1','d-s4','d-cu1','d-j3','d-h1','d-c1','d-fn2','d-m1'],
-  double:     ['d-bk2','d-bk3','d-bk1','d-g2','d-dia2','d-a3','d-j2','d-m1','d-s1','d-c1','d-fn1','d-ae2'],
-  monospace:  ['d-g2','d-bk1','d-a1','d-fn6','d-fn7','d-ae4','d-g1','d-a3','d-fn2'],
-  sansSerif:  ['d-ae4','d-ae1','d-ae2','d-j4','d-fn5','d-fn4','d-fn1','d-dia1','d-s1'],
-  sansBold:   ['d-s1','d-dia1','d-g1','d-c1','d-a2','d-j1','d-fn1','d-fn7'],
+  fraktur:    ['d-c1','d-c2','d-c3','d-g1','d-g3','d-g2','d-a3','d-dia1','d-fn2','d-bk1','d-g7','d-fn8','d-fn9','d-fn7','d-dk1','d-dk4','d-dk7','d-dk8','d-dk10','d-dk12','d-gt1','d-gt2','d-gt3','d-gt4','d-dk2'],
+  boldFraktur:['d-c1','d-g1','d-g3','d-fn1','d-fn2','d-a3','d-dia2','d-fn7','d-bk1','d-fn8','d-g6','d-g7','d-dk1','d-dk3','d-dk6','d-dk11','d-dk7','d-gt3','d-gt2','d-fr4','d-dk5'],
+  bold:       ['d-s1','d-s2','d-dia1','d-a1','d-a2','d-bk1','d-bk2','d-g2','d-fn1','d-c1','d-h2','d-fn7','d-a3','d-dia2','d-dk1','d-fr2','d-fr5','d-dk11'],
+  boldItalic: ['d-h2','d-sp1','d-s4','d-f1','d-j1','d-j3','d-h6','d-c1','d-fn1','d-fn2','d-ae8','d-dk10','d-gt4'],
+  italic:     ['d-f1','d-cel1','d-ae1','d-s4','d-cu1','d-j3','d-h1','d-c1','d-fn2','d-m1','d-dk10','d-dk8','d-gt4'],
+  double:     ['d-bk2','d-bk3','d-bk1','d-g2','d-dia2','d-a3','d-j2','d-m1','d-s1','d-c1','d-fn1','d-ae2','d-dk9','d-dk2','d-fr1','d-fr6','d-fr7'],
+  monospace:  ['d-g2','d-bk1','d-a1','d-fn6','d-fn7','d-ae4','d-g1','d-a3','d-fn2','d-fr1','d-fr2','d-fr5','d-fr6','d-fr4','d-fr7'],
+  sansSerif:  ['d-ae4','d-ae1','d-ae2','d-j4','d-fn5','d-fn4','d-fn1','d-dia1','d-s1','d-fr6','d-fr3','d-fr2'],
+  sansBold:   ['d-s1','d-dia1','d-g1','d-c1','d-a2','d-j1','d-fn1','d-fn7','d-dk1','d-fr2'],
   sansItalic: ['d-ae2','d-cel1','d-s4','d-f1','d-cu1','d-j3','d-h1','d-s1'],
   sansBoldItalic:['d-c1','d-fn1','d-dia1','d-j1','d-h1','d-s1','d-g1'],
-  fullwidth:  ['d-h1','d-f1','d-cu1','d-ae2','d-j4','d-fn6','d-s1','d-j1'],
-  smallCaps:  ['d-h1','d-f1','d-cu4','d-a1','d-j1','d-fn2','d-c1','d-s4','d-g1'],
-  circled:    ['d-h1','d-s1','d-j2','d-cu1','d-fn1','d-s4'],
-  parenthesized:['d-cu3','d-ae1','d-j4','d-a2','d-s1','d-h1'],
-  superscript:['d-h1','d-s4','d-cu3','d-j1','d-ae8'],
+  fullwidth:  ['d-h1','d-f1','d-cu1','d-ae2','d-j4','d-fn6','d-s1','d-j1','d-fr1','d-wd2','d-fr5','d-fr7'],
+  smallCaps:  ['d-h1','d-f1','d-cu4','d-a1','d-j1','d-fn2','d-c1','d-s4','d-g1','d-dk9','d-dk4','d-fr3','d-dk2'],
+  circled:    ['d-h1','d-s1','d-j2','d-cu1','d-fn1','d-s4','d-wd3','d-wd4','d-wd1'],
+  parenthesized:['d-cu3','d-ae1','d-j4','d-a2','d-s1','d-h1','d-wd4','d-wd1'],
+  superscript:['d-h1','d-s4','d-cu3','d-j1','d-ae8','d-wd1','d-wd5'],
   subscript:  ['d-ae1','d-ae4','d-s5','d-h4'],
 };
 
@@ -312,6 +393,12 @@ var CM_BASE_COMBOS = [
   ['sansBold',   'underline', 'Sans Bold Underline',        'bold fancy'],
   ['boldItalic', 'dotAbove',  'Bold Italic Dotted',         'bold italic cute'],
   ['fullwidth',  'tilde',     'Aesthetic Tilde',            'aesthetic'],
+  ['fraktur',     'dotBelow', 'Gothic Dotted',       'gothic creepy'],
+  ['boldFraktur', 'wavy',     'Gothic Wavy',         'gothic creepy aesthetic'],
+  ['monospace',   'strike',   'Monospace Strike',    'glitch freaky'],
+  ['double',      'slash',    'Double Struck Slash', 'glitch freaky symbols'],
+  ['fullwidth',   'strike',   'Wide Strikethrough',  'glitch weird aesthetic'],
+  ['smallCaps',   'strike',   'Small Caps Strike',   'glitch creepy weird'],
 ];
 CM_BASE_COMBOS.forEach(function(row) {
   var bk=row[0], mk=row[1], name=row[2], cats=row[3];
@@ -344,6 +431,11 @@ global.StyleEngine = {
   STYLES: STYLES,
   ALL_CATS: ALL_CATS,
   DUPE_COUNT: duplicateCount,
+
+  /** Controlled zalgo/glitch transform. level: 'light' | 'medium' | 'heavy'.
+   *  Marks per character and input length are capped so heavy mode stays responsive. */
+  zalgo: zalgo,
+  ZALGO_LEVELS: ZALGO_LEVELS,
   TOTAL_PRE_DEDUP: STYLES.length + duplicateCount,
 
   /** Filter styles by category and search query */
