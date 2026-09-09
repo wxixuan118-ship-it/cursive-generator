@@ -224,6 +224,7 @@ const pages = {
     examples: [['SYSTEM ERROR', 'Classic glitch line'], ['NO SIGNAL', 'Status or bio line'], ['ACCESS DENIED', 'Gaming profile text']],
     linksTitle: 'Explore the Alternative Font Cluster',
     links: [
+      ['Undertale Font Generator', '/undertale-font-generator.html', 'Pixel dialogue-box text rendered as a downloadable image.'],
       ['Freaky Font Generator', '/freaky-font-generator.html', 'Chaotic and distorted text beyond corruption.'],
       ['Weird Font Generator', '/weird-font-generator.html', 'Flipped, tiny and bubble alphabets.'],
       ['Scary Font Generator', '/scary-font-generator.html', 'Pair corruption with horror symbols.'],

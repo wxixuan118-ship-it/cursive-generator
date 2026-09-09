@@ -9,7 +9,8 @@
     ["Dark", "/gothic-font-generator.html"],
     ["Emoji", "/heart-font-generator.html"],
     ["Theme", "/super-bowl-2027-font-generator.html"],
-    ["Lettering", "/tattoo-font-generator.html"]
+    ["Lettering", "/tattoo-font-generator.html"],
+    ["Pixel", "/mario-font-generator.html"]
   ];
 
   const sections = {
@@ -50,6 +51,12 @@
       ["Marvel", "/marvel-font-generator.html"],
       ["Harry Potter", "/harry-potter-font-generator.html"],
       ["Barbie", "/barbie-font-generator.html"]
+    ],
+    pixel: [
+      ["Mario Fonts", "/mario-font-generator.html"],
+      ["Undertale Fonts", "/undertale-font-generator.html"],
+      ["Glitch Text", "/glitch-text-generator.html"],
+      ["Fancy Text", "/fancy-text-generator.html"]
     ],
     lettering: [
       ["Tattoo Fonts", "/tattoo-font-generator.html"],
@@ -99,6 +106,8 @@
   if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
   // lettering-style generators — keep LAST so these slugs win over the checks above
   if (inPath(["chicano-font", "tattoo-font", "gangster-font", "old-english-font", "college-block-font", "varsity-font"])) current = "lettering";
+  // pixel / retro-game renderer pages — add new slugs here as the section grows
+  if (inPath(["mario-font", "undertale-font"])) current = "pixel";
 
   const link = ([label, href], active) =>
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;
