@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="The word Legacy shown in heavy blackletter and filled block capitals">
+  <rect width="1200" height="630" fill="#fbfaf7"/>
+  <rect x="26" y="26" width="1148" height="578" rx="26" fill="#ffffff" stroke="#dfe6df" stroke-width="3"/>
+  <text x="600" y="118" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="27" font-weight="800" letter-spacing="4.5" fill="#2f6b4f">STREET &amp; OLD SCHOOL LETTERING</text>
+  <text x="600" y="126" text-anchor="middle" font-size="34" fill="#c96f59">▌</text>
+  <text x="600" y="372" text-anchor="middle" font-family="Impact,&apos;Anton&apos;,&apos;Arial Black&apos;,&apos;Helvetica Neue&apos;,sans-serif" font-size="150" font-style="normal" font-weight="400" letter-spacing="6" fill="#17201b">LEGACY</text>
+
+  <text x="600" y="556" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="25" fill="#5d6a63">cursive-text-generator.net</text>
+</svg>

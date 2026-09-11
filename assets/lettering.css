@@ -1,0 +1,123 @@
+/* ── Lettering Style Generators — shared framework ──────────────────────────
+   Used by: chicano / tattoo / gangster / old-english / college-block / varsity
+   Pairs with assets/lettering-engine.js. Design tokens come from styles.css. */
+
+.lg-intro-sub{font-size:17px;font-weight:600;color:var(--coral);margin:4px 0 6px}
+.tool-intro p{display:block}
+.tool-intro .eyebrow{display:inline-flex}
+
+.lg-shell{max-width:980px}
+.lg-input-panel{padding:20px}
+#lg-input{width:100%;min-height:92px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:14px 16px;color:var(--ink);background:#fffefa;font:19px/1.45 inherit}
+#lg-input:focus{outline:3px solid rgba(201,111,89,.18);border-color:var(--coral)}
+.lg-input-row{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.lg-hint{margin:12px 0 0;color:var(--muted);font-size:14px}
+
+/* preview-mode tabs (Name / Word / Initials / Quote) */
+.lg-modes{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+.lg-mode{padding:7px 14px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font:inherit;font-size:13px;font-weight:700;cursor:pointer;transition:all .15s}
+.lg-mode:hover{border-color:var(--coral);color:var(--coral)}
+.lg-mode.active{background:var(--sage-soft);color:var(--sage);border-color:var(--sage)}
+.lg-mode:focus-visible{outline:3px solid rgba(47,107,79,.35);outline-offset:1px}
+
+/* preview controls (uppercase / spacing / arch / outline / shadow) */
+.lg-controls{margin:16px 0 0;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--panel);display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center}
+.lg-controls-label{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--sage);width:100%;margin:0}
+.lg-toggle{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:600;color:var(--ink);cursor:pointer}
+.lg-toggle input{width:17px;height:17px;accent-color:var(--sage);cursor:pointer}
+.lg-range{display:inline-flex;align-items:center;gap:9px;font-size:14px;font-weight:600;color:var(--ink)}
+.lg-range input{width:132px;accent-color:var(--sage);cursor:pointer}
+.lg-range output{min-width:44px;font-variant-numeric:tabular-nums;color:var(--muted);font-weight:700}
+.lg-controls-note{width:100%;margin:0;font-size:13px;color:var(--muted)}
+
+/* category chips */
+.lg-chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 4px}
+.lg-chip{padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font:inherit;font-size:13px;font-weight:700;cursor:pointer;transition:all .15s;white-space:nowrap}
+.lg-chip:hover{border-color:var(--coral);color:var(--coral)}
+.lg-chip.active{background:var(--coral);color:#fff;border-color:var(--coral)}
+.lg-chip:focus-visible{outline:3px solid rgba(201,111,89,.35);outline-offset:1px}
+.lg-count{font-size:13px;color:var(--muted);margin:10px 0 0}
+
+/* result cards */
+.lg-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.lg-card{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:14px 16px;box-shadow:0 4px 14px rgba(31,46,39,.06)}
+.lg-card.is-visual{border-style:dashed;background:#fffdf9}
+.lg-card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+.lg-name{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--sage);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.lg-badge{font-size:10px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--soft)}
+.lg-badge.is-unicode{color:var(--sage);border-color:var(--sage);background:var(--sage-soft)}
+.lg-badge.is-visual{color:var(--gold);border-color:var(--gold);background:#fbf4e4}
+.lg-out{font-size:clamp(20px,2.4vw,26px);line-height:1.35;overflow-wrap:anywhere;cursor:pointer;border-radius:6px;padding:2px 4px;margin:-2px -4px;transition:background .15s}
+.lg-out:hover{background:var(--sage-soft)}
+.lg-out:focus-visible{outline:3px solid rgba(47,107,79,.35)}
+.lg-copy{flex-shrink:0;min-width:78px;min-height:34px;padding:6px 12px;border-radius:8px;border:1px solid var(--sage);background:var(--sage-soft);color:var(--sage);font:inherit;font-size:13px;font-weight:800;cursor:pointer;transition:all .15s}
+.lg-copy:hover{background:var(--sage);color:#fff}
+.lg-copy.is-copied{background:var(--sage);color:#fff;border-color:var(--sage)}
+.lg-copy:focus-visible{outline:3px solid rgba(47,107,79,.35);outline-offset:1px}
+.lg-copy.is-plain{border-color:var(--line);background:transparent;color:var(--muted)}
+.lg-copy.is-plain:hover{background:var(--soft);color:var(--ink)}
+.lg-note{margin:8px 0 0;font-size:12px;color:var(--muted)}
+.lg-empty{color:var(--muted);padding:20px 0}
+
+/* ── CSS-rendered visual previews (NOT copyable Unicode) ───────────────────
+   Each stack lists real system faces first and degrades to a generic family. */
+.lg-view{display:block;overflow-x:auto;padding:6px 2px;line-height:1.25}
+.lg-view span{white-space:pre}
+
+.lg-v-black{font-family:'UnifrakturMaguntia','Old English Text MT','Blackadder ITC',Luminari,'Papyrus',serif;font-size:clamp(26px,3.4vw,38px);letter-spacing:.01em}
+.lg-v-script{font-family:'Snell Roundhand','Apple Chancery','Segoe Script','Brush Script MT',cursive;font-size:clamp(28px,3.6vw,42px);font-style:italic}
+.lg-v-script-heavy{font-family:'Snell Roundhand','Apple Chancery','Segoe Script','Brush Script MT',cursive;font-size:clamp(28px,3.6vw,42px);font-style:italic;font-weight:700;text-shadow:2px 2px 0 rgba(23,32,27,.16)}
+.lg-v-monoline{font-family:'Apple Chancery','Segoe Script','Lucida Handwriting','Brush Script MT',cursive;font-size:clamp(24px,3vw,34px);letter-spacing:.03em}
+.lg-v-serif{font-family:'Bookman Old Style',Baskerville,'Hoefler Text',Georgia,'Times New Roman',serif;font-size:clamp(24px,3vw,34px);font-weight:700}
+.lg-v-slab{font-family:Rockwell,'Roboto Slab','Courier New',Georgia,serif;font-size:clamp(24px,3vw,34px);font-weight:700;letter-spacing:.02em}
+.lg-v-block{font-family:Impact,'Anton','Arial Black','Helvetica Neue',sans-serif;font-size:clamp(28px,3.6vw,42px);letter-spacing:.02em}
+.lg-v-condensed{font-family:Haettenschweiler,'Arial Narrow',Impact,'Helvetica Neue',sans-serif;font-size:clamp(28px,3.6vw,44px);font-weight:700;transform:scaleX(.88);transform-origin:left center;letter-spacing:.01em}
+.lg-v-minimal{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(20px,2.6vw,28px);font-weight:300;letter-spacing:.22em;text-transform:uppercase}
+.lg-v-stencil{font-family:'Stencil','Agency FB',Impact,'Arial Black',sans-serif;font-size:clamp(26px,3.2vw,38px);letter-spacing:.06em}
+.lg-v-fineline{font-family:'Optima','Gill Sans','Gill Sans MT','Century Gothic',sans-serif;font-size:clamp(22px,2.8vw,30px);font-weight:300;letter-spacing:.14em}
+
+/* effect modifiers, applied by the control toggles */
+.lg-view.fx-outline{color:transparent;-webkit-text-stroke:1.6px var(--ink);text-stroke:1.6px var(--ink);paint-order:stroke fill}
+.lg-view.fx-shadow{text-shadow:3px 3px 0 var(--coral),5px 5px 0 rgba(23,32,27,.22)}
+.lg-view.fx-outline.fx-shadow{text-shadow:3px 3px 0 rgba(201,111,89,.5)}
+.lg-view.fx-arch{display:flex;flex-wrap:nowrap;align-items:flex-end;justify-content:flex-start;min-height:1.9em;padding-top:.35em}
+.lg-view.fx-arch span{display:inline-block;transform-origin:50% 100%}
+
+/* preview grid on the "try your own text" section */
+.lg-mini-wrap{margin-top:18px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+
+/* example word cards */
+.lg-example-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}
+.lg-example-card{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:16px 18px;box-shadow:0 4px 14px rgba(31,46,39,.06)}
+.lg-example-card h3{font-size:16px;margin-bottom:10px}
+.lg-example-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--line)}
+.lg-example-row:first-of-type{border-top:none}
+.lg-example-out{font-size:17px;overflow-wrap:anywhere;cursor:pointer;flex:1}
+.lg-example-out:hover{color:var(--coral)}
+.mini-copy{flex-shrink:0;min-height:30px;padding:4px 10px;border-radius:7px;border:1px solid var(--line);background:transparent;color:var(--muted);font:inherit;font-size:12px;font-weight:800;cursor:pointer}
+.mini-copy:hover{background:var(--sage-soft);color:var(--sage);border-color:var(--sage)}
+.mini-copy.is-copied{background:var(--sage);color:#fff;border-color:var(--sage)}
+
+/* symbol / ornament library */
+.lg-sym-block{margin-top:22px}
+.lg-sym-block h3{font-size:15px;margin-bottom:10px;color:var(--muted)}
+.lg-sym-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:8px}
+.lg-sym{position:relative;display:flex;align-items:center;justify-content:center;min-height:52px;border:1px solid var(--line);border-radius:8px;background:var(--panel);font-size:24px;cursor:pointer;transition:all .15s;user-select:all}
+.lg-sym:hover{border-color:var(--coral);background:#fff;transform:translateY(-1px)}
+.lg-sym:focus-visible{outline:3px solid rgba(201,111,89,.35)}
+.lg-sym.copied::after{content:"Copied!";position:absolute;top:-10px;right:-6px;background:var(--sage);color:#fff;font-size:10px;font-weight:800;padding:2px 6px;border-radius:6px;letter-spacing:.02em}
+.lg-sym-grid.is-combo{grid-template-columns:repeat(auto-fill,minmax(108px,1fr))}
+.lg-sym-grid.is-combo .lg-sym{font-size:18px;letter-spacing:.02em}
+
+/* FAQ */
+.faq-list{margin-top:22px;max-width:820px}
+.faq-item{border-top:1px solid var(--line);padding:16px 0}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-item h3{font-size:18px;margin-bottom:6px}
+.faq-item p{margin:0;color:#3f4d46;font-size:16px}
+
+@media (max-width:720px){
+  .lg-grid,.lg-mini-wrap,.lg-example-grid{grid-template-columns:1fr}
+  .lg-controls{gap:12px 16px}
+  .lg-range input{width:110px}
+}

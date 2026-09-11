@@ -21,18 +21,19 @@
       })(window,document,"clarity","script","xtizgdek92");
     },2000);});
   </script>
-  <title>Fonts for Discord - Copy &amp; Paste Discord Fonts Free</title>
-  <meta name="description" content="Free fonts for Discord - type any text and copy 16 Unicode font styles for Discord usernames, nicknames, server names, channels and bios. No signup.">
+
+  <title>Discord Font Generator - Cool Fonts for Discord Copy &amp; Paste</title>
+  <meta name="description" content="Create cool Discord fonts for usernames, bios, server names, and messages. Type your text, choose a style, and copy and paste it into Discord instantly.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.cursive-text-generator.net/fonts-for-discord.html">
-  <meta property="og:title" content="Fonts for Discord - Copy &amp; Paste Discord Fonts Free">
-  <meta property="og:description" content="Type any text and instantly copy fonts for Discord - cursive, bold, gothic, small caps and 12 more Unicode styles for usernames, server names and bios.">
+  <meta property="og:title" content="Discord Font Generator - Cool Fonts for Discord Copy &amp; Paste">
+  <meta property="og:description" content="Turn plain text into cool Discord fonts - cursive, bold, gothic, bubble, small caps and symbols for usernames, bios, server names and channel names.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.cursive-text-generator.net/fonts-for-discord.html">
   <meta property="og:image" content="https://www.cursive-text-generator.net/assets/previews/fonts-for-discord.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Fonts for Discord - Copy &amp; Paste Discord Fonts Free">
-  <meta name="twitter:description" content="Type any text and instantly copy fonts for Discord - cursive, bold, gothic, small caps and 12 more Unicode styles for usernames, server names and bios.">
+  <meta name="twitter:title" content="Discord Font Generator - Cool Fonts for Discord Copy &amp; Paste">
+  <meta name="twitter:description" content="Turn plain text into cool Discord fonts - cursive, bold, gothic, bubble, small caps and symbols for usernames, bios, server names and channel names.">
   <meta name="twitter:image" content="https://www.cursive-text-generator.net/assets/previews/fonts-for-discord.svg">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -41,11 +42,51 @@
   <link rel="stylesheet" href="assets/styles.css?v=20260904b">
 
   <style>
-    /* ── Fonts for Discord — page-specific overrides ── */
-    /* The shared stylesheet hides the hero intro; generator pages re-show it. */
-    .tool-intro .eyebrow{display:inline-flex}
+    /* -- Discord Font Generator - page-specific styles -- */
     .tool-intro p{display:block}
-    .df-intro-sub{font-size:17px;font-weight:600;color:var(--coral);margin:4px 0 6px}
+    .tool-intro .eyebrow{display:inline-flex}
+    .dg-intro-sub{font-size:17px;font-weight:600;color:var(--coral);margin:4px 0 6px}
+
+    .dg-shell{max-width:980px}
+    .dg-panel{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:20px;box-shadow:0 4px 14px rgba(31,46,39,.06)}
+    #dg-input{width:100%;min-height:84px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:14px 16px;color:var(--ink);background:#fffefa;font:19px/1.45 inherit}
+    #dg-input:focus{outline:3px solid rgba(201,111,89,.18);border-color:var(--coral)}
+    .dg-label{display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--sage);margin-bottom:8px}
+
+    .dg-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0}
+    .dg-tab{padding:9px 16px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font:inherit;font-size:14px;font-weight:800;cursor:pointer;transition:all .15s;white-space:nowrap}
+    .dg-tab:hover{border-color:var(--sage);color:var(--sage)}
+    .dg-tab[aria-selected="true"]{background:var(--sage);color:#fff;border-color:var(--sage)}
+    .dg-tab:focus-visible{outline:3px solid rgba(47,107,79,.35);outline-offset:1px}
+    .dg-note{margin:12px 0 0;padding:11px 14px;border-left:3px solid var(--coral);background:var(--sage-soft);border-radius:0 8px 8px 0;font-size:14px;color:#3f4d46}
+
+    .dg-chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 4px}
+    .dg-chip{padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font:inherit;font-size:13px;font-weight:700;cursor:pointer;transition:all .15s;white-space:nowrap}
+    .dg-chip:hover{border-color:var(--coral);color:var(--coral)}
+    .dg-chip[aria-pressed="true"]{background:var(--coral);color:#fff;border-color:var(--coral)}
+    .dg-chip:focus-visible{outline:3px solid rgba(201,111,89,.35);outline-offset:1px}
+    .dg-count{font-size:13px;color:var(--muted);margin:10px 0 0}
+
+    .dg-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+    .dg-card{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:14px 16px;box-shadow:0 4px 14px rgba(31,46,39,.06)}
+    .dg-card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+    .dg-name{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--sage)}
+    .dg-out{font-size:clamp(19px,2.3vw,25px);line-height:1.4;overflow-wrap:anywhere;cursor:pointer;border-radius:6px;padding:2px 4px;margin:-2px -4px;transition:background .15s}
+    .dg-out:hover{background:var(--sage-soft)}
+    .dg-out:focus-visible{outline:3px solid rgba(47,107,79,.35)}
+    .dg-copy{flex-shrink:0;min-width:78px;min-height:34px;padding:6px 12px;border-radius:8px;border:1px solid var(--sage);background:var(--sage-soft);color:var(--sage);font:inherit;font-size:13px;font-weight:800;cursor:pointer;transition:all .15s}
+    .dg-copy:hover{background:var(--sage);color:#fff}
+    .dg-copy.is-copied{background:var(--sage);color:#fff}
+    .dg-copy:focus-visible{outline:3px solid rgba(47,107,79,.35);outline-offset:1px}
+    .dg-empty{color:var(--muted);padding:20px 0}
+
+    .dg-examples{margin:16px 0 0;border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden}
+    .dg-ex-row{display:flex;align-items:center;gap:12px;padding:11px 16px;border-top:1px solid var(--line)}
+    .dg-ex-row:first-child{border-top:none}
+    .dg-ex-from{color:var(--muted);font-size:15px;flex-shrink:0;min-width:118px}
+    .dg-ex-to{font-size:19px;overflow-wrap:anywhere;flex:1}
+    .dg-cta{display:inline-block;margin-top:14px;padding:11px 20px;border-radius:10px;background:var(--coral);color:#fff;font-weight:800;font-size:15px;text-decoration:none}
+    .dg-cta:hover{filter:brightness(1.06);color:#fff}
   </style>
 
   <!-- WebApplication Schema -->
@@ -53,12 +94,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "Fonts for Discord",
+    "name": "Discord Font Generator",
     "applicationCategory": "DesignApplication",
     "operatingSystem": "Any",
     "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
     "url": "https://www.cursive-text-generator.net/fonts-for-discord.html",
-    "description": "A free generator that converts plain text into copyable fonts for Discord usernames, nicknames, server names, channel names, About Me bios and messages."
+    "description": "A free Discord font generator that turns plain text into copyable Unicode styles for Discord usernames, bios, server names, channel names and messages."
   }
   </script>
 
@@ -67,7 +108,7 @@
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
     {"@type":"ListItem","position":1,"name":"Cursive Generator","item":"https://www.cursive-text-generator.net/"},
     {"@type":"ListItem","position":2,"name":"Cursive Fonts","item":"https://www.cursive-text-generator.net/cursive-fonts.html"},
-    {"@type":"ListItem","position":3,"name":"Fonts for Discord","item":"https://www.cursive-text-generator.net/fonts-for-discord.html"}]}
+    {"@type":"ListItem","position":3,"name":"Discord Font Generator","item":"https://www.cursive-text-generator.net/fonts-for-discord.html"}]}
   </script>
 
   <!-- FAQ Schema -->
@@ -78,43 +119,91 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "How do I use fonts for Discord?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Type your text into the box at the top of this page, pick a style, and click 1-Click Copy. The result is plain Unicode text, so you can paste it into Discord with Ctrl+V (Cmd+V on Mac) or a long-press Paste on mobile. It works in your display name, server nickname, About Me, custom status, messages, and most server and channel names."}
+        "name": "Can I change the font in Discord?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not the app's own interface font - Discord has no font setting, and nothing you paste changes how the client is drawn. What you can change is the text itself. This Discord font generator swaps your letters for Unicode characters that already carry a different shape, so the styling travels with the text into any field that stores plain text."
+        }
       },
       {
         "@type": "Question",
-        "name": "Do fonts for Discord work on mobile?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Because the styles are Unicode characters rather than a font file, the iOS and Android Discord apps render them the same way the desktop client does. Copy the text in your mobile browser, switch to Discord, and paste it into the field you want to style. A handful of older Android system fonts render some blocks as boxes, so preview before you save."}
+        "name": "How do I get cool fonts on Discord?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type your text in the box above, pick a style, and click Copy. Then paste it into Discord with Ctrl+V, Cmd+V, or a long-press Paste on mobile. No bot, no Nitro subscription, and no browser extension is needed - the conversion happens in your own browser."
+        }
       },
       {
         "@type": "Question",
-        "name": "Can I use a fancy font for my Discord username?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Your unique @username is restricted to lowercase letters, numbers, underscores and periods, so Unicode styles are rejected there. Your display name and your per-server nickname both accept Unicode, which is what most people mean by a Discord font username - that is the name shown in chat, in the member list, and above your messages."}
+        "name": "What fonts work in Discord usernames?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your display name and your per-server nickname accept any Unicode style, and both are capped at 32 characters. Your unique @username is the exception: it allows only lowercase letters, numbers, underscores and periods, so styled text is rejected there. Cursive, bold, small caps and gothic are the safest picks because they render on every major platform."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use these fonts in my Discord bio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The About Me box on your profile accepts Unicode in full, including line breaks, which is why decorative frames and symbol dividers work better there than anywhere else on Discord. Keep in mind that a screen reader will not read styled letters as ordinary words, so leave anything essential in plain text."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use Discord fonts on mobile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The characters are identical on every platform, so the iOS and Android apps show the same result as the desktop client. Copy from this page in your phone browser, switch to Discord, and long-press the field to paste. A few older Android system fonts have no glyph for the rarer decorative blocks and will show empty boxes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are Discord fonts free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Completely free. There is no account, no download, no watermark, and no limit on how much text you convert. Nothing you type is sent to a server."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a DiscordApp font generator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is the same thing under an older name. DiscordApp was the original domain, so some people still search for a DiscordApp font generator when they mean a Discord font generator. This tool covers both: it generates Unicode characters you can copy and paste into usernames, bios, messages and server names."
+        }
       },
       {
         "@type": "Question",
         "name": "Why does my Discord font show as boxes or question marks?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Boxes mean the device has no glyph for that Unicode block, not that the text is broken. Cursive Script, Bold Cursive, and Bold are the most widely supported styles across Windows, macOS, iOS, and Android. Switch to one of those if a friend reports squares, and avoid the rarer decorative blocks for anything that has to be readable by a whole server."}
-      },
-      {
-        "@type": "Question",
-        "name": "Are Discord fonts against the Terms of Service?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Pasting Unicode characters is normal use and is not a Terms of Service problem on its own. What can get you moderated is using unreadable or invisible characters to impersonate someone, dodge a word filter, or push a name to the top of the member list. Individual servers can also enforce a plain-text nickname rule, and moderators may rename you without warning."}
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Boxes mean the device has no glyph for that Unicode block, not that the text is broken. Cursive, bold cursive, and bold are the most widely supported styles across Windows, macOS, iOS, and Android. Switch to one of those if a friend reports squares, and avoid the rarer decorative blocks for anything that has to be readable by a whole server."
+        }
       },
       {
         "@type": "Question",
         "name": "Can I change the font of a Discord server or channel name?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes, if you have Manage Server or Manage Channels permission. Server names, category names, and role names accept Unicode styling. Text channel names are lowercased and have spaces converted to hyphens, so styled capitals will not survive there - use the channel topic or the category name instead for decorative text."}
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, if you have Manage Server or Manage Channels permission. Server names, category names, and role names accept Unicode styling. Text channel names are lowercased and have spaces converted to hyphens, so styled capitals will not survive there - use a symbol prefix, the channel topic, or the category name instead."
+        }
       },
       {
         "@type": "Question",
         "name": "Do Discord fonts work in messages and embeds?",
-        "acceptedAnswer": {"@type": "Answer", "text": "They work in ordinary messages, replies, thread titles, forum post titles, and bot embed fields, because all of those store plain text. Code blocks are the exception: text between backticks is rendered in a monospace typeface, and most decorative Unicode has no monospace glyph, so it falls back to a system font or a box."}
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They work in ordinary messages, replies, thread titles, forum post titles, and bot embed fields, because all of those store plain text. Code blocks are the exception: text between backticks is rendered in a monospace typeface, and most decorative Unicode has no monospace glyph, so it falls back to a system font or a box."
+        }
       },
       {
         "@type": "Question",
-        "name": "Are these fonts for Discord free?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Completely free. There is no account, no download, no watermark, and no limit on how much text you convert. Nothing you type is stored on a server - the conversion runs in your own browser."}
+        "name": "Are Discord fonts against the Terms of Service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pasting Unicode characters is normal use and is not a Terms of Service problem on its own. What can get you moderated is using unreadable or invisible characters to impersonate someone, dodge a word filter, or push a name to the top of the member list. Individual servers can also enforce a plain-text nickname rule, and moderators may rename you without warning."
+        }
       }
     ]
   }
@@ -159,94 +248,113 @@
           <span style="margin:0 6px">&rsaquo;</span>
           <a href="/cursive-fonts.html" style="color:var(--muted)">Cursive Fonts</a>
           <span style="margin:0 6px">&rsaquo;</span>
-          <span>Fonts for Discord</span>
+          <span>Discord Font Generator</span>
         </nav>
 
         <div class="tool-intro">
           <div>
-            <span class="eyebrow">Free &middot; 16 styles &middot; real-time &middot; copy &amp; paste</span>
-            <h1>Fonts for Discord - Copy &amp; Paste Discord Fonts Free</h1>
-            <p class="df-intro-sub">Cursive, bold, gothic and small-caps styles that paste straight into Discord</p>
-            <p>Fonts for Discord are Unicode character sets rather than font files, which is why the styling survives a copy and paste into a chat client that has no font picker. Type once in the box below and every style updates live - copy a cursive display name, a bold server name, or a small-caps channel topic and paste it into Discord on desktop, web, or mobile. No signup, no download, nothing installed.</p>
+            <span class="eyebrow">Free &middot; 46 styles &middot; real-time &middot; copy &amp; paste</span>
+            <h1>Discord Font Generator</h1>
+            <p class="dg-intro-sub">Cool fonts for Discord usernames, bios, server names and channels</p>
+            <p>Use our Discord font generator to turn normal text into stylish fonts for Discord. Create cool text for usernames, bios, server names, channel names, and messages, then copy and paste it directly into Discord. Nothing to install, no Nitro, no bot.</p>
           </div>
         </div>
 
-        <div class="generator-shell">
-          <div class="input-panel input-panel-search">
-            <label class="sr-only" for="text-input">Enter your text</label>
-            <span class="search-mark" aria-hidden="true"></span>
-            <textarea id="text-input" data-input rows="1" placeholder="Discord">Discord</textarea>
-            <button class="clear-search" type="button" data-clear aria-label="Clear text">&times;</button>
+        <div class="dg-shell">
+          <div class="dg-panel">
+            <label class="dg-label" for="dg-input">Enter your text</label>
+            <textarea id="dg-input" rows="2" placeholder="Discord" aria-describedby="dg-field-note">Discord</textarea>
+
+            <div class="dg-tabs" role="tablist" aria-label="What are you styling?">
+              <button class="dg-tab" type="button" role="tab" data-use="all" aria-selected="true">All</button>
+              <button class="dg-tab" type="button" role="tab" data-use="username" aria-selected="false">Username</button>
+              <button class="dg-tab" type="button" role="tab" data-use="bio" aria-selected="false">Bio</button>
+              <button class="dg-tab" type="button" role="tab" data-use="server" aria-selected="false">Server Name</button>
+              <button class="dg-tab" type="button" role="tab" data-use="channel" aria-selected="false">Channel Name</button>
+              <button class="dg-tab" type="button" role="tab" data-use="message" aria-selected="false">Message</button>
+            </div>
+            <p class="dg-note" id="dg-field-note">Showing every style. Pick a tab above to see only the styles that survive that Discord field.</p>
           </div>
-          <section class="font-choice" aria-labelledby="font-choice-title">
-            <span class="strip-label" id="font-choice-title">Choose a Discord font</span>
-            <div class="style-strip" data-style-strip role="tablist" aria-label="Discord font styles"></div>
-          </section>
-          <section class="selected-output" aria-labelledby="selected-output-title">
-            <div class="result-tabs" aria-label="Output type">
-              <span class="active">Copy-Paste Fonts</span>
-              <span>Graphic Fonts</span>
-            </div>
-            <h2 id="selected-output-title">Discord Font Styles</h2>
-            <p class="result-note">Copy and downloads automatically include our site link.</p>
-            <article class="result-card result-card-selected">
-              <div class="result-top">
-                <div class="result-title" data-style-name>Cursive Script</div>
-                <div class="result-actions">
-                  <button class="btn-download" type="button" data-dl title="Download as PNG">Download PNG</button>
-                  <button class="button copy" type="button" data-copy aria-label="Copy selected style">1-Click Copy</button>
-                </div>
-              </div>
-              <div class="output" data-output aria-live="polite"></div>
-            </article>
-            <div class="all-styles-heading">
-              <h3>All Discord Font Styles</h3>
-              <p>Every style rendered with your text - copy any one of them directly into Discord.</p>
-            </div>
-            <div class="results results-compact" data-results aria-live="polite"></div>
-          </section>
+
+          <div class="dg-chips" role="group" aria-label="Filter Discord fonts by style">
+            <button class="dg-chip" type="button" data-cat="all" aria-pressed="true">All styles</button>
+            <button class="dg-chip" type="button" data-cat="cursive" aria-pressed="false">Cursive</button>
+            <button class="dg-chip" type="button" data-cat="bold" aria-pressed="false">Bold</button>
+            <button class="dg-chip" type="button" data-cat="italic" aria-pressed="false">Italic</button>
+            <button class="dg-chip" type="button" data-cat="freaky" aria-pressed="false">Freaky</button>
+            <button class="dg-chip" type="button" data-cat="cute" aria-pressed="false">Cute</button>
+            <button class="dg-chip" type="button" data-cat="aesthetic" aria-pressed="false">Aesthetic</button>
+            <button class="dg-chip" type="button" data-cat="smallcaps" aria-pressed="false">Small Caps</button>
+            <button class="dg-chip" type="button" data-cat="bubble" aria-pressed="false">Bubble</button>
+            <button class="dg-chip" type="button" data-cat="gothic" aria-pressed="false">Gothic</button>
+            <button class="dg-chip" type="button" data-cat="symbols" aria-pressed="false">Symbols</button>
+          </div>
+          <p class="dg-count" id="dg-count">46 styles</p>
+
+          <h2 id="dg-results-title" class="sr-only">Discord Font Styles</h2>
+          <div class="dg-grid" id="dg-grid" aria-live="polite" aria-labelledby="dg-results-title"></div>
         </div>
       </div>
     </section>
 
-    <!-- STYLE SHOWCASE -->
+    <!-- POPULAR STYLES -->
     <section class="style-showcase" id="styles">
       <div class="wrap">
         <div class="section-heading">
           <span class="eyebrow">Preview styles</span>
           <h2>Popular Discord Font Styles</h2>
-          <p>How each style looks before you generate your own text. All six render reliably in the Discord desktop client, the web app, and both mobile apps.</p>
+          <p>How the most-used Discord fonts look before you generate your own text. Everything below renders in the desktop client, the web app, and both mobile apps.</p>
         </div>
         <div class="style-showcase-grid">
           <div class="style-card">
-            <span class="style-label">Cursive Script</span>
+            <span class="style-label">Cursive</span>
             <div class="style-preview">𝒟𝒾𝓈𝒸ℴ𝓇𝒹</div>
             <p class="style-desc">Thin, elegant script - the most-copied Discord font for display names and About Me bios.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Bold Cursive</span>
-            <div class="style-preview">𝓓𝓲𝓼𝓬𝓸𝓻𝓭</div>
-            <p class="style-desc">Heavier script that stays legible at member-list size on a phone screen.</p>
+            <span class="style-label">Bold</span>
+            <div class="style-preview">𝐃𝐢𝐬𝐜𝐨𝐫𝐝</div>
+            <p class="style-desc">Maximum weight and the widest device support. Safe anywhere, including channel topics.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Bold Gothic</span>
-            <div class="style-preview">𝕯𝖎𝖘𝖈𝖔𝖗𝖉</div>
-            <p class="style-desc">Blackletter weight for gaming clans, horror servers, and dark-theme roles.</p>
+            <span class="style-label">Italic</span>
+            <div class="style-preview">𝐷𝑖𝑠𝑐𝑜𝑟𝑑</div>
+            <p class="style-desc">A slant that reads as a quiet aside - good for taglines under a server name.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Small Caps</span>
-            <div class="style-preview">ᴅɪsᴄᴏʀᴅ</div>
-            <p class="style-desc">Quiet and highly readable - the safest choice for channel topics and rules text.</p>
+            <span class="style-label">Freaky</span>
+            <div class="style-preview">D̷i̷s̷c̷o̷r̷d̷</div>
+            <p class="style-desc">Struck-through and glitched text built from combining marks. Best in messages and bios.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Aesthetic Wide</span>
+            <span class="style-label">Cute</span>
+            <div class="style-preview">♡ 𝒟𝒾𝓈𝒸ℴ𝓇𝒹 ♡</div>
+            <p class="style-desc">Script wrapped in hearts, bows, and flowers for soft profiles and study servers.</p>
+          </div>
+          <div class="style-card">
+            <span class="style-label">Aesthetic</span>
             <div class="style-preview">Ｄｉｓｃｏｒｄ</div>
             <p class="style-desc">Full-width spacing for vaporwave server names and category headers.</p>
           </div>
           <div class="style-card">
-            <span class="style-label">Double-Struck</span>
-            <div class="style-preview">𝔻𝕚𝕤𝕔𝕠𝕣𝕕</div>
-            <p class="style-desc">Outlined letterforms that stand out against Discord's dark background.</p>
+            <span class="style-label">Small Caps</span>
+            <div class="style-preview">ᴅɪsᴄᴏʀᴅ</div>
+            <p class="style-desc">Quiet and highly readable - the safest choice for rules text and channel topics.</p>
+          </div>
+          <div class="style-card">
+            <span class="style-label">Bubble</span>
+            <div class="style-preview">ⓓⓘⓢⓒⓞⓡⓓ</div>
+            <p class="style-desc">Circled letters that stand out in a member list without shouting.</p>
+          </div>
+          <div class="style-card">
+            <span class="style-label">Gothic</span>
+            <div class="style-preview">𝕯𝖎𝖘𝖈𝖔𝖗𝖉</div>
+            <p class="style-desc">Blackletter weight for gaming clans, horror servers, and dark-theme roles.</p>
+          </div>
+          <div class="style-card">
+            <span class="style-label">Symbols</span>
+            <div class="style-preview">✦ 𝗗𝗶𝘀𝗰𝗼𝗿𝗱 ✦</div>
+            <p class="style-desc">Dividers, stars, and frames you can mix with any letter style above.</p>
           </div>
         </div>
       </div>
@@ -255,11 +363,11 @@
     <!-- USE CASES -->
     <section class="use-cases-section" id="use-cases">
       <div class="wrap">
-        <div class="section-heading">
-          <span class="eyebrow">Where to paste it</span>
-          <h2>Where to Use Fonts for Discord</h2>
-          <p>Every field below stores plain text, so a styled string pasted into it keeps its look for everyone who sees it.</p>
-        </div>
+
+        <h2>Fonts for Discord</h2>
+        <p>Discord does not let users change the app's default interface font, but you can use Unicode characters to create styled text that looks different from normal letters. Type your text above and choose from cursive, bold, aesthetic, gothic, cute, and other Discord font styles.</p>
+        <p>That distinction matters, because it explains why these fonts for Discord work everywhere at once. You are not installing anything and Discord is not rendering a new typeface - you are pasting characters that already carry their own shape, the same way an emoji does. Discord stores them, transmits them, and shows them to everyone in the server, whether they are on Windows, macOS, iOS, Android, or the web client. It also explains the one limitation worth knowing up front: a device that has no glyph for a rare block will draw an empty box instead, which is why the widely supported styles are listed first.</p>
+
         <div class="use-cases-grid">
           <div class="use-case-card">
             <span class="uc-icon">🎮</span>
@@ -292,6 +400,63 @@
             <p>Announcements, thread titles, forum posts, and bot embed fields all accept pasted Unicode styling.</p>
           </div>
         </div>
+
+        <h2>Discord Username Fonts</h2>
+        <p>Make your Discord username stand out with stylish text. Discord splits your identity in two: the unique @username at the bottom of your profile, which allows only lowercase letters, numbers, underscores and periods, and the display name shown above your messages, which accepts Unicode in full. Discord username fonts apply to the second one, plus the per-server nickname you can set from the right-click menu. Both fields cap at 32 characters, so the compact styles win.</p>
+        <div class="dg-examples">
+          <div class="dg-ex-row"><span class="dg-ex-from">Alex</span><span class="dg-ex-to">𝓐𝓵𝓮𝔁</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Alex</span><span class="dg-ex-to">𝐀𝐥𝐞𝐱</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Alex</span><span class="dg-ex-to">𝔄𝔩𝔢𝔵</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Alex</span><span class="dg-ex-to">ᴀʟᴇx</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Alex</span><span class="dg-ex-to">αℓєχ</span></div>
+        </div>
+        <a class="dg-cta" href="#tool">Generate Discord username fonts &uarr;</a>
+        <p>Pick the <strong>Username</strong> tab in the generator and the list narrows to styles that fit the character limit and render in the member list at small sizes. Cursive, bold, gothic, and small caps are the four that almost never break. Avoid spaced and full-width styles here - each space or wide character counts against the same 32, so a six-letter name can hit the cap before you have finished typing it.</p>
+
+        <h2>Discord Bio Fonts</h2>
+        <p>Create aesthetic text for your Discord bio or profile. The About Me box is the most forgiving field on the platform: it accepts every Unicode block, it keeps line breaks, and it gives you roughly 190 characters to work with. That is why decorative frames, symbol dividers, and multi-line layouts belong here rather than in a username.</p>
+        <div class="dg-examples">
+          <div class="dg-ex-row"><span class="dg-ex-from">🎮 Gamer</span><span class="dg-ex-to">🎮 𝓖𝓪𝓶𝓮𝓻</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Music Lover</span><span class="dg-ex-to">♫ ᴍᴜsɪᴄ ʟᴏᴠᴇʀ ♫</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Stay Weird</span><span class="dg-ex-to">✧ 𝓢𝓽𝓪𝔂 𝓦𝓮𝓲𝓻𝓭 ✧</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">she / her</span><span class="dg-ex-to">˚₊· ͟͞ ѕнє / нєя ·₊˚</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">art &amp; chaos</span><span class="dg-ex-to">🎀 𝒶𝓇𝓉 &amp; 𝒸𝒽𝒶ℴ𝓈 🎀</span></div>
+        </div>
+        <p>A bio that reads well usually mixes one styled line with plain text underneath. Style the header, leave the details readable - a screen reader announces Unicode letters as individual symbols rather than words, so anything a stranger genuinely needs to know is better left unstyled. The <strong>Bio</strong> tab in the generator includes the combining-mark styles that are unsafe in names but perfectly fine in a profile.</p>
+
+        <h2>Discord Server Name Fonts</h2>
+        <p>Use stylish text for gaming servers, communities, study groups, fandom servers, and private Discord communities. Server names accept Unicode up to 100 characters, so this is where you have room to combine a letter style with a symbol frame. The same applies to category headers and role names, both of which keep their capitals and show up in the sidebar all day.</p>
+        <div class="dg-examples">
+          <div class="dg-ex-row"><span class="dg-ex-from">Gaming Zone</span><span class="dg-ex-to">𝔾𝕒𝕞𝕚𝕟𝕘 ℤ𝕠𝕟𝕖</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Study Club</span><span class="dg-ex-to">✦ 𝓢𝓽𝓾𝓭𝔂 𝓒𝓵𝓾𝓫 ✦</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Anime Café</span><span class="dg-ex-to">🌸 𝒜𝓃𝒾𝓂ℯ 𝒞𝒶𝒻é 🌸</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">The Void</span><span class="dg-ex-to">𝕿𝖍𝖊 𝖁𝖔𝖎𝖉</span></div>
+        </div>
+        <p>One caution for server owners: the server name is what appears in invite links and in Discord's own discovery listing, so an unreadable name costs you joins. Style it, but keep the words recognisable. Role names are the safer place to be adventurous, because members see them next to a colour and a position they already understand.</p>
+
+        <h2>Discord Channel Name Fonts</h2>
+        <p>Text channel names are the one field that rewrites what you paste. Discord lowercases ordinary letters and turns spaces into hyphens, so styled capitals and spaced-out text will not survive there. Unicode letters from the math blocks pass through untouched, and so do symbols and emoji - which is why the popular look is a symbol, a divider, and then the name.</p>
+        <div class="dg-examples">
+          <div class="dg-ex-row"><span class="dg-ex-from">general</span><span class="dg-ex-to">✦・general</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">announcements</span><span class="dg-ex-to">📢・announcements</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">gaming</span><span class="dg-ex-to">🎮・gaming</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">music</span><span class="dg-ex-to">♫・music</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">memes</span><span class="dg-ex-to">😂・memes</span></div>
+        </div>
+        <p>Category names behave differently and keep their capitals, so a fully styled header above a set of plainly named channels is the layout most large servers land on. Voice channel names are also less strict than text channels. Pick the <strong>Channel Name</strong> tab in the generator to see only the combinations that come out of Discord's normalisation intact.</p>
+
+        <h2>Cool Discord Fonts to Copy and Paste</h2>
+        <p>Every result in the generator is copy and paste ready - click the text or the Copy button and the styled string goes straight to your clipboard as plain Unicode. Nothing is uploaded, nothing is stored, and there is no character limit on what you convert. The list below is a quick reference of cool fonts for Discord you can grab without typing anything first.</p>
+        <div class="dg-examples">
+          <div class="dg-ex-row"><span class="dg-ex-from">Cursive</span><span class="dg-ex-to">𝒸ℴℴ𝓁 𝒹𝒾𝓈𝒸ℴ𝓇𝒹 𝒻ℴ𝓃𝓉𝓈</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Bold Cursive</span><span class="dg-ex-to">𝓬𝓸𝓸𝓵 𝓭𝓲𝓼𝓬𝓸𝓻𝓭 𝓯𝓸𝓷𝓽𝓼</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Gothic</span><span class="dg-ex-to">𝔠𝔬𝔬𝔩 𝔡𝔦𝔰𝔠𝔬𝔯𝔡 𝔣𝔬𝔫𝔱𝔰</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Double-Struck</span><span class="dg-ex-to">𝕔𝕠𝕠𝕝 𝕕𝕚𝕤𝕔𝕠𝕣𝕕 𝕗𝕠𝕟𝕥𝕤</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Small Caps</span><span class="dg-ex-to">ᴄᴏᴏʟ ᴅɪsᴄᴏʀᴅ ғᴏɴᴛs</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Bubble</span><span class="dg-ex-to">ⓒⓞⓞⓛ ⓓⓘⓢⓒⓞⓡⓓ ⓕⓞⓝⓣⓢ</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Upside Down</span><span class="dg-ex-to">sʇuoɟ pɹoɔsıp looɔ</span></div>
+          <div class="dg-ex-row"><span class="dg-ex-from">Strikethrough</span><span class="dg-ex-to">c̷o̷o̷l̷ ̷d̷i̷s̷c̷o̷r̷d̷ ̷f̷o̷n̷t̷s̷</span></div>
+        </div>
       </div>
     </section>
 
@@ -312,29 +477,34 @@
           <a class="tool-card" href="/cursive-name-generator.html">
             <span>&#9997;</span>
             <strong>Cursive Name Generator</strong>
-            <em>Your name in six cursive styles, sized and previewed for a profile.</em>
+            <em>Built for names, with styles picked for how they read at member-list size.</em>
+          </a>
+          <a class="tool-card" href="/heart-font-generator.html">
+            <span>&#9825;</span>
+            <strong>Heart Font Generator</strong>
+            <em>Heart symbols and framed text for bios, statuses, and soft server names.</em>
           </a>
           <a class="tool-card" href="/cursive-bold-generator.html">
-            <span>&#120051;</span>
+            <span>&#120139;</span>
             <strong>Bold Cursive Generator</strong>
             <em>The heaviest script block, made for names that must read at small sizes.</em>
           </a>
-          <a class="tool-card" href="/heart-font-generator.html">
-            <span>&#10084;</span>
-            <strong>Heart Font Generator</strong>
-            <em>Heart symbols and frames to wrap around a Discord nickname.</em>
-          </a>
           <a class="tool-card" href="/cursive-compatibility.html">
-            <span>&#9989;</span>
-            <strong>Platform Compatibility Chart</strong>
-            <em>Which Unicode blocks render on which apps and operating systems.</em>
+            <span>&#9878;</span>
+            <strong>Unicode Compatibility</strong>
+            <em>Which Unicode blocks render on which platforms, before you commit to a style.</em>
           </a>
-          <a class="tool-card" href="/cursive-fonts.html">
-            <span>Aa</span>
-            <strong>Cursive Fonts</strong>
-            <em>Real downloadable typefaces for design work, not copy-paste text.</em>
+          <a class="tool-card" href="/copy-and-paste-cursive-font.html">
+            <span>&#8865;</span>
+            <strong>Copy &amp; Paste Fonts</strong>
+            <em>The general-purpose copy-and-paste hub for every field, not just Discord.</em>
           </a>
-        </div>
+                  <a class="tool-card" href="/gangster-font-generator.html">
+            <span>▌</span>
+            <strong>Gangster Font Generator</strong>
+            <em>Heavy blackletter and block capitals that survive Discord names.</em>
+          </a>
+</div>
       </div>
     </section>
 
@@ -344,10 +514,14 @@
         <aside class="seo-aside">
           <h2>Popular Discord Font Searches</h2>
           <div class="keyword-list">
+            <span>discord font generator</span>
             <span>fonts for discord</span>
             <span>discord fonts</span>
-            <span>discord font generator</span>
-            <span>discord name font</span>
+            <span>cool fonts for discord</span>
+            <span>discord fonts copy and paste</span>
+            <span>discord username fonts</span>
+            <span>discord bio fonts</span>
+            <span>discordapp font</span>
             <a href="/">cursive text generator</a>
             <a href="/fancy-text-generator.html">fancy text generator</a>
             <a href="/cursive-bold-generator.html">bold text generator</a>
@@ -357,76 +531,93 @@
           </div>
         </aside>
         <article class="seo-copy">
-          <h2>What Are Fonts for Discord?</h2>
-          <p>Discord ships with one interface typeface and no font menu, so the phrase "fonts for Discord" does not describe a file you install. It describes Unicode text: character ranges that the Unicode Standard defines for mathematics and phonetics, and which happen to look like script, blackletter, or small capitals. When you copy 𝓓𝓲𝓼𝓬𝓸𝓻𝓭 you are copying seven ordinary characters that already carry their own shape, so Discord stores and transmits them like any other message.</p>
+
+          <h2>How to Use the Discord Font Generator</h2>
+          <p>The whole flow is four steps and takes about ten seconds.</p>
+          <ol>
+            <li><strong>Type your text</strong> in the box at the top of the page. Results update as you type, so you can watch a name take shape letter by letter.</li>
+            <li><strong>Pick where it is going</strong> using the Username, Bio, Server Name, Channel Name, or Message tab. The list filters down to the styles that survive that specific Discord field.</li>
+            <li><strong>Narrow by look</strong> with the style chips - cursive, bold, italic, freaky, cute, aesthetic, small caps, bubble, gothic, or symbols.</li>
+            <li><strong>Copy and paste.</strong> Click the styled text or the Copy button, switch to Discord, and paste with Ctrl+V, Cmd+V, or a long-press Paste on mobile.</li>
+          </ol>
+          <p>There is no sign-up, no Nitro requirement, and no bot to invite. The conversion runs entirely in your browser, which is also why it works on a school or work network that blocks most extensions.</p>
           <figure class="page-preview" style="margin:28px 0;max-width:560px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper)">
             <img src="assets/previews/fonts-for-discord.svg" width="1200" height="630" loading="lazy" decoding="async"
                  style="display:block;width:100%;height:auto" alt="The word Discord converted into bold cursive Unicode fonts for Discord usernames">
-            <figcaption style="font-size:13px;color:var(--muted);padding:8px 14px">Plain text in, Unicode fonts for Discord out</figcaption>
+            <figcaption style="font-size:13px;color:var(--muted);padding:8px 14px">Plain text in, cool Discord fonts out</figcaption>
           </figure>
-          <p>That single design decision explains almost everything else on this page. It is why the styling works in a username field where a font file never could, why it survives being quoted in a reply, and equally why you get no control over colour, spacing, or weight. What the reader finally sees depends on their own device's font fallback, not on anything you chose.</p>
 
-          <h3>Why Discord Has No Built-in Font Picker</h3>
-          <p>Discord renders every client with the same typeface stack so that names and messages stay comparable across platforms, and so moderation tooling can read what is on screen. Letting users load arbitrary typefaces would break both. Unicode styling is the loophole the platform tolerates: it is still text, it is still searchable, and it is still copyable by a moderator. Discord documents its own formatting options - bold, italics, spoilers, code blocks - in its <a href="https://support.discord.com/hc/en-us/articles/210298617" rel="noopener" target="_blank">official markdown help article</a>, and nothing in that list changes the letterforms themselves.</p>
+          <h2>Does Discord Support Custom Fonts?</h2>
+          <p>No, and it is worth being precise about why, because most pages on this topic are not. Discord ships one interface typeface and exposes no font setting in Appearance, on any platform. There is no upload slot for a font file, Nitro does not add one, and a bot cannot change how the client draws text on your screen. Client mods such as BetterDiscord can restyle your own copy of the app, but nobody else in the server sees the difference, and modifying the client is against Discord's Terms of Service.</p>
+          <p>What Discord does support is Unicode, in every field that stores text. The Unicode Standard defines separate character ranges for mathematical script, blackletter, double-struck, monospace, and full-width letters, plus phonetic small capitals and enclosed alphanumerics. Those characters look like styled letters but are ordinary text as far as software is concerned, so they copy, paste, transmit, and display like any other message. A Discord font generator is really a Unicode mapper: it swaps each letter you type for its lookalike in one of those ranges.</p>
+          <p>The practical consequence is that the styling belongs to the text, not to the app. Paste a cursive name into your profile and every member sees it in cursive, on every device, without installing anything. The trade-off is that no device has glyphs for all of Unicode, so the rarer decorative blocks can fall back to empty boxes on older phones. Our <a href="/cursive-compatibility.html">Unicode compatibility chart</a> lists which blocks are safe where if you want to check before you publish.</p>
 
-          <h3>Unicode Fonts vs Discord Markdown</h3>
-          <p>Markdown and Unicode styling solve different problems and can be combined. Markdown is instruction: two asterisks tell the client to render a span in bold, and the asterisks disappear. Unicode is substitution: the characters themselves are different, and they stay different wherever the string travels. Markdown only works inside a message body, which is exactly why fonts for Discord are the only option for a nickname, a role, or a server name. Use markdown inside chat for emphasis, and Unicode styling everywhere markdown is not parsed.</p>
+          <h2>Discord Font Examples</h2>
+          <p>Here is the same name in every major family, so you can see the difference in weight and readability side by side rather than one style at a time.</p>
+          <div class="dg-examples">
+            <div class="dg-ex-row"><span class="dg-ex-from">Cursive</span><span class="dg-ex-to">𝒜𝓁ℯ𝓍 ℛ𝒾𝓋ℯ𝓇𝒶</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Bold Cursive</span><span class="dg-ex-to">𝓐𝓵𝓮𝔁 𝓡𝓲𝓿𝓮𝓻𝓪</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Bold</span><span class="dg-ex-to">𝐀𝐥𝐞𝐱 𝐑𝐢𝐯𝐞𝐫𝐚</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Italic</span><span class="dg-ex-to">𝐴𝑙𝑒𝑥 𝑅𝑖𝑣𝑒𝑟𝑎</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Gothic</span><span class="dg-ex-to">𝔄𝔩𝔢𝔵 ℜ𝔦𝔳𝔢𝔯𝔞</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Bold Gothic</span><span class="dg-ex-to">𝕬𝖑𝖊𝖝 𝕽𝖎𝖛𝖊𝖗𝖆</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Small Caps</span><span class="dg-ex-to">ᴀʟᴇx ʀɪᴠᴇʀᴀ</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Double-Struck</span><span class="dg-ex-to">𝔸𝕝𝕖𝕩 ℝ𝕚𝕧𝕖𝕣𝕒</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Bubble</span><span class="dg-ex-to">Ⓐⓛⓔⓧ Ⓡⓘⓥⓔⓡⓐ</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Aesthetic Wide</span><span class="dg-ex-to">Ａｌｅｘ　Ｒｉｖｅｒａ</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Monospace</span><span class="dg-ex-to">𝙰𝚕𝚎𝚡 𝚁𝚒𝚟𝚎𝚛𝚊</span></div>
+            <div class="dg-ex-row"><span class="dg-ex-from">Cute</span><span class="dg-ex-to">🎀 𝒜𝓁ℯ𝓍 ℛ𝒾𝓋ℯ𝓇𝒶 🎀</span></div>
+          </div>
+          <p>Reading them together makes the ranking obvious. Bold, cursive, small caps, and gothic hold up at member-list size on a phone; bubble and full-width are decorative and need more room; combining-mark styles like strikethrough are a message effect rather than a name. If you only ever use four Discord fonts, use those first four.</p>
+          <p>Looking for a DiscordApp font generator? This tool works with Discord text by generating Unicode characters that you can copy and paste into usernames, bios, messages, and server names. DiscordApp was the platform's original domain, so the older name still turns up in searches, but it refers to the same app and the same technique.</p>
 
-          <h2>How to Change Your Font on Discord</h2>
-          <p>Generate the text at the top of this page first, then use whichever of the following applies. Nothing here needs a bot, a Nitro subscription, or a browser extension.</p>
+          <h2>Discord Font Rules and Limits</h2>
+          <p>A few constraints are worth knowing before you commit to a style, because they are the reason a pasted font sometimes does not stick.</p>
+          <ul>
+            <li><strong>The @username is plain text only.</strong> Lowercase letters, numbers, underscores, and periods. Unicode is rejected outright, so style the display name instead.</li>
+            <li><strong>Display names and nicknames stop at 32 characters.</strong> Full-width and spaced styles burn through that budget fast.</li>
+            <li><strong>Text channel names are normalised.</strong> Capitals are lowercased and spaces become hyphens. Symbols, emoji, and Unicode letters pass through.</li>
+            <li><strong>Code blocks strip the effect.</strong> Text between backticks renders monospace, and most decorative blocks have no monospace glyph.</li>
+            <li><strong>Servers can enforce plain names.</strong> Moderators are allowed to rename you, and many large communities do exactly that.</li>
+            <li><strong>Accessibility is a real cost.</strong> Screen readers announce styled letters as individual symbols, not words, so keep anything essential in plain text.</li>
+          </ul>
+          <p>Pasting Unicode is normal use and is not a Terms of Service problem by itself. What does draw moderation is using unreadable or invisible characters to impersonate another member, evade a word filter, or force your name to the top of the member list.</p>
 
-          <h3>Change Your Discord Display Name</h3>
-          <p>Open User Settings, choose My Account, and edit the Display Name field - not the @username below it. Paste the styled text, save, and it updates everywhere at once. Discord's identity system deliberately splits the two: the @username stays plain so people can mention and find you, while the display name is free to carry a cursive or gothic look.</p>
+          <h2>Discord Font Generator FAQ</h2>
 
-          <h3>Set a Discord Font Nickname Per Server</h3>
-          <p>Right-click your own name in a member list, or open the server dropdown and choose Edit Server Profile, then paste into Nickname. This is the better route when one community wants readable names and another does not mind decoration. It also leaves your global identity untouched if a moderator asks you to change back.</p>
+          <h3>Can I change the font in Discord?</h3>
+          <p>Not the app's own interface font - Discord has no font setting, and nothing you paste changes how the client is drawn. What you can change is the text itself. This Discord font generator swaps your letters for Unicode characters that already carry a different shape, so the styling travels with the text into any field that stores plain text.</p>
 
-          <h3>Discord Fonts in Server, Category, and Role Names</h3>
-          <p>With Manage Server permission you can paste styled text into Server Settings, into category names, and into role names. Text channel names are the exception - Discord lowercases them and swaps spaces for hyphens, which destroys most styled capitals. Put the decoration in the category header or the channel topic instead, where it is preserved exactly as pasted.</p>
+          <h3>How do I get cool fonts on Discord?</h3>
+          <p>Type your text in the box above, pick a style, and click Copy. Then paste it into Discord with Ctrl+V, Cmd+V, or a long-press Paste on mobile. No bot, no Nitro subscription, and no browser extension is needed - the conversion happens in your own browser.</p>
 
-          <h3>Discord Fonts in About Me and Custom Status</h3>
-          <p>The About Me box on your profile and the custom status line both accept Unicode in full, including multiple lines. A common pattern is a small-caps heading with plain sentences underneath, so the profile reads as designed rather than as a wall of decorative characters.</p>
+          <h3>What fonts work in Discord usernames?</h3>
+          <p>Your display name and your per-server nickname accept any Unicode style, and both are capped at 32 characters. Your unique @username is the exception: it allows only lowercase letters, numbers, underscores and periods, so styled text is rejected there. Cursive, bold, small caps and gothic are the safest picks because they render on every major platform.</p>
 
-          <h3>Using Discord Fonts on Mobile</h3>
-          <p>The iOS and Android apps behave the same way as the desktop client, because the characters are identical. Copy from this page in your phone browser, switch apps, then long-press the target field and choose Paste. The only real difference is the system font: a few older Android builds have no glyph for the rarer decorative blocks and will show empty boxes, so preview a style before committing it to a server-wide name.</p>
+          <h3>Can I use these fonts in my Discord bio?</h3>
+          <p>Yes. The About Me box on your profile accepts Unicode in full, including line breaks, which is why decorative frames and symbol dividers work better there than anywhere else on Discord. Keep in mind that a screen reader will not read styled letters as ordinary words, so leave anything essential in plain text.</p>
 
-          <h2>Discord Font Limits and Rules</h2>
-          <p>A generator is only half the job. These are the constraints that decide whether a styled name survives contact with a real server.</p>
+          <h3>Can I use Discord fonts on mobile?</h3>
+          <p>Yes. The characters are identical on every platform, so the iOS and Android apps show the same result as the desktop client. Copy from this page in your phone browser, switch to Discord, and long-press the field to paste. A few older Android system fonts have no glyph for the rarer decorative blocks and will show empty boxes.</p>
 
-          <h3>Where Discord Rejects Styled Fonts</h3>
-          <p>Three places will not keep your styling: the unique @username, which is limited to lowercase letters, numbers, underscores, and periods; text channel names, which are normalised on save; and code blocks, where the monospace typeface has no glyph for most decorative ranges and falls back to a system font or a box. Everything else - display name, nickname, roles, server and category names, topics, messages, forum titles, bot embeds - keeps what you paste.</p>
+          <h3>Are Discord fonts free?</h3>
+          <p>Completely free. There is no account, no download, no watermark, and no limit on how much text you convert. Nothing you type is sent to a server.</p>
 
-          <h3>Discord Font Readability and Screen Readers</h3>
-          <p>Unicode styling has a real accessibility cost. A screen reader announcing 𝓓𝓲𝓼𝓬𝓸𝓻𝓭 reads it character by character as mathematical script letters, not as the word "Discord", and search inside a server will not match a styled name against a plain-text query. Many servers therefore require a readable nickname, and moderators can rename you without asking. The practical rule: style short, high-visibility strings - a display name, a role, a category header - and leave anything people actually need to read, search, or report in plain text.</p>
-
-          <h3>Choosing Discord Fonts That Render Everywhere</h3>
-          <p>If your name has to look right for a few thousand strangers, stay in the widely supported blocks. Cursive Script, Bold Cursive, Bold, Italic, and Small Caps are covered by the default font stacks on Windows, macOS, iOS, and Android. Circled, double-struck, and full-width characters are more decorative but have thinner coverage on older devices. Our <a href="/cursive-compatibility.html">Unicode compatibility chart</a> lists which blocks are safe on which platforms if you want to check a specific style before you publish it.</p>
-
-          <h2>Fonts for Discord FAQ</h2>
-
-          <h3>How do I use fonts for Discord?</h3>
-          <p>Type your text into the box at the top of this page, pick a style, and click 1-Click Copy. The result is plain Unicode text, so you can paste it into Discord with Ctrl+V (Cmd+V on Mac) or a long-press Paste on mobile. It works in your display name, server nickname, About Me, custom status, messages, and most server and channel names.</p>
-
-          <h3>Do fonts for Discord work on mobile?</h3>
-          <p>Yes. Because the styles are Unicode characters rather than a font file, the iOS and Android Discord apps render them the same way the desktop client does. Copy the text in your mobile browser, switch to Discord, and paste it into the field you want to style. A handful of older Android system fonts render some blocks as boxes, so preview before you save.</p>
-
-          <h3>Can I use a fancy font for my Discord username?</h3>
-          <p>Your unique @username is restricted to lowercase letters, numbers, underscores and periods, so Unicode styles are rejected there. Your display name and your per-server nickname both accept Unicode, which is what most people mean by a Discord font username - that is the name shown in chat, in the member list, and above your messages.</p>
+          <h3>What is a DiscordApp font generator?</h3>
+          <p>It is the same thing under an older name. DiscordApp was the original domain, so some people still search for a DiscordApp font generator when they mean a Discord font generator. This tool covers both: it generates Unicode characters you can copy and paste into usernames, bios, messages and server names.</p>
 
           <h3>Why does my Discord font show as boxes or question marks?</h3>
-          <p>Boxes mean the device has no glyph for that Unicode block, not that the text is broken. Cursive Script, Bold Cursive, and Bold are the most widely supported styles across Windows, macOS, iOS, and Android. Switch to one of those if a friend reports squares, and avoid the rarer decorative blocks for anything that has to be readable by a whole server.</p>
-
-          <h3>Are Discord fonts against the Terms of Service?</h3>
-          <p>Pasting Unicode characters is normal use and is not a Terms of Service problem on its own. What can get you moderated is using unreadable or invisible characters to impersonate someone, dodge a word filter, or push a name to the top of the member list. Individual servers can also enforce a plain-text nickname rule, and moderators may rename you without warning.</p>
+          <p>Boxes mean the device has no glyph for that Unicode block, not that the text is broken. Cursive, bold cursive, and bold are the most widely supported styles across Windows, macOS, iOS, and Android. Switch to one of those if a friend reports squares, and avoid the rarer decorative blocks for anything that has to be readable by a whole server.</p>
 
           <h3>Can I change the font of a Discord server or channel name?</h3>
-          <p>Yes, if you have Manage Server or Manage Channels permission. Server names, category names, and role names accept Unicode styling. Text channel names are lowercased and have spaces converted to hyphens, so styled capitals will not survive there - use the channel topic or the category name instead for decorative text.</p>
+          <p>Yes, if you have Manage Server or Manage Channels permission. Server names, category names, and role names accept Unicode styling. Text channel names are lowercased and have spaces converted to hyphens, so styled capitals will not survive there - use a symbol prefix, the channel topic, or the category name instead.</p>
 
           <h3>Do Discord fonts work in messages and embeds?</h3>
           <p>They work in ordinary messages, replies, thread titles, forum post titles, and bot embed fields, because all of those store plain text. Code blocks are the exception: text between backticks is rendered in a monospace typeface, and most decorative Unicode has no monospace glyph, so it falls back to a system font or a box.</p>
 
-          <h3>Are these fonts for Discord free?</h3>
-          <p>Completely free. There is no account, no download, no watermark, and no limit on how much text you convert. Nothing you type is stored on a server - the conversion runs in your own browser.</p>
+          <h3>Are Discord fonts against the Terms of Service?</h3>
+          <p>Pasting Unicode characters is normal use and is not a Terms of Service problem on its own. What can get you moderated is using unreadable or invisible characters to impersonate someone, dodge a word filter, or push a name to the top of the member list. Individual servers can also enforce a plain-text nickname rule, and moderators may rename you without warning.</p>
+
         </article>
       </div>
     </section>
@@ -444,14 +635,14 @@
       <div class="footer-col">
         <strong class="footer-col-title">Popular Styles</strong>
         <a href="/fancy-text-generator.html">Fancy Text</a>
-        <a href="/fonts-for-discord.html">Fonts for Discord</a>
+        <a href="/fonts-for-discord.html">Discord Fonts</a>
         <a href="/cursive-bold-generator.html">Bold Cursive</a>
       </div>
       <div class="footer-col">
         <strong class="footer-col-title">Resources</strong>
         <a href="/cursive-letters-a-z.html">Cursive Alphabet</a>
         <a href="/cursive-practice-sheets.html">Practice Sheets</a>
-        <a href="/cursive-letters-a-z.html">Cursive Letters A-Z</a>
+        <a href="/cursive-compatibility.html">Unicode Compatibility</a>
       </div>
       <div class="footer-col">
         <strong class="footer-col-title">Theme Fonts</strong>
@@ -460,6 +651,11 @@
         <a href="/marvel-font-generator.html">Marvel</a>
         <a href="/harry-potter-font-generator.html">Harry Potter</a>
         <a href="/barbie-font-generator.html">Barbie</a>
+      </div>
+      <div class="footer-col">
+        <strong class="footer-col-title">Pixel &amp; Game</strong>
+        <a href="/mario-font-generator.html">Mario Fonts</a>
+        <a href="/undertale-font-generator.html">Undertale Fonts</a>
       </div>
     </div>
     <div class="footer-inner">
@@ -476,8 +672,278 @@
       </span>
     </div>
   </footer>
+
   <div class="toast" data-toast role="status" aria-live="polite"></div>
-  <script src="assets/app.js?v=20260903" defer></script>
+
+  <script>
+  (function(){
+    'use strict';
+
+    var DEFAULT_TEXT = 'Discord';
+
+    /* -- Unicode letter maps (lowercase a-z, uppercase A-Z) -- */
+    var M = {
+      script:        ['𝒶𝒷𝒸𝒹ℯ𝒻ℊ𝒽𝒾𝒿𝓀𝓁𝓂𝓃ℴ𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏','𝒜ℬ𝒞𝒟ℰℱ𝒢ℋℐ𝒥𝒦ℒℳ𝒩𝒪𝒫𝒬ℛ𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵'],
+      boldScript:    ['𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃','𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩'],
+      bold:          ['𝐚𝐛𝐜𝐝𝐞𝐟𝐠𝐡𝐢𝐣𝐤𝐥𝐦𝐧𝐨𝐩𝐪𝐫𝐬𝐭𝐮𝐯𝐰𝐱𝐲𝐳','𝐀𝐁𝐂𝐃𝐄𝐅𝐆𝐇𝐈𝐉𝐊𝐋𝐌𝐍𝐎𝐏𝐐𝐑𝐒𝐓𝐔𝐕𝐖𝐗𝐘𝐙'],
+      italic:        ['𝑎𝑏𝑐𝑑𝑒𝑓𝑔ℎ𝑖𝑗𝑘𝑙𝑚𝑛𝑜𝑝𝑞𝑟𝑠𝑡𝑢𝑣𝑤𝑥𝑦𝑧','𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝐼𝐽𝐾𝐿𝑀𝑁𝑂𝑃𝑄𝑅𝑆𝑇𝑈𝑉𝑊𝑋𝑌𝑍'],
+      boldItalic:    ['𝒂𝒃𝒄𝒅𝒆𝒇𝒈𝒉𝒊𝒋𝒌𝒍𝒎𝒏𝒐𝒑𝒒𝒓𝒔𝒕𝒖𝒗𝒘𝒙𝒚𝒛','𝑨𝑩𝑪𝑫𝑬𝑭𝑮𝑯𝑰𝑱𝑲𝑳𝑴𝑵𝑶𝑷𝑸𝑹𝑺𝑻𝑼𝑽𝑾𝑿𝒀𝒁'],
+      sansBold:      ['𝗮𝗯𝗰𝗱𝗲𝗳𝗴𝗵𝗶𝗷𝗸𝗹𝗺𝗻𝗼𝗽𝗾𝗿𝘀𝘁𝘂𝘃𝘄𝘅𝘆𝘇','𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤𝗥𝗦𝗧𝗨𝗩𝗪𝗫𝗬𝗭'],
+      sansItalic:    ['𝘢𝘣𝘤𝘥𝘦𝘧𝘨𝘩𝘪𝘫𝘬𝘭𝘮𝘯𝘰𝘱𝘲𝘳𝘴𝘵𝘶𝘷𝘸𝘹𝘺𝘻','𝘈𝘉𝘊𝘋𝘌𝘍𝘎𝘏𝘐𝘑𝘒𝘓𝘔𝘕𝘖𝘗𝘘𝘙𝘚𝘛𝘜𝘝𝘞𝘟𝘠𝘡'],
+      sansBoldItalic:['𝙖𝙗𝙘𝙙𝙚𝙛𝙜𝙝𝙞𝙟𝙠𝙡𝙢𝙣𝙤𝙥𝙦𝙧𝙨𝙩𝙪𝙫𝙬𝙭𝙮𝙯','𝘼𝘽𝘾𝘿𝙀𝙁𝙂𝙃𝙄𝙅𝙆𝙇𝙈𝙉𝙊𝙋𝙌𝙍𝙎𝙏𝙐𝙑𝙒𝙓𝙔𝙕'],
+      mono:          ['𝚊𝚋𝚌𝚍𝚎𝚏𝚐𝚑𝚒𝚓𝚔𝚕𝚖𝚗𝚘𝚙𝚚𝚛𝚜𝚝𝚞𝚟𝚠𝚡𝚢𝚣','𝙰𝙱𝙲𝙳𝙴𝙵𝙶𝙷𝙸𝙹𝙺𝙻𝙼𝙽𝙾𝙿𝚀𝚁𝚂𝚃𝚄𝚅𝚆𝚇𝚈𝚉'],
+      double:        ['𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫','𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ'],
+      fraktur:       ['𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷','𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ'],
+      boldFraktur:   ['𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟','𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅'],
+      fw:            ['ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ','ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ'],
+      circled:       ['ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ','ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ'],
+      circledNeg:    ['🅐🅑🅒🅓🅔🅕🅖🅗🅘🅙🅚🅛🅜🅝🅞🅟🅠🅡🅢🅣🅤🅥🅦🅧🅨🅩','🅐🅑🅒🅓🅔🅕🅖🅗🅘🅙🅚🅛🅜🅝🅞🅟🅠🅡🅢🅣🅤🅥🅦🅧🅨🅩'],
+      squared:       ['🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉','🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉'],
+      smallcaps:     ['ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘqʀsᴛᴜᴠᴡxʏᴢ','ABCDEFGHIJKLMNOPQRSTUVWXYZ'],
+      superscript:   ['ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖqʳˢᵗᵘᵛʷˣʸᶻ','ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾQᴿˢᵀᵁⱽᵂˣʸᶻ'],
+      greek:         ['αв¢∂єfgнιנкℓмησρqяѕтυvωχуz','ΑΒ¢∂ΕFGΗΙJΚLΜΝΟΡQЯЅΤUVWΧΥΖ'],
+      flip:          ['ɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz','∀ᗺƆᗡƎℲ⅁HIſʞ˥WNOԀÒᴚS⊥∩ΛMX⅄Z']
+    };
+
+    function tf(text, key){
+      if (!key || !M[key]) return text;
+      var lo = Array.from(M[key][0]), up = Array.from(M[key][1]);
+      return Array.from(text).map(function(ch){
+        var c = ch.charCodeAt(0);
+        if (c >= 97 && c <= 122) return lo[c - 97] || ch;
+        if (c >= 65 && c <= 90)  return up[c - 65] || ch;
+        return ch;
+      }).join('');
+    }
+
+    /* -- Decorators applied after the letter map -- */
+    var D = {
+      strike: function(s){ return Array.from(s).join('̶') + '̶'; },
+      under:  function(s){ return Array.from(s).join('̲') + '̲'; },
+      over:   function(s){ return Array.from(s).join('̅') + '̅'; },
+      glitch: function(s){ return Array.from(s).map(function(c){ return c + '̥́'; }).join(''); },
+      space:  function(s){ return Array.from(s).join(' '); },
+      dot:    function(s){ return Array.from(s).map(function(c){ return c === ' ' ? ' ' : c; }).join('·'); },
+      star:   function(s){ return Array.from(s).join('✦'); },
+      rev:    function(s){ return Array.from(s).reverse().join(''); }
+    };
+
+    /* -- Style catalogue --
+       n = name, c = style categories, f = letter map, d = decorator,
+       p = prefix, s = suffix, u = Discord fields it survives (default: all five) */
+    var ALL_USES = 'username bio server channel message';
+    var STYLES = [
+      /* Cursive */
+      {n:'Cursive',            c:'cursive',            f:'script'},
+      {n:'Bold Cursive',       c:'cursive bold',       f:'boldScript'},
+      {n:'Cursive Sparkle',    c:'cursive aesthetic',  f:'boldScript', p:'✧ ', s:' ✧'},
+      {n:'Cursive Hearts',     c:'cursive cute',       f:'script',     p:'♡ ', s:' ♡'},
+      {n:'Cursive Stars',      c:'cursive aesthetic',  f:'script',     p:'⋆˙ ', s:' ˙⋆'},
+      /* Bold */
+      {n:'Bold',               c:'bold',               f:'bold'},
+      {n:'Bold Sans',          c:'bold',               f:'sansBold'},
+      {n:'Bold Italic',        c:'bold italic',        f:'boldItalic'},
+      {n:'Bold Sans Italic',   c:'bold italic',        f:'sansBoldItalic'},
+      {n:'Bold Brackets',      c:'bold symbols',       f:'sansBold',   p:'【', s:'】'},
+      {n:'Bold Arrow',         c:'bold symbols',       f:'bold',       p:'➤ '},
+      /* Italic */
+      {n:'Italic',             c:'italic',             f:'italic'},
+      {n:'Sans Italic',        c:'italic',             f:'sansItalic'},
+      {n:'Italic Underline',   c:'italic freaky',      f:'italic',     d:'under', u:'bio message'},
+      /* Gothic */
+      {n:'Gothic',             c:'gothic',             f:'fraktur'},
+      {n:'Bold Gothic',        c:'gothic bold',        f:'boldFraktur'},
+      {n:'Gothic Cross',       c:'gothic symbols',     f:'fraktur',    p:'✞ ', s:' ✞'},
+      {n:'Gothic Skull',       c:'gothic',             f:'boldFraktur',p:'☠ ', s:' ☠'},
+      /* Small caps */
+      {n:'Small Caps',         c:'smallcaps',          f:'smallcaps'},
+      {n:'Small Caps Spaced',  c:'smallcaps aesthetic',f:'smallcaps',  d:'space', u:'bio server message'},
+      {n:'Small Caps Dots',    c:'smallcaps aesthetic',f:'smallcaps',  d:'dot',   u:'bio server channel message'},
+      /* Bubble */
+      {n:'Bubble',             c:'bubble',             f:'circled'},
+      {n:'Black Bubble',       c:'bubble',             f:'circledNeg', u:'username bio server message'},
+      {n:'Square',             c:'bubble',             f:'squared',    u:'username bio server message'},
+      /* Aesthetic */
+      {n:'Double-Struck',      c:'aesthetic bold',     f:'double'},
+      {n:'Monospace',          c:'aesthetic',          f:'mono'},
+      {n:'Aesthetic Wide',     c:'aesthetic',          f:'fw',         u:'bio server message'},
+      {n:'Aesthetic Spaced',   c:'aesthetic',          d:'space',      u:'bio server message'},
+      {n:'Vaporwave',          c:'aesthetic',          f:'fw',         p:'✧ ', s:' ✧', u:'bio server message'},
+      {n:'Moon Aesthetic',     c:'aesthetic symbols',  f:'script',     p:'☾ ', s:' ☽'},
+      {n:'Soft Aesthetic',     c:'aesthetic cute',     f:'script',     p:'⋆｡°✩ ', s:' ✩°｡⋆', u:'bio server message'},
+      {n:'Tiny Text',          c:'aesthetic',          f:'superscript',u:'username bio server message'},
+      /* Cute */
+      {n:'Cute Bows',          c:'cute',               f:'boldScript', p:'🎀 ', s:' 🎀'},
+      {n:'Cute Flowers',       c:'cute',               f:'script',     p:'✿ ', s:' ✿'},
+      {n:'Cute Sparkles',      c:'cute aesthetic',     f:'script',     p:'୨୧ ', s:' ୨୧'},
+      {n:'Cute Cloud',         c:'cute',               f:'script',     p:'☁ ', s:' ☁'},
+      {n:'Cute Kaomoji',       c:'cute',               f:'script',     s:' (｡•̀ᴗ-)✧', u:'bio message'},
+      /* Freaky */
+      {n:'Strikethrough',      c:'freaky',             d:'strike',     u:'bio message'},
+      {n:'Underline',          c:'freaky',             d:'under',      u:'bio message'},
+      {n:'Overline',           c:'freaky',             d:'over',       u:'bio message'},
+      {n:'Upside Down',        c:'freaky',             f:'flip', d:'rev', u:'username bio message'},
+      {n:'Glitch',             c:'freaky',             d:'glitch',     u:'bio message'},
+      {n:'Greek Style',        c:'freaky aesthetic',   f:'greek'},
+      /* Symbols */
+      {n:'Star Divider',       c:'symbols',            d:'star',       u:'bio server message'},
+      {n:'Channel Dot',        c:'symbols',            p:'✦・',        u:'server channel message'},
+      {n:'Fire Frame',         c:'symbols bold',       f:'sansBold',   p:'🔥 ', s:' 🔥'}
+    ];
+
+    var NOTES = {
+      all:      'Showing every style. Pick a tab above to see only the styles that survive that Discord field.',
+      username: 'Display names and server nicknames cap at 32 characters. These styles stay compact and stay readable in the member list. Your lowercase @username does not accept Unicode.',
+      bio:      'The About Me box accepts every Unicode block and keeps line breaks, so decorative frames and combining marks work here.',
+      server:   'Server names, category headers, and role names keep their capitals and allow up to 100 characters.',
+      channel:  'Text channel names are lowercased and spaces become hyphens, so only these survive intact. A symbol prefix is the usual workaround.',
+      message:  'Messages, replies, thread titles, and embed fields take anything - except inside a code block.'
+    };
+
+    var input   = document.getElementById('dg-input');
+    var grid    = document.getElementById('dg-grid');
+    var countEl = document.getElementById('dg-count');
+    var noteEl  = document.getElementById('dg-field-note');
+    var chips   = Array.prototype.slice.call(document.querySelectorAll('.dg-chip'));
+    var tabs    = Array.prototype.slice.call(document.querySelectorAll('.dg-tab'));
+    var toastEl = document.querySelector('[data-toast]');
+
+    var activeCat = 'all';
+    var activeUse = 'all';
+    var toastTimer;
+
+    function currentText(){
+      var v = (input && input.value || '').replace(/\s+$/,'');
+      return v.length ? v : DEFAULT_TEXT;
+    }
+
+    function esc(s){
+      return String(s).replace(/[&<>"']/g, function(c){
+        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+      });
+    }
+
+    function render(st, text){
+      var body = tf(text, st.f);
+      if (st.d && D[st.d]) body = D[st.d](body);
+      return (st.p || '') + body + (st.s || '');
+    }
+
+    function has(list, token){
+      return (' ' + list + ' ').indexOf(' ' + token + ' ') !== -1;
+    }
+
+    function showToast(msg){
+      if (!toastEl) return;
+      toastEl.textContent = msg;
+      toastEl.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 1600);
+    }
+
+    function fallbackCopy(str){
+      var ta = document.createElement('textarea');
+      ta.value = str;
+      ta.setAttribute('readonly','');
+      ta.style.position = 'absolute';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+
+    function flash(btn){
+      if (!btn || btn.classList.contains('is-copied')) return;
+      var orig = btn.getAttribute('data-orig') || btn.textContent;
+      btn.setAttribute('data-orig', orig);
+      btn.textContent = 'Copied!';
+      btn.classList.add('is-copied');
+      setTimeout(function(){
+        btn.textContent = btn.getAttribute('data-orig');
+        btn.classList.remove('is-copied');
+      }, 1500);
+    }
+
+    function copyText(str, btn){
+      var after = function(){ flash(btn); showToast('Copied to clipboard'); };
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(str).then(after, function(){ fallbackCopy(str); after(); });
+      } else {
+        fallbackCopy(str);
+        after();
+      }
+    }
+
+    function build(){
+      var text = currentText();
+      var html = '';
+      var shown = 0;
+      for (var i = 0; i < STYLES.length; i++){
+        var st = STYLES[i];
+        if (activeCat !== 'all' && !has(st.c, activeCat)) continue;
+        if (activeUse !== 'all' && !has(st.u || ALL_USES, activeUse)) continue;
+        var out = render(st, text);
+        shown++;
+        html += '<div class="dg-card">' +
+          '<div class="dg-card-head">' +
+            '<span class="dg-name">' + esc(st.n) + '</span>' +
+            '<button class="dg-copy" type="button" data-copy="' + esc(out) + '" aria-label="Copy the ' + esc(st.n) + ' Discord font">Copy</button>' +
+          '</div>' +
+          '<div class="dg-out" role="button" tabindex="0" data-copy="' + esc(out) + '" aria-label="Copy this text">' + esc(out) + '</div>' +
+        '</div>';
+      }
+      grid.innerHTML = html || '<p class="dg-empty">No styles match that combination. Try another category or the All tab.</p>';
+      countEl.textContent = shown + (shown === 1 ? ' style' : ' styles');
+    }
+
+    function handleCopyTarget(target){
+      var node = target.closest ? target.closest('[data-copy]') : null;
+      if (!node) return false;
+      var str = node.getAttribute('data-copy');
+      if (str == null) return false;
+      copyText(str, node.classList.contains('dg-copy') ? node : null);
+      return true;
+    }
+
+    document.addEventListener('click', function(e){
+      if (e.target.closest && e.target.closest('[data-copy]')) handleCopyTarget(e.target);
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+      var node = e.target.closest ? e.target.closest('[data-copy]') : null;
+      if (!node || node.tagName === 'BUTTON') return;
+      e.preventDefault();
+      handleCopyTarget(e.target);
+    });
+
+    if (input) input.addEventListener('input', build);
+
+    chips.forEach(function(chip){
+      chip.addEventListener('click', function(){
+        activeCat = chip.getAttribute('data-cat') || 'all';
+        chips.forEach(function(c){
+          c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
+        });
+        build();
+      });
+    });
+
+    tabs.forEach(function(tab){
+      tab.addEventListener('click', function(){
+        activeUse = tab.getAttribute('data-use') || 'all';
+        tabs.forEach(function(t){
+          t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
+        });
+        if (noteEl) noteEl.textContent = NOTES[activeUse] || NOTES.all;
+        build();
+      });
+    });
+
+    build();
+  })();
+  </script>
+
   <script>
     function toggleNav(btn){
       var d=document.getElementById('nav-drawer');
@@ -498,6 +964,6 @@
       });
     });
   </script>
-  <script src="/assets/navigation.js?v=20260905b" defer></script>
+  <script src="/assets/navigation.js?v=20260911" defer></script>
 </body>
 </html>

@@ -5,8 +5,12 @@
     ["Names", "/cursive-name-generator.html"],
     ["Fonts", "/cursive-fonts.html"],
     ["Worksheets", "/cursive-practice-sheets.html"],
+    ["Alternative", "/aesthetic-fonts.html"],
+    ["Dark", "/gothic-font-generator.html"],
     ["Emoji", "/heart-font-generator.html"],
-    ["Theme", "/super-bowl-2027-font-generator.html"]
+    ["Theme", "/super-bowl-2027-font-generator.html"],
+    ["Lettering", "/tattoo-font-generator.html"],
+    ["Pixel", "/mario-font-generator.html"]
   ];
 
   const sections = {
@@ -48,10 +52,41 @@
       ["Harry Potter", "/harry-potter-font-generator.html"],
       ["Barbie", "/barbie-font-generator.html"]
     ],
+    pixel: [
+      ["Mario Fonts", "/mario-font-generator.html"],
+      ["Undertale Fonts", "/undertale-font-generator.html"],
+      ["Glitch Text", "/glitch-text-generator.html"],
+      ["Fancy Text", "/fancy-text-generator.html"]
+    ],
+    lettering: [
+      ["Tattoo Fonts", "/tattoo-font-generator.html"],
+      ["Chicano Lettering", "/chicano-font-generator.html"],
+      ["Gangster Fonts", "/gangster-font-generator.html"],
+      ["Old English", "/old-english-font-generator.html"],
+      ["College Block", "/college-block-font-generator.html"],
+      ["Varsity Fonts", "/varsity-font-generator.html"]
+    ],
     worksheets: [
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
+    ],
+    alternative: [
+      ["Aesthetic Fonts", "/aesthetic-fonts.html"],
+      ["Preppy Fonts", "/preppy-fonts.html"],
+      ["Bow Fonts", "/bow-font-generator.html"],
+      ["Coquette Fonts", "/coquette-font-generator.html"],
+      ["Cute Fonts", "/cute-fonts.html"],
+      ["Girly Fonts", "/girly-fonts.html"],
+      ["Heart Fonts", "/heart-font-generator.html"]
+    ],
+    dark: [
+      ["Gothic Fonts", "/gothic-font-generator.html"],
+      ["Glitch Text", "/glitch-text-generator.html"],
+      ["Scary Fonts", "/scary-font-generator.html"],
+      ["Creepy Fonts", "/creepy-font-generator.html"],
+      ["Freaky Fonts", "/freaky-font-generator.html"],
+      ["Weird Fonts", "/weird-font-generator.html"]
     ]
   };
 
@@ -62,10 +97,17 @@
   if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator"])) current = "names";
   if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "name-tracing", "name-practice"])) current = "worksheets";
+  if (inPath(["aesthetic-fonts", "preppy-fonts", "bow-font", "coquette-font", "cute-fonts", "girly-fonts"])) current = "alternative";
+  // alternative / dark font tools — add new slugs here as the section grows
+  if (inPath(["freaky-font", "creepy-font", "weird-font", "glitch-text", "scary-font", "gothic-font"])) current = "dark";
   // emoji / symbol tools — add new slugs here as the section grows
   if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
   // seasonal / event theme tools — add new slugs here as the section grows
   if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
+  // lettering-style generators — keep LAST so these slugs win over the checks above
+  if (inPath(["chicano-font", "tattoo-font", "gangster-font", "old-english-font", "college-block-font", "varsity-font"])) current = "lettering";
+  // pixel / retro-game renderer pages — add new slugs here as the section grows
+  if (inPath(["mario-font", "undertale-font"])) current = "pixel";
 
   const link = ([label, href], active) =>
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;

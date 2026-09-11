@@ -1,0 +1,68 @@
+/* Pixel font cluster — layout for the bitmap generator pages.
+   Reuses the site tokens from styles.css (--sage --coral --ink --line --panel). */
+.px-hero{padding-bottom:20px}
+/* styles.css hides .tool-intro p on the hero; the kicker and intro must show. */
+.px-hero .tool-intro p{display:block}
+.px-hero .tool-intro{max-width:840px}
+.px-kicker{color:var(--coral);font-weight:750;margin:4px 0 8px}
+.px-shell{max-width:1000px}
+.px-panel{padding:20px}
+.px-input{width:100%;min-height:74px;resize:vertical;border:1px solid var(--line);border-radius:9px;padding:14px 16px;background:#fffefa;color:var(--ink);font:19px/1.45 inherit}
+.px-input:focus{outline:3px solid rgba(201,111,89,.18);border-color:var(--coral)}
+.px-controls{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.px-control{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink)}
+.px-control strong{font-size:13px;font-weight:750;color:var(--muted);letter-spacing:.02em}
+.px-control input[type=range]{width:132px;accent-color:var(--coral)}
+.px-control input[type=color]{width:38px;height:30px;padding:0;border:1px solid var(--line);border-radius:7px;background:none;cursor:pointer}
+.px-control input[type=color]:disabled{opacity:.4;cursor:not-allowed}
+.px-control input[type=checkbox]{accent-color:var(--sage);width:16px;height:16px}
+.px-size-out{min-width:26px;font-weight:750;color:var(--coral)}
+.px-note{color:var(--muted);font-size:14px}
+.px-chips{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 8px}
+.px-chip{border:1px solid var(--line);border-radius:999px;background:var(--panel);color:var(--muted);font:700 13px/1 inherit;padding:8px 13px;cursor:pointer}
+.px-chip.active,.px-chip:hover{background:var(--coral);border-color:var(--coral);color:#fff}
+.px-count{color:var(--muted);font-size:13px}
+
+.px-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
+.px-card{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;box-shadow:0 4px 14px rgba(31,46,39,.06)}
+.px-name{color:var(--sage);font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;margin-bottom:10px}
+/* The checkerboard shows through PNGs saved with a transparent background. */
+.px-canvas-wrap{overflow-x:auto;border-radius:8px;padding:8px;background-color:#f4f2ec;background-image:linear-gradient(45deg,#e6e2d8 25%,transparent 25%,transparent 75%,#e6e2d8 75%),linear-gradient(45deg,#e6e2d8 25%,transparent 25%,transparent 75%,#e6e2d8 75%);background-size:16px 16px;background-position:0 0,8px 8px}
+.px-canvas{display:block;max-width:100%;height:auto;image-rendering:pixelated;image-rendering:crisp-edges}
+.px-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.px-btn{min-height:34px;border:1px solid var(--sage);border-radius:8px;background:var(--sage-soft);color:var(--sage);font:800 13px/1 inherit;padding:8px 12px;cursor:pointer}
+.px-btn:hover,.px-btn.copied{background:var(--sage);color:#fff}
+
+.px-section{padding:48px 0}
+.px-section.alt{background:var(--panel)}
+.px-section h2{margin-bottom:12px}
+.px-section p,.px-section li{max-width:840px}
+.px-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px;padding:0;list-style:none}
+.px-step,.px-example,.px-link{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:18px}
+.px-step strong{display:block;color:var(--coral);margin-bottom:7px}
+.px-examples,.px-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}
+.px-example code{display:block;white-space:pre-line;overflow-wrap:anywhere;color:var(--ink);font:19px/1.4 inherit;margin-bottom:6px}
+.px-example span{color:var(--muted);font-size:13px}
+.px-link{display:block;color:var(--ink)}
+.px-link strong{display:block;margin-bottom:5px}
+.px-link span{color:var(--muted);font-size:14px}
+.px-style-list{max-width:840px;margin:20px 0 0;padding:0;list-style:none}.px-style-list li{border-top:1px solid var(--line);padding:12px 0;color:#3f4d46}.px-style-list li:last-child{border-bottom:1px solid var(--line)}.px-style-list strong{color:var(--ink)}
+.px-limit{border-left:4px solid var(--coral);padding:12px 16px;background:var(--panel);border-radius:0 8px 8px 0}
+.px-section.alt .px-step,.px-section.alt .px-example,.px-section.alt .px-link,.px-section.alt .px-limit{background:#fff}
+.px-figure{margin:26px 0 0;max-width:840px}
+.px-figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+.px-figure figcaption{color:var(--muted);font-size:13px;margin-top:8px}
+.px-faq{max-width:840px}
+.px-faq details{border-top:1px solid var(--line);padding:15px 0}
+.px-faq details:last-child{border-bottom:1px solid var(--line)}
+.px-faq summary{font-weight:750;cursor:pointer}
+.px-faq p{margin:8px 0 0;color:#3f4d46}
+.px-toast{position:fixed;right:18px;bottom:18px;background:var(--sage);color:#fff;padding:10px 15px;border-radius:8px;font-weight:750;z-index:10;opacity:0;transform:translateY(8px);pointer-events:none;transition:.18s}
+.px-toast.show{opacity:1;transform:none}
+
+@media(max-width:820px){
+  .px-grid,.px-examples,.px-links,.px-steps{grid-template-columns:1fr}
+  .px-section{padding:36px 0}
+  .px-controls{gap:12px}
+  .px-control input[type=range]{width:104px}
+}

@@ -90,3 +90,31 @@
 /cursive-alphabet                          /cursive-letters-a-z.html                  301!
 /cursive-alphabet/                         /cursive-letters-a-z.html                  301!
 /cursive-alphabet/index.html               /cursive-letters-a-z.html                  301!
+
+# Aesthetic cluster canonical .html URLs
+/aesthetic-fonts                           /aesthetic-fonts.html                      301
+/aesthetic-fonts/                          /aesthetic-fonts.html                      301
+/preppy-fonts                              /preppy-fonts.html                         301
+/preppy-fonts/                             /preppy-fonts.html                         301
+/bow-font-generator                        /bow-font-generator.html                   301
+/bow-font-generator/                       /bow-font-generator.html                   301
+/coquette-font-generator                   /coquette-font-generator.html              301
+/coquette-font-generator/                  /coquette-font-generator.html              301
+/cute-fonts                                /cute-fonts.html                           301
+/cute-fonts/                               /cute-fonts.html                           301
+/girly-fonts                               /girly-fonts.html                          301
+/girly-fonts/                              /girly-fonts.html                          301
+
+# Alternative / dark cluster canonical .html URLs
+/freaky-font-generator                      /freaky-font-generator.html                 301
+/freaky-font-generator/                     /freaky-font-generator.html                 301
+/creepy-font-generator                      /creepy-font-generator.html                 301
+/creepy-font-generator/                     /creepy-font-generator.html                 301
+/weird-font-generator                       /weird-font-generator.html                  301
+/weird-font-generator/                      /weird-font-generator.html                  301
+/glitch-text-generator                      /glitch-text-generator.html                 301
+/glitch-text-generator/                     /glitch-text-generator.html                 301
+/scary-font-generator                       /scary-font-generator.html                  301
+/scary-font-generator/                      /scary-font-generator.html                  301
+/gothic-font-generator                      /gothic-font-generator.html                 301
+/gothic-font-generator/                     /gothic-font-generator.html                 301
