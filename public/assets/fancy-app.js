@@ -266,6 +266,38 @@ function setupObserver() {
 // ── Tabs ──────────────────────────────────────────────────────────────────────
 var CAT_EMOJI = {all:'✨',cursive:'✍️',bold:'💪',italic:'✦',gothic:'🖤',bubble:'🫧',cute:'🌸',love:'💕',aesthetic:'🌿',fancy:'🎨',gaming:'🎮',glitch:'⚡',symbols:'✺',social:'📱'};
 
+// A container marked role="tablist" must contain role="tab" children, and those
+// tabs must point at a tabpanel. Set both up here so every page using this file
+// gets the same semantics without repeating the wiring in its HTML.
+var isTablist = !!tabsEl && tabsEl.getAttribute('role') === 'tablist';
+if (isTablist) {
+  if (!results.id) results.id = 'fg-results-panel';
+  if (!results.getAttribute('role')) results.setAttribute('role', 'tabpanel');
+  results.setAttribute('tabindex', '0');
+}
+function tabId(cat) { return 'fg-tab-' + cat; }
+
+function tabAttrs(cat, active) {
+  var a = ' class="fg-tab' + active + '" data-cat="' + cat + '" type="button"';
+  if (isTablist) {
+    a += ' role="tab" id="' + tabId(cat) + '" aria-controls="' + results.id + '"' +
+         ' aria-selected="' + (active ? 'true' : 'false') + '"' +
+         ' tabindex="' + (active ? '0' : '-1') + '"';
+  }
+  return a;
+}
+
+function syncTabState() {
+  if (!isTablist) return;
+  var tabs = tabsEl.querySelectorAll('.fg-tab');
+  for (var i = 0; i < tabs.length; i++) {
+    var on = tabs[i].classList.contains('active');
+    tabs[i].setAttribute('aria-selected', on ? 'true' : 'false');
+    tabs[i].setAttribute('tabindex', on ? '0' : '-1');
+  }
+  results.setAttribute('aria-labelledby', tabId(currentCat));
+}
+
 function buildTabs() {
   if (!tabsEl) return;
   var emojiMode = tabsEl.hasAttribute('data-fg-emoji-tabs');
@@ -274,7 +306,7 @@ function buildTabs() {
     var active = c.id === currentCat ? ' active' : '';
     if (!emojiMode) {
       var lbl = c.id === 'favorites' ? '♥ Saved' : c.label;
-      return '<button class="fg-tab' + active + '" data-cat="' + c.id + '">' + lbl + '</button>';
+      return '<button' + tabAttrs(c.id, active) + '>' + lbl + '</button>';
     }
     var count = c.id === 'all' ? SE.STYLES.length
               : c.id === 'favorites' ? favorites.length
@@ -282,9 +314,10 @@ function buildTabs() {
     var em = CAT_EMOJI[c.id] || '';
     var displayLabel = c.id === 'favorites' ? '♥ Saved' : c.label;
     var badge = c.id !== 'favorites' ? '<span class="fg-tab-count">' + count + '</span>' : '';
-    return '<button class="fg-tab' + active + '" data-cat="' + c.id + '">' +
+    return '<button' + tabAttrs(c.id, active) + '>' +
            (em ? em + ' ' : '') + displayLabel + badge + '</button>';
   }).join('');
+  syncTabState();
 }
 
 // ── Events ────────────────────────────────────────────────────────────────────
@@ -304,16 +337,52 @@ input.addEventListener('input', function() {
 });
 
 // Tabs
+function activateTab(btn, focus) {
+  if (!btn) return;
+  currentCat = btn.getAttribute('data-cat');
+  tabsEl.querySelectorAll('.fg-tab').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  syncTabState();
+  if (focus) btn.focus();
+  rebuildList();
+}
+
 if (tabsEl) {
   tabsEl.addEventListener('click', function(e) {
     var btn = e.target.closest('[data-cat]');
-    if (!btn) return;
-    currentCat = btn.getAttribute('data-cat');
-    tabsEl.querySelectorAll('.fg-tab').forEach(function(b){ b.classList.remove('active'); });
-    btn.classList.add('active');
-    rebuildList();
+    if (btn) activateTab(btn, false);
+  });
+
+  // Arrow / Home / End move between tabs, per the ARIA tabs pattern.
+  tabsEl.addEventListener('keydown', function(e) {
+    if (!isTablist) return;
+    var keys = {ArrowRight:1, ArrowLeft:-1, Home:'first', End:'last'};
+    if (!(e.key in keys)) return;
+    var tabs = Array.prototype.slice.call(tabsEl.querySelectorAll('.fg-tab'));
+    if (!tabs.length) return;
+    var i = tabs.indexOf(e.target.closest('.fg-tab'));
+    if (i === -1) return;
+    var step = keys[e.key];
+    var next = step === 'first' ? 0
+             : step === 'last'  ? tabs.length - 1
+             : (i + step + tabs.length) % tabs.length;
+    e.preventDefault();
+    activateTab(tabs[next], true);
   });
 }
+
+// ── Static style index -> generator ───────────────────────────────────────────
+// The index under #all-styles ships in the HTML so crawlers and no-JS visitors
+// see every style name. With JS on, selecting one filters the generator.
+document.addEventListener('click', function(e) {
+  var jump = e.target.closest('[data-fg-jump]');
+  if (!jump || !searchEl) return;
+  var name = jump.getAttribute('data-fg-jump');
+  searchEl.value = name;
+  currentQuery = name;
+  var allTab = tabsEl && tabsEl.querySelector('[data-cat="all"]');
+  if (allTab) activateTab(allTab, false); else rebuildList();
+});
 
 // Search — debounce 200ms
 var _searchTimer;
@@ -386,6 +455,12 @@ if (randomBtn) {
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
+// ?q= makes a filtered view shareable; canonical still points at the bare page.
+try {
+  var q0 = new URLSearchParams(location.search).get('q');
+  if (q0 && searchEl) { searchEl.value = q0; currentQuery = q0.trim(); }
+} catch (e) {}
+
 buildTabs();
 rebuildList();
 setupObserver();
