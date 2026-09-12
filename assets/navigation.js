@@ -29,6 +29,8 @@
     names: [
       ["Name Generator", "/cursive-name-generator.html"],
       ["Signature Generator", "/copy-and-paste-cursive-signature.html"],
+      ["Signature Styles", "/fancy-cursive-signature.html"],
+      ["Signature Fonts", "/cursive-signature-fonts.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"]
     ],
@@ -94,7 +96,7 @@
   const inPath = (parts) => parts.some((part) => path.includes(part));
   let current = "generator";
   if (path.startsWith("/letters/") || inPath(["letters", "alphabet", "converter"])) current = "letters";
-  if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator"])) current = "names";
+  if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "cursive-signature", "signature-with-heart", "signature-fonts"])) current = "names";
   if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "name-tracing", "name-practice"])) current = "worksheets";
   if (inPath(["aesthetic-fonts", "preppy-fonts", "bow-font", "coquette-font", "cute-fonts", "girly-fonts"])) current = "alternative";

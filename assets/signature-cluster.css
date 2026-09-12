@@ -1,0 +1,117 @@
+/* signature-cluster.css — shared styles for the cursive signature hub and its
+   style pages (elegant, fancy, simple, bold, cute, heart, aesthetic, fonts).
+   Extracted from the hub's former inline <style> so every page shares one file. */
+/* ── Signature-specific styles ── */
+.sig-tool{background:var(--panel);border:1.5px solid var(--line);border-radius:16px;padding:2rem;margin-top:1.5rem}
+.sig-input-row{margin-bottom:1.25rem}
+.sig-input-row label{display:block;font-weight:700;font-size:15px;margin-bottom:.5rem}
+.sig-input{width:100%;padding:.7rem 1rem;font-size:18px;border:1.5px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);font-family:inherit;box-sizing:border-box}
+.sig-input:focus{outline:none;border-color:var(--sage)}
+/* Filter tabs */
+.cat-tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.25rem}
+.cat-tab{padding:.35rem .85rem;font-size:13px;font-weight:600;border:1.5px solid var(--line);border-radius:20px;background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}
+.cat-tab:hover{border-color:var(--sage);color:var(--sage)}
+.cat-tab.active{background:var(--sage);border-color:var(--sage);color:#fff}
+/* Result cards */
+.sig-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.85rem}
+.sig-card{background:var(--soft);border:1.5px solid var(--line);border-radius:12px;padding:1rem 1.25rem;display:flex;flex-direction:column;gap:.4rem;transition:border-color .15s}
+.sig-card:hover{border-color:rgba(47,107,79,.4)}
+.sig-card-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.sig-card-preview{font-size:clamp(1.4rem,3.5vw,2rem);line-height:1.45;color:var(--ink);word-break:break-all;min-height:2.2rem}
+.sig-card-btn{align-self:flex-start;margin-top:.2rem;padding:.35rem .85rem;font-size:13px;font-weight:600;border:1.5px solid var(--sage);border-radius:7px;background:transparent;color:var(--sage);cursor:pointer;transition:background .15s,color .15s}
+.sig-card-btn:hover,.sig-card-btn.copied{background:var(--sage);color:#fff}
+/* Builder */
+.builder-section{background:var(--panel);border:1.5px solid var(--line);border-radius:16px;padding:2rem;margin-top:1.5rem}
+.builder-controls{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.25rem}
+@media(max-width:560px){.builder-controls{grid-template-columns:1fr}}
+.bc-group{display:flex;flex-direction:column;gap:.4rem}
+.bc-group label{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.bc-select{padding:.5rem .75rem;font-size:14px;border:1.5px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font-family:inherit;cursor:pointer}
+.sym-grid{display:flex;gap:.35rem;flex-wrap:wrap}
+.sym-btn{padding:.3rem .65rem;font-size:16px;border:1.5px solid var(--line);border-radius:7px;background:transparent;cursor:pointer;color:var(--ink);transition:all .15s;line-height:1}
+.sym-btn:hover{border-color:var(--sage)}
+.sym-btn.active{background:var(--sage);border-color:var(--sage);color:#fff}
+.builder-preview-wrap{background:var(--soft);border:1.5px solid var(--line);border-radius:12px;padding:1.25rem 1.5rem;margin-bottom:1rem;text-align:center}
+.builder-preview{font-size:clamp(1.8rem,4vw,2.8rem);color:var(--ink);line-height:1.4}
+.builder-copy-btn{display:inline-block;padding:.55rem 1.4rem;font-size:15px;font-weight:700;background:var(--sage);color:#fff;border:none;border-radius:9px;cursor:pointer;transition:opacity .15s}
+.builder-copy-btn:hover{opacity:.88}
+/* Social preview */
+.social-section{padding:2.5rem 0}
+.social-tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.25rem}
+.social-tab{padding:.35rem .9rem;font-size:13px;font-weight:600;border:1.5px solid var(--line);border-radius:20px;background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}
+.social-tab:hover{border-color:var(--sage);color:var(--sage)}
+.social-tab.active{background:var(--sage);border-color:var(--sage);color:#fff}
+.social-mock{display:none;background:var(--panel);border:1.5px solid var(--line);border-radius:14px;padding:1.5rem;max-width:380px}
+.social-mock.visible{display:block}
+/* Instagram mock */
+.ig-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.ig-avatar{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#f58529,#dd2a7b,#8134af);flex-shrink:0}
+.ig-meta{flex:1;min-width:0}
+.ig-username{font-size:14px;font-weight:700;color:var(--ink)}
+.ig-sig{font-size:1.3rem;line-height:1.5;color:var(--ink);margin-bottom:.3rem;word-break:break-all}
+.ig-bio{font-size:13px;color:var(--muted);line-height:1.5}
+/* TikTok mock */
+.tk-wrap{text-align:center;padding:.5rem 0}
+.tk-avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#010101,#69c9d0);margin:0 auto .75rem}
+.tk-sig{font-size:1.5rem;color:var(--ink);margin-bottom:.25rem;word-break:break-all}
+.tk-handle{font-size:13px;color:var(--muted);margin-bottom:.5rem}
+.tk-bio{font-size:13px;color:var(--muted)}
+/* Discord mock */
+.dc-wrap{display:flex;align-items:flex-start;gap:.9rem}
+.dc-avatar{width:48px;height:48px;border-radius:50%;background:#5865f2;flex-shrink:0}
+.dc-body{flex:1;min-width:0}
+.dc-sig{font-size:1.2rem;color:var(--ink);margin-bottom:.15rem;word-break:break-all}
+.dc-tag{font-size:12px;color:var(--muted)}
+.dc-about{font-size:13px;color:var(--muted);margin-top:.35rem}
+/* WhatsApp mock */
+.wa-about{display:flex;align-items:center;gap:.75rem}
+.wa-avatar{width:48px;height:48px;border-radius:50%;background:#25d366;flex-shrink:0}
+.wa-text{flex:1;min-width:0}
+.wa-label{font-size:11px;color:var(--muted);margin-bottom:.15rem}
+.wa-sig{font-size:1.2rem;color:var(--ink);word-break:break-all}
+/* X mock */
+.x-wrap{}
+.x-header{display:flex;align-items:center;gap:.75rem;margin-bottom:.5rem}
+.x-avatar{width:48px;height:48px;border-radius:50%;background:#000;flex-shrink:0}
+.x-sig{font-size:1.25rem;font-weight:700;color:var(--ink);word-break:break-all}
+.x-handle{font-size:13px;color:var(--muted)}
+/* Popular names */
+.names-section{padding:2rem 0}
+.names-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.65rem;margin-top:1.1rem}
+.name-card{background:var(--panel);border:1.5px solid var(--line);border-radius:10px;padding:.85rem 1rem;text-align:center;cursor:pointer;transition:border-color .15s,background .1s;user-select:none}
+.name-card:hover{border-color:var(--sage);background:var(--sage-soft)}
+.name-card-plain{font-size:12px;color:var(--muted);margin-bottom:.3rem}
+.name-card-sig{font-size:1.3rem;color:var(--ink);line-height:1.3}
+/* Toast */
+.sig-toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%) translateY(120%);background:var(--sage);color:#fff;padding:.6rem 1.4rem;border-radius:8px;font-size:14px;font-weight:600;opacity:0;transition:transform .25s,opacity .25s;pointer-events:none;z-index:999}
+.sig-toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+/* Section heading overrides */
+.builder-h{font-size:1.25rem;font-weight:800;margin-bottom:1.25rem;color:var(--ink)}
+
+/* ── Cluster additions ── */
+/* Sub-style browse cards (hub → style pages, and style page → siblings) */
+.style-browse{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.85rem;margin-top:1.1rem}
+.style-card{display:flex;flex-direction:column;gap:.35rem;background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:1rem 1.15rem;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
+.style-card:hover{border-color:var(--sage);transform:translateY(-1px)}
+.style-card-sig{font-size:1.5rem;line-height:1.4;word-break:break-all;min-height:2.1rem}
+.style-card strong{font-size:14px;color:var(--sage)}
+.style-card em{font-size:12.5px;color:var(--muted);font-style:normal;line-height:1.45}
+/* "Only on this page" preset badge */
+.sig-card-label .sig-badge{display:inline-block;margin-left:.45rem;padding:.1rem .45rem;font-size:9.5px;letter-spacing:.06em;border-radius:20px;background:var(--sage-soft,rgba(47,107,79,.12));color:var(--sage);vertical-align:middle}
+/* Empty-result guard */
+.sig-empty{grid-column:1/-1;padding:1rem;font-size:14px;color:var(--muted);text-align:center}
+/* Breadcrumb */
+.sig-crumbs{padding:.75rem 20px 0;max-width:1180px;margin:0 auto;font-size:13px;color:var(--muted)}
+.sig-crumbs a{color:var(--muted);text-decoration:none}
+.sig-crumbs a:hover{color:var(--sage)}
+/* Example table on style pages */
+.sig-examples{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.75rem;margin:1rem 0 1.5rem}
+.sig-example{background:var(--soft);border:1.5px solid var(--line);border-radius:10px;padding:.8rem 1rem}
+.sig-example-sig{font-size:1.35rem;line-height:1.4;word-break:break-all;color:var(--ink)}
+.sig-example span{display:block;font-size:12.5px;color:var(--muted);margin-top:.25rem}
+/* The global stylesheet hides the intro under the H1 for the compact tool
+   pages; the signature pages want it visible — it is the page's opening copy. */
+.tool-section .tool-intro{max-width:820px}
+.tool-section .tool-intro h1{font-size:clamp(28px,4.5vw,44px)}
+.tool-section .tool-intro .eyebrow{display:inline-flex;margin-bottom:.6rem}
+.tool-section .tool-intro p{display:block;margin:.75rem 0 0;font-size:16px;line-height:1.65;color:var(--muted)}
