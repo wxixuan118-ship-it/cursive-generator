@@ -25,7 +25,8 @@
       ["Signature Generator", "/copy-and-paste-cursive-signature.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
-      ["Roblox Usernames", "/roblox-username-generator.html"]
+      ["Roblox Usernames", "/roblox-username-generator.html"],
+      ["Aesthetic Usernames", "/aesthetic-username-generator.html"]
     ],
     fonts: [
       ["Cursive Fonts", "/cursive-fonts.html"],

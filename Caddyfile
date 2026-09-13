@@ -51,6 +51,12 @@ www.cursive-text-generator.net {
   @boldfont path /cursive-bold-font-generator /cursive-bold-font-generator/ /cursive-bold-font-generator/index.html
   redir @boldfont /cursive-bold-generator.html permanent
 
+  # Username generators (2026-09-13) -> flat .html
+  @robloxug path /roblox-username-generator /roblox-username-generator/ /roblox-username-generator/index.html
+  redir @robloxug /roblox-username-generator.html permanent
+  @aestheticug path /aesthetic-username-generator /aesthetic-username-generator/ /aesthetic-username-generator/index.html
+  redir @aestheticug /aesthetic-username-generator.html permanent
+
   # Legacy copy-and-paste directory pages -> flat .html (hub /copy-and-paste/ stays)
   @cpfont path /copy-and-paste/cursive-font /copy-and-paste/cursive-font/ /copy-and-paste/cursive-font/index.html
   redir @cpfont /copy-and-paste-cursive-font.html permanent
