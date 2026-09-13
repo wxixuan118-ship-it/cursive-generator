@@ -164,6 +164,44 @@ def draw_cff(contours, advance):
     return pen.getCharString()
 
 
+def union_contours(contours):
+    """Merge the overlapping stroke polygons into clean outlines.
+
+    Each stroke is rasterised as a chain of small overlapping quads and discs;
+    left as-is that gives thousands of contours per glyph, hairline gaps
+    where windings disagree, and a 350 KB TTF.  A single boolean union turns
+    it into the handful of contours a real outline font has."""
+    if not contours:
+        return contours
+    import pathops
+    path = pathops.Path()
+    pen = path.getPen()
+    for contour in contours:
+        pen.moveTo(contour[0])
+        for point in contour[1:]:
+            pen.lineTo(point)
+        pen.closePath()
+    path.simplify(fix_winding=True, keep_starting_points=False)
+    merged, current = [], None
+    for verb, points in path:
+        if verb == pathops.PathVerb.MOVE:
+            current = [points[0]]
+        elif verb == pathops.PathVerb.LINE:
+            current.append(points[0])
+        elif verb == pathops.PathVerb.QUAD:
+            # flatten the rare curve pathops introduces when tidying corners
+            (x0, y0), (cx, cy), (x1, y1) = current[-1], points[0], points[1]
+            for i in range(1, 7):
+                t = i / 6.0
+                current.append(((1 - t) ** 2 * x0 + 2 * (1 - t) * t * cx + t ** 2 * x1,
+                                (1 - t) ** 2 * y0 + 2 * (1 - t) * t * cy + t ** 2 * y1))
+        elif verb == pathops.PathVerb.CLOSE:
+            if current and len(current) >= 3:
+                merged.append([(round(x), round(y)) for x, y in current])
+            current = None
+    return merged
+
+
 def bounds(contours):
     xs = [x for contour in contours for x, _ in contour]
     ys = [y for contour in contours for _, y in contour]
@@ -354,7 +392,7 @@ def build():
     advances = {".notdef": 500}
     left_bearings = {".notdef": 40}
     for name, definition in source_glyphs.items():
-        contours = contours_for_elements(definition["elements"], meta["slant"])
+        contours = union_contours(contours_for_elements(definition["elements"], meta["slant"]))
         contours_by_name[name] = contours
         advances[name] = definition["advance"]
         left_bearings[name] = math.floor(bounds(contours)[0]) if contours else 0
@@ -380,6 +418,9 @@ def build():
         "description": meta["description"],
         "licenseDescription": meta["license_name"],
         "licenseInfoURL": meta["license_url"],
+        "copyright": f"Copyright (c) 2026 {meta['designer']}. Licensed under the {meta['license_name']}.",
+        "vendorURL": meta.get("font_page", meta["website"]),
+        "designerURL": meta["website"],
     }
 
     common_kwargs = dict(
@@ -405,6 +446,7 @@ def build():
         usWinDescent=abs(meta["descender"]),
         sxHeight=meta["x_height"],
         sCapHeight=meta["cap_height"],
+        fsType=0,
     )
     fb.setupPost(italicAngle=-12.0)
     fb.setupMaxp()
@@ -440,6 +482,7 @@ def build():
         usWinDescent=abs(meta["descender"]),
         sxHeight=meta["x_height"],
         sCapHeight=meta["cap_height"],
+        fsType=0,
     )
     fb_otf.setupPost(italicAngle=-12.0)
     fb_otf.setupHead(created=0, modified=0)

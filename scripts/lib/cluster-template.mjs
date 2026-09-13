@@ -99,5 +99,5 @@ export function renderClusterPage(p, domain = DOMAIN) {
 <section class="cluster-section"><div class="wrap"><h2>${esc(linksTitle)}</h2><div class="cluster-links">${links}</div></div></section>
 <section class="cluster-section alt"><div class="wrap cluster-faq"><h2>${esc(faqTitle)}</h2>${faqHtml}</div></section></main>
 <footer class="site-footer"><div class="footer-inner"><span>Cursive Text Generator</span><span class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/sitemap.html">Sitemap</a><a href="/more-tools.html">More Tools</a></span></div></footer>
-<script src="/assets/navigation.js?v=20260913f"></script><script src="/assets/style-engine.js?v=20260913b"></script><script src="/assets/aesthetic-cluster.js?v=20260908b"></script></body></html>`;
+<script src="/assets/navigation.js?v=20260913g"></script><script src="/assets/style-engine.js?v=20260913b"></script><script src="/assets/aesthetic-cluster.js?v=20260908b"></script></body></html>`;
 }

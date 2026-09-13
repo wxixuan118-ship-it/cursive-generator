@@ -4,7 +4,8 @@
     ["Fonts", "/cursive-fonts.html"],
     ["Names", "/cursive-name-generator.html"],
     ["Styles", "/aesthetic-fonts.html"],
-    ["Themes", "/super-bowl-2027-font-generator.html"]
+    ["Themes", "/super-bowl-2027-font-generator.html"],
+    ["Blog", "/blog/"]
   ];
 
   const sections = {
@@ -101,6 +102,13 @@
       ["Adopt Me Fonts", "/adopt-me-font-generator.html"],
       ["Roblox Usernames", "/roblox-username-generator.html"]
     ],
+    // Blog posts — newest first. Add a new post here and on /blog/index.html.
+    blog: [
+      ["All Posts", "/blog/"],
+      ["Cursive Text on Instagram", "/blog/cursive-text-instagram/"],
+      ["Unicode Cursive vs Fonts", "/blog/unicode-cursive-vs-cursive-fonts/"],
+      ["Fix Boxes & Question Marks", "/blog/cursive-text-shows-boxes/"]
+    ],
     dark: [
       ["Gothic Fonts", "/gothic-font-generator.html"],
       ["Glitch Text", "/glitch-text-generator.html"],
@@ -154,10 +162,12 @@
   if (inPath(["chicano-font", "tattoo-font", "gangster-font", "old-english-font", "college-block-font", "varsity-font"])) current = "lettering";
   // pixel / retro-game renderer pages — add new slugs here as the section grows
   if (inPath(["mario-font", "undertale-font"])) current = "pixel";
+  // blog hub + posts — keep after the slug checks so a post slug never lands in a tool section
+  if (path === "/blog" || path.startsWith("/blog/")) current = "blog";
 
   // Which top-bar item lights up for a given section.
   const primaryFor = { generator: "generator", fonts: "fonts", names: "names", letters: "", worksheets: "",
-    alternative: "styles", dark: "styles", text: "styles", social: "styles", lettering: "styles", emoji: "styles", theme: "themes", pixel: "themes" }[current];
+    alternative: "styles", dark: "styles", text: "styles", social: "styles", lettering: "styles", emoji: "styles", theme: "themes", pixel: "themes", blog: "blog" }[current];
   const isPrimary = ([label]) => label.toLowerCase() === primaryFor;
   const subnavSource = ["alternative", "dark", "text", "social", "lettering", "emoji"].includes(current) ? "styles"
     : ["theme", "pixel"].includes(current) ? "themes" : current;
@@ -178,6 +188,8 @@
     return `<div class="subnav-inner">${sec.map((item) => link(item, isExact(item[1]))).join("")}</div>`;
   };
   const sectionTitle = (key) => key[0].toUpperCase() + key.slice(1);
+  // "Blog tools" reads wrong; the blog sub-nav lists posts.
+  const sectionLabel = (key) => key === "blog" ? "Blog posts" : sectionTitle(key) + " tools";
 
   header.innerHTML = `
     <nav class="nav" aria-label="Main navigation">
@@ -187,7 +199,7 @@
       </div>
       <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
     </nav>
-    <nav class="subnav" aria-label="${sectionTitle(subnavSource)} tools">
+    <nav class="subnav" aria-label="${sectionLabel(subnavSource)}">
       ${renderSubnav(subnavSource)}
     </nav>`;
 
@@ -205,7 +217,7 @@
         <div class="nav-mobile-label">Explore</div>
         ${primary.map((item) => link(item, isPrimary(item))).join("")}
       </div>
-      ${drawerSection(sectionTitle(subnavSource) + " tools", flat(subnavSource))}
+      ${drawerSection(sectionLabel(subnavSource), flat(subnavSource))}
       ${drawerSection("Learn & practice", sections.letters.concat(sections.worksheets))}
       ${drawerSection("Nation in Cursive", nationLinks)}`;
   }
@@ -226,6 +238,7 @@
       ${col("Letters", sections.letters)}
       ${col("Worksheets", sections.worksheets)}
       ${col("Nation in Cursive", nationLinks)}
+      ${col("Blog", sections.blog)}
     </div>`;
     footer.insertBefore(nav, footer.firstChild);
   }

@@ -135,5 +135,5 @@ export function renderPixelPage(p, domain = DOMAIN) {
 </main>
 <div class="px-toast" data-toast role="status" aria-live="polite"></div>
 <footer class="site-footer"><div class="footer-inner"><span>Cursive Text Generator</span><span class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/sitemap.html">Sitemap</a></span></div></footer>
-<script src="/assets/navigation.js?v=20260909"></script><script src="/assets/pixel-engine.js?v=20260909"></script><script src="/assets/pixel-cluster.js?v=20260909"></script></body></html>`;
+<script src="/assets/navigation.js?v=20260913g"></script><script src="/assets/pixel-engine.js?v=20260909"></script><script src="/assets/pixel-cluster.js?v=20260909"></script></body></html>`;
 }
