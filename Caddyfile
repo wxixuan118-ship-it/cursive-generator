@@ -70,6 +70,24 @@ www.cursive-text-generator.net {
   redir @striketxt /strikethrough-text-generator.html permanent
   @upsidetxt path /upside-down-text-generator /upside-down-text-generator/ /upside-down-text-generator/index.html
   redir @upsidetxt /upside-down-text-generator.html permanent
+  @cooltxt path /cool-text-generator /cool-text-generator/ /cool-text-generator/index.html
+  redir @cooltxt /cool-text-generator.html permanent
+  @stylishtxt path /stylish-text-generator /stylish-text-generator/ /stylish-text-generator/index.html
+  redir @stylishtxt /stylish-text-generator.html permanent
+  @igfont path /instagram-font-generator /instagram-font-generator/ /instagram-font-generator/index.html
+  redir @igfont /instagram-font-generator.html permanent
+  @fffont path /free-fire-font-generator /free-fire-font-generator/ /free-fire-font-generator/index.html
+  redir @fffont /free-fire-font-generator.html permanent
+  @adoptfont path /adopt-me-font-generator /adopt-me-font-generator/ /adopt-me-font-generator/index.html
+  redir @adoptfont /adopt-me-font-generator.html permanent
+  @monotxt path /monospace-text-generator /monospace-text-generator/ /monospace-text-generator/index.html
+  redir @monotxt /monospace-text-generator.html permanent
+  @widetxt path /wide-text-generator /wide-text-generator/ /wide-text-generator/index.html
+  redir @widetxt /wide-text-generator.html permanent
+  @invtxt path /invisible-text-generator /invisible-text-generator/ /invisible-text-generator/index.html
+  redir @invtxt /invisible-text-generator.html permanent
+  @aesym path /aesthetic-symbols /aesthetic-symbols/ /aesthetic-symbols/index.html
+  redir @aesym /aesthetic-symbols.html permanent
 
   # Legacy copy-and-paste directory pages -> flat .html (hub /copy-and-paste/ stays)
   @cpfont path /copy-and-paste/cursive-font /copy-and-paste/cursive-font/ /copy-and-paste/cursive-font/index.html

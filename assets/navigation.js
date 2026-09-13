@@ -35,6 +35,8 @@
       ["Discord Fonts", "/fonts-for-discord.html"]
     ],
     emoji: [
+      ["Aesthetic Symbols", "/aesthetic-symbols.html"],
+      ["Invisible Text", "/invisible-text-generator.html"],
       ["Heart Fonts", "/heart-font-generator.html"],
       ["Rose Fonts", "/rose-font-generator.html"],
       ["Diamond Fonts", "/diamond-font-generator.html"],
@@ -86,7 +88,18 @@
       ["Small Text", "/small-text-generator.html"],
       ["Bubble Text", "/bubble-text-generator.html"],
       ["Strikethrough", "/strikethrough-text-generator.html"],
-      ["Upside Down", "/upside-down-text-generator.html"]
+      ["Upside Down", "/upside-down-text-generator.html"],
+      ["Cool Text", "/cool-text-generator.html"],
+      ["Stylish Text", "/stylish-text-generator.html"],
+      ["Monospace", "/monospace-text-generator.html"],
+      ["Wide Text", "/wide-text-generator.html"]
+    ],
+    social: [
+      ["Instagram Fonts", "/instagram-font-generator.html"],
+      ["Discord Fonts", "/fonts-for-discord.html"],
+      ["Free Fire Fonts", "/free-fire-font-generator.html"],
+      ["Adopt Me Fonts", "/adopt-me-font-generator.html"],
+      ["Roblox Usernames", "/roblox-username-generator.html"]
     ],
     dark: [
       ["Gothic Fonts", "/gothic-font-generator.html"],
@@ -101,6 +114,7 @@
   sections.styles.groups = [
     ["Aesthetic", sections.alternative.filter(([, href]) => href !== "/heart-font-generator.html")],
     ["Text", sections.text],
+    ["Social & Gaming", sections.social],
     ["Dark", sections.dark],
     ["Lettering", sections.lettering],
     ["Symbols", sections.emoji.filter(([, href]) => href !== "/fancy-text-generator.html" && href !== "/copy-and-paste/")]
@@ -129,9 +143,11 @@
   // alternative / dark font tools — add new slugs here as the section grows
   if (inPath(["freaky-font", "creepy-font", "weird-font", "glitch-text", "scary-font", "gothic-font"])) current = "dark";
   // core text-style generators — after "fonts" so bold-font-generator is not caught by its "bold" check
-  if (inPath(["bold-font-generator", "italic-font", "small-text", "bubble-text", "strikethrough-text", "upside-down-text"])) current = "text";
+  if (inPath(["bold-font-generator", "italic-font", "small-text", "bubble-text", "strikethrough-text", "upside-down-text", "cool-text", "stylish-text", "monospace-text", "wide-text"])) current = "text";
+  // platform / game nickname generators (discord + roblox keep their original sections)
+  if (inPath(["instagram-font", "free-fire-font", "adopt-me-font"])) current = "social";
   // emoji / symbol tools — add new slugs here as the section grows
-  if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
+  if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol", "invisible-text"])) current = "emoji";
   // seasonal / event theme tools — add new slugs here as the section grows
   if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
   // lettering-style generators — keep LAST so these slugs win over the checks above
@@ -141,9 +157,9 @@
 
   // Which top-bar item lights up for a given section.
   const primaryFor = { generator: "generator", fonts: "fonts", names: "names", letters: "", worksheets: "",
-    alternative: "styles", dark: "styles", text: "styles", lettering: "styles", emoji: "styles", theme: "themes", pixel: "themes" }[current];
+    alternative: "styles", dark: "styles", text: "styles", social: "styles", lettering: "styles", emoji: "styles", theme: "themes", pixel: "themes" }[current];
   const isPrimary = ([label]) => label.toLowerCase() === primaryFor;
-  const subnavSource = ["alternative", "dark", "text", "lettering", "emoji"].includes(current) ? "styles"
+  const subnavSource = ["alternative", "dark", "text", "social", "lettering", "emoji"].includes(current) ? "styles"
     : ["theme", "pixel"].includes(current) ? "themes" : current;
 
   const link = ([label, href], active) =>
