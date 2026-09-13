@@ -295,7 +295,7 @@ BASE_META.forEach(function(row) {
 });
 
 // ── Layer 2: Special Transforms (3) ──────────────────────────────────────────
-push({ id:'upside-down', name:'Upside Down',     cats:'symbols glitch', tags:'flip reverse funny upside',    fn:upsideDown });
+push({ id:'upside-down', name:'Upside Down',     cats:'symbols glitch flip', tags:'flip reverse funny upside',    fn:upsideDown });
 push({ id:'spaced',      name:'S p a c e d',     cats:'aesthetic',      tags:'spaced vaporwave aesthetic',   fn:spaced });
 push({ id:'spaced-fw',   name:'Ａ ｅ ｓ ｔ ｈ', cats:'aesthetic',      tags:'aesthetic vaporwave fullwidth', fn:spacedFW });
 push({ id:'reversed',    name:'Reversed Text',    cats:'weird freaky symbols', tags:'reversed backwards mirror weird strange', fn:reversed });
@@ -374,6 +374,32 @@ Object.keys(COMBO_MATRIX).forEach(function(baseKey) {
     push({ id:id, name:name, cats:cats, tags:tags,
       fn:function(t){ return p+mapText(t,bk)+s; }
     });
+  });
+});
+
+// ── Layer 5b: Flip variants + decorated flips (upside-down cluster) ──────────
+// upsideDown() flips every glyph AND reverses the order so the line reads
+// correctly when the screen is rotated. `flipped` keeps the original order,
+// which reads as individually turned letters instead of a rotated line.
+function flipped(t){ return Array.from(t).map(function(c){return FLIP[c]||c;}).join(''); }
+push({ id:'flipped',           name:'Flipped Letters',    cats:'symbols weird flip', tags:'flip flipped upside letters mirror',  fn:flipped });
+push({ id:'upside-down-spaced',name:'Upside Down Spaced', cats:'symbols aesthetic flip', tags:'flip upside spaced aesthetic', fn:function(t){ return spaced(upsideDown(t)); } });
+push({ id:'upside-down-caps',  name:'Upside Down Caps',   cats:'symbols flip',       tags:'flip upside caps uppercase',       fn:function(t){ return upsideDown(t.toUpperCase()); } });
+var FLIP_COMBOS = [
+  ['upside-down','d-a1'], ['upside-down','d-wd1'], ['upside-down','d-wd5'], ['upside-down','d-bk1'],
+  ['upside-down','d-j1'], ['upside-down','d-fr3'], ['upside-down','d-s1'],  ['upside-down','d-h1'],
+  ['upside-down','d-cu1'],['upside-down','d-wd2'], ['upside-down','d-ae6'], ['upside-down','d-g7'],
+  ['reversed','d-a1'],    ['reversed','d-fr6'],    ['reversed','d-a3'],
+];
+var FLIP_FNS = { 'upside-down': upsideDown, 'reversed': reversed };
+var FLIP_NAMES = { 'upside-down': 'Upside Down', 'reversed': 'Reversed' };
+FLIP_COMBOS.forEach(function(row) {
+  var base=row[0], d=decoById[row[1]];
+  if (!d) return;
+  var fn=FLIP_FNS[base], p=d.p, s=d.s;
+  push({ id:base+'-'+row[1], name:FLIP_NAMES[base]+' '+d.name, cats:'combo flip symbols '+d.cats,
+    tags:(base+' flip '+d.cats+' '+d.name.toLowerCase()).replace(/[^a-z ]/g,''),
+    fn:function(t){ return p+fn(t)+s; }
   });
 });
 

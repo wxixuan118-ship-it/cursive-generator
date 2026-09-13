@@ -57,6 +57,20 @@ www.cursive-text-generator.net {
   @aestheticug path /aesthetic-username-generator /aesthetic-username-generator/ /aesthetic-username-generator/index.html
   redir @aestheticug /aesthetic-username-generator.html permanent
 
+  # Text style cluster (2026-09-13) -> flat .html
+  @boldtxt path /bold-font-generator /bold-font-generator/ /bold-font-generator/index.html
+  redir @boldtxt /bold-font-generator.html permanent
+  @italictxt path /italic-font-generator /italic-font-generator/ /italic-font-generator/index.html
+  redir @italictxt /italic-font-generator.html permanent
+  @smalltxt path /small-text-generator /small-text-generator/ /small-text-generator/index.html
+  redir @smalltxt /small-text-generator.html permanent
+  @bubbletxt path /bubble-text-generator /bubble-text-generator/ /bubble-text-generator/index.html
+  redir @bubbletxt /bubble-text-generator.html permanent
+  @striketxt path /strikethrough-text-generator /strikethrough-text-generator/ /strikethrough-text-generator/index.html
+  redir @striketxt /strikethrough-text-generator.html permanent
+  @upsidetxt path /upside-down-text-generator /upside-down-text-generator/ /upside-down-text-generator/index.html
+  redir @upsidetxt /upside-down-text-generator.html permanent
+
   # Legacy copy-and-paste directory pages -> flat .html (hub /copy-and-paste/ stays)
   @cpfont path /copy-and-paste/cursive-font /copy-and-paste/cursive-font/ /copy-and-paste/cursive-font/index.html
   redir @cpfont /copy-and-paste-cursive-font.html permanent

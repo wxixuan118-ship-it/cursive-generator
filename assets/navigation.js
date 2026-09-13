@@ -80,6 +80,14 @@
       ["Girly Fonts", "/girly-fonts.html"],
       ["Heart Fonts", "/heart-font-generator.html"]
     ],
+    text: [
+      ["Bold Fonts", "/bold-font-generator.html"],
+      ["Italic Fonts", "/italic-font-generator.html"],
+      ["Small Text", "/small-text-generator.html"],
+      ["Bubble Text", "/bubble-text-generator.html"],
+      ["Strikethrough", "/strikethrough-text-generator.html"],
+      ["Upside Down", "/upside-down-text-generator.html"]
+    ],
     dark: [
       ["Gothic Fonts", "/gothic-font-generator.html"],
       ["Glitch Text", "/glitch-text-generator.html"],
@@ -92,6 +100,7 @@
 
   sections.styles.groups = [
     ["Aesthetic", sections.alternative.filter(([, href]) => href !== "/heart-font-generator.html")],
+    ["Text", sections.text],
     ["Dark", sections.dark],
     ["Lettering", sections.lettering],
     ["Symbols", sections.emoji.filter(([, href]) => href !== "/fancy-text-generator.html" && href !== "/copy-and-paste/")]
@@ -119,6 +128,8 @@
   if (inPath(["aesthetic-fonts", "preppy-fonts", "bow-font", "coquette-font", "cute-fonts", "girly-fonts"])) current = "alternative";
   // alternative / dark font tools — add new slugs here as the section grows
   if (inPath(["freaky-font", "creepy-font", "weird-font", "glitch-text", "scary-font", "gothic-font"])) current = "dark";
+  // core text-style generators — after "fonts" so bold-font-generator is not caught by its "bold" check
+  if (inPath(["bold-font-generator", "italic-font", "small-text", "bubble-text", "strikethrough-text", "upside-down-text"])) current = "text";
   // emoji / symbol tools — add new slugs here as the section grows
   if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
   // seasonal / event theme tools — add new slugs here as the section grows
@@ -130,9 +141,9 @@
 
   // Which top-bar item lights up for a given section.
   const primaryFor = { generator: "generator", fonts: "fonts", names: "names", letters: "", worksheets: "",
-    alternative: "styles", dark: "styles", lettering: "styles", emoji: "styles", theme: "themes", pixel: "themes" }[current];
+    alternative: "styles", dark: "styles", text: "styles", lettering: "styles", emoji: "styles", theme: "themes", pixel: "themes" }[current];
   const isPrimary = ([label]) => label.toLowerCase() === primaryFor;
-  const subnavSource = ["alternative", "dark", "lettering", "emoji"].includes(current) ? "styles"
+  const subnavSource = ["alternative", "dark", "text", "lettering", "emoji"].includes(current) ? "styles"
     : ["theme", "pixel"].includes(current) ? "themes" : current;
 
   const link = ([label, href], active) =>

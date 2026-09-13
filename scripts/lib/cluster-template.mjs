@@ -83,7 +83,7 @@ export function renderClusterPage(p, domain = DOMAIN) {
 <title>${esc(p.title)}</title><meta name="description" content="${esc(p.description)}"><meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="${url}"><meta property="og:type" content="website"><meta property="og:url" content="${url}"><meta property="og:title" content="${esc(p.title)}"><meta property="og:description" content="${esc(p.description)}"><meta property="og:image" content="${domain}/assets/cursive-generator-hero.png">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(p.title)}"><meta name="twitter:description" content="${esc(p.description)}"><meta name="twitter:image" content="${domain}/assets/cursive-generator-hero.png">
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="stylesheet" href="/assets/styles.css?v=20260904b"><link rel="stylesheet" href="/assets/aesthetic-cluster.css?v=20260908"><style>.cluster-hero .tool-intro p{display:block}</style>
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="stylesheet" href="/assets/styles.css?v=20260913"><link rel="stylesheet" href="/assets/aesthetic-cluster.css?v=20260908"><style>.cluster-hero .tool-intro p{display:block}</style>
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebApplication', name: appName, url, applicationCategory: 'DesignApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description: p.description })}</script>
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Cursive Text Generator', item: `${domain}/` }, { '@type': 'ListItem', position: 2, name: crumb, item: url }] })}</script>
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqJson })}</script></head>
@@ -98,6 +98,6 @@ export function renderClusterPage(p, domain = DOMAIN) {
 <section class="cluster-section alt"><div class="wrap"><h2>${esc(examplesTitle)}</h2><p>${esc(examplesIntro)}</p><div class="cluster-examples">${examples}</div></div></section>
 <section class="cluster-section"><div class="wrap"><h2>${esc(linksTitle)}</h2><div class="cluster-links">${links}</div></div></section>
 <section class="cluster-section alt"><div class="wrap cluster-faq"><h2>${esc(faqTitle)}</h2>${faqHtml}</div></section></main>
-<footer class="site-footer"><div class="footer-inner"><span>Cursive Text Generator</span><span class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/sitemap.html">Sitemap</a></span></div></footer>
-<script src="/assets/navigation.js?v=20260908b"></script><script src="/assets/style-engine.js?v=20260908b"></script><script src="/assets/aesthetic-cluster.js?v=20260908b"></script></body></html>`;
+<footer class="site-footer"><div class="footer-inner"><span>Cursive Text Generator</span><span class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/sitemap.html">Sitemap</a><a href="/more-tools.html">More Tools</a></span></div></footer>
+<script src="/assets/navigation.js?v=20260913d"></script><script src="/assets/style-engine.js?v=20260913"></script><script src="/assets/aesthetic-cluster.js?v=20260908b"></script></body></html>`;
 }

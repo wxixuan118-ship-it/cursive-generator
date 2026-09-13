@@ -128,3 +128,17 @@
 /aesthetic-username-generator               /aesthetic-username-generator.html          301
 /aesthetic-username-generator/              /aesthetic-username-generator.html          301
 /aesthetic-username-generator/index.html    /aesthetic-username-generator.html          301
+
+# Text style cluster (added 2026-09-13)
+/bold-font-generator                        /bold-font-generator.html                   301
+/bold-font-generator/                       /bold-font-generator.html                   301
+/italic-font-generator                      /italic-font-generator.html                 301
+/italic-font-generator/                     /italic-font-generator.html                 301
+/small-text-generator                       /small-text-generator.html                  301
+/small-text-generator/                      /small-text-generator.html                  301
+/bubble-text-generator                      /bubble-text-generator.html                 301
+/bubble-text-generator/                     /bubble-text-generator.html                 301
+/strikethrough-text-generator               /strikethrough-text-generator.html          301
+/strikethrough-text-generator/              /strikethrough-text-generator.html          301
+/upside-down-text-generator                 /upside-down-text-generator.html            301
+/upside-down-text-generator/                /upside-down-text-generator.html            301
