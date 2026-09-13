@@ -832,6 +832,35 @@ select {
 .footer-col a:hover {
   color: var(--ink);
 }
+/* Grouped sub-nav (Styles): labelled families, wraps to a second row on desktop */
+.subnav-grouped { gap: 10px 26px; }
+.subnav-group { display: inline-flex; align-items: center; gap: 14px; white-space: nowrap; }
+.subnav-group-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-right: 2px;
+}
+@media (min-width: 900px) {
+  .subnav-grouped { flex-wrap: wrap; padding-top: 8px; padding-bottom: 8px; }
+}
+
+/* Footer nav (rendered by navigation.js): learn & practice links moved out of the top bar */
+.footer-nav {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 8px 20px 26px;
+  border-bottom: 1px solid var(--line);
+}
+.footer-nav-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px 40px;
+}
+.footer-nav a.active { color: var(--ink); font-weight: 600; }
+
 .footer-partners {
   flex: 0 0 100%;
   order: 2;
