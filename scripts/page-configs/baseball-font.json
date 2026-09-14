@@ -1,0 +1,172 @@
+{
+  "keyword": "baseball font",
+  "file": "baseball-font.html",
+  "label": "Baseball",
+  "appName": "Baseball Font Generator",
+  "crumb": "Baseball Font",
+  "sample": "Tigers 24",
+  "linkName": "Baseball Font Generator",
+  "linkNote": "Jersey block capitals, team-logo script and starred numbers as text.",
+  "title": "Baseball Font Generator – Jersey & Team Script Text",
+  "description": "Free baseball font generator: type a team, player name or number and get jersey block capitals, team-logo script and starred Unicode text to copy anywhere.",
+  "h1": "Baseball Font Generator",
+  "kicker": "Jersey block, team-logo script and big numbers — as copyable text",
+  "intro": "This baseball font generator turns a team name, a player name or a number into the two lettering styles the sport is known for: the heavy block capitals of a jersey back and the slanted, underlined script of a team logo across the chest. Every result is real Unicode — bold sans, double-struck outline, bold italic and bold script with stars and rule frames — so the baseball font look survives when you paste it into a bio, a group chat, a roster post or a fantasy-league name.",
+  "ids": "sansBold,double,boldItalic,boldScript,smallCaps,bold,sansBold-d-s1,double-d-s1,boldItalic-d-s4,boldScript-d-s2,bold-d-s2,sansBold-d-fn7,double-d-bk1,sansBoldItalic,boldScript-d-s5,sansBold-d-a2",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "bold",
+      "Jersey Block"
+    ],
+    [
+      "cursive",
+      "Team Script"
+    ],
+    [
+      "italic",
+      "Slanted"
+    ],
+    [
+      "fancy",
+      "Starred"
+    ],
+    [
+      "symbols",
+      "Outlined"
+    ]
+  ],
+  "copyHeading": "Baseball Fonts Copy and Paste",
+  "copyBody": "Type your team or player name, compare the previews, and press Copy beside the style you want. The 𝗕𝗟𝗢𝗖𝗞 capitals, the 𝕆𝕦𝕥𝕝𝕚𝕟𝕖𝕕 letters and the 𝓢𝓬𝓻𝓲𝓹𝓽 are separate Unicode characters, not a jersey typeface, which is why a baseball font generator result pastes cleanly into a Discord server name, an Instagram bio, a team group chat or a fantasy app that has no font menu. Digits convert too in the bold, double-struck and sans styles, so a number reads in the same weight as the name.",
+  "popularTitle": "Popular Baseball Font Styles",
+  "popular": "Two looks define baseball lettering. The jersey back is heavy block capitals with a number underneath — sans-serif bold (𝗧𝗜𝗚𝗘𝗥𝗦 𝟮𝟰) is the closest match, and double-struck (𝕋𝕀𝔾𝔼ℝ𝕊 𝟚𝟜) gives the outlined, two-colour feel of stitched twill letters. The chest logo is a slanted connected script with an underline tail — bold script (𝓣𝓲𝓰𝓮𝓻𝓼) and bold italic (𝑻𝒊𝒈𝒆𝒓𝒔) carry that, and a ★ or ══ frame stands in for the swoosh and the stars on a pennant. Small caps (Tɪɢᴇʀꜱ) work for a compact roster line.",
+  "howToTitle": "How to Use the Baseball Font Generator",
+  "steps": [
+    [
+      "1. Type a team, name or number",
+      "Enter a team name, a player surname, a jersey number or all three. Uppercase input gives the truest jersey-back look; mixed case suits the script logo style."
+    ],
+    [
+      "2. Choose jersey block or team script",
+      "Use the chips to move between block capitals, outlined letters, slanted script and starred versions and compare them with your exact text."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside a result and paste it into your bio, team chat, roster post, fantasy-league name or design mock-up."
+    ]
+  ],
+  "socialTitle": "Baseball Fonts for Teams, Rosters and Fantasy Leagues",
+  "social": "Baseball text shows up wherever a team gets a name: a Little League group chat, a fantasy-league team, a Discord server for a club, an Instagram bio for a player or a coach, a roster or lineup post. Block capitals in sans bold read like a scoreboard and stay legible at any size; double-struck looks like a jersey but blurs in small text, so keep it for a heading or a name on its own. Team script suits a display name or a caption. As always, @usernames only take plain characters, so the styled version belongs in the display-name or bio field.",
+  "limitNote": "screen readers announce these characters as mathematical symbols rather than as words, so keep essential information in ordinary text as well.",
+  "specificTitle": "Baseball Font vs Varsity Font",
+  "specific": "Varsity and college block are the campus flavour of sports lettering: slab-serif capitals with an outline, tied to letterman jackets and school teams. Baseball lettering is broader and has a second half those pages do not cover — the slanted script with an underline tail that sits across a jersey chest. This baseball font generator pairs both halves: block capitals for names and numbers, script for team wordmarks. If you specifically want the letterman look, the varsity and college block pages narrow the results to that.",
+  "source": {
+    "before": "The bold and double-struck alphabets, digits included, come from the ",
+    "name": "Mathematical Alphanumeric Symbols block",
+    "href": "https://www.unicode.org/charts/PDF/U1D400.pdf",
+    "after": " of the Unicode Standard, which is why they render on nearly every phone without a font install."
+  },
+  "uniqueH2": "Building a Baseball Font Look: Block, Script and Numbers",
+  "uniqueBody": [
+    "A jersey back is a name in block capitals over a number, and the two should match in weight. Sans bold handles both, because its digit set (𝟬–𝟵) is drawn at the same heaviness as the letters. Double-struck also includes digits, so an outlined name can sit over an outlined number. Small caps has no digits in Unicode, which is why a small-caps name with a plain number can look mismatched — preview the pair before you use it.",
+    "A chest wordmark is a script with a slant and, on most real jerseys, an underline tail that swoops back under the word. Unicode cannot draw the tail, but bold script gives the connected, slanted feel and a ══ or ━━ rule underneath suggests it. Bold italic is the plainer alternative when the script reads too ornate for a team name. Add a single ★ on each side for the pennant look; more than that starts to read as a party invitation rather than a ballclub.",
+    "For a full roster line — number, name, position — mix one style for the name and plain text for the rest. A baseball font is a headline device; a lineup with every field styled is hard to scan. The same rule applies to a fantasy team: style the name, keep the record and the standings in ordinary characters."
+  ],
+  "examplesTitle": "Baseball Font Examples",
+  "examplesIntro": "Paste these into the generator to compare how a jersey back, a team wordmark and a fantasy name carry in block, outlined and script styles.",
+  "examples": [
+    [
+      "RAMIREZ 24",
+      "Jersey back: name and number"
+    ],
+    [
+      "Tigers",
+      "Chest wordmark in team script"
+    ],
+    [
+      "Bench Warmers",
+      "Fantasy-league team name"
+    ]
+  ],
+  "linksTitle": "Related Baseball and Block Fonts",
+  "links": [
+    [
+      "Varsity Font Generator",
+      "/varsity-font-generator.html",
+      "Letterman-jacket lettering, team names and numbers."
+    ],
+    [
+      "College Block Font Generator",
+      "/college-block-font-generator.html",
+      "Slab-serif collegiate capitals with an outline."
+    ],
+    [
+      "Blockletter Font Generator",
+      "/blockletter-font.html",
+      "Heavy, square, evenly spaced capitals for signage."
+    ],
+    [
+      "Bold Font Generator",
+      "/bold-font-generator.html",
+      "Every bold weight: serif, sans, italic and script."
+    ],
+    [
+      "Brush Script Handwriting Font",
+      "/brush-script-handwriting-font.html",
+      "Heavier brush-style script for a wordmark."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond sports lettering."
+    ]
+  ],
+  "faqTitle": "Baseball Font FAQ",
+  "faqs": [
+    [
+      "What is a baseball font?",
+      "The term covers two jersey lettering styles: heavy block capitals for names and numbers on the back, and a slanted connected script with an underline tail for the team name on the chest. This page recreates both with Unicode bold, double-struck, italic and script characters."
+    ],
+    [
+      "Is this baseball font generator free?",
+      "Yes. It runs in your browser with no account, download or usage limit, and every result copies as plain text."
+    ],
+    [
+      "Do numbers convert to the baseball style?",
+      "Yes in sans bold, serif bold and double-struck, which include digits 0–9. Script, italic and small caps have no digit sets in Unicode, so numbers stay plain in those styles."
+    ],
+    [
+      "Can I use this text for a Discord server or fantasy team name?",
+      "Yes. Server names, nicknames, bios and most fantasy apps accept these characters. Plain @usernames usually do not."
+    ],
+    [
+      "Can I make an actual jersey or logo with this?",
+      "Use it to mock up the name and style in a message or a post. For printing, embroidery or a logo file, a designer will set the lettering in a licensed athletic typeface, which has the outline and tail this text cannot draw."
+    ],
+    [
+      "Why does the outlined style look blurry on my phone?",
+      "Double-struck letters have doubled strokes that merge at small sizes. Use it for a heading or a name on its own, and switch to sans bold for anything small."
+    ],
+    [
+      "What is the difference between baseball and varsity fonts?",
+      "Varsity is the letterman-jacket style: slab-serif block capitals with an outline. Baseball lettering includes that block style for names and numbers, plus the slanted script wordmark used on jersey chests."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "sansBold-d-s1",
+      "double-d-bk1",
+      "boldScript-d-s5"
+    ],
+    "sample": "Tigers 24",
+    "tagline": "JERSEY BLOCK · TEAM SCRIPT · NUMBERS",
+    "alt": "Tigers 24 written with the baseball font generator as starred sans-bold jersey block, bracketed double-struck outline and star-framed team script",
+    "src": "/assets/previews/baseball-font.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Tigers 24” rendered by the Baseball Font Generator in Sans Bold Star Wrap, Double Struck Double Bracket, Bold Cursive Hollow Star presets"
+  }
+}

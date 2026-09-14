@@ -67,7 +67,7 @@ const pages = {
       ['Small Text Generator', '/small-text-generator.html', 'Small caps, superscript and tiny letters.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every style in one place.'],
       ['Cursive Text Generator', '/', 'The site’s classic flowing script styles.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.'],['Baseball Font Generator','/baseball-font.html','Jersey block capitals, team-logo script and starred numbers as text.']],
     faqTitle: 'Bold Font FAQ',
     faqs: [
       ['How does a bold font generator work?', 'It swaps each ordinary letter for the matching character in a Unicode bold alphabet, such as 𝐀 for A. Because the result is made of real characters, it can be copied and pasted anywhere text is allowed.'],

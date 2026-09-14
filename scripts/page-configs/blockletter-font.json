@@ -127,6 +127,11 @@
       "Serif Font Generator",
       "/serif-font-generator.html",
       "Bold, italic, double-struck and typewriter serif text you can copy."
+    ],
+    [
+      "Baseball Font Generator",
+      "/baseball-font.html",
+      "Jersey block capitals, team-logo script and starred numbers as text."
     ]
   ],
   "faqTitle": "Blockletter Font FAQ",

@@ -1,0 +1,182 @@
+{
+  "keyword": "brush script handwriting font",
+  "file": "brush-script-handwriting-font.html",
+  "label": "Brush Script",
+  "appName": "Brush Script Font Generator",
+  "crumb": "Brush Script Fonts",
+  "sample": "Hello Sunshine",
+  "linkName": "Brush Script Handwriting Font",
+  "linkNote": "Heavy, loose, brush-pen-style script you can copy as text.",
+  "title": "Brush Script Handwriting Font Generator – Copy & Paste",
+  "description": "Free brush script handwriting font generator: turn text into heavy bold script, loose italic and brush-pen-style Unicode lettering. Copy and paste it anywhere.",
+  "h1": "Brush Script Handwriting Font Generator",
+  "kicker": "The thick, loose, brush-pen look of hand lettering, as copyable text",
+  "intro": "This brush script handwriting font generator turns a name, quote or heading into the heavy, loose lettering of a brush pen: bold script with thick strokes, slanted bold italic that reads as quick handwriting, lighter script for the thin upstrokes, and a few framed versions for headings and signatures. Every result is real Unicode, so the brush-script look stays intact when you paste it into a bio, a caption, a card or a message.",
+  "ids": "boldScript,script,boldItalic,italic,sansBoldItalic,boldScript-d-ae2,boldScript-d-dia1,boldScript-d-f1,script-d-sp2,boldScript-d-cel1,boldItalic-d-sp1,boldScript-d-a2,script-d-h4,boldScript-d-j1,boldScript-d-m1,sansItalic",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "bold",
+      "Brush Bold"
+    ],
+    [
+      "cursive",
+      "Script"
+    ],
+    [
+      "italic",
+      "Handwritten"
+    ],
+    [
+      "aesthetic",
+      "Framed"
+    ],
+    [
+      "cute",
+      "Soft"
+    ]
+  ],
+  "copyHeading": "Brush Script Fonts Copy and Paste",
+  "copyBody": "Type once, compare the previews, and press Copy beside the version you want. The 𝓫𝓸𝓵𝓭 𝓼𝓬𝓻𝓲𝓹𝓽 and 𝑏𝑜𝑙𝑑 𝑖𝑡𝑎𝑙𝑖𝑐 letters are Unicode characters from the mathematical alphabets rather than a font file, which is why a brush script result survives a paste into Instagram, Pinterest, a WhatsApp status or a document where a webfont would be replaced by the default.",
+  "popularTitle": "Popular Brush Script Styles",
+  "popular": "Brush lettering is defined by weight contrast — thick downstrokes, thin upstrokes — and a loose, fast hand. Bold script (𝓗𝓮𝓵𝓵𝓸) is the closest Unicode match: heavy, connected-looking and rounded like a brush pen. Bold italic (𝑯𝒆𝒍𝒍𝒐) is the quick-handwriting version, slanted and less ornate. Regular script (𝓗ℯ𝓁𝓁ℴ) stands in for the thin, dry-brush strokes. Sans bold italic (𝙃𝙚𝙡𝙡𝙤) gives a modern marker feel. A soft flower, a dash or a moon around the word suggests the hand-lettered card or print the style usually appears on.",
+  "howToTitle": "How to Use the Brush Script Generator",
+  "steps": [
+    [
+      "1. Type your text",
+      "Enter a name, a short quote, a greeting or a heading. Brush script suits a few words; long sentences lose the hand-lettered feel."
+    ],
+    [
+      "2. Choose a weight",
+      "Use the chips to compare brush bold, lighter script, handwritten italic and framed versions with your exact text."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside a result and paste it into your bio, caption, card design, story or message."
+    ]
+  ],
+  "socialTitle": "Brush Script Fonts for Bios, Cards and Signatures",
+  "social": "Brush script is the lettering of greeting cards, wedding stationery, motivational prints and small-business logos, and online it lands in the same places: an Instagram bio heading, a Pinterest board title, a story sticker caption, a Facebook cover line, an email signature. Bold script is the most legible at profile size; bold italic reads as a personal note under a name. Keep it to one line, leave links and hashtags in plain text, and preview the exact words, since a brush look that suits a first name can crowd a longer phrase.",
+  "limitNote": "screen readers announce these characters as mathematical symbols rather than words, so keep any essential information in ordinary text too.",
+  "specificTitle": "Brush Script Handwriting Font vs Cursive Text",
+  "specific": "Cursive is joined, even-weight handwriting; calligraphy is formal, pen-drawn and precise. Brush script sits apart from both: it is heavier, looser and faster, with the thick-and-thin contrast of a brush pen and a slightly uneven baseline. This brush script handwriting font generator therefore leads with bold script and bold italic, and keeps the fine, elegant script that the cursive and calligraphy pages on this site specialise in as a secondary option for the thin strokes.",
+  "source": {
+    "before": "The bold script and italic alphabets come from the ",
+    "name": "Mathematical Alphanumeric Symbols block",
+    "href": "https://www.unicode.org/charts/PDF/U1D400.pdf",
+    "after": " of the Unicode Standard, which is why they render on nearly every modern device without installing a font."
+  },
+  "uniqueH2": "What Makes Brush Script Look Hand-Lettered",
+  "uniqueBody": [
+    "Three traits carry the brush-lettered look. Weight contrast is the first: a brush presses hard on the downstroke and lifts on the upstroke, so the letters swing between thick and hairline. Looseness is the second: letters lean, bounce slightly off the baseline and do not all connect. Speed is the third: the strokes look made in one motion rather than constructed.",
+    "Unicode cannot vary stroke weight inside a letter, so this brush script handwriting font generator approximates each trait with a different alphabet. Bold script supplies the heavy, rounded downstroke feel across the whole word. Bold italic supplies the lean and the speed. Regular script supplies the hairline. Pairing them — a bold script name over a lighter script tagline — is the closest a text-only result gets to the contrast of real brush lettering.",
+    "Where you need the genuine article, use a brush typeface. Hand-lettered logos, printed invitations and signage should be set in a licensed brush script font file, where the thick-and-thin strokes are drawn into every letter and the pairs connect properly. Treat the text here as the way to try a name in the brush mood, share it in a message and settle on a direction before the design work starts."
+  ],
+  "examplesTitle": "Brush Script Font Examples",
+  "examplesIntro": "Paste these into the generator to compare how a greeting, a name and a short quote carry in brush bold, script and handwritten italic.",
+  "examples": [
+    [
+      "Hello Sunshine",
+      "Card or print heading"
+    ],
+    [
+      "Rosa Delgado",
+      "Signature-style display name"
+    ],
+    [
+      "choose joy",
+      "Story or caption line"
+    ]
+  ],
+  "linksTitle": "Explore Related Script and Handwriting Fonts",
+  "links": [
+    [
+      "Cursive Writing Generator",
+      "/cursive-writing-generator.html",
+      "Joined, even-weight cursive handwriting."
+    ],
+    [
+      "Calligraphy Text Generator",
+      "/calligraphy-text-generator.html",
+      "Formal pen-drawn calligraphy styles."
+    ],
+    [
+      "Cursive Bold Generator",
+      "/cursive-bold-generator.html",
+      "Only the bold cursive presets, with decorations."
+    ],
+    [
+      "Cursive Signature Generator",
+      "/cursive-signature-generator.html",
+      "Preview a name as a flowing signature."
+    ],
+    [
+      "Elegant Cursive Signature",
+      "/elegant-cursive-signature.html",
+      "Refined script for a polished signature line."
+    ],
+    [
+      "Cursive Fonts",
+      "/cursive-fonts.html",
+      "Preview and compare every cursive style on the site."
+    ],
+    [
+      "Dancing Script Font",
+      "/dancing-script-font.html",
+      "The lively, bouncy Google script — plus copyable lookalike text."
+    ],
+    [
+      "Baseball Font Generator",
+      "/baseball-font.html",
+      "Jersey block capitals, team-logo script and starred numbers as text."
+    ]
+  ],
+  "faqTitle": "Brush Script Font FAQ",
+  "faqs": [
+    [
+      "What is a brush script font?",
+      "A script style that imitates lettering done with a brush pen: heavy downstrokes, thin upstrokes, a slight lean and a loose, quick feel. This page recreates that look with bold script, bold italic and script Unicode characters you can copy as text."
+    ],
+    [
+      "Is this brush script generator free?",
+      "Yes. It runs in your browser with no account, download or usage limit, and every result copies as plain text."
+    ],
+    [
+      "Can I use brush script text in an Instagram bio?",
+      "Yes. Bold script and bold italic paste into bios, display names and captions on Instagram, TikTok and Pinterest. Keep your @handle and links in plain characters."
+    ],
+    [
+      "Why does the text not have thick and thin strokes?",
+      "Unicode letters have a single fixed design, so a character cannot vary its stroke weight the way a brush does. Bold script gives the heavy feel across the whole word; a real brush typeface is needed for true stroke contrast."
+    ],
+    [
+      "Do the letters connect like real brush lettering?",
+      "Not physically — each Unicode script letter is a separate character. Bold script letters are drawn to look joined at reading size, which is why they read as handwriting in a bio or caption."
+    ],
+    [
+      "Can I download a brush script font from here?",
+      "No. The generator produces text characters, not a font file. For print, logos or invitations, use a licensed brush script typeface in your design app."
+    ],
+    [
+      "Which style is best for a name?",
+      "Bold script for a first name or a display name; bold italic when the name should read as a quick personal signature; regular script when it will sit large, where thin strokes have room."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "boldScript",
+      "boldItalic-d-sp1",
+      "script-d-h4"
+    ],
+    "sample": "Hello Sunshine",
+    "tagline": "HEAVY · LOOSE · HAND-LETTERED",
+    "alt": "Hello Sunshine written with the brush script handwriting font generator in bold script, sparkle-framed bold italic and heart-framed light script",
+    "src": "/assets/previews/brush-script-handwriting-font.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Hello Sunshine” rendered by the Brush Script Handwriting Font Generator in Bold Cursive, Bold Italic Four Sparkle, Cursive Script Heart Banner presets"
+  }
+}
