@@ -1,0 +1,22 @@
+{
+  "keyword": "gothic font generator",
+  "file": "gothic-font-generator.html",
+  "h1": "Gothic Font Generator",
+  "sample": "Dark Romance",
+  "ids": "fraktur,boldFraktur,fraktur-d-fn9",
+  "figure": {
+    "styles": [
+      "boldFraktur",
+      "fraktur-d-fn9",
+      "boldFraktur-d-fn8"
+    ],
+    "tagline": "BLACKLETTER · FRAKTUR · ORNATE",
+    "alt": "Dark Romance written with the gothic font generator in bold Fraktur, ornate-framed Fraktur and bold blackletter — the gothic font copy and paste styles on this page",
+    "sample": "Dark Romance",
+    "src": "/assets/previews/gothic-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Dark Romance” rendered by the Gothic Font Generator in Bold Gothic, Fraktur Gothic Cross Ornate, Bold Gothic Dagger Cross presets"
+  },
+  "_note": "Config-of-record for this page is scripts/build-dark-cluster.mjs; this file only feeds build-preview.mjs."
+}

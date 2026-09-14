@@ -1,0 +1,172 @@
+{
+  "keyword": "blockletter font",
+  "file": "blockletter-font.html",
+  "label": "Blockletter",
+  "appName": "Blockletter Font Generator",
+  "crumb": "Blockletter Font",
+  "sample": "Block Party",
+  "linkName": "Blockletter Font Generator",
+  "linkNote": "Heavy sans bold, squared fullwidth and bracketed block letters.",
+  "title": "Blockletter Font Generator – Block Letters Copy & Paste",
+  "description": "Free blockletter font generator: type any text and get heavy sans bold, squared fullwidth, monospace and bracketed block letters as copyable Unicode.",
+  "h1": "Blockletter Font Generator",
+  "kicker": "Heavy, square, evenly spaced letters that read like stencils and signage",
+  "intro": "This blockletter font generator converts a name, headline or label into block letter text: heavy sans-serif bold, squared fullwidth characters, evenly spaced monospace and bracketed or ruled frames that read like a stencil. Every result is real Unicode, so the block lettering survives when you paste it into a bio, a Discord name, a caption or a document title.",
+  "ids": "sansBold,bold,fullwidth,smallCaps,monospace,double,bold-d-bk1,monospace-d-bk1,fullwidth-d-fn6,sansBold-d-fn7,double-d-bk2,dec-d-bk1,monospace-d-g2,sansBold-d-dia1,smallCaps-d-j1,sansSerif",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "bold",
+      "Heavy"
+    ],
+    [
+      "aesthetic",
+      "Squared"
+    ],
+    [
+      "fancy",
+      "Mono & Caps"
+    ],
+    [
+      "symbols",
+      "Bracketed"
+    ],
+    [
+      "gaming",
+      "Ruled"
+    ]
+  ],
+  "copyHeading": "Blockletter Font Copy and Paste",
+  "copyBody": "Type once, compare the previews, and press Copy beside the line you want. A blockletter font here is not a downloadable typeface; the heavy 𝗕𝗟𝗢𝗖𝗞 letters, the squared Ｂ Ｌ Ｏ Ｃ Ｋ cells and the 𝙼𝙾𝙽𝙾 spacing are separate Unicode characters. That is what lets them survive a paste into an Instagram bio, a Discord display name or a form field that strips normal bold formatting.",
+  "popularTitle": "Popular Blockletter Font Styles",
+  "popular": "Block lettering is defined by weight, squareness and even spacing, and each Unicode family delivers one of those. Sans-serif bold (𝗕𝗟𝗢𝗖𝗞) is the closest match to hand-drawn block capitals and the most legible at small sizes. Fullwidth (ＢＬＯＣＫ) places each letter in a square cell, the spacing of stencils and street signage. Monospace (𝙱𝙻𝙾𝙲𝙺) gives typewriter-even columns, and small caps (Bʟᴏᴄᴋ) keep the uppercase feel at a lower height. Double-struck (𝔹𝕃𝕆ℂ𝕂) reads as outlined block letters. Bracket and rule frames finish a label the way a stencil border would.",
+  "howToTitle": "How to Use the Blockletter Font Generator",
+  "steps": [
+    [
+      "1. Type your text",
+      "Enter a name, team, headline or label. Uppercase input gives the most block-like result; digits convert in the bold, fullwidth, monospace and double-struck styles."
+    ],
+    [
+      "2. Pick a weight",
+      "Use the chips to switch between Heavy, Squared, Mono & Caps, Bracketed and Ruled presets instead of scanning the whole list."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside a result, then paste it into your bio, display name, caption, document or design mockup."
+    ]
+  ],
+  "socialTitle": "Blockletter Fonts for Bios and Headlines",
+  "social": "Block letter text is built for places where one short line has to carry weight: a name on Discord or Instagram, a team or club heading, a product label in a caption, a section title in a plain-text document. Sans-serif bold looks like native bold on iOS and Android, so it reads as intentional rather than decorative. Fullwidth and monospace stand out more but take more horizontal space, so keep them to a handful of words. Actual @usernames usually reject these characters; put the styled block letters in the display-name or bio field instead.",
+  "limitNote": "screen readers announce these characters as mathematical symbols rather than as words, so keep any essential information in ordinary text too.",
+  "specificTitle": "Blockletter Font vs College Block Lettering",
+  "specific": "College block and varsity lettering are one narrow flavour of block letters: slab-serif capitals with a contrasting outline, tied to jerseys and campus merchandise. This blockletter font generator covers the general case instead: plain heavy capitals, squared cells, monospace columns and stencil-style frames that suit signage, labels, headlines and usernames with no sports association. If you specifically want the jersey look, the college block and varsity pages narrow the results to that style.",
+  "source": {
+    "before": "The heavy and monospace alphabets come from the ",
+    "name": "Mathematical Alphanumeric Symbols block",
+    "href": "https://www.unicode.org/charts/PDF/U1D400.pdf",
+    "after": " of the Unicode Standard, which is why they display on nearly every modern device without installing a font."
+  },
+  "uniqueH2": "What Makes a Blockletter Font Read as Block Letters",
+  "uniqueBody": [
+    "Hand-drawn block letters share three traits: uniform stroke weight with no thick-and-thin contrast, capitals built on a square or rectangular grid, and even gaps between letters so the word sits as one solid unit. A blockletter font on this page approximates each trait with a different character set. Sans-serif bold supplies the uniform weight, fullwidth supplies the square grid, and monospace supplies the even spacing. None of them is a perfect block typeface, but each isolates the quality you may want most.",
+    "Combining them is where a specific look appears. Sans bold inside ══ rules reads as a stencil label. Fullwidth capitals with a ⌈ ⌉ corner frame feel like signage on a panel. Monospace with [[ ]] brackets suggests a console or a game HUD, which is why that pairing is common in gamer tags. Small caps in 『 』 brackets give a compact block heading for a bio line where a full-height style would be too loud.",
+    "Legibility drops fastest with fullwidth and double-struck text at small sizes, because the wide cells and doubled strokes blur on a phone screen. For a username or a caption, sans-serif bold is the safest choice; save the wider styles for headings. Preview the exact word, since capitals, digits and punctuation align differently from one style to the next and a stray unsupported character will show as a box."
+  ],
+  "examplesTitle": "Blockletter Font Examples",
+  "examplesIntro": "Paste these into the generator to compare how the same words carry in heavy, squared and bracketed block letters.",
+  "examples": [
+    [
+      "TEAM CAPTAIN",
+      "Club or team heading"
+    ],
+    [
+      "NORTH SIDE MARKET",
+      "Storefront-style label"
+    ],
+    [
+      "LEVEL 99",
+      "Gamer tag or HUD line"
+    ]
+  ],
+  "linksTitle": "Explore Related Font Styles",
+  "links": [
+    [
+      "College Block Font Generator",
+      "/college-block-font-generator.html",
+      "Slab-serif collegiate capitals with an outline."
+    ],
+    [
+      "Varsity Font Generator",
+      "/varsity-font-generator.html",
+      "Jersey lettering, team names and sports numbers."
+    ],
+    [
+      "Bold Font Generator",
+      "/bold-font-generator.html",
+      "Every bold weight: serif, sans, italic and script."
+    ],
+    [
+      "Small Text Generator",
+      "/small-text-generator.html",
+      "Small caps, superscript and tiny letters."
+    ],
+    [
+      "Monospace Text Generator",
+      "/monospace-text-generator.html",
+      "Typewriter-even spacing for code-style text."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond block letters."
+    ]
+  ],
+  "faqTitle": "Blockletter Font FAQ",
+  "faqs": [
+    [
+      "What is a blockletter font?",
+      "Block lettering means capitals with uniform stroke weight, square proportions and even spacing, the style of stencils, signage and hand-lettered posters. This page recreates that look with heavy, squared and monospace Unicode characters."
+    ],
+    [
+      "Is this generator free?",
+      "Yes. It runs in your browser with no account, download or usage limit, and every result can be copied as plain text."
+    ],
+    [
+      "Can I use block letters in a Discord or Instagram name?",
+      "In display names and bios, yes. Sans-serif bold and small caps are the most widely supported; fullwidth and double-struck also work on most platforms. Plain @handles usually reject styled characters."
+    ],
+    [
+      "Why do some block letters show as boxes?",
+      "The app or device is missing a font for that character. Sans-serif bold and fullwidth are supported almost everywhere; if a rarer style breaks, switch to a plainer preset with the same text."
+    ],
+    [
+      "Are these real block letter fonts I can install?",
+      "No. The generator produces Unicode characters that resemble block lettering, which is what lets them survive copy and paste. For print or a logo, use a licensed block typeface."
+    ],
+    [
+      "What is the difference between block letters and college block?",
+      "College block is a specific slab-serif jersey style with an outline. Block lettering is the general category: any heavy, square, evenly spaced capitals, with or without a sports look."
+    ],
+    [
+      "Do digits and punctuation convert?",
+      "Digits convert in the bold, fullwidth, monospace and double-struck styles. Small caps has no digit set, so numbers stay plain there. Punctuation is unchanged in every style."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "sansBold-d-fn7",
+      "fullwidth",
+      "monospace-d-bk1"
+    ],
+    "sample": "Block Party",
+    "tagline": "HEAVY · SQUARED · EVEN",
+    "alt": "Block Party written with the blockletter font generator as ruled sans-serif bold, squared fullwidth letters and bracketed monospace text",
+    "src": "/assets/previews/blockletter-font.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Block Party” rendered by the Blockletter Font Generator in Sans Bold Double Line, Aesthetic Wide, Monospace Double Bracket presets"
+  }
+}

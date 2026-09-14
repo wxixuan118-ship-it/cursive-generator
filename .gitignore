@@ -13,3 +13,6 @@ package-lock.json
 public/package.json
 cursive-extension.zip
 public/cursive-extension.zip
+
+# per-page audit reports from scripts/new-page/audit.mjs
+scripts/page-configs/*.audit.json

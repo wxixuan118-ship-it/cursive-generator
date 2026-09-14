@@ -67,7 +67,7 @@ const pages = {
       ['Small Text Generator', '/small-text-generator.html', 'Small caps, superscript and tiny letters.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every style in one place.'],
       ['Cursive Text Generator', '/', 'The site’s classic flowing script styles.'],
-    ],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.']],
     faqTitle: 'Bold Font FAQ',
     faqs: [
       ['How does a bold font generator work?', 'It swaps each ordinary letter for the matching character in a Unicode bold alphabet, such as 𝐀 for A. Because the result is made of real characters, it can be copied and pasted anywhere text is allowed.'],
@@ -180,7 +180,7 @@ const pages = {
       ['Bold Font Generator', '/bold-font-generator.html', 'Go the other way with heavy Unicode bold.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Spaced, wide and minimal styles.'],
       ['Cursive Text Generator', '/', 'Flowing script for names and signatures.'],
-    ],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.']],
     faqTitle: 'Small Text FAQ',
     faqs: [
       ['How do I make text smaller in my bio?', 'Bios have no font-size setting, so use small Unicode characters instead. Type your text here, copy the superscript or small-caps version, and paste it into the bio.'],
@@ -237,7 +237,7 @@ const pages = {
       ['Heart Font Generator', '/heart-font-generator.html', 'Frame any style with heart symbols.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style in one list.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer look.'],
-    ],
+    ,['Y2K Font Generator','/y2k-font-generator.html','Bubble letters, chrome-style bold and star frames from the 2000s.']],
     faqTitle: 'Bubble Text FAQ',
     faqs: [
       ['What is a bubble text generator?', 'It converts normal letters into Unicode enclosed characters — mainly circled letters like ⓑ — that look like bubbles. The output is text you can copy and paste, not an image.'],
@@ -685,7 +685,7 @@ const pages = {
       ['Small Text Generator', '/small-text-generator.html', 'Small caps and tiny letters.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style.'],
       ['Cursive Text Generator', '/', 'Flowing script at the other end of the scale.'],
-    ],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.']],
     faqTitle: 'Monospace Text FAQ',
     faqs: [
       ['What is monospace text?', 'Text where every character has the same width, like a typewriter or code editor. Unicode includes a monospace alphabet, so the look can be carried in the characters themselves.'],
