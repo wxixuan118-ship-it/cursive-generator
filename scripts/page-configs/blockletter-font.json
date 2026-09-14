@@ -122,6 +122,11 @@
       "Fancy Text Generator",
       "/fancy-text-generator.html",
       "Browse 300+ Unicode styles beyond block letters."
+    ],
+    [
+      "Serif Font Generator",
+      "/serif-font-generator.html",
+      "Bold, italic, double-struck and typewriter serif text you can copy."
     ]
   ],
   "faqTitle": "Blockletter Font FAQ",

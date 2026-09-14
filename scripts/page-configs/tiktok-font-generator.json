@@ -1,0 +1,177 @@
+{
+  "keyword": "tiktok font generator",
+  "file": "tiktok-font-generator.html",
+  "label": "TikTok",
+  "appName": "TikTok Font Generator",
+  "crumb": "TikTok Fonts",
+  "sample": "Mia Vibes",
+  "linkName": "TikTok Font Generator",
+  "linkNote": "Fonts for TikTok display names, bios and captions that paste as text.",
+  "title": "TikTok Font Generator – TikTok Fonts Copy & Paste",
+  "description": "Free TikTok font generator: turn your name, bio or caption into bold, cursive, small caps and decorated Unicode fonts for TikTok. Copy and paste, no app needed.",
+  "h1": "TikTok Font Generator",
+  "kicker": "Display names, bios and captions in fonts TikTok cannot strip",
+  "intro": "This TikTok font generator turns a name, bio line or caption into styled Unicode text: sans bold that looks like native formatting, cursive script, small caps, fullwidth spacing and sparkle, music-note or bracket frames. TikTok has no font picker for profiles, so people paste these characters instead — and because they are real text, the style stays in your display name, bio and captions.",
+  "ids": "sansBold,boldScript,smallCaps,sansItalic,fullwidth,circled,dec-d-so2,boldScript-d-sp1,sansBold-d-fn1,smallCaps-d-cu4,dec-d-so5,script-d-s4,sansBold-d-dia1,fullwidth-d-cu1,cm-dotAbove,boldItalic-d-sp1",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "bold",
+      "Bold"
+    ],
+    [
+      "cursive",
+      "Cursive"
+    ],
+    [
+      "fancy",
+      "Small Caps"
+    ],
+    [
+      "aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "social",
+      "Framed"
+    ]
+  ],
+  "copyHeading": "TikTok Fonts Copy and Paste",
+  "copyBody": "Type once, compare the live previews, and press Copy beside the version you want. Then open TikTok, go to Edit profile, and paste it into the Name or Bio field — or into a caption or comment. The letters are Unicode characters, not a font file, so TikTok keeps them exactly as pasted. That is the whole trick behind every TikTok font generator: there is no font setting to change, only characters that already look styled.",
+  "popularTitle": "Popular TikTok Font Styles",
+  "popular": "Sans-serif bold (𝗠𝗶𝗮) is the most used TikTok font because it matches the app's own interface font and looks like real bold in a display name. Cursive script (𝓜𝓲𝓪) is the go-to for soft, aesthetic and girly profiles. Small caps (Mɪᴀ) keep a name readable while looking designed. Fullwidth (Ｍｉａ) reads as vaporwave or retro. Around those, a sparkle ✨, a music note 🎵 or a »• •« bracket turns a plain name into a profile header without pushing the character limit.",
+  "howToTitle": "How to Use the TikTok Font Generator",
+  "steps": [
+    [
+      "1. Type your name or bio",
+      "Enter your display name, a bio line or a caption. Keep it short — TikTok names are capped at 30 characters and styled letters count one each."
+    ],
+    [
+      "2. Pick a style",
+      "Use the chips to switch between bold, cursive, small caps, aesthetic and framed presets and compare them with your exact text."
+    ],
+    [
+      "3. Copy, then paste in TikTok",
+      "Press Copy, open TikTok → Profile → Edit profile, and paste into the Name or Bio field. Captions and comments accept the same text."
+    ]
+  ],
+  "socialTitle": "TikTok Fonts for Display Names, Bios and Captions",
+  "social": "The display name is where TikTok fonts matter most: it sits above every video and in every comment you leave. Bios accept the same characters and give you room for a styled heading plus plain-text details. Captions work too, though a fully styled caption is harder to read and is not searchable, so use the font for a title line and keep hashtags plain. The @username itself only allows letters, numbers, underscores and periods — no TikTok font generator can change that, which is why the styled version belongs in the display name instead.",
+  "limitNote": "TikTok occasionally rejects a name that is only symbols or that uses certain decorative ranges; if a save fails, switch to a plainer preset such as sans bold or small caps.",
+  "specificTitle": "TikTok Font Generator vs Instagram Fonts",
+  "specific": "The characters are the same across apps, but the fields differ. Instagram gives you a name and a bio with similar limits, so most TikTok fonts paste straight into an Instagram profile. Discord allows far more decorative text in nicknames and channel names but renders on a dark background, where thin scripts fade and bold or small caps hold up better. TikTok sits between them: a 30-character name field, a light interface on most phones, and a stricter filter on all-symbol names. This page tunes the preset list for that — bold and small caps first, heavier frames last.",
+  "source": {
+    "before": "TikTok's own guidance on ",
+    "name": "editing your profile name and bio",
+    "href": "https://support.tiktok.com/en/using-tiktok/creating-videos/editing-your-profile",
+    "after": " covers the field limits; the characters this page produces are standard Unicode and need no extra app."
+  },
+  "uniqueH2": "Which TikTok Font Fits a Name, Bio or Caption",
+  "uniqueBody": [
+    "For a display name, prioritise legibility at the smallest size TikTok shows it: the comment thread. Sans bold and small caps stay clear there; cursive script works for short first names but blurs when a name has more than two words. A single sparkle or music note on either side is enough decoration — a wide frame eats characters you may need for the name itself.",
+    "For a bio, treat the first line as a heading and the rest as plain text. A cursive or fullwidth first line reads as a title; below it, links, pronouns and a posting schedule should stay in ordinary characters so they remain readable and copyable. Bios also render in list views where styled text is shrunk, another reason to keep the decoration to one line.",
+    "For captions, styled text is a hook rather than a body. A bold or small-caps opening phrase draws the eye in the feed; the sentence that follows, plus every hashtag, must be plain so TikTok's search and the hashtag links keep working. Styled hashtags are not indexed as the same tag, which is the most common way a TikTok font generator quietly hurts a post."
+  ],
+  "examplesTitle": "TikTok Font Examples",
+  "examplesIntro": "Paste these into the generator to compare how a display name, a bio heading and a caption hook carry in each style.",
+  "examples": [
+    [
+      "Mia Vibes",
+      "Display name"
+    ],
+    [
+      "new drop every friday",
+      "Bio heading line"
+    ],
+    [
+      "WAIT FOR IT",
+      "Caption hook"
+    ]
+  ],
+  "linksTitle": "Explore Related Font Styles",
+  "links": [
+    [
+      "Instagram Font Generator",
+      "/instagram-font-generator.html",
+      "The same characters tuned for Instagram bios and names."
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html",
+      "Nicknames and channel text that hold up on a dark background."
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html",
+      "Generate a username idea, then style it here."
+    ],
+    [
+      "Aesthetic Fonts",
+      "/aesthetic-fonts.html",
+      "Dreamy, minimal, cute and gothic moods for profiles."
+    ],
+    [
+      "Cursive Text Generator",
+      "/",
+      "The site's classic flowing script styles."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond the TikTok set."
+    ],
+    [
+      "Brat Font Generator",
+      "/brat-font-generator.html",
+      "Lowercase, plain-sans, deliberately unpolished text for the brat look."
+    ]
+  ],
+  "faqTitle": "TikTok Fonts FAQ",
+  "faqs": [
+    [
+      "How do I change my font on TikTok?",
+      "TikTok has no font setting for profiles. Paste styled Unicode text from this TikTok font generator into your display name or bio instead; the characters look like a different font but are ordinary text."
+    ],
+    [
+      "Is this TikTok font generator free?",
+      "Yes. It runs in your browser, needs no account or app download, and every result can be copied without limits."
+    ],
+    [
+      "Can I use these fonts in my TikTok username?",
+      "Not in the @username, which only allows letters, numbers, underscores and periods. Use the styled text in your display name, bio, captions and comments."
+    ],
+    [
+      "Why did TikTok reject my styled name?",
+      "Names made only of symbols, or that use certain decorative ranges, are sometimes blocked. Try a plainer preset such as sans bold or small caps, or add a plain letter or two."
+    ],
+    [
+      "Do TikTok fonts work in captions and comments?",
+      "Yes. Keep hashtags in plain text, though — a styled hashtag is not recognised as the same tag and will not link."
+    ],
+    [
+      "Will the font look the same on every phone?",
+      "Almost always. These are standard Unicode characters supported on iOS and Android; a rare decorative symbol may render slightly differently on an older device."
+    ],
+    [
+      "Are these real fonts I can install?",
+      "No. The generator produces Unicode characters that resemble fonts, which is what lets them survive copy and paste into TikTok. For video overlays, use TikTok's built-in text tool."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "sansBold-d-fn1",
+      "boldScript-d-sp1",
+      "smallCaps-d-cu4"
+    ],
+    "sample": "Mia Vibes",
+    "tagline": "NAMES · BIOS · CAPTIONS",
+    "alt": "Mia Vibes written with the TikTok font generator as framed sans bold, sparkle-wrapped cursive script and starred small caps for a TikTok display name",
+    "src": "/assets/previews/tiktok-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Mia Vibes” rendered by the TikTok Font Generator in Sans Bold Crown Frame ꧁꧂, Bold Cursive Four Sparkle, Small Caps Six Star presets"
+  }
+}

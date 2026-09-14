@@ -67,7 +67,7 @@ const pages = {
       ['Small Text Generator', '/small-text-generator.html', 'Small caps, superscript and tiny letters.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every style in one place.'],
       ['Cursive Text Generator', '/', 'The site’s classic flowing script styles.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.']],
     faqTitle: 'Bold Font FAQ',
     faqs: [
       ['How does a bold font generator work?', 'It swaps each ordinary letter for the matching character in a Unicode bold alphabet, such as 𝐀 for A. Because the result is made of real characters, it can be copied and pasted anywhere text is allowed.'],
@@ -124,7 +124,7 @@ const pages = {
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Wide, spaced and softly decorated styles.'],
       ['Small Text Generator', '/small-text-generator.html', 'Small caps and tiny letters for subtle bios.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Every Unicode style in one searchable list.'],
-    ],
+    ,['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.']],
     faqTitle: 'Italic Font FAQ',
     faqs: [
       ['How do I make italic text without a formatting button?', 'Type your text here, copy an italic style, and paste it. The slant is built into the Unicode characters, so it works in apps that have no italic option.'],
@@ -180,7 +180,7 @@ const pages = {
       ['Bold Font Generator', '/bold-font-generator.html', 'Go the other way with heavy Unicode bold.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Spaced, wide and minimal styles.'],
       ['Cursive Text Generator', '/', 'Flowing script for names and signatures.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.']],
     faqTitle: 'Small Text FAQ',
     faqs: [
       ['How do I make text smaller in my bio?', 'Bios have no font-size setting, so use small Unicode characters instead. Type your text here, copy the superscript or small-caps version, and paste it into the bio.'],
@@ -237,7 +237,7 @@ const pages = {
       ['Heart Font Generator', '/heart-font-generator.html', 'Frame any style with heart symbols.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style in one list.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer look.'],
-    ,['Y2K Font Generator','/y2k-font-generator.html','Bubble letters, chrome-style bold and star frames from the 2000s.']],
+    ,['Y2K Font Generator','/y2k-font-generator.html','Bubble letters, chrome-style bold and star frames from the 2000s.'],['Comic Sans Font Generator','/comic-sans-font-generator.html','Casual, rounded, hand-drawn-feel Unicode text in the Comic Sans spirit.']],
     faqTitle: 'Bubble Text FAQ',
     faqs: [
       ['What is a bubble text generator?', 'It converts normal letters into Unicode enclosed characters — mainly circled letters like ⓑ — that look like bubbles. The output is text you can copy and paste, not an image.'],
@@ -405,7 +405,7 @@ const pages = {
       ['Discord Font Generator', '/fonts-for-discord.html', 'Fonts tuned for Discord names and servers.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse all 400+ Unicode styles.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer look.'],
-    ],
+    ,['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.']],
     faqTitle: 'Cool Text FAQ',
     faqs: [
       ['What is a cool text generator?', 'It converts normal letters into Unicode characters that look like gothic, outlined, bold or monospace fonts and optionally wraps them in symbols. The result is copyable text, not an image.'],
@@ -517,7 +517,7 @@ const pages = {
       ['Bold Font Generator', '/bold-font-generator.html', 'Heavy bold for bio headings.'],
       ['Discord Font Generator', '/fonts-for-discord.html', 'The same idea, tuned for Discord.'],
       ['Cursive Text Generator', '/', 'All the cursive scripts in one place.'],
-    ],
+    ,['TikTok Font Generator','/tiktok-font-generator.html','Fonts for TikTok display names, bios and captions that paste as text.']],
     faqTitle: 'Instagram Font FAQ',
     faqs: [
       ['How do I change the font on Instagram?', 'Instagram has no font setting. Type your text here, copy a style, then paste it into your display name, bio or caption. The Unicode characters carry the style.'],
@@ -629,7 +629,7 @@ const pages = {
       ['Heart Font Generator', '/heart-font-generator.html', 'Frame any style with hearts.'],
       ['Free Fire Font Generator', '/free-fire-font-generator.html', 'Gaming nicknames at the other end of the scale.'],
       ['Cursive Text Generator', '/', 'Soft flowing script for pet names.'],
-    ],
+    ,['Comic Sans Font Generator','/comic-sans-font-generator.html','Casual, rounded, hand-drawn-feel Unicode text in the Comic Sans spirit.']],
     faqTitle: 'Adopt Me Font FAQ',
     faqs: [
       ['Can I change my Roblox username font with this?', 'No. Roblox usernames and display names only allow letters, numbers and underscores. These fonts are for pet names, trade posts, bios and Discord.'],
@@ -685,7 +685,7 @@ const pages = {
       ['Small Text Generator', '/small-text-generator.html', 'Small caps and tiny letters.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style.'],
       ['Cursive Text Generator', '/', 'Flowing script at the other end of the scale.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.']],
     faqTitle: 'Monospace Text FAQ',
     faqs: [
       ['What is monospace text?', 'Text where every character has the same width, like a typewriter or code editor. Unicode includes a monospace alphabet, so the look can be carried in the characters themselves.'],

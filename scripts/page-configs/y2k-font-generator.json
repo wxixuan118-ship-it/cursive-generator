@@ -122,6 +122,11 @@
       "Fancy Text Generator",
       "/fancy-text-generator.html",
       "Browse 300+ Unicode styles beyond the Y2K set."
+    ],
+    [
+      "Brat Font Generator",
+      "/brat-font-generator.html",
+      "Lowercase, plain-sans, deliberately unpolished text for the brat look."
     ]
   ],
   "faqTitle": "Y2K Fonts FAQ",

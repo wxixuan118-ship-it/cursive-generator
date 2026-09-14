@@ -1,0 +1,168 @@
+{
+  "keyword": "brat font generator",
+  "file": "brat-font-generator.html",
+  "label": "Brat",
+  "appName": "Brat Font Generator",
+  "crumb": "Brat Font",
+  "sample": "brat summer",
+  "linkName": "Brat Font Generator",
+  "linkNote": "Lowercase, plain-sans, deliberately unpolished text for the brat look.",
+  "title": "Brat Font Generator – Brat Text Copy & Paste",
+  "description": "Free brat font generator: turn any phrase into lowercase, plain-sans, spaced-out or struck-through Unicode text with the brat look. Copy and paste anywhere.",
+  "h1": "Brat Font Generator",
+  "kicker": "Lowercase, plain sans, no polish — the anti-design text look",
+  "intro": "This brat font generator turns a phrase into the lowercase, deliberately plain text style that took over 2024: unadorned sans-serif, wide letterspacing, monospace, small caps and a strikethrough or underline for the smudged, low-effort feel. Every result is real Unicode, so the brat text keeps its look when you paste it into a bio, a caption, a playlist title or a group-chat name.",
+  "ids": "sansSerif,spaced,fullwidth,monospace,smallCaps,sansItalic,cm-strike,cm-underline,spaced-fw,sansSerif-d-ae4,sansSerif-d-ae1,monospace-d-bk1,fullwidth-d-fn6,dec-d-ae6,sansSerif-d-j4,cm-dblUnder",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "fancy",
+      "Plain Sans"
+    ],
+    [
+      "aesthetic",
+      "Spaced"
+    ],
+    [
+      "glitch",
+      "Struck"
+    ],
+    [
+      "symbols",
+      "Bracketed"
+    ]
+  ],
+  "copyHeading": "Brat Font Copy and Paste",
+  "copyBody": "Type your phrase in lowercase, compare the previews, and press Copy beside the one that reads right. The plain 𝗌𝖺𝗇𝗌, the w i d e spacing and the s̶t̶r̶u̶c̶k̶ letters are Unicode characters rather than a styled font, which is why a brat font generator result survives a paste into Instagram, TikTok, Spotify or a WhatsApp group name. The famous lime-green background is a colour, not text, so that part stays with your image editor.",
+  "popularTitle": "Popular Brat Font Styles",
+  "popular": "The brat look is defined by what it refuses to do. Plain sans-serif (𝖻𝗋𝖺𝗍) in all lowercase is the core: a system-font feel with no weight or flourish. Spaced letters (b r a t) push the slacker mood further. Monospace (𝚋𝚛𝚊𝚝) reads like a text file. Small caps (ʙʀᴀᴛ) stay flat and quiet. A strikethrough (b̶r̶a̶t̶) or a thin underline adds the crossed-out, unfinished quality, and a single ○ or ─ around the word is as decorative as it should get. Anything with sparkles or script is the opposite of brat.",
+  "howToTitle": "How to Use the Brat Font Generator",
+  "steps": [
+    [
+      "1. Type in lowercase",
+      "Enter a word, phrase or name. Lowercase is the whole point; uppercase input will still convert but loses the look."
+    ],
+    [
+      "2. Pick the flavour",
+      "Use the chips to move between plain sans, spaced, struck-through and bracketed presets and compare them with your exact text."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy, then paste into your bio, caption, playlist title, display name or message."
+    ]
+  ],
+  "socialTitle": "Brat Fonts for Instagram, TikTok and Spotify",
+  "social": "Brat text lives in captions and titles more than in names: an all-lowercase caption under a photo, a Spotify playlist called whatever you like in plain sans, a TikTok bio line, a group chat renamed for a trip. A display name in spaced lowercase works too, though very wide spacing can exceed a name field's limit. In captions, keep it to one line and leave hashtags in ordinary characters so they still link. The lowercase-and-plain look reads as intentional only when everything around it is loud, so avoid pairing it with emoji frames.",
+  "limitNote": "combining strikethrough and underline marks are the characters most likely to be stripped or shown oddly by an app; if a save fails, use the plain sans or spaced preset instead.",
+  "specificTitle": "Brat Font Generator vs Y2K and Aesthetic Text",
+  "specific": "Y2K text is glossy and decorated; most aesthetic text is soft and dreamy. Brat is neither: it is the flat, lowercase, low-resolution look of a word typed in a default font and stretched over a plain colour, an anti-aesthetic that became an aesthetic. This brat font generator therefore leads with plain sans and spaced text and keeps decoration to a single thin line or circle, while the Y2K and aesthetic pages on the site handle the sparkle-and-script end of the spectrum.",
+  "source": {
+    "before": "The plain sans-serif letters come from the ",
+    "name": "Mathematical Alphanumeric Symbols block",
+    "href": "https://www.unicode.org/charts/PDF/U1D400.pdf",
+    "after": " of the Unicode Standard, which is why they render on any modern phone without a font install."
+  },
+  "uniqueH2": "What Makes Text Look Brat: Lowercase, Blur and Restraint",
+  "uniqueBody": [
+    "Three things carry the brat look. The first is lowercase everywhere, including the first letter of a name; capitals immediately read as effort. The second is a plain, slightly narrow sans-serif with even spacing, the feel of an unstyled system font. The third is blur and low resolution, which text cannot do directly but can suggest: spaced-out letters, a thin strikethrough, an underline that looks like a leftover link, or monospace that looks like a raw text file.",
+    "This brat font generator maps each of those to a preset family. Plain sans and small caps supply the flat weight. Spaced and fullwidth supply the stretched look. Strikethrough, underline and double-underline supply the smudged, edited-then-abandoned quality. A thin ─ dash or ○ circle is the only framing that fits; the bracket and rule presets are included for a harder, more industrial read.",
+    "Restraint is the skill here. One preset per line, all lowercase, no emoji, no sparkles. If a line starts to look designed, it has stopped looking brat. The generator will happily combine a strikethrough with wide spacing, but the strongest version of this style is usually the plainest one, so preview the simplest preset first and only add a mark if the word needs it."
+  ],
+  "examplesTitle": "Brat Text Examples",
+  "examplesIntro": "Paste these into the generator to compare how the same lowercase phrase carries in plain sans, spaced and struck-through styles.",
+  "examples": [
+    [
+      "brat summer",
+      "Caption or playlist title"
+    ],
+    [
+      "i did it for the plot",
+      "Bio line"
+    ],
+    [
+      "club classics",
+      "Group chat name"
+    ]
+  ],
+  "linksTitle": "Explore Related Font Styles",
+  "links": [
+    [
+      "Y2K Font Generator",
+      "/y2k-font-generator.html",
+      "The glossy, decorated opposite of brat."
+    ],
+    [
+      "Aesthetic Fonts",
+      "/aesthetic-fonts.html",
+      "Dreamy, minimal and cute moods for profiles."
+    ],
+    [
+      "Small Text Generator",
+      "/small-text-generator.html",
+      "Small caps and tiny letters that stay quiet."
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Understated styles for usernames and captions."
+    ],
+    [
+      "TikTok Font Generator",
+      "/tiktok-font-generator.html",
+      "The same characters tuned for TikTok names and bios."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond the brat set."
+    ]
+  ],
+  "faqTitle": "Brat Font FAQ",
+  "faqs": [
+    [
+      "What is the brat font?",
+      "The look people mean is a plain, slightly narrow sans-serif in all lowercase, stretched and blurred over a flat colour. It is a design treatment rather than one named typeface, and this page recreates the text part with plain-sans, spaced and struck-through Unicode."
+    ],
+    [
+      "Is this brat font generator free?",
+      "Yes. It runs in your browser with no account or download, and every result can be copied without limits."
+    ],
+    [
+      "Can I get the green background too?",
+      "Not from a text generator. The colour belongs to an image, so make the text here and place it over a plain lime background in any photo or story editor."
+    ],
+    [
+      "Why does my text look sharp instead of blurry?",
+      "Unicode cannot blur letters. Spaced, struck-through and underlined presets suggest the low-resolution feel; for real blur, screenshot the text and soften it in an image editor."
+    ],
+    [
+      "Does brat text work in an Instagram bio or TikTok name?",
+      "Yes. Plain sans, small caps and spaced text are widely accepted. Strikethrough and underline marks are occasionally stripped by a name field, so keep those to captions."
+    ],
+    [
+      "Is this the actual font from the album cover?",
+      "No. That artwork uses a licensed typeface and a specific image treatment. This generator only assembles standard Unicode characters that resemble the lowercase, plain-sans style and does not reproduce the artwork."
+    ],
+    [
+      "Should I type in lowercase?",
+      "Yes. Lowercase is the defining feature of the look. The presets convert capitals as well, but a capitalised word reads as ordinary styled text rather than brat."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "sansSerif",
+      "spaced",
+      "cm-strike"
+    ],
+    "sample": "brat summer",
+    "tagline": "LOWERCASE · SPACED · STRUCK",
+    "alt": "brat summer written with the brat font generator in plain lowercase sans-serif, spaced-out letters and strikethrough Unicode text",
+    "src": "/assets/previews/brat-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“brat summer” rendered by the Brat Font Generator in Sans Serif, S p a c e d, Strikethrough presets"
+  }
+}

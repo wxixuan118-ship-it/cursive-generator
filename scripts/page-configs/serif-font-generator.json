@@ -1,0 +1,172 @@
+{
+  "keyword": "serif font generator",
+  "file": "serif-font-generator.html",
+  "label": "Serif",
+  "appName": "Serif Font Generator",
+  "crumb": "Serif Fonts",
+  "sample": "Editor's Note",
+  "linkName": "Serif Font Generator",
+  "linkNote": "Bold, italic, double-struck and typewriter serif text you can copy.",
+  "title": "Serif Font Generator – Serif Text Copy & Paste",
+  "description": "Free serif font generator: turn plain text into bold serif, italic, bold italic, double-struck and typewriter Unicode letters. Copy and paste them anywhere.",
+  "h1": "Serif Font Generator",
+  "kicker": "Bold, italic, double-struck and typewriter serifs that survive copy and paste",
+  "intro": "This serif font generator converts plain text into Unicode serif letterforms: bold serif, italic, bold italic, outlined double-struck and typewriter-style monospace, with blackletter for the heaviest serif look. Because each result is real Unicode text rather than a CSS preview, the serif style stays when you paste it into a bio, a document title, a caption or a message.",
+  "ids": "bold,italic,boldItalic,double,monospace,fraktur,bold-d-dia1,bold-d-fn7,italic-d-ae1,boldItalic-d-j1,double-d-dia2,bold-d-bk2,italic-d-j3,monospace-d-fn6,bold-d-s1,boldFraktur",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "bold",
+      "Bold Serif"
+    ],
+    [
+      "italic",
+      "Italic"
+    ],
+    [
+      "fancy",
+      "Typewriter"
+    ],
+    [
+      "gothic",
+      "Blackletter"
+    ],
+    [
+      "symbols",
+      "Framed"
+    ]
+  ],
+  "copyHeading": "Serif Fonts Copy and Paste",
+  "copyBody": "Type once, compare the previews, and press Copy beside the line you want. The 𝐛𝐨𝐥𝐝, 𝑖𝑡𝑎𝑙𝑖𝑐 and 𝔻𝕠𝕦𝕓𝕝𝕖 letters on this page are separate Unicode characters from the Mathematical Alphanumeric Symbols block, not a font applied to normal text. That is why a serif font generator result keeps its shape in an Instagram bio, a LinkedIn headline or a plain-text field where a webfont would fall back to the system default.",
+  "popularTitle": "Popular Serif Font Styles",
+  "popular": "Serif text reads as editorial, formal and settled, and each Unicode family carries a different shade of that. Bold serif (𝐀𝐁𝐂) is the headline weight and the most used style for names and titles. Italic serif (𝐴𝐵𝐶) is the classic quotation and emphasis style; bold italic combines both. Double-struck (𝔸𝔹ℂ) is an outlined serif that reads as engraved lettering. Monospace (𝙰𝙱𝙲) has slab serifs and typewriter spacing, and Fraktur (𝔄𝔅ℭ) is blackletter, the oldest and heaviest serif form. Note that Unicode has no plain regular-weight serif alphabet, because ordinary text already is one; the generator starts at bold.",
+  "howToTitle": "How to Use the Serif Font Generator",
+  "steps": [
+    [
+      "1. Type your text",
+      "Enter a name, headline, quote or short line. Digits convert in the bold, double-struck and monospace styles; the italic alphabets cover letters only."
+    ],
+    [
+      "2. Choose a serif weight",
+      "Use the chips to move between bold serif, italic, typewriter, blackletter and framed versions."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside the result, then paste it into your bio, caption, document, slide or message."
+    ]
+  ],
+  "socialTitle": "Serif Fonts for LinkedIn, Instagram and Documents",
+  "social": "Serif text suits places where you want to look composed rather than playful: a LinkedIn headline, an author bio on Instagram, a newsletter subject line, a quote card caption or a section heading in a plain-text document. Bold serif is the safest choice for names because it closely resembles a real headline typeface on most phones. Italic serif reads well for a tagline or a quoted line under a name. As with any styled Unicode, use it for one line rather than a paragraph, and keep the searchable @handle in plain characters.",
+  "limitNote": "screen readers announce these characters as mathematical symbols, so keep any essential information in ordinary text as well.",
+  "specificTitle": "Serif Font Generator vs Sans Serif and Cursive Text",
+  "specific": "Serifs are the small finishing strokes at the ends of letters, and they are what separates this page from the sans-serif bold and the flowing script styles elsewhere on the site. Sans-serif Unicode (𝗔𝗕𝗖) looks like a phone's system font and reads as modern; cursive Unicode (𝓐𝓑𝓒) reads as handwritten. This serif font generator sits between them: formal, print-like and traditional, the register of a book title, a newspaper masthead or an engraved invitation.",
+  "source": {
+    "before": "All of the serif alphabets here live in the ",
+    "name": "Mathematical Alphanumeric Symbols block",
+    "href": "https://www.unicode.org/charts/PDF/U1D400.pdf",
+    "after": " of the Unicode Standard, which is why they display on nearly every modern device without installing a font."
+  },
+  "uniqueH2": "Bold Serif, Italic Serif, Double-Struck and Typewriter: Which to Pick",
+  "uniqueBody": [
+    "Bold serif is the workhorse. Its strokes are heavy enough to survive small sizes and dark-mode backgrounds, and because it maps one-to-one onto the Latin alphabet with digits included, it works for names, dates and titles alike. Pick it when you want a serif font generator result that simply looks like a well-set headline.",
+    "Italic and bold italic are for tone. A single italic line under a name reads as a motto or a quotation; bold italic adds urgency, the way a pull-quote does in a magazine. Neither alphabet has digits in Unicode, so a phrase with numbers will show the numbers in plain text — preview it before you commit.",
+    "Double-struck and monospace are the specialist picks. Double-struck (𝔻) has a doubled vertical stroke that reads as outlined or engraved lettering, which suits initials and short words but blurs in longer lines on a phone. Monospace (𝙼) gives every letter the same width with slab serifs, the look of a typewriter or a code sample; use it for a label, a date stamp or a retro heading. Fraktur is the extreme end of the serif family — dense, angular blackletter — and it has its own page if that is the look you are after."
+  ],
+  "examplesTitle": "Serif Text Examples",
+  "examplesIntro": "Paste these into the generator to compare how the same words carry in bold serif, italic and typewriter styles.",
+  "examples": [
+    [
+      "The Morning Edition",
+      "Newsletter or masthead title"
+    ],
+    [
+      "Eleanor Vance",
+      "Author or professional display name"
+    ],
+    [
+      "Est. 1998",
+      "Bio line with digits in bold serif"
+    ]
+  ],
+  "linksTitle": "Explore Related Font Styles",
+  "links": [
+    [
+      "Bold Font Generator",
+      "/bold-font-generator.html",
+      "Every bold weight, serif and sans, in one place."
+    ],
+    [
+      "Italic Font Generator",
+      "/italic-font-generator.html",
+      "Slanted serif, sans and script letters."
+    ],
+    [
+      "Old English Font Generator",
+      "/old-english-font-generator.html",
+      "Blackletter and Fraktur, the heaviest serif form."
+    ],
+    [
+      "Monospace Text Generator",
+      "/monospace-text-generator.html",
+      "Typewriter-even spacing with slab serifs."
+    ],
+    [
+      "Blockletter Font Generator",
+      "/blockletter-font.html",
+      "Heavy sans capitals for signage-style text."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond serif."
+    ]
+  ],
+  "faqTitle": "Serif Font FAQ",
+  "faqs": [
+    [
+      "What is a serif font?",
+      "A serif font has small finishing strokes at the ends of each letter, the style of most books and newspapers. This page recreates serif looks with Unicode bold, italic, double-struck, monospace and blackletter characters."
+    ],
+    [
+      "Is this serif font generator free?",
+      "Yes. It runs in your browser with no account, download or usage limit, and every result copies as plain text."
+    ],
+    [
+      "Why is there no regular-weight serif style?",
+      "Unicode has no separate alphabet for a plain serif, because ordinary text is already displayed in whatever font the app uses. The styled alphabets begin at bold, italic and double-struck."
+    ],
+    [
+      "Can I use serif text in a LinkedIn headline or Instagram bio?",
+      "Yes. Both accept the bold, italic and double-struck characters. Keep your @handle and any links in plain text, since those fields reject styled characters."
+    ],
+    [
+      "Why do some letters show as boxes?",
+      "The device is missing a font for that character. Bold and italic serif are supported almost everywhere; if double-struck or blackletter breaks on an older device, switch to bold serif with the same text."
+    ],
+    [
+      "Are these real serif fonts I can install?",
+      "No. The generator produces Unicode characters that resemble serif typefaces, which is what lets them survive copy and paste. For print or a logo, use a licensed serif font file."
+    ],
+    [
+      "Do numbers convert to serif?",
+      "Digits 0–9 convert in bold serif, double-struck and monospace. The italic and bold italic alphabets have no digits in Unicode, so numbers stay plain in those styles."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "bold",
+      "italic-d-ae1",
+      "double-d-dia2"
+    ],
+    "sample": "Editor's Note",
+    "tagline": "BOLD · ITALIC · DOUBLE-STRUCK",
+    "alt": "Editor's Note written with the serif font generator in bold serif, dotted-frame italic serif and diamond-framed double-struck Unicode letters",
+    "src": "/assets/previews/serif-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Editor's Note” rendered by the Serif Font Generator in Math Bold, Math Italic Dot Rhythm, Double Struck Ornate Diamond presets"
+  }
+}
