@@ -70,6 +70,7 @@
     styles: { groups: [] },
     themes: [],
     worksheets: [
+      ["Printable Sheets", "/printable-cursive-handwriting-practice-sheets.html"],
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
@@ -147,7 +148,7 @@
   if (path.startsWith("/letters/") || inPath(["letters", "alphabet", "converter"])) current = "letters";
   if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "username-generator"])) current = "names";
   if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
-  if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "name-tracing", "name-practice"])) current = "worksheets";
+  if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "handwriting-practice", "name-tracing", "name-practice"])) current = "worksheets";
   if (inPath(["aesthetic-fonts", "preppy-fonts", "bow-font", "coquette-font", "cute-fonts", "girly-fonts"])) current = "alternative";
   // alternative / dark font tools — add new slugs here as the section grows
   if (inPath(["freaky-font", "creepy-font", "weird-font", "glitch-text", "scary-font", "gothic-font"])) current = "dark";
