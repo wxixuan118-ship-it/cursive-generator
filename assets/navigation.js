@@ -59,6 +59,7 @@
     ],
     lettering: [
       ["Tattoo Fonts", "/tattoo-font-generator.html"],
+      ["Cursive Tattoo", "/cursive-tattoo-font.html"],
       ["Chicano Lettering", "/chicano-font-generator.html"],
       ["Gangster Fonts", "/gangster-font-generator.html"],
       ["Old English", "/old-english-font-generator.html"],
@@ -161,7 +162,7 @@
   // seasonal / event theme tools — add new slugs here as the section grows
   if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
   // lettering-style generators — keep LAST so these slugs win over the checks above
-  if (inPath(["chicano-font", "tattoo-font", "gangster-font", "old-english-font", "college-block-font", "varsity-font"])) current = "lettering";
+  if (inPath(["chicano-font", "tattoo-font", "cursive-tattoo-font", "gangster-font", "old-english-font", "college-block-font", "varsity-font"])) current = "lettering";
   // pixel / retro-game renderer pages — add new slugs here as the section grows
   if (inPath(["mario-font", "undertale-font"])) current = "pixel";
   // blog hub + posts — keep after the slug checks so a post slug never lands in a tool section

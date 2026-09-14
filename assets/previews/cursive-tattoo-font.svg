@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="The word Amor shown in four cursive tattoo font styles: fine script, bold cursive, slanted italic and flourished cursive">
+  <rect width="1200" height="630" fill="#fbfaf7"/>
+  <rect x="26" y="26" width="1148" height="578" rx="26" fill="#ffffff" stroke="#dfe6df" stroke-width="3"/>
+  <text x="600" y="108" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="27" font-weight="800" letter-spacing="4.5" fill="#2f6b4f">CURSIVE TATTOO FONT</text>
+  <text x="600" y="150" text-anchor="middle" font-size="30" fill="#c96f59">♡</text>
+  <text x="330" y="300" text-anchor="middle" font-family="&apos;Snell Roundhand&apos;,&apos;Apple Chancery&apos;,&apos;Segoe Script&apos;,&apos;Brush Script MT&apos;,cursive" font-size="112" font-style="italic" font-weight="400" fill="#17201b">Amor</text>
+  <text x="330" y="350" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="18" letter-spacing="2" fill="#5d6a63">FINE SCRIPT</text>
+  <text x="870" y="300" text-anchor="middle" font-family="&apos;Snell Roundhand&apos;,&apos;Apple Chancery&apos;,&apos;Segoe Script&apos;,&apos;Brush Script MT&apos;,cursive" font-size="112" font-style="italic" font-weight="700" fill="#17201b">Amor</text>
+  <text x="870" y="350" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="18" letter-spacing="2" fill="#5d6a63">BOLD CURSIVE</text>
+  <text x="330" y="470" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="96" font-style="italic" font-weight="700" fill="#17201b">Amor</text>
+  <text x="330" y="518" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="18" letter-spacing="2" fill="#5d6a63">SLANTED ITALIC</text>
+  <text x="870" y="470" text-anchor="middle" font-family="&apos;Snell Roundhand&apos;,&apos;Apple Chancery&apos;,&apos;Segoe Script&apos;,&apos;Brush Script MT&apos;,cursive" font-size="104" font-style="italic" font-weight="400" fill="#17201b">Amor <tspan fill="#c96f59" font-size="70">♡</tspan></text>
+  <text x="870" y="518" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="18" letter-spacing="2" fill="#5d6a63">FLOURISHED</text>
+  <text x="600" y="576" text-anchor="middle" font-family="Inter,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="25" fill="#5d6a63">cursive-text-generator.net</text>
+</svg>
