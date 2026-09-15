@@ -57,6 +57,9 @@ const STOP_LIGHT = new Set('a an the and or of for to in on with your you is are
 export function contentTokens(text) {
   return tokens(text).filter((t) => t.length > 1 && !STOP.has(t));
 }
+export function lightTokens(text) {
+  return tokens(text).filter((t) => t.length > 1 && !STOP_LIGHT.has(t));
+}
 export function keywordTokens(text) {
   const strict = contentTokens(text);
   return strict.length ? strict : tokens(text).filter((t) => t.length > 1 && !STOP_LIGHT.has(t));

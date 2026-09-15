@@ -18,5 +18,12 @@
     "height": 630,
     "caption": "“Dark Romance” rendered by the Gothic Font Generator in Bold Gothic, Fraktur Gothic Cross Ornate, Bold Gothic Dagger Cross presets"
   },
-  "_note": "Config-of-record for this page is scripts/build-dark-cluster.mjs; this file only feeds build-preview.mjs."
+  "_note": "Config-of-record for this page is scripts/build-dark-cluster.mjs; this file only feeds build-preview.mjs.",
+  "links": [
+    [
+      "Copy and Paste Fonts",
+      "/copy-and-paste-fonts.html",
+      "Every style in one place: cursive, bold, gothic, bubble, small and more."
+    ]
+  ]
 }

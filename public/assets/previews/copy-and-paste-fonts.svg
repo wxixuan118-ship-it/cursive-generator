@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Your Name shown in three copy and paste fonts: heart-framed bold cursive, starred bold sans and cross-framed gothic Fraktur">
+  <rect width="1200" height="630" fill="#fbfaf7"/>
+  <rect x="16" y="16" width="1168" height="598" rx="20" fill="#ffffff" stroke="#dfe6df" stroke-width="2"/>
+  <text x="80" y="110" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="#2f6b4f">COPY AND PASTE FONTS</text>
+  <text x="80" y="230" font-family="Georgia, Times New Roman, serif" font-size="64" fill="#5d6a63">Your Name</text>
+  <text x="82" y="300" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="44" fill="#c96f59">&#8595;</text>
+  <text x="80" y="420" font-family="Georgia, Times New Roman, serif" font-size="72" fill="#17201b">♡ 𝓨𝓸𝓾𝓻 𝓝𝓪𝓶𝓮 ♡</text>
+  <text x="80" y="490" font-family="Georgia, Times New Roman, serif" font-size="72" fill="#17201b">★ 𝗬𝗼𝘂𝗿 𝗡𝗮𝗺𝗲 ★</text>
+  <text x="80" y="560" font-family="Georgia, Times New Roman, serif" font-size="72" fill="#17201b">† 𝔜𝔬𝔲𝔯 𝔑𝔞𝔪𝔢 †</text>
+  <text x="1120" y="110" text-anchor="end" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="4" fill="#c96f59">CURSIVE · BOLD · GOTHIC · MORE</text>
+  <text x="1120" y="590" text-anchor="end" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="22" fill="#5d6a63">cursive-text-generator.net</text>
+</svg>

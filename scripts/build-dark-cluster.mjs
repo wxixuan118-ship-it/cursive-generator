@@ -344,7 +344,7 @@ const pages = {
       ['Cursive Text Generator', '/', 'Flowing script for a softer, more classical look.'],
       ['Old English Font Generator', '/old-english-font-generator.html', 'The tattoo and certificate flavour of the same blackletter family.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse 300+ Unicode styles beyond blackletter.'],
-    ],
+    ,['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.']],
     figure: { src: '/assets/previews/gothic-font-generator.svg', width: 1200, height: 630, alt: 'Dark Romance written with the gothic font generator in bold Fraktur, ornate-framed Fraktur and bold blackletter — the gothic font copy and paste styles on this page', caption: '“Dark Romance” rendered by the Gothic Font Generator in Bold Gothic, Fraktur Gothic Cross Ornate, Bold Gothic Dagger Cross presets' },
     source: { before: 'The letters here come from the ', name: 'Mathematical Alphanumeric Symbols block', href: 'https://www.unicode.org/charts/PDF/U1D400.pdf', after: ' of the Unicode Standard, which is why they render without a font install.' },
     faqTitle: 'Gothic Font FAQ',

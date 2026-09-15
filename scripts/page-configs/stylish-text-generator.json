@@ -1,0 +1,22 @@
+{
+  "keyword": "stylish text generator",
+  "file": "stylish-text-generator.html",
+  "h1": "Stylish Text Generator",
+  "sample": "Elena Rose",
+  "ids": "script,smallCaps,boldScript",
+  "figure": {
+    "styles": [
+      "script-d-sp2",
+      "smallCaps-d-fn2",
+      "boldScript-d-dia1"
+    ],
+    "tagline": "SCRIPT · SMALL CAPS · REFINED",
+    "alt": "Elena Rose written with the stylish text generator in diamond-accented script, bracketed small caps and bold script with a single diamond",
+    "sample": "Elena Rose",
+    "src": "/assets/previews/stylish-text-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Elena Rose” rendered by the Stylish Text Generator in Cursive Script Diamond Sparkle, Small Caps Tibetan ༺༻, Bold Cursive Solid Diamond presets"
+  },
+  "_note": "Config-of-record for this page is scripts/build-style-cluster.mjs (key: stylish); this file only feeds build-preview.mjs."
+}
