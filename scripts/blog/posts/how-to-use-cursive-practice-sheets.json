@@ -1,0 +1,43 @@
+{
+  "slug": "how-to-use-cursive-practice-sheets",
+  "navLabel": "Using Practice Sheets",
+  "title": "How to Use Cursive Practice Sheets: A Four-Week Plan for Kids and Adults",
+  "seoTitle": "How to Use Cursive Practice Sheets: A 4-Week Plan for Kids & Adults",
+  "description": "A four-week plan for cursive practice sheets: which letters to start with, how long each session should be, how to trace then copy, and when to move on.",
+  "excerpt": "Cursive practice sheets only work with a plan. Here is a four-week routine: which letters to start with, how long to practise, how to trace then copy, and when to move on.",
+  "tag": "How-to",
+  "date": "2026-09-16",
+  "readMinutes": 7,
+  "lede": "Printing a stack of cursive practice sheets is easy. Getting a child, or yourself, to actually improve with them takes a plan: the right letter order, short sessions, and a clear point at which tracing stops and writing starts.",
+  "related": [
+    ["Cursive Practice Sheets Generator", "/cursive-practice-sheets.html"],
+    ["Printable Cursive Practice Sheets", "/printable-cursive-handwriting-practice-sheets.html"],
+    ["Cursive Alphabet Practice Sheet", "/cursive-alphabet-practice-sheet.html"],
+    ["Cursive Name Tracing Generator", "/cursive-name-tracing-generator.html"],
+    ["Cursive Letters A–Z", "/cursive-letters-a-z.html"]
+  ],
+  "cta": {
+    "title": "Make a practice sheet",
+    "text": "Type a word, a name or the full alphabet, pick the number of lines and print a cursive practice sheet in seconds. Free, no login.",
+    "href": "/cursive-practice-sheets.html",
+    "label": "Open the practice sheet generator"
+  },
+  "faq": [
+    {
+      "q": "What age should a child start cursive practice sheets?",
+      "a": "Most children are ready between ages 7 and 9, once they can print all lowercase letters comfortably and hold a pencil without strain. Starting earlier rarely helps; the connecting strokes need finer motor control than print does."
+    },
+    {
+      "q": "How long should a cursive practice session be?",
+      "a": "Ten to fifteen minutes for children, twenty for adults, once a day. Handwriting is a motor skill, and short daily sessions build it faster than one long weekly session. Stop before the writing gets sloppy from fatigue."
+    },
+    {
+      "q": "Should beginners trace or copy?",
+      "a": "Trace first, then copy on the same sheet. Tracing teaches the stroke path; copying next to a model checks whether the path has been learned. Move from tracing to copying as soon as a letter can be traced neatly three times in a row."
+    },
+    {
+      "q": "Is it better to practise letters or whole words?",
+      "a": "Letters first, in stroke families, then words that use only the letters already learned. Whole-word practice too early bakes in bad letter shapes. A child's own name is the exception: it is motivating, so it is worth practising from week one as a tracing sheet."
+    }
+  ]
+}

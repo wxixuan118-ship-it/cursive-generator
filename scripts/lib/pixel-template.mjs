@@ -134,6 +134,6 @@ export function renderPixelPage(p, domain = DOMAIN) {
 <section class="px-section alt"><div class="wrap px-faq"><h2>${esc(p.faqTitle)}</h2>${faqHtml}</div></section>
 </main>
 <div class="px-toast" data-toast role="status" aria-live="polite"></div>
-<footer class="site-footer"><div class="footer-inner"><span>Cursive Text Generator</span><span class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="/sitemap.html">Sitemap</a></span></div></footer>
-<script src="/assets/navigation.js?v=20260913g"></script><script src="/assets/pixel-engine.js?v=20260909"></script><script src="/assets/pixel-cluster.js?v=20260909"></script></body></html>`;
+<footer class="site-footer"><div class="footer-inner"><span>Cursive Text Generator</span><span class="footer-links"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/blog/">Blog</a><a href="/privacy.html">Privacy Policy</a><a href="/terms.html">Terms</a><a href="/sitemap.html">Sitemap</a></span></div></footer>
+<script src="/assets/navigation.js?v=20260915"></script><script src="/assets/pixel-engine.js?v=20260909"></script><script src="/assets/pixel-cluster.js?v=20260909"></script></body></html>`;
 }

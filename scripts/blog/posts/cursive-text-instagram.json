@@ -1,0 +1,49 @@
+{
+  "slug": "cursive-text-instagram",
+  "order": 1,
+  "navLabel": "Cursive Text on Instagram",
+  "title": "How to Use Cursive Text on Instagram: Bio, Name and Captions",
+  "seoTitle": "Cursive Text for Instagram: Add It to Your Bio, Name and Captions",
+  "description": "Learn how to put cursive text in your Instagram bio, display name and captions, why it will not work in your username, and which cursive styles look right on every phone.",
+  "excerpt": "Copy cursive text into your Instagram bio, name and captions in under a minute, learn why usernames stay plain, and pick styles that display everywhere.",
+  "tag": "How-to",
+  "date": "2026-09-13",
+  "readMinutes": 6,
+  "lede": "Cursive text on Instagram is plain Unicode you paste into a text field. This guide covers where it works, where it does not, how to add it, and how to keep it readable.",
+  "related": [
+    [
+      "Cursive Name Generator",
+      "/cursive-name-generator.html"
+    ],
+    [
+      "Instagram Font Generator",
+      "/instagram-font-generator.html"
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "Cursive Compatibility Guide",
+      "/cursive-compatibility.html"
+    ]
+  ],
+  "faq": [
+    {
+      "q": "Can I use cursive text in my Instagram username?",
+      "a": "No. Instagram usernames (the @handle) accept only letters, numbers, periods and underscores. Cursive characters are rejected or stripped. Use cursive in the separate Name field or your bio instead."
+    },
+    {
+      "q": "Why does my cursive bio look different on my friend's phone?",
+      "a": "Cursive text is drawn by the fonts installed on each device, not by Instagram. An older phone or a different operating system may render the same characters with a different weight, or fall back to boxes if a font is missing. Bold cursive styles are the most consistent across devices."
+    },
+    {
+      "q": "Does cursive text count against the 150-character bio limit?",
+      "a": "Yes. Each cursive letter is one character, so a cursive bio has the same 150-character limit as a plain one. Decorated styles that add symbols around your text use up characters faster."
+    },
+    {
+      "q": "Is cursive text safe for Instagram accessibility?",
+      "a": "Screen readers may read each cursive character by its technical Unicode name or skip it, so keep essential information such as contact details, pronouns and links in plain text and use cursive for the decorative line only."
+    }
+  ]
+}

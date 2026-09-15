@@ -1,0 +1,70 @@
+<p>Cursive text from a generator is ordinary Unicode, which means any app that accepts Unicode input will take it. The catch is that platforms treat their fields differently: a display name is a label and accepts anything, a username is an identifier and accepts almost nothing, and a hashtag sits somewhere in between. Knowing which field you are pasting into matters more than which platform you are on.</p>
+
+<p>This guide goes platform by platform through the fields people actually use, then covers the two questions that come up everywhere: what gets stripped, and which style to choose.</p>
+
+<h2>The quick reference</h2>
+
+<div class="post-table-wrap">
+<table class="post-table">
+  <thead><tr><th>Platform</th><th>Display name</th><th>Username / handle</th><th>Bio / about</th><th>Posts, captions, messages</th></tr></thead>
+  <tbody>
+    <tr><td>Discord</td><td>Yes</td><td>No (plain letters, digits, . _)</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>TikTok</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes (captions and comments)</td></tr>
+    <tr><td>Instagram</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>X (Twitter)</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>Facebook</td><td>Partly (real-name rules)</td><td>No</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>WhatsApp</td><td>Yes (profile name)</td><td>—</td><td>Yes (about)</td><td>Yes</td></tr>
+    <tr><td>YouTube</td><td>Yes (channel name)</td><td>No (@handle)</td><td>Yes</td><td>Yes (titles, descriptions, comments)</td></tr>
+    <tr><td>Roblox</td><td>Yes</td><td>No</td><td>Yes</td><td>Filtered chat</td></tr>
+    <tr><td>Email</td><td>Yes (sender name)</td><td>No (address)</td><td>—</td><td>Yes, with caveats</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Discord</h2>
+
+<p>Discord is the friendliest large platform for cursive text. Global display names, per-server nicknames, server names, category names, "About me" and every message accept it. The exceptions are usernames, which since the 2023 username change are limited to lowercase letters, digits, periods and underscores, and text channel names, which are normalised to lowercase and dashes. Because Discord runs on desktop as often as on phones, test your name on both; Windows renders some script characters slightly differently. The <a href="/fonts-for-discord.html">Discord font generator</a> is tuned for the styles that look right in the Discord interface.</p>
+
+<h2>TikTok</h2>
+
+<p>TikTok display names, bios, captions and comments all accept cursive. Usernames do not. The thing to watch is length: TikTok bios are capped at 80 characters and cursive characters count as one each, so a decorated name can eat a third of the bio. Captions have more room. Hashtags in cursive are not recognised as hashtags, so keep those plain. See the <a href="/tiktok-font-generator.html">TikTok font generator</a> for styles that stay readable on the video overlay.</p>
+
+<h2>Instagram</h2>
+
+<p>Instagram behaves like TikTok: name, bio, captions and comments accept cursive; the @username does not. Instagram is also where most "boxes on someone else's phone" reports come from, because its audience spans the widest range of device ages. We cover the platform in detail in <a href="/blog/cursive-text-instagram/">how to use cursive text on Instagram</a>, and the <a href="/instagram-font-generator.html">Instagram font generator</a> defaults to the safest styles.</p>
+
+<h2>X (Twitter)</h2>
+
+<p>Display names, bios and posts accept cursive; handles do not. Two X-specific notes. First, the 280-character post limit counts most cursive characters as two, because they sit outside the Basic Multilingual Plane, so a fully cursive post has half the room. Second, cursive characters in a post are not matched by search, which is either a drawback or a feature depending on what you are posting.</p>
+
+<h2>Facebook</h2>
+
+<p>Facebook posts, comments, page names and the "About" section accept cursive. Personal profile names are the exception: Facebook's real-name policy rejects most decorative characters, and a name change with cursive letters is likely to be refused or reverted. Use cursive in the bio and in posts instead.</p>
+
+<h2>WhatsApp and messaging apps</h2>
+
+<p>WhatsApp, Telegram, Signal and iMessage all pass Unicode through untouched, so cursive works in profile names, "About" lines, group names and messages. The only risk is the recipient's device: an older Android phone may show boxes for lighter script styles. SMS is different. Plain SMS is limited to a narrow character set, and a message with cursive characters is converted to a different encoding that cuts the per-message limit from 160 characters to 70 and can cost more on some plans.</p>
+
+<h2>YouTube</h2>
+
+<p>Channel names, video titles, descriptions, community posts and comments accept cursive. Handles (@name) do not. Titles are the interesting case: cursive titles stand out in a feed but are invisible to search, since YouTube indexes the literal characters. A common compromise is a plain-text title with a cursive channel name.</p>
+
+<h2>Roblox and games</h2>
+
+<p>Roblox display names accept cursive; usernames are restricted to letters, digits and a single underscore, and the chat filter may block or replace unusual characters. Most other games follow the same pattern, with the display name open and the account name locked down. The <a href="/roblox-username-generator.html">Roblox username generator</a> produces names that pass the username rules and suggests a matching cursive display name.</p>
+
+<h2>Email</h2>
+
+<p>The sender name that appears in an inbox accepts cursive in Gmail, Outlook and Apple Mail, and so does the message body. Email addresses do not. Be cautious with subject lines: some spam filters treat heavy use of decorative Unicode as a signal, and some corporate mail gateways downgrade text to a limited encoding, which turns cursive into question marks. A cursive sign-off in the body is safe; a cursive subject line is a gamble.</p>
+
+<h2>What gets stripped, and why</h2>
+
+<p>Three things strip cursive text on every platform. <strong>Identifiers</strong> (usernames, handles, addresses, channel slugs) are restricted so they stay unique and typeable. <strong>Search and hashtags</strong> compare literal characters, so 𝓬𝓾𝓻𝓼𝓲𝓿𝓮 and cursive never match. <strong>Legacy encodings</strong> in SMS, some email gateways and old form back-ends cannot store characters outside the basic ranges and replace them with ? or drop them. None of these is a bug in the generator, and none can be worked around with a different style.</p>
+
+<h2>Which style to use where</h2>
+
+<p>When a platform accepts cursive, the remaining risk is the reader's device. <strong>Bold Cursive</strong> uses characters from one Unicode block that every current operating system renders, so it is the default recommendation for names and bios. Lighter <strong>Cursive Script</strong> borrows a few letters from an older block and occasionally shows a single box on old devices; it is fine for captions and posts where a stray box is cosmetic. Decorated styles with frames and sparkles are best kept to platforms with a young, phone-first audience. Before committing to a style, run it through the <a href="/cursive-compatibility.html">cursive compatibility test</a>, which shows every letter's Unicode block and flags the ones most likely to fail, and read <a href="/blog/cursive-text-shows-boxes/">why cursive text shows as boxes</a> if you are seeing placeholders already.</p>
+
+<h2>Conclusion</h2>
+
+<p>Cursive text works in display names, bios, posts and messages on every major platform, and fails in usernames, handles, hashtags and anything passed through an old encoding. Paste it into label fields, keep identifiers and searchable words plain, prefer Bold Cursive where the audience's devices are unknown, and test on a second phone. That covers Discord, TikTok, Instagram, X, Facebook, WhatsApp, YouTube, Roblox and email, and it will cover the next platform too, because the rule is about the field, not the app.</p>

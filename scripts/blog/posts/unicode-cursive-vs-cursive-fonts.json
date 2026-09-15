@@ -1,0 +1,49 @@
+{
+  "slug": "unicode-cursive-vs-cursive-fonts",
+  "order": 2,
+  "navLabel": "Unicode Cursive vs Fonts",
+  "title": "Unicode Cursive vs Cursive Fonts: What Is the Difference?",
+  "seoTitle": "Unicode Cursive vs Cursive Fonts: Which One Do You Actually Need?",
+  "description": "Unicode cursive is copy-and-paste text; a cursive font is a file you install. Learn how each works, where each one fails, and which to use for bios, documents, logos and print.",
+  "excerpt": "Unicode cursive is text you paste anywhere; a cursive font is a file you install. Here is how each works, where each fails, and which to pick for your project.",
+  "tag": "Explainer",
+  "date": "2026-09-13",
+  "readMinutes": 7,
+  "lede": "A cursive generator and a cursive font look similar on screen but behave very differently once you try to use them. This explainer draws the line between the two so you can pick the right tool.",
+  "related": [
+    [
+      "Cursive Fonts",
+      "/cursive-fonts.html"
+    ],
+    [
+      "Cursive Font Generator",
+      "/cursive-font-generator.html"
+    ],
+    [
+      "Free Commercial Cursive Fonts",
+      "/free-commercial-cursive-fonts.html"
+    ],
+    [
+      "Copy & Paste Cursive",
+      "/copy-and-paste/"
+    ]
+  ],
+  "faq": [
+    {
+      "q": "Is Unicode cursive a real font?",
+      "a": "No. Unicode cursive is a set of individual characters, mostly from the Mathematical Alphanumeric Symbols block, that resemble script letters. There is no font file involved; whatever fonts are on the reader's device decide how those characters look."
+    },
+    {
+      "q": "Can I use a cursive font on Instagram or Discord?",
+      "a": "Not directly. Apps like Instagram and Discord render text with their own fonts and do not let you install new ones. To show cursive there you need Unicode cursive text, which travels inside the message itself."
+    },
+    {
+      "q": "Which is better for a logo or printed invitation?",
+      "a": "A cursive font. Font files give you consistent letterforms, kerning, ligatures and full control over size and color, and they export cleanly to PDF or print. Unicode cursive can look uneven and depends on the fonts installed wherever the file is opened."
+    },
+    {
+      "q": "Does Unicode cursive hurt SEO or accessibility?",
+      "a": "It can. Search engines and screen readers see the technical characters rather than ordinary letters, so text in Unicode cursive may not be matched by a plain-text search and may be read aloud awkwardly. Keep headings, names and key information in normal text."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<p>Cursive text shows as boxes, question marks or empty squares when the device displaying it has no font that contains those characters. The generator did its job: it produced valid Unicode characters. What failed is the last step, where the reader's phone or browser looks for a glyph to draw and comes up empty.</p>
+
+<p>Understanding that single cause explains nearly every "broken cursive" report, and it points straight at the fixes.</p>
+
+<h2>Why cursive text shows as boxes: fonts, not the generator</h2>
+
+<p>Every character in your pasted text is a Unicode code point. The script-style letters used by cursive generators live mostly in the <em>Mathematical Alphanumeric Symbols</em> block, which sits outside the basic ranges that every font is guaranteed to cover. When a device meets a code point that none of its installed fonts include, the operating system substitutes a placeholder:</p>
+
+<ul>
+  <li><strong>A hollow rectangle (▯ or ☐)</strong>, often nicknamed "tofu", is the most common fallback on Android, Windows and Linux.</li>
+  <li><strong>A question mark or ?-in-a-diamond (�)</strong> appears when text was passed through a system that could not encode the character at all, for example an old database or an email gateway limited to a narrower character set.</li>
+  <li><strong>A blank gap or nothing</strong> happens when the app silently drops characters it cannot render.</li>
+</ul>
+
+<p>Because fallback happens per character, you can see a single box in the middle of an otherwise perfect word. That usually means one letter came from a less-supported block than the rest, which is common with the lighter Cursive Script style, where letters such as ℬ, ℰ, ℋ and ℯ come from the older <em>Letterlike Symbols</em> block rather than the mathematical block.</p>
+
+<h2>Where cursive text fails most often</h2>
+
+<p>Some environments are much more likely to show boxes than others, so it helps to know the pattern.</p>
+
+<div class="post-table-wrap">
+<table class="post-table">
+  <thead><tr><th>Environment</th><th>Risk</th><th>Why</th></tr></thead>
+  <tbody>
+    <tr><td>Current iOS and Android, major social apps</td><td>Low</td><td>System fonts cover the mathematical script blocks.</td></tr>
+    <tr><td>Older phones and budget devices</td><td>Medium</td><td>Smaller font sets; bold script usually survives, lighter styles may not.</td></tr>
+    <tr><td>Smart TVs, game consoles, car displays</td><td>High</td><td>Minimal fonts; expect boxes for anything decorative.</td></tr>
+    <tr><td>Email and SMS</td><td>Medium to high</td><td>Some gateways downgrade text to a limited encoding and replace characters with ?.</td></tr>
+    <tr><td>Form fields with strict validation</td><td>Rejects rather than boxes</td><td>Usernames, tax forms and payment fields often allow letters and digits only.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>How to fix cursive text that shows as boxes</h2>
+
+<p>Work through these in order. The first two solve the majority of cases.</p>
+
+<h3>1. Switch to Bold Cursive</h3>
+<p>Bold script is the most broadly supported cursive style because all 52 letters sit in one block that mainstream fonts have covered for years. Regenerate the text with the <a href="/">cursive text generator</a>, choose <strong>Bold Cursive</strong>, and paste again.</p>
+
+<div class="post-sample">𝓑𝓸𝓵𝓭 𝓒𝓾𝓻𝓼𝓲𝓿𝓮 𝓲𝓼 𝓽𝓱𝓮 𝓼𝓪𝓯𝓮 𝓬𝓱𝓸𝓲𝓬𝓮<small>Every letter from the mathematical bold script range</small></div>
+
+<h3>2. Remove decorations and mixed characters</h3>
+<p>Stars, hearts, brackets and diacritic "glitch" marks each come from a different block, and every extra block is another point of failure. Strip the decorations and keep only the letters. If you need a symbol, pick one that is common, such as a plain heart ♥ or star ★, rather than a rare variant.</p>
+
+<h3>3. Test on a second device before publishing</h3>
+<p>Paste the text into a note or a message to yourself on a different phone, or open your profile in a desktop browser. If you cannot borrow a device, ask a friend for a screenshot. This catches problems before your audience does.</p>
+
+<h3>4. Keep the essentials in plain text</h3>
+<p>Names, contact details, dates and links belong in ordinary characters. Use cursive for one line of emphasis. That way a box here or there is cosmetic instead of hiding information.</p>
+
+<h3>5. Use a real font when you control the page</h3>
+<p>If the text is going on your own website, in a document or on a printed piece, a cursive font file gives you identical output for every viewer and avoids the whole problem. Our guide to <a href="/blog/unicode-cursive-vs-cursive-fonts/">Unicode cursive vs cursive fonts</a> explains when each one fits.</p>
+
+<div class="post-note"><p><strong>What does not help:</strong> installing a font on your own device. That only changes what you see. Your followers' devices are unchanged, so the boxes remain for them.</p></div>
+
+<h2>Question marks instead of boxes: an encoding problem</h2>
+
+<p>Boxes and question marks look similar but come from different steps. A box means the character arrived and the device has no glyph for it. A question mark, especially a row of them, usually means the character never arrived: somewhere along the way the text was converted to an encoding that could not hold it, and each lost character became a <code>?</code>.</p>
+
+<p>You see this with older email systems, SMS routes that fall back to a limited alphabet, some legacy web forms and certain export tools. There is no style switch that fixes an encoding drop. The only reliable option is plain text in those channels, with cursive saved for platforms that handle full Unicode.</p>
+
+<h2>Conclusion</h2>
+
+<p>When cursive text shows as boxes or question marks, the cause is nearly always a missing font or a lossy encoding on the reader's side, not the generator. Regenerate the text in Bold Cursive, drop the decorations, test on a second device, and keep anything important in plain text. For pages and documents you control, use a cursive font instead and the problem disappears.</p>

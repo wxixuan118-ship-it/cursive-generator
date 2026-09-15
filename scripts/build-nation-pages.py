@@ -147,6 +147,7 @@ def render_page(p, layout):
   {ld(crumb_ld)}
   {ld(faq_ld)}
   {layout['style']}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6697313643773879" crossorigin="anonymous"></script>
 </head><body>"""
 
     aside_title = "Related pages" if is_lang else "Other nations"

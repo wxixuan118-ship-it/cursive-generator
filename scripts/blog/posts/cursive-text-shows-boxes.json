@@ -1,0 +1,49 @@
+{
+  "slug": "cursive-text-shows-boxes",
+  "order": 3,
+  "navLabel": "Fix Boxes & Question Marks",
+  "title": "Why Cursive Text Shows as Boxes or Question Marks (and How to Fix It)",
+  "seoTitle": "Cursive Text Showing as Boxes or Question Marks? Causes and Fixes",
+  "description": "Cursive text turning into boxes, question marks or blank squares is a missing-font problem, not a broken generator. Learn why it happens and five fixes that work on any device.",
+  "excerpt": "Cursive text turning into boxes or question marks is a missing-font issue, not a broken generator. Here is why it happens and five fixes that work on any device.",
+  "tag": "Troubleshooting",
+  "date": "2026-09-13",
+  "readMinutes": 5,
+  "lede": "You pasted cursive text and someone sees ▯▯▯▯ or ???? instead. The characters are fine; their device cannot draw them. Here is what is going on and how to get a result that shows up everywhere.",
+  "related": [
+    [
+      "Cursive Compatibility Guide",
+      "/cursive-compatibility.html"
+    ],
+    [
+      "Copy & Paste Cursive",
+      "/copy-and-paste/"
+    ],
+    [
+      "Bold Cursive Generator",
+      "/cursive-bold-generator.html"
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "faq": [
+    {
+      "q": "Why does cursive text look fine on my phone but broken on someone else's?",
+      "a": "Each device draws Unicode cursive with its own installed fonts. Your phone has a font that covers those characters; the other device does not, so it shows a placeholder box or question mark. Newer operating systems ship broader font coverage than older ones."
+    },
+    {
+      "q": "Which cursive style is least likely to show boxes?",
+      "a": "Bold Cursive (Unicode mathematical bold script) is the safest choice because every letter comes from one widely supported block. Lighter script, fraktur and decorated styles borrow characters from more blocks and fail more often."
+    },
+    {
+      "q": "Can I fix the boxes by installing a font on my own phone?",
+      "a": "Only for yourself. Installing a font changes what you see, not what your followers see. To fix the problem for everyone, choose a more widely supported style or keep the text plain."
+    },
+    {
+      "q": "Do boxes mean the platform blocks cursive text?",
+      "a": "Usually not. Boxes appear after the platform has already accepted the text; they show the characters exist but cannot be drawn. A platform that blocks special characters, such as Instagram usernames, rejects or strips them instead."
+    }
+  ]
+}

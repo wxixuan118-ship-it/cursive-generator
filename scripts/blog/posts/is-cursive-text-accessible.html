@@ -1,0 +1,63 @@
+<p>Cursive text from a generator is not styled text. It is a different set of characters that happen to look like styled text: 𝓪 is not the letter a in a script font, it is <em>Mathematical Bold Script Small A</em>, a symbol Unicode defined so that mathematicians could tell a script-style variable from an italic one. The Unicode Standard is explicit that these characters are <a href="https://www.unicode.org/versions/latest/core-spec/chapter-22/" target="_blank" rel="noopener nofollow">intended for mathematical and technical notation</a>, not for ordinary prose. Screen readers were built with that intent in mind, and it shows.</p>
+
+<p>That does not mean you should never use cursive text. It means you should know who cannot read it and keep a plain version within reach. This article covers what actually happens, who is affected, and a short set of habits that keep cursive text from becoming a barrier.</p>
+
+<h2>What a screen reader does with cursive text</h2>
+
+<p>Test the same cursive word across screen readers and you get three different results, sometimes from the same software in different apps.</p>
+
+<ul>
+  <li><strong>Read as the base letters.</strong> Some screen readers, in some contexts, map mathematical alphanumerics back to a–z and read "Elena" normally. This is the best case and the least common one; it depends on the screen reader recognising the block and the app exposing the raw text.</li>
+  <li><strong>Spelled out with full Unicode names.</strong> "Mathematical bold script capital E, mathematical bold script small l, mathematical bold script small e…" A five-letter name becomes a twenty-second announcement. This is common when a screen reader is set to describe unknown characters.</li>
+  <li><strong>Skipped entirely.</strong> Characters the screen reader has no name for are read as silence. The listener hears the surrounding text and nothing where your name should be. This is the worst case, and it is common with decorated styles that add combining marks, brackets and rare symbols.</li>
+</ul>
+
+<p>Which result you get depends on the screen reader (VoiceOver, TalkBack, NVDA, JAWS), its verbosity settings, the operating system version, and how the app hands text to the accessibility layer. You cannot control any of those from your side, which is why the safe assumption is that cursive text is not reliably readable by assistive technology.</p>
+
+<div class="post-sample">𝓔𝓵𝓮𝓷𝓪 → "mathematical bold script capital E, mathematical bold script small l…"<small>What a verbose screen reader announces for a five-letter cursive name</small></div>
+
+<h2>Who this affects</h2>
+
+<p>Screen reader users are the obvious group, but not the only one. Braille displays receive the same character stream and show either nothing or a code for an unknown symbol. Voice assistants that read messages aloud hit the same problem. Translation tools, search engines and text-to-speech features in reading apps treat cursive characters as symbols rather than words, so your name is untranslatable, unsearchable and unspeakable to them. And dyslexic readers, who benefit from clean, familiar letterforms, find decorative script harder to read in the first place.</p>
+
+<h2>Where cursive text is harmless, and where it is not</h2>
+
+<p>The distinction is whether the cursive text carries information a reader needs.</p>
+
+<div class="post-table-wrap">
+<table class="post-table">
+  <thead><tr><th>Use</th><th>Risk</th><th>Why</th></tr></thead>
+  <tbody>
+    <tr><td>Display name, with plain name in the bio</td><td>Low</td><td>Readable version is one line away</td></tr>
+    <tr><td>Decorative caption line or divider</td><td>Low</td><td>Nothing is lost if it is skipped</td></tr>
+    <tr><td>Whole bio in cursive</td><td>High</td><td>No readable fallback anywhere on the profile</td></tr>
+    <tr><td>Contact details, prices, dates, instructions</td><td>High</td><td>Information becomes silence or noise</td></tr>
+    <tr><td>Body text on a web page you own</td><td>High</td><td>Fails accessibility guidelines you are responsible for</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Five habits that keep cursive text accessible</h2>
+
+<h3>1. Put a plain-text version within one line</h3>
+<p>If your display name is cursive, write your name in ordinary letters in the first line of the bio. On a website, use the cursive text as decoration and keep the real heading in plain text. A listener then hears the plain version immediately after the decorated one.</p>
+
+<h3>2. Never put information in cursive</h3>
+<p>Email addresses, phone numbers, prices, dates, links, event names and instructions stay plain. Cursive is for names, taglines and emphasis, where losing it costs nothing.</p>
+
+<h3>3. Prefer single-block styles</h3>
+<p>Styles that use only the Mathematical Alphanumeric Symbols block, such as <a href="/cursive-bold-generator.html">Bold Cursive</a>, are the ones modern screen readers are most likely to map back to plain letters. Styles that mix in Letterlike Symbols, combining marks, brackets and sparkles are the ones most likely to be skipped. The <a href="/cursive-compatibility.html">cursive compatibility test</a> shows which block each character comes from.</p>
+
+<h3>4. Keep it short</h3>
+<p>A five-letter cursive name spelled out is annoying. A forty-word cursive bio spelled out is unusable. If the plain version would take longer than a few seconds to hear, the cursive version is too long.</p>
+
+<h3>5. Use a real font when you control the page</h3>
+<p>On your own website, a document or a design, use an actual cursive font instead of Unicode characters. The text underneath stays plain, so screen readers, search engines and translators read it normally while sighted visitors see the script. Our guide to <a href="/blog/unicode-cursive-vs-cursive-fonts/">Unicode cursive vs cursive fonts</a> explains how to set that up. Unicode cursive from the <a href="/">cursive text generator</a> exists for the places where you cannot choose a font, which is exactly where the habits above matter.</p>
+
+<h2>Why generators cannot fix this</h2>
+
+<p>People sometimes ask for an "accessible cursive style". There is no such thing, because the problem is not the style; it is that the characters are symbols rather than letters, and only the screen reader can decide how to announce a symbol. A generator can steer you toward the single-block styles that fare best, and ours does, but the fallback plain text has to come from you.</p>
+
+<h2>Conclusion</h2>
+
+<p>Unicode cursive is not accessible in itself: screen readers read it letter by letter with long symbol names, skip it, or occasionally map it back to plain text, and you cannot control which. It is still fine to use, as long as it never carries information and a plain-text version sits within a line of it. Keep names and taglines in cursive if you like them, keep everything else plain, choose Bold Cursive when you want the best odds of being read, and use a real font on pages you own. That is the whole of it, and it costs nothing.</p>

@@ -1,0 +1,65 @@
+<p>Unicode cursive and a cursive font both put script-style letters on a screen, and that is roughly where the similarity ends. <strong>Unicode cursive</strong> is text: a string of special characters that look like handwriting and can be pasted into almost any text box. A <strong>cursive font</strong> is software: a file that tells a program how to draw ordinary letters in a script style, and it only works where that file is installed or loaded.</p>
+
+<p>Knowing which one you are dealing with saves a lot of frustration, because most "why doesn't this work" questions about cursive text come down to using one when the situation calls for the other.</p>
+
+<h2>What Unicode cursive is and how a cursive text generator makes it</h2>
+
+<p>Unicode cursive is built from characters that were never meant for decoration. The Unicode standard includes a block called <em>Mathematical Alphanumeric Symbols</em> that provides script, bold script, fraktur, double-struck and other variants of the Latin alphabet so that mathematicians can write formulas where 𝒜 and A mean different things. A cursive text generator simply maps each letter you type to its script-variant code point and hands you the result.</p>
+
+<div class="post-sample">Hello → 𝓗𝓮𝓵𝓵𝓸 → 𝐻𝑒𝓁𝓁𝑜<small>Plain text, Bold Cursive, Cursive Script (all three are Unicode text)</small></div>
+
+<p>Because the output is text, it behaves like text. You can paste it into an Instagram bio, a Discord name, a WhatsApp message, a spreadsheet cell or a game chat, and it will keep its shape as long as the device on the other end has a font that covers those characters. Nothing is installed, nothing is uploaded, and there is no file to lose.</p>
+
+<p>There are trade-offs baked in. The alphabet is limited to what the standard defines: basic Latin letters and digits, with no accented characters, no punctuation variants and only a handful of styles. Kerning and ligatures, the details that make real cursive flow, do not exist. And the reader's device, not you, decides how the letters look.</p>
+
+<h2>What a cursive font is and where it can be used</h2>
+
+<p>A cursive font is a file (usually <code>.ttf</code>, <code>.otf</code> or <code>.woff2</code>) containing drawn outlines for each glyph plus rules for spacing and joining them. When you install it on your computer or load it on a website, any ordinary text set in that font appears in cursive. The underlying characters stay plain, which is why you can search, spell-check and select the text normally.</p>
+
+<p>Fonts shine wherever you control the environment: documents, presentations, printed invitations, logos, video titles, and websites where you can embed the font file. A well-made script font handles accents and punctuation, joins letters with contextual alternates, and scales cleanly to any size. Designers reach for fonts precisely because the result looks the same for every viewer.</p>
+
+<p>The limit is equally clear. If you type in a cursive font and paste the text into an app that does not have that font, the app renders plain letters. Instagram, TikTok, Discord, iMessage and most games do not let users install fonts, so a cursive font cannot travel into them. Fonts also come with licences, and a font that is free for personal use may not be free for a logo or a product.</p>
+
+<h2>Unicode cursive vs cursive fonts: side-by-side comparison</h2>
+
+<div class="post-table-wrap">
+<table class="post-table">
+  <thead><tr><th>Question</th><th>Unicode cursive</th><th>Cursive font</th></tr></thead>
+  <tbody>
+    <tr><td>What is it?</td><td>Special text characters</td><td>A font file (.ttf / .otf / .woff2)</td></tr>
+    <tr><td>Works in social apps and chats?</td><td>Yes, anywhere text can be pasted</td><td>No, unless the app supports custom fonts</td></tr>
+    <tr><td>Looks identical for every viewer?</td><td>No, depends on their device fonts</td><td>Yes, where the font is installed or embedded</td></tr>
+    <tr><td>Accents, punctuation, other scripts?</td><td>Limited to basic Latin letters and digits</td><td>Whatever the font includes; often full coverage</td></tr>
+    <tr><td>Ligatures and letter joins?</td><td>None</td><td>Usually, in good script fonts</td></tr>
+    <tr><td>Searchable and screen-reader friendly?</td><td>Poorly</td><td>Yes, the text stays plain</td></tr>
+    <tr><td>Print, PDF, logo work?</td><td>Not recommended</td><td>Designed for it</td></tr>
+    <tr><td>Setup</td><td>None; copy and paste</td><td>Install or embed; check the licence</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Which one to use for your project</h2>
+
+<p>Pick by destination, not by appearance. The question to ask is whether you control the fonts where the text will be seen.</p>
+
+<ul>
+  <li><strong>Social bios, display names, captions, chat messages, usernames on platforms that allow it:</strong> Unicode cursive. It is the only option that survives the paste. Start with the <a href="/">cursive text generator</a> and prefer bold script styles for the widest device support.</li>
+  <li><strong>Documents, slides, invitations, printed cards:</strong> a cursive font. Our <a href="/cursive-fonts.html">cursive fonts page</a> lists free options and explains how to install them.</li>
+  <li><strong>Logos and branding:</strong> a cursive font with a commercial licence, converted to outlines in your design tool so the final artwork does not depend on the font being installed.</li>
+  <li><strong>Your own website:</strong> a web font loaded with <code>@font-face</code>. Reserve Unicode cursive for a single decorative line at most; body text in script characters is slow to read and invisible to search.</li>
+  <li><strong>Learning or teaching handwriting:</strong> neither, strictly. A <a href="/cursive-practice-sheets.html">practice sheet</a> or <a href="/cursive-alphabet-practice-sheet.html">alphabet practice sheet</a> &mdash; or one of the ready-made <a href="/printable-cursive-handwriting-practice-sheets.html">printable cursive handwriting practice sheets</a> &mdash; built with a teaching-style cursive font is the practical choice.</li>
+</ul>
+
+<h2>Common misconceptions about cursive text and cursive fonts</h2>
+
+<p><strong>"The generator gives me a font I can download."</strong> A text generator produces characters, not a file. If you need a file, you need a font.</p>
+
+<p><strong>"Cursive text is broken on my friend's phone, so the generator is faulty."</strong> The characters are correct; the friend's device lacks a font that draws them. Switching to a bold script style usually fixes it, and our guide on <a href="/blog/cursive-text-shows-boxes/">why cursive text shows as boxes</a> covers the rest.</p>
+
+<p><strong>"I typed in a cursive font in Word and pasted into Instagram, but it came out plain."</strong> That is expected. The font stayed on your computer; only the plain letters travelled.</p>
+
+<p><strong>"Unicode cursive is accessible because it is text."</strong> It is text, but not ordinary text. Screen readers may announce each character's long technical name. Treat it as decoration.</p>
+
+<h2>Conclusion</h2>
+
+<p>Unicode cursive is portable text with limited styling; a cursive font is rich styling that stays where it is installed. Use Unicode cursive when you need script letters inside an app you do not control, and a cursive font when you control the page, the document or the print run. Most people end up using both, for different jobs.</p>

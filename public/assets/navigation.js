@@ -108,9 +108,10 @@
     // Blog posts — newest first. Add a new post here and on /blog/index.html.
     blog: [
       ["All Posts", "/blog/"],
-      ["Cursive Text on Instagram", "/blog/cursive-text-instagram/"],
+      ["Choosing a Signature Style", "/blog/cursive-signature-styles/"],
+      ["Fix Boxes & Question Marks", "/blog/cursive-text-shows-boxes/"],
       ["Unicode Cursive vs Fonts", "/blog/unicode-cursive-vs-cursive-fonts/"],
-      ["Fix Boxes & Question Marks", "/blog/cursive-text-shows-boxes/"]
+      ["Cursive Text on Instagram", "/blog/cursive-text-instagram/"]
     ],
     dark: [
       ["Gothic Fonts", "/gothic-font-generator.html"],
@@ -141,6 +142,16 @@
     ["Australia in Cursive", "/australia-in-cursive/"],
     ["England in Cursive", "/england-in-cursive/"],
     ["Ireland in Cursive", "/ireland-in-cursive/"]
+  ];
+
+  // Legal / site pages: rendered as a footer column on every page so the
+  // policy pages are always one click away (AdSense reviewers look for this).
+  const legalLinks = [
+    ["Privacy Policy", "/privacy.html"],
+    ["Terms of Use", "/terms.html"],
+    ["About", "/about.html"],
+    ["Contact", "/contact.html"],
+    ["Blog", "/blog/"]
   ];
 
   const path = location.pathname.replace(/\/index\.html$/, "/");
@@ -242,6 +253,7 @@
       ${col("Worksheets", sections.worksheets)}
       ${col("Nation in Cursive", nationLinks)}
       ${col("Blog", sections.blog)}
+      ${col("Legal", legalLinks)}
     </div>`;
     footer.insertBefore(nav, footer.firstChild);
   }

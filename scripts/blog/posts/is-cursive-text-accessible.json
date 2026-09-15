@@ -1,0 +1,37 @@
+{
+  "slug": "is-cursive-text-accessible",
+  "navLabel": "Cursive Text & Screen Readers",
+  "title": "Is Cursive Text Accessible? What Screen Readers Do With Unicode Cursive",
+  "seoTitle": "Is Cursive Text Accessible? Screen Readers and Unicode Cursive",
+  "description": "Screen readers read Unicode cursive letter by letter, skip it, or spell it out as maths symbols. Learn what happens, who it affects, and how to use cursive text responsibly.",
+  "excerpt": "Unicode cursive looks like text but screen readers treat it as maths symbols: read letter by letter, skipped, or spelled out. Here is what happens and how to use cursive text without locking people out.",
+  "tag": "Explainer",
+  "date": "2026-09-18",
+  "readMinutes": 6,
+  "lede": "Cursive text from a generator looks like your name in a nicer font. To a screen reader it is a string of mathematical symbols. This guide explains what blind and low-vision users actually hear, and how to enjoy cursive text without making your profile unreadable to them.",
+  "related": [
+    ["Cursive Text Generator", "/"],
+    ["Cursive Compatibility Test", "/cursive-compatibility.html"],
+    ["Bold Cursive Generator", "/cursive-bold-generator.html"],
+    ["Copy & Paste Cursive", "/copy-and-paste/"],
+    ["Unicode Cursive vs Cursive Fonts", "/blog/unicode-cursive-vs-cursive-fonts/"]
+  ],
+  "faq": [
+    {
+      "q": "Do screen readers read cursive Unicode text at all?",
+      "a": "Inconsistently. Depending on the screen reader, its version and its settings, cursive characters may be read as the underlying letters, spelled out with their full Unicode names, or skipped as silence. There is no setting a viewer can rely on, so you should assume the text is hard to hear."
+    },
+    {
+      "q": "Is cursive text a WCAG failure?",
+      "a": "On a page you publish, decorative Unicode that carries meaning fails the spirit of WCAG's text-alternatives and readability criteria, because assistive technology cannot reliably read it. In a social media bio you do not control the page, but the effect on the listener is the same."
+    },
+    {
+      "q": "Which cursive style is easiest for screen readers?",
+      "a": "None is reliably read, but styles that use only the Mathematical Alphanumeric Symbols block, such as Bold Cursive, are the ones most likely to be mapped back to plain letters by modern screen readers. Styles that mix in Letterlike Symbols or combining marks fare worst."
+    },
+    {
+      "q": "How can I make a cursive display name accessible?",
+      "a": "Keep the display name in cursive if you like, but put your plain-text name in the bio or the first line of the about section, keep the username plain, and never put contact details, prices or instructions in cursive. Anyone using a screen reader then has a readable version within one line."
+    }
+  ]
+}

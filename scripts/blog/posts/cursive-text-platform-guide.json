@@ -1,0 +1,37 @@
+{
+  "slug": "cursive-text-platform-guide",
+  "navLabel": "Cursive Text by Platform",
+  "title": "Where Cursive Text Works: Discord, TikTok, X, WhatsApp, Facebook and More",
+  "seoTitle": "Where Cursive Text Works: Discord, TikTok, X, WhatsApp & More",
+  "description": "A platform-by-platform guide to cursive text: which apps show it in names, bios, posts and messages, where it gets stripped, and which style to use on each.",
+  "excerpt": "Cursive text behaves differently on every platform. This guide covers Discord, TikTok, X, WhatsApp, Facebook, YouTube, Roblox and email: where it shows, where it is stripped, and which style to pick.",
+  "tag": "Explainer",
+  "date": "2026-09-17",
+  "readMinutes": 7,
+  "lede": "The same cursive text can be a display name on Discord, a caption on TikTok and a rejected username on Roblox. Here is what each major platform does with it, field by field, so you know before you paste.",
+  "related": [
+    ["Discord Font Generator", "/fonts-for-discord.html"],
+    ["TikTok Font Generator", "/tiktok-font-generator.html"],
+    ["Instagram Font Generator", "/instagram-font-generator.html"],
+    ["Roblox Username Generator", "/roblox-username-generator.html"],
+    ["Cursive Compatibility Test", "/cursive-compatibility.html"]
+  ],
+  "faq": [
+    {
+      "q": "Why does cursive text work in my display name but not my username?",
+      "a": "Usernames are identifiers, so almost every platform restricts them to plain letters, numbers and a few symbols to keep them typeable and unique. Display names are labels, not identifiers, so they accept any Unicode character the app can render."
+    },
+    {
+      "q": "Does cursive text affect search or hashtags?",
+      "a": "Yes. Search treats 𝓬𝓾𝓻𝓼𝓲𝓿𝓮 and cursive as different strings, and hashtags made of cursive characters are usually not linked at all. Keep hashtags, @mentions, brand names and anything you want to be searchable in plain text."
+    },
+    {
+      "q": "Can I use cursive text in Discord channel names?",
+      "a": "Server names and display names accept cursive freely. Text channel names are lowercased and limited to letters, numbers, dashes and underscores, so cursive is stripped; voice channel names and category names are more permissive."
+    },
+    {
+      "q": "Which cursive style works on the most platforms?",
+      "a": "Bold Cursive. Its characters come from a single Unicode block that current iOS, Android, Windows and macOS all render, so it survives on every platform that allows Unicode at all. Use it when you are unsure."
+    }
+  ]
+}
