@@ -1,0 +1,1108 @@
+{
+  "type": "username",
+  "keyword": "minecraft username generator",
+  "file": "minecraft-username-generator.html",
+  "label": "Minecraft",
+  "title": "Minecraft Username Generator – Cool & OG Minecraft Names",
+  "description": "Minecraft username generator: turn your name into cool, OG, funny, builder, PvP or cozy Minecraft names that fit Java's 3–16 character rules and Bedrock too.",
+  "h1": "Minecraft Username Generator",
+  "appName": "Minecraft Username Generator",
+  "crumb": [
+    "Gaming Usernames",
+    "/gaming-username-generator.html"
+  ],
+  "linkNote": "Java-rule Minecraft names (3–16 characters, underscores only) that fit Bedrock too.",
+  "kicker": "Free · 8 Minecraft styles · 24 names per batch · Java & Bedrock safe",
+  "sub": "Cool, OG, funny, builder, PvP and cozy Minecraft name ideas built around your name",
+  "intro": "This Minecraft username generator builds names around your name or a word and keeps every result inside Java Edition's rules — 3 to 16 characters, letters, numbers and underscores only — so it also works as a Bedrock gamertag. Pick a style, generate 24 Minecraft usernames at a time, filter by length, heart the ones you like and copy them into your Microsoft account profile.",
+  "perks": [
+    "Fits Java's 3–16 character rule",
+    "Underscores only — no symbols, no spaces",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "ben",
+  "seed": 2009,
+  "defaults": {
+    "symbols": "none",
+    "separator": "underscore",
+    "letters": "mixed"
+  },
+  "placeholder": "ben, alex, steve, pixel, ender…",
+  "stylesLegend": "Choose a Minecraft style",
+  "resultsTitle": "Minecraft username ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "mr",
+      "sir",
+      "big",
+      "lil",
+      "not",
+      "real",
+      "just",
+      "captain"
+    ],
+    "suffixes": [
+      "x",
+      "z",
+      "mc",
+      "gg",
+      "hq",
+      "one",
+      "zero",
+      "craft",
+      "yt",
+      "xd"
+    ]
+  },
+  "styles": {
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "ender"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "wither"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "hq",
+        "one",
+        "zero",
+        "mc"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "og": {
+      "label": "OG",
+      "icon": "◇",
+      "adjectives": [
+        "og",
+        "old",
+        "true",
+        "real",
+        "pure",
+        "raw",
+        "prime",
+        "first",
+        "alpha",
+        "beta",
+        "grey",
+        "ash"
+      ],
+      "nouns": [
+        "vex",
+        "nyx",
+        "ryn",
+        "kai",
+        "zed",
+        "ivo",
+        "ash",
+        "ely",
+        "ora",
+        "ren",
+        "flint",
+        "haar",
+        "rime",
+        "onyx",
+        "jinx",
+        "zane",
+        "arc",
+        "sol"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "og",
+        "one"
+      ],
+      "symbols": [
+        "◇",
+        "★",
+        "✦",
+        "⋆",
+        "◆",
+        "▲"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "sad"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "spud",
+        "llama",
+        "chicken",
+        "creeper",
+        "villager",
+        "pig"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "xd",
+        "lol",
+        "z"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "builder": {
+      "label": "Builder",
+      "icon": "⬛",
+      "adjectives": [
+        "cobble",
+        "oak",
+        "stone",
+        "quartz",
+        "copper",
+        "spruce",
+        "brick",
+        "glass",
+        "deepslate",
+        "terracotta",
+        "mossy",
+        "prismarine"
+      ],
+      "nouns": [
+        "builder",
+        "architect",
+        "mason",
+        "crafter",
+        "designer",
+        "blockhead",
+        "engineer",
+        "planner",
+        "sculptor",
+        "artisan",
+        "foreman",
+        "landscaper",
+        "framer",
+        "carpenter",
+        "tiler",
+        "blueprint",
+        "scaffold",
+        "beacon"
+      ],
+      "suffixes": [
+        "builds",
+        "craft",
+        "mc",
+        "hq",
+        "works",
+        "co"
+      ],
+      "symbols": [
+        "⬛",
+        "◆",
+        "✦",
+        "▲",
+        "◇",
+        "★"
+      ]
+    },
+    "pvp": {
+      "label": "PvP",
+      "icon": "⚔",
+      "adjectives": [
+        "clutch",
+        "rapid",
+        "elite",
+        "lethal",
+        "swift",
+        "prime",
+        "apex",
+        "cracked",
+        "sharp",
+        "silent",
+        "quick",
+        "pro"
+      ],
+      "nouns": [
+        "sword",
+        "bow",
+        "crystal",
+        "netherite",
+        "diamond",
+        "axe",
+        "shield",
+        "totem",
+        "combo",
+        "crit",
+        "warrior",
+        "knight",
+        "slayer",
+        "hunter",
+        "duelist",
+        "champion",
+        "reaper",
+        "blade"
+      ],
+      "suffixes": [
+        "pvp",
+        "gg",
+        "x",
+        "one",
+        "zero",
+        "z"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "cozy": {
+      "label": "Cozy",
+      "icon": "🌱",
+      "adjectives": [
+        "cozy",
+        "sleepy",
+        "lazy",
+        "chill",
+        "mellow",
+        "soft",
+        "little",
+        "quiet",
+        "sunny",
+        "mossy",
+        "comfy",
+        "warm"
+      ],
+      "nouns": [
+        "cottage",
+        "garden",
+        "meadow",
+        "farm",
+        "bee",
+        "sheep",
+        "axolotl",
+        "frog",
+        "cat",
+        "flower",
+        "mushroom",
+        "campfire",
+        "hearth",
+        "pond",
+        "orchard",
+        "cabin",
+        "berry",
+        "honey"
+      ],
+      "suffixes": [
+        "craft",
+        "mc",
+        "farm",
+        "cottage",
+        "zz",
+        "co"
+      ],
+      "symbols": [
+        "🌱",
+        "☺",
+        "⋆",
+        "♡",
+        "☆",
+        "˚"
+      ]
+    },
+    "mob": {
+      "label": "Mobs & Lore",
+      "icon": "☠",
+      "adjectives": [
+        "ender",
+        "wither",
+        "nether",
+        "shadow",
+        "hollow",
+        "ancient",
+        "cursed",
+        "deep",
+        "dark",
+        "silent",
+        "warden",
+        "sculk"
+      ],
+      "nouns": [
+        "enderman",
+        "creeper",
+        "wither",
+        "warden",
+        "phantom",
+        "ghast",
+        "blaze",
+        "piglin",
+        "drowned",
+        "stray",
+        "husk",
+        "ravager",
+        "vex",
+        "allay",
+        "sniffer",
+        "shulker",
+        "guardian",
+        "evoker"
+      ],
+      "suffixes": [
+        "mc",
+        "x",
+        "one",
+        "zero",
+        "z",
+        "og"
+      ],
+      "symbols": [
+        "☠",
+        "✦",
+        "◆",
+        "▲",
+        "☾",
+        "✧"
+      ]
+    },
+    "redstone": {
+      "label": "Redstone & Tech",
+      "icon": "⚙",
+      "adjectives": [
+        "redstone",
+        "piston",
+        "sticky",
+        "quantum",
+        "binary",
+        "logic",
+        "auto",
+        "chunk",
+        "tick",
+        "signal",
+        "hopper",
+        "observer"
+      ],
+      "nouns": [
+        "engineer",
+        "circuit",
+        "piston",
+        "hopper",
+        "comparator",
+        "clock",
+        "farm",
+        "machine",
+        "contraption",
+        "lab",
+        "tick",
+        "signal",
+        "flux",
+        "core",
+        "reactor",
+        "matrix",
+        "logic",
+        "byte"
+      ],
+      "suffixes": [
+        "mc",
+        "lab",
+        "hq",
+        "tech",
+        "x",
+        "one"
+      ],
+      "symbols": [
+        "⚙",
+        "◆",
+        "✦",
+        "▲",
+        "⌁",
+        "◇"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:og",
+      "OG"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:builder",
+      "Builder"
+    ],
+    [
+      "style:pvp",
+      "PvP"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Java-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your Minecraft Name for Discord",
+    "text": "Minecraft usernames are plain text, but your server Discord and YouTube names can carry pixel-style or fancy letters. Copy a name here, then style it.",
+    "links": [
+      [
+        "Minecraft Small Font Generator",
+        "/minecraft-small-font.html"
+      ],
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Minecraft Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the Minecraft style you choose, and the options under Customize. Symbols are off, the separator is an underscore and letters are mixed case by default, so every result passes Java's username rules and looks like a name you would see in chat.",
+      "Leave the word blank and the generator pairs two Minecraft words instead — Frost_Wither, Cobble_Mason, Sleepy_Axolotl — so it also works as a random Minecraft name generator for an alt or a server persona."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a favorite block or mob. The generator keeps it whole and builds around it: ben becomes Frost_Ben, BenCraft or Ender_Ben."
+      ],
+      [
+        "Pick a Minecraft username style",
+        "Cool, OG, funny, builder, PvP, cozy, mobs & lore or redstone & tech. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Keep Java-safe on, heart the ones you like, then copy and paste into your Microsoft account profile at minecraft.net to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Minecraft Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Every example is 16 characters or fewer with underscores only, so it fits a Java username as written. Click any Minecraft name to copy it.",
+    "groups": [
+      {
+        "key": "cool",
+        "title": "Cool Minecraft Usernames",
+        "blurb": "Frost, vortex, ender, wither — sharp names for a skin that matches. The [cool username generator](/cool-username-generator.html) has longer versions.",
+        "examples": [
+          "Frost_Vortex",
+          "SilentApex",
+          "Ender_Drift",
+          "Ben_Zero",
+          "PhantomRift",
+          "NeonWither",
+          "Arctic_Wolf",
+          "VaporHQ"
+        ]
+      },
+      {
+        "key": "og",
+        "title": "OG Minecraft Usernames",
+        "blurb": "Vex, nyx, flint, sol — three-to-five-letter names, the tier players trade and search for. The [rare username generator](/rare-username-generator.html) digs deeper.",
+        "examples": [
+          "Vex",
+          "Nyxo",
+          "OG_Ben",
+          "Flint",
+          "True_Sol",
+          "RynX",
+          "Alpha_Arc",
+          "Zane"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Minecraft Usernames",
+        "blurb": "Creeper, villager, pig, toast — names that get a laugh in server chat.",
+        "examples": [
+          "Sleepy_Creeper",
+          "Grumpy_Villager",
+          "Spicy_Pig",
+          "WobblyToast",
+          "Angry_Chicken",
+          "BenPants",
+          "SoggyGoose",
+          "Taco_Lord"
+        ]
+      },
+      {
+        "key": "builder",
+        "title": "Builder Minecraft Usernames",
+        "blurb": "Cobble, oak, quartz, mason — names for creative-mode and build-server players.",
+        "examples": [
+          "Cobble_Mason",
+          "OakArchitect",
+          "Quartz_Crafter",
+          "Ben_Builds",
+          "DeepslateDesigner",
+          "Spruce_Engineer",
+          "MossyArtisan",
+          "BrickBlueprint"
+        ]
+      },
+      {
+        "key": "pvp",
+        "title": "PvP Minecraft Usernames",
+        "blurb": "Sword, crystal, netherite, combo — names for Hypixel, SMP wars and duels.",
+        "examples": [
+          "Clutch_Sword",
+          "CrystalDuelist",
+          "Netherite_Ben",
+          "RapidCombo",
+          "Elite_Slayer",
+          "BenPvP",
+          "SharpBlade",
+          "Prime_Totem"
+        ]
+      },
+      {
+        "key": "cozy",
+        "title": "Cozy Minecraft Usernames",
+        "blurb": "Cottage, bee, axolotl, campfire — names for farms, cottagecore builds and chill SMPs.",
+        "examples": [
+          "Sleepy_Axolotl",
+          "CozyCottage",
+          "Mossy_Meadow",
+          "Ben_Farm",
+          "LittleBee",
+          "Sunny_Orchard",
+          "ComfyFrog",
+          "Honey_Hearth"
+        ]
+      },
+      {
+        "key": "mob",
+        "title": "Mob & Lore Minecraft Usernames",
+        "blurb": "Enderman, warden, ghast, sculk — names from the game's own monsters and deep-dark lore.",
+        "examples": [
+          "Hollow_Warden",
+          "EnderGhast",
+          "Sculk_Phantom",
+          "Ben_Piglin",
+          "AncientAllay",
+          "Cursed_Shulker",
+          "SilentEvoker",
+          "Nether_Ravager"
+        ]
+      },
+      {
+        "key": "redstone",
+        "title": "Redstone Minecraft Usernames",
+        "blurb": "Piston, hopper, comparator, tick — names for redstone engineers and technical players.",
+        "examples": [
+          "Redstone_Ben",
+          "PistonEngineer",
+          "Sticky_Circuit",
+          "HopperClock",
+          "Ben_Lab",
+          "QuantumComparator",
+          "Tick_Machine",
+          "LogicCore"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "Frost_Ben",
+      "BenCraft",
+      "OG_Ben",
+      "Sleepy_Creeper",
+      "Cobble_Mason",
+      "Clutch_Sword"
+    ],
+    "alt": "Minecraft username generator example: the name ben turned into Frost_Ben, BenCraft, OG_Ben, Sleepy_Creeper and other Minecraft name ideas",
+    "caption": "One name in, eight Minecraft styles out — every result follows Java Edition's username rules.",
+    "tagline": "COOL · OG · FUNNY · BUILDER · PVP",
+    "sample": "ben",
+    "src": "/assets/previews/minecraft-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Java vs Bedrock",
+    "title": "Minecraft Usernames on Java, Bedrock & Servers",
+    "intro": "Java and Bedrock use different name systems. These shortcuts fit each one.",
+    "cards": [
+      {
+        "icon": "⬛",
+        "title": "Java Minecraft Usernames",
+        "text": "3–16 characters, letters, numbers and underscores; unique across all Java players. Change it once every 30 days from your Microsoft account profile; the old name is held for 37 days.",
+        "examples": [
+          "Frost_Ben",
+          "BenCraft",
+          "OG_Ben"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "separator": "underscore",
+          "letters": "mixed"
+        },
+        "button": "Generate Java-safe names ↑"
+      },
+      {
+        "icon": "▶",
+        "title": "Bedrock Minecraft Usernames",
+        "text": "Bedrock uses your Xbox gamertag — 12 characters, letters, numbers and spaces, with a #suffix if taken. Use Short and no separator so one name fits both editions.",
+        "examples": [
+          "FrostBen",
+          "BenCraft",
+          "EnderBen"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "none",
+          "separator": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate Bedrock names ↑",
+        "link": [
+          "Gamertag generator",
+          "/gamertag-generator.html"
+        ]
+      },
+      {
+        "icon": "⚔",
+        "title": "Minecraft Usernames for Hypixel & SMPs",
+        "text": "Servers show your Java name in chat and on leaderboards, so pick something teammates can type in /msg. PvP and OG styles read fastest.",
+        "examples": [
+          "Clutch_Sword",
+          "BenPvP",
+          "Nyxo"
+        ],
+        "preset": {
+          "style": "pvp",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate a server name ↑"
+      },
+      {
+        "icon": "✦",
+        "title": "Minecraft Usernames for Discord & YouTube",
+        "text": "Server Discords and Minecraft YouTube channels accept spaces and symbols, so this is where a decorated version goes. Keep the in-game name plain.",
+        "examples": [
+          "✦ Ben Craft ✦",
+          "ben.builds",
+          "Frost Ben"
+        ],
+        "preset": {
+          "style": "builder",
+          "symbols": "auto",
+          "letters": "mixed"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Discord usernames",
+          "/discord-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Minecraft Username",
+    "intro": "The generator follows a handful of formulas you will recognise from any server tab list. Knowing them helps you tweak a result or build your own Minecraft name by hand.",
+    "rows": [
+      [
+        "Adjective _ name",
+        "**Frost** + **_** + **Ben** → the classic Java format; the underscore is the only separator allowed",
+        [
+          "Frost_Ben",
+          "Ender_Ben"
+        ]
+      ],
+      [
+        "Name + Craft / MC",
+        "**Ben** + **Craft** → the oldest Minecraft suffix; still short, still readable",
+        [
+          "BenCraft",
+          "Ben_MC"
+        ]
+      ],
+      [
+        "Block or mob + role",
+        "**Cobble** + **Mason**, **Sleepy** + **Creeper** → two game words, no name at all",
+        [
+          "Cobble_Mason",
+          "Sleepy_Creeper"
+        ]
+      ],
+      [
+        "OG _ name",
+        "**OG** / **The** + **Ben** → says you were here since beta",
+        [
+          "OG_Ben",
+          "The_Ben"
+        ]
+      ],
+      [
+        "Name + PvP / Builds",
+        "**Ben** + **PvP** / **Builds** → what you do on the server",
+        [
+          "BenPvP",
+          "Ben_Builds"
+        ]
+      ],
+      [
+        "Name + game number",
+        "**Ben** + **64** / **16** / **2009** → stack size, chunk size or the year Minecraft came out",
+        [
+          "Ben64",
+          "Ben_2009"
+        ]
+      ],
+      [
+        "Dropped vowel",
+        "**Wither** → **Wthr**, **Ben** → **Bn** → the tryhard respelling, buys characters",
+        [
+          "Bn_Wthr",
+          "BnX"
+        ]
+      ],
+      [
+        "Capitalised words",
+        "**frostben** → **FrostBen** → Java keeps your capitals, so use them to split words without an underscore",
+        [
+          "FrostBen",
+          "EnderBen"
+        ]
+      ]
+    ],
+    "note": "One trick per name. *Frost_Ben* is a Minecraft username; *xXx_Fr0st_B3n_xXx* is a 2012 Hunger Games lobby. Java lets you change your name only every 30 days, so generate a few and check them before you commit."
+  },
+  "symbols": {
+    "title": "Minecraft Symbols for Discord & Server Names",
+    "intro": "Java usernames reject these, but Discord display names, YouTube titles and many server nickname plugins show them. Click a symbol to copy it.",
+    "items": [
+      [
+        "⬛",
+        "black square"
+      ],
+      [
+        "⚔",
+        "crossed swords"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "⚡",
+        "lightning"
+      ],
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "☆",
+        "white star"
+      ],
+      [
+        "◆",
+        "black diamond"
+      ],
+      [
+        "◇",
+        "white diamond"
+      ],
+      [
+        "▲",
+        "triangle"
+      ],
+      [
+        "⌁",
+        "electric arrow"
+      ],
+      [
+        "⚙",
+        "gear"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "✧",
+        "white four-pointed star"
+      ],
+      [
+        "♛",
+        "crown"
+      ],
+      [
+        "✵",
+        "eight-pointed star"
+      ],
+      [
+        "꧁",
+        "ornate bracket left"
+      ],
+      [
+        "꧂",
+        "ornate bracket right"
+      ],
+      [
+        "ツ",
+        "smiling tsu"
+      ],
+      [
+        "⛏",
+        "pick"
+      ]
+    ],
+    "combos": [
+      "⛏ Ben ⛏",
+      "꧁Ben꧂",
+      "◆ Ben ◆",
+      "⚔Ben⚔",
+      "✦Ben✦",
+      "Ben ⬛",
+      "♛Ben",
+      "Benツ"
+    ],
+    "note": "Java and Bedrock usernames allow only letters, numbers and underscores (Bedrock adds spaces); Discord, YouTube and server nickname plugins show these symbols. Keep a plain in-game name and use the decorated one where it displays. For pixel-style text that matches the game, try the [Minecraft small font generator](/minecraft-small-font.html); for block-letter text art, the [Mario font generator](/mario-font-generator.html)."
+  },
+  "guide": {
+    "title": "How Our Minecraft Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Mojang or Microsoft. Minecraft usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a Minecraft noun instead."
+      ],
+      [
+        "Minecraft vocabulary.",
+        "Each of the eight styles has its own hand-written list — cobble, oak and mason for builders; sword, crystal and netherite for PvP; enderman, warden and sculk for mobs; piston, hopper and comparator for redstone — so a cozy result never borrows a PvP word by accident."
+      ],
+      [
+        "Server patterns.",
+        "Adjective _ name, name + Craft, block + role, OG prefixes, PvP/Builds suffixes, game numbers like 64 and 2009, dropped vowels and capitalised word splits. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Java-safe defaults.",
+        "Symbols off, underscore separator and Mixed case are on, so every result uses only letters, numbers and underscores within 16 characters."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a Minecraft name is free — your Microsoft account profile tells you when you try."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Minecraft Username Rules — Java, Bedrock and the 30-Day Change",
+  "uniqueBody": [
+    "**Java Edition** usernames are 3 to 16 characters of letters, numbers and underscores, unique across every Java player, and changeable **once every 30 days** from your Microsoft account profile at minecraft.net — the old name is then held for 37 days before anyone else can claim it. **Bedrock Edition** does not have its own usernames: it shows your **Xbox gamertag**, which is 12 characters, allows spaces, and gets a #suffix if taken. That is why this Minecraft username generator defaults to underscores and mixed case (the Java look) but offers a Short, no-separator preset for Bedrock, so one name can serve both editions and the server Discord.",
+    "Minecraft has been running since 2009, so every short English word and common name is taken on Java, and the ones that free up get claimed within minutes of the 37-day hold ending — which is why OG three-to-five-letter names are traded and why the OG style here leans on uncommon forms like Nyxo and Flint rather than words like Diamond. For a Bedrock or console-first name, the [gamertag generator](/gamertag-generator.html) keeps everything under Xbox's 12 characters; the [gaming username generator](/gaming-username-generator.html) covers Steam, PlayStation and Discord; the [Roblox username generator](/roblox-username-generator.html) handles the other block game's rules; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The Java character rules, the 30-day limit and the 37-day hold are documented in ",
+    "name": "Minecraft's help article on changing your username",
+    "href": "https://help.minecraft.net/hc/en-us/articles/4408892204813",
+    "after": "."
+  },
+  "faqTitle": "Minecraft Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Minecraft username generator?",
+      "It is a tool that combines a word you choose with curated Minecraft vocabulary — blocks, mobs, PvP terms, redstone parts and cozy farm words — and server naming patterns to produce Minecraft usernames that follow Java's 3–16 character, underscore-only rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Minecraft username ideas?",
+      "Examples from the styles above: Frost_Vortex, Nyxo, Sleepy_Creeper, Cobble_Mason, Clutch_Sword, CozyCottage, Hollow_Warden and Redstone_Ben. Type your own name to get versions built around it, such as Frost_Ben or BenCraft."
+    ],
+    [
+      "What characters can a Minecraft username have?",
+      "On Java: letters, numbers and underscores, 3 to 16 characters, capitals kept as typed. On Bedrock the name is your Xbox gamertag — 12 characters, letters, numbers and spaces. No periods, hyphens or symbols on either. This generator keeps every result Java-safe by default."
+    ],
+    [
+      "How do I change my Minecraft username?",
+      "Sign in at minecraft.net → Profile → Change Name (Java) and enter the new one; you can change it once every 30 days and the old name is held for 37 days. On Bedrock, change your Xbox gamertag from your Xbox or Microsoft account instead."
+    ],
+    [
+      "Does this Minecraft username generator check availability?",
+      "No. Nothing here talks to Mojang or Microsoft, so it cannot know whether a name is taken. Copy the one you like and try it on your Microsoft account profile — it tells you immediately if the username is unavailable, before the 30-day change is used."
+    ],
+    [
+      "What is an OG Minecraft username?",
+      "A short name — usually three to five letters, no numbers, no underscore — registered early enough to still be available, like Vex or Flint. They are rare because Minecraft has been running since 2009. Pick the OG style and the Short filter above for names in that tier, and the [rare username generator](/rare-username-generator.html) for more uncommon words."
+    ],
+    [
+      "Can I use the same Minecraft username on Java and Bedrock?",
+      "Yes, if it is 12 characters or fewer with no underscore, because Bedrock uses your Xbox gamertag. Pick the Bedrock preset above (Short, no separator) so results like FrostBen fit both editions; Frost_Ben would only work on Java."
+    ],
+    [
+      "Can I copy and paste the generated Minecraft usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. For a pixel-style version to use on Discord or YouTube, paste it into the [Minecraft small font generator](/minecraft-small-font.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators & Minecraft Fonts",
+    "intro": "Pick another game, or style your Minecraft name for Discord and YouTube."
+  },
+  "links": [
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "12-character gamertags for Bedrock and Xbox.",
+      "🎮"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Every console and launcher in eight styles.",
+      "⌁"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Names that follow Roblox's 3–20 character format.",
+      "🧱"
+    ],
+    [
+      "Minecraft Small Font Generator",
+      "/minecraft-small-font.html",
+      "Tiny pixel-style text for Discord and YouTube titles.",
+      "⬛"
+    ],
+    [
+      "Mario Font Generator",
+      "/mario-font-generator.html",
+      "Block-letter text art for banners and thumbnails.",
+      "🍄"
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html",
+      "Copy-and-paste text styles that work in server Discords.",
+      "💬"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "gamertag generator",
+      "/gamertag-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "Minecraft small font generator",
+      "/minecraft-small-font.html"
+    ],
+    [
+      "Mario font generator",
+      "/mario-font-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ]
+  ],
+  "maxLength": 16
+}

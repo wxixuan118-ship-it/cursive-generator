@@ -1,0 +1,1018 @@
+{
+  "type": "username",
+  "keyword": "fortnite username generator",
+  "file": "fortnite-username-generator.html",
+  "label": "Fortnite",
+  "title": "Fortnite Username Generator – Sweaty & Cool Fortnite Names",
+  "description": "Fortnite username generator: turn your name into sweaty, cool, funny, OG or duo Fortnite display names that fit Epic's 3–16 character rules. Free, no sign-up.",
+  "h1": "Fortnite Username Generator",
+  "appName": "Fortnite Username Generator",
+  "kicker": "Free · 8 Fortnite styles · 24 names per batch · Epic-safe characters",
+  "sub": "Sweaty, cool, funny, OG and duo Fortnite name ideas built around your own name",
+  "intro": "This Fortnite username generator builds Epic display names around your name or a word — sweaty tryhard tags, cool one-word names, funny lobby names, OG-style short forms and matching duo or trio names. Pick a style, generate 24 Fortnite usernames at a time, keep them inside Epic's 3–16 character limit, and copy the one you like straight into your Epic Games account settings.",
+  "perks": [
+    "Fits Epic's 3–16 character display-name rule",
+    "Sweaty, funny and OG styles",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "jay",
+  "seed": 2017,
+  "defaults": {
+    "symbols": "none"
+  },
+  "placeholder": "jay, ace, ghost, nova, tilted…",
+  "stylesLegend": "Choose a Fortnite style",
+  "resultsTitle": "Fortnite username ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "not",
+      "real",
+      "lil",
+      "big",
+      "mr",
+      "just",
+      "sir",
+      "yt"
+    ],
+    "suffixes": [
+      "fn",
+      "ttv",
+      "yt",
+      "gg",
+      "x",
+      "z",
+      "on",
+      "fnbr",
+      "hq",
+      "one"
+    ]
+  },
+  "styles": {
+    "sweaty": {
+      "label": "Sweaty",
+      "icon": "⚔",
+      "adjectives": [
+        "cracked",
+        "sweaty",
+        "clutch",
+        "rapid",
+        "lethal",
+        "silent",
+        "swift",
+        "elite",
+        "prime",
+        "instant",
+        "ruthless",
+        "sharp"
+      ],
+      "nouns": [
+        "sniper",
+        "cranker",
+        "editor",
+        "builder",
+        "flick",
+        "reaper",
+        "blitz",
+        "striker",
+        "tryhard",
+        "shotgun",
+        "pump",
+        "aim",
+        "piece",
+        "clapper",
+        "demon",
+        "goat",
+        "bot",
+        "sweat"
+      ],
+      "suffixes": [
+        "fn",
+        "ttv",
+        "gg",
+        "x",
+        "on",
+        "one"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "storm",
+        "shadow",
+        "arctic",
+        "onyx",
+        "phantom",
+        "steel",
+        "swift",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "storm",
+        "raven"
+      ],
+      "suffixes": [
+        "fn",
+        "x",
+        "z",
+        "hq",
+        "one",
+        "zero"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "default"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "peely",
+        "fishstick",
+        "default"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "supreme",
+        "2000",
+        "xd"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "🍌"
+      ]
+    },
+    "og": {
+      "label": "OG",
+      "icon": "◇",
+      "adjectives": [
+        "og",
+        "old",
+        "s1",
+        "s2",
+        "day",
+        "first",
+        "true",
+        "real",
+        "pure",
+        "raw",
+        "prime",
+        "early"
+      ],
+      "nouns": [
+        "tilted",
+        "dusty",
+        "retail",
+        "greasy",
+        "loot",
+        "lake",
+        "moisty",
+        "risky",
+        "tomato",
+        "wailing",
+        "pleasant",
+        "lucky",
+        "salty",
+        "snobby",
+        "junk",
+        "fatal",
+        "haunted",
+        "lonely"
+      ],
+      "suffixes": [
+        "og",
+        "s1",
+        "fn",
+        "x",
+        "one",
+        "z"
+      ],
+      "symbols": [
+        "◇",
+        "★",
+        "✦",
+        "⋆",
+        "◆",
+        "▲"
+      ]
+    },
+    "duo": {
+      "label": "Duo & Trio",
+      "icon": "⚡",
+      "adjectives": [
+        "twin",
+        "double",
+        "dual",
+        "mirror",
+        "echo",
+        "duo",
+        "trio",
+        "squad",
+        "clone",
+        "tandem",
+        "paired",
+        "shadow"
+      ],
+      "nouns": [
+        "twin",
+        "mirror",
+        "echo",
+        "clone",
+        "partner",
+        "wingman",
+        "shadow",
+        "backup",
+        "second",
+        "sidekick",
+        "reflex",
+        "reload",
+        "revive",
+        "rezz",
+        "carry",
+        "support",
+        "anchor",
+        "igl"
+      ],
+      "suffixes": [
+        "one",
+        "two",
+        "x",
+        "z",
+        "fn",
+        "ii"
+      ],
+      "symbols": [
+        "⚡",
+        "✦",
+        "★",
+        "◆",
+        "⌁",
+        "✪"
+      ]
+    },
+    "clan": {
+      "label": "Clan Tag",
+      "icon": "▲",
+      "adjectives": [
+        "fz",
+        "nrg",
+        "tsm",
+        "xo",
+        "rz",
+        "vx",
+        "nv",
+        "sx",
+        "kz",
+        "lz",
+        "gx",
+        "zy"
+      ],
+      "nouns": [
+        "clan",
+        "squad",
+        "esports",
+        "team",
+        "crew",
+        "gang",
+        "unit",
+        "org",
+        "guild",
+        "syndicate",
+        "alliance",
+        "legion",
+        "faction",
+        "empire",
+        "dynasty",
+        "collective",
+        "house",
+        "circle"
+      ],
+      "suffixes": [
+        "fn",
+        "x",
+        "gg",
+        "esports",
+        "hq",
+        "one"
+      ],
+      "symbols": [
+        "▲",
+        "◆",
+        "✦",
+        "★",
+        "⚡",
+        "⌁"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "grim",
+        "cursed",
+        "silent",
+        "shadow",
+        "midnight",
+        "phantom",
+        "wicked",
+        "cold",
+        "bleak",
+        "dead"
+      ],
+      "nouns": [
+        "void",
+        "raven",
+        "shadow",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "omen",
+        "reaper",
+        "specter",
+        "crow",
+        "plague",
+        "doom",
+        "nocturne"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "xx",
+        "ash",
+        "x",
+        "fn"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "☽",
+        "✞",
+        "☠"
+      ]
+    },
+    "chill": {
+      "label": "Chill",
+      "icon": "☁",
+      "adjectives": [
+        "lazy",
+        "sleepy",
+        "cozy",
+        "casual",
+        "mellow",
+        "chill",
+        "slow",
+        "quiet",
+        "soft",
+        "easy",
+        "sunday",
+        "lofi"
+      ],
+      "nouns": [
+        "cloud",
+        "couch",
+        "nap",
+        "tea",
+        "pillow",
+        "hoodie",
+        "lofi",
+        "noodle",
+        "bean",
+        "panda",
+        "otter",
+        "cat",
+        "frog",
+        "duck",
+        "boba",
+        "toast",
+        "blanket",
+        "campfire"
+      ],
+      "suffixes": [
+        "fn",
+        "xd",
+        "gg",
+        "yt",
+        "zz",
+        "plays"
+      ],
+      "symbols": [
+        "☁",
+        "☺",
+        "⋆",
+        "♡",
+        "☆",
+        "˚"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:sweaty",
+      "Sweaty"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:og",
+      "OG"
+    ],
+    [
+      "style:duo",
+      "Duo"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Epic-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style It for Discord & Twitch",
+    "text": "Epic display names are plain text, but your Discord, Twitch and YouTube names can carry fancy letters. Copy a name here, then style it for those.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Fortnite Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the Fortnite style you choose, and the options under Customize. Symbols are off by default because Epic display names reject most of them; the Short filter keeps results well inside the 16-character cap.",
+      "Leave the word blank and the generator pairs two Fortnite words instead — crackedsniper, ogtilted, twinreflex — so it also works as a random Fortnite name generator for an alt or a squad."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a favorite POI. The generator keeps it whole and builds around it: jay becomes crackedjay, jayfn or jay_sniper."
+      ],
+      [
+        "Pick a Fortnite username style",
+        "Sweaty, cool, funny, OG, duo & trio, clan tag, dark or chill. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use Epic-safe to hide symbols, heart the ones you like, then copy and paste into Epic Games → Account → Display Name to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Fortnite Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Sweaty names dominate ranked; funny names win the lobby; OG names reference Chapter 1 map spots — but every style here works for anyone. Click any Fortnite name to copy it.",
+    "groups": [
+      {
+        "key": "sweaty",
+        "title": "Sweaty Fortnite Usernames",
+        "blurb": "Cracked, clutch, cranker, editor — tryhard tags for ranked and Arena.",
+        "examples": [
+          "crackedsniper",
+          "clutchcranker",
+          "silenteditor",
+          "rapidflick",
+          "lethalbuilder",
+          "jayfn",
+          "primedemon",
+          "swiftpump"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Fortnite Usernames",
+        "blurb": "Frost, storm, vortex, apex — sharp one-word names that look good on a victory screen. The [cool username generator](/cool-username-generator.html) has more.",
+        "examples": [
+          "froststorm",
+          "neonvortex",
+          "shadowjay",
+          "onyxdrift",
+          "phantomrift",
+          "vaporapex",
+          "jayzero",
+          "arcticwolf"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Fortnite Usernames",
+        "blurb": "Peely, fishstick, default, potato — names that get a laugh in the pre-game lobby.",
+        "examples": [
+          "sleepypeely",
+          "angryfishstick",
+          "defaultjay",
+          "soggyllama",
+          "wobblytoast",
+          "grumpygoose",
+          "spicyburrito",
+          "defaultpotato"
+        ]
+      },
+      {
+        "key": "og",
+        "title": "OG Fortnite Usernames",
+        "blurb": "Tilted, dusty, retail, greasy, moisty — Chapter 1 POIs and season-one references.",
+        "examples": [
+          "ogtilted",
+          "dustyjay",
+          "retailrow",
+          "greasyog",
+          "moistymire",
+          "s1lucky",
+          "saltyjay",
+          "wailingwoods"
+        ]
+      },
+      {
+        "key": "duo",
+        "title": "Fortnite Duo & Trio Usernames",
+        "blurb": "Twin, mirror, echo, clone — matching names for duos and trios; generate two and swap the suffix.",
+        "examples": [
+          "twinreflex",
+          "mirrorjay",
+          "echoreload",
+          "dualrevive",
+          "jayone",
+          "jaytwo",
+          "shadowcarry",
+          "tandemigl"
+        ]
+      },
+      {
+        "key": "clan",
+        "title": "Fortnite Clan Tag Usernames",
+        "blurb": "Two-letter tags in front of a name — the esports-org look without the org.",
+        "examples": [
+          "fzjay",
+          "nrgjay",
+          "rzvortex",
+          "vxclan",
+          "kzsquad",
+          "jayesports",
+          "lzcrew",
+          "gxlegion"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Fortnite Usernames",
+        "blurb": "Void, wraith, reaper, plague — moody names for a Midas or Raven skin.",
+        "examples": [
+          "hollowvoid",
+          "grimwraith",
+          "jaynoir",
+          "phantomplague",
+          "cursedcrow",
+          "midnightash",
+          "voidreaper",
+          "silentomen"
+        ]
+      },
+      {
+        "key": "chill",
+        "title": "Chill Fortnite Usernames",
+        "blurb": "Cloud, couch, lofi, campfire — for creative mode, LEGO Fortnite and no-build.",
+        "examples": [
+          "lazypanda",
+          "cozyotter",
+          "lofijay",
+          "sundaytoast",
+          "chillfrog",
+          "mellowboba",
+          "jayplays",
+          "campfirenap"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "crackedjay",
+      "jayfn",
+      "ogtilted",
+      "sleepypeely",
+      "twinreflex",
+      "hollowvoid"
+    ],
+    "alt": "Fortnite username generator example: the name jay turned into crackedjay, jayfn, ogtilted, sleepypeely and other Fortnite name ideas",
+    "caption": "One name in, eight Fortnite styles out — every result fits Epic's 3–16 character display-name rule.",
+    "tagline": "SWEATY · COOL · FUNNY · OG · DUO",
+    "sample": "jay",
+    "src": "/assets/previews/fortnite-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Epic's rules",
+    "title": "Fortnite Usernames on Epic, PlayStation, Xbox & Switch",
+    "intro": "Your Fortnite name is your Epic Games display name, but console players see platform names too. These shortcuts fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Epic Games Fortnite Usernames",
+        "text": "Epic display names are 3–16 characters: letters, numbers, spaces and a few punctuation marks, no leading or trailing space. You can change it once every two weeks.",
+        "examples": [
+          "crackedjay",
+          "jay fn",
+          "OG Tilted"
+        ],
+        "preset": {
+          "style": "sweaty",
+          "symbols": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate Epic names ↑"
+      },
+      {
+        "icon": "⌁",
+        "title": "PlayStation Fortnite Usernames",
+        "text": "On PS5 teammates see your PSN ID unless you link a different Epic name. PSN allows 3–16 letters, numbers, hyphens and underscores, so an underscore join fits.",
+        "examples": [
+          "jay_sniper",
+          "frost-storm",
+          "ogjay"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate PSN-safe names ↑",
+        "link": [
+          "Gaming usernames",
+          "/gaming-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Xbox Fortnite Usernames",
+        "text": "Xbox gamertags cap at 12 characters and add #1234 if taken — use the Short filter so your Fortnite name matches your gamertag.",
+        "examples": [
+          "JaySnipes",
+          "FrostJay",
+          "PeelyGG"
+        ],
+        "preset": {
+          "style": "funny",
+          "symbols": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate Xbox-length names ↑"
+      },
+      {
+        "icon": "▶",
+        "title": "Switch & Mobile Fortnite Usernames",
+        "text": "Switch shows a 10-character Nintendo nickname; mobile shows the Epic name. Short OG-style names read the same everywhere.",
+        "examples": [
+          "ogjay",
+          "tiltedz",
+          "jayone"
+        ],
+        "preset": {
+          "style": "og",
+          "symbols": "none",
+          "length": "short",
+          "separator": "none"
+        },
+        "button": "Generate short names ↑",
+        "link": [
+          "Short usernames",
+          "/short-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Fortnite Username",
+    "intro": "The generator follows a handful of formulas you will recognise from any lobby. Knowing them helps you tweak a result or build your own Fortnite name by hand.",
+    "rows": [
+      [
+        "Sweaty adjective + name",
+        "**Cracked** / **Clutch** + **Jay** → says how you play before your name lands",
+        [
+          "crackedjay",
+          "clutchjay"
+        ]
+      ],
+      [
+        "Name + fn / ttv / yt",
+        "**Jay** + **fn** → the Fortnite suffix; ttv and yt point at your stream",
+        [
+          "jayfn",
+          "jayttv"
+        ]
+      ],
+      [
+        "Name + role noun",
+        "**Jay** + **Sniper** / **Editor** → what you main, in one word",
+        [
+          "jaysniper",
+          "jayeditor"
+        ]
+      ],
+      [
+        "OG POI + name",
+        "**Tilted** / **Dusty** + **Jay** → a Chapter 1 landmark says you were there",
+        [
+          "tiltedjay",
+          "dustyjay"
+        ]
+      ],
+      [
+        "Clan tag + name",
+        "**fz** / **rz** / **kz** + **Jay** → a two-letter tag in front, org optional",
+        [
+          "fzjay",
+          "rzjay"
+        ]
+      ],
+      [
+        "Name + space + word",
+        "**Jay** + **Fn** with a space → Epic allows spaces, most other platforms do not",
+        [
+          "jay fn"
+        ]
+      ],
+      [
+        "Duo pair",
+        "**Jay** + **one** / **two** → matching names for a duo; swap the suffix",
+        [
+          "jayone",
+          "jaytwo"
+        ]
+      ],
+      [
+        "Dropped vowel",
+        "**Sniper** → **snpr**, **Jay** → **jy** → the tryhard respelling, keep it to one word",
+        [
+          "jaysnpr",
+          "jyfn"
+        ]
+      ]
+    ],
+    "note": "One trick per name. *crackedjay* is a Fortnite name; *xX_Cr4ck3d_J4y_TTV_Xx* is a 2018 Playground lobby. Keep it under 12 characters if you also play on Xbox, and remember Epic only lets you change it every 14 days."
+  },
+  "guide": {
+    "title": "How Our Fortnite Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Epic Games. Fortnite usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a Fortnite noun instead."
+      ],
+      [
+        "Fortnite vocabulary.",
+        "Each of the eight styles has its own hand-written list — cranker, editor and flick for sweaty; peely, fishstick and default for funny; tilted, dusty and moisty for OG — so a chill result never borrows a sweaty word by accident."
+      ],
+      [
+        "Lobby patterns.",
+        "Adjective + name, name + fn, name + role, POI + name, clan tag + name, duo suffixes and dropped-vowel respellings. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Epic-safe defaults.",
+        "Symbols are off, so every result uses only letters, numbers and separators. Use Mixed letters for names that show case on the victory screen."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether an Epic display name is free — the account page tells you when you try to set it."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Fortnite Username Rules and How to Change Yours",
+  "uniqueBody": [
+    "Your Fortnite name is your **Epic Games display name**. Epic allows 3 to 16 characters — letters, numbers, spaces and a limited set of punctuation — and blocks names that impersonate Epic staff or contain offensive terms. You can change it at **epicgames.com → Account → General → Display Name**, but only **once every 14 days**, so test the name here and check it on the account page before you commit. Console players also carry a platform name: PlayStation shows your PSN ID, Xbox your gamertag and Switch your Nintendo nickname unless you turn on the option to show your Epic name instead.",
+    "That is why this Fortnite username generator keeps symbols off and offers a Short filter: a name under 12 characters with no symbols works as an Epic name, a PSN ID, an Xbox gamertag and a Nintendo nickname at once, so your squad sees the same name on every platform. For a wider vocabulary that is not Fortnite-specific, the [gaming username generator](/gaming-username-generator.html) covers every console and launcher; the [PUBG username generator](/pubg-username-generator.html) and [Roblox username generator](/roblox-username-generator.html) build each game's rules in; and the main [username generator](/username-generator.html) mixes gaming with aesthetic, cute and funny styles."
+  ],
+  "source": {
+    "before": "Display-name limits and the 14-day change window are documented in ",
+    "name": "Epic Games' account help",
+    "href": "https://www.epicgames.com/help/en-US/epic-accounts-c5719348850459/account-security-c5719366891547/how-do-i-change-my-display-name-on-my-epic-games-account-a5720305322395",
+    "after": "."
+  },
+  "faqTitle": "Fortnite Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Fortnite username generator?",
+      "It is a tool that combines a word you choose with curated Fortnite vocabulary — sniper, cranker, peely, tilted, clan tags — and lobby naming patterns to produce Fortnite name ideas that fit Epic's 3–16 character rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Fortnite username ideas?",
+      "Examples from the styles above: crackedsniper, froststorm, sleepypeely, ogtilted, twinreflex, fzjay, hollowvoid and lazypanda. Type your own name to get versions built around it, such as crackedjay or jayfn."
+    ],
+    [
+      "How do I change my Fortnite username?",
+      "Go to epicgames.com, sign in, open Account → General and edit Display Name. Epic allows one change every 14 days, so check availability on that page before you confirm. On console, your PSN ID, gamertag or Nintendo nickname may show instead unless you enable showing your Epic name."
+    ],
+    [
+      "What are sweaty Fortnite usernames?",
+      "Sweaty names signal a tryhard player: cracked, clutch, cranker, editor, flick, demon, plus a fn or ttv suffix. Pick the Sweaty style above; results like crackedsniper and clutchcranker are the standard ranked-lobby look."
+    ],
+    [
+      "Does this Fortnite username generator check availability?",
+      "No. Nothing here talks to Epic Games, PlayStation, Xbox or Nintendo, so it cannot know whether a display name is taken. Copy the one you like and try it on the Epic account page — it warns you immediately if the name is unavailable."
+    ],
+    [
+      "Can I use symbols in my Fortnite username?",
+      "Mostly no. Epic display names accept letters, numbers, spaces and a few punctuation marks; symbols like ✦ and ⚔ are rejected, and consoles are stricter still. Keep the symbol section on this page for your Discord, Twitch or YouTube name."
+    ],
+    [
+      "How do I make matching duo or trio Fortnite usernames?",
+      "Pick the Duo & Trio style and generate; results like twinreflex, mirrorjay and echoreload pair naturally. Or take one base name and give each player a different suffix — jayone, jaytwo, jaythree — which is the most common squad format."
+    ],
+    [
+      "Can I copy and paste the generated Fortnite usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style it for Discord or Twitch, paste it into the [cool text generator](/cool-text-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators",
+    "intro": "Pick a different game, or style your Fortnite name for Discord and Twitch."
+  },
+  "links": [
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for Xbox, PlayStation, Steam and Discord in eight styles.",
+      "⌁"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Cool, cute and gaming names that follow Roblox's username format.",
+      "🎮"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles.",
+      "⚡"
+    ],
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html",
+      "Copy-and-paste text styles that work in Discord display names.",
+      "💬"
+    ],
+    [
+      "Free Fire Font Generator",
+      "/free-fire-font-generator.html",
+      "Stylish in-game name text for Free Fire and other mobile shooters.",
+      "🔥"
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord."
+    ],
+    [
+      "PSN Name Generator",
+      "/psn-name-generator.html",
+      "PlayStation online IDs that follow PSN's 3–16 character, letter-first rule."
+    ],
+    [
+      "Call of Duty Username Generator",
+      "/call-of-duty-username-generator.html",
+      "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "Free Fire font generator",
+      "/free-fire-font-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "glitch text generator",
+      "/glitch-text-generator.html"
+    ]
+  ],
+  "linkNote": "Sweaty, funny and OG Fortnite names within Epic's rules.",
+  "maxLength": 16
+}

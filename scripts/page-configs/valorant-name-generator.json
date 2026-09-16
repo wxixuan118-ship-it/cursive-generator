@@ -1,0 +1,1005 @@
+{
+  "type": "username",
+  "keyword": "valorant name generator",
+  "file": "valorant-name-generator.html",
+  "label": "Valorant",
+  "title": "Valorant Name Generator – Riot ID & Tagline Ideas",
+  "description": "Valorant name generator: turn your name into sweaty, cool, agent-themed, funny or duo Riot IDs that fit the 3–16 character rule, plus a matching #tagline. Free.",
+  "h1": "Valorant Name Generator",
+  "appName": "Valorant Name Generator",
+  "crumb": [
+    "Gaming Usernames",
+    "/gaming-username-generator.html"
+  ],
+  "linkNote": "Riot IDs under 16 characters — sweaty, agent-themed and duo names with a #tagline.",
+  "kicker": "Free · 8 Valorant styles · 24 Riot IDs per batch · 16-character Riot rule",
+  "sub": "Sweaty, cool, agent-themed, funny and duo Riot ID ideas built around your name",
+  "intro": "This Valorant name generator builds Riot IDs around your name or a word — sweaty radiant tags, agent and ability references, cool one-word names, funny lobby names and matching duo names — and keeps every result inside Riot's 3–16 character rule. Pick a style, generate 24 Valorant names at a time, heart the ones you like and copy them into your Riot account, then add a #tagline.",
+  "perks": [
+    "Fits Riot's 3–16 character Riot ID rule",
+    "Agent and ability vocabulary built in",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "aria",
+  "seed": 2020,
+  "maxLength": 16,
+  "defaults": {
+    "symbols": "none",
+    "letters": "mixed",
+    "separator": "none"
+  },
+  "placeholder": "aria, kai, ghost, nova, jett…",
+  "stylesLegend": "Choose a Valorant style",
+  "resultsTitle": "Valorant name ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "not",
+      "real",
+      "lil",
+      "big",
+      "mr",
+      "just",
+      "sir",
+      "ttv"
+    ],
+    "suffixes": [
+      "val",
+      "ttv",
+      "yt",
+      "gg",
+      "x",
+      "z",
+      "one",
+      "hq",
+      "ace",
+      "vct"
+    ]
+  },
+  "styles": {
+    "sweaty": {
+      "label": "Sweaty",
+      "icon": "⚔",
+      "adjectives": [
+        "cracked",
+        "clutch",
+        "rapid",
+        "lethal",
+        "silent",
+        "swift",
+        "elite",
+        "prime",
+        "radiant",
+        "immortal",
+        "ruthless",
+        "sharp"
+      ],
+      "nouns": [
+        "ace",
+        "clutch",
+        "flick",
+        "headshot",
+        "onetap",
+        "aimer",
+        "fragger",
+        "entry",
+        "lurker",
+        "igl",
+        "sentinel",
+        "duelist",
+        "smoker",
+        "flasher",
+        "op",
+        "vandal",
+        "phantom",
+        "sheriff"
+      ],
+      "suffixes": [
+        "val",
+        "gg",
+        "x",
+        "one",
+        "ttv",
+        "ace"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "agents": {
+      "label": "Agents & Abilities",
+      "icon": "◎",
+      "adjectives": [
+        "jett",
+        "sage",
+        "reyna",
+        "omen",
+        "viper",
+        "sova",
+        "raze",
+        "cypher",
+        "killjoy",
+        "neon",
+        "fade",
+        "gekko"
+      ],
+      "nouns": [
+        "updraft",
+        "tailwind",
+        "bladestorm",
+        "resurrection",
+        "orb",
+        "dismiss",
+        "devour",
+        "paranoia",
+        "shroud",
+        "recon",
+        "showstopper",
+        "tripwire",
+        "lockdown",
+        "haunt",
+        "wingman",
+        "leer",
+        "curveball",
+        "fault"
+      ],
+      "suffixes": [
+        "main",
+        "val",
+        "x",
+        "one",
+        "ttv",
+        "gg"
+      ],
+      "symbols": [
+        "◎",
+        "✦",
+        "★",
+        "⚔",
+        "✧",
+        "⌁"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "jet"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "hq",
+        "one",
+        "zero",
+        "val"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "iron",
+        "bronze"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "llama",
+        "bot",
+        "whiffer",
+        "spike",
+        "sage"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "xd",
+        "lol",
+        "val"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "duo": {
+      "label": "Duo & Team",
+      "icon": "⚡",
+      "adjectives": [
+        "twin",
+        "double",
+        "dual",
+        "mirror",
+        "echo",
+        "duo",
+        "trio",
+        "squad",
+        "clone",
+        "tandem",
+        "paired",
+        "shadow"
+      ],
+      "nouns": [
+        "twin",
+        "mirror",
+        "echo",
+        "clone",
+        "partner",
+        "wingman",
+        "shadow",
+        "backup",
+        "second",
+        "sidekick",
+        "reflex",
+        "trade",
+        "refrag",
+        "anchor",
+        "igl",
+        "entry",
+        "support",
+        "flex"
+      ],
+      "suffixes": [
+        "one",
+        "two",
+        "x",
+        "z",
+        "val",
+        "ii"
+      ],
+      "symbols": [
+        "⚡",
+        "✦",
+        "★",
+        "◆",
+        "⌁",
+        "✪"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "grim",
+        "cursed",
+        "silent",
+        "shadow",
+        "midnight",
+        "phantom",
+        "wicked",
+        "cold",
+        "bleak",
+        "dead"
+      ],
+      "nouns": [
+        "void",
+        "raven",
+        "shadow",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "omen",
+        "reaper",
+        "specter",
+        "crow",
+        "plague",
+        "doom",
+        "nocturne"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "xx",
+        "ash",
+        "x",
+        "val"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "☽",
+        "✞",
+        "☠"
+      ]
+    },
+    "og": {
+      "label": "OG",
+      "icon": "◇",
+      "adjectives": [
+        "og",
+        "old",
+        "true",
+        "real",
+        "pure",
+        "raw",
+        "prime",
+        "first",
+        "beta",
+        "iron",
+        "grey",
+        "ash"
+      ],
+      "nouns": [
+        "vex",
+        "nyx",
+        "ryn",
+        "kai",
+        "zed",
+        "ivo",
+        "ash",
+        "ely",
+        "ora",
+        "ren",
+        "flint",
+        "haar",
+        "rime",
+        "onyx",
+        "jinx",
+        "zane",
+        "arc",
+        "sol"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "og",
+        "one"
+      ],
+      "symbols": [
+        "◇",
+        "★",
+        "✦",
+        "⋆",
+        "◆",
+        "▲"
+      ]
+    },
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded",
+        "honeyed",
+        "dusty"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky",
+        "reverie",
+        "linen"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "val",
+        "ly"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:sweaty",
+      "Sweaty"
+    ],
+    [
+      "style:agents",
+      "Agents"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:duo",
+      "Duo"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Riot-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style It for Discord & Twitch",
+    "text": "Riot IDs are plain text, but your Discord and Twitch names can carry fancy letters. Copy a name here, then style it for those.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Valorant Name Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the Valorant style you choose, and the options under Customize. Symbols are off, Mixed case is on and every result is capped at 16 characters, so anything you see passes the Riot ID field — then you add a 3–5 character #tagline yourself.",
+      "Leave the word blank and the generator pairs two Valorant words instead — CrackedAce, JettUpdraft, TwinRefrag — so it also works as a random Valorant name generator for a smurf or a duo."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, your main agent. The generator keeps it whole and builds around it: aria becomes CrackedAria, AriaVal or JettAria."
+      ],
+      [
+        "Pick a Valorant name style",
+        "Sweaty, agents & abilities, cool, funny, duo & team, dark, OG or aesthetic. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy Riot IDs",
+        "Keep Riot-safe on, heart the ones you like, then copy into account.riotgames.com → Riot ID and choose a tagline — the page checks availability as you type."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Valorant Name Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Sweaty and agent names dominate ranked; funny names win the agent-select chat; duo names come in pairs — but every style here works for anyone. Click any Valorant name to copy it.",
+    "groups": [
+      {
+        "key": "sweaty",
+        "title": "Sweaty Valorant Names",
+        "blurb": "Ace, clutch, onetap, fragger — radiant-lobby names for ranked grinders.",
+        "examples": [
+          "CrackedAce",
+          "ClutchFlick",
+          "SilentOnetap",
+          "RadiantFragger",
+          "AriaVal",
+          "LethalEntry",
+          "PrimeDuelist",
+          "SwiftHeadshot"
+        ]
+      },
+      {
+        "key": "agents",
+        "title": "Agent & Ability Valorant Names",
+        "blurb": "Jett, Sage, Omen, Reyna plus their abilities — names that say who you main.",
+        "examples": [
+          "JettUpdraft",
+          "SageOrb",
+          "OmenParanoia",
+          "ReynaDismiss",
+          "CypherTripwire",
+          "SovaRecon",
+          "AriaMain",
+          "RazeShowstopper"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Valorant Names",
+        "blurb": "Frost, vortex, apex, nova — sharp names that look good on a match summary. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "FrostVortex",
+          "SilentApex",
+          "OnyxDrift",
+          "AriaZero",
+          "PhantomRift",
+          "NeonJet",
+          "ArcticWolf",
+          "VaporHQ"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Valorant Names",
+        "blurb": "Iron whiffer, bronze bot, spicy spike — names that get a laugh in agent select.",
+        "examples": [
+          "IronWhiffer",
+          "BronzeBot",
+          "SpicySpike",
+          "SleepySage",
+          "WobblyToast",
+          "GrumpyGoose",
+          "AriaPants",
+          "TacoLord"
+        ]
+      },
+      {
+        "key": "duo",
+        "title": "Duo & Team Valorant Names",
+        "blurb": "Twin, mirror, refrag, entry — matching names for duos and five-stacks; generate two and swap the suffix.",
+        "examples": [
+          "TwinRefrag",
+          "MirrorAria",
+          "EchoTrade",
+          "DualEntry",
+          "AriaOne",
+          "AriaTwo",
+          "ShadowSupport",
+          "TandemIGL"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Valorant Names",
+        "blurb": "Void, wraith, reaper, plague — moody names for an Omen or Reyna main. The [emo username generator](/emo-username-generator.html) goes darker.",
+        "examples": [
+          "HollowVoid",
+          "GrimWraith",
+          "AriaNoir",
+          "PhantomPlague",
+          "CursedCrow",
+          "MidnightAsh",
+          "VoidReaper",
+          "SilentOmen"
+        ]
+      },
+      {
+        "key": "og",
+        "title": "OG Valorant Names",
+        "blurb": "Vex, nyx, flint, sol — three-to-five-letter Riot IDs, the rarest tier. The [rare username generator](/rare-username-generator.html) digs deeper.",
+        "examples": [
+          "Vex",
+          "Nyxo",
+          "OGAria",
+          "Flint",
+          "TrueSol",
+          "RynX",
+          "IronArc",
+          "Zane"
+        ]
+      },
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Valorant Names",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds and haze for a Sage or Skye main. The [aesthetic username generator](/aesthetic-username-generator.html) has sixteen sub-styles.",
+        "examples": [
+          "lunahaze",
+          "velvetmoon",
+          "softaria",
+          "cloudmuse",
+          "hazydawn",
+          "ariaglow",
+          "mistyhalo",
+          "goldenreverie"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "CrackedAria",
+      "AriaVal",
+      "JettAria",
+      "IronWhiffer",
+      "TwinRefrag",
+      "FrostVortex"
+    ],
+    "alt": "Valorant name generator example: the name aria turned into CrackedAria, AriaVal, JettAria, IronWhiffer and other Riot ID ideas under 16 characters",
+    "caption": "One name in, eight Valorant styles out — every result fits Riot's 16-character Riot ID rule.",
+    "tagline": "SWEATY · AGENTS · COOL · FUNNY · DUO",
+    "sample": "aria",
+    "src": "/assets/previews/valorant-name-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Riot's rules",
+    "title": "Valorant Name vs Riot ID vs Tagline",
+    "intro": "Your Valorant name is a Riot ID plus a #tagline, shared with League and TFT. These shortcuts fit each part.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Riot ID Valorant Names",
+        "text": "3–16 characters, letters, numbers and spaces allowed, no symbols; not unique on its own because the #tagline makes it unique. Change it once every 30 days.",
+        "examples": [
+          "CrackedAria",
+          "Frost Vortex",
+          "AriaVal"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate Riot-safe names ↑"
+      },
+      {
+        "icon": "#",
+        "title": "Valorant Taglines",
+        "text": "3–5 characters after the #, letters and numbers. Pick something that reads with the name — #ACE, #NA1, #1TAP, #EUW — or leave Riot's default region tag.",
+        "examples": [
+          "Aria#ACE",
+          "Vortex#1TAP",
+          "Nyxo#EUW"
+        ],
+        "preset": {
+          "style": "sweaty",
+          "symbols": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate short names for a tagline ↑"
+      },
+      {
+        "icon": "⚡",
+        "title": "Duo Valorant Names",
+        "text": "Duos and five-stacks often share a base with different suffixes or mirror each other — AriaOne / AriaTwo, TwinRefrag / MirrorAria.",
+        "examples": [
+          "AriaOne",
+          "AriaTwo",
+          "TwinRefrag"
+        ],
+        "preset": {
+          "style": "duo",
+          "symbols": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate duo names ↑"
+      },
+      {
+        "icon": "⌁",
+        "title": "Same Valorant Name on Discord & Twitch",
+        "text": "Riot IDs allow spaces and capitals; Discord usernames and Twitch names do not. Use a one-word, no-space result if it should match everywhere.",
+        "examples": [
+          "frostvortex",
+          "ariaval",
+          "silentapex"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "none",
+          "separator": "none",
+          "letters": "lower"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Discord usernames",
+          "/discord-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Valorant Name",
+    "intro": "The generator follows a handful of formulas you will recognise from any ranked lobby. Knowing them helps you tweak a result or build your own Riot ID by hand.",
+    "rows": [
+      [
+        "Sweaty adjective + name",
+        "**Cracked** / **Clutch** + **Aria** → says how you play before your name lands",
+        [
+          "CrackedAria",
+          "ClutchAria"
+        ]
+      ],
+      [
+        "Agent + ability",
+        "**Jett** + **Updraft**, **Omen** + **Paranoia** → who you main, in one word",
+        [
+          "JettUpdraft",
+          "OmenParanoia"
+        ]
+      ],
+      [
+        "Name + val / ttv",
+        "**Aria** + **Val** → the Valorant suffix; ttv points at your stream",
+        [
+          "AriaVal",
+          "AriaTTV"
+        ]
+      ],
+      [
+        "Name + role",
+        "**Aria** + **Entry** / **IGL** → your role on the team",
+        [
+          "AriaEntry",
+          "AriaIGL"
+        ]
+      ],
+      [
+        "Rank joke + noun",
+        "**Iron** / **Bronze** + **Whiffer** / **Bot** → the funny format, self-deprecating",
+        [
+          "IronWhiffer",
+          "BronzeBot"
+        ]
+      ],
+      [
+        "Name + space + word",
+        "**Frost** + **Vortex** with a space → Riot IDs allow spaces; most other platforms do not",
+        [
+          "Frost Vortex"
+        ]
+      ],
+      [
+        "Duo pair",
+        "**Aria** + **One** / **Two** → matching names for a duo; swap the suffix",
+        [
+          "AriaOne",
+          "AriaTwo"
+        ]
+      ],
+      [
+        "Name + #tagline",
+        "**Aria** + **#ACE** → the tagline is where a joke or a region goes; keep the name clean",
+        [
+          "Aria#ACE",
+          "Nyxo#1TAP"
+        ]
+      ]
+    ],
+    "note": "One trick per name, and put the joke in the tagline. *CrackedAria#ACE* is a Valorant name; *xX_Cr4ck3d_Ar1a_Xx#1337* is not, and Riot would reject the underscores anyway. Riot only lets you change the ID every 30 days, so generate a few before you commit."
+  },
+  "guide": {
+    "title": "How Our Valorant Name Generator Works",
+    "intro": "There is no AI behind this page and no connection to Riot Games. Valorant names are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a Valorant noun instead."
+      ],
+      [
+        "Valorant vocabulary.",
+        "Each of the eight styles has its own hand-written list — ace, clutch and onetap for sweaty; Jett, Sage and Omen with their abilities for agents; twin, refrag and entry for duos — so a funny result never borrows a sweaty word by accident."
+      ],
+      [
+        "Lobby patterns.",
+        "Adjective + name, agent + ability, name + val, name + role, rank jokes, spaced two-word names, duo suffixes and tagline pairing. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Riot-safe defaults.",
+        "Symbols off, Mixed case on and a hard 16-character cap, so every result fits the Riot ID field as written."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a Riot ID + tagline is free — the Riot account page checks as you type."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Valorant Name Rules — Riot IDs, Taglines and the 30-Day Change",
+  "uniqueBody": [
+    "Your Valorant name is a **Riot ID**: a name of **3 to 16 characters** (letters, numbers and spaces, no symbols or underscores) plus a **#tagline** of 3 to 5 characters. The combination has to be unique, not the name alone — so *Aria#ACE* and *Aria#EUW* can both exist, which makes good names far easier to get than on platforms with single unique handles. The same Riot ID is used in League of Legends, TFT and Wild Rift, and it can be changed from **account.riotgames.com → Riot ID** once every **30 days**. In-game, teammates see the name and the tagline; the tagline is where the region tag or a joke usually goes.",
+    "That is why this Valorant name generator keeps the name itself clean — capped at 16 characters, no symbols — and offers a Short preset for names that leave room for a meaningful tagline. For League, the [summoner name generator](/summoner-name-generator.html) uses the same Riot ID rules with champion and role vocabulary; for a name that also fits a console, the [gamertag generator](/gamertag-generator.html) keeps it under Xbox's 12 characters; the [Discord username generator](/discord-username-generator.html) handles the lowercase handle for your five-stack's server; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "Riot ID character rules and the change window are documented in ",
+    "name": "Riot's support article on Riot IDs",
+    "href": "https://support-valorant.riotgames.com/hc/en-us/articles/360047644994-Changing-Your-Riot-ID",
+    "after": "."
+  },
+  "faqTitle": "Valorant Name Generator FAQ",
+  "faqs": [
+    [
+      "What is a Valorant name generator?",
+      "It is a tool that combines a word you choose with curated Valorant vocabulary — sweaty terms, agents and abilities, roles, rank jokes — and lobby naming patterns to produce Riot IDs that fit the 3–16 character rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Valorant name ideas?",
+      "Examples from the styles above: CrackedAce, JettUpdraft, FrostVortex, IronWhiffer, TwinRefrag, HollowVoid, Nyxo and lunahaze. Type your own name to get versions built around it, such as CrackedAria or AriaVal, then add a tagline like #ACE."
+    ],
+    [
+      "How many characters can a Valorant name have?",
+      "The Riot ID name is 3–16 characters of letters, numbers and spaces; the tagline after the # is 3–5 letters or numbers. No symbols, underscores or periods in either. This generator caps every result at 16 characters so it fits as written."
+    ],
+    [
+      "How do I change my Valorant name?",
+      "Sign in at account.riotgames.com, open Riot ID and edit the name and tagline. Riot allows one change every 30 days, and the same ID applies to League of Legends, TFT and Wild Rift. The page shows immediately whether the name + tagline combination is available."
+    ],
+    [
+      "Does this Valorant name generator check availability?",
+      "No. Nothing here talks to Riot, so it cannot know whether a Riot ID + tagline is taken. Because the tagline makes the combination unique, most names are available with some tagline — copy the one you like and try it on the Riot account page."
+    ],
+    [
+      "What is a good Valorant tagline?",
+      "Something that reads with the name: a rank goal (#ACE, #RAD), a region (#NA1, #EUW), a role (#IGL, #1TAP) or a number that means something. Keep the joke in the tagline and the name clean, so the name still works if you change the tagline later."
+    ],
+    [
+      "How do I make matching duo Valorant names?",
+      "Pick the Duo & Team style and generate; results like TwinRefrag and MirrorAria pair naturally. Or take one base name and give each player a different suffix — AriaOne, AriaTwo — which is the most common five-stack format."
+    ],
+    [
+      "Can I copy and paste the generated Valorant names?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Paste the name into the Riot ID field and choose your tagline there."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators",
+    "intro": "Pick another game, or style your name for Discord and Twitch."
+  },
+  "links": [
+    [
+      "Summoner Name Generator",
+      "/summoner-name-generator.html",
+      "League of Legends Riot IDs with champion and role vocabulary.",
+      "⚜"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Every console and launcher in eight styles.",
+      "⌁"
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "12-character gamertags that fit Xbox and match your Riot ID.",
+      "🎮"
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles for your five-stack's server.",
+      "💬"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles.",
+      "⚡"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for Discord and Twitch.",
+      "𝕮"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "summoner name generator",
+      "/summoner-name-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "gamertag generator",
+      "/gamertag-generator.html"
+    ],
+    [
+      "Discord username generator",
+      "/discord-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "Twitch username generator",
+      "/twitch-username-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ]
+  ]
+}

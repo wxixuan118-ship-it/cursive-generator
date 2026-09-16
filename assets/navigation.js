@@ -27,7 +27,10 @@
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
       ["Roblox Usernames", "/roblox-username-generator.html"],
-      ["Aesthetic Usernames", "/aesthetic-username-generator.html"]
+      ["Aesthetic Usernames", "/aesthetic-username-generator.html"],
+      ["Username Generator", "/username-generator.html"],
+      ["Nickname Generator", "/nickname-generator.html"],
+      ["Gamertag Generator", "/gamertag-generator.html"]
     ],
     fonts: [
       ["Cursive Fonts", "/cursive-fonts.html"],
@@ -158,7 +161,7 @@
   const inPath = (parts) => parts.some((part) => path.includes(part));
   let current = "generator";
   if (path.startsWith("/letters/") || inPath(["letters", "alphabet", "converter"])) current = "letters";
-  if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "username-generator"])) current = "names";
+  if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "username-generator", "nickname-generator", "gamertag-generator"])) current = "names";
   if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "handwriting-practice", "name-tracing", "name-practice"])) current = "worksheets";
   if (inPath(["aesthetic-fonts", "preppy-fonts", "bow-font", "coquette-font", "cute-fonts", "girly-fonts"])) current = "alternative";

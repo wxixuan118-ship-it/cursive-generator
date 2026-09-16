@@ -1,0 +1,1000 @@
+{
+  "type": "username",
+  "keyword": "twitch username generator",
+  "file": "twitch-username-generator.html",
+  "label": "Twitch",
+  "title": "Twitch Username Generator – Streamer Name Ideas",
+  "description": "Twitch username generator: turn your name into streamer names for gaming, just chatting, VTuber, music and art channels that fit Twitch's 4–25 character rules.",
+  "h1": "Twitch Username Generator",
+  "appName": "Twitch Username Generator",
+  "linkNote": "Streamer names that fit Twitch's rules and can be said in a raid message.",
+  "kicker": "Free · 8 streamer styles · 24 names per batch · Twitch-safe characters",
+  "sub": "Streamer name ideas for gaming, just chatting, VTuber, music, art and variety channels",
+  "intro": "This Twitch username generator builds streamer names around your name or a word — gaming handles, cozy just-chatting names, VTuber personas, music and art channels, variety and speedrun tags — and keeps them inside Twitch's 4–25 character rule. Pick a style, generate 24 Twitch usernames at a time, filter by length, heart the ones you like and copy them into your Twitch settings.",
+  "perks": [
+    "Twitch-safe (letters, numbers, underscores)",
+    "Sayable in a raid or shout-out",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "kayla",
+  "seed": 2011,
+  "defaults": {
+    "symbols": "none",
+    "separator": "underscore"
+  },
+  "placeholder": "kayla, ace, pixel, cozy, ghost…",
+  "stylesLegend": "Choose a streamer style",
+  "resultsTitle": "Twitch username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "the",
+      "real",
+      "og",
+      "im",
+      "just",
+      "hey",
+      "mr",
+      "ms",
+      "not",
+      "lil",
+      "big"
+    ],
+    "suffixes": [
+      "ttv",
+      "tv",
+      "live",
+      "plays",
+      "streams",
+      "gg",
+      "hq",
+      "x",
+      "yt",
+      "vt"
+    ]
+  },
+  "styles": {
+    "gaming": {
+      "label": "Gaming",
+      "icon": "⌁",
+      "adjectives": [
+        "pixel",
+        "turbo",
+        "rogue",
+        "cyber",
+        "ultra",
+        "epic",
+        "mega",
+        "ghost",
+        "rapid",
+        "elite",
+        "clutch",
+        "silent"
+      ],
+      "nouns": [
+        "knight",
+        "sniper",
+        "raider",
+        "titan",
+        "reaper",
+        "blitz",
+        "warden",
+        "phoenix",
+        "striker",
+        "ranger",
+        "glitch",
+        "byte",
+        "rift",
+        "flux",
+        "drift",
+        "specter",
+        "combo",
+        "quest"
+      ],
+      "suffixes": [
+        "ttv",
+        "plays",
+        "gg",
+        "live",
+        "tv",
+        "gaming"
+      ],
+      "symbols": [
+        "⌁",
+        "✦",
+        "★",
+        "✪",
+        "⚔",
+        "▶"
+      ]
+    },
+    "cozy": {
+      "label": "Cozy & Just Chatting",
+      "icon": "☁",
+      "adjectives": [
+        "cozy",
+        "sleepy",
+        "lazy",
+        "chill",
+        "mellow",
+        "soft",
+        "late",
+        "quiet",
+        "sunday",
+        "lofi",
+        "comfy",
+        "warm"
+      ],
+      "nouns": [
+        "cloud",
+        "couch",
+        "tea",
+        "pillow",
+        "hoodie",
+        "lofi",
+        "bean",
+        "panda",
+        "otter",
+        "frog",
+        "duck",
+        "boba",
+        "toast",
+        "blanket",
+        "campfire",
+        "nook",
+        "corner",
+        "lounge"
+      ],
+      "suffixes": [
+        "live",
+        "tv",
+        "streams",
+        "ttv",
+        "zz",
+        "chats"
+      ],
+      "symbols": [
+        "☁",
+        "☺",
+        "⋆",
+        "♡",
+        "☆",
+        "˚"
+      ]
+    },
+    "vtuber": {
+      "label": "VTuber",
+      "icon": "✧",
+      "adjectives": [
+        "starry",
+        "lunar",
+        "neon",
+        "pastel",
+        "cyber",
+        "velvet",
+        "ghostly",
+        "celestial",
+        "glitchy",
+        "dreamy",
+        "holo",
+        "virtual"
+      ],
+      "nouns": [
+        "idol",
+        "sprite",
+        "nova",
+        "aurora",
+        "kitsune",
+        "neko",
+        "oni",
+        "comet",
+        "hoshi",
+        "yume",
+        "mimi",
+        "lumi",
+        "pixel",
+        "doll",
+        "spirit",
+        "muse",
+        "echo",
+        "rune"
+      ],
+      "suffixes": [
+        "vt",
+        "ch",
+        "live",
+        "tv",
+        "chan",
+        "hololive"
+      ],
+      "symbols": [
+        "✧",
+        "★",
+        "☾",
+        "♡",
+        "⋆",
+        "✦"
+      ]
+    },
+    "music": {
+      "label": "Music & DJ",
+      "icon": "♪",
+      "adjectives": [
+        "lofi",
+        "acoustic",
+        "midnight",
+        "velvet",
+        "neon",
+        "chill",
+        "indie",
+        "late",
+        "golden",
+        "electric",
+        "loud",
+        "live"
+      ],
+      "nouns": [
+        "beats",
+        "sounds",
+        "records",
+        "sessions",
+        "covers",
+        "vibes",
+        "tapes",
+        "studio",
+        "melody",
+        "chords",
+        "loops",
+        "tracks",
+        "frequency",
+        "echo",
+        "radio",
+        "mix",
+        "tunes",
+        "dj"
+      ],
+      "suffixes": [
+        "live",
+        "music",
+        "beats",
+        "sessions",
+        "tv",
+        "dj"
+      ],
+      "symbols": [
+        "♪",
+        "♫",
+        "✦",
+        "⋆",
+        "▶",
+        "☆"
+      ]
+    },
+    "art": {
+      "label": "Art & Creative",
+      "icon": "✎",
+      "adjectives": [
+        "inky",
+        "sketchy",
+        "pastel",
+        "messy",
+        "tiny",
+        "doodle",
+        "painted",
+        "pixel",
+        "clay",
+        "paper",
+        "velvet",
+        "bright"
+      ],
+      "nouns": [
+        "sketch",
+        "doodle",
+        "canvas",
+        "ink",
+        "brush",
+        "palette",
+        "studio",
+        "atelier",
+        "easel",
+        "draws",
+        "paints",
+        "crafts",
+        "pixels",
+        "lines",
+        "scribbles",
+        "sculpts",
+        "stitches",
+        "prints"
+      ],
+      "suffixes": [
+        "draws",
+        "art",
+        "studio",
+        "live",
+        "creates",
+        "tv"
+      ],
+      "symbols": [
+        "✎",
+        "✿",
+        "⋆",
+        "☆",
+        "✦",
+        "◆"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "confused"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "hamster",
+        "cabbage",
+        "walrus"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "supreme",
+        "ttv",
+        "live"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "variety": {
+      "label": "Variety & IRL",
+      "icon": "▶",
+      "adjectives": [
+        "daily",
+        "random",
+        "wild",
+        "honest",
+        "casual",
+        "everyday",
+        "little",
+        "real",
+        "raw",
+        "roaming",
+        "curious",
+        "slow"
+      ],
+      "nouns": [
+        "streams",
+        "adventures",
+        "stuff",
+        "things",
+        "days",
+        "life",
+        "journey",
+        "hangout",
+        "corner",
+        "hub",
+        "zone",
+        "room",
+        "channel",
+        "world",
+        "hours",
+        "moments",
+        "vlogs",
+        "roams"
+      ],
+      "suffixes": [
+        "live",
+        "tv",
+        "streams",
+        "irl",
+        "daily",
+        "hq"
+      ],
+      "symbols": [
+        "▶",
+        "★",
+        "⋆",
+        "☆",
+        "✦",
+        "◎"
+      ]
+    },
+    "speedrun": {
+      "label": "Speedrun & Esports",
+      "icon": "⚡",
+      "adjectives": [
+        "frame",
+        "any",
+        "glitchless",
+        "rapid",
+        "clutch",
+        "prime",
+        "apex",
+        "elite",
+        "sharp",
+        "lethal",
+        "swift",
+        "pro"
+      ],
+      "nouns": [
+        "runs",
+        "splits",
+        "frames",
+        "pb",
+        "wr",
+        "reset",
+        "route",
+        "skip",
+        "clip",
+        "ace",
+        "sniper",
+        "striker",
+        "titan",
+        "vanguard",
+        "marksman",
+        "ranked",
+        "ladder",
+        "grind"
+      ],
+      "suffixes": [
+        "runs",
+        "gg",
+        "ttv",
+        "wr",
+        "esports",
+        "live"
+      ],
+      "symbols": [
+        "⚡",
+        "✦",
+        "★",
+        "⚔",
+        "⌁",
+        "✪"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:gaming",
+      "Gaming"
+    ],
+    [
+      "style:cozy",
+      "Cozy"
+    ],
+    [
+      "style:vtuber",
+      "VTuber"
+    ],
+    [
+      "style:music",
+      "Music"
+    ],
+    [
+      "style:art",
+      "Art"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Twitch-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your Twitch Display Name",
+    "text": "Twitch usernames are plain — but the display name can carry capitals, and your panels and bio accept fancy Unicode letters. Copy a name here, then style it.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Twitch Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the streamer style you choose, and the options under Customize. Symbols are off and the separator is an underscore by default, because Twitch usernames allow only letters, numbers and underscores.",
+      "Leave the word blank and the generator pairs two streamer words instead — cozy_campfire, starrykitsune, pixelknight — so it also works as a random Twitch name generator for a second channel or a VTuber persona."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, your persona. The generator keeps it whole and builds around it: kayla becomes kayla_ttv, cozykayla or kaylaplays."
+      ],
+      [
+        "Pick a streamer style",
+        "Gaming, cozy & just chatting, VTuber, music & DJ, art & creative, funny, variety & IRL or speedrun & esports. Each has its own vocabulary; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use Twitch-safe to hide symbols, say the name out loud as a raid message, heart the ones you like, then copy into Settings → Profile → Username."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Twitch Username Ideas by Streamer Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Every example is 25 characters or fewer and can be said in a shout-out. Click any streamer name to copy it.",
+    "groups": [
+      {
+        "key": "gaming",
+        "title": "Gaming Twitch Usernames",
+        "blurb": "Knight, sniper, reaper, glitch — streamer names for shooters, RPGs and ranked grinds. The [gaming username generator](/gaming-username-generator.html) covers the matching gamertag.",
+        "examples": [
+          "pixelknight_ttv",
+          "kaylaplays",
+          "roguesniper",
+          "cyberglitch",
+          "eliteblitz_live",
+          "ghostraider",
+          "kayla_gg",
+          "rapidwarden"
+        ]
+      },
+      {
+        "key": "cozy",
+        "title": "Cozy Twitch Usernames",
+        "blurb": "Cloud, couch, tea, campfire — just-chatting and cozy-game streamer names.",
+        "examples": [
+          "cozy_campfire",
+          "sleepyotter_live",
+          "kaylas_nook",
+          "lofifrog",
+          "chilltoast",
+          "sundaylounge",
+          "comfyboba",
+          "kayla_chats"
+        ]
+      },
+      {
+        "key": "vtuber",
+        "title": "VTuber Twitch Usernames",
+        "blurb": "Kitsune, neko, aurora, hoshi — persona names with a -ch or -vt tail, the VTuber convention.",
+        "examples": [
+          "starrykitsune",
+          "lunar_nova_ch",
+          "neonneko_vt",
+          "pastelaurora",
+          "holohoshi",
+          "kayla_ch",
+          "velvetmuse_vt",
+          "cyberoni"
+        ]
+      },
+      {
+        "key": "music",
+        "title": "Music Twitch Usernames",
+        "blurb": "Beats, sessions, loops, DJ — streamer names for live music and DJ sets.",
+        "examples": [
+          "lofisessions_live",
+          "midnightbeats",
+          "kayla_dj",
+          "velvetloops",
+          "neonfrequency",
+          "acoustictapes",
+          "chillmix_tv",
+          "kaylasounds"
+        ]
+      },
+      {
+        "key": "art",
+        "title": "Art Twitch Usernames",
+        "blurb": "Sketch, doodle, canvas, atelier — names for drawing, painting and crafting streams.",
+        "examples": [
+          "kayla_draws",
+          "inkysketch",
+          "pasteldoodle",
+          "messycanvas",
+          "tinyatelier",
+          "kayla_studio",
+          "doodlepalette",
+          "claystitches"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Twitch Usernames",
+        "blurb": "Toast, goose, potato, walrus — the names chat remembers.",
+        "examples": [
+          "wobblytoast_ttv",
+          "grumpygoose",
+          "spicynoodle_live",
+          "confused_walrus",
+          "soggycabbage",
+          "kaylapants",
+          "sleepyyeti",
+          "tacolord_tv"
+        ]
+      },
+      {
+        "key": "variety",
+        "title": "Variety & IRL Twitch Usernames",
+        "blurb": "Streams, adventures, hangout, roams — names for channels that do a bit of everything.",
+        "examples": [
+          "kayla_streams",
+          "randomadventures",
+          "dailyhangout",
+          "wildroams_irl",
+          "honestcorner",
+          "kaylas_room",
+          "curiouszone",
+          "everydayhub"
+        ]
+      },
+      {
+        "key": "speedrun",
+        "title": "Speedrun & Esports Twitch Usernames",
+        "blurb": "Runs, splits, PB, WR — names for speedrunners and ranked players.",
+        "examples": [
+          "kayla_runs",
+          "anysplits",
+          "frameskip",
+          "glitchless_wr",
+          "clutchreset",
+          "primeroute",
+          "kaylagg_esports",
+          "rapidladder"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "kayla_ttv",
+      "cozykayla",
+      "kaylaplays",
+      "starrykitsune",
+      "kayla_draws",
+      "wobblytoast_ttv"
+    ],
+    "alt": "Twitch username generator example: the name kayla turned into kayla_ttv, cozykayla, kaylaplays, starrykitsune and other streamer name ideas",
+    "caption": "One name in, eight streamer styles out — every result fits Twitch's 4–25 character rule.",
+    "tagline": "GAMING · COZY · VTUBER · MUSIC · ART",
+    "sample": "kayla",
+    "src": "/assets/previews/twitch-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Twitch's rules",
+    "title": "Twitch Username vs Display Name vs Channel URL",
+    "intro": "Your Twitch username is also your channel URL, so it matters more than on most platforms. These shortcuts fit each situation.",
+    "cards": [
+      {
+        "icon": "▶",
+        "title": "Twitch Usernames (channel URL)",
+        "text": "4–25 characters, letters, numbers and underscores; lowercase in the URL (twitch.tv/name). Change it every 60 days; the old name is held for six months.",
+        "examples": [
+          "kayla_ttv",
+          "cozykayla",
+          "pixelknight"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate Twitch-safe names ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "Twitch Display Names",
+        "text": "Same characters as the username but with capitals allowed — Kayla_TTV instead of kayla_ttv. Set it under Settings → Profile; it cannot differ from the username except in case.",
+        "examples": [
+          "Kayla_TTV",
+          "CozyKayla",
+          "PixelKnight"
+        ],
+        "preset": {
+          "style": "gaming",
+          "symbols": "none",
+          "letters": "mixed",
+          "separator": "underscore"
+        },
+        "button": "Generate a display name ↑"
+      },
+      {
+        "icon": "✧",
+        "title": "VTuber Twitch Usernames",
+        "text": "VTuber channels use a persona name plus -ch or -vt so viewers know it is a virtual streamer. Leave the box blank for a full persona.",
+        "examples": [
+          "starrykitsune_ch",
+          "neonneko_vt",
+          "lunar_nova_ch"
+        ],
+        "preset": {
+          "style": "vtuber",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate a VTuber name ↑"
+      },
+      {
+        "icon": "⌁",
+        "title": "Same Twitch Username on YouTube & Discord",
+        "text": "YouTube handles allow 30 characters with periods, Discord 32 lowercase; a short underscore-only Twitch name works on both. Check all three before you commit.",
+        "examples": [
+          "kaylaplays",
+          "cozy_campfire",
+          "kayla_draws"
+        ],
+        "preset": {
+          "style": "cozy",
+          "symbols": "none",
+          "length": "short"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "YouTube channel names",
+          "/youtube-channel-name-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Twitch Username",
+    "intro": "The generator follows a handful of formulas — the ones you hear in every raid message. Knowing them helps you tweak a result or build your own streamer name by hand.",
+    "rows": [
+      [
+        "Name + ttv / live / plays",
+        "**Kayla** + **ttv** → the Twitch suffix; live and plays say the same thing",
+        [
+          "kayla_ttv",
+          "kaylaplays"
+        ]
+      ],
+      [
+        "Adjective + name",
+        "**Cozy** / **Pixel** + **Kayla** → describes the stream before your name lands",
+        [
+          "cozykayla",
+          "pixelkayla"
+        ]
+      ],
+      [
+        "Name _ verb",
+        "**Kayla** + **_** + **draws** / **runs** / **streams** → says what happens on the channel",
+        [
+          "kayla_draws",
+          "kayla_runs"
+        ]
+      ],
+      [
+        "Two streamer words",
+        "**Starry** + **Kitsune**, **Cozy** + **Campfire** → no name at all, for a persona or a second channel",
+        [
+          "starrykitsune",
+          "cozy_campfire"
+        ]
+      ],
+      [
+        "Persona + ch / vt",
+        "**Neko** + **_vt** → the VTuber convention",
+        [
+          "neonneko_vt",
+          "kayla_ch"
+        ]
+      ],
+      [
+        "its / the / real + name",
+        "**its** + **Kayla** → reads like a chat message, frees a taken name",
+        [
+          "itskayla",
+          "therealkayla"
+        ]
+      ],
+      [
+        "Name + gg / wr",
+        "**Kayla** + **gg** → competitive tails for ranked and speedrun channels",
+        [
+          "kaylagg",
+          "kayla_wr"
+        ]
+      ],
+      [
+        "Doubled letter",
+        "**Kayla** → **kaylaa**, **kayyla** → keeps the sound, changes the URL",
+        [
+          "kaylaa",
+          "kayyla"
+        ]
+      ]
+    ],
+    "note": "Say it as a raid message before you pick it: \"go follow kayla_ttv\" works; \"go follow xX_K4yl4_TTV_Xx\" does not. Twitch lets you change your name only every 60 days and the URL changes with it, so choose once."
+  },
+  "guide": {
+    "title": "How Our Twitch Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Twitch. Streamer names are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a streamer noun instead."
+      ],
+      [
+        "Streamer vocabulary.",
+        "Each of the eight styles has its own hand-written list — knight, sniper and glitch for gaming; cloud, couch and campfire for cozy; kitsune, neko and hoshi for VTubers; runs, splits and PB for speedrun — so a cozy result never borrows an esports word by accident."
+      ],
+      [
+        "Raid-message patterns.",
+        "Name + ttv, adjective + name, name + verb, two streamer words, persona + ch/vt, its/the prefixes, gg/wr tails and doubled letters. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Twitch-safe defaults.",
+        "Symbols are off and the separator is an underscore, so every result uses only letters, numbers and underscores — the only characters Twitch allows in a username."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a Twitch name is free — the settings page tells you when you try."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Twitch Username Rules and the 60-Day Change Limit",
+  "uniqueBody": [
+    "A Twitch username is **4 to 25 characters** of letters, numbers and underscores — no periods, hyphens, spaces or symbols — and it doubles as your channel URL (twitch.tv/name), so it appears in every raid, host and clip link. The **display name** can only differ from it in capitalisation (Kayla_TTV vs kayla_ttv). You can change your username once every **60 days**, and Twitch holds the old name for six months so nobody can take it, but every link to the old URL breaks — which is why streamers change names far less often than on other platforms and why it is worth generating a few options here first.",
+    "The other rule is unwritten: the name has to work **out loud**. Viewers hear it in shout-outs, raid messages and \"go follow\" calls, so this Twitch username generator favours two or three syllables spelled the way they sound. If your channel also lives on YouTube, the [YouTube channel name generator](/youtube-channel-name-generator.html) shares nearly the same character rules with a 30-character cap; for a matching gamertag, the [gamertag generator](/gamertag-generator.html) keeps names under Xbox's 12; the [Discord username generator](/discord-username-generator.html) handles your community server; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The character rules, the 60-day limit and the six-month hold are documented in ",
+    "name": "Twitch's help article on changing your username",
+    "href": "https://help.twitch.tv/s/article/username-rename-and-recycling-policies",
+    "after": "."
+  },
+  "faqTitle": "Twitch Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Twitch username generator?",
+      "It is a tool that combines a word you choose with curated streamer vocabulary — gaming, cozy, VTuber, music, art, funny, variety and speedrun — and raid-message naming patterns to produce Twitch usernames that fit the 4–25 character rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Twitch username ideas?",
+      "Examples from the styles above: pixelknight_ttv, cozy_campfire, starrykitsune, lofisessions_live, kayla_draws, wobblytoast_ttv, kayla_streams and anysplits. Type your own name to get versions built around it, or leave it blank for a full persona."
+    ],
+    [
+      "What characters can I use in a Twitch username?",
+      "Letters, numbers and underscores, 4 to 25 characters. No periods, hyphens, spaces, symbols or emoji. The display name can add capitals but nothing else. This generator keeps symbols off and joins words with an underscore so every result is Twitch-safe."
+    ],
+    [
+      "How often can I change my Twitch username?",
+      "Once every 60 days, from Settings → Profile → Username. Your channel URL changes with it and old links stop working; Twitch holds the previous name for six months so it cannot be taken by someone else."
+    ],
+    [
+      "Does this Twitch username generator check availability?",
+      "No. Nothing here talks to Twitch, so it cannot know whether a name is taken. Copy the one you like into Settings → Profile; Twitch tells you immediately if the username is unavailable, before you save."
+    ],
+    [
+      "What makes a good VTuber Twitch username?",
+      "A persona name with a -ch or -vt tail — starrykitsune_ch, neonneko_vt — so viewers know it is a virtual streamer before they click. Leave the word box blank and pick the VTuber style for full persona names, or type your persona's first name to build around it."
+    ],
+    [
+      "Should my Twitch username include ttv?",
+      "It is optional. ttv, live and plays tell people the name belongs to a streamer when it appears elsewhere — on Discord, YouTube or a gamertag — and they free up a taken name. If you want the same name on every platform without the suffix, use the Short filter and a two-word result instead."
+    ],
+    [
+      "Can I copy and paste the generated Twitch usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Paste the lowercase one as the username and a capitalised one as the display name."
+    ]
+  ],
+  "related": {
+    "title": "More Streamer & Username Generators",
+    "intro": "Pick another platform, or style your name for panels and Discord."
+  },
+  "links": [
+    [
+      "YouTube Channel Name Generator",
+      "/youtube-channel-name-generator.html",
+      "Channel names and @handles for the VOD side of the channel.",
+      "▶"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for the games you stream.",
+      "⌁"
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "12-character gamertags that match your Twitch name on console.",
+      "🎮"
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles for your community server.",
+      "💬"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for panels and bios.",
+      "𝕮"
+    ],
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "YouTube channel name generator",
+      "/youtube-channel-name-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "gamertag generator",
+      "/gamertag-generator.html"
+    ],
+    [
+      "Discord username generator",
+      "/discord-username-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "TikTok username generator",
+      "/tiktok-username-generator.html"
+    ]
+  ],
+  "maxLength": 25
+}

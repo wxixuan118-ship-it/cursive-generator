@@ -1,0 +1,1121 @@
+{
+  "type": "username",
+  "keyword": "fantasy username generator",
+  "file": "fantasy-username-generator.html",
+  "label": "Fantasy",
+  "title": "Fantasy Username Generator – Elf, Dragon & Mage Names",
+  "description": "Fantasy username generator: turn your name into elven, draconic, arcane, dark, celestial or royal fantasy usernames for RPGs, D&D, MMOs and Discord. Free.",
+  "h1": "Fantasy Username Generator",
+  "appName": "Fantasy Username Generator",
+  "kicker": "Free · 8 fantasy realms · 24 names per batch · copy & paste",
+  "sub": "Elven, draconic, arcane, dark, celestial and royal fantasy username ideas",
+  "intro": "This fantasy username generator turns your name or a word into names that belong in a realm — Aeloria, emberdrake, runeward, Thornveil — for RPG characters, MMO accounts, D&D campaigns, Discord servers and fantasy fan pages. Pick a realm, generate 24 fantasy usernames at a time, filter by length, heart the ones you like and copy them anywhere.",
+  "perks": [
+    "Works with or without a name",
+    "Elven, draconic and arcane vocab",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "aria",
+  "seed": 9001,
+  "placeholder": "aria, kael, luna, rowan, ash…",
+  "stylesLegend": "Choose a realm",
+  "resultsTitle": "Fantasy username ideas",
+  "common": {
+    "prefixes": [
+      "lady",
+      "lord",
+      "ser",
+      "the",
+      "young",
+      "elder",
+      "high",
+      "wild",
+      "dark",
+      "grey",
+      "silver",
+      "ash"
+    ],
+    "suffixes": [
+      "born",
+      "fall",
+      "wing",
+      "song",
+      "wood",
+      "vale",
+      "moor",
+      "wynd",
+      "veil",
+      "shade"
+    ]
+  },
+  "styles": {
+    "elven": {
+      "label": "Elven",
+      "icon": "🌿",
+      "adjectives": [
+        "silver",
+        "moon",
+        "star",
+        "leaf",
+        "willow",
+        "dawn",
+        "dew",
+        "wind",
+        "river",
+        "glade",
+        "mist",
+        "sun"
+      ],
+      "nouns": [
+        "aeloria",
+        "thalion",
+        "sylva",
+        "ithil",
+        "elara",
+        "faelan",
+        "lorien",
+        "nimue",
+        "aerin",
+        "galad",
+        "eryn",
+        "lunara",
+        "sylvan",
+        "vaelis",
+        "ilyra",
+        "thessa",
+        "oriel",
+        "aurien"
+      ],
+      "suffixes": [
+        "iel",
+        "wyn",
+        "wen",
+        "dir",
+        "ael",
+        "ith"
+      ],
+      "symbols": [
+        "✧",
+        "❀",
+        "⋆",
+        "☾",
+        "✵",
+        "❦"
+      ]
+    },
+    "draconic": {
+      "label": "Draconic",
+      "icon": "🐉",
+      "adjectives": [
+        "ember",
+        "ash",
+        "scorch",
+        "cinder",
+        "iron",
+        "obsidian",
+        "molten",
+        "crimson",
+        "smoke",
+        "storm",
+        "wyrm",
+        "onyx"
+      ],
+      "nouns": [
+        "drake",
+        "wyrm",
+        "wyvern",
+        "dragon",
+        "scale",
+        "fang",
+        "talon",
+        "ember",
+        "inferno",
+        "pyre",
+        "blaze",
+        "furnace",
+        "cinder",
+        "magma",
+        "brimstone",
+        "flame",
+        "vorax",
+        "kaldor"
+      ],
+      "suffixes": [
+        "fang",
+        "scale",
+        "wing",
+        "fire",
+        "bane",
+        "maw"
+      ],
+      "symbols": [
+        "🐉",
+        "⚔",
+        "✦",
+        "☠",
+        "✵",
+        "⋆"
+      ]
+    },
+    "arcane": {
+      "label": "Arcane",
+      "icon": "✦",
+      "adjectives": [
+        "arcane",
+        "mystic",
+        "runic",
+        "astral",
+        "eldritch",
+        "occult",
+        "spectral",
+        "ancient",
+        "hidden",
+        "veiled",
+        "sacred",
+        "forbidden"
+      ],
+      "nouns": [
+        "rune",
+        "sigil",
+        "grimoire",
+        "oracle",
+        "cipher",
+        "tome",
+        "relic",
+        "ward",
+        "hex",
+        "glyph",
+        "spell",
+        "aether",
+        "mage",
+        "warlock",
+        "sorcerer",
+        "seer",
+        "arcanum",
+        "ritual"
+      ],
+      "suffixes": [
+        "ward",
+        "weaver",
+        "bind",
+        "caster",
+        "wright",
+        "seer"
+      ],
+      "symbols": [
+        "✦",
+        "✧",
+        "⚝",
+        "☽",
+        "✵",
+        "⋆"
+      ]
+    },
+    "dark": {
+      "label": "Dark Fantasy",
+      "icon": "☾",
+      "adjectives": [
+        "shadow",
+        "hollow",
+        "grim",
+        "cursed",
+        "black",
+        "raven",
+        "thorn",
+        "ashen",
+        "grave",
+        "dread",
+        "bleak",
+        "silent"
+      ],
+      "nouns": [
+        "thornveil",
+        "nightshade",
+        "raven",
+        "wraith",
+        "shade",
+        "crypt",
+        "specter",
+        "lich",
+        "reaper",
+        "banshee",
+        "gloom",
+        "revenant",
+        "mourn",
+        "bane",
+        "dusk",
+        "morrow",
+        "hallow",
+        "vex"
+      ],
+      "suffixes": [
+        "bane",
+        "shade",
+        "veil",
+        "mourn",
+        "wraith",
+        "thorn"
+      ],
+      "symbols": [
+        "☾",
+        "✞",
+        "☠",
+        "✦",
+        "⚔",
+        "⋆"
+      ]
+    },
+    "celestial": {
+      "label": "Celestial",
+      "icon": "☽",
+      "adjectives": [
+        "celestial",
+        "starlit",
+        "lunar",
+        "solar",
+        "astral",
+        "radiant",
+        "golden",
+        "dawn",
+        "twilight",
+        "ethereal",
+        "halo",
+        "seraph"
+      ],
+      "nouns": [
+        "seraph",
+        "aurora",
+        "nova",
+        "halo",
+        "star",
+        "comet",
+        "lyra",
+        "vega",
+        "solace",
+        "zenith",
+        "eclipse",
+        "orion",
+        "astra",
+        "luminel",
+        "caelum",
+        "sol",
+        "lumen",
+        "aether"
+      ],
+      "suffixes": [
+        "star",
+        "light",
+        "dawn",
+        "halo",
+        "ray",
+        "sky"
+      ],
+      "symbols": [
+        "☽",
+        "✧",
+        "⋆",
+        "✦",
+        "☀",
+        "✵"
+      ]
+    },
+    "royal": {
+      "label": "Royal",
+      "icon": "♛",
+      "adjectives": [
+        "royal",
+        "noble",
+        "golden",
+        "high",
+        "crowned",
+        "regal",
+        "sovereign",
+        "grand",
+        "ivory",
+        "velvet",
+        "gilded",
+        "imperial"
+      ],
+      "nouns": [
+        "crown",
+        "throne",
+        "duchess",
+        "regent",
+        "sovereign",
+        "knight",
+        "baron",
+        "heir",
+        "sceptre",
+        "realm",
+        "court",
+        "castle",
+        "banner",
+        "empress",
+        "monarch",
+        "valor",
+        "honor",
+        "dynasty"
+      ],
+      "suffixes": [
+        "crown",
+        "throne",
+        "heir",
+        "realm",
+        "court",
+        "valor"
+      ],
+      "symbols": [
+        "♛",
+        "♕",
+        "⚜",
+        "✦",
+        "⚔",
+        "✵"
+      ]
+    },
+    "fae": {
+      "label": "Fae",
+      "icon": "🍄",
+      "adjectives": [
+        "fae",
+        "wild",
+        "mossy",
+        "thistle",
+        "bramble",
+        "hollow",
+        "twilight",
+        "wicked",
+        "glimmer",
+        "dewy",
+        "briar",
+        "wisp"
+      ],
+      "nouns": [
+        "pixie",
+        "sprite",
+        "puck",
+        "wisp",
+        "thistle",
+        "bramble",
+        "foxglove",
+        "toadstool",
+        "briar",
+        "nymph",
+        "sylph",
+        "hobgoblin",
+        "acorn",
+        "moth",
+        "clover",
+        "fern",
+        "willow",
+        "hazel"
+      ],
+      "suffixes": [
+        "wisp",
+        "thorn",
+        "moss",
+        "fern",
+        "glimmer",
+        "briar"
+      ],
+      "symbols": [
+        "🍄",
+        "❀",
+        "✧",
+        "⋆",
+        "☾",
+        "ꕤ"
+      ]
+    },
+    "warrior": {
+      "label": "Warrior",
+      "icon": "⚔",
+      "adjectives": [
+        "iron",
+        "steel",
+        "storm",
+        "battle",
+        "war",
+        "wolf",
+        "bear",
+        "grim",
+        "stone",
+        "bold",
+        "brave",
+        "blood"
+      ],
+      "nouns": [
+        "blade",
+        "shield",
+        "hammer",
+        "axe",
+        "warden",
+        "paladin",
+        "berserker",
+        "ranger",
+        "valkyrie",
+        "sentinel",
+        "champion",
+        "guardian",
+        "vanguard",
+        "bastion",
+        "reaver",
+        "spear",
+        "helm",
+        "fortress"
+      ],
+      "suffixes": [
+        "blade",
+        "shield",
+        "helm",
+        "guard",
+        "bane",
+        "fist"
+      ],
+      "symbols": [
+        "⚔",
+        "🛡",
+        "✦",
+        "⚒",
+        "☠",
+        "✵"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:elven",
+      "Elven"
+    ],
+    [
+      "style:draconic",
+      "Draconic"
+    ],
+    [
+      "style:arcane",
+      "Arcane"
+    ],
+    [
+      "style:dark",
+      "Dark"
+    ],
+    [
+      "style:celestial",
+      "Celestial"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ],
+    [
+      "nosymbols",
+      "No Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Give It a Fantasy Font",
+    "text": "A fantasy username deserves fantasy letters. Copy a name here, then render it in blackletter, gothic or medieval-style Unicode for your display name or character sheet.",
+    "links": [
+      [
+        "Old English font generator",
+        "/old-english-font-generator.html"
+      ],
+      [
+        "Gothic font generator",
+        "/gothic-font-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Fantasy Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the realm you choose, and the options under Customize. Leave the word blank and the generator pairs two fantasy words instead — silverthalion, emberwyvern, runeward — so it doubles as a random fantasy name generator for NPCs, guilds and alts.",
+      "Nothing is sent anywhere. The word lists live in the page, favorites live in your browser, and there is no AI making up unpronounceable strings."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a character's name, a place. The generator keeps it whole and builds a realm around it: aria becomes ariawyn, emberaria or aria.thornveil."
+      ],
+      [
+        "Pick a fantasy realm",
+        "Elven, draconic, arcane, dark fantasy, celestial, royal, fae or warrior. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Narrow the batch with the quick filters, heart the ones you like, then copy one or all of them for a character sheet, an MMO login or a Discord server."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Fantasy Username Ideas by Realm",
+    "intro": "Hand-picked examples per realm so you can see the vocabulary before you generate. Elven and celestial names suit healers and mages; draconic and warrior names suit tanks and fighters; dark fantasy fits rogues and necromancers — but every realm works for anyone. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "elven",
+        "title": "Elven Fantasy Usernames",
+        "blurb": "Flowing vowels and -iel, -wyn, -wen endings — names that sound like they were sung.",
+        "examples": [
+          "silveraeloria",
+          "thalionwyn",
+          "moonsylva",
+          "elarawen",
+          "ithildir",
+          "starlorien",
+          "aerinael",
+          "dewnimue"
+        ]
+      },
+      {
+        "key": "draconic",
+        "title": "Draconic Fantasy Usernames",
+        "blurb": "Ember, ash, scale and fang — hard consonants for dragonborn, drakes and fire mages.",
+        "examples": [
+          "emberdrake",
+          "ashwyvern",
+          "obsidianfang",
+          "scorchtalon",
+          "cinderwyrm",
+          "moltenpyre",
+          "ironscale",
+          "crimsonvorax"
+        ]
+      },
+      {
+        "key": "arcane",
+        "title": "Arcane Fantasy Usernames",
+        "blurb": "Rune, sigil, grimoire, ward — names for wizards, warlocks and scholars of the forbidden.",
+        "examples": [
+          "runeward",
+          "mysticsigil",
+          "astralgrimoire",
+          "eldritchseer",
+          "spectralglyph",
+          "arcanumweaver",
+          "veiledoracle",
+          "hexcaster"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Fantasy Usernames",
+        "blurb": "Thornveil, nightshade, wraith and revenant — for rogues, necromancers and villains. The [emo username generator](/emo-username-generator.html) covers the non-fantasy dark end.",
+        "examples": [
+          "thornveil",
+          "hollowwraith",
+          "ravenshade",
+          "cursedlich",
+          "dreadbanshee",
+          "grimrevenant",
+          "ashenmourn",
+          "nightshadevex"
+        ]
+      },
+      {
+        "key": "celestial",
+        "title": "Celestial Fantasy Usernames",
+        "blurb": "Seraph, aurora, nova, halo — radiant names for clerics, paladins and sky realms.",
+        "examples": [
+          "starlitseraph",
+          "lunaraurora",
+          "goldenhalo",
+          "radiantlyra",
+          "twilightvega",
+          "astralzenith",
+          "seraphsol",
+          "dawnluminel"
+        ]
+      },
+      {
+        "key": "royal",
+        "title": "Royal Fantasy Usernames",
+        "blurb": "Crown, throne, regent, empress — names for rulers, heirs and court intrigue.",
+        "examples": [
+          "goldencrown",
+          "ivorythrone",
+          "regalduchess",
+          "crownedheir",
+          "sovereignrealm",
+          "velvetcourt",
+          "gildedmonarch",
+          "ladyaria"
+        ]
+      },
+      {
+        "key": "fae",
+        "title": "Fae & Woodland Usernames",
+        "blurb": "Pixie, wisp, foxglove, bramble — mischievous names from the hollow hills.",
+        "examples": [
+          "mossywisp",
+          "thistlepixie",
+          "twilightpuck",
+          "bramblesprite",
+          "wickednymph",
+          "foxglovefern",
+          "briarhobgoblin",
+          "dewysylph"
+        ]
+      },
+      {
+        "key": "warrior",
+        "title": "Warrior Fantasy Usernames",
+        "blurb": "Blade, shield, hammer, valkyrie — for tanks, berserkers and guild leaders.",
+        "examples": [
+          "ironblade",
+          "stormshield",
+          "warhammer",
+          "boldvalkyrie",
+          "grimsentinel",
+          "stonebastion",
+          "bearberserker",
+          "bloodreaver"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "ariawyn",
+      "emberaria",
+      "runeward",
+      "thornveil",
+      "starlitseraph",
+      "ironblade"
+    ],
+    "alt": "Fantasy username generator example: the name aria turned into ariawyn, emberaria, runeward, thornveil and other fantasy username ideas",
+    "caption": "One name in, eight realms out — every result on the page comes from the vocabulary above.",
+    "tagline": "ELVEN · DRACONIC · ARCANE · DARK · ROYAL",
+    "sample": "aria",
+    "src": "/assets/previews/fantasy-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Where will you use it?",
+    "title": "Fantasy Usernames for RPGs, D&D, MMOs & Discord",
+    "intro": "The same generator works for every game and platform; these shortcuts pick settings that suit each one's naming rules.",
+    "cards": [
+      {
+        "icon": "🎲",
+        "title": "D&D Character Fantasy Usernames",
+        "text": "Tabletop names need to be said out loud at the table, so favor elven, royal or warrior results with two or three syllables and no numbers.",
+        "examples": [
+          "Thalionwyn",
+          "Lady Aria",
+          "Ironblade"
+        ],
+        "preset": {
+          "style": "elven",
+          "symbols": "none",
+          "numbers": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate D&D names ↑"
+      },
+      {
+        "icon": "⚔",
+        "title": "MMO & RPG Fantasy Usernames",
+        "text": "World of Warcraft, FFXIV, ESO and Guild Wars allow letters only in character names, usually 2–12 characters. Use Short and No Symbols.",
+        "examples": [
+          "Emberaria",
+          "Runeward",
+          "Ashwyvern"
+        ],
+        "preset": {
+          "style": "draconic",
+          "symbols": "none",
+          "separator": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate MMO names ↑",
+        "link": [
+          "Gaming usernames",
+          "/gaming-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Discord & Fan Account Fantasy Usernames",
+        "text": "Discord usernames are lowercase with periods and underscores; display names take symbols. Dark and arcane results suit fandom servers.",
+        "examples": [
+          "aria.thornveil",
+          "hexcaster",
+          "☾ariashade☾"
+        ],
+        "preset": {
+          "style": "dark",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate for Discord ↑",
+        "link": [
+          "Discord fonts",
+          "/fonts-for-discord.html"
+        ]
+      },
+      {
+        "icon": "📜",
+        "title": "Writing & Roleplay Fantasy Usernames",
+        "text": "For AO3, Wattpad, forum RP and fanfiction handles, celestial and fae names read well in a byline and pair with a gothic display font.",
+        "examples": [
+          "starlitseraph",
+          "mossywisp",
+          "aria.luminel"
+        ],
+        "preset": {
+          "style": "celestial",
+          "symbols": "auto"
+        },
+        "button": "Generate a pen name ↑",
+        "link": [
+          "Old English fonts",
+          "/old-english-font-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Fantasy Username",
+    "intro": "The generator follows a handful of formulas — the same ones fantasy authors use. Knowing them helps you tweak a result or build your own.",
+    "rows": [
+      [
+        "Name + elven suffix",
+        "**Aria** + **-wyn** / **-iel** / **-dir** → the fastest way to make any name sound elven",
+        [
+          "ariawyn",
+          "ariael"
+        ]
+      ],
+      [
+        "Element + name",
+        "**Ember** / **Storm** / **Silver** + **Aria** → an element or metal in front reads as a title",
+        [
+          "emberaria",
+          "silveraria"
+        ]
+      ],
+      [
+        "Name + realm noun",
+        "**Aria** + **Thornveil** → the noun tells you which realm you are from",
+        [
+          "ariathornveil"
+        ]
+      ],
+      [
+        "Two fantasy words",
+        "**Rune** + **Ward** → no name at all; compound nouns are how most fantasy surnames are built",
+        [
+          "runeward"
+        ]
+      ],
+      [
+        "Title + name",
+        "**Lady** / **Ser** / **Lord** + **Aria** → a rank makes a plain name feel like a character",
+        [
+          "ladyaria",
+          "seraria"
+        ]
+      ],
+      [
+        "Name + -born / -bane / -song",
+        "**Aria** + **born** → epithet suffixes that describe a deed or origin",
+        [
+          "ariaborn",
+          "ariabane"
+        ]
+      ],
+      [
+        "Vowel swap",
+        "**Aria** → **Arya**, **Ariah**, **Aerya** → old-world spelling, same sound",
+        [
+          "arya",
+          "aerya"
+        ]
+      ],
+      [
+        "Name + symbol",
+        "**Aria** + ✦ / ☾ / ⚔ → one mark, only where the platform allows it",
+        [
+          "aria✦",
+          "☾aria"
+        ]
+      ]
+    ],
+    "note": "One trick per name. *Ariawyn* is a character; *xXLadyAriawynBaneOfDragons666Xx* is a joke. Keep it to three syllables so a dungeon master can say it, and check the game's character limit before you fall in love with it."
+  },
+  "symbols": {
+    "title": "Fantasy Symbols for Usernames",
+    "intro": "Click a symbol to copy it, then paste it before, after or between the words of your username — in a display name or bio, since most handles reject them.",
+    "items": [
+      [
+        "⚔",
+        "crossed swords"
+      ],
+      [
+        "🛡",
+        "shield"
+      ],
+      [
+        "♛",
+        "crown"
+      ],
+      [
+        "♕",
+        "white crown"
+      ],
+      [
+        "⚜",
+        "fleur-de-lis"
+      ],
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "✧",
+        "white four-pointed star"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "☽",
+        "first quarter moon"
+      ],
+      [
+        "☀",
+        "sun"
+      ],
+      [
+        "✵",
+        "eight-pointed star"
+      ],
+      [
+        "⚝",
+        "outlined star"
+      ],
+      [
+        "❦",
+        "floral heart"
+      ],
+      [
+        "❀",
+        "white florette"
+      ],
+      [
+        "🐉",
+        "dragon"
+      ],
+      [
+        "🍄",
+        "mushroom"
+      ],
+      [
+        "ꕤ",
+        "flower"
+      ],
+      [
+        "✞",
+        "cross"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "⚒",
+        "hammer and pick"
+      ]
+    ],
+    "combos": [
+      "⚔aria⚔",
+      "♛aria♛",
+      "☾aria☽",
+      "✦aria✦",
+      "⚜ aria ⚜",
+      "❦aria❦",
+      "⚝aria⚝",
+      "✧˖° aria"
+    ],
+    "note": "Symbol support varies by platform. Discord display names, Steam, Tumblr and most forums show these; MMO character names and game logins allow letters only. Keep a plain version for the account and use the decorated one where it displays. For full blackletter and medieval alphabets, try the [old English font generator](/old-english-font-generator.html) or the [gothic font generator](/gothic-font-generator.html)."
+  },
+  "guide": {
+    "title": "How Our Fantasy Username Generator Works",
+    "intro": "There is no AI behind this page and no database of taken names. Fantasy usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a fantasy noun instead."
+      ],
+      [
+        "Realm vocabulary.",
+        "Each of the eight realms has its own hand-written list — aeloria, thalion and sylva for elven; drake, wyrm and cinder for draconic; rune, sigil and grimoire for arcane — so an elven result never borrows a draconic word by accident."
+      ],
+      [
+        "Fantasy patterns.",
+        "Name + suffix, element + name, title + name, two compound nouns, epithet suffixes like -born and -bane, and vowel-swap respellings. These are the same patterns fantasy authors use for surnames and epithets, so results read as names rather than mashed words."
+      ],
+      [
+        "Separators and numbers.",
+        "Periods, underscores and short numbers are available but off in most fantasy contexts — a character name with a number looks like a login, not a character."
+      ],
+      [
+        "Symbols.",
+        "Swords, crowns, moons and florettes from the realm's own set, placed before, after or around the word — only when you keep symbols on."
+      ]
+    ],
+    "outro": [
+      "Results and favorites never leave your device, and because nothing here talks to any game, forum or platform, the generator cannot tell you whether a name is free — check it where you plan to use it."
+    ]
+  },
+  "uniqueH2": "What Makes a Fantasy Username Sound Real?",
+  "uniqueBody": [
+    "Believable fantasy names follow a few phonetic rules. **Elven** names run on open vowels and soft consonants — l, r, th, v — with endings like -iel, -wyn, -ael (Aeloria, Thalionwyn). **Draconic** and **warrior** names do the opposite: hard stops and clusters — k, g, dr, br, x — with endings like -ax, -gor, -fang (Vorax, Kaldor, Ashwyvern). **Arcane** names borrow from Latin and Greek roots (arcanum, sigil, glyph). **Dark fantasy** names are English compound nouns with a grim first half (Thornveil, Nightshade, Ravenshade). Mixing systems is what makes a name feel fake, which is why this fantasy username generator keeps each realm's vocabulary separate.",
+    "The second rule is length. Three syllables is the ceiling for a name that a dungeon master, a raid leader or a Discord server will actually say; anything longer gets shortened to a nickname whether you like it or not. Use the Short filter for MMOs with 12-character limits, and save the long compound names for pen names and forum handles. If you want a fantasy name for a specific game, the [gaming username generator](/gaming-username-generator.html) has a fantasy realm tuned for console limits; for the wider spectrum of moods, the main [username generator](/username-generator.html) mixes fantasy with cool, dark, aesthetic and funny styles."
+  ],
+  "source": {
+    "before": "The elven sound patterns above follow the conventions Tolkien set out for his invented languages — see ",
+    "name": "Wikipedia's overview of Sindarin",
+    "href": "https://en.wikipedia.org/wiki/Sindarin",
+    "after": " for the phonology most modern fantasy borrows from."
+  },
+  "faqTitle": "Fantasy Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a fantasy username generator?",
+      "It is a tool that combines a word you choose with curated fantasy vocabulary — elven roots, draconic compounds, arcane terms, royal titles — and naming patterns to produce fantasy username ideas. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good fantasy username ideas?",
+      "Examples from the realms above: thalionwyn, emberdrake, runeward, thornveil, starlitseraph, goldencrown, mossywisp and ironblade. Type your own name to get versions built around it, such as ariawyn or emberaria."
+    ],
+    [
+      "How do I make my name sound like a fantasy character?",
+      "Add an elven suffix (aria → ariawyn), put an element or metal in front (emberaria), or attach an epithet like -born or -bane (ariaborn). Swapping a vowel for an old-world spelling (Arya, Aerya) also works. The formulas section walks through each option."
+    ],
+    [
+      "Can I use these fantasy usernames in D&D or an MMO?",
+      "Yes. For D&D, pick Elven, Royal or Warrior with Numbers off and Mixed letters. For MMOs like World of Warcraft or FFXIV, which allow letters only and 2–12 characters, use the Short filter and set Symbols and Separator to None."
+    ],
+    [
+      "Does this fantasy username generator use AI?",
+      "No. Every result comes from hand-written realm vocabularies and fixed naming patterns, which is why the names follow consistent phonetic rules instead of coming out as random syllables. Nothing you type leaves your browser."
+    ],
+    [
+      "Which realm should I pick for my character class?",
+      "Elven and celestial for healers, druids and clerics; arcane for wizards, warlocks and sorcerers; draconic and warrior for fighters, barbarians and dragonborn; dark fantasy for rogues, necromancers and villains; royal for nobles and bards; fae for tricksters and rangers."
+    ],
+    [
+      "Are these fantasy usernames unique?",
+      "Names built around your own word are far less likely to be taken than names copied from a list — ariathornveil is rarer than thornveil. If a plain result is taken, add a title, an epithet suffix or a vowel swap before you add a number. The generator does not check availability."
+    ],
+    [
+      "Can I copy and paste the generated fantasy usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To render it in blackletter for a display name, paste it into the [old English font generator](/old-english-font-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators & Fantasy Fonts",
+    "intro": "Pick another vibe, or give your new fantasy username matching medieval letters."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for Xbox, PlayStation, Steam and Discord, with a fantasy realm built in.",
+      "⌁"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles.",
+      "⚡"
+    ],
+    [
+      "Old English Font Generator",
+      "/old-english-font-generator.html",
+      "Blackletter and medieval Unicode letters for character names.",
+      "𝔄"
+    ],
+    [
+      "Gothic Font Generator",
+      "/gothic-font-generator.html",
+      "Dark, fraktur-style text to paste into display names.",
+      "✞"
+    ],
+    [
+      "Harry Potter Font Generator",
+      "/harry-potter-font-generator.html",
+      "Wizarding-world lettering for fan accounts and banners.",
+      "⚡"
+    ],
+    [
+      "Emo Username Generator",
+      "/emo-username-generator.html",
+      "Emo, scene, goth and grunge names with xx and ✞."
+    ],
+    [
+      "Rare Username Generator",
+      "/rare-username-generator.html",
+      "Obscure words, old names and OG short forms that are rarely taken."
+    ],
+    [
+      "Nickname Generator",
+      "/nickname-generator.html",
+      "Cute, funny and cool nicknames built from a real name."
+    ],
+    [
+      "Summoner Name Generator",
+      "/summoner-name-generator.html",
+      "League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "old English font generator",
+      "/old-english-font-generator.html"
+    ],
+    [
+      "gothic font generator",
+      "/gothic-font-generator.html"
+    ],
+    [
+      "Harry Potter font generator",
+      "/harry-potter-font-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "cursive name generator",
+      "/cursive-name-generator.html"
+    ]
+  ],
+  "linkNote": "Elven, draconic, arcane and royal names for RPGs and D&D."
+}

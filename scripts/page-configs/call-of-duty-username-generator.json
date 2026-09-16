@@ -1,0 +1,1015 @@
+{
+  "type": "username",
+  "keyword": "call of duty username generator",
+  "file": "call-of-duty-username-generator.html",
+  "label": "Call of Duty",
+  "title": "Call of Duty Username Generator – COD & Warzone Names",
+  "description": "Call of Duty username generator: turn your name into sweaty, military, funny, clan-tag or OG COD and Warzone Activision IDs under 16 characters. Free.",
+  "h1": "Call of Duty Username Generator",
+  "appName": "Call of Duty Username Generator",
+  "crumb": [
+    "Gaming Usernames",
+    "/gaming-username-generator.html"
+  ],
+  "linkNote": "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters.",
+  "kicker": "Free · 8 COD styles · 24 names per batch · 16-character Activision rule",
+  "sub": "Sweaty, military, funny, clan-tag and OG COD name ideas from your own name",
+  "intro": "This Call of Duty username generator builds Activision IDs around your name or a word — sweaty Warzone tags, military callsigns, funny lobby names, clan-tag formats, OG names from the Modern Warfare 2 era and more — and keeps every result inside Activision's 16-character rule. Pick a style, generate 24 Call of Duty usernames at a time, heart the ones you like and copy them into your Activision profile.",
+  "perks": [
+    "Fits Activision's 16-character rule",
+    "Military callsign vocabulary built in",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "jake",
+  "seed": 2009,
+  "maxLength": 16,
+  "defaults": {
+    "symbols": "none",
+    "letters": "mixed",
+    "separator": "none"
+  },
+  "placeholder": "jake, ace, ghost, viper, price…",
+  "stylesLegend": "Choose a COD style",
+  "resultsTitle": "Call of Duty username ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "not",
+      "real",
+      "lil",
+      "big",
+      "sgt",
+      "capt",
+      "sir",
+      "ttv"
+    ],
+    "suffixes": [
+      "cod",
+      "wz",
+      "ttv",
+      "yt",
+      "gg",
+      "x",
+      "z",
+      "one",
+      "hq",
+      "141"
+    ]
+  },
+  "styles": {
+    "sweaty": {
+      "label": "Sweaty",
+      "icon": "⚔",
+      "adjectives": [
+        "cracked",
+        "clutch",
+        "rapid",
+        "lethal",
+        "silent",
+        "swift",
+        "elite",
+        "prime",
+        "sharp",
+        "ruthless",
+        "instant",
+        "quick"
+      ],
+      "nouns": [
+        "sniper",
+        "slider",
+        "fragger",
+        "rusher",
+        "flick",
+        "headshot",
+        "quickscope",
+        "wallbang",
+        "dropshot",
+        "nuke",
+        "reaper",
+        "demon",
+        "goat",
+        "sweat",
+        "aim",
+        "trigger",
+        "recoil",
+        "spawn"
+      ],
+      "suffixes": [
+        "cod",
+        "wz",
+        "gg",
+        "x",
+        "ttv",
+        "one"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "military": {
+      "label": "Military",
+      "icon": "◎",
+      "adjectives": [
+        "alpha",
+        "bravo",
+        "delta",
+        "echo",
+        "sierra",
+        "tango",
+        "viper",
+        "ghost",
+        "shadow",
+        "iron",
+        "steel",
+        "black"
+      ],
+      "nouns": [
+        "ghost",
+        "soap",
+        "price",
+        "roach",
+        "sandman",
+        "callsign",
+        "sentinel",
+        "vanguard",
+        "operator",
+        "recon",
+        "marksman",
+        "gunner",
+        "sapper",
+        "ranger",
+        "raider",
+        "wolf",
+        "hawk",
+        "falcon"
+      ],
+      "suffixes": [
+        "141",
+        "six",
+        "one",
+        "zero",
+        "x",
+        "cod"
+      ],
+      "symbols": [
+        "◎",
+        "⚔",
+        "★",
+        "✦",
+        "⌁",
+        "☠"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "bot"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "llama",
+        "camper",
+        "bot",
+        "lobby",
+        "default"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "xd",
+        "lol",
+        "wz"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "clan": {
+      "label": "Clan Tag",
+      "icon": "▲",
+      "adjectives": [
+        "fz",
+        "nrg",
+        "opt",
+        "faze",
+        "rz",
+        "vx",
+        "nv",
+        "sx",
+        "kz",
+        "lz",
+        "gx",
+        "zy"
+      ],
+      "nouns": [
+        "clan",
+        "squad",
+        "crew",
+        "unit",
+        "org",
+        "team",
+        "legion",
+        "faction",
+        "house",
+        "syndicate",
+        "empire",
+        "dynasty",
+        "alliance",
+        "corps",
+        "platoon",
+        "regiment",
+        "cartel",
+        "circle"
+      ],
+      "suffixes": [
+        "gg",
+        "x",
+        "hq",
+        "one",
+        "z",
+        "cod"
+      ],
+      "symbols": [
+        "▲",
+        "◆",
+        "✦",
+        "★",
+        "⚡",
+        "⌁"
+      ]
+    },
+    "og": {
+      "label": "OG",
+      "icon": "◇",
+      "adjectives": [
+        "og",
+        "old",
+        "true",
+        "real",
+        "pure",
+        "raw",
+        "prime",
+        "first",
+        "mw2",
+        "bo2",
+        "grey",
+        "ash"
+      ],
+      "nouns": [
+        "vex",
+        "nyx",
+        "ryn",
+        "kai",
+        "zed",
+        "ivo",
+        "ash",
+        "ely",
+        "ora",
+        "ren",
+        "flint",
+        "haar",
+        "rime",
+        "onyx",
+        "jinx",
+        "zane",
+        "arc",
+        "sol"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "og",
+        "one"
+      ],
+      "symbols": [
+        "◇",
+        "★",
+        "✦",
+        "⋆",
+        "◆",
+        "▲"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "grim",
+        "cursed",
+        "silent",
+        "shadow",
+        "midnight",
+        "phantom",
+        "wicked",
+        "cold",
+        "bleak",
+        "dead"
+      ],
+      "nouns": [
+        "void",
+        "raven",
+        "shadow",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "omen",
+        "reaper",
+        "specter",
+        "crow",
+        "plague",
+        "doom",
+        "nocturne"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "xx",
+        "ash",
+        "x",
+        "cod"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "☽",
+        "✞",
+        "☠"
+      ]
+    },
+    "beast": {
+      "label": "Beast",
+      "icon": "🐺",
+      "adjectives": [
+        "iron",
+        "steel",
+        "savage",
+        "alpha",
+        "wild",
+        "black",
+        "blood",
+        "thunder",
+        "grim",
+        "feral",
+        "silver",
+        "rabid"
+      ],
+      "nouns": [
+        "wolf",
+        "viper",
+        "hawk",
+        "bear",
+        "panther",
+        "cobra",
+        "shark",
+        "jackal",
+        "bull",
+        "raptor",
+        "lion",
+        "tiger",
+        "falcon",
+        "rhino",
+        "hound",
+        "mantis",
+        "kraken",
+        "eagle"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "one",
+        "king",
+        "gg",
+        "z"
+      ],
+      "symbols": [
+        "☠",
+        "⚔",
+        "✖",
+        "★",
+        "⚡",
+        "☬"
+      ]
+    },
+    "duo": {
+      "label": "Duo & Squad",
+      "icon": "⚡",
+      "adjectives": [
+        "twin",
+        "double",
+        "dual",
+        "mirror",
+        "echo",
+        "duo",
+        "trio",
+        "squad",
+        "clone",
+        "tandem",
+        "paired",
+        "shadow"
+      ],
+      "nouns": [
+        "twin",
+        "mirror",
+        "echo",
+        "clone",
+        "partner",
+        "wingman",
+        "shadow",
+        "backup",
+        "second",
+        "sidekick",
+        "spotter",
+        "revive",
+        "plate",
+        "loadout",
+        "anchor",
+        "igl",
+        "support",
+        "flank"
+      ],
+      "suffixes": [
+        "one",
+        "two",
+        "x",
+        "z",
+        "wz",
+        "ii"
+      ],
+      "symbols": [
+        "⚡",
+        "✦",
+        "★",
+        "◆",
+        "⌁",
+        "✪"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:sweaty",
+      "Sweaty"
+    ],
+    [
+      "style:military",
+      "Military"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:clan",
+      "Clan"
+    ],
+    [
+      "style:og",
+      "OG"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Activision-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style It for Discord & Twitch",
+    "text": "Activision IDs are plain text, but your Discord and Twitch names can carry fancy letters. Copy a name here, then style it for those.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Call of Duty Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the COD style you choose, and the options under Customize. Symbols are off, Mixed case is on and every result is capped at 16 characters, so anything you see passes the Activision ID field as written.",
+      "Leave the word blank and the generator pairs two COD words instead — SilentSniper, GhostRecon, TwinSpotter — so it also works as a random Call of Duty name generator for a second account or a squad."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a favorite operator. The generator keeps it whole and builds around it: jake becomes CrackedJake, JakeWZ or GhostJake."
+      ],
+      [
+        "Pick a COD name style",
+        "Sweaty, military, funny, clan tag, OG, dark, beast or duo & squad. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Keep Activision-safe on, heart the ones you like, then copy into profile.callofduty.com → Activision ID; changing it uses a rename token."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Call of Duty Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Sweaty and clan names dominate ranked Warzone; military callsigns are the Call of Duty classic; funny names win the pre-game lobby — but every style here works for anyone. Click any COD name to copy it.",
+    "groups": [
+      {
+        "key": "sweaty",
+        "title": "Sweaty Call of Duty Usernames",
+        "blurb": "Sniper, slider, quickscope, dropshot — tryhard names for ranked Warzone and Search & Destroy.",
+        "examples": [
+          "CrackedSniper",
+          "ClutchSlider",
+          "SilentQuickscope",
+          "RapidFragger",
+          "JakeWZ",
+          "LethalDropshot",
+          "PrimeDemon",
+          "SwiftHeadshot"
+        ]
+      },
+      {
+        "key": "military",
+        "title": "Military Call of Duty Usernames",
+        "blurb": "Ghost, Soap, Price, Task Force 141 — callsigns and NATO-alphabet names from the campaigns.",
+        "examples": [
+          "GhostRecon",
+          "AlphaSentinel",
+          "SoapCallsign",
+          "Viper141",
+          "BravoOperator",
+          "JakeSix",
+          "DeltaMarksman",
+          "ShadowRanger"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Call of Duty Usernames",
+        "blurb": "Angry camper, sleepy bot, default lobby — names that get a laugh before the match loads.",
+        "examples": [
+          "AngryCamper",
+          "SleepyBot",
+          "DefaultLobby",
+          "SpicyNoodle",
+          "WobblyToast",
+          "GrumpyGoose",
+          "JakePants",
+          "TacoLord"
+        ]
+      },
+      {
+        "key": "clan",
+        "title": "Clan Tag Call of Duty Usernames",
+        "blurb": "Two-letter tags in front — FZ, RZ, KZ — the esports look; Activision shows clan tags separately too.",
+        "examples": [
+          "FZJake",
+          "RZSquad",
+          "KZPlatoon",
+          "NVCrew",
+          "SXJake",
+          "LZLegion",
+          "GXUnit",
+          "VXRegiment"
+        ]
+      },
+      {
+        "key": "og",
+        "title": "OG Call of Duty Usernames",
+        "blurb": "Vex, nyx, flint, sol — short names that read like a 2009 Modern Warfare 2 lobby. The [rare username generator](/rare-username-generator.html) digs deeper.",
+        "examples": [
+          "Vex",
+          "Nyxo",
+          "OGJake",
+          "Flint",
+          "TrueSol",
+          "RynX",
+          "MW2Arc",
+          "Zane"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Call of Duty Usernames",
+        "blurb": "Void, wraith, reaper, plague — moody names for a Ghost or Roze skin. The [emo username generator](/emo-username-generator.html) goes darker.",
+        "examples": [
+          "HollowVoid",
+          "GrimWraith",
+          "JakeNoir",
+          "PhantomPlague",
+          "CursedCrow",
+          "MidnightAsh",
+          "VoidReaper",
+          "SilentOmen"
+        ]
+      },
+      {
+        "key": "beast",
+        "title": "Beast Call of Duty Usernames",
+        "blurb": "Wolf, viper, kraken, raptor — the heaviest words in the list.",
+        "examples": [
+          "IronWolf",
+          "SteelViper",
+          "AlphaHawk",
+          "JakeKraken",
+          "BloodRaptor",
+          "GrimJackal",
+          "WildMantis",
+          "ThunderBull"
+        ]
+      },
+      {
+        "key": "duo",
+        "title": "Duo & Squad Call of Duty Usernames",
+        "blurb": "Twin, spotter, plate, revive — matching names for duos and quads; generate two and swap the suffix.",
+        "examples": [
+          "TwinSpotter",
+          "MirrorJake",
+          "EchoRevive",
+          "DualPlate",
+          "JakeOne",
+          "JakeTwo",
+          "ShadowFlank",
+          "TandemIGL"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "CrackedJake",
+      "JakeWZ",
+      "GhostJake",
+      "AngryCamper",
+      "FZJake",
+      "TwinSpotter"
+    ],
+    "alt": "Call of Duty username generator example: the name jake turned into CrackedJake, JakeWZ, GhostJake, AngryCamper and other COD name ideas under 16 characters",
+    "caption": "One name in, eight COD styles out — every result fits Activision's 16-character ID rule.",
+    "tagline": "SWEATY · MILITARY · FUNNY · CLAN · OG",
+    "sample": "jake",
+    "src": "/assets/previews/call-of-duty-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Activision's rules",
+    "title": "Call of Duty Usernames on Activision, PlayStation & Xbox",
+    "intro": "Your COD name is your Activision ID, but console players carry a platform name too. These shortcuts fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Activision ID Call of Duty Usernames",
+        "text": "Up to 16 characters, letters, numbers and a few punctuation marks, with a #digits suffix added automatically. Changing it costs a rename token; Activision grants them periodically.",
+        "examples": [
+          "CrackedJake",
+          "GhostRecon",
+          "JakeWZ"
+        ],
+        "preset": {
+          "style": "sweaty",
+          "symbols": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate Activision IDs ↑"
+      },
+      {
+        "icon": "⌁",
+        "title": "Call of Duty Usernames for PlayStation",
+        "text": "PS5 lobbies can show your PSN ID next to the Activision ID; keep both under 16 characters with an underscore at most so they match.",
+        "examples": [
+          "Jake_Sniper",
+          "Iron_Wolf",
+          "OGJake"
+        ],
+        "preset": {
+          "style": "military",
+          "symbols": "none",
+          "separator": "underscore",
+          "letters": "mixed"
+        },
+        "button": "Generate PSN-safe names ↑",
+        "link": [
+          "PSN name generator",
+          "/psn-name-generator.html"
+        ]
+      },
+      {
+        "icon": "▶",
+        "title": "Call of Duty Usernames for Xbox",
+        "text": "Xbox gamertags cap at 12 characters — use the Short filter so your COD name and gamertag can be the same.",
+        "examples": [
+          "JakeWZ",
+          "GhostJake",
+          "IronWolf"
+        ],
+        "preset": {
+          "style": "beast",
+          "symbols": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate Xbox-length names ↑",
+        "link": [
+          "Gamertag generator",
+          "/gamertag-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Call of Duty Usernames for Discord & Twitch",
+        "text": "Discord usernames are lowercase and Twitch allows underscores; a one-word lowercase result matches everywhere.",
+        "examples": [
+          "crackedjake",
+          "ghostrecon",
+          "jake_wz"
+        ],
+        "preset": {
+          "style": "sweaty",
+          "symbols": "none",
+          "separator": "none",
+          "letters": "lower"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Discord usernames",
+          "/discord-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good COD Name",
+    "intro": "The generator follows a handful of formulas you will recognise from any Warzone lobby. Knowing them helps you tweak a result or build your own COD name by hand.",
+    "rows": [
+      [
+        "Sweaty adjective + name",
+        "**Cracked** / **Clutch** + **Jake** → says how you play before your name lands",
+        [
+          "CrackedJake",
+          "ClutchJake"
+        ]
+      ],
+      [
+        "Callsign + name",
+        "**Ghost** / **Viper** + **Jake** → a campaign operator or NATO letter in front",
+        [
+          "GhostJake",
+          "ViperJake"
+        ]
+      ],
+      [
+        "Name + WZ / COD",
+        "**Jake** + **WZ** → the Warzone suffix; COD and 141 work the same way",
+        [
+          "JakeWZ",
+          "Jake141"
+        ]
+      ],
+      [
+        "Name + role",
+        "**Jake** + **Sniper** / **Spotter** → what you do in the squad",
+        [
+          "JakeSniper",
+          "JakeSpotter"
+        ]
+      ],
+      [
+        "Clan tag + name",
+        "**FZ** / **RZ** + **Jake** → a two-letter tag in front, org optional",
+        [
+          "FZJake",
+          "RZJake"
+        ]
+      ],
+      [
+        "Rank joke + noun",
+        "**Angry** / **Sleepy** + **Camper** / **Bot** → the funny format",
+        [
+          "AngryCamper",
+          "SleepyBot"
+        ]
+      ],
+      [
+        "Duo pair",
+        "**Jake** + **One** / **Two** → matching names for a duo; swap the suffix",
+        [
+          "JakeOne",
+          "JakeTwo"
+        ]
+      ],
+      [
+        "Dropped vowel",
+        "**Sniper** → **Snpr**, **Jake** → **Jk** → the tryhard respelling, buys characters",
+        [
+          "JakeSnpr",
+          "JkWZ"
+        ]
+      ]
+    ],
+    "note": "One trick per name. *CrackedJake* is a Call of Duty username; *xX_Cr4ck3d_J4k3_Xx* is a 2009 MW2 lobby and does not fit in 16 characters anyway. Changing an Activision ID uses a rename token, so generate a few before you spend one."
+  },
+  "guide": {
+    "title": "How Our Call of Duty Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Activision. Call of Duty usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a COD noun instead."
+      ],
+      [
+        "COD vocabulary.",
+        "Each of the eight styles has its own hand-written list — sniper, slider and quickscope for sweaty; Ghost, Soap and NATO letters for military; camper, bot and default for funny — so a military result never borrows a funny word by accident."
+      ],
+      [
+        "Lobby patterns.",
+        "Adjective + name, callsign + name, name + WZ, name + role, clan tag + name, rank jokes, duo suffixes and dropped vowels. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Activision-safe defaults.",
+        "Symbols off, Mixed case on and a hard 16-character cap, so every result fits the Activision ID field as written."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether an Activision ID is free — the profile page tells you when you try."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "COD Username Rules — Activision IDs and Rename Tokens",
+  "uniqueBody": [
+    "Your Call of Duty name is your **Activision ID**: a display name of up to **16 characters** plus a **#digits** suffix that Activision adds automatically, so the name itself does not have to be unique. It is the name shown in Warzone, Modern Warfare, Black Ops and Mobile lobbies regardless of whether you play on PlayStation, Xbox or PC. Changing it is done at **profile.callofduty.com → Activision ID** and costs a **rename token**; Activision grants tokens periodically rather than letting you change the name freely, which is why it is worth generating several options here before you spend one.",
+    "That is why this COD name generator keeps every result under 16 characters with no symbols, and offers a Short preset for players who also want the name to fit an Xbox gamertag. For console-specific rules, the [gamertag generator](/gamertag-generator.html) keeps names under Xbox's 12 characters and the [PSN name generator](/psn-name-generator.html) follows PlayStation's format; the [gaming username generator](/gaming-username-generator.html) covers Steam, Nintendo and Discord; the [Fortnite username generator](/fortnite-username-generator.html) and [PUBG username generator](/pubg-username-generator.html) handle the other battle royales; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "Activision ID rules and the rename-token system are described in ",
+    "name": "Activision's support article on changing your Activision ID",
+    "href": "https://support.activision.com/articles/how-to-change-your-activision-id",
+    "after": "."
+  },
+  "faqTitle": "Call of Duty Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Call of Duty username generator?",
+      "It is a tool that combines a word you choose with curated COD vocabulary — sweaty terms, military callsigns, clan tags, rank jokes — and lobby naming patterns to produce Activision IDs that fit the 16-character rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Call of Duty username ideas?",
+      "Examples from the styles above: CrackedSniper, GhostRecon, AngryCamper, FZJake, Nyxo, HollowVoid, IronWolf and TwinSpotter. Type your own name to get versions built around it, such as CrackedJake or JakeWZ."
+    ],
+    [
+      "How many characters can a COD name have?",
+      "Activision IDs allow up to 16 characters, letters and numbers with a few punctuation marks, and Activision appends a #digits suffix automatically. This generator caps every result at 16 characters so it fits as written."
+    ],
+    [
+      "How do I change my COD name?",
+      "Sign in at profile.callofduty.com, open Activision ID and edit the display name. Each change uses a rename token; Activision grants tokens periodically, so check the name here first and copy it exactly before you spend one."
+    ],
+    [
+      "Does this Call of Duty username generator check availability?",
+      "No. Nothing here talks to Activision, so it cannot know whether a name is taken. Because the #digits suffix makes IDs unique, most display names are accepted — copy the one you like and try it on the profile page before using a rename token."
+    ],
+    [
+      "Can I use symbols in a COD name?",
+      "Not in the Activision ID beyond a few punctuation marks, and not in PlayStation or Xbox names. Symbols like ⚔ and ✦ work in Discord, Steam and Twitch display names — that is what the symbol section on this page is for."
+    ],
+    [
+      "What is a good Warzone squad name format?",
+      "A shared base with different suffixes — JakeOne, JakeTwo, JakeThree — or a clan tag in front of each player's name: FZJake, FZNova, FZAce. Pick the Duo & Squad or Clan Tag style above to generate either format."
+    ],
+    [
+      "Can I copy and paste the generated COD names?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style one for Discord or Twitch, paste it into the [cool text generator](/cool-text-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators",
+    "intro": "Pick another game, or style your COD name for Discord and Twitch."
+  },
+  "links": [
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "12-character gamertags that fit Xbox and match your COD name.",
+      "🎮"
+    ],
+    [
+      "PSN Name Generator",
+      "/psn-name-generator.html",
+      "PlayStation online IDs in the same styles.",
+      "◎"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Every console and launcher in eight styles.",
+      "⌁"
+    ],
+    [
+      "Fortnite Username Generator",
+      "/fortnite-username-generator.html",
+      "Sweaty, funny and OG Fortnite names within Epic's rules.",
+      "🎯"
+    ],
+    [
+      "PUBG Username Generator",
+      "/pubg-username-generator.html",
+      "Pro, sniper and clan-tag PUBG Mobile names.",
+      "🔫"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for Discord and Twitch.",
+      "𝕮"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "gamertag generator",
+      "/gamertag-generator.html"
+    ],
+    [
+      "PSN name generator",
+      "/psn-name-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "Fortnite username generator",
+      "/fortnite-username-generator.html"
+    ],
+    [
+      "PUBG username generator",
+      "/pubg-username-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "Discord username generator",
+      "/discord-username-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ]
+  ]
+}

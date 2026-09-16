@@ -1,0 +1,1279 @@
+{
+  "type": "username",
+  "keyword": "username generator",
+  "file": "username-generator.html",
+  "label": "",
+  "title": "Username Generator – Free Username Ideas for Any Platform",
+  "description": "Free username generator: type a name or word, pick a style and get 24 unique username ideas for Instagram, TikTok, Discord, Roblox and games. No sign-up.",
+  "h1": "Username Generator",
+  "appName": "Username Generator",
+  "crumb": [
+    "Names",
+    "/cursive-name-generator.html"
+  ],
+  "kicker": "Free · 12 styles · 24 ideas per batch · copy & paste",
+  "sub": "Aesthetic, cute, cool, gaming, funny and short username ideas from your own name",
+  "intro": "This username generator turns a name, a word or nothing at all into a batch of unique username ideas. Pick a style — aesthetic, cute, cool, gaming, funny, dark or minimal — generate 24 usernames at a time, filter, heart the ones you like and copy them for Instagram, TikTok, Discord, Roblox or any other platform.",
+  "perks": [
+    "Works with or without a name",
+    "Symbols, numbers & separators optional",
+    "Favorites saved in your browser",
+    "No account, no AI, no data sent anywhere"
+  ],
+  "sampleWord": "alex",
+  "seed": 20260915,
+  "placeholder": "alex, luna, shadow, honey, pixel…",
+  "stylesLegend": "Choose a style",
+  "resultsTitle": "Username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "just",
+      "iam",
+      "the",
+      "only",
+      "hey",
+      "real",
+      "mr",
+      "not",
+      "lil",
+      "big",
+      "oh"
+    ],
+    "suffixes": [
+      "x",
+      "xo",
+      "core",
+      "vibes",
+      "era",
+      "club",
+      "hq",
+      "official",
+      "ish",
+      "zone"
+    ]
+  },
+  "styles": {
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "xo"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    },
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "sweet",
+        "tiny",
+        "cozy",
+        "fluffy",
+        "sunny",
+        "silly",
+        "lovely",
+        "puffy",
+        "happy",
+        "bubbly"
+      ],
+      "nouns": [
+        "bunny",
+        "peach",
+        "cherry",
+        "honey",
+        "kitty",
+        "berry",
+        "sugar",
+        "mochi",
+        "cupcake",
+        "boba",
+        "puff",
+        "panda",
+        "cookie",
+        "daisy",
+        "sprinkle",
+        "bean"
+      ],
+      "suffixes": [
+        "xo",
+        "bear",
+        "pie",
+        "bun",
+        "pop",
+        "cake"
+      ],
+      "symbols": [
+        "♡",
+        "୨୧",
+        "✿",
+        "˚",
+        "ꕤ",
+        "⋆"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "dark",
+        "onyx",
+        "phantom",
+        "storm"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "shadow",
+        "byte",
+        "viper",
+        "zero",
+        "ace"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "hq",
+        "zero",
+        "one"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "✪",
+        "⌁"
+      ]
+    },
+    "gaming": {
+      "label": "Gaming",
+      "icon": "⌁",
+      "adjectives": [
+        "pixel",
+        "turbo",
+        "rogue",
+        "cyber",
+        "ultra",
+        "hyper",
+        "epic",
+        "mega",
+        "laser",
+        "ghost"
+      ],
+      "nouns": [
+        "knight",
+        "quest",
+        "striker",
+        "ranger",
+        "sniper",
+        "raider",
+        "titan",
+        "nova",
+        "havoc",
+        "reaper",
+        "blitz",
+        "warden",
+        "phoenix",
+        "specter",
+        "rush",
+        "mage"
+      ],
+      "suffixes": [
+        "gg",
+        "yt",
+        "ttv",
+        "xd",
+        "plays",
+        "gaming"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⌁",
+        "✪",
+        "⚔",
+        "☠"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "pirate",
+        "raccoon",
+        "burrito",
+        "llama"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "ninja",
+        "supreme",
+        "2000"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "✿"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "silent",
+        "bitter",
+        "cold",
+        "lost",
+        "grim",
+        "wicked",
+        "lonely",
+        "cursed"
+      ],
+      "nouns": [
+        "void",
+        "noir",
+        "raven",
+        "shadow",
+        "midnight",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "ruin",
+        "omen",
+        "dusk"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "core",
+        "xx",
+        "ash"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "⋆",
+        "✞",
+        "☽"
+      ]
+    },
+    "fantasy": {
+      "label": "Fantasy",
+      "icon": "✧",
+      "adjectives": [
+        "ancient",
+        "silver",
+        "ember",
+        "arcane",
+        "wild",
+        "shadow",
+        "mystic",
+        "starborn",
+        "elder",
+        "frost"
+      ],
+      "nouns": [
+        "dragon",
+        "elf",
+        "wizard",
+        "rune",
+        "phoenix",
+        "oracle",
+        "storm",
+        "willow",
+        "griffin",
+        "sorcerer",
+        "mage",
+        "sylph",
+        "fable",
+        "quill",
+        "ember",
+        "raven"
+      ],
+      "suffixes": [
+        "born",
+        "fall",
+        "wing",
+        "wood",
+        "song"
+      ],
+      "symbols": [
+        "✧",
+        "⚔",
+        "☽",
+        "✦",
+        "⋆",
+        "✵"
+      ]
+    },
+    "minimal": {
+      "label": "Minimal",
+      "icon": "·",
+      "adjectives": [
+        "plain",
+        "simple",
+        "quiet",
+        "bare",
+        "still",
+        "pure",
+        "clean",
+        "less",
+        "mono",
+        "blank"
+      ],
+      "nouns": [
+        "line",
+        "tone",
+        "form",
+        "hue",
+        "grey",
+        "ivory",
+        "stone",
+        "space",
+        "echo",
+        "mono",
+        "noon",
+        "sand",
+        "ink",
+        "salt",
+        "north",
+        "east"
+      ],
+      "suffixes": [
+        "ish",
+        "era",
+        "tone",
+        "ink",
+        "co"
+      ],
+      "symbols": [
+        "·",
+        "⋆",
+        "˚",
+        "⊹"
+      ]
+    },
+    "emo": {
+      "label": "Emo",
+      "icon": "✞",
+      "adjectives": [
+        "faded",
+        "lonely",
+        "sad",
+        "numb",
+        "hollow",
+        "static",
+        "sleepless",
+        "checkered",
+        "midnight",
+        "broken"
+      ],
+      "nouns": [
+        "heart",
+        "tears",
+        "scene",
+        "static",
+        "skull",
+        "hoodie",
+        "eyeliner",
+        "mixtape",
+        "rain",
+        "sorrow",
+        "wreck",
+        "echo",
+        "cassette",
+        "nightmare",
+        "ghost",
+        "ink"
+      ],
+      "suffixes": [
+        "xx",
+        "core",
+        "x",
+        "scene",
+        "rawr"
+      ],
+      "symbols": [
+        "✞",
+        "☾",
+        "♡",
+        "✦",
+        "xx",
+        "⋆"
+      ]
+    },
+    "preppy": {
+      "label": "Preppy",
+      "icon": "✿",
+      "adjectives": [
+        "preppy",
+        "pink",
+        "sunny",
+        "coastal",
+        "classic",
+        "golden",
+        "breezy",
+        "bright",
+        "lucky",
+        "polished"
+      ],
+      "nouns": [
+        "club",
+        "ivy",
+        "luxe",
+        "tennis",
+        "pearl",
+        "palm",
+        "yacht",
+        "polo",
+        "lemon",
+        "coast",
+        "sailor",
+        "peony",
+        "plaid",
+        "tote",
+        "cabana",
+        "seashell"
+      ],
+      "suffixes": [
+        "club",
+        "luxe",
+        "era",
+        "vibes",
+        "coast"
+      ],
+      "symbols": [
+        "✿",
+        "☆",
+        "⋆",
+        "♡",
+        "˚"
+      ]
+    },
+    "retro": {
+      "label": "Retro",
+      "icon": "❁",
+      "adjectives": [
+        "retro",
+        "vintage",
+        "classic",
+        "antique",
+        "dusty",
+        "faded",
+        "old",
+        "sepia",
+        "timeless",
+        "analog"
+      ],
+      "nouns": [
+        "vinyl",
+        "polaroid",
+        "cassette",
+        "diary",
+        "darling",
+        "record",
+        "film",
+        "arcade",
+        "neon",
+        "disco",
+        "radio",
+        "jukebox",
+        "roller",
+        "pixel",
+        "tape",
+        "static"
+      ],
+      "suffixes": [
+        "darling",
+        "vinyl",
+        "era",
+        "film",
+        "80s",
+        "90s"
+      ],
+      "symbols": [
+        "❁",
+        "✿",
+        "⋆",
+        "☆",
+        "✧",
+        "♡"
+      ]
+    },
+    "nature": {
+      "label": "Nature",
+      "icon": "❀",
+      "adjectives": [
+        "wild",
+        "mossy",
+        "dewy",
+        "sunlit",
+        "rustic",
+        "cozy",
+        "green",
+        "misty",
+        "rainy",
+        "wandering"
+      ],
+      "nouns": [
+        "meadow",
+        "fern",
+        "river",
+        "moss",
+        "oak",
+        "clover",
+        "willow",
+        "maple",
+        "sparrow",
+        "cedar",
+        "brook",
+        "juniper",
+        "sage",
+        "fox",
+        "wren",
+        "birch"
+      ],
+      "suffixes": [
+        "field",
+        "wood",
+        "brook",
+        "fern",
+        "vale"
+      ],
+      "symbols": [
+        "❀",
+        "✿",
+        "⋆",
+        "˚",
+        "ꕤ",
+        "☘"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "style:cute",
+      "Cute"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:gaming",
+      "Gaming"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ],
+    [
+      "nosymbols",
+      "No Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your Username",
+    "text": "Found a username you like? Turn it into cursive, cute, bold or aesthetic text before adding it to your bio or display name.",
+    "links": [
+      [
+        "Cursive Text Generator",
+        "/cursive-text-generator.html"
+      ],
+      [
+        "Fancy & cute fonts",
+        "/fancy-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Username Generator",
+    "lead": [
+      "Every batch is built from three things: the word you type, the style you pick, and the options under Customize. Leave the word blank and the generator pairs two words from the style instead, so it works as a random name maker as well as a username maker for your own name.",
+      "There is no sign-up and nothing is sent to a server. The vocabulary lives in the page, so the page works offline once it has loaded."
+    ],
+    "steps": [
+      [
+        "Type a username base word",
+        "Your first name, a nickname, a pet, a hobby — anything short. The generator keeps it intact and builds around it; leave it empty for fully random username ideas."
+      ],
+      [
+        "Pick a username style",
+        "Aesthetic, cute, cool, gaming, funny, dark, fantasy, minimal, emo, preppy, retro or nature. Or keep All Styles selected to compare them side by side."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use the quick filters to narrow the batch, heart the ones you like, then copy one or all of them. Click Generate More whenever your favorite turns out to be taken."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Username Ideas by Style",
+    "intro": "A few hand-picked username examples from each style, so you can see the vocabulary before you generate. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Usernames",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds, velvet and haze. For a bigger vocabulary use the [aesthetic usernames page](/aesthetic-username-generator.html).",
+        "examples": [
+          "lunahaze",
+          "velvetmoon",
+          "softalex",
+          "cloud.muse",
+          "hazydawn",
+          "alexglow"
+        ]
+      },
+      {
+        "key": "cute",
+        "title": "Cute Usernames",
+        "blurb": "Bunnies, peaches, honey and mochi — sweet names that suit a pastel profile. See the [cute usernames page](/cute-username-generator.html) for more.",
+        "examples": [
+          "bunnypeach",
+          "honeyalex",
+          "sugarberry",
+          "alexbun",
+          "cozycupcake",
+          "kittybean"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Usernames",
+        "blurb": "Sharp, short and confident — frost, neon, vortex and shadow. The [cool usernames page](/cool-username-generator.html) has the full list.",
+        "examples": [
+          "frostalex",
+          "neonvortex",
+          "alexzero",
+          "silentwolf",
+          "onyxdrift",
+          "alex.hawk"
+        ]
+      },
+      {
+        "key": "gaming",
+        "title": "Gaming Usernames",
+        "blurb": "Gamertags that fit Xbox, PlayStation, Steam and Discord — knights, snipers, titans and ghosts. See the [gaming usernames page](/gaming-username-generator.html).",
+        "examples": [
+          "pixelknight",
+          "alexgg",
+          "roguesniper",
+          "turbotitan",
+          "alexplays",
+          "ghostraider"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Usernames",
+        "blurb": "Toast, potatoes, goblins and geese. Funny usernames get remembered — and are usually still available.",
+        "examples": [
+          "wobblytoast",
+          "alexpants",
+          "sleepygoose",
+          "spicynoodle",
+          "grumpyyeti",
+          "tacoboss"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Usernames",
+        "blurb": "Void, raven, midnight and ash — moody names for an edgy profile. Close cousins live on the [emo usernames page](/emo-username-generator.html).",
+        "examples": [
+          "voidalex",
+          "hollowraven",
+          "alexnoir",
+          "midnight.ash",
+          "grimeclipse",
+          "wraithxx"
+        ]
+      },
+      {
+        "key": "fantasy",
+        "title": "Fantasy Usernames",
+        "blurb": "Dragons, runes, elves and oracles — names for RPG characters and D&D handles. The [fantasy usernames page](/fantasy-username-generator.html) goes deeper.",
+        "examples": [
+          "emberdragon",
+          "alexborn",
+          "arcanerune",
+          "silverwillow",
+          "stormoracle",
+          "elderquill"
+        ]
+      },
+      {
+        "key": "minimal",
+        "title": "Minimal & Short Usernames",
+        "blurb": "One quiet word, four to eight letters, no decoration. If you specifically need short handles, the [short usernames page](/short-username-generator.html) enforces the length.",
+        "examples": [
+          "alexink",
+          "stillhue",
+          "noon",
+          "greytone",
+          "alexco",
+          "salt.line"
+        ]
+      },
+      {
+        "key": "retro",
+        "title": "Retro Usernames",
+        "blurb": "Vinyl, polaroid, arcade and cassette — names with a decade attached.",
+        "examples": [
+          "vinylalex",
+          "polaroidfilm",
+          "alex90s",
+          "arcadedarling",
+          "dustyradio",
+          "neonjukebox"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "lunahaze",
+      "bunnypeach",
+      "frostalex",
+      "pixelknight",
+      "wobblytoast",
+      "emberdragon"
+    ],
+    "alt": "Username generator example: the word alex turned into lunahaze, bunnypeach, frostalex, pixelknight and other username ideas",
+    "caption": "One word in, twelve styles out — every result on the page is assembled from the vocabulary above.",
+    "tagline": "12 STYLES · ONE WORD",
+    "sample": "alex",
+    "src": "/assets/previews/username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "title": "Username Generator for Instagram, TikTok, Discord & Games",
+    "intro": "The same generator works everywhere. These shortcuts pick settings that suit each platform's username rules, and the linked pages go deeper on each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Instagram Usernames",
+        "text": "Instagram allows letters, numbers, periods and underscores, up to 30 characters. Short, lowercase, one aesthetic word — and a period when the plain version is taken.",
+        "examples": [
+          "alex.haze",
+          "softalex",
+          "velvetmoon"
+        ],
+        "preset": {
+          "style": "aesthetic",
+          "symbols": "none",
+          "numbers": "none"
+        },
+        "button": "Generate for Instagram ↑",
+        "link": [
+          "Instagram username generator",
+          "/instagram-username-generator.html"
+        ]
+      },
+      {
+        "icon": "♪",
+        "title": "TikTok Usernames",
+        "text": "TikTok handles get said out loud and typed from memory, so favor names that are easy to spell and easy to hear — cute or funny pairings do this well.",
+        "examples": [
+          "honeyalex",
+          "wobblytoast",
+          "alexvibes"
+        ],
+        "preset": {
+          "style": "cute",
+          "symbols": "none"
+        },
+        "button": "Generate for TikTok ↑",
+        "link": [
+          "TikTok fonts",
+          "/tiktok-font-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Discord Usernames",
+        "text": "Discord usernames are lowercase letters, numbers, periods and underscores. Keep the handle plain and save symbols and fancy lettering for the display name.",
+        "examples": [
+          "voidalex",
+          "pixel.raven",
+          "frostecho"
+        ],
+        "preset": {
+          "style": "gaming",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate for Discord ↑",
+        "link": [
+          "Discord fonts",
+          "/fonts-for-discord.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Gaming Usernames",
+        "text": "Game profiles rarely allow symbols or periods, so plain letters and numbers travel best. Each game has its own page with format rules built in.",
+        "examples": [
+          "alexknight",
+          "roguesniper",
+          "turbo_titan"
+        ],
+        "preset": {
+          "style": "gaming",
+          "symbols": "none",
+          "separator": "none"
+        },
+        "button": "Generate for gaming ↑",
+        "link": [
+          "Roblox username generator",
+          "/roblox-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Username",
+    "intro": "The generator follows a handful of simple formulas. Knowing them helps you tweak a result — or build your own username from scratch.",
+    "rows": [
+      [
+        "Name + style noun",
+        "**Alex** + **Haze** → the most natural pairing; the noun sets the mood",
+        [
+          "alexhaze"
+        ]
+      ],
+      [
+        "Adjective + name",
+        "**Frost** + **Alex** → describes you before your name lands",
+        [
+          "frostalex"
+        ]
+      ],
+      [
+        "Two style words",
+        "**Velvet** + **Moon** → no name at all, just imagery",
+        [
+          "velvetmoon"
+        ]
+      ],
+      [
+        "Name + separator",
+        "**Alex** + **Haze** with a period or underscore → frees up a taken name",
+        [
+          "alex.haze",
+          "alex_haze"
+        ]
+      ],
+      [
+        "Prefix + name",
+        "**its** / **just** / **lil** + **Alex** → reads like a caption, easy to remember",
+        [
+          "itsalex",
+          "lilalex"
+        ]
+      ],
+      [
+        "Subtle respelling",
+        "**Alex** → **alexx**, **alecks** → keeps the sound, changes the string",
+        [
+          "alexx",
+          "alecks"
+        ]
+      ],
+      [
+        "Name + lucky number",
+        "**Alex** + **444** / **777** → numbers with meaning look intentional, random ones look like a fallback",
+        [
+          "alex444"
+        ]
+      ],
+      [
+        "Name + symbol",
+        "**Alex** + ⋆ → one decorative mark, where the platform allows it",
+        [
+          "alex⋆",
+          "☾alex"
+        ]
+      ]
+    ],
+    "note": "A good rule: use one trick per username. *alexhaze* is clean; *xo_alexx.haze444⋆* is not. If the plain version is taken, add a period first, a number second, and a symbol only where the platform supports it."
+  },
+  "guide": {
+    "title": "How This Username Generator Works",
+    "intro": "There is no AI behind this page and no database of taken names. Usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a noun from the style instead."
+      ],
+      [
+        "Curated vocabulary.",
+        "Each of the 12 styles has its own hand-written list of adjectives, nouns and suffixes — bunny, peach and honey for cute; vortex, frost and shadow for cool; knight, sniper and titan for gaming — so a cute result never borrows a gaming word by accident."
+      ],
+      [
+        "Naming patterns.",
+        "Word + noun, adjective + word, prefix + word, two style words, subtle respellings such as a doubled letter, and short numeric suffixes. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Separators and numbers.",
+        "Periods, underscores, lucky numbers like 444 or 777, and birth-year-style digits. On the default Mix setting only some results get them; pick a specific option to apply it to every result."
+      ],
+      [
+        "Unicode symbols.",
+        "Each style has a matching set — hearts for cute, stars for cool, moons for dark — placed before, after, around or between the words. Most username fields reject them, so use Symbols: None for a handle and keep the decorated version for a display name."
+      ]
+    ],
+    "outro": [
+      "Results and favorites never leave your device. Favorites are stored with your browser's localStorage, which is why they survive a reload but not a different browser. Because nothing here talks to Instagram, TikTok, Discord or Roblox, the generator cannot tell you whether a username is free — always check on the platform itself."
+    ]
+  },
+  "uniqueH2": "Username Generator vs Username Lists",
+  "uniqueBody": [
+    "A list of 500 username ideas is only useful until the 499 other people who read it take the good ones. A username generator built around *your* word is different: **alexhaze** or **frostalex** is far less likely to be taken than **moonchild**, because it starts from something specific to you. That is why every pattern on this page keeps your word whole rather than replacing it.",
+    "If you want a name that has nothing to do with you — for an anonymous account, an alt or a brand — leave the box empty. The generator then combines two vocabulary words from the chosen style, which behaves like a random username maker with a consistent mood. The dedicated pages for [aesthetic](/aesthetic-username-generator.html), [cute](/cute-username-generator.html), [cool](/cool-username-generator.html), [gaming](/gaming-username-generator.html), [fantasy](/fantasy-username-generator.html), [emo](/emo-username-generator.html), [rare](/rare-username-generator.html) and [short](/short-username-generator.html) usernames each carry a much larger word list than the shared styles here, so if you already know the vibe you want, start there.",
+    "Whatever you pick, check the platform's rules before you commit: Instagram and Discord allow periods and underscores but no symbols in the handle, Roblox allows one underscore, Reddit allows underscores and hyphens, and most games cap the length at 12 to 20 characters."
+  ],
+  "source": {
+    "before": "Handle rules vary by service — for example, ",
+    "name": "Instagram's help page on usernames",
+    "href": "https://help.instagram.com/182492381886913",
+    "after": " lists the characters it accepts and how name changes work."
+  },
+  "faqTitle": "Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a username generator?",
+      "A username generator is a tool that combines a word you choose with curated vocabulary — adjectives, nouns and suffixes tied to a style such as cute, cool or gaming — and naming patterns to produce username ideas. This one runs entirely in your browser, is free, and lets you copy any result."
+    ],
+    [
+      "How do I make a unique username?",
+      "Start with something specific to you — a name, a nickname, a hobby — and pair it with one style word: alex + haze becomes alexhaze. Names built from your own word are far less likely to be taken than names copied from a list. If the plain version is gone, add a period or a lucky number before you add anything else."
+    ],
+    [
+      "Can I generate a username with no name?",
+      "Yes. Leave the word box empty and the generator pairs two words from the chosen style instead — velvetmoon, wobblytoast, pixelknight. That makes it a random username maker for anonymous accounts, alts and brand names."
+    ],
+    [
+      "Does the username generator check availability?",
+      "No. Nothing on this page talks to Instagram, TikTok, Discord, Roblox or any other service, so it cannot know whether a name is taken. Copy the one you like and check it on the platform itself — availability changes by the minute."
+    ],
+    [
+      "Which username styles are included?",
+      "Aesthetic, cute, cool, gaming, funny, dark, fantasy, minimal, emo, preppy, retro and nature. Each style has its own vocabulary and symbol set, and most of them also have a dedicated page with a larger word list, for example the [cute usernames page](/cute-username-generator.html) and the [gaming usernames page](/gaming-username-generator.html)."
+    ],
+    [
+      "What characters can I use in a username?",
+      "It depends on the platform. Instagram, TikTok and Discord accept letters, numbers, periods and underscores; Roblox allows letters, numbers and a single underscore; Reddit allows underscores and hyphens. Symbols like ♡ or ⋆ almost never work in a handle, so set Symbols to None for the username and use the decorated version as a display name."
+    ],
+    [
+      "Can I use these usernames for gaming?",
+      "Yes. Pick the Gaming style, set Symbols to None and Separator to None, and the results are plain gamertags that Xbox, PlayStation, Steam and most games accept. For game-specific rules use the [Roblox usernames page](/roblox-username-generator.html) or the [gaming usernames page](/gaming-username-generator.html)."
+    ],
+    [
+      "How do I make my username look fancy?",
+      "Generate the plain username here, then paste it into the [cursive text generator](/cursive-text-generator.html) or the [fancy text generator](/fancy-text-generator.html) to convert it into cursive, bold, bubble or aesthetic Unicode letters for your display name or bio."
+    ]
+  ],
+  "related": {
+    "title": "All Username Generators",
+    "intro": "Every page below runs on the same engine with its own vocabulary — pick the vibe or the platform you need."
+  },
+  "links": [
+    [
+      "Aesthetic Usernames",
+      "/aesthetic-username-generator.html",
+      "Cute, soft, coquette, dark and Y2K usernames — 16 aesthetics.",
+      "⋆"
+    ],
+    [
+      "Cute Usernames",
+      "/cute-username-generator.html",
+      "Sweet, kawaii, soft and pastel username ideas from your name.",
+      "♡"
+    ],
+    [
+      "Cool Usernames",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and gamer-ready handles from your name.",
+      "⚡"
+    ],
+    [
+      "Instagram Usernames",
+      "/instagram-username-generator.html",
+      "IG-safe handles that follow Instagram's username rules.",
+      "◎"
+    ],
+    [
+      "Gaming Usernames",
+      "/gaming-username-generator.html",
+      "Gamertags for Xbox, PlayStation, Steam and Discord.",
+      "⌁"
+    ],
+    [
+      "Fantasy Usernames",
+      "/fantasy-username-generator.html",
+      "Elven, draconic, arcane and royal names for RPGs and D&D.",
+      "✧"
+    ],
+    [
+      "Emo Usernames",
+      "/emo-username-generator.html",
+      "Emo, scene, goth and grunge names with xx and ✞.",
+      "✞"
+    ],
+    [
+      "Rare Usernames",
+      "/rare-username-generator.html",
+      "Obscure words, old names and OG short forms that are rarely taken.",
+      "◇"
+    ],
+    [
+      "Short Usernames",
+      "/short-username-generator.html",
+      "Every result 8 characters or fewer — 3 to 6-letter handles.",
+      "·"
+    ],
+    [
+      "Roblox Usernames",
+      "/roblox-username-generator.html",
+      "Cool, cute and gaming names that follow Roblox's username format.",
+      "🎮"
+    ],
+    [
+      "Fortnite Usernames",
+      "/fortnite-username-generator.html",
+      "Sweaty, funny and OG Fortnite names within Epic's rules.",
+      "🎯"
+    ],
+    [
+      "PUBG Usernames",
+      "/pubg-username-generator.html",
+      "Pro, sniper and clan-tag PUBG Mobile and BGMI names.",
+      "🔫"
+    ],
+    [
+      "Reddit Usernames",
+      "/reddit-username-generator.html",
+      "Anonymous, funny and throwaway u/ names that follow Reddit's rules.",
+      "👾"
+    ],
+    [
+      "Nickname Generator",
+      "/nickname-generator.html",
+      "Cute, funny and cool nicknames built from a real name.",
+      "✎"
+    ],
+    [
+      "Discord Usernames",
+      "/discord-username-generator.html",
+      "Lowercase handles that pass Discord's rules, plus styled display names."
+    ],
+    [
+      "TikTok Usernames",
+      "/tiktok-username-generator.html",
+      "TikTok-safe handles that are easy to say out loud, plus display-name ideas."
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord."
+    ],
+    [
+      "YouTube Channel Names",
+      "/youtube-channel-name-generator.html",
+      "Channel names and @handles for gaming, vlog, tech, music and faceless channels."
+    ],
+    [
+      "Twitter Usernames",
+      "/twitter-username-generator.html",
+      "Short X handles under the 15-character limit — funny, professional, anonymous."
+    ],
+    [
+      "Twitch Usernames",
+      "/twitch-username-generator.html",
+      "Streamer names that fit Twitch's rules and can be said in a raid message."
+    ],
+    [
+      "PSN Names",
+      "/psn-name-generator.html",
+      "PlayStation online IDs that follow PSN's 3–16 character, letter-first rule."
+    ],
+    [
+      "Minecraft Usernames",
+      "/minecraft-username-generator.html",
+      "Java-rule Minecraft names (3–16 characters, underscores only) that fit Bedrock too."
+    ],
+    [
+      "Snapchat Usernames",
+      "/snapchat-username-generator.html",
+      "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes."
+    ],
+    [
+      "Steam Usernames",
+      "/steam-username-generator.html",
+      "Steam profile names with symbols allowed, plus a plain custom URL that matches."
+    ],
+    [
+      "Valorant Names",
+      "/valorant-name-generator.html",
+      "Riot IDs under 16 characters — sweaty, agent-themed and duo names with a #tagline."
+    ],
+    [
+      "Summoner Names",
+      "/summoner-name-generator.html",
+      "League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters."
+    ],
+    [
+      "Call of Duty Usernames",
+      "/call-of-duty-username-generator.html",
+      "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters."
+    ],
+    [
+      "Email Usernames",
+      "/email-username-generator.html",
+      "Gmail-safe address ideas — professional, personal, brand and anonymous — under 30 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "aesthetic username generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "cursive name generator",
+      "/cursive-name-generator.html"
+    ],
+    [
+      "fancy text generator",
+      "/fancy-text-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "Instagram fonts",
+      "/instagram-font-generator.html"
+    ],
+    [
+      "cursive text generator",
+      "/cursive-text-generator.html"
+    ],
+    [
+      "aesthetic symbols",
+      "/aesthetic-symbols.html"
+    ]
+  ],
+  "linkNote": "Twelve styles in one tool — aesthetic, cute, cool, gaming, funny and more."
+}

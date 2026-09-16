@@ -177,6 +177,8 @@
       var opts = { separator: o.separator, numbers: o.numbers, symbols: o.symbols, letters: o.letters, length: lengthMode };
       var r = decorate(parts, st, opts, bare);
       if (!r) continue;
+      /* Hard cap from the page config (platform limit, e.g. 12 for Xbox gamertags): never relaxed. */
+      if (cfg.maxLength && r.length > cfg.maxLength) continue;
       if (seen[r.text]) continue;
       /* limit near-duplicates: 2 decorations of the same core, 3 for the bare word */
       coreCount[r.core] = (coreCount[r.core] || 0) + 1;

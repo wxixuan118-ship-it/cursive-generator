@@ -1,0 +1,1115 @@
+{
+  "type": "username",
+  "keyword": "discord username generator",
+  "file": "discord-username-generator.html",
+  "label": "Discord",
+  "title": "Discord Username Generator – Cool, Funny & Aesthetic Names",
+  "description": "Discord username generator: turn your name into cool, funny, aesthetic, gamer or anonymous Discord usernames that fit the lowercase 2–32 character rules. Free.",
+  "h1": "Discord Username Generator",
+  "appName": "Discord Username Generator",
+  "linkNote": "Lowercase handles that pass Discord's rules, plus styled display names.",
+  "kicker": "Free · 8 Discord styles · 24 names per batch · Discord-safe characters",
+  "sub": "Cool, funny, aesthetic, gamer and anonymous Discord names — handle and display name",
+  "intro": "This Discord username generator builds names that pass Discord's username rules — lowercase letters, numbers, periods and underscores, 2 to 32 characters, no symbols — and a matching display name where the ✦ and fancy letters can go. Pick a style, generate 24 Discord usernames at a time, filter by length, heart the ones you like and copy them into Settings → My Account.",
+  "perks": [
+    "Discord-safe by default (lowercase, no symbols)",
+    "Display-name mode with symbols",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "kai",
+  "seed": 2015,
+  "defaults": {
+    "symbols": "none",
+    "letters": "lower"
+  },
+  "placeholder": "kai, luna, ghost, mochi, nova…",
+  "stylesLegend": "Choose a Discord style",
+  "resultsTitle": "Discord username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "the",
+      "not",
+      "im",
+      "just",
+      "real",
+      "og",
+      "lil",
+      "big",
+      "mr",
+      "hey",
+      "only"
+    ],
+    "suffixes": [
+      "x",
+      "xx",
+      "gg",
+      "ttv",
+      "hq",
+      "one",
+      "zero",
+      "io",
+      "dev",
+      "afk"
+    ]
+  },
+  "styles": {
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "byte"
+      ],
+      "suffixes": [
+        "x",
+        "hq",
+        "zero",
+        "one",
+        "io",
+        "z"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "confused"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "hamster",
+        "cabbage",
+        "walrus"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "supreme",
+        "2000",
+        "afk"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded",
+        "honeyed",
+        "dusty"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky",
+        "reverie",
+        "linen"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "xo",
+        "ly"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    },
+    "gamer": {
+      "label": "Gamer",
+      "icon": "⌁",
+      "adjectives": [
+        "pixel",
+        "turbo",
+        "cyber",
+        "ultra",
+        "hyper",
+        "epic",
+        "mega",
+        "laser",
+        "ghost",
+        "rapid",
+        "elite",
+        "clutch"
+      ],
+      "nouns": [
+        "knight",
+        "sniper",
+        "raider",
+        "titan",
+        "havoc",
+        "reaper",
+        "blitz",
+        "warden",
+        "phoenix",
+        "striker",
+        "ranger",
+        "glitch",
+        "byte",
+        "rift",
+        "flux",
+        "drift",
+        "specter",
+        "bot"
+      ],
+      "suffixes": [
+        "gg",
+        "ttv",
+        "xd",
+        "plays",
+        "gaming",
+        "yt"
+      ],
+      "symbols": [
+        "⌁",
+        "✦",
+        "★",
+        "✪",
+        "⚔",
+        "☠"
+      ]
+    },
+    "anonymous": {
+      "label": "Anonymous",
+      "icon": "◎",
+      "adjectives": [
+        "random",
+        "quiet",
+        "casual",
+        "some",
+        "local",
+        "average",
+        "regular",
+        "anonymous",
+        "curious",
+        "passing",
+        "ordinary",
+        "certain"
+      ],
+      "nouns": [
+        "lurker",
+        "user",
+        "person",
+        "stranger",
+        "reader",
+        "member",
+        "bystander",
+        "observer",
+        "visitor",
+        "account",
+        "human",
+        "someone",
+        "nobody",
+        "wanderer",
+        "citizen",
+        "guest",
+        "npc",
+        "alt"
+      ],
+      "suffixes": [
+        "afk",
+        "alt",
+        "here",
+        "again",
+        "idle",
+        "lurks"
+      ],
+      "symbols": [
+        "·",
+        "⋆"
+      ]
+    },
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "sweet",
+        "tiny",
+        "cozy",
+        "fluffy",
+        "sunny",
+        "silly",
+        "lovely",
+        "puffy",
+        "happy",
+        "bubbly",
+        "sleepy",
+        "peachy"
+      ],
+      "nouns": [
+        "bunny",
+        "peach",
+        "cherry",
+        "honey",
+        "kitty",
+        "berry",
+        "sugar",
+        "mochi",
+        "cupcake",
+        "boba",
+        "puff",
+        "panda",
+        "cookie",
+        "daisy",
+        "sprinkle",
+        "bean",
+        "frog",
+        "duck"
+      ],
+      "suffixes": [
+        "xo",
+        "bear",
+        "pie",
+        "bun",
+        "pop",
+        "chan"
+      ],
+      "symbols": [
+        "♡",
+        "୨୧",
+        "✿",
+        "˚",
+        "ꕤ",
+        "⋆"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "grim",
+        "cursed",
+        "silent",
+        "shadow",
+        "midnight",
+        "phantom",
+        "wicked",
+        "cold",
+        "bleak",
+        "dead"
+      ],
+      "nouns": [
+        "void",
+        "raven",
+        "shadow",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "omen",
+        "reaper",
+        "specter",
+        "crow",
+        "plague",
+        "doom",
+        "nocturne"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "xx",
+        "ash",
+        "x",
+        "core"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "☽",
+        "✞",
+        "☠"
+      ]
+    },
+    "server": {
+      "label": "Server Names",
+      "icon": "▲",
+      "adjectives": [
+        "the",
+        "cozy",
+        "chill",
+        "late",
+        "night",
+        "lofi",
+        "official",
+        "secret",
+        "little",
+        "big",
+        "midnight",
+        "weekend"
+      ],
+      "nouns": [
+        "lounge",
+        "hangout",
+        "cafe",
+        "club",
+        "hub",
+        "corner",
+        "basement",
+        "arcade",
+        "tavern",
+        "den",
+        "garden",
+        "vault",
+        "lab",
+        "studio",
+        "campfire",
+        "society",
+        "circle",
+        "guild"
+      ],
+      "suffixes": [
+        "hq",
+        "club",
+        "hub",
+        "zone",
+        "lounge",
+        "crew"
+      ],
+      "symbols": [
+        "▲",
+        "◆",
+        "✦",
+        "★",
+        "☆",
+        "⚡"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "style:gamer",
+      "Gamer"
+    ],
+    [
+      "style:anonymous",
+      "Anonymous"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Discord-safe"
+    ],
+    [
+      "symbols",
+      "Display name"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your Discord Display Name",
+    "text": "Your Discord username has to be plain — but the display name accepts fancy Unicode letters. Copy a username here, then style the display name.",
+    "links": [
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ],
+      [
+        "Small text generator",
+        "/small-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Discord Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the Discord style you choose, and the options under Customize. Lowercase and no symbols are on by default because Discord's unique username rejects everything else; switch to the Display name filter for ideas with ✦ and ☾ that go in the separate display-name field.",
+      "Leave the word blank and the generator pairs two words instead — silentvortex, quiet_lurker, cozy.lounge — so it also works as a random Discord name generator for alts and servers."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a game you play. The generator keeps it whole and builds around it: kai becomes frostkai, kai.gg or kai_lurks."
+      ],
+      [
+        "Pick a Discord username style",
+        "Cool, funny, aesthetic, gamer, anonymous, cute, dark or server names. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use Discord-safe to hide symbols, heart the ones you like, then copy and paste into Settings → My Account → Username to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Discord Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Cool and gamer names dominate gaming servers; funny and anonymous names are what most people actually use; aesthetic and cute suit art and study servers — but every style here works anywhere. Click any Discord name to copy it.",
+    "groups": [
+      {
+        "key": "cool",
+        "title": "Cool Discord Usernames",
+        "blurb": "Frost, vortex, apex, nova — sharp lowercase handles that look good in a member list. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "frostvortex",
+          "silent.apex",
+          "onyxdrift",
+          "kai.zero",
+          "phantomrift",
+          "neonbyte",
+          "arcticwolf",
+          "vaporhq"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Discord Usernames",
+        "blurb": "Toast, goose, potato, walrus — the names everyone in voice chat remembers.",
+        "examples": [
+          "wobblytoast",
+          "grumpy.walrus",
+          "spicynoodle",
+          "confused_goose",
+          "soggycabbage",
+          "kaipants",
+          "sleepyyeti",
+          "tacoafk"
+        ]
+      },
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Discord Usernames",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds, velvet and haze, for study and art servers. The [aesthetic username generator](/aesthetic-username-generator.html) goes deeper.",
+        "examples": [
+          "lunahaze",
+          "velvet.moon",
+          "softkai",
+          "cloudmuse",
+          "hazydawn",
+          "kai.glow",
+          "misty_halo",
+          "goldenreverie"
+        ]
+      },
+      {
+        "key": "gamer",
+        "title": "Gamer Discord Usernames",
+        "blurb": "Sniper, reaper, glitch, blitz — gamertags that match your Steam and console names. See the [gaming username generator](/gaming-username-generator.html).",
+        "examples": [
+          "pixelknight",
+          "kai.gg",
+          "turbosniper",
+          "cyberglitch",
+          "eliteblitz",
+          "ghostraider",
+          "kaiplays",
+          "rapidwarden"
+        ]
+      },
+      {
+        "key": "anonymous",
+        "title": "Anonymous Discord Usernames",
+        "blurb": "Lurker, npc, bystander, alt — names that say nothing about you, for servers where you only read.",
+        "examples": [
+          "quiet_lurker",
+          "casual.npc",
+          "some_stranger",
+          "average_member",
+          "kai.afk",
+          "passing_observer",
+          "local_bystander",
+          "certain_nobody"
+        ]
+      },
+      {
+        "key": "cute",
+        "title": "Cute Discord Usernames",
+        "blurb": "Bunny, mochi, frog, boba — sweet handles for cozy servers. More on the [cute username generator](/cute-username-generator.html).",
+        "examples": [
+          "bunnypeach",
+          "mochi.frog",
+          "sleepyduck",
+          "kai.bun",
+          "honeyboba",
+          "cozycupcake",
+          "kittybean",
+          "peachy_panda"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Discord Usernames",
+        "blurb": "Void, wraith, omen, plague — moody handles for late-night servers. The [emo username generator](/emo-username-generator.html) goes darker.",
+        "examples": [
+          "hollowvoid",
+          "grim.wraith",
+          "kai.noir",
+          "midnightash",
+          "cursedcrow",
+          "phantomplague",
+          "voidreaper",
+          "silent_omen"
+        ]
+      },
+      {
+        "key": "server",
+        "title": "Discord Server Name Ideas",
+        "blurb": "Lounge, hangout, tavern, campfire — names for the server itself rather than a member.",
+        "examples": [
+          "the cozy lounge",
+          "late night hangout",
+          "lofi cafe",
+          "kai's basement",
+          "midnight arcade",
+          "secret tavern hq",
+          "weekend campfire",
+          "the little den"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "frostkai",
+      "kai.gg",
+      "wobblytoast",
+      "quiet_lurker",
+      "lunahaze",
+      "hollowvoid"
+    ],
+    "alt": "Discord username generator example: the name kai turned into frostkai, kai.gg, wobblytoast, quiet_lurker and other Discord username ideas",
+    "caption": "One name in, eight Discord styles out — every result follows Discord's lowercase username rules by default.",
+    "tagline": "COOL · FUNNY · AESTHETIC · GAMER · ANONYMOUS",
+    "sample": "kai",
+    "src": "/assets/previews/discord-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Discord's rules",
+    "title": "Discord Username vs Display Name vs Server Nickname",
+    "intro": "Discord gives you three names. These shortcuts generate ideas that fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Discord Usernames (unique handle)",
+        "text": "2–32 characters, lowercase letters, numbers, periods and underscores only; unique across all of Discord since the #tags went away. Change it at most every two hours.",
+        "examples": [
+          "frostkai",
+          "kai.gg",
+          "quiet_lurker"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate Discord-safe handles ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "Discord Display Names",
+        "text": "Up to 32 characters, any case, spaces, emoji and Unicode symbols — this is where ✦, ☾ and fancy letters belong. Generate with symbols on, then style it with a font tool.",
+        "examples": [
+          "✦ Kai ✦",
+          "𝓀𝒶𝒾 ☾",
+          "Frost Kai"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "auto",
+          "letters": "mixed"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Fonts for Discord",
+          "/fonts-for-discord.html"
+        ]
+      },
+      {
+        "icon": "▲",
+        "title": "Server Nicknames for Discord",
+        "text": "Each server can show you under a different nickname, set from your profile in that server. Match the server's theme — gamer in a gaming server, cute in a cozy one.",
+        "examples": [
+          "kai.plays",
+          "sleepy.kai",
+          "kai_lurks"
+        ],
+        "preset": {
+          "style": "gamer",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate a nickname ↑",
+        "link": [
+          "Nickname generator",
+          "/nickname-generator.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Discord Usernames for Gaming",
+        "text": "If your Discord name should match Steam, Xbox or PSN, keep it short and plain — a name under 12 characters with no symbols works on every platform at once.",
+        "examples": [
+          "kaiblitz",
+          "pixelkai",
+          "ghostkai"
+        ],
+        "preset": {
+          "style": "gamer",
+          "symbols": "none",
+          "separator": "none",
+          "length": "short"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Gamertag generator",
+          "/gamertag-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Discord Username",
+    "intro": "The generator follows a handful of formulas. Knowing them helps you tweak a result — or build your own Discord username by hand.",
+    "rows": [
+      [
+        "Adjective + name",
+        "**Frost** / **Silent** + **Kai** → describes you before your name lands",
+        [
+          "frostkai",
+          "silentkai"
+        ]
+      ],
+      [
+        "Name . word",
+        "**Kai** + **.** + **gg** → the period is Discord's cleanest separator; it frees a taken name without a number",
+        [
+          "kai.gg",
+          "kai.zero"
+        ]
+      ],
+      [
+        "Name _ word",
+        "**Kai** + **_** + **lurks** → the underscore reads more anonymous, less gamer",
+        [
+          "kai_lurks"
+        ]
+      ],
+      [
+        "Two style words",
+        "**Quiet** + **Lurker** → no name at all, for an alt or a read-only account",
+        [
+          "quiet_lurker",
+          "hollowvoid"
+        ]
+      ],
+      [
+        "Prefix + name",
+        "**its** / **not** / **og** + **Kai** → reads like a chat message, easy to remember",
+        [
+          "itskai",
+          "notkai"
+        ]
+      ],
+      [
+        "Name + gaming suffix",
+        "**Kai** + **gg** / **ttv** / **afk** → says what you do on Discord",
+        [
+          "kaigg",
+          "kaiafk"
+        ]
+      ],
+      [
+        "Doubled letter",
+        "**Kai** → **kaii**, **kaai** → keeps the sound, changes the string",
+        [
+          "kaii",
+          "kaai"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Kai** + **07** / **444** → a number with meaning looks intentional; the old #1234 tags are gone",
+        [
+          "kai07",
+          "kai.444"
+        ]
+      ]
+    ],
+    "note": "One trick per username. *frostkai* is a Discord username; *xX_Fr0stK4i_Xx* is a 2016 Skype contact. Keep the handle plain and put the ✦ in your display name, where every server sees it anyway."
+  },
+  "symbols": {
+    "title": "Symbols for Discord Display Names",
+    "intro": "These do not work in the unique username — but they do in your display name and server nicknames. Click a symbol to copy it.",
+    "items": [
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "✧",
+        "white four-pointed star"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "☆",
+        "white star"
+      ],
+      [
+        "⚡",
+        "lightning"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "☽",
+        "first quarter moon"
+      ],
+      [
+        "♡",
+        "white heart"
+      ],
+      [
+        "⋆",
+        "star operator"
+      ],
+      [
+        "˚",
+        "ring"
+      ],
+      [
+        "⊹",
+        "dotted cross"
+      ],
+      [
+        "◆",
+        "black diamond"
+      ],
+      [
+        "▲",
+        "triangle"
+      ],
+      [
+        "⌁",
+        "electric arrow"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "✞",
+        "shadowed cross"
+      ],
+      [
+        "୨୧",
+        "bow"
+      ],
+      [
+        "✿",
+        "florette"
+      ],
+      [
+        "꧁",
+        "ornate bracket left"
+      ],
+      [
+        "꧂",
+        "ornate bracket right"
+      ]
+    ],
+    "combos": [
+      "✦ kai ✦",
+      "꧁kai꧂",
+      "☾ kai ☽",
+      "kai ⋆˚",
+      "♡ kai",
+      "⚡kai⚡",
+      "◆ kai ◆",
+      "kai ✧˖°"
+    ],
+    "note": "Discord display names and nicknames show all of these; the unique username allows only lowercase letters, numbers, periods and underscores. For full decorative alphabets that render in Discord chat and names, use [fonts for Discord](/fonts-for-discord.html)."
+  },
+  "guide": {
+    "title": "How Our Discord Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Discord. Discord usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a noun from the style instead."
+      ],
+      [
+        "Discord vocabulary.",
+        "Each of the eight styles has its own hand-written list — vortex, apex and nova for cool; lurker, npc and bystander for anonymous; lounge, tavern and campfire for server names — so a cute result never borrows a dark word by accident."
+      ],
+      [
+        "Chat patterns.",
+        "Adjective + name, name + period + word, name + underscore + word, prefix + name, two style words, doubled letters and gaming suffixes. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Discord-safe defaults.",
+        "Lowercase and no symbols are on, so every result passes the username field. The Display name filter shows the ones with symbols for the other field."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a username is free — Discord's settings page tells you instantly."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Discord Username Rules After the #Tag Change",
+  "uniqueBody": [
+    "Until 2023 every Discord account was Name#1234, so thousands of people could share a name. Discord then moved to **unique usernames**: 2 to 32 characters, lowercase letters, numbers, periods and underscores only, one owner per name across the whole platform. That is why short and common names are gone and why a good Discord username generator has to do more than list words — it has to build something around *your* word (frostkai, kai.gg) rather than hand you *shadow* and hope. At the same time Discord added a **display name** (any case, spaces, emoji, symbols, changeable any time) and kept **per-server nicknames**, so the plain handle is only what people type to add you; what they see is the display name.",
+    "The practical rule this page follows: generate a plain lowercase handle here, check it in Settings → My Account → Username (Discord shows a green tick or a red X instantly, and lets you change it again after two hours), then decorate only the display name. For the decorated part, [fonts for Discord](/fonts-for-discord.html) renders any name in bold, cursive or gothic Unicode that survives in chat. For gamertags that should match your Discord name across Xbox, PlayStation and Steam, the [gamertag generator](/gamertag-generator.html) and the [gaming username generator](/gaming-username-generator.html) keep everything under the console limits; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The username rules and the change window are described in ",
+    "name": "Discord's help article on usernames",
+    "href": "https://support.discord.com/hc/en-us/articles/12620128861463-New-Usernames-Display-Names",
+    "after": "."
+  },
+  "faqTitle": "Discord Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Discord username generator?",
+      "It is a tool that combines a word you choose with curated vocabulary — cool, funny, aesthetic, gamer, anonymous, cute, dark or server names — and naming patterns to produce Discord username ideas that fit the lowercase 2–32 character rules. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Discord username ideas?",
+      "Examples from the styles above: frostvortex, wobblytoast, lunahaze, pixelknight, quiet_lurker, bunnypeach, hollowvoid and the cozy lounge. Type your own name to get versions built around it, such as frostkai or kai.gg."
+    ],
+    [
+      "What characters can I use in a Discord username?",
+      "Lowercase letters, numbers, periods and underscores, 2 to 32 characters. No capitals, spaces, symbols or emoji — those go in your display name, which accepts almost anything. Two periods in a row are not allowed either."
+    ],
+    [
+      "Does this Discord username generator check availability?",
+      "No. Nothing here talks to Discord, so it cannot know whether a username is taken. Copy the one you like into Settings → My Account → Username; Discord shows a green tick or a red X immediately, before you save."
+    ],
+    [
+      "How do I change my Discord username?",
+      "Open User Settings → My Account, click Edit next to Username, type the new one and confirm with your password. Discord lets you change it again after two hours. Your display name can be changed any time without a cooldown."
+    ],
+    [
+      "Can I use symbols like ✦ in my Discord name?",
+      "Not in the unique username, but yes in your display name and in per-server nicknames. Generate a plain handle here, then use the Display name filter or [fonts for Discord](/fonts-for-discord.html) for the decorated version everyone actually sees."
+    ],
+    [
+      "How do I make a Discord server name?",
+      "Pick the Server Names style above — it pairs mood words (cozy, late night, lofi) with place words (lounge, tavern, campfire) for names like the cozy lounge or midnight arcade. Server names allow spaces and up to 100 characters, so you can leave separators off."
+    ],
+    [
+      "Can I copy and paste the generated Discord usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Paste the plain one into the username field and a styled one into your display name."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators & Discord Fonts",
+    "intro": "Pick another platform, or style your Discord display name."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for Xbox, PlayStation, Steam and Discord in eight styles.",
+      "⌁"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles.",
+      "⚡"
+    ],
+    [
+      "Reddit Username Generator",
+      "/reddit-username-generator.html",
+      "Anonymous u/ names that also pass Discord's rules.",
+      "👾"
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html",
+      "Bold, cursive and gothic letters that render in Discord names and chat.",
+      "💬"
+    ],
+    [
+      "Twitch Username Generator",
+      "/twitch-username-generator.html",
+      "Streamer names that fit Twitch's rules and can be said in a raid message."
+    ],
+    [
+      "Steam Username Generator",
+      "/steam-username-generator.html",
+      "Steam profile names with symbols allowed, plus a plain custom URL that matches."
+    ],
+    [
+      "Valorant Name Generator",
+      "/valorant-name-generator.html",
+      "Riot IDs under 16 characters — sweaty, agent-themed and duo names with a #tagline."
+    ],
+    [
+      "Small Text Generator",
+      "/small-text-generator.html",
+      "Tiny Unicode letters for a compact display name.",
+      "ᵃ"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "reddit username generator",
+      "/reddit-username-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "nickname generator",
+      "/nickname-generator.html"
+    ],
+    [
+      "aesthetic symbols",
+      "/aesthetic-symbols.html"
+    ],
+    [
+      "small text generator",
+      "/small-text-generator.html"
+    ]
+  ],
+  "maxLength": 32
+}

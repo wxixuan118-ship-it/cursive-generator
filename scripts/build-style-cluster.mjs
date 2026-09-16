@@ -180,7 +180,7 @@ const pages = {
       ['Bold Font Generator', '/bold-font-generator.html', 'Go the other way with heavy Unicode bold.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Spaced, wide and minimal styles.'],
       ['Cursive Text Generator', '/', 'Flowing script for names and signatures.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Short Username Generator','/short-username-generator.html','Every result 8 characters or fewer — 3 to 6-letter handles.']],
     faqTitle: 'Small Text FAQ',
     faqs: [
       ['How do I make text smaller in my bio?', 'Bios have no font-size setting, so use small Unicode characters instead. Type your text here, copy the superscript or small-caps version, and paste it into the bio.'],
@@ -405,7 +405,7 @@ const pages = {
       ['Discord Font Generator', '/fonts-for-discord.html', 'Fonts tuned for Discord names and servers.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse all 400+ Unicode styles.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer look.'],
-    ,['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.']],
+    ,['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Call of Duty Username Generator','/call-of-duty-username-generator.html','Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters.'],['Cool Username Generator','/cool-username-generator.html','Edgy, sleek, dark and gamer-ready handles from your name.'],['Gamertag Generator','/gamertag-generator.html','Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord.'],['PSN Name Generator','/psn-name-generator.html','PlayStation online IDs that follow PSN\'s 3–16 character, letter-first rule.'],['Steam Username Generator','/steam-username-generator.html','Steam profile names with symbols allowed, plus a plain custom URL that matches.'],['YouTube Channel Name Generator','/youtube-channel-name-generator.html','Channel names and @handles for gaming, vlog, tech, music and faceless channels.']],
     faqTitle: 'Cool Text FAQ',
     faqs: [
       ['What is a cool text generator?', 'It converts normal letters into Unicode characters that look like gothic, outlined, bold or monospace fonts and optionally wraps them in symbols. The result is copyable text, not an image.'],
@@ -534,7 +534,7 @@ const pages = {
       ['Bold Font Generator', '/bold-font-generator.html', 'Heavy bold for bio headings.'],
       ['Discord Font Generator', '/fonts-for-discord.html', 'The same idea, tuned for Discord.'],
       ['Cursive Text Generator', '/', 'All the cursive scripts in one place.'],
-    ,['TikTok Font Generator','/tiktok-font-generator.html','Fonts for TikTok display names, bios and captions that paste as text.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.']],
+    ,['TikTok Font Generator','/tiktok-font-generator.html','Fonts for TikTok display names, bios and captions that paste as text.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Instagram Username Generator','/instagram-username-generator.html','IG-safe handles that follow Instagram\'s username rules.'],['Snapchat Username Generator','/snapchat-username-generator.html','Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes.'],['TikTok Username Generator','/tiktok-username-generator.html','TikTok-safe handles that are easy to say out loud, plus display-name ideas.']],
     faqTitle: 'Instagram Font FAQ',
     faqs: [
       ['How do I change the font on Instagram?', 'Instagram has no font setting. Type your text here, copy a style, then paste it into your display name, bio or caption. The Unicode characters carry the style.'],
@@ -590,7 +590,7 @@ const pages = {
       ['Adopt Me Font Generator', '/adopt-me-font-generator.html', 'Cute styles for Roblox pet names and trades.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer name.'],
-    ],
+    ,['Fortnite Username Generator','/fortnite-username-generator.html','Sweaty, funny and OG Fortnite names within Epic\'s rules.'],['Gamertag Generator','/gamertag-generator.html','Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord.'],['Gaming Username Generator','/gaming-username-generator.html','Gamertags for Xbox, PlayStation, Steam and Discord.'],['PUBG Username Generator','/pubg-username-generator.html','Pro, sniper and clan-tag PUBG Mobile and BGMI names.'],['Valorant Name Generator','/valorant-name-generator.html','Riot IDs under 16 characters — sweaty, agent-themed and duo names with a #tagline.']],
     faqTitle: 'Free Fire Font FAQ',
     faqs: [
       ['How do I change my name style in Free Fire?', 'Copy a style from this page, open Free Fire, tap your profile, edit the nickname field, paste the text and confirm. The first change is free; later changes need a Name Change Card.'],

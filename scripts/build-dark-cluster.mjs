@@ -230,7 +230,7 @@ const pages = {
       ['Scary Font Generator', '/scary-font-generator.html', 'Pair corruption with horror symbols.'],
       ['Creepy Font Generator', '/creepy-font-generator.html', 'Use corruption sparingly for an eerie mood.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'The full catalogue of Unicode text styles.'],
-    ],
+    ,['Cool Username Generator','/cool-username-generator.html','Edgy, sleek, dark and gamer-ready handles from your name.'],['Steam Username Generator','/steam-username-generator.html','Steam profile names with symbols allowed, plus a plain custom URL that matches.'],['Twitch Username Generator','/twitch-username-generator.html','Streamer names that fit Twitch\'s rules and can be said in a raid message.']],
     faqTitle: 'Glitch Text FAQ',
     faqs: [
       ['What is glitch text?', 'Glitch text is ordinary text with combining marks stacked over, through and under each character so it looks corrupted or damaged, as if the rendering had failed.'],
@@ -344,7 +344,7 @@ const pages = {
       ['Cursive Text Generator', '/', 'Flowing script for a softer, more classical look.'],
       ['Old English Font Generator', '/old-english-font-generator.html', 'The tattoo and certificate flavour of the same blackletter family.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse 300+ Unicode styles beyond blackletter.'],
-    ,['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.']],
+    ,['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Emo Username Generator','/emo-username-generator.html','Emo, scene, goth and grunge names with xx and ✞.'],['Fantasy Username Generator','/fantasy-username-generator.html','Elven, draconic, arcane and royal names for RPGs and D&D.'],['Summoner Name Generator','/summoner-name-generator.html','League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters.']],
     figure: { src: '/assets/previews/gothic-font-generator.svg', width: 1200, height: 630, alt: 'Dark Romance written with the gothic font generator in bold Fraktur, ornate-framed Fraktur and bold blackletter — the gothic font copy and paste styles on this page', caption: '“Dark Romance” rendered by the Gothic Font Generator in Bold Gothic, Fraktur Gothic Cross Ornate, Bold Gothic Dagger Cross presets' },
     source: { before: 'The letters here come from the ', name: 'Mathematical Alphanumeric Symbols block', href: 'https://www.unicode.org/charts/PDF/U1D400.pdf', after: ' of the Unicode Standard, which is why they render without a font install.' },
     faqTitle: 'Gothic Font FAQ',

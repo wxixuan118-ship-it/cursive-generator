@@ -1,0 +1,982 @@
+{
+  "type": "username",
+  "keyword": "twitter username generator",
+  "file": "twitter-username-generator.html",
+  "label": "Twitter",
+  "title": "Twitter Username Generator – X Handles & @Name Ideas",
+  "description": "Twitter username generator for X: turn your name into short, funny, professional, anonymous or aesthetic @handles that fit the 15-character limit. Free.",
+  "h1": "Twitter Username Generator",
+  "appName": "Twitter (X) Username Generator",
+  "linkNote": "Short X handles under the 15-character limit — funny, professional, anonymous.",
+  "kicker": "Free · 8 handle styles · 24 handles per batch · 15-character X limit",
+  "sub": "Short, funny, professional, anonymous and aesthetic @handle ideas for Twitter and X",
+  "intro": "This Twitter username generator builds @handles for X (formerly Twitter) that fit the platform's strictest rule — 15 characters, letters, numbers and underscores only — and that still read as a name in a reply thread. Pick a style, generate 24 Twitter usernames at a time, filter by length, heart the ones you like and copy them into Settings → Account information → Username.",
+  "perks": [
+    "Every result 15 characters or fewer",
+    "Underscores only — no periods, no symbols",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "mia",
+  "seed": 2006,
+  "defaults": {
+    "symbols": "none",
+    "separator": "underscore",
+    "length": "short"
+  },
+  "placeholder": "mia, jay, nova, ghost, your niche…",
+  "stylesLegend": "Choose a handle style",
+  "resultsTitle": "Twitter username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "the",
+      "not",
+      "im",
+      "just",
+      "real",
+      "hey",
+      "only",
+      "mr",
+      "ms",
+      "dr",
+      "so"
+    ],
+    "suffixes": [
+      "x",
+      "hq",
+      "tweets",
+      "posts",
+      "txt",
+      "daily",
+      "io",
+      "one",
+      "alt",
+      "co"
+    ]
+  },
+  "styles": {
+    "short": {
+      "label": "Short",
+      "icon": "·",
+      "adjectives": [
+        "im",
+        "its",
+        "so",
+        "ok",
+        "oh",
+        "el",
+        "la",
+        "de",
+        "un",
+        "re",
+        "no",
+        "ur"
+      ],
+      "nouns": [
+        "mia",
+        "nyx",
+        "ryn",
+        "kai",
+        "vex",
+        "zed",
+        "ivo",
+        "ash",
+        "ora",
+        "ren",
+        "eos",
+        "ode",
+        "rue",
+        "fen",
+        "elm",
+        "ivy",
+        "jay",
+        "kit"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "y",
+        "e"
+      ],
+      "symbols": [
+        "·"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "tired",
+        "unhinged"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "llama",
+        "hamster",
+        "cabbage",
+        "walrus",
+        "posting",
+        "menace"
+      ],
+      "suffixes": [
+        "posts",
+        "tweets",
+        "txt",
+        "lol",
+        "hq",
+        "2000"
+      ],
+      "symbols": [
+        "☺"
+      ]
+    },
+    "pro": {
+      "label": "Professional",
+      "icon": "◆",
+      "adjectives": [
+        "real",
+        "the",
+        "official",
+        "daily",
+        "simply",
+        "just",
+        "hello",
+        "ask",
+        "team",
+        "studio",
+        "ceo",
+        "dev"
+      ],
+      "nouns": [
+        "writes",
+        "codes",
+        "designs",
+        "builds",
+        "talks",
+        "notes",
+        "reports",
+        "reviews",
+        "insights",
+        "studio",
+        "labs",
+        "works",
+        "hq",
+        "media",
+        "press",
+        "daily",
+        "digital",
+        "official"
+      ],
+      "suffixes": [
+        "hq",
+        "official",
+        "io",
+        "co",
+        "dev",
+        "writes"
+      ],
+      "symbols": [
+        "◆",
+        "·"
+      ]
+    },
+    "anonymous": {
+      "label": "Anonymous",
+      "icon": "◎",
+      "adjectives": [
+        "random",
+        "quiet",
+        "casual",
+        "some",
+        "local",
+        "average",
+        "regular",
+        "anonymous",
+        "curious",
+        "passing",
+        "ordinary",
+        "certain"
+      ],
+      "nouns": [
+        "lurker",
+        "user",
+        "person",
+        "stranger",
+        "reader",
+        "poster",
+        "bystander",
+        "observer",
+        "account",
+        "human",
+        "someone",
+        "nobody",
+        "wanderer",
+        "citizen",
+        "guest",
+        "npc",
+        "alt",
+        "burner"
+      ],
+      "suffixes": [
+        "alt",
+        "here",
+        "again",
+        "lurks",
+        "posts",
+        "acct"
+      ],
+      "symbols": [
+        "·"
+      ]
+    },
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded",
+        "honeyed",
+        "dusty"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky",
+        "reverie",
+        "linen"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "xo",
+        "ly"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    },
+    "fandom": {
+      "label": "Fandom & Stan",
+      "icon": "★",
+      "adjectives": [
+        "ot7",
+        "loml",
+        "sunshine",
+        "starry",
+        "lucky",
+        "golden",
+        "crying",
+        "tired",
+        "soft",
+        "feral",
+        "chaotic",
+        "devoted"
+      ],
+      "nouns": [
+        "stan",
+        "archive",
+        "updates",
+        "edits",
+        "fancam",
+        "era",
+        "daily",
+        "loops",
+        "pics",
+        "moments",
+        "concert",
+        "album",
+        "tour",
+        "bias",
+        "comeback",
+        "setlist",
+        "lore",
+        "cult"
+      ],
+      "suffixes": [
+        "stan",
+        "updates",
+        "archive",
+        "daily",
+        "edits",
+        "era"
+      ],
+      "symbols": [
+        "★",
+        "☆",
+        "✧",
+        "⋆",
+        "♡",
+        "✦"
+      ]
+    },
+    "news": {
+      "label": "News & Commentary",
+      "icon": "▲",
+      "adjectives": [
+        "breaking",
+        "daily",
+        "live",
+        "local",
+        "global",
+        "morning",
+        "late",
+        "weekly",
+        "fast",
+        "real",
+        "plain",
+        "hard"
+      ],
+      "nouns": [
+        "wire",
+        "brief",
+        "desk",
+        "digest",
+        "watch",
+        "report",
+        "ledger",
+        "signal",
+        "dispatch",
+        "bulletin",
+        "monitor",
+        "tracker",
+        "feed",
+        "notes",
+        "recap",
+        "radar",
+        "index",
+        "times"
+      ],
+      "suffixes": [
+        "wire",
+        "brief",
+        "watch",
+        "desk",
+        "daily",
+        "hq"
+      ],
+      "symbols": [
+        "▲",
+        "◆",
+        "·"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "byte"
+      ],
+      "suffixes": [
+        "x",
+        "hq",
+        "zero",
+        "one",
+        "io",
+        "z"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:short",
+      "Short"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:pro",
+      "Professional"
+    ],
+    [
+      "style:anonymous",
+      "Anonymous"
+    ],
+    [
+      "style:aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "short",
+      "≤ 8"
+    ],
+    [
+      "nosymbols",
+      "X-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your X Display Name",
+    "text": "X handles are plain — but the display name accepts fancy Unicode letters and symbols. Copy a handle here, then style the name next to it.",
+    "links": [
+      [
+        "Fancy text generator",
+        "/fancy-text-generator.html"
+      ],
+      [
+        "Aesthetic symbols",
+        "/aesthetic-symbols.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Twitter Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the handle style you choose, and the options under Customize. Short, underscore-only and no symbols are on by default so every result fits X's 15-character rule and passes the username field.",
+      "Leave the word blank and the generator pairs two words instead — quiet_lurker, breakingwire, ot7archive — so it also works as a random Twitter name generator for an alt, a fan account or a news feed."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a topic. The generator keeps it whole and builds around it: mia becomes miatweets, its_mia or mia_hq."
+      ],
+      [
+        "Pick a Twitter username style",
+        "Short, funny, professional, anonymous, aesthetic, fandom & stan, news & commentary or cool. Each has its own vocabulary; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Keep the ≤ 8 filter on for the shortest handles, heart the ones you like, then copy into X → Settings → Account information → Username to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Twitter Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Every example is 15 characters or fewer, so it fits an X handle as written. Click any handle to copy it.",
+    "groups": [
+      {
+        "key": "short",
+        "title": "Short Twitter Usernames",
+        "blurb": "Three-to-six-letter handles — the rarest on a platform that started in 2006. The [short username generator](/short-username-generator.html) enforces the length.",
+        "examples": [
+          "mia",
+          "nyxo",
+          "its_mia",
+          "ryn_x",
+          "miao",
+          "eos",
+          "kaiz",
+          "ivy_"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Twitter Usernames",
+        "blurb": "Goose, walrus, posting, menace — handles that read as a bit before the first tweet.",
+        "examples": [
+          "unhinged_goose",
+          "sleepy_walrus",
+          "mia_posts",
+          "tired_toast",
+          "grumpy_llama",
+          "spicy_noodle",
+          "goblin_txt",
+          "mia_menace"
+        ]
+      },
+      {
+        "key": "pro",
+        "title": "Professional Twitter Usernames",
+        "blurb": "Writes, builds, hq, dev — handles for a work account, a founder or a studio.",
+        "examples": [
+          "mia_writes",
+          "realmia",
+          "miahq",
+          "the_mia_studio",
+          "mia_dev",
+          "askmia",
+          "mia_official",
+          "teammia"
+        ]
+      },
+      {
+        "key": "anonymous",
+        "title": "Anonymous Twitter Usernames",
+        "blurb": "Lurker, alt, burner, bystander — handles that reveal nothing, for a second account. The [Reddit username generator](/reddit-username-generator.html) uses the same idea.",
+        "examples": [
+          "quiet_lurker",
+          "some_stranger",
+          "average_poster",
+          "local_npc",
+          "mia_alt",
+          "passing_observer",
+          "certain_nobody",
+          "burner_acct"
+        ]
+      },
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Twitter Usernames",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds and haze. The [aesthetic username generator](/aesthetic-username-generator.html) has sixteen sub-styles.",
+        "examples": [
+          "lunahaze",
+          "velvet_moon",
+          "softmia",
+          "cloudmuse",
+          "hazydawn",
+          "mia_glow",
+          "misty_halo",
+          "goldenreverie"
+        ]
+      },
+      {
+        "key": "fandom",
+        "title": "Fandom & Stan Twitter Usernames",
+        "blurb": "Stan, archive, updates, fancam, era — handles for fan accounts and update pages.",
+        "examples": [
+          "ot7archive",
+          "mia_updates",
+          "sunshinestan",
+          "starry_edits",
+          "loml_daily",
+          "feral_fancam",
+          "mia_era",
+          "devotedloops"
+        ]
+      },
+      {
+        "key": "news",
+        "title": "News & Commentary Twitter Usernames",
+        "blurb": "Wire, brief, desk, dispatch — handles for news, politics and industry commentary accounts.",
+        "examples": [
+          "breakingwire",
+          "daily_brief",
+          "mia_desk",
+          "localdispatch",
+          "latedigest",
+          "globalradar",
+          "weekly_recap",
+          "mia_watch"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Twitter Usernames",
+        "blurb": "Frost, vortex, apex, nova — sharp handles for gaming and tech accounts. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "frostvortex",
+          "silent_apex",
+          "onyxdrift",
+          "mia_zero",
+          "phantomrift",
+          "neonbyte",
+          "arctic_wolf",
+          "vaporhq"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "its_mia",
+      "mia_posts",
+      "mia_writes",
+      "quiet_lurker",
+      "lunahaze",
+      "ot7archive"
+    ],
+    "alt": "Twitter username generator example: the name mia turned into its_mia, mia_posts, mia_writes, quiet_lurker and other X handle ideas under 15 characters",
+    "caption": "One name in, eight handle styles out — every result fits X's 15-character, underscore-only rule.",
+    "tagline": "SHORT · FUNNY · PRO · ANONYMOUS · STAN",
+    "sample": "mia",
+    "src": "/assets/previews/twitter-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "X's rules",
+    "title": "Twitter Username vs Display Name on X",
+    "intro": "X gives every account two names with different rules. These shortcuts generate ideas that fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Twitter Usernames (@handle)",
+        "text": "4–15 characters, letters, numbers and underscores only; no periods, spaces or symbols, and the words twitter and admin are blocked. Unique across X and changeable any time.",
+        "examples": [
+          "its_mia",
+          "mia_writes",
+          "quiet_lurker"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate X-safe handles ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "Display Names on X",
+        "text": "Up to 50 characters, spaces, emoji and Unicode allowed, not unique. This is the bold name in every reply — where ⋆, ♡ and fancy letters belong.",
+        "examples": [
+          "mia ⋆",
+          "𝓂𝒾𝒶 ☾",
+          "Mia Writes"
+        ],
+        "preset": {
+          "style": "aesthetic",
+          "symbols": "auto",
+          "separator": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Fancy text",
+          "/fancy-text-generator.html"
+        ]
+      },
+      {
+        "icon": "▲",
+        "title": "Twitter Usernames for Alts & Fan Accounts",
+        "text": "Second accounts drop the real name entirely. Leave the word blank and pick Anonymous, Fandom or News for two-word handles with no personal detail.",
+        "examples": [
+          "ot7archive",
+          "breakingwire",
+          "some_stranger"
+        ],
+        "preset": {
+          "style": "anonymous",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate an alt handle ↑"
+      },
+      {
+        "icon": "♪",
+        "title": "Same Twitter Username on Threads & Bluesky",
+        "text": "Threads uses your Instagram handle (30 characters, periods allowed) and Bluesky uses a domain-style handle, so a short underscore-only X name is the safest one to reuse everywhere.",
+        "examples": [
+          "mia_writes",
+          "miahq",
+          "frostvortex"
+        ],
+        "preset": {
+          "style": "pro",
+          "symbols": "none",
+          "length": "short"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Instagram usernames",
+          "/instagram-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Twitter Username",
+    "intro": "The generator follows a handful of formulas — the ones you see in every reply thread. Knowing them helps you tweak a result or build your own X handle by hand.",
+    "rows": [
+      [
+        "Name + verb",
+        "**Mia** + **writes** / **posts** / **codes** → says what the account does, in 15 characters",
+        [
+          "mia_writes",
+          "miaposts"
+        ]
+      ],
+      [
+        "its / the / real + name",
+        "**its** + **_** + **Mia** → the classic X prefix for a taken name",
+        [
+          "its_mia",
+          "realmia"
+        ]
+      ],
+      [
+        "Name + hq / io / co",
+        "**Mia** + **hq** → a professional tail that reads like a brand",
+        [
+          "miahq",
+          "mia_io"
+        ]
+      ],
+      [
+        "Adjective _ animal",
+        "**Unhinged** + **_** + **Goose** → the funny-account formula; the underscore is X's only separator",
+        [
+          "unhinged_goose"
+        ]
+      ],
+      [
+        "Two topic words",
+        "**Breaking** + **Wire**, **Quiet** + **Lurker** → no name at all, for news, fan and alt accounts",
+        [
+          "breakingwire",
+          "quiet_lurker"
+        ]
+      ],
+      [
+        "Name + _",
+        "**Mia** + **_** → a trailing underscore frees a taken name at the cost of one character",
+        [
+          "mia_",
+          "_mia"
+        ]
+      ],
+      [
+        "Dropped vowel",
+        "**Mia** → **Ma**, **Vortex** → **vrtx** → buys characters inside the 15 limit",
+        [
+          "vrtx_mia",
+          "miatxt"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Mia** + **07** / **444** → a number with meaning looks intentional; 8371 looks like a fallback",
+        [
+          "mia07",
+          "mia_444"
+        ]
+      ]
+    ],
+    "note": "The 15-character limit is the whole game on X. *mia_writes* fits; *its_official_mia_writes_hq* does not. Underscores are the only separator, so use one at most, and never waste characters on numbers unless they mean something."
+  },
+  "guide": {
+    "title": "How Our Twitter Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to X. Twitter usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a noun from the style instead."
+      ],
+      [
+        "Handle vocabulary.",
+        "Each of the eight styles has its own hand-written list — writes, builds and hq for professional; lurker, alt and burner for anonymous; stan, archive and fancam for fandom; wire, brief and dispatch for news — and every word is short enough to leave room inside 15 characters."
+      ],
+      [
+        "Reply-thread patterns.",
+        "Name + verb, its/the/real prefixes, hq/io tails, adjective + animal, two topic words, trailing underscores, dropped vowels and meaningful numbers. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "X-safe defaults.",
+        "Short, underscore-only and no symbols are on, so every result is 15 characters or fewer and uses only letters, numbers and underscores — the only characters X allows."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a handle to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a handle is free — X's settings page shows a tick or a warning as you type."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Twitter Username Rules on X — and Why 15 Characters Matters",
+  "uniqueBody": [
+    "X kept Twitter's original username rules: **4 to 15 characters**, letters, numbers and underscores only. No periods (unlike Instagram and TikTok), no hyphens (unlike Reddit), no symbols, and the words *twitter* and *admin* are blocked. That makes X the tightest username field of any major platform — a handle that fits X fits everywhere else — and it is why this Twitter username generator defaults to Short and underscore-only. You can change your handle at any time from Settings → Account information → Username, with no cooldown, and the old one becomes available to anyone.",
+    "Because the platform is 20 years old, every short English word and common name is taken, and most of what remains is built the way this page builds it: a personal word plus a verb (*mia_writes*), a prefix (*its_mia*), a professional tail (*miahq*) or two topic words with no person in them (*breakingwire*, *quiet_lurker*). The separate **display name** (50 characters, Unicode allowed) is where personality goes — the [fancy text generator](/fancy-text-generator.html) styles any name for it. If you reuse the handle on Instagram or TikTok, the [Instagram username generator](/instagram-username-generator.html) and [TikTok username generator](/tiktok-username-generator.html) allow periods and longer names; for anonymous accounts the [Reddit username generator](/reddit-username-generator.html) shares the underscore convention; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The character rules and blocked words are set out in ",
+    "name": "X's help page on usernames",
+    "href": "https://help.x.com/en/managing-your-account/x-username-rules",
+    "after": "."
+  },
+  "faqTitle": "Twitter Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Twitter username generator?",
+      "It is a tool that combines a word you choose with curated vocabulary — short, funny, professional, anonymous, aesthetic, fandom, news or cool — and reply-thread naming patterns to produce X handles that fit the 15-character, underscore-only rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Twitter username ideas?",
+      "Examples from the styles above: its_mia, unhinged_goose, mia_writes, quiet_lurker, lunahaze, ot7archive, breakingwire and frostvortex. Type your own name to get versions built around it, or leave it blank for two-word handles with no personal detail."
+    ],
+    [
+      "How many characters can a Twitter username have?",
+      "4 to 15 characters on X, using only letters, numbers and underscores. No periods, hyphens, spaces or symbols. The Short filter on this page keeps results at 8 or fewer, which leaves room for a prefix or an underscore if the plain version is taken."
+    ],
+    [
+      "Does this Twitter username generator check availability?",
+      "No. Nothing here talks to X, so it cannot know whether a handle is taken. Copy the one you like into Settings → Account information → Username; X shows a green tick or a red warning as you type, before you save."
+    ],
+    [
+      "Can I change my Twitter username?",
+      "Yes, at any time, with no cooldown — Settings → Account information → Username. Your followers and tweets stay with the account, but old @mentions and links to the previous handle stop working, and anyone can claim the old name."
+    ],
+    [
+      "Can I use symbols or periods in an X handle?",
+      "No. Only letters, numbers and underscores are allowed in the handle. Symbols, emoji and fancy letters go in your display name, which allows 50 characters of almost anything — use the [fancy text generator](/fancy-text-generator.html) for that."
+    ],
+    [
+      "What is a good anonymous Twitter username?",
+      "Two words with nothing personal in them — quiet_lurker, some_stranger, average_poster — or a topic handle like breakingwire or ot7archive. Leave the word box blank and pick Anonymous, News or Fandom above; never add a real name, birth year or city."
+    ],
+    [
+      "Can I copy and paste the generated Twitter usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a handle to My Favorites in your browser. Paste the plain one into the username field and a styled one into your display name."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators",
+    "intro": "Pick another platform, or style your X display name."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles with periods and a 30-character limit.",
+      "◎"
+    ],
+    [
+      "Reddit Username Generator",
+      "/reddit-username-generator.html",
+      "Anonymous u/ names built the same underscore way.",
+      "👾"
+    ],
+    [
+      "Short Username Generator",
+      "/short-username-generator.html",
+      "3 to 8-letter handles — the rare ones still open on X.",
+      "·"
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "300+ Unicode styles for your X display name.",
+      "𝓕"
+    ],
+    [
+      "Aesthetic Symbols",
+      "/aesthetic-symbols.html",
+      "Stars, sparkles and hearts for the display name next to your handle.",
+      "✿"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "Instagram username generator",
+      "/instagram-username-generator.html"
+    ],
+    [
+      "Reddit username generator",
+      "/reddit-username-generator.html"
+    ],
+    [
+      "short username generator",
+      "/short-username-generator.html"
+    ],
+    [
+      "fancy text generator",
+      "/fancy-text-generator.html"
+    ],
+    [
+      "aesthetic symbols",
+      "/aesthetic-symbols.html"
+    ],
+    [
+      "TikTok username generator",
+      "/tiktok-username-generator.html"
+    ],
+    [
+      "nickname generator",
+      "/nickname-generator.html"
+    ]
+  ],
+  "maxLength": 15
+}

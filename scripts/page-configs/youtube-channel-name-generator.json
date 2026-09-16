@@ -1,0 +1,989 @@
+{
+  "type": "username",
+  "keyword": "youtube channel name generator",
+  "file": "youtube-channel-name-generator.html",
+  "label": "YouTube",
+  "title": "YouTube Channel Name Generator – Names & @Handles",
+  "description": "YouTube channel name generator: turn your name or niche into channel names and @handles for gaming, vlog, tech, music, kids and faceless channels. Free.",
+  "h1": "YouTube Channel Name Generator",
+  "appName": "YouTube Channel Name Generator",
+  "linkNote": "Channel names and @handles for gaming, vlog, tech, music and faceless channels.",
+  "kicker": "Free · 8 channel styles · 24 names per batch · handle-safe characters",
+  "sub": "Channel name and @handle ideas for gaming, vlog, tech, music, kids and faceless channels",
+  "intro": "This YouTube channel name generator builds channel names and @handles around your name or your niche — gaming, vlogs, tech reviews, music, kids content, faceless channels, education and shorts. Pick a channel style, generate 24 YouTube channel names at a time, keep them inside YouTube's 3–30 character handle rule, heart the ones you like and copy them into YouTube Studio.",
+  "perks": [
+    "Handle-safe (letters, numbers, periods, underscores)",
+    "Niche-specific vocabulary",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "sam",
+  "seed": 2005,
+  "defaults": {
+    "symbols": "none"
+  },
+  "placeholder": "sam, alex, pixel, cozy, your niche…",
+  "stylesLegend": "Choose a channel style",
+  "resultsTitle": "YouTube channel name ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "just",
+      "hey",
+      "mr",
+      "ms",
+      "team",
+      "real",
+      "simply",
+      "daily",
+      "only",
+      "official"
+    ],
+    "suffixes": [
+      "tv",
+      "hq",
+      "tube",
+      "official",
+      "plays",
+      "vlogs",
+      "studio",
+      "lab",
+      "daily",
+      "shorts"
+    ]
+  },
+  "styles": {
+    "gaming": {
+      "label": "Gaming",
+      "icon": "⌁",
+      "adjectives": [
+        "pixel",
+        "turbo",
+        "epic",
+        "rogue",
+        "cozy",
+        "casual",
+        "pro",
+        "retro",
+        "noob",
+        "legendary",
+        "clutch",
+        "speedrun"
+      ],
+      "nouns": [
+        "plays",
+        "gaming",
+        "gamer",
+        "quest",
+        "arcade",
+        "loot",
+        "lobby",
+        "respawn",
+        "checkpoint",
+        "boss",
+        "controller",
+        "console",
+        "guild",
+        "raid",
+        "sandbox",
+        "pixel",
+        "glitch",
+        "gg"
+      ],
+      "suffixes": [
+        "plays",
+        "gaming",
+        "gg",
+        "tv",
+        "hq",
+        "yt"
+      ],
+      "symbols": [
+        "⌁",
+        "✦",
+        "★",
+        "▶"
+      ]
+    },
+    "vlog": {
+      "label": "Vlog",
+      "icon": "◎",
+      "adjectives": [
+        "daily",
+        "little",
+        "simply",
+        "honest",
+        "slow",
+        "wild",
+        "candid",
+        "everyday",
+        "raw",
+        "real",
+        "cozy",
+        "weekend"
+      ],
+      "nouns": [
+        "diary",
+        "vlog",
+        "life",
+        "journal",
+        "days",
+        "stories",
+        "moments",
+        "adventures",
+        "journey",
+        "world",
+        "room",
+        "kitchen",
+        "corner",
+        "chronicles",
+        "living",
+        "mornings",
+        "notes",
+        "routine"
+      ],
+      "suffixes": [
+        "vlogs",
+        "daily",
+        "life",
+        "diaries",
+        "tv",
+        "official"
+      ],
+      "symbols": [
+        "◎",
+        "⋆",
+        "☆",
+        "▶"
+      ]
+    },
+    "tech": {
+      "label": "Tech & Reviews",
+      "icon": "⚙",
+      "adjectives": [
+        "tech",
+        "digital",
+        "smart",
+        "byte",
+        "pixel",
+        "future",
+        "gadget",
+        "nerd",
+        "simple",
+        "everyday",
+        "honest",
+        "budget"
+      ],
+      "nouns": [
+        "tech",
+        "bytes",
+        "lab",
+        "reviews",
+        "unboxed",
+        "gadgets",
+        "tested",
+        "circuit",
+        "signal",
+        "setup",
+        "workshop",
+        "bench",
+        "code",
+        "logic",
+        "verdict",
+        "specs",
+        "teardown",
+        "hub"
+      ],
+      "suffixes": [
+        "tech",
+        "lab",
+        "hq",
+        "tv",
+        "reviews",
+        "tested"
+      ],
+      "symbols": [
+        "⚙",
+        "◆",
+        "✦",
+        "▶"
+      ]
+    },
+    "music": {
+      "label": "Music",
+      "icon": "♪",
+      "adjectives": [
+        "lofi",
+        "acoustic",
+        "midnight",
+        "velvet",
+        "neon",
+        "chill",
+        "indie",
+        "late",
+        "golden",
+        "electric",
+        "soft",
+        "loud"
+      ],
+      "nouns": [
+        "beats",
+        "sounds",
+        "records",
+        "sessions",
+        "covers",
+        "vibes",
+        "tapes",
+        "studio",
+        "melody",
+        "chords",
+        "loops",
+        "tracks",
+        "frequency",
+        "echo",
+        "noise",
+        "radio",
+        "mix",
+        "tunes"
+      ],
+      "suffixes": [
+        "beats",
+        "music",
+        "records",
+        "sounds",
+        "sessions",
+        "official"
+      ],
+      "symbols": [
+        "♪",
+        "♫",
+        "✦",
+        "⋆"
+      ]
+    },
+    "kids": {
+      "label": "Kids & Family",
+      "icon": "★",
+      "adjectives": [
+        "happy",
+        "silly",
+        "tiny",
+        "bright",
+        "sunny",
+        "little",
+        "giggly",
+        "rainbow",
+        "bouncy",
+        "wonder",
+        "playful",
+        "magic"
+      ],
+      "nouns": [
+        "playtime",
+        "toybox",
+        "adventures",
+        "kids",
+        "buddies",
+        "world",
+        "fun",
+        "storytime",
+        "playground",
+        "friends",
+        "tots",
+        "learning",
+        "songs",
+        "crafts",
+        "surprise",
+        "land",
+        "club",
+        "zone"
+      ],
+      "suffixes": [
+        "kids",
+        "tv",
+        "fun",
+        "world",
+        "club",
+        "land"
+      ],
+      "symbols": [
+        "★",
+        "☆",
+        "☺",
+        "✿"
+      ]
+    },
+    "faceless": {
+      "label": "Faceless",
+      "icon": "◇",
+      "adjectives": [
+        "untold",
+        "hidden",
+        "quiet",
+        "dark",
+        "curious",
+        "strange",
+        "deep",
+        "silent",
+        "forgotten",
+        "brief",
+        "true",
+        "modern"
+      ],
+      "nouns": [
+        "stories",
+        "facts",
+        "files",
+        "archive",
+        "explained",
+        "history",
+        "mysteries",
+        "insights",
+        "briefs",
+        "digest",
+        "chronicle",
+        "vault",
+        "lens",
+        "signal",
+        "atlas",
+        "index",
+        "theory",
+        "mind"
+      ],
+      "suffixes": [
+        "explained",
+        "files",
+        "archive",
+        "hq",
+        "digest",
+        "tv"
+      ],
+      "symbols": [
+        "◇",
+        "◆",
+        "✦",
+        "·"
+      ]
+    },
+    "education": {
+      "label": "Education",
+      "icon": "✎",
+      "adjectives": [
+        "simple",
+        "clear",
+        "quick",
+        "curious",
+        "easy",
+        "smart",
+        "visual",
+        "bright",
+        "plain",
+        "everyday",
+        "practical",
+        "modern"
+      ],
+      "nouns": [
+        "academy",
+        "lessons",
+        "school",
+        "class",
+        "explained",
+        "tutorials",
+        "basics",
+        "guide",
+        "lab",
+        "minds",
+        "study",
+        "notes",
+        "hub",
+        "campus",
+        "insights",
+        "learning",
+        "sketch",
+        "tutor"
+      ],
+      "suffixes": [
+        "academy",
+        "explained",
+        "tutorials",
+        "lab",
+        "school",
+        "hq"
+      ],
+      "symbols": [
+        "✎",
+        "✦",
+        "◆",
+        "⋆"
+      ]
+    },
+    "shorts": {
+      "label": "Shorts & Clips",
+      "icon": "▶",
+      "adjectives": [
+        "quick",
+        "daily",
+        "viral",
+        "funny",
+        "random",
+        "best",
+        "top",
+        "instant",
+        "mini",
+        "micro",
+        "fast",
+        "wild"
+      ],
+      "nouns": [
+        "shorts",
+        "clips",
+        "moments",
+        "bits",
+        "snippets",
+        "cuts",
+        "highlights",
+        "reels",
+        "edits",
+        "memes",
+        "vibes",
+        "drops",
+        "loops",
+        "flicks",
+        "snaps",
+        "takes",
+        "scenes",
+        "frames"
+      ],
+      "suffixes": [
+        "shorts",
+        "clips",
+        "edits",
+        "daily",
+        "tv",
+        "hq"
+      ],
+      "symbols": [
+        "▶",
+        "★",
+        "⚡",
+        "✦"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:gaming",
+      "Gaming"
+    ],
+    [
+      "style:vlog",
+      "Vlog"
+    ],
+    [
+      "style:tech",
+      "Tech"
+    ],
+    [
+      "style:music",
+      "Music"
+    ],
+    [
+      "style:faceless",
+      "Faceless"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Handle-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your YouTube Channel Name",
+    "text": "Handles must be plain — but the channel name itself accepts Unicode. Copy a name here, then style the display version for your banner and about page.",
+    "links": [
+      [
+        "Fancy text generator",
+        "/fancy-text-generator.html"
+      ],
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the YouTube Channel Name Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the channel style you choose, and the options under Customize. Symbols are off by default because YouTube @handles reject them; the channel name field is more forgiving, so switch symbols on for display-name ideas.",
+      "Leave the word blank and the generator pairs two niche words instead — pixelplays, untoldfiles, lofisessions — which is usually the better option for a faceless or topic channel that should not be tied to a person."
+    ],
+    "steps": [
+      [
+        "Type your name or your niche",
+        "Your name for a personal channel, or a topic word — cozy, pixel, budget — for a niche channel. The generator keeps it whole: sam becomes samplays, samsdiary or sam.tech."
+      ],
+      [
+        "Pick a channel style",
+        "Gaming, vlog, tech & reviews, music, kids & family, faceless, education or shorts. Each has its own vocabulary; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy channel names",
+        "Use Handle-safe to hide symbols, heart the ones you like, then copy into YouTube Studio → Customization → Basic info and check the handle there."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "YouTube Channel Name Ideas by Niche",
+    "intro": "Hand-picked examples per channel style so you can see the vocabulary before you generate. Personal channels work best built on a name; faceless and topic channels work best as two niche words. Click any channel name to copy it.",
+    "groups": [
+      {
+        "key": "gaming",
+        "title": "Gaming YouTube Channel Names",
+        "blurb": "Plays, arcade, respawn, lobby — names for Let's Plays, speedruns and cozy game channels. The [gaming username generator](/gaming-username-generator.html) covers the matching gamertag.",
+        "examples": [
+          "samplays",
+          "pixelarcade",
+          "cozyrespawn",
+          "rogueloot",
+          "noobcheckpoint",
+          "turbogg",
+          "retroguild",
+          "samgaming"
+        ]
+      },
+      {
+        "key": "vlog",
+        "title": "Vlog YouTube Channel Names",
+        "blurb": "Diary, days, moments, chronicles — names for daily-life and travel vlogs.",
+        "examples": [
+          "samsdiary",
+          "littledays",
+          "honestmoments",
+          "slowmornings",
+          "candidchronicles",
+          "weekendkitchen",
+          "samvlogs",
+          "everydayjourney"
+        ]
+      },
+      {
+        "key": "tech",
+        "title": "Tech YouTube Channel Names",
+        "blurb": "Lab, bytes, unboxed, teardown — names for reviews, builds and gadget channels.",
+        "examples": [
+          "techbytes",
+          "samtested",
+          "budgetunboxed",
+          "honestspecs",
+          "gadgetbench",
+          "circuitlab",
+          "sam.tech",
+          "simplesetup"
+        ]
+      },
+      {
+        "key": "music",
+        "title": "Music YouTube Channel Names",
+        "blurb": "Beats, sessions, covers, tapes — names for lofi, covers and producer channels.",
+        "examples": [
+          "lofisessions",
+          "midnightbeats",
+          "samcovers",
+          "velvetrecords",
+          "neonloops",
+          "acoustictapes",
+          "chillfrequency",
+          "samsounds"
+        ]
+      },
+      {
+        "key": "kids",
+        "title": "Kids YouTube Channel Names",
+        "blurb": "Playtime, toybox, storytime, buddies — bright names for family and kids content.",
+        "examples": [
+          "happyplaytime",
+          "tinytoybox",
+          "samsadventures",
+          "rainbowstorytime",
+          "gigglybuddies",
+          "sunnycrafts",
+          "wonderland",
+          "brightsongs"
+        ]
+      },
+      {
+        "key": "faceless",
+        "title": "Faceless YouTube Channel Names",
+        "blurb": "Files, explained, archive, mysteries — names for narration, history and documentary channels with no face on camera.",
+        "examples": [
+          "untoldfiles",
+          "hiddenhistory",
+          "quietarchive",
+          "strangeexplained",
+          "deepmysteries",
+          "forgottenvault",
+          "curiousdigest",
+          "truechronicle"
+        ]
+      },
+      {
+        "key": "education",
+        "title": "Education YouTube Channel Names",
+        "blurb": "Academy, lessons, basics, tutorials — names for how-to and study channels.",
+        "examples": [
+          "simpleacademy",
+          "samexplained",
+          "quicklessons",
+          "clearbasics",
+          "visualtutorials",
+          "brightminds",
+          "easyguide",
+          "samstudy"
+        ]
+      },
+      {
+        "key": "shorts",
+        "title": "YouTube Shorts Channel Names",
+        "blurb": "Clips, bits, cuts, drops — names for shorts-first and compilation channels.",
+        "examples": [
+          "quickclips",
+          "dailybits",
+          "samshorts",
+          "viralcuts",
+          "randomdrops",
+          "bestmoments",
+          "microtakes",
+          "funnyflicks"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "samplays",
+      "samsdiary",
+      "sam.tech",
+      "untoldfiles",
+      "lofisessions",
+      "quickclips"
+    ],
+    "alt": "YouTube channel name generator example: the name sam turned into samplays, samsdiary, sam.tech, untoldfiles and other YouTube channel name ideas",
+    "caption": "One name in, eight channel styles out — every result fits YouTube's @handle rules by default.",
+    "tagline": "GAMING · VLOG · TECH · MUSIC · FACELESS",
+    "sample": "sam",
+    "src": "/assets/previews/youtube-channel-name-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "YouTube's rules",
+    "title": "YouTube Channel Name vs @Handle — Which One to Generate?",
+    "intro": "YouTube gives every channel two names with different rules. These shortcuts generate ideas that fit each one.",
+    "cards": [
+      {
+        "icon": "▶",
+        "title": "YouTube @Handles",
+        "text": "3–30 characters: letters, numbers, periods, underscores and hyphens, unique across YouTube. This is your youtube.com/@name URL. Change it twice every 14 days.",
+        "examples": [
+          "@samplays",
+          "@sam.tech",
+          "@untoldfiles"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none"
+        },
+        "button": "Generate handle-safe names ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "YouTube Channel Names (display)",
+        "text": "Up to 100 characters, spaces and most Unicode allowed, does not have to be unique. This is the bold name on your banner and under every video.",
+        "examples": [
+          "Sam Plays",
+          "Untold Files ✦",
+          "Lofi Sessions"
+        ],
+        "preset": {
+          "style": "vlog",
+          "symbols": "auto",
+          "letters": "mixed",
+          "separator": "none"
+        },
+        "button": "Generate a channel name ↑",
+        "link": [
+          "Fancy text",
+          "/fancy-text-generator.html"
+        ]
+      },
+      {
+        "icon": "◇",
+        "title": "Faceless YouTube Channel Names",
+        "text": "Topic channels should not depend on a person. Leave the word blank and pick Faceless, Education or Music for two-word names that could belong to a team.",
+        "examples": [
+          "hiddenhistory",
+          "quietarchive",
+          "simpleacademy"
+        ],
+        "preset": {
+          "style": "faceless",
+          "symbols": "none"
+        },
+        "button": "Generate faceless names ↑"
+      },
+      {
+        "icon": "♪",
+        "title": "Same Name on TikTok & Twitch",
+        "text": "TikTok allows 24 characters and Twitch 25, with the same letters-numbers-underscore rules, so a short YouTube handle usually works on both. Check all three before you commit.",
+        "examples": [
+          "samplays",
+          "quickclips",
+          "samshorts"
+        ],
+        "preset": {
+          "style": "shorts",
+          "symbols": "none",
+          "length": "short"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Twitch usernames",
+          "/twitch-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good YouTube Channel Name",
+    "intro": "The generator follows a handful of formulas — the ones behind most successful channel names. Knowing them helps you tweak a result or build your own.",
+    "rows": [
+      [
+        "Name + plays / vlogs / tech",
+        "**Sam** + **Plays** → the personal-channel formula; the suffix says the niche",
+        [
+          "samplays",
+          "samvlogs"
+        ]
+      ],
+      [
+        "Adjective + niche noun",
+        "**Untold** + **Files** → the faceless-channel formula; no person in it",
+        [
+          "untoldfiles",
+          "hiddenhistory"
+        ]
+      ],
+      [
+        "Name's + noun",
+        "**Sam's** + **Diary** → possessive, warm, reads like a vlog",
+        [
+          "samsdiary",
+          "samskitchen"
+        ]
+      ],
+      [
+        "Name . niche",
+        "**Sam** + **.** + **tech** → a period keeps the handle readable when the joined form is taken",
+        [
+          "sam.tech"
+        ]
+      ],
+      [
+        "The + noun",
+        "**The** + **Archive** / **Lab** → sounds established",
+        [
+          "thearchive",
+          "thetechlab"
+        ]
+      ],
+      [
+        "Niche + explained / hq / lab",
+        "**Budget** + **explained** → says what the videos do",
+        [
+          "budgetexplained",
+          "gadgetlab"
+        ]
+      ],
+      [
+        "Two niche words",
+        "**Lofi** + **Sessions**, **Quick** + **Clips** → memorable and easy to spell out loud",
+        [
+          "lofisessions",
+          "quickclips"
+        ]
+      ],
+      [
+        "Name + tv / hq",
+        "**Sam** + **TV** → the oldest YouTube suffix; still works, still short",
+        [
+          "samtv",
+          "samhq"
+        ]
+      ]
+    ],
+    "note": "One rule matters more on YouTube than anywhere else: the name has to be said out loud at the start of every video and searched by people who heard it once. *samplays* passes; *xX_S4m_Pl4yz_Xx* does not. Keep it under three words, spell it the way it sounds, and check the @handle is free before you print a logo."
+  },
+  "guide": {
+    "title": "How Our YouTube Channel Name Generator Works",
+    "intro": "There is no AI behind this page and no connection to YouTube. Channel names are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or niche you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a niche noun instead — usually better for topic channels."
+      ],
+      [
+        "Niche vocabulary.",
+        "Each of the eight channel styles has its own hand-written list — plays, arcade and respawn for gaming; diary, days and moments for vlogs; files, archive and explained for faceless — so a kids result never borrows a faceless word by accident."
+      ],
+      [
+        "Channel patterns.",
+        "Name + suffix, adjective + noun, possessive name + noun, name + period + niche, the + noun, niche + explained, two niche words, and the classic tv/hq tails. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Handle-safe defaults.",
+        "Symbols are off, so every result uses only letters, numbers, periods and underscores and can be typed straight into the @handle field."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a handle is free — YouTube Studio shows a tick or a warning as you type."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "YouTube Channel Name Rules and How to Change Yours",
+  "uniqueBody": [
+    "Every YouTube channel has a **channel name** — up to 100 characters, spaces and Unicode allowed, shown on your banner and under every video, and not required to be unique — and an **@handle** — 3 to 30 characters of letters, numbers, periods, underscores and hyphens, unique across YouTube, forming your youtube.com/@handle URL. Both are changed in YouTube Studio → Customization → Basic info. YouTube lets you change the channel name and the handle **twice every 14 days**, and a changed name may take a few days to update across the site, so test options here before you commit.",
+    "The practical rule this YouTube channel name generator follows: generate a handle-safe name first (plain, under 30 characters, sayable), check the @handle in Studio, then style the display version with spaces and capitals — *samplays* as the handle, *Sam Plays* as the channel name. If your channel also streams, the [Twitch username generator](/twitch-username-generator.html) shares nearly the same character rules with a 25-character cap; for a gamertag that matches the channel, use the [gamertag generator](/gamertag-generator.html); and for a handle across TikTok and Instagram too, the [TikTok username generator](/tiktok-username-generator.html) and the main [username generator](/username-generator.html) cover those platforms' rules."
+  ],
+  "source": {
+    "before": "Handle character rules and the change limits are documented in ",
+    "name": "YouTube's help article on handles",
+    "href": "https://support.google.com/youtube/answer/11585688",
+    "after": "."
+  },
+  "faqTitle": "YouTube Channel Name Generator FAQ",
+  "faqs": [
+    [
+      "What is a YouTube channel name generator?",
+      "It is a tool that combines your name or niche with curated vocabulary — gaming, vlog, tech, music, kids, faceless, education and shorts — and channel naming patterns to produce channel name and @handle ideas that follow YouTube's rules. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good YouTube channel name ideas?",
+      "Examples from the styles above: samplays, samsdiary, techbytes, lofisessions, happyplaytime, untoldfiles, simpleacademy and quickclips. Type your own name for a personal channel, or leave the box blank for two-word names that suit a faceless or topic channel."
+    ],
+    [
+      "What is the difference between a YouTube channel name and a handle?",
+      "The channel name is the display name — up to 100 characters, spaces allowed, not unique. The @handle is 3–30 characters of letters, numbers, periods, underscores and hyphens, unique across YouTube, and forms your youtube.com/@handle URL. This generator produces handle-safe names you can use for both."
+    ],
+    [
+      "How do I change my YouTube channel name?",
+      "Open YouTube Studio → Customization → Basic info, edit the channel name or the handle, and click Publish. You can change each twice every 14 days. If the handle you want is taken, YouTube says so as you type."
+    ],
+    [
+      "Does this YouTube channel name generator check availability?",
+      "No. Nothing here talks to YouTube, so it cannot know whether a handle is taken. Copy the one you like into YouTube Studio; it shows a tick or a warning immediately, before you publish."
+    ],
+    [
+      "What makes a good name for a faceless YouTube channel?",
+      "Two niche words with no person in them — untoldfiles, hiddenhistory, quietarchive — so the channel can grow past one narrator and be sold or handed off. Leave the word box blank and pick Faceless, Education or Music to generate that kind."
+    ],
+    [
+      "Should my YouTube channel name include my niche?",
+      "For a topic channel, yes — techbytes or lofisessions tells viewers what to expect from the search result alone. For a personal channel where you may change topics, keep the name personal (samplays, samsdiary) and put the niche in the description."
+    ],
+    [
+      "Can I copy and paste the generated channel names?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Paste the plain one into the @handle field and a spaced, capitalised one into the channel name."
+    ]
+  ],
+  "related": {
+    "title": "More Channel & Username Generators",
+    "intro": "Pick another platform, or style your channel name for the banner."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for the channel's matching game accounts.",
+      "⌁"
+    ],
+    [
+      "TikTok Username Generator",
+      "/tiktok-username-generator.html",
+      "The same handle on TikTok, within its 24-character rules.",
+      "♪"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles that match your channel name.",
+      "◎"
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "300+ Unicode styles for the display version of your channel name.",
+      "𝓕"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for banners and about pages.",
+      "𝕮"
+    ],
+    [
+      "Twitch Username Generator",
+      "/twitch-username-generator.html",
+      "Streamer names that fit Twitch's rules and can be said in a raid message."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "TikTok username generator",
+      "/tiktok-username-generator.html"
+    ],
+    [
+      "Instagram username generator",
+      "/instagram-username-generator.html"
+    ],
+    [
+      "fancy text generator",
+      "/fancy-text-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "cursive text generator",
+      "/cursive-text-generator.html"
+    ]
+  ],
+  "maxLength": 30
+}

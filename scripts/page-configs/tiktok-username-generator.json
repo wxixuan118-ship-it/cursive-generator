@@ -1,0 +1,1002 @@
+{
+  "type": "username",
+  "keyword": "tiktok username generator",
+  "file": "tiktok-username-generator.html",
+  "label": "TikTok",
+  "title": "TikTok Username Generator – Aesthetic, Cute & Funny Names",
+  "description": "TikTok username generator: turn your name into aesthetic, cute, funny, cool or creator TikTok usernames that fit the 24-character rules. Free, no sign-up.",
+  "h1": "TikTok Username Generator",
+  "appName": "TikTok Username Generator",
+  "linkNote": "TikTok-safe handles that are easy to say out loud, plus display-name ideas.",
+  "kicker": "Free · 8 TikTok styles · 24 names per batch · TikTok-safe characters",
+  "sub": "Aesthetic, cute, funny, cool and creator TikTok name ideas from your own name",
+  "intro": "This TikTok username generator builds handles that TikTok accepts — letters, numbers, periods and underscores, 2 to 24 characters — and that are easy to say out loud, because on TikTok your name gets read in videos and typed from memory. Pick a style, generate 24 TikTok usernames at a time, filter by length, heart the ones you like and copy them into Edit profile → Username.",
+  "perks": [
+    "TikTok-safe by default (no symbols)",
+    "Short filter for names that fit under a video",
+    "Favorites saved in your browser",
+    "No account, no AI"
+  ],
+  "sampleWord": "ella",
+  "seed": 2020,
+  "defaults": {
+    "symbols": "none"
+  },
+  "placeholder": "ella, jay, luna, honey, nova…",
+  "stylesLegend": "Choose a TikTok style",
+  "resultsTitle": "TikTok username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "just",
+      "iam",
+      "the",
+      "only",
+      "hey",
+      "real",
+      "not",
+      "lil",
+      "oh",
+      "xo",
+      "miss"
+    ],
+    "suffixes": [
+      "xo",
+      "official",
+      "tok",
+      "vibes",
+      "era",
+      "club",
+      "daily",
+      "edits",
+      "fyp",
+      "ish"
+    ]
+  },
+  "styles": {
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded",
+        "honeyed",
+        "dusty"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky",
+        "reverie",
+        "linen"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "xo",
+        "ly"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    },
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "sweet",
+        "tiny",
+        "cozy",
+        "fluffy",
+        "sunny",
+        "silly",
+        "lovely",
+        "puffy",
+        "happy",
+        "bubbly",
+        "peachy",
+        "rosy"
+      ],
+      "nouns": [
+        "bunny",
+        "peach",
+        "cherry",
+        "honey",
+        "kitty",
+        "berry",
+        "sugar",
+        "mochi",
+        "cupcake",
+        "boba",
+        "puff",
+        "panda",
+        "cookie",
+        "daisy",
+        "sprinkle",
+        "bean",
+        "bow",
+        "cloud"
+      ],
+      "suffixes": [
+        "xo",
+        "bear",
+        "pie",
+        "bun",
+        "pop",
+        "cake"
+      ],
+      "symbols": [
+        "♡",
+        "୨୧",
+        "✿",
+        "˚",
+        "ꕤ",
+        "⋆"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "unhinged",
+        "feral"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "hamster",
+        "menace",
+        "chaos"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "supreme",
+        "2000",
+        "core",
+        "era"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "✿"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "slick",
+        "prime",
+        "cold"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "chrome"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "hq",
+        "zero",
+        "one",
+        "official"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "✪",
+        "◆"
+      ]
+    },
+    "creator": {
+      "label": "Creator",
+      "icon": "◎",
+      "adjectives": [
+        "daily",
+        "little",
+        "simply",
+        "honest",
+        "slow",
+        "wild",
+        "curated",
+        "candid",
+        "golden",
+        "everyday",
+        "raw",
+        "real"
+      ],
+      "nouns": [
+        "diary",
+        "vlog",
+        "edits",
+        "clips",
+        "studio",
+        "notes",
+        "stories",
+        "archive",
+        "pov",
+        "moments",
+        "recaps",
+        "corner",
+        "life",
+        "room",
+        "desk",
+        "kitchen",
+        "closet",
+        "playlist"
+      ],
+      "suffixes": [
+        "daily",
+        "edits",
+        "vlogs",
+        "tok",
+        "official",
+        "fyp"
+      ],
+      "symbols": [
+        "◎",
+        "⋆",
+        "✧",
+        "☆",
+        "·",
+        "✦"
+      ]
+    },
+    "baddie": {
+      "label": "Baddie",
+      "icon": "💋",
+      "adjectives": [
+        "bad",
+        "boss",
+        "rich",
+        "glossy",
+        "iconic",
+        "spicy",
+        "flawless",
+        "golden",
+        "bossy",
+        "pretty",
+        "savage",
+        "luxe"
+      ],
+      "nouns": [
+        "baddie",
+        "queen",
+        "diva",
+        "icon",
+        "boss",
+        "barbie",
+        "doll",
+        "princess",
+        "muse",
+        "goddess",
+        "vixen",
+        "honey",
+        "glam",
+        "luxe",
+        "star",
+        "bae",
+        "babe",
+        "mami"
+      ],
+      "suffixes": [
+        "xo",
+        "luxe",
+        "official",
+        "era",
+        "baby",
+        "hq"
+      ],
+      "symbols": [
+        "💋",
+        "♡",
+        "✦",
+        "★",
+        "⋆",
+        "✧"
+      ]
+    },
+    "y2k": {
+      "label": "Y2K",
+      "icon": "✩",
+      "adjectives": [
+        "cyber",
+        "digital",
+        "glitchy",
+        "neon",
+        "plastic",
+        "retro",
+        "candy",
+        "hyper",
+        "electric",
+        "glossy",
+        "pixel",
+        "juicy"
+      ],
+      "nouns": [
+        "cyber",
+        "pixel",
+        "doll",
+        "baby",
+        "angel",
+        "2000",
+        "bratz",
+        "glitter",
+        "butterfly",
+        "bling",
+        "disco",
+        "chrome",
+        "pop",
+        "starlet",
+        "tokyo",
+        "dollz",
+        "cd",
+        "mp3"
+      ],
+      "suffixes": [
+        "2000",
+        "xo",
+        "xx",
+        "2k",
+        "doll",
+        "baby"
+      ],
+      "symbols": [
+        "★",
+        "✩",
+        "✧",
+        "⋆",
+        "☆",
+        "♡"
+      ]
+    },
+    "niche": {
+      "label": "Niche & Fandom",
+      "icon": "🎬",
+      "adjectives": [
+        "booktok",
+        "cleantok",
+        "foodtok",
+        "arttok",
+        "plantok",
+        "kpop",
+        "anime",
+        "gym",
+        "thrift",
+        "skin",
+        "cottage",
+        "study"
+      ],
+      "nouns": [
+        "reads",
+        "recipes",
+        "sketches",
+        "plants",
+        "fits",
+        "edits",
+        "hauls",
+        "routines",
+        "recs",
+        "reviews",
+        "tutorials",
+        "tips",
+        "hacks",
+        "diaries",
+        "dupes",
+        "fits",
+        "sets",
+        "grwm"
+      ],
+      "suffixes": [
+        "tok",
+        "edits",
+        "daily",
+        "recs",
+        "hq",
+        "official"
+      ],
+      "symbols": [
+        "🎬",
+        "⋆",
+        "✧",
+        "☆",
+        "✦",
+        "◎"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "style:cute",
+      "Cute"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:creator",
+      "Creator"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "TikTok-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your TikTok Display Name",
+    "text": "TikTok usernames must be plain — but the display name and bio accept fancy Unicode letters. Copy a username here, then style it for your profile.",
+    "links": [
+      [
+        "TikTok font generator",
+        "/tiktok-font-generator.html"
+      ],
+      [
+        "Aesthetic symbols",
+        "/aesthetic-symbols.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the TikTok Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the TikTok style you choose, and the options under Customize. Symbols are off by default because TikTok's username field rejects them; turn them on only for ideas you plan to use as a display name.",
+      "Leave the word blank and the generator pairs two style words instead — velvetmoon, unhingedgoose, booktokreads — so it also works as a random TikTok name generator for a niche account or a fan page."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your first name, a nickname, your niche. The generator keeps it whole and builds around it: ella becomes ella.haze, softella or elladaily."
+      ],
+      [
+        "Pick a TikTok username style",
+        "Aesthetic, cute, funny, cool, creator, baddie, Y2K or niche & fandom. Each has its own vocabulary; All Styles mixes them so you can compare."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use TikTok-safe to hide anything with symbols and Short for names that fit under a video, heart the ones you like, then copy into Edit profile → Username."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "TikTok Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Aesthetic, cute and baddie are the most-searched TikTok username ideas for girls; funny, cool and creator skew unisex — but every style here works for anyone. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic TikTok Usernames",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds, velvet and haze. The [aesthetic username generator](/aesthetic-username-generator.html) has sixteen sub-styles.",
+        "examples": [
+          "lunahaze",
+          "velvet.moon",
+          "softella",
+          "cloudmuse",
+          "hazydawn",
+          "ellaglow",
+          "golden.reverie",
+          "mistyhalo"
+        ]
+      },
+      {
+        "key": "cute",
+        "title": "Cute TikTok Usernames",
+        "blurb": "Bunnies, peaches, honey and mochi — sweet handles that are fun to say. More on the [cute username generator](/cute-username-generator.html).",
+        "examples": [
+          "bunnypeach",
+          "honeyella",
+          "sugarberry",
+          "ella.bun",
+          "cozycupcake",
+          "peachybow",
+          "kittybean",
+          "rosycloud"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny TikTok Usernames",
+        "blurb": "Unhinged goose, feral raccoon, chaos era — the names that get a comment before the video ends.",
+        "examples": [
+          "unhingedgoose",
+          "feralraccoon",
+          "wobblytoast",
+          "ella.chaos",
+          "spicynoodle",
+          "sleepyyeti",
+          "menace.era",
+          "grumpyllama"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool TikTok Usernames",
+        "blurb": "Sharp, short and confident — frost, neon, vortex and apex. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "frostella",
+          "neonvortex",
+          "ella.zero",
+          "silentwolf",
+          "onyxdrift",
+          "slickapex",
+          "ellahq",
+          "chromeflux"
+        ]
+      },
+      {
+        "key": "creator",
+        "title": "Creator TikTok Usernames",
+        "blurb": "Diary, vlog, edits, pov, grwm — handles for an account that posts every day.",
+        "examples": [
+          "elladaily",
+          "littlevlog",
+          "honest.pov",
+          "ella.edits",
+          "slowmoments",
+          "candidrecaps",
+          "ellasroom",
+          "goldencorner"
+        ]
+      },
+      {
+        "key": "baddie",
+        "title": "Baddie TikTok Usernames",
+        "blurb": "Boss, queen, icon, luxe — confident handles for a glam feed.",
+        "examples": [
+          "bossyella",
+          "glossyqueen",
+          "ella.luxe",
+          "iconicdiva",
+          "richbarbie",
+          "spicymuse",
+          "ellababe",
+          "flawlessglam"
+        ]
+      },
+      {
+        "key": "y2k",
+        "title": "Y2K TikTok Usernames",
+        "blurb": "Cyber, glitter, bratz, mp3 — 2000s revival handles. Pair with the [Y2K font generator](/y2k-font-generator.html) for a matching display name.",
+        "examples": [
+          "cyberella",
+          "glitterdoll2k",
+          "ella2000",
+          "pixelbutterfly",
+          "juicystarlet",
+          "chromebling",
+          "ellaxmp3",
+          "discobaby"
+        ]
+      },
+      {
+        "key": "niche",
+        "title": "Niche & Fandom TikTok Usernames",
+        "blurb": "BookTok, CleanTok, FoodTok, k-pop, anime — a niche word in the handle tells the algorithm and the viewer what you post.",
+        "examples": [
+          "booktokreads",
+          "ella.recipes",
+          "plantokdaily",
+          "animeedits",
+          "thriftfits",
+          "kpop.recs",
+          "gymroutines",
+          "ellagrwm"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "ella.haze",
+      "softella",
+      "unhingedgoose",
+      "elladaily",
+      "bunnypeach",
+      "ella.luxe"
+    ],
+    "alt": "TikTok username generator example: the name ella turned into ella.haze, softella, unhingedgoose, elladaily and other TikTok username ideas",
+    "caption": "One name in, eight TikTok styles out — every result follows TikTok's username rules by default.",
+    "tagline": "AESTHETIC · CUTE · FUNNY · CREATOR · Y2K",
+    "sample": "ella",
+    "src": "/assets/previews/tiktok-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "TikTok's rules",
+    "title": "TikTok Username vs Nickname — Which One to Generate?",
+    "intro": "TikTok's username field is stricter than its nickname field. These shortcuts generate ideas that fit each situation.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "TikTok Usernames (the @handle)",
+        "text": "2–24 characters: letters, numbers, periods and underscores only. No spaces, no symbols, cannot end with a period, and you can change it once every 30 days.",
+        "examples": [
+          "ella.haze",
+          "softella",
+          "ella_daily"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none"
+        },
+        "button": "Generate TikTok-safe handles ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "TikTok Nicknames (display name)",
+        "text": "Up to 30 characters, accepts spaces, emoji and Unicode symbols — this is where ♡, ⋆ and fancy letters belong. Generate with symbols on, then style it with a font tool.",
+        "examples": [
+          "ella ⋆ haze",
+          "♡ ella",
+          "𝑒𝓁𝓁𝒶"
+        ],
+        "preset": {
+          "style": "aesthetic",
+          "symbols": "auto"
+        },
+        "button": "Generate a nickname ↑",
+        "link": [
+          "TikTok fonts",
+          "/tiktok-font-generator.html"
+        ]
+      },
+      {
+        "icon": "🎬",
+        "title": "Niche TikTok Usernames",
+        "text": "For BookTok, CleanTok or a fan account, put the niche in the handle so viewers know what you post before they tap. Creator and niche styles do this.",
+        "examples": [
+          "booktokreads",
+          "ella.recipes",
+          "animeedits"
+        ],
+        "preset": {
+          "style": "niche",
+          "symbols": "none"
+        },
+        "button": "Generate a niche handle ↑"
+      },
+      {
+        "icon": "♪",
+        "title": "Same TikTok Username on Instagram",
+        "text": "Instagram allows 30 characters with the same characters, so a TikTok-safe handle under 24 works there too. Check both before you commit.",
+        "examples": [
+          "elladaily",
+          "honeyella",
+          "ella.studio"
+        ],
+        "preset": {
+          "style": "creator",
+          "symbols": "none",
+          "length": "short"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Instagram usernames",
+          "/instagram-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good TikTok Username",
+    "intro": "The generator follows a handful of formulas. Knowing them helps you tweak a result — or build your own TikTok username by hand.",
+    "rows": [
+      [
+        "Name + one word",
+        "**Ella** + **Haze** → the most natural pairing; the word sets the mood",
+        [
+          "ellahaze"
+        ]
+      ],
+      [
+        "Name . word",
+        "**Ella** + **.** + **Haze** → the period frees a taken name without a number and still reads cleanly out loud",
+        [
+          "ella.haze"
+        ]
+      ],
+      [
+        "Adjective + name",
+        "**Soft** / **Frost** + **Ella** → describes you before your name lands",
+        [
+          "softella",
+          "frostella"
+        ]
+      ],
+      [
+        "Name + daily / edits / vlogs",
+        "**Ella** + **daily** → tells people what the account posts",
+        [
+          "elladaily",
+          "ella.edits"
+        ]
+      ],
+      [
+        "Niche + word",
+        "**BookTok** + **reads**, **Plant** + **tok** → the niche in the handle",
+        [
+          "booktokreads",
+          "plantokdaily"
+        ]
+      ],
+      [
+        "Prefix + name",
+        "**its** / **just** / **iam** + **Ella** → reads like a caption, easy to remember",
+        [
+          "itsella",
+          "just.ella"
+        ]
+      ],
+      [
+        "Doubled letter",
+        "**Ella** → **ellaa**, **elle** → keeps the sound, changes the string",
+        [
+          "ellaa",
+          "ellla"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Ella** + **444** / **2k** → a number with meaning looks intentional, 8371 looks like a fallback",
+        [
+          "ella444",
+          "ella.2k"
+        ]
+      ]
+    ],
+    "note": "One trick per handle — and say it out loud before you pick it. *ella.haze* is a TikTok username; *xo_ellaa.haze444_* cannot be said in a video. TikTok also blocks handles ending in a period and lets you change your username only once every 30 days."
+  },
+  "guide": {
+    "title": "How Our TikTok Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to TikTok. TikTok usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a noun from the style instead."
+      ],
+      [
+        "TikTok vocabulary.",
+        "Each of the eight styles has its own hand-written list — moon, haze and velvet for aesthetic; unhinged, feral and chaos for funny; diary, vlog and grwm for creators; booktok, cleantok and kpop for niches — so a cute result never borrows a baddie word by accident."
+      ],
+      [
+        "Naming patterns.",
+        "Name + word, adjective + name, name + period + word, niche + word, prefix + name, two style words, doubled letters and short numeric suffixes. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "TikTok-safe defaults.",
+        "Symbols are off, so every result uses only letters, numbers, periods and underscores. The Mix separator adds a period or underscore to some results; pick Period to apply it to all."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a handle is free — TikTok's Edit profile screen tells you instantly."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Why TikTok Usernames Need to Be Sayable",
+  "uniqueBody": [
+    "On Instagram a username is read; on TikTok it is **heard**. Creators say their handle in videos, duets show it in the corner, and viewers type it from memory after the video is gone. That changes what a good TikTok username is: it should be two or three syllables, spelled the way it sounds, with at most one period. *softella* passes; *s0ft_3lla.xo* does not, even though TikTok would accept both. It also means the funny and creator styles work better here than anywhere else — *unhingedgoose* and *elladaily* are memorable in a way that a string of aesthetic words is not.",
+    "TikTok's own rules add the rest: usernames are 2 to 24 characters of letters, numbers, periods and underscores, cannot end with a period, and can be changed only **once every 30 days** — so test a few options here before you spend the change. The separate **nickname** (display name) is where symbols and fancy letters go; the [TikTok font generator](/tiktok-font-generator.html) styles any name for it. If you post the same content on Instagram, the [Instagram username generator](/instagram-username-generator.html) shares this page's character rules with a 30-character limit; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The character limits and the 30-day change window come from ",
+    "name": "TikTok's help page on changing your username",
+    "href": "https://support.tiktok.com/en/getting-started/setting-up-your-profile/changing-your-username",
+    "after": "."
+  },
+  "faqTitle": "TikTok Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a TikTok username generator?",
+      "It is a tool that combines a word you choose with curated vocabulary — aesthetic, cute, funny, cool, creator, baddie, Y2K or niche — and naming patterns to produce TikTok username ideas that follow TikTok's character rules and are easy to say out loud. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good TikTok username ideas?",
+      "Examples from the styles above: ella.haze, softella, unhingedgoose, frostella, elladaily, ella.luxe, cyberella and booktokreads. Type your own name to get versions built around it; leave it blank for two-word ideas with no personal detail."
+    ],
+    [
+      "What characters can I use in a TikTok username?",
+      "Letters, numbers, periods and underscores, 2 to 24 characters, and the handle cannot end with a period. No spaces, symbols or emoji — those are allowed in the separate nickname field and in your bio."
+    ],
+    [
+      "How often can I change my TikTok username?",
+      "Once every 30 days. Go to Profile → Edit profile → Username; TikTok warns you immediately if the name is taken or contains a character it does not allow. Because of the 30-day wait, generate a few options here and check them before you commit."
+    ],
+    [
+      "Does this TikTok username generator check availability?",
+      "No. Nothing on this page talks to TikTok, so it cannot know whether a handle is taken. Copy the one you like and paste it into Edit profile → Username; TikTok shows a red warning instantly if the name is unavailable."
+    ],
+    [
+      "How do I make my TikTok username aesthetic?",
+      "Keep it lowercase, use one soft word (haze, moon, velvet, cloud) and at most one period. Pick the Aesthetic style above, or use the [aesthetic username generator](/aesthetic-username-generator.html) for sixteen sub-styles, then style your nickname with the [TikTok font generator](/tiktok-font-generator.html)."
+    ],
+    [
+      "Should my TikTok username include my niche?",
+      "If you post one kind of content, yes — booktokreads or ella.recipes tells viewers what to expect before they tap. If you post a mix, keep the handle personal and put the niche in your bio. The Niche & Fandom style above generates both kinds."
+    ],
+    [
+      "Can I use the same username on Instagram?",
+      "Usually. Instagram allows 30 characters with the same characters (letters, numbers, periods, underscores), so a TikTok-safe handle works there too. Use the [Instagram username generator](/instagram-username-generator.html) for IG-specific rules and check both apps before you commit."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators & TikTok Fonts",
+    "intro": "Pick another platform, or style your TikTok nickname."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles that follow Instagram's username rules.",
+      "◎"
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html",
+      "Sixteen aesthetics from coquette to cottagecore and Y2K.",
+      "⋆"
+    ],
+    [
+      "Cute Username Generator",
+      "/cute-username-generator.html",
+      "Sweet, kawaii, soft and pastel names for a pastel feed.",
+      "♡"
+    ],
+    [
+      "TikTok Font Generator",
+      "/tiktok-font-generator.html",
+      "Cursive, bold and aesthetic letters for your TikTok nickname and bio.",
+      "♪"
+    ],
+    [
+      "Y2K Font Generator",
+      "/y2k-font-generator.html",
+      "Cyber and 2000s-style text for a Y2K display name.",
+      "✩"
+    ],
+    [
+      "Snapchat Username Generator",
+      "/snapchat-username-generator.html",
+      "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "Instagram username generator",
+      "/instagram-username-generator.html"
+    ],
+    [
+      "aesthetic username generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "cute username generator",
+      "/cute-username-generator.html"
+    ],
+    [
+      "TikTok font generator",
+      "/tiktok-font-generator.html"
+    ],
+    [
+      "Y2K font generator",
+      "/y2k-font-generator.html"
+    ],
+    [
+      "aesthetic symbols",
+      "/aesthetic-symbols.html"
+    ],
+    [
+      "Instagram font generator",
+      "/instagram-font-generator.html"
+    ]
+  ],
+  "maxLength": 24
+}

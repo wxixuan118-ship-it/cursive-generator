@@ -1,0 +1,999 @@
+{
+  "type": "username",
+  "keyword": "snapchat username generator",
+  "file": "snapchat-username-generator.html",
+  "label": "Snapchat",
+  "title": "Snapchat Username Generator – Cute, Cool & Funny Snap Names",
+  "description": "Snapchat username generator: turn your name into cute, cool, funny, aesthetic or private Snapchat usernames that fit the 3–15 character rules. Free, no sign-up.",
+  "h1": "Snapchat Username Generator",
+  "appName": "Snapchat Username Generator",
+  "linkNote": "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes.",
+  "kicker": "Free · 8 Snap styles · 24 names per batch · 15-character Snapchat limit",
+  "sub": "Cute, cool, funny, aesthetic and private Snapchat username ideas from your own name",
+  "intro": "This Snapchat username generator builds usernames that pass Snapchat's rules — 3 to 15 characters, starting with a letter, letters, numbers and at most one period, hyphen or underscore — and that friends can find in Add Friends. Pick a style, generate 24 Snapchat usernames at a time, filter by length, heart the ones you like and copy one before you sign up, because Snapchat lets you change it only once a year.",
+  "perks": [
+    "Every result 15 characters or fewer",
+    "Snap-safe: letters, numbers, one separator",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "ava",
+  "seed": 2011,
+  "maxLength": 15,
+  "defaults": {
+    "symbols": "none",
+    "numbers": "none"
+  },
+  "placeholder": "ava, jay, luna, honey, nova…",
+  "stylesLegend": "Choose a Snap style",
+  "resultsTitle": "Snapchat username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "just",
+      "hey",
+      "xo",
+      "lil",
+      "the",
+      "only",
+      "real",
+      "miss",
+      "not",
+      "oh",
+      "im"
+    ],
+    "suffixes": [
+      "xo",
+      "snaps",
+      "snap",
+      "x",
+      "xx",
+      "vibes",
+      "ish",
+      "sc",
+      "hq",
+      "one"
+    ]
+  },
+  "styles": {
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "sweet",
+        "tiny",
+        "cozy",
+        "fluffy",
+        "sunny",
+        "silly",
+        "lovely",
+        "puffy",
+        "happy",
+        "bubbly",
+        "peachy",
+        "rosy"
+      ],
+      "nouns": [
+        "bunny",
+        "peach",
+        "cherry",
+        "honey",
+        "kitty",
+        "berry",
+        "sugar",
+        "mochi",
+        "cupcake",
+        "boba",
+        "puff",
+        "panda",
+        "cookie",
+        "daisy",
+        "bean",
+        "bow",
+        "cloud",
+        "duck"
+      ],
+      "suffixes": [
+        "xo",
+        "bear",
+        "pie",
+        "bun",
+        "pop",
+        "boo"
+      ],
+      "symbols": [
+        "♡",
+        "୨୧",
+        "✿",
+        "˚",
+        "ꕤ",
+        "⋆"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "jet"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "hq",
+        "zero",
+        "one",
+        "z"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "unhinged",
+        "feral"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "llama",
+        "menace",
+        "chaos",
+        "goof",
+        "snacc"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lol",
+        "xd",
+        "core",
+        "era"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "✿"
+      ]
+    },
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded",
+        "honeyed",
+        "dusty"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky",
+        "reverie",
+        "linen"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "xo",
+        "ly"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    },
+    "private": {
+      "label": "Private",
+      "icon": "◎",
+      "adjectives": [
+        "quiet",
+        "random",
+        "some",
+        "just",
+        "only",
+        "local",
+        "casual",
+        "certain",
+        "passing",
+        "ordinary",
+        "little",
+        "plain"
+      ],
+      "nouns": [
+        "snaps",
+        "stories",
+        "streaks",
+        "pics",
+        "moments",
+        "days",
+        "notes",
+        "diary",
+        "album",
+        "reel",
+        "flicks",
+        "frames",
+        "clips",
+        "roll",
+        "feed",
+        "lens",
+        "user",
+        "account"
+      ],
+      "suffixes": [
+        "snaps",
+        "sc",
+        "ish",
+        "here",
+        "one",
+        "co"
+      ],
+      "symbols": [
+        "·",
+        "⋆"
+      ]
+    },
+    "baddie": {
+      "label": "Baddie",
+      "icon": "💋",
+      "adjectives": [
+        "bad",
+        "boss",
+        "rich",
+        "glossy",
+        "iconic",
+        "spicy",
+        "flawless",
+        "golden",
+        "bossy",
+        "pretty",
+        "savage",
+        "luxe"
+      ],
+      "nouns": [
+        "baddie",
+        "queen",
+        "diva",
+        "icon",
+        "boss",
+        "barbie",
+        "doll",
+        "princess",
+        "muse",
+        "goddess",
+        "vixen",
+        "honey",
+        "glam",
+        "luxe",
+        "star",
+        "bae",
+        "babe",
+        "mami"
+      ],
+      "suffixes": [
+        "xo",
+        "luxe",
+        "era",
+        "baby",
+        "hq",
+        "x"
+      ],
+      "symbols": [
+        "💋",
+        "♡",
+        "✦",
+        "★",
+        "⋆",
+        "✧"
+      ]
+    },
+    "streaks": {
+      "label": "Streaks & Bestie",
+      "icon": "🔥",
+      "adjectives": [
+        "daily",
+        "streak",
+        "bestie",
+        "forever",
+        "loyal",
+        "always",
+        "late",
+        "night",
+        "early",
+        "sunday",
+        "fast",
+        "instant"
+      ],
+      "nouns": [
+        "streaks",
+        "bestie",
+        "buddy",
+        "pal",
+        "twin",
+        "mate",
+        "sidekick",
+        "partner",
+        "homie",
+        "crew",
+        "duo",
+        "squad",
+        "circle",
+        "gang",
+        "fam",
+        "bff",
+        "ride",
+        "replies"
+      ],
+      "suffixes": [
+        "streaks",
+        "bff",
+        "fam",
+        "crew",
+        "duo",
+        "sc"
+      ],
+      "symbols": [
+        "🔥",
+        "★",
+        "♡",
+        "☆",
+        "✌",
+        "⚡"
+      ]
+    },
+    "y2k": {
+      "label": "Y2K",
+      "icon": "✩",
+      "adjectives": [
+        "cyber",
+        "digital",
+        "glitchy",
+        "neon",
+        "plastic",
+        "retro",
+        "candy",
+        "hyper",
+        "electric",
+        "glossy",
+        "pixel",
+        "juicy"
+      ],
+      "nouns": [
+        "cyber",
+        "pixel",
+        "doll",
+        "baby",
+        "angel",
+        "2000",
+        "bratz",
+        "glitter",
+        "butterfly",
+        "bling",
+        "disco",
+        "chrome",
+        "pop",
+        "starlet",
+        "tokyo",
+        "dollz",
+        "cd",
+        "mp3"
+      ],
+      "suffixes": [
+        "2000",
+        "xo",
+        "xx",
+        "2k",
+        "doll",
+        "baby"
+      ],
+      "symbols": [
+        "★",
+        "✩",
+        "✧",
+        "⋆",
+        "☆",
+        "♡"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:cute",
+      "Cute"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "style:private",
+      "Private"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Snap-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your Snapchat Display Name",
+    "text": "Snapchat usernames are plain — but your display name accepts emoji and fancy Unicode letters. Copy a username here, then style the display name.",
+    "links": [
+      [
+        "Fancy text generator",
+        "/fancy-text-generator.html"
+      ],
+      [
+        "Aesthetic symbols",
+        "/aesthetic-symbols.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Snapchat Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the Snap style you choose, and the options under Customize. Symbols and numbers are off by default and every result is capped at 15 characters, so anything you see passes Snapchat's username field on the first try.",
+      "Leave the word blank and the generator pairs two words instead — velvetmoon, quietsnaps, unhingedgoose — so it also works as a random Snapchat name generator for a private or second account."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your first name, a nickname, a favorite word. The generator keeps it whole and builds around it: ava becomes ava.snaps, softava or avaxo."
+      ],
+      [
+        "Pick a Snapchat username style",
+        "Cute, cool, funny, aesthetic, private, baddie, streaks & bestie or Y2K. Each has its own vocabulary; All Styles mixes them so you can compare."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use Snap-safe to hide anything with symbols, heart the ones you like, then copy into the sign-up form — Snapchat checks availability as you type."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Snapchat Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Cute, aesthetic and baddie are the most-searched Snapchat username ideas for girls; cool, funny and private skew unisex — but every style here works for anyone. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "cute",
+        "title": "Cute Snapchat Usernames",
+        "blurb": "Bunnies, peaches, honey and mochi — sweet names that suit a pastel Bitmoji. More on the [cute username generator](/cute-username-generator.html).",
+        "examples": [
+          "bunnypeach",
+          "honeyava",
+          "sugarberry",
+          "ava.bun",
+          "cozycupcake",
+          "peachybow",
+          "kittybean",
+          "rosycloud"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Snapchat Usernames",
+        "blurb": "Sharp, short and confident — frost, neon, vortex and apex. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "frostava",
+          "neonvortex",
+          "ava.zero",
+          "silentwolf",
+          "onyxdrift",
+          "vaporapex",
+          "avahq",
+          "arcticjet"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Snapchat Usernames",
+        "blurb": "Unhinged goose, feral raccoon, chaos era — names your friends screenshot.",
+        "examples": [
+          "unhingedgoose",
+          "feralraccoon",
+          "wobblytoast",
+          "ava.chaos",
+          "spicynoodle",
+          "sleepyyeti",
+          "menace.era",
+          "grumpyllama"
+        ]
+      },
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Snapchat Usernames",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds, velvet and haze. The [aesthetic username generator](/aesthetic-username-generator.html) has sixteen sub-styles.",
+        "examples": [
+          "lunahaze",
+          "velvet.moon",
+          "softava",
+          "cloudmuse",
+          "hazydawn",
+          "avaglow",
+          "golden.reverie",
+          "mistyhalo"
+        ]
+      },
+      {
+        "key": "private",
+        "title": "Private Snapchat Usernames",
+        "blurb": "Snaps, stories, streaks, diary — names that say nothing about you, for an account only close friends know.",
+        "examples": [
+          "quietsnaps",
+          "ava.stories",
+          "justmoments",
+          "someflicks",
+          "localdiary",
+          "ava_roll",
+          "plainframes",
+          "onlyclips"
+        ]
+      },
+      {
+        "key": "baddie",
+        "title": "Baddie Snapchat Usernames",
+        "blurb": "Boss, queen, icon, luxe — confident names for a glam story.",
+        "examples": [
+          "bossyava",
+          "glossyqueen",
+          "ava.luxe",
+          "iconicdiva",
+          "richbarbie",
+          "spicymuse",
+          "avababe",
+          "flawlessglam"
+        ]
+      },
+      {
+        "key": "streaks",
+        "title": "Streaks & Bestie Snapchat Usernames",
+        "blurb": "Streaks, bestie, duo, fam — names for the account you keep streaks on.",
+        "examples": [
+          "avastreaks",
+          "dailybestie",
+          "loyal.duo",
+          "streakfam",
+          "ava_bff",
+          "nightcrew",
+          "foreverhomie",
+          "instantreplies"
+        ]
+      },
+      {
+        "key": "y2k",
+        "title": "Y2K Snapchat Usernames",
+        "blurb": "Cyber, glitter, bratz, mp3 — 2000s revival names. Pair with the [Y2K font generator](/y2k-font-generator.html) for a display name.",
+        "examples": [
+          "cyberava",
+          "glitterdoll2k",
+          "ava2000",
+          "pixelbutterfly",
+          "juicystarlet",
+          "chromebling",
+          "avaxmp3",
+          "discobaby"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "ava.snaps",
+      "softava",
+      "avaxo",
+      "unhingedgoose",
+      "quietsnaps",
+      "ava.luxe"
+    ],
+    "alt": "Snapchat username generator example: the name ava turned into ava.snaps, softava, avaxo, unhingedgoose and other Snapchat username ideas",
+    "caption": "One name in, eight Snap styles out — every result fits Snapchat's 15-character username rule.",
+    "tagline": "CUTE · COOL · FUNNY · AESTHETIC · PRIVATE",
+    "sample": "ava",
+    "src": "/assets/previews/snapchat-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Snapchat's rules",
+    "title": "Snapchat Username vs Display Name",
+    "intro": "Snapchat gives you two names with very different rules. These shortcuts generate ideas that fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Snapchat Usernames",
+        "text": "3–15 characters, must start with a letter, letters and numbers plus at most one period, hyphen or underscore, no spaces or symbols. Unique, shown in Add Friends, and changeable only once a year.",
+        "examples": [
+          "ava.snaps",
+          "softava",
+          "ava_xo"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "numbers": "none"
+        },
+        "button": "Generate Snap-safe usernames ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "Snapchat Display Names",
+        "text": "Up to 30 characters, spaces, emoji and Unicode allowed, changeable any time — this is where ♡, ⋆ and fancy letters go.",
+        "examples": [
+          "ava ♡",
+          "𝒶𝓋𝒶 ⋆",
+          "Ava Snaps"
+        ],
+        "preset": {
+          "style": "aesthetic",
+          "symbols": "auto",
+          "separator": "none"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Fancy text",
+          "/fancy-text-generator.html"
+        ]
+      },
+      {
+        "icon": "🔥",
+        "title": "Snapchat Usernames for Streaks",
+        "text": "An account friends type every day should be short and obvious — a name plus streaks, snaps or a bestie word.",
+        "examples": [
+          "avastreaks",
+          "ava.snaps",
+          "streakfam"
+        ],
+        "preset": {
+          "style": "streaks",
+          "symbols": "none",
+          "numbers": "none",
+          "length": "short"
+        },
+        "button": "Generate a streaks name ↑"
+      },
+      {
+        "icon": "♪",
+        "title": "Same Snapchat Username on TikTok & Instagram",
+        "text": "TikTok allows 24 characters and Instagram 30, both with periods and underscores, so a 15-character Snap-safe name works on all three. Check each before you commit.",
+        "examples": [
+          "ava.snaps",
+          "softava",
+          "cyberava"
+        ],
+        "preset": {
+          "style": "cute",
+          "symbols": "none",
+          "numbers": "none"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "TikTok usernames",
+          "/tiktok-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Snapchat Username",
+    "intro": "The generator follows a handful of formulas. Knowing them helps you tweak a result — or build your own Snapchat username by hand.",
+    "rows": [
+      [
+        "Name + snaps",
+        "**Ava** + **snaps** → the classic Snapchat suffix; says what the account is",
+        [
+          "avasnaps",
+          "ava.snaps"
+        ]
+      ],
+      [
+        "Adjective + name",
+        "**Soft** / **Frost** + **Ava** → describes you before your name lands",
+        [
+          "softava",
+          "frostava"
+        ]
+      ],
+      [
+        "Name . word",
+        "**Ava** + **.** + **Luxe** → the one separator Snapchat allows; a period reads cleanest",
+        [
+          "ava.luxe"
+        ]
+      ],
+      [
+        "Name + xo / x",
+        "**Ava** + **xo** → the shortest change that frees a taken name",
+        [
+          "avaxo",
+          "avax"
+        ]
+      ],
+      [
+        "Prefix + name",
+        "**its** / **hey** / **lil** + **Ava** → reads like a caption, easy to remember",
+        [
+          "itsava",
+          "heyava"
+        ]
+      ],
+      [
+        "Two style words",
+        "**Velvet** + **Moon** → no name at all, for a private account",
+        [
+          "velvetmoon",
+          "quietsnaps"
+        ]
+      ],
+      [
+        "Doubled letter",
+        "**Ava** → **avaa**, **avva** → keeps the sound, changes the string",
+        [
+          "avaa",
+          "avva"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Ava** + **07** / **444** → a number with meaning looks intentional; Snapchat allows digits after the first letter",
+        [
+          "ava07",
+          "ava444"
+        ]
+      ]
+    ],
+    "note": "One trick per username — and remember it is nearly permanent. *ava.snaps* is a Snapchat username; *xo_avaa.snaps444* is not, and Snapchat would reject the second separator anyway. Pick the one you would still want next year."
+  },
+  "guide": {
+    "title": "How Our Snapchat Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Snapchat. Snapchat usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a noun from the style instead."
+      ],
+      [
+        "Snap vocabulary.",
+        "Each of the eight styles has its own hand-written list — bunny, peach and honey for cute; snaps, stories and streaks for private; bestie, duo and fam for streaks — so a cute result never borrows a baddie word by accident."
+      ],
+      [
+        "Naming patterns.",
+        "Name + snaps, adjective + name, name + period + word, xo suffixes, prefix + name, two style words, doubled letters and meaningful numbers. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Snap-safe defaults.",
+        "Symbols and numbers are off and every result is capped at 15 characters, so anything shown uses only letters, numbers and one separator."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a Snapchat username is free — the sign-up form checks as you type."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Snapchat Username Rules — Why You Only Get One Change a Year",
+  "uniqueBody": [
+    "Snapchat usernames are **3 to 15 characters**, must **start with a letter**, and allow letters, numbers and **at most one** period, hyphen or underscore — no spaces, no symbols, no emoji. Unlike most platforms, Snapchat lets you change the username **only once per year**, and the old one cannot be reused by you or anyone else, which is why a Snapchat username generator matters more than a display-name generator: the display name (30 characters, emoji allowed) can change every day, but the username is close to permanent.",
+    "That is why this page defaults to no numbers, no symbols and a hard 15-character cap, and why the Private and Streaks styles exist — most Snapchat accounts are for a small circle of friends, so the name should be easy to type in Add Friends and should not have to be updated when your taste changes. For the wider aesthetic range, the [aesthetic username generator](/aesthetic-username-generator.html) covers sixteen sub-styles; for the same handle on video apps, the [TikTok username generator](/tiktok-username-generator.html) and [Instagram username generator](/instagram-username-generator.html) allow longer names with the same separators; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The character rules and the once-a-year change limit are documented in ",
+    "name": "Snapchat's support page on changing your username",
+    "href": "https://help.snapchat.com/hc/en-us/articles/7012304746644",
+    "after": "."
+  },
+  "faqTitle": "Snapchat Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Snapchat username generator?",
+      "It is a tool that combines a word you choose with curated vocabulary — cute, cool, funny, aesthetic, private, baddie, streaks or Y2K — and naming patterns to produce Snapchat username ideas that fit the 3–15 character, letter-first rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Snapchat username ideas?",
+      "Examples from the styles above: ava.snaps, softava, unhingedgoose, lunahaze, quietsnaps, ava.luxe, avastreaks and cyberava. Type your own name to get versions built around it, or leave it blank for two-word names with no personal detail."
+    ],
+    [
+      "What characters can a Snapchat username have?",
+      "Letters, numbers and at most one period, hyphen or underscore, 3 to 15 characters, starting with a letter. No spaces, symbols or emoji — those go in your display name. This generator keeps every result Snap-safe by default."
+    ],
+    [
+      "Can I change my Snapchat username?",
+      "Yes, but only once a year, from Settings → Username. The old username cannot be reused afterwards. Because of that, generate a few options here and check them on the sign-up or settings screen before you commit."
+    ],
+    [
+      "Does this Snapchat username generator check availability?",
+      "No. Nothing here talks to Snapchat, so it cannot know whether a username is taken. Copy the one you like into the sign-up form or Settings → Username; Snapchat shows a warning immediately if the name is unavailable."
+    ],
+    [
+      "How do I make a private Snapchat username?",
+      "Leave the word box empty and pick Private — results like quietsnaps, someflicks or localdiary say nothing about you and are easy for close friends to type. Do not add a birth year or a city; Snapchat usernames are searchable in Add Friends."
+    ],
+    [
+      "Can I use symbols in my Snapchat username?",
+      "No. Only letters, numbers and one separator are allowed. Symbols like ♡ and ⋆ work in your display name, which allows 30 characters of almost anything — use the [fancy text generator](/fancy-text-generator.html) for that."
+    ],
+    [
+      "Can I copy and paste the generated Snapchat usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Paste the plain one into the username field and a styled one into your display name."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators",
+    "intro": "Pick another platform, or style your Snapchat display name."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "TikTok Username Generator",
+      "/tiktok-username-generator.html",
+      "The same handle on TikTok, within its 24-character rules.",
+      "♪"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles with periods and a 30-character limit.",
+      "◎"
+    ],
+    [
+      "Cute Username Generator",
+      "/cute-username-generator.html",
+      "Sweet, kawaii, soft and pastel names.",
+      "♡"
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "300+ Unicode styles for your Snapchat display name.",
+      "𝓕"
+    ],
+    [
+      "Aesthetic Symbols",
+      "/aesthetic-symbols.html",
+      "Stars, sparkles and hearts for the display name next to your username.",
+      "✿"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "TikTok username generator",
+      "/tiktok-username-generator.html"
+    ],
+    [
+      "Instagram username generator",
+      "/instagram-username-generator.html"
+    ],
+    [
+      "cute username generator",
+      "/cute-username-generator.html"
+    ],
+    [
+      "aesthetic username generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "fancy text generator",
+      "/fancy-text-generator.html"
+    ],
+    [
+      "aesthetic symbols",
+      "/aesthetic-symbols.html"
+    ],
+    [
+      "short username generator",
+      "/short-username-generator.html"
+    ]
+  ]
+}

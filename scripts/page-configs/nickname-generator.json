@@ -1,0 +1,1008 @@
+{
+  "type": "username",
+  "keyword": "nickname generator",
+  "file": "nickname-generator.html",
+  "label": "",
+  "title": "Nickname Generator – Cute, Funny & Cool Nicknames",
+  "description": "Nickname generator: type a name and get cute, funny, cool, sweet, short or gamer nicknames built from it — for friends, partners, teammates and your profile.",
+  "h1": "Nickname Generator",
+  "appName": "Nickname Generator",
+  "crumb": [
+    "Names",
+    "/cursive-name-generator.html"
+  ],
+  "kicker": "Free · 8 nickname styles · 24 nicknames per batch · copy & paste",
+  "sub": "Cute, funny, cool, sweet, short and gamer nicknames built from any name",
+  "intro": "This nickname generator turns a real name into nicknames the way friends do — shortening it, adding -y or -ie, or pairing it with a pet name. Type a name, pick a nickname style, generate 24 nicknames at a time, heart the ones you like and copy them for a friend, a partner, a group chat or your profile.",
+  "perks": [
+    "Built from the name you type",
+    "Cute, funny, cool and gamer styles",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "charlotte",
+  "seed": 1212,
+  "defaults": {
+    "symbols": "none",
+    "numbers": "none",
+    "separator": "none"
+  },
+  "placeholder": "charlotte, ben, sam, olivia, max…",
+  "stylesLegend": "Choose a nickname style",
+  "resultsTitle": "Nickname ideas",
+  "common": {
+    "prefixes": [
+      "lil",
+      "big",
+      "little",
+      "baby",
+      "miss",
+      "mr",
+      "aunty",
+      "uncle",
+      "captain",
+      "dj",
+      "queen",
+      "king"
+    ],
+    "suffixes": [
+      "y",
+      "ie",
+      "ster",
+      "meister",
+      "bug",
+      "bean",
+      "boo",
+      "kins",
+      "zilla",
+      "bear"
+    ]
+  },
+  "styles": {
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "sweet",
+        "tiny",
+        "cozy",
+        "fluffy",
+        "sunny",
+        "silly",
+        "lovely",
+        "puffy",
+        "happy",
+        "bubbly",
+        "snuggly",
+        "little"
+      ],
+      "nouns": [
+        "bean",
+        "bug",
+        "bunny",
+        "button",
+        "cupcake",
+        "peach",
+        "pumpkin",
+        "muffin",
+        "sprout",
+        "cookie",
+        "honey",
+        "boo",
+        "pea",
+        "kitten",
+        "bear",
+        "duck",
+        "sweetpea",
+        "nugget"
+      ],
+      "suffixes": [
+        "bug",
+        "bean",
+        "boo",
+        "kins",
+        "bear",
+        "pie"
+      ],
+      "symbols": [
+        "♡",
+        "✿",
+        "˚",
+        "⋆"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "crusty",
+        "wacky"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "meatball",
+        "dumpling",
+        "beanstalk",
+        "tater"
+      ],
+      "suffixes": [
+        "zilla",
+        "pants",
+        "meister",
+        "ster",
+        "face",
+        "tron"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "ace",
+        "big",
+        "slick",
+        "smooth",
+        "swift",
+        "frost",
+        "neon",
+        "steel",
+        "blaze",
+        "storm",
+        "chief",
+        "boss"
+      ],
+      "nouns": [
+        "ace",
+        "boss",
+        "chief",
+        "blaze",
+        "hawk",
+        "wolf",
+        "viper",
+        "maverick",
+        "rebel",
+        "jet",
+        "flash",
+        "bolt",
+        "rocket",
+        "tank",
+        "dash",
+        "ranger",
+        "diesel",
+        "duke"
+      ],
+      "suffixes": [
+        "ster",
+        "man",
+        "dawg",
+        "x",
+        "meister",
+        "o"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "◆"
+      ]
+    },
+    "sweet": {
+      "label": "Sweet & Romantic",
+      "icon": "💕",
+      "adjectives": [
+        "sweet",
+        "darling",
+        "dear",
+        "lovely",
+        "precious",
+        "honey",
+        "sugar",
+        "sunny",
+        "golden",
+        "dreamy",
+        "tender",
+        "gentle"
+      ],
+      "nouns": [
+        "darling",
+        "sweetheart",
+        "honey",
+        "sunshine",
+        "love",
+        "angel",
+        "dear",
+        "sugar",
+        "cherie",
+        "amore",
+        "treasure",
+        "starlight",
+        "dove",
+        "rose",
+        "babe",
+        "cutie",
+        "sweetie",
+        "dearest"
+      ],
+      "suffixes": [
+        "love",
+        "heart",
+        "boo",
+        "bear",
+        "cakes",
+        "pie"
+      ],
+      "symbols": [
+        "💕",
+        "♡",
+        "✧",
+        "⋆"
+      ]
+    },
+    "short": {
+      "label": "Short Forms",
+      "icon": "·",
+      "adjectives": [
+        "big",
+        "lil",
+        "the",
+        "our",
+        "my",
+        "just",
+        "only",
+        "ok",
+        "so",
+        "oh",
+        "el",
+        "la"
+      ],
+      "nouns": [
+        "char",
+        "lotte",
+        "lottie",
+        "chaz",
+        "cece",
+        "coco",
+        "lolo",
+        "kiki",
+        "jojo",
+        "bibi",
+        "nini",
+        "mimi",
+        "gigi",
+        "didi",
+        "tata",
+        "zizi",
+        "lulu",
+        "fifi"
+      ],
+      "suffixes": [
+        "y",
+        "ie",
+        "o",
+        "z",
+        "s",
+        "ee"
+      ],
+      "symbols": [
+        "·",
+        "⋆"
+      ]
+    },
+    "gamer": {
+      "label": "Gamer",
+      "icon": "⌁",
+      "adjectives": [
+        "pixel",
+        "turbo",
+        "cyber",
+        "epic",
+        "mega",
+        "ninja",
+        "boss",
+        "pro",
+        "og",
+        "captain",
+        "sir",
+        "lord"
+      ],
+      "nouns": [
+        "ace",
+        "nova",
+        "blitz",
+        "byte",
+        "bot",
+        "ghost",
+        "wolf",
+        "knight",
+        "mage",
+        "rogue",
+        "sniper",
+        "tank",
+        "raider",
+        "jinx",
+        "zap",
+        "loot",
+        "combo",
+        "glitch"
+      ],
+      "suffixes": [
+        "gg",
+        "xd",
+        "x",
+        "z",
+        "boi",
+        "plays"
+      ],
+      "symbols": [
+        "⌁",
+        "✦",
+        "★",
+        "⚔"
+      ]
+    },
+    "friend": {
+      "label": "For Friends",
+      "icon": "🤝",
+      "adjectives": [
+        "bestie",
+        "buddy",
+        "old",
+        "fellow",
+        "partner",
+        "brother",
+        "sister",
+        "cousin",
+        "captain",
+        "chief",
+        "coach",
+        "boss"
+      ],
+      "nouns": [
+        "bestie",
+        "buddy",
+        "pal",
+        "mate",
+        "bro",
+        "sis",
+        "homie",
+        "champ",
+        "chief",
+        "boss",
+        "captain",
+        "legend",
+        "sport",
+        "kiddo",
+        "dude",
+        "amigo",
+        "partner",
+        "gang"
+      ],
+      "suffixes": [
+        "bro",
+        "sis",
+        "pal",
+        "mate",
+        "champ",
+        "ster"
+      ],
+      "symbols": [
+        "🤝",
+        "★",
+        "✌",
+        "☺"
+      ]
+    },
+    "royal": {
+      "label": "Royal & Grand",
+      "icon": "♛",
+      "adjectives": [
+        "queen",
+        "king",
+        "lady",
+        "lord",
+        "princess",
+        "prince",
+        "duchess",
+        "duke",
+        "royal",
+        "grand",
+        "her",
+        "his"
+      ],
+      "nouns": [
+        "queen",
+        "king",
+        "majesty",
+        "highness",
+        "empress",
+        "duchess",
+        "duke",
+        "countess",
+        "baron",
+        "princess",
+        "prince",
+        "sovereign",
+        "excellency",
+        "ladyship",
+        "lordship",
+        "grace",
+        "crown",
+        "throne"
+      ],
+      "suffixes": [
+        "the great",
+        "the first",
+        "the bold",
+        "regina",
+        "rex",
+        "royale"
+      ],
+      "symbols": [
+        "♛",
+        "♕",
+        "⚜",
+        "✦"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:cute",
+      "Cute"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:sweet",
+      "Sweet"
+    ],
+    [
+      "style:short",
+      "Short Forms"
+    ],
+    [
+      "short",
+      "≤ 8 letters"
+    ],
+    [
+      "nosymbols",
+      "Plain"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Write the Nickname in Cursive",
+    "text": "A nickname for a card, a gift tag or a contact name looks better in script. Copy it here, then render it in cursive or a cute font.",
+    "links": [
+      [
+        "Cursive name generator",
+        "/cursive-name-generator.html"
+      ],
+      [
+        "Cute fonts",
+        "/cute-fonts.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Nickname Generator",
+    "lead": [
+      "Every batch mixes three things: the name you type, the nickname style you choose, and the options under Customize. Numbers, symbols and separators are off by default because nicknames are spoken, not typed into a username field — turn them on if you want a nickname that doubles as a handle.",
+      "The name matters more here than on any other page: nicknames are built by changing the name itself — shortening, doubling, adding -y or -ie — so a real first name gives the best results. Leave it blank and you get pet names instead: sweetpea, honeybear, captainchamp."
+    ],
+    "steps": [
+      [
+        "Type the name to nickname",
+        "Yours, a friend's, a partner's, a pet's. Charlotte becomes charlottey, lil charlotte, charlottebug or char; Ben becomes benny, bigben or benster."
+      ],
+      [
+        "Pick a nickname style",
+        "Cute, funny, cool, sweet & romantic, short forms, gamer, for friends or royal & grand. Each has its own vocabulary; All Styles mixes them."
+      ],
+      [
+        "Generate and copy nicknames",
+        "Narrow the batch with the quick filters, heart the ones you like, then copy one for a contact name, a group chat, a gift tag or a profile."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Nickname Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate — every example below is built on the name Charlotte or Ben so you can see how the name changes. Cute and sweet nicknames suit partners and kids; funny and cool suit friends and teammates; royal is for the group chat. Click any nickname to copy it.",
+    "groups": [
+      {
+        "key": "cute",
+        "title": "Cute Nicknames",
+        "blurb": "Bean, bug, button, pumpkin — the pet names people actually use for someone they like.",
+        "examples": [
+          "charlottebug",
+          "lilcharlotte",
+          "benbean",
+          "charlotte boo",
+          "sweetpea ben",
+          "charlottekins",
+          "bennybear",
+          "tinybutton"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Nicknames",
+        "blurb": "Zilla, meister, pants, toast — the ones that stick for twenty years whether they like it or not.",
+        "examples": [
+          "charlottezilla",
+          "benmeister",
+          "sleepycharlotte",
+          "benpants",
+          "wobblyben",
+          "charlottetron",
+          "spicytater",
+          "goosecharlotte"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Nicknames",
+        "blurb": "Ace, chief, blaze, maverick — the ones a captain gets.",
+        "examples": [
+          "acecharlotte",
+          "bigben",
+          "benster",
+          "charlotteboss",
+          "chiefben",
+          "bendawg",
+          "blazecharlotte",
+          "benmaverick"
+        ]
+      },
+      {
+        "key": "sweet",
+        "title": "Sweet Nicknames",
+        "blurb": "Darling, sunshine, honey, sweetheart — for partners, from soft to sappy.",
+        "examples": [
+          "charlotte darling",
+          "honeyben",
+          "sweetcharlotte",
+          "ben love",
+          "charlottecakes",
+          "sunshine ben",
+          "dearcharlotte",
+          "benboo"
+        ]
+      },
+      {
+        "key": "short",
+        "title": "Short Nicknames",
+        "blurb": "Char, Lottie, Chaz, Benny — the shortened forms, which is what most real nicknames are. The [short username generator](/short-username-generator.html) does the same for handles.",
+        "examples": [
+          "char",
+          "lottie",
+          "chaz",
+          "benny",
+          "cece",
+          "benz",
+          "lotte",
+          "bens"
+        ]
+      },
+      {
+        "key": "gamer",
+        "title": "Gamer Nicknames",
+        "blurb": "Pixel, blitz, sniper, boi — for teammates and Discord. The [gaming username generator](/gaming-username-generator.html) has console-ready versions.",
+        "examples": [
+          "pixelcharlotte",
+          "bengg",
+          "charlotteblitz",
+          "captainben",
+          "charlottexd",
+          "bensniper",
+          "ogcharlotte",
+          "benboi"
+        ]
+      },
+      {
+        "key": "friend",
+        "title": "Friend Nicknames",
+        "blurb": "Bestie, champ, homie, legend — the ones you say out loud.",
+        "examples": [
+          "charlottebestie",
+          "benchamp",
+          "charlottepal",
+          "bromate ben",
+          "champ charlotte",
+          "benlegend",
+          "charlottesis",
+          "bigbro ben"
+        ]
+      },
+      {
+        "key": "royal",
+        "title": "Royal Nicknames",
+        "blurb": "Queen, majesty, the great — for the group chat and birthday cards.",
+        "examples": [
+          "queencharlotte",
+          "ben the great",
+          "charlotte regina",
+          "lordben",
+          "her majesty charlotte",
+          "ben rex",
+          "duchesscharlotte",
+          "king ben"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "lottie",
+      "charlottebug",
+      "lil charlotte",
+      "charlottezilla",
+      "acecharlotte",
+      "queencharlotte"
+    ],
+    "alt": "Nickname generator example: the name charlotte turned into lottie, charlottebug, lil charlotte, charlottezilla and other nickname ideas",
+    "caption": "One name in, eight nickname styles out — every result changes the name itself, the way real nicknames do.",
+    "tagline": "CUTE · FUNNY · COOL · SWEET · SHORT",
+    "sample": "charlotte",
+    "src": "/assets/previews/nickname-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Who is it for?",
+    "title": "Nicknames for Friends, Partners & Teammates",
+    "intro": "A nickname for a person and a nickname for a profile follow different rules. These shortcuts pick settings that suit each one.",
+    "cards": [
+      {
+        "icon": "🤝",
+        "title": "Nicknames for Friends",
+        "text": "Spoken, short and slightly unflattering — that is the friend formula. Short forms and funny styles, no numbers, no symbols.",
+        "examples": [
+          "chaz",
+          "benmeister",
+          "charlottezilla"
+        ],
+        "preset": {
+          "style": "funny",
+          "symbols": "none",
+          "numbers": "none",
+          "separator": "none"
+        },
+        "button": "Generate for a friend ↑"
+      },
+      {
+        "icon": "💕",
+        "title": "Nicknames for a Partner",
+        "text": "Sweet and cute styles, built on their name so it is theirs and not a generic pet name. Save the ♡ for the contact entry.",
+        "examples": [
+          "charlotte darling",
+          "honeyben",
+          "charlottecakes"
+        ],
+        "preset": {
+          "style": "sweet",
+          "symbols": "none",
+          "numbers": "none"
+        },
+        "button": "Generate for a partner ↑",
+        "link": [
+          "Cursive name generator",
+          "/cursive-name-generator.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Nicknames for Teammates",
+        "text": "Gamer and cool styles read well in voice chat and fit Discord display names. Turn Symbols on for the display name, off for the handle.",
+        "examples": [
+          "bengg",
+          "captainben",
+          "pixelcharlotte"
+        ],
+        "preset": {
+          "style": "gamer",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate for a teammate ↑",
+        "link": [
+          "Discord fonts",
+          "/fonts-for-discord.html"
+        ]
+      },
+      {
+        "icon": "◎",
+        "title": "Nicknames as Usernames",
+        "text": "A nickname can be a handle too: turn Separator on for a period or underscore, keep symbols off, and check the platform. For a full handle tool, use the username generator.",
+        "examples": [
+          "lottie.b",
+          "benny_ster",
+          "charlottebug"
+        ],
+        "preset": {
+          "style": "cute",
+          "symbols": "none",
+          "separator": "auto"
+        },
+        "button": "Generate a handle-style nickname ↑",
+        "link": [
+          "Username generator",
+          "/username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Nickname",
+    "intro": "The generator follows the same formulas people use without thinking. Knowing them helps you tweak a result or invent a nickname by hand.",
+    "rows": [
+      [
+        "Shorten it",
+        "**Charlotte** → **Char**, **Lottie**; **Benjamin** → **Ben**, **Benji** → the first and most natural nickname",
+        [
+          "char",
+          "lottie"
+        ]
+      ],
+      [
+        "Add -y / -ie",
+        "**Ben** → **Benny**; **Charlotte** → **Charlottey** → the diminutive ending, works on almost any name",
+        [
+          "benny",
+          "charlottey"
+        ]
+      ],
+      [
+        "Double a letter",
+        "**Ben** → **Benn**, **Char** → **Charr** → keeps the sound, feels affectionate",
+        [
+          "benn",
+          "charr"
+        ]
+      ],
+      [
+        "lil / big + name",
+        "**lil** + **Charlotte**, **big** + **Ben** → the sibling formula",
+        [
+          "lil charlotte",
+          "bigben"
+        ]
+      ],
+      [
+        "Name + pet noun",
+        "**Charlotte** + **bug** / **bean** / **boo** → a cute noun on the end",
+        [
+          "charlottebug",
+          "benbean"
+        ]
+      ],
+      [
+        "Name + -ster / -zilla / -meister",
+        "**Ben** + **ster** → the friend suffixes; funny, never sweet",
+        [
+          "benster",
+          "charlottezilla"
+        ]
+      ],
+      [
+        "Title + name",
+        "**Queen** / **Captain** / **Chief** + **Charlotte** → a rank as a joke or a compliment",
+        [
+          "queencharlotte",
+          "captainben"
+        ]
+      ],
+      [
+        "Adjective + name",
+        "**Sleepy** / **Ace** / **Sweet** + **Ben** → one trait, said every day until it sticks",
+        [
+          "sleepyben",
+          "aceben"
+        ]
+      ]
+    ],
+    "note": "One change per nickname. *Benny* is a nickname; *lil-benny-bug-zilla* is a ransom note. The ones that last are one syllable shorter than the name, or one syllable longer with -y on the end."
+  },
+  "guide": {
+    "title": "How Our Nickname Generator Works",
+    "intro": "There is no AI behind this page and no list of stock nicknames. Nicknames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "The name.",
+        "The name you type is cleaned to letters and kept whole — or shortened, doubled and given a -y or -ie ending by the respelling patterns. This page leans on those patterns more than any other, because changing the name is what makes a nickname."
+      ],
+      [
+        "Nickname vocabulary.",
+        "Each of the eight styles has its own hand-written list — bean, bug and button for cute; zilla, meister and pants for funny; darling, sunshine and sweetheart for sweet; bestie, champ and homie for friends — so a romantic result never borrows a funny word by accident."
+      ],
+      [
+        "Spoken patterns.",
+        "Shortening, diminutive endings, doubled letters, lil/big prefixes, pet nouns, friend suffixes, titles and one-trait adjectives. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Nickname defaults.",
+        "Numbers, symbols and separators are off, because a nickname is said out loud. Turn Separator on if you want a nickname that works as a handle."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a nickname to your browser's localStorage. Nothing is sent to a server."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Nickname vs Username",
+  "uniqueBody": [
+    "A **nickname** is what people call you: short, spoken, built from your real name (Charlotte → Lottie, Benjamin → Benji) or from one trait (Ace, Sleepy, Chief). It does not have to be unique, it can have spaces, and the best ones are one syllable. A **username** is what you type into a login: unique across a whole platform, no spaces, often limited to letters, numbers and an underscore, and frequently not your name at all. Most \"nickname generator\" searches want the first thing — a name for a friend, a partner, a group chat, a pet or a contact entry — which is why this nickname generator starts from a real name and turns numbers, symbols and separators off.",
+    "If what you actually need is a handle, the vocabulary here still works: turn Separator on, copy a result like *lottie.b* or *benny_ster*, and check it on the platform. For a proper handle tool with platform rules built in, the main [username generator](/username-generator.html) mixes twelve styles; the [cute username generator](/cute-username-generator.html) and [cool username generator](/cool-username-generator.html) go deeper into those two moods; and the [short username generator](/short-username-generator.html) finds the 3-to-8-letter handles that a shortened nickname often already is. To write the finished nickname in script for a card or a gift tag, the [cursive name generator](/cursive-name-generator.html) renders it in handwriting-style Unicode."
+  ],
+  "source": {
+    "before": "The diminutive patterns above — -y, -ie, doubling, shortening — are the same ones linguists describe for English hypocorisms; see ",
+    "name": "Wikipedia's article on hypocorisms",
+    "href": "https://en.wikipedia.org/wiki/Hypocorism",
+    "after": " for how nicknames are formed across languages."
+  },
+  "faqTitle": "Nickname Generator FAQ",
+  "faqs": [
+    [
+      "What is a nickname generator?",
+      "It is a tool that takes a real name and turns it into nicknames the way people do naturally — shortening it, adding -y or -ie, doubling a letter, putting lil or big in front, or pairing it with a pet name — across cute, funny, cool, sweet, short, gamer, friend and royal styles. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are cute nicknames for a partner?",
+      "Built on their name: charlottebug, lil charlotte, honeyben, charlotte darling, benboo, charlottecakes, sweetcharlotte. Type their name and pick Cute or Sweet & Romantic; names built on theirs feel personal in a way that generic pet names like babe do not."
+    ],
+    [
+      "How do I make a nickname from my name?",
+      "Shorten it (Charlotte → Char, Lottie), add -y or -ie (Ben → Benny), double a letter (Benn), put lil or big in front (bigben), or add a pet noun on the end (charlottebug). Type your name above and the generator applies all of those at once; the formulas section walks through each."
+    ],
+    [
+      "What are funny nicknames for friends?",
+      "The friend formula is short and slightly unflattering: benmeister, charlottezilla, benpants, sleepycharlotte, spicytater, goosecharlotte. Pick Funny or For Friends above; the -ster, -zilla and -meister suffixes are the ones that stick."
+    ],
+    [
+      "Can a nickname be a username?",
+      "Yes. Turn Separator on under Customize so results get a period or underscore where needed (lottie.b, benny_ster), keep symbols off, and check the platform's rules. For a full handle tool, use the [username generator](/username-generator.html)."
+    ],
+    [
+      "Does the nickname generator need a name?",
+      "Yes, but it produces pet names instead of nicknames — sweetpea, honeybear, captainchamp — because there is no name to shorten or change. For real nicknames, type the first name you want to work from."
+    ],
+    [
+      "What makes a nickname stick?",
+      "One change and repetition. Nicknames that last are one syllable shorter than the name or one syllable longer with -y on the end, and they get said every day. Nicknames with three changes at once — lil-benny-bug-zilla — get abandoned in a week."
+    ],
+    [
+      "Can I copy the generated nicknames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a nickname to My Favorites in your browser. To write one in script for a card or gift tag, paste it into the [cursive name generator](/cursive-name-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Nickname & Username Generators",
+    "intro": "Turn the nickname into a handle, or write it in cursive."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Cursive Name Generator",
+      "/cursive-name-generator.html",
+      "Write the nickname in handwriting-style cursive scripts.",
+      "✎"
+    ],
+    [
+      "Cute Username Generator",
+      "/cute-username-generator.html",
+      "Sweet, kawaii, soft and pastel handles.",
+      "♡"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles.",
+      "⚡"
+    ],
+    [
+      "Short Username Generator",
+      "/short-username-generator.html",
+      "3 to 8-letter handles — a shortened nickname often already is one.",
+      "·"
+    ],
+    [
+      "Cute Fonts",
+      "/cute-fonts.html",
+      "Bubbly, rounded letters for a contact name or gift tag.",
+      "✿"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles that follow Instagram's username rules."
+    ],
+    [
+      "Reddit Username Generator",
+      "/reddit-username-generator.html",
+      "Anonymous, funny and throwaway u/ names that follow Reddit's rules."
+    ],
+    [
+      "Email Username Generator",
+      "/email-username-generator.html",
+      "Gmail-safe address ideas — professional, personal, brand and anonymous — under 30 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "cursive name generator",
+      "/cursive-name-generator.html"
+    ],
+    [
+      "cute username generator",
+      "/cute-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "short username generator",
+      "/short-username-generator.html"
+    ],
+    [
+      "cute fonts",
+      "/cute-fonts.html"
+    ],
+    [
+      "cursive text generator",
+      "/cursive-text-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "linkNote": "Cute, funny and cool nicknames built from a real name."
+}

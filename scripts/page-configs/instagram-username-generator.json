@@ -1,0 +1,1026 @@
+{
+  "type": "username",
+  "keyword": "instagram username generator",
+  "file": "instagram-username-generator.html",
+  "label": "Instagram",
+  "title": "Instagram Username Generator – IG Username Ideas",
+  "description": "Instagram username generator: turn your name into aesthetic, cute, cool, baddie or minimal IG username ideas that follow Instagram's rules. Free, no sign-up.",
+  "h1": "Instagram Username Generator",
+  "appName": "Instagram Username Generator",
+  "kicker": "Free · 8 IG styles · 24 ideas per batch · Instagram-safe characters",
+  "sub": "Aesthetic, cute, cool, baddie and minimal IG username ideas from your own name",
+  "intro": "This Instagram username generator turns your name or a word into IG username ideas that Instagram will actually accept — letters, numbers, periods and underscores, 30 characters max. Pick a style, generate 24 at a time, filter by length, heart the ones you like and copy them straight into the Instagram username field. Symbols stay off by default because IG handles reject them.",
+  "perks": [
+    "Instagram-safe by default (no symbols)",
+    "Periods and underscores optional",
+    "Favorites saved in your browser",
+    "No account, no AI, no data sent anywhere"
+  ],
+  "sampleWord": "sofia",
+  "seed": 1010,
+  "defaults": {
+    "symbols": "none"
+  },
+  "placeholder": "sofia, liam, luna, honey, nova…",
+  "stylesLegend": "Choose an IG style",
+  "resultsTitle": "Instagram username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "just",
+      "iam",
+      "the",
+      "only",
+      "hey",
+      "real",
+      "not",
+      "lil",
+      "oh",
+      "xo",
+      "miss"
+    ],
+    "suffixes": [
+      "xo",
+      "official",
+      "ig",
+      "vibes",
+      "era",
+      "club",
+      "daily",
+      "pics",
+      "diary",
+      "ish"
+    ]
+  },
+  "styles": {
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded",
+        "honeyed",
+        "dusty"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky",
+        "reverie",
+        "linen"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "diary",
+        "xo"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    },
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "sweet",
+        "tiny",
+        "cozy",
+        "fluffy",
+        "sunny",
+        "silly",
+        "lovely",
+        "puffy",
+        "happy",
+        "bubbly",
+        "peachy",
+        "rosy"
+      ],
+      "nouns": [
+        "bunny",
+        "peach",
+        "cherry",
+        "honey",
+        "kitty",
+        "berry",
+        "sugar",
+        "mochi",
+        "cupcake",
+        "boba",
+        "puff",
+        "panda",
+        "cookie",
+        "daisy",
+        "sprinkle",
+        "bean",
+        "bow",
+        "cloud"
+      ],
+      "suffixes": [
+        "xo",
+        "bear",
+        "pie",
+        "bun",
+        "pop",
+        "cake"
+      ],
+      "symbols": [
+        "♡",
+        "୨୧",
+        "✿",
+        "˚",
+        "ꕤ",
+        "⋆"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "slick",
+        "prime",
+        "cold"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "shadow",
+        "byte",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "chrome"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "hq",
+        "zero",
+        "one",
+        "official"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "✪",
+        "◆"
+      ]
+    },
+    "baddie": {
+      "label": "Baddie",
+      "icon": "💋",
+      "adjectives": [
+        "bad",
+        "boss",
+        "rich",
+        "glossy",
+        "iconic",
+        "spicy",
+        "flawless",
+        "golden",
+        "bossy",
+        "pretty",
+        "savage",
+        "luxe"
+      ],
+      "nouns": [
+        "baddie",
+        "queen",
+        "diva",
+        "icon",
+        "boss",
+        "barbie",
+        "doll",
+        "princess",
+        "muse",
+        "goddess",
+        "vixen",
+        "honey",
+        "glam",
+        "luxe",
+        "star",
+        "bae",
+        "babe",
+        "mami"
+      ],
+      "suffixes": [
+        "xo",
+        "luxe",
+        "official",
+        "era",
+        "baby",
+        "hq"
+      ],
+      "symbols": [
+        "💋",
+        "♡",
+        "✦",
+        "★",
+        "⋆",
+        "✧"
+      ]
+    },
+    "minimal": {
+      "label": "Minimal",
+      "icon": "·",
+      "adjectives": [
+        "plain",
+        "simple",
+        "quiet",
+        "bare",
+        "still",
+        "pure",
+        "clean",
+        "less",
+        "mono",
+        "blank",
+        "just",
+        "only"
+      ],
+      "nouns": [
+        "line",
+        "tone",
+        "form",
+        "hue",
+        "grey",
+        "ivory",
+        "stone",
+        "space",
+        "echo",
+        "mono",
+        "noon",
+        "sand",
+        "ink",
+        "salt",
+        "north",
+        "co",
+        "studio",
+        "diary"
+      ],
+      "suffixes": [
+        "ish",
+        "era",
+        "co",
+        "ink",
+        "studio",
+        "diary"
+      ],
+      "symbols": [
+        "·",
+        "⋆",
+        "˚",
+        "⊹"
+      ]
+    },
+    "creator": {
+      "label": "Creator",
+      "icon": "◎",
+      "adjectives": [
+        "daily",
+        "little",
+        "simply",
+        "honest",
+        "slow",
+        "wild",
+        "curated",
+        "candid",
+        "golden",
+        "everyday",
+        "raw",
+        "real"
+      ],
+      "nouns": [
+        "diary",
+        "journal",
+        "lens",
+        "frame",
+        "studio",
+        "notes",
+        "stories",
+        "archive",
+        "pics",
+        "moments",
+        "captures",
+        "gallery",
+        "edits",
+        "vlog",
+        "shots",
+        "snaps",
+        "life",
+        "corner"
+      ],
+      "suffixes": [
+        "diary",
+        "daily",
+        "pics",
+        "studio",
+        "shots",
+        "official"
+      ],
+      "symbols": [
+        "◎",
+        "⋆",
+        "✧",
+        "☆",
+        "·",
+        "✦"
+      ]
+    },
+    "vintage": {
+      "label": "Vintage",
+      "icon": "❁",
+      "adjectives": [
+        "retro",
+        "vintage",
+        "classic",
+        "antique",
+        "dusty",
+        "faded",
+        "old",
+        "sepia",
+        "timeless",
+        "golden",
+        "analog",
+        "film"
+      ],
+      "nouns": [
+        "polaroid",
+        "film",
+        "vinyl",
+        "diary",
+        "darling",
+        "cassette",
+        "lace",
+        "rosette",
+        "teacup",
+        "letter",
+        "record",
+        "satin",
+        "perfume",
+        "velvet",
+        "postcard",
+        "archive",
+        "typewriter",
+        "gramophone"
+      ],
+      "suffixes": [
+        "darling",
+        "diary",
+        "vinyl",
+        "era",
+        "film",
+        "archive"
+      ],
+      "symbols": [
+        "❁",
+        "✿",
+        "⋆",
+        "✧",
+        "˚",
+        "♡"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "silent",
+        "bitter",
+        "cold",
+        "lost",
+        "grim",
+        "wicked",
+        "lonely",
+        "cursed",
+        "midnight",
+        "velvet"
+      ],
+      "nouns": [
+        "void",
+        "noir",
+        "raven",
+        "shadow",
+        "midnight",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "ruin",
+        "omen",
+        "dusk",
+        "moth",
+        "crow"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "core",
+        "xx",
+        "ash"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "⋆",
+        "✞",
+        "☽"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "style:cute",
+      "Cute"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:baddie",
+      "Baddie"
+    ],
+    [
+      "style:minimal",
+      "Minimal"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "IG-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your Instagram Name",
+    "text": "Instagram handles have to be plain — but the name field and bio accept fancy Unicode letters. Copy a username here, then style it for your profile.",
+    "links": [
+      [
+        "Instagram font generator",
+        "/instagram-font-generator.html"
+      ],
+      [
+        "Aesthetic symbols",
+        "/aesthetic-symbols.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Instagram Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the IG style you choose, and the options under Customize. Symbols are off by default because Instagram's username field rejects them; turn them on only for ideas you plan to use in the name field or bio.",
+      "Leave the word blank and the generator pairs two style words instead — velvetmoon, honeydiary, silentapex — so it also works as a random IG name generator for a second account, a brand or an anonymous page."
+    ],
+    "steps": [
+      [
+        "Type a name or word",
+        "Your first name, a nickname, a hobby, a brand. The generator keeps it whole and builds around it: sofia becomes sofia.haze, softsofia or sofiadiary."
+      ],
+      [
+        "Pick an IG style",
+        "Aesthetic, cute, cool, baddie, minimal, creator, vintage or dark. Each has its own vocabulary; All Styles mixes them so you can compare."
+      ],
+      [
+        "Generate, filter, copy",
+        "Use the IG-safe filter to hide anything with symbols, heart the ones you like, then copy and paste into Instagram's username field to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Instagram Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Aesthetic, cute and baddie are the most-searched Instagram username ideas for girls; cool, minimal and dark skew unisex — but every style here works for anyone. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Instagram Usernames",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds, velvet and haze. The [aesthetic username generator](/aesthetic-username-generator.html) has sixteen sub-styles if you want to go deeper.",
+        "examples": [
+          "lunahaze",
+          "velvet.moon",
+          "softsofia",
+          "cloudmuse",
+          "hazydawn",
+          "sofiaglow",
+          "golden.reverie",
+          "mistyhalo"
+        ]
+      },
+      {
+        "key": "cute",
+        "title": "Cute Instagram Usernames",
+        "blurb": "Bunnies, peaches, honey and mochi — sweet handles for a pastel feed. More on the [cute username generator](/cute-username-generator.html).",
+        "examples": [
+          "bunnypeach",
+          "honeysofia",
+          "sugarberry",
+          "sofia.bun",
+          "cozycupcake",
+          "peachybow",
+          "kittybean",
+          "rosycloud"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Instagram Usernames",
+        "blurb": "Sharp, short and confident — frost, neon, vortex and apex. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "frostsofia",
+          "neonvortex",
+          "sofia.zero",
+          "silentwolf",
+          "onyxdrift",
+          "slickapex",
+          "sofiahq",
+          "chromeflux"
+        ]
+      },
+      {
+        "key": "baddie",
+        "title": "Baddie Instagram Usernames",
+        "blurb": "Boss, queen, icon, luxe — confident handles for a glam feed.",
+        "examples": [
+          "bossysofia",
+          "glossyqueen",
+          "sofia.luxe",
+          "iconicdiva",
+          "richbarbie",
+          "spicymuse",
+          "sofiababe",
+          "flawlessglam"
+        ]
+      },
+      {
+        "key": "minimal",
+        "title": "Minimal Instagram Usernames",
+        "blurb": "One quiet word plus a period — the handles that look most like a real person. Try the [short username generator](/short-username-generator.html) for four-to-eight-letter options.",
+        "examples": [
+          "sofia.ink",
+          "stilltone",
+          "just.sofia",
+          "greyhue",
+          "sofia.co",
+          "noonstudio",
+          "saltline",
+          "sofiadiary"
+        ]
+      },
+      {
+        "key": "creator",
+        "title": "Creator & Photography Usernames",
+        "blurb": "Diary, lens, frame, archive — handles for a page that posts every day.",
+        "examples": [
+          "sofiadaily",
+          "littlelens",
+          "honestframe",
+          "sofia.studio",
+          "slowmoments",
+          "candidarchive",
+          "sofiashots",
+          "goldencorner"
+        ]
+      },
+      {
+        "key": "vintage",
+        "title": "Vintage Instagram Usernames",
+        "blurb": "Polaroid, film, vinyl, postcard — for a feed with grain and warm tones.",
+        "examples": [
+          "polaroidsofia",
+          "dustyfilm",
+          "sofia.archive",
+          "sepiapostcard",
+          "vinyldarling",
+          "fadedteacup",
+          "analogdiary",
+          "sofiaonfilm"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Instagram Usernames",
+        "blurb": "Void, raven, ash and moth — moody handles for an alt or a night-time feed. Darker still on the [emo username generator](/emo-username-generator.html).",
+        "examples": [
+          "voidsofia",
+          "hollowraven",
+          "sofia.noir",
+          "midnightash",
+          "velvetmoth",
+          "grimeclipse",
+          "sofiaxx",
+          "lostcrow"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "sofia.haze",
+      "softsofia",
+      "bunnypeach",
+      "frostsofia",
+      "sofia.luxe",
+      "just.sofia"
+    ],
+    "alt": "Instagram username generator example: the name sofia turned into sofia.haze, softsofia, bunnypeach, frostsofia and other IG username ideas",
+    "caption": "One name in, eight IG styles out — every result follows Instagram's username rules by default.",
+    "tagline": "AESTHETIC · CUTE · COOL · BADDIE · MINIMAL",
+    "sample": "sofia",
+    "src": "/assets/previews/instagram-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Instagram's rules",
+    "title": "What Instagram Allows in a Username",
+    "intro": "Instagram's username field is stricter than its name field. These shortcuts generate ideas that fit each situation.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Instagram Username (handle)",
+        "text": "Up to 30 characters: letters, numbers, periods and underscores only. No spaces, no symbols, and a period cannot be the last character. This is the @name people search for.",
+        "examples": [
+          "sofia.haze",
+          "softsofia",
+          "sofia_diary"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none"
+        },
+        "button": "Generate IG-safe handles ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "Instagram Name (display)",
+        "text": "Up to 64 characters and accepts spaces, emoji and Unicode symbols — this is where ♡, ⋆ and fancy letters belong. Generate with symbols on, then style it with a font tool.",
+        "examples": [
+          "sofia ⋆ haze",
+          "♡ sofia",
+          "𝓈𝑜𝒻𝒾𝒶"
+        ],
+        "preset": {
+          "style": "aesthetic",
+          "symbols": "auto"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Instagram fonts",
+          "/instagram-font-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Second account / finsta",
+        "text": "Alts usually drop the real name entirely. Leave the word blank and pick dark, minimal or funny words — two-word results with no personal detail.",
+        "examples": [
+          "hollowraven",
+          "noonstudio",
+          "voidnoir"
+        ],
+        "preset": {
+          "style": "dark",
+          "symbols": "none"
+        },
+        "button": "Generate anonymous handles ↑"
+      },
+      {
+        "icon": "♪",
+        "title": "Same handle on TikTok",
+        "text": "TikTok usernames follow nearly the same rules (letters, numbers, periods, underscores, 24 characters), so an IG-safe result usually works there too. Check both before you commit.",
+        "examples": [
+          "sofiadaily",
+          "honeysofia",
+          "sofia.studio"
+        ],
+        "preset": {
+          "style": "creator",
+          "symbols": "none",
+          "length": "short"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "TikTok fonts",
+          "/tiktok-font-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Instagram Username",
+    "intro": "The generator follows a handful of formulas. Knowing them helps you tweak a result — or build your own IG username by hand.",
+    "rows": [
+      [
+        "Name + one word",
+        "**Sofia** + **Haze** → the most natural pairing; the word sets the mood",
+        [
+          "sofiahaze"
+        ]
+      ],
+      [
+        "Name . word",
+        "**Sofia** + **.** + **Haze** → the period is the single most useful IG trick; it frees a taken name without a number",
+        [
+          "sofia.haze"
+        ]
+      ],
+      [
+        "Adjective + name",
+        "**Soft** / **Frost** + **Sofia** → describes you before your name lands",
+        [
+          "softsofia",
+          "frostsofia"
+        ]
+      ],
+      [
+        "Prefix + name",
+        "**its** / **just** / **iam** + **Sofia** → reads like a caption, easy to remember",
+        [
+          "itssofia",
+          "just.sofia"
+        ]
+      ],
+      [
+        "Name + diary / studio / daily",
+        "**Sofia** + **diary** → tells people what the page is",
+        [
+          "sofiadiary",
+          "sofia.studio"
+        ]
+      ],
+      [
+        "Two style words",
+        "**Velvet** + **Moon** → no name at all, for a brand or an alt",
+        [
+          "velvetmoon"
+        ]
+      ],
+      [
+        "Doubled letter",
+        "**Sofia** → **sofiaa**, **soffia** → keeps the sound, changes the string",
+        [
+          "sofiaa",
+          "soffia"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Sofia** + **444** / birth year → a number with meaning looks intentional, 8371 looks like a fallback",
+        [
+          "sofia444",
+          "sofia.03"
+        ]
+      ]
+    ],
+    "note": "One trick per handle. *sofia.haze* is a good Instagram username; *xo_sofiaa.haze444_* is not. If the plain version is taken, add a period first, a prefix second, and a number last. Never end a handle with a period — Instagram will reject it."
+  },
+  "guide": {
+    "title": "How Our Instagram Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Instagram. IG usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a noun from the style instead."
+      ],
+      [
+        "IG vocabulary.",
+        "Each of the eight styles has its own hand-written list — moon, haze and velvet for aesthetic; queen, luxe and icon for baddie; diary, lens and studio for creators — so a minimal result never borrows a baddie word by accident."
+      ],
+      [
+        "Naming patterns.",
+        "Name + word, adjective + name, prefix + name, name + period + word, two style words, doubled letters, and short numeric suffixes. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Instagram-safe defaults.",
+        "Symbols are off, so every result uses only letters, numbers, periods and underscores. The Mix separator setting adds a period or underscore to some results; pick Period to apply it to all of them."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a handle is free."
+      ]
+    ],
+    "outro": [
+      "To check availability, paste the handle into Instagram's Edit Profile → Username field: it shows a red warning immediately if the name is taken or contains a character it does not allow."
+    ]
+  },
+  "uniqueH2": "Instagram Username vs Instagram Name — Which One to Generate?",
+  "uniqueBody": [
+    "Instagram gives every profile two names. The **username** (the @handle) is what people type to find you: up to 30 characters, letters, numbers, periods and underscores only, unique across all of Instagram. The **name** is the bold line under your photo: up to 64 characters, spaces and emoji allowed, symbols allowed, and it does not have to be unique. Most \"my username won't save\" problems come from mixing the two up — trying to put ♡ or a space into the handle.",
+    "This Instagram username generator is built for the handle: symbols are off by default and the IG-safe filter hides anything Instagram would reject. For the name field, switch symbols on, or take a plain result and run it through the [Instagram font generator](/instagram-font-generator.html) for cursive, bold or aesthetic letters. A common combination is a plain handle like *sofia.haze* with a styled name like *𝓈𝑜𝒻𝒾𝒶 ⋆ 𝒽𝒶𝓏𝑒*.",
+    "One more Instagram-specific rule: you can change your username at any time, but Instagram holds your old handle for 14 days so you can switch back, and nobody else can claim it during that window. If you are renaming a brand account, keep the old one alive somewhere in your bio for a while so people can still find you. For other platforms, the main [username generator](/username-generator.html) covers TikTok, Discord, Roblox and gaming handles with their own rules."
+  ],
+  "source": {
+    "before": "The character limits above come from ",
+    "name": "Instagram's own help page on usernames",
+    "href": "https://help.instagram.com/182492381886913",
+    "after": ", which also explains how the 14-day hold on old usernames works."
+  },
+  "faqTitle": "Instagram Username Generator FAQ",
+  "faqs": [
+    [
+      "What is an Instagram username generator?",
+      "It is a tool that combines a word you choose with curated vocabulary — aesthetic, cute, cool, baddie, minimal, creator, vintage or dark — and naming patterns to produce IG username ideas that follow Instagram's character rules. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Instagram username ideas?",
+      "Examples from the styles above: sofia.haze, softsofia, bunnypeach, frostsofia, sofia.luxe, just.sofia, sofiadaily and voidnoir. Type your own name to get versions built around it; leave it blank for two-word ideas with no personal detail."
+    ],
+    [
+      "Does this Instagram username generator check availability?",
+      "No. Nothing on this page talks to Instagram, so it cannot know whether a handle is taken. Copy the one you like and paste it into Edit Profile → Username on Instagram; it warns you immediately if the name is unavailable."
+    ],
+    [
+      "What characters can I use in an Instagram username?",
+      "Letters, numbers, periods and underscores, up to 30 characters, and the handle cannot end with a period. No spaces, no symbols, no emoji. Those are allowed in the separate name field and in your bio."
+    ],
+    [
+      "How do I make my Instagram username aesthetic?",
+      "Keep it lowercase, use one soft word (haze, moon, velvet, cloud) and at most one period. Pick the Aesthetic style above, or use the dedicated [aesthetic username generator](/aesthetic-username-generator.html) for sixteen sub-styles. Then style your name field with the [Instagram font generator](/instagram-font-generator.html)."
+    ],
+    [
+      "Can I use an AI Instagram username generator instead?",
+      "You can, but AI name tools tend to invent unpronounceable strings and often ignore Instagram's character rules. This generator uses hand-written word lists and fixed patterns, so every result is readable and IG-safe by default — and nothing you type leaves your browser."
+    ],
+    [
+      "What should I do if my Instagram username is taken?",
+      "Add a period between the words (sofiahaze → sofia.haze), try a prefix (its, just, iam), swap the style word, or add a number that means something to you. Click Generate More for another batch; small changes usually free up a name."
+    ],
+    [
+      "Can I use the same username on TikTok?",
+      "Usually. TikTok allows letters, numbers, periods and underscores up to 24 characters, so an IG-safe handle under 24 characters works there too. Check both apps before you commit, and use the Short filter to stay under the limit."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators & Instagram Fonts",
+    "intro": "Pick another vibe, or style your new handle for the Instagram name field."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html",
+      "Sixteen aesthetics from coquette to cottagecore and Y2K.",
+      "⋆"
+    ],
+    [
+      "Cute Username Generator",
+      "/cute-username-generator.html",
+      "Sweet, kawaii, soft and pastel names for a pastel feed.",
+      "♡"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and gamer-ready handles.",
+      "⚡"
+    ],
+    [
+      "Instagram Font Generator",
+      "/instagram-font-generator.html",
+      "Cursive, bold and aesthetic letters for your IG name and bio.",
+      "◎"
+    ],
+    [
+      "Aesthetic Symbols",
+      "/aesthetic-symbols.html",
+      "Bows, sparkles, stars and flowers for your Instagram name field.",
+      "✿"
+    ],
+    [
+      "Emo Username Generator",
+      "/emo-username-generator.html",
+      "Emo, scene, goth and grunge names with xx and ✞."
+    ],
+    [
+      "Rare Username Generator",
+      "/rare-username-generator.html",
+      "Obscure words, old names and OG short forms that are rarely taken."
+    ],
+    [
+      "Short Username Generator",
+      "/short-username-generator.html",
+      "Every result 8 characters or fewer — 3 to 6-letter handles."
+    ],
+    [
+      "TikTok Username Generator",
+      "/tiktok-username-generator.html",
+      "TikTok-safe handles that are easy to say out loud, plus display-name ideas."
+    ],
+    [
+      "Twitter Username Generator",
+      "/twitter-username-generator.html",
+      "Short X handles under the 15-character limit — funny, professional, anonymous."
+    ],
+    [
+      "Snapchat Username Generator",
+      "/snapchat-username-generator.html",
+      "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "aesthetic username generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "cute username generator",
+      "/cute-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "Instagram font generator",
+      "/instagram-font-generator.html"
+    ],
+    [
+      "aesthetic symbols",
+      "/aesthetic-symbols.html"
+    ],
+    [
+      "TikTok font generator",
+      "/tiktok-font-generator.html"
+    ],
+    [
+      "cursive text for Instagram",
+      "/blog/cursive-text-instagram/"
+    ]
+  ],
+  "linkNote": "IG-safe handles that follow Instagram's username rules.",
+  "maxLength": 30
+}

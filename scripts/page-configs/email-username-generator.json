@@ -1,0 +1,974 @@
+{
+  "type": "username",
+  "keyword": "email username generator",
+  "file": "email-username-generator.html",
+  "label": "Email",
+  "title": "Email Username Generator – Gmail & Professional Ideas",
+  "description": "Email username generator: turn your name into professional, personal, brand, creative or anonymous Gmail and Outlook address ideas under 30 characters. Free.",
+  "h1": "Email Username Generator",
+  "appName": "Email Username Generator",
+  "crumb": [
+    "Names",
+    "/cursive-name-generator.html"
+  ],
+  "linkNote": "Gmail-safe address ideas — professional, personal, brand and anonymous — under 30 characters.",
+  "kicker": "Free · 8 address styles · 24 ideas per batch · Gmail & Outlook safe",
+  "sub": "Professional, personal, brand, creative and anonymous email address ideas from your name",
+  "intro": "This email username generator builds the part before the @ around your name or a word — professional, personal, brand, creative or anonymous email usernames — and keeps every result inside Gmail's 6–30 character rule. Pick a style, generate 24 email usernames at a time, heart the ones you like and copy them into the sign-up form.",
+  "perks": [
+    "Gmail-safe: letters, numbers, periods, 6–30 characters",
+    "Professional patterns for job applications",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "sarah",
+  "seed": 2004,
+  "maxLength": 30,
+  "defaults": {
+    "symbols": "none",
+    "separator": "period",
+    "letters": "lower"
+  },
+  "placeholder": "sarah, james, your surname, your brand…",
+  "stylesLegend": "Choose an address style",
+  "resultsTitle": "Email username ideas",
+  "common": {
+    "prefixes": [
+      "hello",
+      "hi",
+      "contact",
+      "the",
+      "its",
+      "just",
+      "mail",
+      "me",
+      "team",
+      "ask",
+      "hey",
+      "real"
+    ],
+    "suffixes": [
+      "mail",
+      "inbox",
+      "contact",
+      "official",
+      "hq",
+      "co",
+      "work",
+      "home",
+      "writes",
+      "studio"
+    ]
+  },
+  "styles": {
+    "professional": {
+      "label": "Professional",
+      "icon": "◆",
+      "adjectives": [
+        "contact",
+        "hello",
+        "office",
+        "work",
+        "mail",
+        "info",
+        "team",
+        "hi",
+        "the",
+        "ask",
+        "reach",
+        "connect"
+      ],
+      "nouns": [
+        "smith",
+        "jones",
+        "lee",
+        "patel",
+        "garcia",
+        "brown",
+        "chen",
+        "khan",
+        "miller",
+        "davis",
+        "wilson",
+        "taylor",
+        "writes",
+        "consulting",
+        "design",
+        "studio",
+        "media",
+        "office"
+      ],
+      "suffixes": [
+        "work",
+        "office",
+        "mail",
+        "pro",
+        "biz",
+        "co"
+      ],
+      "symbols": [
+        "◆",
+        "·"
+      ]
+    },
+    "personal": {
+      "label": "Personal",
+      "icon": "◎",
+      "adjectives": [
+        "hello",
+        "hi",
+        "hey",
+        "just",
+        "its",
+        "me",
+        "real",
+        "simply",
+        "only",
+        "the",
+        "dear",
+        "from"
+      ],
+      "nouns": [
+        "mail",
+        "inbox",
+        "home",
+        "letters",
+        "notes",
+        "here",
+        "online",
+        "daily",
+        "life",
+        "world",
+        "corner",
+        "desk",
+        "box",
+        "post",
+        "messages",
+        "diary",
+        "hq",
+        "personal"
+      ],
+      "suffixes": [
+        "mail",
+        "home",
+        "inbox",
+        "here",
+        "online",
+        "hq"
+      ],
+      "symbols": [
+        "◎",
+        "·"
+      ]
+    },
+    "brand": {
+      "label": "Brand & Business",
+      "icon": "▲",
+      "adjectives": [
+        "hello",
+        "contact",
+        "info",
+        "team",
+        "support",
+        "sales",
+        "press",
+        "studio",
+        "shop",
+        "the",
+        "official",
+        "orders"
+      ],
+      "nouns": [
+        "studio",
+        "labs",
+        "shop",
+        "co",
+        "collective",
+        "agency",
+        "design",
+        "media",
+        "works",
+        "house",
+        "supply",
+        "goods",
+        "market",
+        "creative",
+        "digital",
+        "group",
+        "partners",
+        "consulting"
+      ],
+      "suffixes": [
+        "hq",
+        "official",
+        "co",
+        "studio",
+        "team",
+        "shop"
+      ],
+      "symbols": [
+        "▲",
+        "◆",
+        "·"
+      ]
+    },
+    "creative": {
+      "label": "Creative",
+      "icon": "✎",
+      "adjectives": [
+        "curious",
+        "wandering",
+        "quiet",
+        "honest",
+        "little",
+        "golden",
+        "midnight",
+        "paper",
+        "inky",
+        "wild",
+        "slow",
+        "bright"
+      ],
+      "nouns": [
+        "writer",
+        "maker",
+        "reader",
+        "sketch",
+        "notes",
+        "ink",
+        "letters",
+        "journal",
+        "verse",
+        "canvas",
+        "lens",
+        "pages",
+        "words",
+        "stories",
+        "atelier",
+        "workshop",
+        "studio",
+        "draft"
+      ],
+      "suffixes": [
+        "writes",
+        "draws",
+        "makes",
+        "studio",
+        "notes",
+        "mail"
+      ],
+      "symbols": [
+        "✎",
+        "✦",
+        "·"
+      ]
+    },
+    "anonymous": {
+      "label": "Anonymous",
+      "icon": "◇",
+      "adjectives": [
+        "random",
+        "quiet",
+        "casual",
+        "some",
+        "local",
+        "average",
+        "plain",
+        "grey",
+        "blue",
+        "north",
+        "silent",
+        "spare"
+      ],
+      "nouns": [
+        "inbox",
+        "mailbox",
+        "user",
+        "account",
+        "signup",
+        "newsletter",
+        "throwaway",
+        "burner",
+        "alias",
+        "reader",
+        "subscriber",
+        "member",
+        "guest",
+        "visitor",
+        "box",
+        "post",
+        "drop",
+        "relay"
+      ],
+      "suffixes": [
+        "mail",
+        "inbox",
+        "alias",
+        "box",
+        "drop",
+        "relay"
+      ],
+      "symbols": [
+        "◇",
+        "·"
+      ]
+    },
+    "minimal": {
+      "label": "Minimal",
+      "icon": "·",
+      "adjectives": [
+        "plain",
+        "simple",
+        "just",
+        "only",
+        "pure",
+        "clean",
+        "bare",
+        "mono",
+        "less",
+        "blank",
+        "still",
+        "quiet"
+      ],
+      "nouns": [
+        "mail",
+        "post",
+        "box",
+        "ink",
+        "line",
+        "tone",
+        "note",
+        "grey",
+        "stone",
+        "sand",
+        "salt",
+        "reed",
+        "elm",
+        "wren",
+        "vale",
+        "moss",
+        "noon",
+        "co"
+      ],
+      "suffixes": [
+        "mail",
+        "co",
+        "ink",
+        "one",
+        "post",
+        "box"
+      ],
+      "symbols": [
+        "·"
+      ]
+    },
+    "student": {
+      "label": "Student & Academic",
+      "icon": "🎓",
+      "adjectives": [
+        "study",
+        "campus",
+        "grad",
+        "student",
+        "research",
+        "lab",
+        "class",
+        "uni",
+        "college",
+        "scholar",
+        "thesis",
+        "dept"
+      ],
+      "nouns": [
+        "studies",
+        "research",
+        "notes",
+        "lab",
+        "scholar",
+        "academic",
+        "learning",
+        "thesis",
+        "campus",
+        "student",
+        "papers",
+        "grad",
+        "science",
+        "history",
+        "physics",
+        "biology",
+        "maths",
+        "econ"
+      ],
+      "suffixes": [
+        "edu",
+        "research",
+        "studies",
+        "lab",
+        "notes",
+        "mail"
+      ],
+      "symbols": [
+        "🎓",
+        "◆",
+        "·"
+      ]
+    },
+    "family": {
+      "label": "Family & Household",
+      "icon": "🏠",
+      "adjectives": [
+        "the",
+        "our",
+        "family",
+        "team",
+        "house",
+        "home",
+        "casa",
+        "chez",
+        "clan",
+        "tribe",
+        "little",
+        "big"
+      ],
+      "nouns": [
+        "family",
+        "household",
+        "home",
+        "house",
+        "kitchen",
+        "crew",
+        "clan",
+        "tribe",
+        "bunch",
+        "gang",
+        "table",
+        "nest",
+        "cottage",
+        "farm",
+        "villa",
+        "cabin",
+        "loft",
+        "porch"
+      ],
+      "suffixes": [
+        "family",
+        "home",
+        "house",
+        "mail",
+        "crew",
+        "hq"
+      ],
+      "symbols": [
+        "🏠",
+        "◆",
+        "·"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:professional",
+      "Professional"
+    ],
+    [
+      "style:personal",
+      "Personal"
+    ],
+    [
+      "style:brand",
+      "Brand"
+    ],
+    [
+      "style:creative",
+      "Creative"
+    ],
+    [
+      "style:anonymous",
+      "Anonymous"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Gmail-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Match Your Email to a Handle",
+    "text": "The best email username is the one that matches your Instagram, X and Discord handles. Generate the address here, then check the same name as a username.",
+    "links": [
+      [
+        "Username generator",
+        "/username-generator.html"
+      ],
+      [
+        "Instagram username generator",
+        "/instagram-username-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Email Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the address style you choose, and the options under Customize. Symbols are off, the separator is a period and letters are lowercase by default — the way Gmail, Outlook and iCloud addresses work — and every result is capped at 30 characters.",
+      "Type your first name for a personal address, your surname or a first+last combination for a professional one, or your brand for a business address. Leave the box blank and the generator pairs two words instead — quiet.inbox, paper.letters — for newsletter and sign-up aliases."
+    ],
+    "steps": [
+      [
+        "Type the name for your email username",
+        "First name for personal, surname or first.last for professional, brand name for business. The generator keeps it whole: sarah becomes sarah.writes, hello.sarah or sarah.smith.work."
+      ],
+      [
+        "Pick an email username style",
+        "Professional, personal, brand & business, creative, anonymous, minimal, student & academic or family & household. Each has its own vocabulary; All Styles mixes them."
+      ],
+      [
+        "Generate and copy email usernames",
+        "Keep Gmail-safe on, heart the ones you like, then paste the result before the @ in the sign-up form — Gmail and Outlook check availability as you type."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Email Username Ideas by Style",
+    "intro": "Hand-picked email username examples per style so you can see the vocabulary before you generate. Click any email username to copy it.",
+    "groups": [
+      {
+        "key": "professional",
+        "title": "Professional Email Usernames",
+        "blurb": "First.last, first-initial-last, name plus work — the formats recruiters expect. Type your surname to get real ones.",
+        "examples": [
+          "sarah.smith",
+          "s.smith",
+          "sarahsmith.work",
+          "smith.sarah",
+          "hello.sarah",
+          "contact.sarah",
+          "sarah.writes",
+          "sarah.consulting"
+        ]
+      },
+      {
+        "key": "personal",
+        "title": "Personal Email Usernames",
+        "blurb": "Hello, hi, just, me — friendly addresses for everyday mail.",
+        "examples": [
+          "hello.sarah",
+          "hi.sarah.mail",
+          "just.sarah",
+          "sarah.inbox",
+          "its.sarah.here",
+          "sarah.home",
+          "sarahonline",
+          "me.sarah"
+        ]
+      },
+      {
+        "key": "brand",
+        "title": "Brand & Business Email Usernames",
+        "blurb": "Hello, contact, team, studio — addresses for a shop, an agency or a side business.",
+        "examples": [
+          "hello.studio",
+          "contact.sarahdesign",
+          "team.sarah.co",
+          "sarah.labs",
+          "shop.sarahgoods",
+          "press.sarah",
+          "sarah.collective",
+          "info.sarah.hq"
+        ]
+      },
+      {
+        "key": "creative",
+        "title": "Creative Email Usernames",
+        "blurb": "Writer, maker, ink, pages — addresses for portfolios, newsletters and Substacks.",
+        "examples": [
+          "sarah.writes",
+          "curious.maker",
+          "paper.letters",
+          "sarah.ink",
+          "midnight.journal",
+          "quiet.pages",
+          "sarah.atelier",
+          "wandering.lens"
+        ]
+      },
+      {
+        "key": "anonymous",
+        "title": "Anonymous Email Usernames",
+        "blurb": "Inbox, alias, burner, relay — addresses for sign-ups, newsletters and one-off accounts that say nothing about you.",
+        "examples": [
+          "quiet.inbox",
+          "random.mailbox",
+          "grey.alias",
+          "some.reader",
+          "blue.burner",
+          "north.relay",
+          "plain.signup",
+          "spare.drop"
+        ]
+      },
+      {
+        "key": "minimal",
+        "title": "Minimal Email Usernames",
+        "blurb": "One quiet word plus a period — the addresses that look most like a real person. The [rare username generator](/rare-username-generator.html) has more uncommon words.",
+        "examples": [
+          "sarah.mail",
+          "just.sarah",
+          "sarah.co",
+          "plain.post",
+          "sarah.ink",
+          "noon.mail",
+          "wren.box",
+          "sarah.one"
+        ]
+      },
+      {
+        "key": "student",
+        "title": "Student & Academic Email Usernames",
+        "blurb": "Studies, research, lab, thesis — addresses for university work and applications.",
+        "examples": [
+          "sarah.studies",
+          "sarah.research",
+          "campus.sarah",
+          "sarah.lab",
+          "grad.sarah.notes",
+          "sarah.thesis",
+          "scholar.sarah",
+          "sarah.physics"
+        ]
+      },
+      {
+        "key": "family",
+        "title": "Family & Household Email Usernames",
+        "blurb": "The, our, family, house — shared addresses for bills, school and the group chat.",
+        "examples": [
+          "the.smith.family",
+          "our.house.mail",
+          "smith.household",
+          "team.smith",
+          "casa.smith",
+          "smith.crew",
+          "the.smith.kitchen",
+          "smith.home.hq"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "sarah.writes",
+      "hello.sarah",
+      "sarah.smith.work",
+      "quiet.inbox",
+      "sarah.studies",
+      "the.smith.family"
+    ],
+    "alt": "Email username generator example: the name sarah turned into sarah.writes, hello.sarah, sarah.smith.work, quiet.inbox and other Gmail address ideas",
+    "caption": "One name in, eight address styles out — every result follows Gmail's 6–30 character rule.",
+    "tagline": "PROFESSIONAL · PERSONAL · BRAND · ANONYMOUS",
+    "sample": "sarah",
+    "src": "/assets/previews/email-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Provider rules",
+    "title": "Email Usernames for Gmail, Outlook & iCloud",
+    "intro": "Each provider has slightly different rules for the part before the @. These shortcuts generate ideas that fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Gmail Email Usernames",
+        "text": "6–30 characters, letters, numbers and periods; periods are ignored (sarah.smith and sarahsmith are the same inbox), no underscores or hyphens. Cannot be changed once created.",
+        "examples": [
+          "sarah.writes",
+          "hello.sarah",
+          "sarahsmith.work"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "separator": "period",
+          "letters": "lower"
+        },
+        "button": "Generate Gmail-safe addresses ↑"
+      },
+      {
+        "icon": "◆",
+        "title": "Outlook Email Usernames",
+        "text": "Outlook and Hotmail allow letters, numbers, periods, underscores and hyphens, up to 64 characters. Underscore-joined professional addresses work here.",
+        "examples": [
+          "sarah_smith",
+          "sarah.smith.work",
+          "s-smith"
+        ],
+        "preset": {
+          "style": "professional",
+          "symbols": "none",
+          "separator": "underscore",
+          "letters": "lower"
+        },
+        "button": "Generate Outlook addresses ↑"
+      },
+      {
+        "icon": "▲",
+        "title": "iCloud & Proton Email Usernames",
+        "text": "iCloud allows 3–20 characters with periods and underscores; Proton allows letters, numbers, periods, underscores and hyphens. Short minimal addresses fit both.",
+        "examples": [
+          "sarah.mail",
+          "sarah.ink",
+          "just.sarah"
+        ],
+        "preset": {
+          "style": "minimal",
+          "symbols": "none",
+          "separator": "period",
+          "length": "short"
+        },
+        "button": "Generate short addresses ↑"
+      },
+      {
+        "icon": "◇",
+        "title": "Email Usernames for Sign-ups",
+        "text": "A second address for sign-ups should carry nothing personal. Leave the box blank and pick Anonymous for two-word aliases.",
+        "examples": [
+          "quiet.inbox",
+          "grey.alias",
+          "north.relay"
+        ],
+        "preset": {
+          "style": "anonymous",
+          "symbols": "none",
+          "separator": "period"
+        },
+        "button": "Generate an alias ↑",
+        "link": [
+          "Reddit usernames",
+          "/reddit-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Email Username",
+    "intro": "The generator follows a handful of formulas — the ones recruiters, friends and spam filters are used to. Knowing them helps you tweak a result or build your own address by hand.",
+    "rows": [
+      [
+        "first.last",
+        "**Sarah** + **.** + **Smith** → the professional standard; use it for job applications",
+        [
+          "sarah.smith"
+        ]
+      ],
+      [
+        "Initial + last",
+        "**S** + **Smith** → shorter and usually still available when first.last is taken",
+        [
+          "s.smith",
+          "ssmith"
+        ]
+      ],
+      [
+        "Name + work / writes",
+        "**Sarah** + **.** + **writes** → says what the address is for",
+        [
+          "sarah.writes",
+          "sarah.work"
+        ]
+      ],
+      [
+        "hello / hi / contact + name",
+        "**hello** + **.** + **Sarah** → friendly and professional at once; the small-business standard",
+        [
+          "hello.sarah",
+          "contact.sarah"
+        ]
+      ],
+      [
+        "Name + brand word",
+        "**Sarah** + **.** + **studio** / **design** → a business address without a domain",
+        [
+          "sarah.studio",
+          "sarah.design"
+        ]
+      ],
+      [
+        "Two plain words",
+        "**Quiet** + **Inbox** → no name at all, for sign-ups and newsletters",
+        [
+          "quiet.inbox"
+        ]
+      ],
+      [
+        "the + family + noun",
+        "**the** + **Smith** + **family** → a shared household address",
+        [
+          "the.smith.family"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Sarah** + **Smith** + **07** → only when the plain form is taken; a birth year in an address is a privacy risk",
+        [
+          "sarah.smith07"
+        ]
+      ]
+    ],
+    "note": "For anything you will put on a CV, the address should be your name and nothing else: *sarah.smith* or *s.smith*, never *sarahxo2004*. Keep the fun ones for personal mail — and remember a Gmail address can never be changed, only abandoned."
+  },
+  "guide": {
+    "title": "How Our Email Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Gmail, Outlook or any provider. Email usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name, surname or brand you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator pairs two words — the right choice for aliases."
+      ],
+      [
+        "Address vocabulary.",
+        "Each of the eight styles has its own hand-written list — contact, office and work for professional; hello, inbox and home for personal; alias, burner and relay for anonymous; studies, research and thesis for students — so a professional result never borrows an anonymous word by accident."
+      ],
+      [
+        "Address patterns.",
+        "first.last, initial + last, name + purpose, hello/contact prefixes, brand words, two plain words, household names and a number only as a last resort. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Provider-safe defaults.",
+        "Symbols off, period separator, lowercase and a 30-character cap, so every result fits Gmail as written and Outlook, iCloud and Proton with at most a separator change."
+      ],
+      [
+        "Favorites.",
+        "The heart saves an address to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether an address is free — the sign-up form checks as you type."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Email Username Rules — Gmail, Outlook and Recruiters",
+  "uniqueBody": [
+    "**Gmail** usernames are 6 to 30 characters of letters, numbers and periods — and Gmail **ignores periods**, so sarah.smith, sarahsmith and s.a.r.a.h.smith all deliver to the same inbox and count as the same username when you sign up. Underscores and hyphens are not allowed. **Outlook** and Hotmail allow letters, numbers, periods, underscores and hyphens up to 64 characters; **iCloud** allows 3 to 20 with periods and underscores; **Proton** allows letters, numbers, periods, underscores and hyphens. None of them let you rename an existing address — you can only create a new one and forward the old — which is why an email username generator is worth using before you sign up rather than after.",
+    "The unwritten rule is about audience. A professional address is your name and nothing else (sarah.smith, s.smith); adding a nickname, a birth year or a hobby costs credibility on a CV and leaks personal data to every list the address ends up on. A personal address can carry a word; an alias for sign-ups should carry nothing. This page keeps those three apart as separate styles. If you want the same name across social platforms, the main [username generator](/username-generator.html) and the [Instagram username generator](/instagram-username-generator.html) check the same handle formats; for a private alias that also works as a Reddit account, the [Reddit username generator](/reddit-username-generator.html) shares the two-word anonymous pattern; and for the shortest possible address, the [short username generator](/short-username-generator.html) keeps everything under eight characters."
+  ],
+  "source": {
+    "before": "Gmail's character rules and the fact that periods are ignored are documented in ",
+    "name": "Google's help article on Gmail usernames",
+    "href": "https://support.google.com/mail/answer/9211434",
+    "after": "."
+  },
+  "faqTitle": "Email Username Generator FAQ",
+  "faqs": [
+    [
+      "What is an email username generator?",
+      "It is a tool that combines your name, surname or brand with curated vocabulary — professional, personal, brand, creative, anonymous, minimal, student and family words — and address patterns to produce ideas for the part before the @ that follow Gmail's and Outlook's rules. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are good email username ideas?",
+      "Examples from the styles above: sarah.smith, hello.sarah, sarah.studio, sarah.writes, quiet.inbox, sarah.mail, sarah.studies and the.smith.family. Type your first name for a personal address or your surname for a professional one; leave the box blank for two-word aliases."
+    ],
+    [
+      "What is a good professional email username?",
+      "Your name and nothing else: first.last (sarah.smith), initial plus last (s.smith) or last.first if those are taken. No nicknames, hobbies or birth years. Pick the Professional style above and type your surname to get real options."
+    ],
+    [
+      "What characters can an email username have?",
+      "Letters, numbers and periods, 6 to 30 characters — and periods are ignored, so sarah.smith and sarahsmith are the same address. No underscores, hyphens, spaces or symbols. Outlook and Proton also allow underscores and hyphens."
+    ],
+    [
+      "Can I change my email username?",
+      "No provider lets you rename an existing address. You can create a new one and forward or import the old mail, but the old address stays. That is why it is worth generating several options and checking them on the sign-up form before you commit."
+    ],
+    [
+      "Does this email username generator check availability?",
+      "No. Nothing here talks to Gmail, Outlook or any provider, so it cannot know whether an address is taken. Copy the one you like into the sign-up form; Gmail and Outlook show immediately whether it is available and suggest alternatives if not."
+    ],
+    [
+      "What is a good anonymous email username?",
+      "Two plain words with nothing personal — quiet.inbox, grey.alias, north.relay — for sign-ups, newsletters and one-off accounts. Leave the word box blank and pick Anonymous; never add your name, birth year or city to an alias."
+    ],
+    [
+      "Can I copy and paste the generated email usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves an address to My Favorites in your browser. Paste the result before the @ in the sign-up form."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators",
+    "intro": "Match your email to a handle on the platforms you use."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — the same handle across every platform.",
+      "✦"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles that can match your email address.",
+      "◎"
+    ],
+    [
+      "Reddit Username Generator",
+      "/reddit-username-generator.html",
+      "Anonymous u/ names built the same two-word way as an alias.",
+      "👾"
+    ],
+    [
+      "Short Username Generator",
+      "/short-username-generator.html",
+      "3 to 8-letter handles — the shortest possible address.",
+      "·"
+    ],
+    [
+      "Rare Username Generator",
+      "/rare-username-generator.html",
+      "Uncommon words for addresses that are still available.",
+      "◇"
+    ],
+    [
+      "Cursive Name Generator",
+      "/cursive-name-generator.html",
+      "Write your name in cursive for an email signature.",
+      "✎"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "Instagram username generator",
+      "/instagram-username-generator.html"
+    ],
+    [
+      "Reddit username generator",
+      "/reddit-username-generator.html"
+    ],
+    [
+      "short username generator",
+      "/short-username-generator.html"
+    ],
+    [
+      "rare username generator",
+      "/rare-username-generator.html"
+    ],
+    [
+      "cursive name generator",
+      "/cursive-name-generator.html"
+    ],
+    [
+      "cursive signature generator",
+      "/copy-and-paste-cursive-signature.html"
+    ],
+    [
+      "nickname generator",
+      "/nickname-generator.html"
+    ]
+  ]
+}

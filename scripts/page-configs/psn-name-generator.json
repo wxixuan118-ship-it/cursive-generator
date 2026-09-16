@@ -1,0 +1,1121 @@
+{
+  "type": "username",
+  "keyword": "psn name generator",
+  "file": "psn-name-generator.html",
+  "label": "PSN",
+  "title": "PSN Name Generator – PlayStation Online ID Ideas",
+  "description": "PSN name generator: turn your name into cool, sweaty, funny, OG or clan-style PlayStation online IDs that follow PSN's 3–16 character rules. Free, no sign-up.",
+  "h1": "PSN Name Generator",
+  "appName": "PSN Name Generator",
+  "crumb": [
+    "Gaming Usernames",
+    "/gaming-username-generator.html"
+  ],
+  "linkNote": "PlayStation online IDs that follow PSN's 3–16 character, letter-first rule.",
+  "kicker": "Free · 8 PSN styles · 24 IDs per batch · PSN-safe characters",
+  "sub": "Cool, sweaty, funny, OG and clan-style PlayStation online ID ideas from your name",
+  "intro": "This PSN name generator builds PlayStation online IDs around your name or a word and keeps every result inside Sony's rules — 3 to 16 characters, letters, numbers, hyphens and underscores, starting with a letter. Pick a style, generate 24 PSN names at a time, filter by length, heart the ones you like and copy them into Settings → Users and Accounts → Profile → Online ID.",
+  "perks": [
+    "Fits PSN's 3–16 character rule",
+    "Hyphens and underscores, no symbols",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "dan",
+  "seed": 1994,
+  "defaults": {
+    "symbols": "none",
+    "separator": "underscore",
+    "letters": "mixed"
+  },
+  "placeholder": "dan, ace, ghost, nova, blaze…",
+  "stylesLegend": "Choose a PSN style",
+  "resultsTitle": "PSN name ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "mr",
+      "sir",
+      "big",
+      "lil",
+      "dr",
+      "real",
+      "not",
+      "captain"
+    ],
+    "suffixes": [
+      "x",
+      "z",
+      "gg",
+      "hq",
+      "one",
+      "zero",
+      "io",
+      "ps",
+      "psn",
+      "xd"
+    ]
+  },
+  "styles": {
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "jet"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "hq",
+        "one",
+        "zero",
+        "io"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "sweaty": {
+      "label": "Sweaty",
+      "icon": "⚔",
+      "adjectives": [
+        "clutch",
+        "rapid",
+        "elite",
+        "lethal",
+        "swift",
+        "prime",
+        "apex",
+        "cracked",
+        "sharp",
+        "silent",
+        "quick",
+        "pro"
+      ],
+      "nouns": [
+        "sniper",
+        "striker",
+        "reaper",
+        "titan",
+        "blitz",
+        "warden",
+        "raider",
+        "ranger",
+        "havoc",
+        "slayer",
+        "hunter",
+        "flick",
+        "aim",
+        "demon",
+        "goat",
+        "spectre",
+        "wraith",
+        "ghost"
+      ],
+      "suffixes": [
+        "gg",
+        "x",
+        "one",
+        "zero",
+        "ttv",
+        "z"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "sad"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "spud",
+        "llama",
+        "nug",
+        "bloop",
+        "yeet",
+        "moo"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "xd",
+        "lol",
+        "z"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "og": {
+      "label": "OG",
+      "icon": "◇",
+      "adjectives": [
+        "og",
+        "old",
+        "true",
+        "real",
+        "pure",
+        "raw",
+        "prime",
+        "first",
+        "day",
+        "iron",
+        "grey",
+        "ash"
+      ],
+      "nouns": [
+        "vex",
+        "nyx",
+        "ryn",
+        "kai",
+        "zed",
+        "ivo",
+        "ash",
+        "ely",
+        "ora",
+        "ren",
+        "flint",
+        "haar",
+        "rime",
+        "onyx",
+        "jinx",
+        "zane",
+        "arc",
+        "sol"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "og",
+        "one"
+      ],
+      "symbols": [
+        "◇",
+        "★",
+        "✦",
+        "⋆",
+        "◆",
+        "▲"
+      ]
+    },
+    "clan": {
+      "label": "Clan Tag",
+      "icon": "▲",
+      "adjectives": [
+        "fz",
+        "nrg",
+        "tsm",
+        "xo",
+        "rz",
+        "vx",
+        "nv",
+        "sx",
+        "kz",
+        "lz",
+        "gx",
+        "zy"
+      ],
+      "nouns": [
+        "clan",
+        "squad",
+        "crew",
+        "gang",
+        "unit",
+        "org",
+        "guild",
+        "legion",
+        "faction",
+        "team",
+        "house",
+        "circle",
+        "syndicate",
+        "empire",
+        "dynasty",
+        "alliance",
+        "corps",
+        "cartel"
+      ],
+      "suffixes": [
+        "gg",
+        "x",
+        "hq",
+        "one",
+        "z",
+        "io"
+      ],
+      "symbols": [
+        "▲",
+        "◆",
+        "✦",
+        "★",
+        "⚡",
+        "⌁"
+      ]
+    },
+    "beast": {
+      "label": "Beast",
+      "icon": "🐺",
+      "adjectives": [
+        "iron",
+        "steel",
+        "savage",
+        "alpha",
+        "wild",
+        "black",
+        "blood",
+        "thunder",
+        "grim",
+        "feral",
+        "silver",
+        "rabid"
+      ],
+      "nouns": [
+        "wolf",
+        "viper",
+        "hawk",
+        "bear",
+        "panther",
+        "cobra",
+        "shark",
+        "jackal",
+        "bull",
+        "raptor",
+        "lion",
+        "tiger",
+        "falcon",
+        "rhino",
+        "hound",
+        "mantis",
+        "kraken",
+        "eagle"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "one",
+        "king",
+        "gg",
+        "z"
+      ],
+      "symbols": [
+        "☠",
+        "⚔",
+        "✖",
+        "★",
+        "⚡",
+        "☬"
+      ]
+    },
+    "retro": {
+      "label": "Retro",
+      "icon": "▶",
+      "adjectives": [
+        "pixel",
+        "retro",
+        "arcade",
+        "neon",
+        "8bit",
+        "analog",
+        "chrome",
+        "laser",
+        "cosmic",
+        "turbo",
+        "mega",
+        "super"
+      ],
+      "nouns": [
+        "pixel",
+        "arcade",
+        "sprite",
+        "coin",
+        "combo",
+        "warp",
+        "boss",
+        "level",
+        "glitch",
+        "byte",
+        "bit",
+        "pong",
+        "joystick",
+        "cart",
+        "cabinet",
+        "player",
+        "score",
+        "zone"
+      ],
+      "suffixes": [
+        "64",
+        "8bit",
+        "2000",
+        "gg",
+        "one",
+        "xd"
+      ],
+      "symbols": [
+        "▶",
+        "★",
+        "☆",
+        "✦",
+        "⌁",
+        "▲"
+      ]
+    },
+    "scifi": {
+      "label": "Sci-Fi",
+      "icon": "✧",
+      "adjectives": [
+        "cyber",
+        "neon",
+        "quantum",
+        "zero",
+        "hyper",
+        "orbital",
+        "cosmic",
+        "nano",
+        "astral",
+        "binary",
+        "plasma",
+        "void"
+      ],
+      "nouns": [
+        "nova",
+        "orbit",
+        "vector",
+        "cipher",
+        "matrix",
+        "pulsar",
+        "reactor",
+        "android",
+        "nexus",
+        "flux",
+        "drone",
+        "mech",
+        "photon",
+        "signal",
+        "core",
+        "unit",
+        "vertex",
+        "probe"
+      ],
+      "suffixes": [
+        "x",
+        "zero",
+        "one",
+        "io",
+        "v2",
+        "hq"
+      ],
+      "symbols": [
+        "✧",
+        "✦",
+        "⌁",
+        "◆",
+        "▲",
+        "✵"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:sweaty",
+      "Sweaty"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:og",
+      "OG"
+    ],
+    [
+      "style:beast",
+      "Beast"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "PSN-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your PSN Name for Discord",
+    "text": "PlayStation online IDs are plain text, but your Discord and Steam display names accept fancy letters. Copy a name here, then style it for those.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the PSN Name Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the PSN style you choose, and the options under Customize. Symbols are off, the separator is an underscore and letters are mixed case by default, so every result looks like a real PlayStation online ID and passes the rules.",
+      "Leave the word blank and the generator pairs two PSN words instead — Frost_Vortex, Iron_Wolf, Pixel_Sprite — so it also works as a random PSN name generator for a second account."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a favorite game word. The generator keeps it whole and builds around it: dan becomes Frost_Dan, DanGG or OG_Dan."
+      ],
+      [
+        "Pick a PSN name style",
+        "Cool, sweaty, funny, OG, clan tag, beast, retro or sci-fi. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy PSN names",
+        "Keep PSN-safe on, heart the ones you like, then copy and paste into Settings → Users and Accounts → Profile → Online ID to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "PSN Name Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Every example is 16 characters or fewer and starts with a letter, so it fits a PlayStation online ID as written. Click any PSN name to copy it.",
+    "groups": [
+      {
+        "key": "cool",
+        "title": "Cool PSN Names",
+        "blurb": "Frost, vortex, apex, nova — sharp IDs that look good on a trophy card. The [cool username generator](/cool-username-generator.html) has longer versions.",
+        "examples": [
+          "Frost_Vortex",
+          "SilentApex",
+          "Onyx-Drift",
+          "Dan_Zero",
+          "PhantomRift",
+          "NeonJet",
+          "Arctic_Wolf",
+          "VaporHQ"
+        ]
+      },
+      {
+        "key": "sweaty",
+        "title": "Sweaty PSN Names",
+        "blurb": "Sniper, reaper, blitz, clutch — tryhard IDs for ranked lobbies.",
+        "examples": [
+          "Clutch_Reaper",
+          "RapidBlitz",
+          "Elite_Warden",
+          "DanGG",
+          "LethalFlick",
+          "Prime_Demon",
+          "SwiftGoat",
+          "CrackedAim"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny PSN Names",
+        "blurb": "Toast, spud, goose, yeet — the IDs everyone in the party chat remembers.",
+        "examples": [
+          "Wobbly_Toast",
+          "GrumpyGoose",
+          "Spicy_Spud",
+          "SleepyYeti",
+          "Angry_Nug",
+          "SadBloop",
+          "DanPants",
+          "Taco_Lord"
+        ]
+      },
+      {
+        "key": "og",
+        "title": "OG PSN Names",
+        "blurb": "Vex, nyx, flint, sol — three-to-five-letter IDs, the rarest tier on a network that started in 2006. The [rare username generator](/rare-username-generator.html) digs deeper.",
+        "examples": [
+          "Vex",
+          "Nyxo",
+          "OG_Dan",
+          "Flint",
+          "True_Sol",
+          "RynX",
+          "Iron_Arc",
+          "Zane"
+        ]
+      },
+      {
+        "key": "clan",
+        "title": "Clan Tag PSN Names",
+        "blurb": "Two-letter tags in front — FZ, RZ, KZ — the esports look; PSN allows a hyphen or underscore after the tag.",
+        "examples": [
+          "FZ_Dan",
+          "RZ-Vortex",
+          "KZ_Squad",
+          "NV_Crew",
+          "SX-Dan",
+          "LZ_Legion",
+          "GX_Unit",
+          "VX-House"
+        ]
+      },
+      {
+        "key": "beast",
+        "title": "Beast PSN Names",
+        "blurb": "Wolf, viper, kraken, raptor — the heaviest words in the list.",
+        "examples": [
+          "Iron_Wolf",
+          "SteelViper",
+          "Alpha-Hawk",
+          "Dan_Kraken",
+          "BloodRaptor",
+          "Grim_Jackal",
+          "WildMantis",
+          "Thunder-Bull"
+        ]
+      },
+      {
+        "key": "retro",
+        "title": "Retro PSN Names",
+        "blurb": "Pixel, arcade, sprite, warp — IDs for PS1 nostalgia and retro collections.",
+        "examples": [
+          "Pixel_Sprite",
+          "NeonArcade",
+          "Dan_64",
+          "ChromeCombo",
+          "Retro_Boss",
+          "LaserWarp",
+          "Turbo_Pong",
+          "MegaScore"
+        ]
+      },
+      {
+        "key": "scifi",
+        "title": "Sci-Fi PSN Names",
+        "blurb": "Nova, cipher, reactor, nexus — IDs for shooters and space games.",
+        "examples": [
+          "Quantum_Nova",
+          "CyberCipher",
+          "Zero_Reactor",
+          "Dan_Nexus",
+          "PlasmaDrone",
+          "Nano_Probe",
+          "VoidVertex",
+          "Astral-Mech"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "Frost_Dan",
+      "DanGG",
+      "Wobbly_Toast",
+      "OG_Dan",
+      "Iron_Wolf",
+      "Pixel_Sprite"
+    ],
+    "alt": "PSN name generator example: the name dan turned into Frost_Dan, DanGG, Wobbly_Toast, OG_Dan and other PlayStation online ID ideas",
+    "caption": "One name in, eight PSN styles out — every result follows PlayStation's online ID rules.",
+    "tagline": "COOL · SWEATY · FUNNY · OG · CLAN",
+    "sample": "dan",
+    "src": "/assets/previews/psn-name-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "PlayStation's rules",
+    "title": "PSN Names on PS5, PS4 & Cross-Platform",
+    "intro": "Your online ID shows on PS5, PS4, the PlayStation app and in cross-play lobbies. These shortcuts fit each situation.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "PSN Names (Online ID)",
+        "text": "3–16 characters, letters, numbers, hyphens and underscores; must start with a letter, cannot contain spaces. The first change is free; later changes cost a fee.",
+        "examples": [
+          "Frost_Dan",
+          "Onyx-Drift",
+          "DanGG"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "none",
+          "separator": "underscore",
+          "letters": "mixed"
+        },
+        "button": "Generate PSN-safe IDs ↑"
+      },
+      {
+        "icon": "▶",
+        "title": "PSN Names That Match Xbox",
+        "text": "If you also play on Xbox, keep the ID under 12 characters with no separator so the same name fits both consoles.",
+        "examples": [
+          "FrostDan",
+          "IronWolf",
+          "DanZero"
+        ],
+        "preset": {
+          "style": "beast",
+          "symbols": "none",
+          "separator": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate a cross-console ID ↑",
+        "link": [
+          "Gamertag generator",
+          "/gamertag-generator.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "PSN Names for Cross-Play Games",
+        "text": "Fortnite, Call of Duty and Apex show your PSN ID to PC players too, so pick something that reads well outside the PlayStation UI.",
+        "examples": [
+          "Clutch_Reaper",
+          "Dan_Nexus",
+          "SilentApex"
+        ],
+        "preset": {
+          "style": "sweaty",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate a cross-play ID ↑",
+        "link": [
+          "Fortnite usernames",
+          "/fortnite-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "PSN Names for Discord & Steam",
+        "text": "Discord and Steam display names accept ✦ and ⚔ — this is where symbols go. Your PSN ID stays plain.",
+        "examples": [
+          "✦Dan✦",
+          "dan.gg",
+          "frostvortex"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "auto",
+          "letters": "mixed"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Discord usernames",
+          "/discord-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good PSN Name",
+    "intro": "The generator follows a handful of formulas. Knowing them helps you tweak a result — or build your own PlayStation online ID by hand.",
+    "rows": [
+      [
+        "Adjective _ name",
+        "**Frost** + **_** + **Dan** → the classic PSN format; the underscore is allowed and reads clean",
+        [
+          "Frost_Dan",
+          "Silent_Dan"
+        ]
+      ],
+      [
+        "Name + role noun",
+        "**Dan** + **Sniper** / **Reaper** → the noun says what you main",
+        [
+          "DanSniper",
+          "Dan_Reaper"
+        ]
+      ],
+      [
+        "Two PSN words",
+        "**Pixel** + **_** + **Sprite** → no name at all, for a second account",
+        [
+          "Pixel_Sprite"
+        ]
+      ],
+      [
+        "Name + GG / X / Z",
+        "**Dan** + **GG** → the classic gaming suffix, one or two letters",
+        [
+          "DanGG",
+          "DanX"
+        ]
+      ],
+      [
+        "OG _ name",
+        "**OG** / **The** + **Dan** → says you were here first; PSN needs a letter first, so OG_Dan works and 1_Dan does not",
+        [
+          "OG_Dan",
+          "The_Dan"
+        ]
+      ],
+      [
+        "Clan tag - name",
+        "**FZ** / **RZ** + **-** + **Dan** → a two-letter tag in front; PSN accepts the hyphen",
+        [
+          "FZ-Dan",
+          "RZ_Dan"
+        ]
+      ],
+      [
+        "Dropped vowel",
+        "**Sniper** → **Snpr**, **Dan** → **Dn** → the tryhard respelling",
+        [
+          "Dan_Snpr",
+          "DnX"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Dan** + **94** / **07** → a number with a reason; PSN does not add one for you",
+        [
+          "Dan_94",
+          "Dan07"
+        ]
+      ]
+    ],
+    "note": "One trick per ID. *Frost_Dan* is a PSN name; *xXx_Fr0st_D4n_xXx* is a 2009 Modern Warfare lobby. Remember the ID must start with a letter, cannot have spaces, and changing it a second time costs money — pick one you can keep."
+  },
+  "symbols": {
+    "title": "PSN Name Symbols for Display Names",
+    "intro": "PlayStation rejects these, but Discord, Steam and Twitch display names show them. Click a symbol to copy it.",
+    "items": [
+      [
+        "⚔",
+        "crossed swords"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "⚡",
+        "lightning"
+      ],
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "☆",
+        "white star"
+      ],
+      [
+        "✪",
+        "circled star"
+      ],
+      [
+        "⌁",
+        "electric arrow"
+      ],
+      [
+        "▲",
+        "triangle"
+      ],
+      [
+        "◆",
+        "black diamond"
+      ],
+      [
+        "✖",
+        "heavy cross"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "✧",
+        "white four-pointed star"
+      ],
+      [
+        "✵",
+        "eight-pointed star"
+      ],
+      [
+        "☬",
+        "adi shakti"
+      ],
+      [
+        "♛",
+        "crown"
+      ],
+      [
+        "⚙",
+        "gear"
+      ],
+      [
+        "꧁",
+        "ornate bracket left"
+      ],
+      [
+        "꧂",
+        "ornate bracket right"
+      ],
+      [
+        "ツ",
+        "smiling tsu"
+      ]
+    ],
+    "combos": [
+      "꧁Dan꧂",
+      "⚔Dan⚔",
+      "✦Dan✦",
+      "Dan☠",
+      "♛Dan",
+      "▲Dan▲",
+      "⚡Dan⚡",
+      "Danツ"
+    ],
+    "note": "PSN online IDs allow only letters, numbers, hyphens and underscores; Discord, Steam and Twitch display names show all of these. Keep a plain ID for PlayStation and use the decorated one where it displays. For full decorative alphabets, try the [cool text generator](/cool-text-generator.html) or the [glitch text generator](/glitch-text-generator.html)."
+  },
+  "guide": {
+    "title": "How Our PSN Name Generator Works",
+    "intro": "There is no AI behind this page and no connection to PlayStation Network. PSN names are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a PSN noun instead."
+      ],
+      [
+        "PSN vocabulary.",
+        "Each of the eight styles has its own hand-written list — vortex, apex and nova for cool; sniper, reaper and blitz for sweaty; vex, nyx and flint for OG — so a funny result never borrows a sweaty word by accident."
+      ],
+      [
+        "PSN patterns.",
+        "Adjective _ name, name + role, two PSN words, GG/X/Z suffixes, OG and clan-tag prefixes, dropped-vowel respellings and meaningful numbers. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "PSN-safe defaults.",
+        "Symbols off, underscore separator and Mixed case are on, so every result uses only letters, numbers, hyphens and underscores and looks like a real online ID."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a PSN name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether an online ID is free — the console tells you when you try to set it."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "PSN Name Rules and How to Change Your Online ID",
+  "uniqueBody": [
+    "A PlayStation online ID is **3 to 16 characters**: letters, numbers, hyphens and underscores, starting with a letter, no spaces and no symbols. Sony lets you change it from **Settings → Users and Accounts → Profile → Online ID** on PS5 (or Account → Profile on PS4 and the PlayStation app). The **first change is free**; every change after that carries a fee, and Sony warns that some older PS4 games may not support the new ID properly — which is why it is worth generating several options here and picking one you can keep for years rather than treating it like a Discord display name.",
+    "The other consideration is cross-play. Fortnite, Call of Duty, Apex Legends and Rocket League show your PSN ID to Xbox and PC players, so a good PSN name generator produces IDs that read well outside the PlayStation UI — short, pronounceable, one underscore at most. If you also play on Xbox, the [gamertag generator](/gamertag-generator.html) keeps names under Xbox's 12-character cap so one name fits both consoles; the [gaming username generator](/gaming-username-generator.html) covers Steam, Nintendo and Discord with their own rules; the [Fortnite username generator](/fortnite-username-generator.html) handles Epic display names for cross-play; and the main [username generator](/username-generator.html) mixes gaming with every other style."
+  ],
+  "source": {
+    "before": "The character rules and the change-fee policy are documented in ",
+    "name": "PlayStation's support page on changing your online ID",
+    "href": "https://www.playstation.com/en-us/support/account/change-psn-online-id/",
+    "after": "."
+  },
+  "faqTitle": "PSN Name Generator FAQ",
+  "faqs": [
+    [
+      "What is a PSN name generator?",
+      "It is a tool that combines a word you choose with curated gaming vocabulary — vortex, sniper, wolf, pixel, nova — and PSN naming patterns to produce PlayStation online IDs that follow Sony's 3–16 character, letter-first rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good PSN name ideas?",
+      "Examples from the styles above: Frost_Vortex, Clutch_Reaper, Wobbly_Toast, Nyxo, FZ_Dan, Iron_Wolf, Pixel_Sprite and Quantum_Nova. Type your own name to get versions built around it, such as Frost_Dan or DanGG."
+    ],
+    [
+      "What characters can a PSN name have?",
+      "Letters, numbers, hyphens and underscores, 3 to 16 characters, and it must start with a letter. No spaces, periods or symbols. This generator keeps symbols off and uses an underscore separator by default so every result is PSN-safe."
+    ],
+    [
+      "How do I change my PSN name?",
+      "On PS5 go to Settings → Users and Accounts → Profile → Online ID; on PS4 or the PlayStation app go to Account → Profile. The first change is free; later changes cost a fee, and a few older PS4 games may not support changed IDs, so choose carefully."
+    ],
+    [
+      "Does this PSN name generator check availability?",
+      "No. Nothing here talks to PlayStation Network, so it cannot know whether an online ID is taken. Copy the one you like and try it in your profile settings — the console tells you immediately if the ID is unavailable."
+    ],
+    [
+      "Can I use the same PSN name on Xbox?",
+      "Usually, if it is 12 characters or fewer with no hyphen or underscore. Xbox gamertags allow letters, numbers and spaces up to 12 characters, so FrostDan works on both while Frost_Dan only fits PSN. The [gamertag generator](/gamertag-generator.html) is tuned for that cross-console case."
+    ],
+    [
+      "Can I use symbols in a PSN name?",
+      "No. PlayStation online IDs allow only letters, numbers, hyphens and underscores. Symbols like ⚔ and ✦ work in Discord, Steam and Twitch display names — that is what the symbol section on this page is for."
+    ],
+    [
+      "Can I copy and paste the generated PSN names?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a PSN name to My Favorites in your browser. To style one for Discord or Steam, paste it into the [cool text generator](/cool-text-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators",
+    "intro": "Pick another platform, or style your PSN name for a display name."
+  },
+  "links": [
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "12-character gamertags that fit Xbox and PlayStation at once.",
+      "🎮"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Every console and launcher in eight styles.",
+      "⌁"
+    ],
+    [
+      "Fortnite Username Generator",
+      "/fortnite-username-generator.html",
+      "Epic display names for cross-play lobbies.",
+      "🎯"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles that work off-console too.",
+      "⚡"
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html",
+      "Copy-and-paste text styles that work in Discord display names.",
+      "💬"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for Steam and Discord names.",
+      "𝕮"
+    ],
+    [
+      "Steam Username Generator",
+      "/steam-username-generator.html",
+      "Steam profile names with symbols allowed, plus a plain custom URL that matches."
+    ],
+    [
+      "Call of Duty Username Generator",
+      "/call-of-duty-username-generator.html",
+      "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "gamertag generator",
+      "/gamertag-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "Fortnite username generator",
+      "/fortnite-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "PUBG username generator",
+      "/pubg-username-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ]
+  ],
+  "maxLength": 16
+}

@@ -1,0 +1,1112 @@
+{
+  "type": "username",
+  "keyword": "pubg username generator",
+  "file": "pubg-username-generator.html",
+  "label": "PUBG",
+  "title": "PUBG Username Generator – Stylish PUBG & BGMI Names",
+  "description": "PUBG username generator: turn your name into pro, sniper, squad, clan-tag, dark or funny PUBG Mobile and BGMI names within the 14-character limit. Free.",
+  "h1": "PUBG Username Generator",
+  "appName": "PUBG Username Generator",
+  "kicker": "Free · 8 PUBG styles · 24 names per batch · 14-character safe",
+  "sub": "Pro, sniper, squad, clan-tag and stylish PUBG Mobile & BGMI name ideas",
+  "intro": "This PUBG username generator builds in-game names around your name or a word — pro tags, sniper and rusher roles, squad and clan formats, dark and funny names — and keeps them inside PUBG Mobile's 14-character limit. Pick a style, generate 24 PUBG usernames at a time, filter by length, heart the ones you like and copy them for PUBG Mobile, BGMI, PUBG: Battlegrounds on PC or New State.",
+  "perks": [
+    "Fits PUBG Mobile's 14-character limit",
+    "Pro, sniper, squad and clan styles",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "arjun",
+  "seed": 1414,
+  "defaults": {
+    "symbols": "none"
+  },
+  "placeholder": "arjun, sam, ghost, king, nova…",
+  "stylesLegend": "Choose a PUBG style",
+  "resultsTitle": "PUBG username ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "mr",
+      "king",
+      "pro",
+      "real",
+      "sir",
+      "not",
+      "big",
+      "lil"
+    ],
+    "suffixes": [
+      "op",
+      "yt",
+      "gg",
+      "x",
+      "z",
+      "pro",
+      "king",
+      "boss",
+      "007",
+      "one"
+    ]
+  },
+  "styles": {
+    "pro": {
+      "label": "Pro",
+      "icon": "⚔",
+      "adjectives": [
+        "pro",
+        "elite",
+        "lethal",
+        "silent",
+        "rapid",
+        "clutch",
+        "prime",
+        "godly",
+        "insane",
+        "sharp",
+        "ruthless",
+        "swift"
+      ],
+      "nouns": [
+        "sniper",
+        "rusher",
+        "fragger",
+        "igl",
+        "hunter",
+        "reaper",
+        "striker",
+        "assassin",
+        "predator",
+        "slayer",
+        "warrior",
+        "champion",
+        "conqueror",
+        "ace",
+        "legend",
+        "titan",
+        "demon",
+        "beast"
+      ],
+      "suffixes": [
+        "op",
+        "gg",
+        "x",
+        "pro",
+        "one",
+        "yt"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "sniper": {
+      "label": "Sniper & Roles",
+      "icon": "◎",
+      "adjectives": [
+        "silent",
+        "long",
+        "one",
+        "head",
+        "quick",
+        "cold",
+        "steady",
+        "hidden",
+        "sharp",
+        "dead",
+        "far",
+        "still"
+      ],
+      "nouns": [
+        "sniper",
+        "scope",
+        "awm",
+        "kar98",
+        "m24",
+        "headshot",
+        "marksman",
+        "rusher",
+        "medic",
+        "support",
+        "flanker",
+        "scout",
+        "spotter",
+        "trigger",
+        "crosshair",
+        "recoil",
+        "reload",
+        "shot"
+      ],
+      "suffixes": [
+        "op",
+        "x",
+        "shot",
+        "one",
+        "gg",
+        "yt"
+      ],
+      "symbols": [
+        "◎",
+        "✦",
+        "⌖",
+        "★",
+        "☠",
+        "⚔"
+      ]
+    },
+    "squad": {
+      "label": "Squad & Clan",
+      "icon": "▲",
+      "adjectives": [
+        "tx",
+        "sz",
+        "rx",
+        "kx",
+        "vz",
+        "nx",
+        "gx",
+        "zy",
+        "ax",
+        "dx",
+        "lx",
+        "px"
+      ],
+      "nouns": [
+        "squad",
+        "clan",
+        "esports",
+        "team",
+        "crew",
+        "gang",
+        "unit",
+        "guild",
+        "legion",
+        "empire",
+        "dynasty",
+        "brothers",
+        "warriors",
+        "hunters",
+        "kings",
+        "titans",
+        "legends",
+        "army"
+      ],
+      "suffixes": [
+        "esports",
+        "gg",
+        "x",
+        "hq",
+        "one",
+        "op"
+      ],
+      "symbols": [
+        "▲",
+        "◆",
+        "✦",
+        "★",
+        "⚡",
+        "⌁"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "grim",
+        "cursed",
+        "silent",
+        "shadow",
+        "midnight",
+        "phantom",
+        "wicked",
+        "cold",
+        "deadly",
+        "black"
+      ],
+      "nouns": [
+        "void",
+        "raven",
+        "shadow",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "omen",
+        "reaper",
+        "specter",
+        "crow",
+        "plague",
+        "doom",
+        "nightmare"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "xx",
+        "x",
+        "op",
+        "666"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "☽",
+        "✞",
+        "☠"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "noob"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "chicken",
+        "pan",
+        "bot"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "supreme",
+        "xd",
+        "007"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "🍳"
+      ]
+    },
+    "king": {
+      "label": "King & Boss",
+      "icon": "♛",
+      "adjectives": [
+        "king",
+        "boss",
+        "royal",
+        "alpha",
+        "mighty",
+        "supreme",
+        "grand",
+        "golden",
+        "iron",
+        "thunder",
+        "war",
+        "blood"
+      ],
+      "nouns": [
+        "king",
+        "boss",
+        "lord",
+        "emperor",
+        "raja",
+        "don",
+        "chief",
+        "captain",
+        "sultan",
+        "warlord",
+        "commander",
+        "general",
+        "master",
+        "baap",
+        "bhai",
+        "dada",
+        "monarch",
+        "tiger"
+      ],
+      "suffixes": [
+        "king",
+        "boss",
+        "007",
+        "op",
+        "x",
+        "one"
+      ],
+      "symbols": [
+        "♛",
+        "♕",
+        "⚔",
+        "★",
+        "✦",
+        "☬"
+      ]
+    },
+    "beast": {
+      "label": "Beast",
+      "icon": "🐺",
+      "adjectives": [
+        "iron",
+        "steel",
+        "savage",
+        "alpha",
+        "wild",
+        "black",
+        "blood",
+        "thunder",
+        "grim",
+        "feral",
+        "silver",
+        "rabid"
+      ],
+      "nouns": [
+        "wolf",
+        "viper",
+        "hawk",
+        "bear",
+        "panther",
+        "cobra",
+        "shark",
+        "jackal",
+        "bull",
+        "raptor",
+        "lion",
+        "tiger",
+        "falcon",
+        "rhino",
+        "hound",
+        "scorpion",
+        "kraken",
+        "eagle"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "op",
+        "one",
+        "king",
+        "gg"
+      ],
+      "symbols": [
+        "☠",
+        "⚔",
+        "✖",
+        "★",
+        "⚡",
+        "☬"
+      ]
+    },
+    "stylish": {
+      "label": "Stylish",
+      "icon": "✦",
+      "adjectives": [
+        "neon",
+        "frost",
+        "storm",
+        "onyx",
+        "phantom",
+        "vapor",
+        "cyber",
+        "nova",
+        "zero",
+        "ultra",
+        "hyper",
+        "glitch"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "byte",
+        "cipher",
+        "vector",
+        "matrix",
+        "pixel"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "op",
+        "one",
+        "zero",
+        "io"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:pro",
+      "Pro"
+    ],
+    [
+      "style:sniper",
+      "Sniper"
+    ],
+    [
+      "style:squad",
+      "Squad"
+    ],
+    [
+      "style:dark",
+      "Dark"
+    ],
+    [
+      "style:king",
+      "King"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Plain"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Make It a Stylish PUBG Name",
+    "text": "PUBG Mobile accepts many Unicode letters in names. Copy a name here, then run it through a font tool for the stylish look players use in BGMI lobbies.",
+    "links": [
+      [
+        "Free Fire font generator",
+        "/free-fire-font-generator.html"
+      ],
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the PUBG Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the PUBG style you choose, and the options under Customize. Symbols are off by default so every result is plain text; switch them on for the decorated names PUBG Mobile allows, or style the plain name with a font tool afterwards.",
+      "Leave the word blank and the generator pairs two PUBG words instead — silentsniper, txsquad, ironwolf — so it also works as a random PUBG name generator for a smurf or a clan account."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a word you like. The generator keeps it whole and builds around it: arjun becomes proarjun, arjunop or arjun_sniper."
+      ],
+      [
+        "Pick a PUBG username style",
+        "Pro, sniper & roles, squad & clan, dark, funny, king & boss, beast or stylish. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use Short to stay under 14 characters, heart the ones you like, then copy and paste into PUBG Mobile → Settings → Basic → Rename with a Rename Card."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "PUBG Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Pro and sniper names dominate ranked; squad names use two-letter clan tags; king and beast names are the BGMI classics — but every style here works for anyone. Click any PUBG name to copy it.",
+    "groups": [
+      {
+        "key": "pro",
+        "title": "Pro PUBG Usernames",
+        "blurb": "Sniper, fragger, IGL, conqueror — names that say you play ranked.",
+        "examples": [
+          "prosniper",
+          "elitefragger",
+          "silentigl",
+          "clutchreaper",
+          "arjunop",
+          "lethalstriker",
+          "godlyace",
+          "conquerorx"
+        ]
+      },
+      {
+        "key": "sniper",
+        "title": "Sniper & Role PUBG Usernames",
+        "blurb": "AWM, Kar98, M24, headshot, medic — names built from your role and your gun.",
+        "examples": [
+          "silentawm",
+          "kar98king",
+          "oneshotm24",
+          "headshotop",
+          "longscope",
+          "steadyrusher",
+          "hiddenmedic",
+          "arjunsniper"
+        ]
+      },
+      {
+        "key": "squad",
+        "title": "PUBG Squad & Clan Usernames",
+        "blurb": "Two-letter tags in front — TX, SZ, RX — the clan format every BGMI lobby uses.",
+        "examples": [
+          "txarjun",
+          "szsquad",
+          "rxlegends",
+          "kxhunters",
+          "vzesports",
+          "nxkings",
+          "gxtitans",
+          "arjunesports"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark PUBG Usernames",
+        "blurb": "Void, wraith, reaper, plague — moody names for a ghillie-suit main. The [emo username generator](/emo-username-generator.html) goes darker.",
+        "examples": [
+          "hollowvoid",
+          "grimwraith",
+          "arjunnoir",
+          "phantomplague",
+          "cursedcrow",
+          "deadlyomen",
+          "voidreaper",
+          "blackash"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny PUBG Usernames",
+        "blurb": "Pan, chicken, noob, potato — names that get a laugh before the plane drops.",
+        "examples": [
+          "noobwithpan",
+          "sleepychicken",
+          "angrypotato",
+          "grumpygoose",
+          "arjunpants",
+          "soggyllama",
+          "wobblytoast",
+          "botsupreme"
+        ]
+      },
+      {
+        "key": "king",
+        "title": "King & Boss PUBG Usernames",
+        "blurb": "King, boss, raja, don, baap — the confident BGMI classics.",
+        "examples": [
+          "kingarjun",
+          "arjunboss",
+          "royalraja",
+          "alphadon",
+          "thunderchief",
+          "goldensultan",
+          "ironwarlord",
+          "bossbhai"
+        ]
+      },
+      {
+        "key": "beast",
+        "title": "Beast PUBG Usernames",
+        "blurb": "Wolf, tiger, cobra, kraken — animal names that read as a squad name too.",
+        "examples": [
+          "ironwolf",
+          "savagetiger",
+          "alphacobra",
+          "arjunhawk",
+          "bloodraptor",
+          "thunderjackal",
+          "feralscorpion",
+          "steeleagle"
+        ]
+      },
+      {
+        "key": "stylish",
+        "title": "Stylish PUBG Usernames",
+        "blurb": "Neon, frost, vortex, cipher — clean names that take Unicode styling well. Pair with the [Free Fire font generator](/free-fire-font-generator.html) for the decorated look.",
+        "examples": [
+          "neonvortex",
+          "frostcipher",
+          "arjunzero",
+          "phantomrift",
+          "vaporapex",
+          "cybernova",
+          "onyxdrift",
+          "glitchpulse"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "proarjun",
+      "arjunop",
+      "silentawm",
+      "txarjun",
+      "kingarjun",
+      "ironwolf"
+    ],
+    "alt": "PUBG username generator example: the name arjun turned into proarjun, arjunop, silentawm, txarjun and other PUBG name ideas",
+    "caption": "One name in, eight PUBG styles out — every result fits PUBG Mobile's 14-character limit.",
+    "tagline": "PRO · SNIPER · SQUAD · KING · BEAST",
+    "sample": "arjun",
+    "src": "/assets/previews/pubg-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Game versions",
+    "title": "PUBG Usernames for PUBG Mobile, BGMI, PC & New State",
+    "intro": "Each PUBG version has slightly different name rules. These shortcuts fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "PUBG Mobile Usernames",
+        "text": "Up to 14 characters, letters, numbers, underscores and many Unicode symbols. Changing it costs a Rename Card, so test the name here first.",
+        "examples": [
+          "proarjun",
+          "arjun_op",
+          "ᴀʀᴊᴜɴ"
+        ],
+        "preset": {
+          "style": "pro",
+          "symbols": "none",
+          "length": "short"
+        },
+        "button": "Generate PUBG Mobile names ↑"
+      },
+      {
+        "icon": "▲",
+        "title": "BGMI Usernames",
+        "text": "Battlegrounds Mobile India uses the same 14-character rules. Clan tags, king and boss names and Hindi-flavoured words like raja, bhai and baap are the local classics.",
+        "examples": [
+          "txarjun",
+          "kingbhai",
+          "arjunbaap"
+        ],
+        "preset": {
+          "style": "king",
+          "symbols": "none"
+        },
+        "button": "Generate BGMI names ↑",
+        "link": [
+          "Gaming usernames",
+          "/gaming-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "PUBG PC (Battlegrounds) Usernames",
+        "text": "PC names are 4–16 characters, letters, numbers, underscores and hyphens, no symbols and no spaces. Pro and sniper styles fit the format.",
+        "examples": [
+          "silent_awm",
+          "arjun-sniper",
+          "elitefragger"
+        ],
+        "preset": {
+          "style": "sniper",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate PC names ↑"
+      },
+      {
+        "icon": "⌁",
+        "title": "PUBG New State Usernames",
+        "text": "New State allows 2–16 characters and shows names in a futuristic UI, so stylish and cyber words suit it. Keep symbols off for the handle.",
+        "examples": [
+          "neonvortex",
+          "arjunzero",
+          "cybernova"
+        ],
+        "preset": {
+          "style": "stylish",
+          "symbols": "none",
+          "separator": "none"
+        },
+        "button": "Generate New State names ↑",
+        "link": [
+          "Cool usernames",
+          "/cool-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Stylish PUBG Username",
+    "intro": "The generator follows a handful of formulas you will recognise from any lobby. Knowing them helps you tweak a result or build your own PUBG name by hand.",
+    "rows": [
+      [
+        "Pro adjective + name",
+        "**Pro** / **Silent** / **Elite** + **Arjun** → says how you play before your name lands",
+        [
+          "proarjun",
+          "silentarjun"
+        ]
+      ],
+      [
+        "Name + op / gg / yt",
+        "**Arjun** + **op** → the PUBG suffix; op means overpowered, yt points at your channel",
+        [
+          "arjunop",
+          "arjunyt"
+        ]
+      ],
+      [
+        "Clan tag + name",
+        "**TX** / **SZ** / **RX** + **Arjun** → a two-letter tag in front, clan optional",
+        [
+          "txarjun",
+          "szarjun"
+        ]
+      ],
+      [
+        "Name + gun or role",
+        "**Arjun** + **AWM** / **Sniper** → your weapon or role, in one word",
+        [
+          "arjunawm",
+          "arjunsniper"
+        ]
+      ],
+      [
+        "King / boss + name",
+        "**King** / **Boss** + **Arjun** → the BGMI classic",
+        [
+          "kingarjun",
+          "arjunboss"
+        ]
+      ],
+      [
+        "Name _ word",
+        "**Arjun** + **_** + **Reaper** → the underscore is the separator PUBG allows on every version",
+        [
+          "arjun_reaper"
+        ]
+      ],
+      [
+        "Name + 007 / 47",
+        "**Arjun** + **007** / **47** → a number with a reference looks intentional",
+        [
+          "arjun007",
+          "arjun47"
+        ]
+      ],
+      [
+        "Unicode styling",
+        "**Arjun** → **ᴀʀᴊᴜɴ**, **𝔸𝕣𝕛𝕦𝕟** → PUBG Mobile accepts small text and other Unicode letters; style the plain name with a font tool",
+        [
+          "ᴀʀᴊᴜɴ",
+          "𝔸𝕣𝕛𝕦𝕟"
+        ]
+      ]
+    ],
+    "note": "One trick per name. *proarjun* is a PUBG name; *꧁☬𝕻𝖗𝖔𝕬𝖗𝖏𝖚𝖓☬꧂* still fits in 14 characters but nobody can type it to add you. Keep a plain version for friend requests and use the decorated one as the display."
+  },
+  "symbols": {
+    "title": "PUBG Symbols for Usernames",
+    "intro": "PUBG Mobile and BGMI accept these in the name field, which is why decorated names are everywhere. Click a symbol to copy it — but count characters: each one uses one of your 14.",
+    "items": [
+      [
+        "꧁",
+        "ornate bracket left"
+      ],
+      [
+        "꧂",
+        "ornate bracket right"
+      ],
+      [
+        "☬",
+        "adi shakti"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "☆",
+        "white star"
+      ],
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "⚔",
+        "crossed swords"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "⚡",
+        "lightning"
+      ],
+      [
+        "♛",
+        "crown"
+      ],
+      [
+        "♕",
+        "white crown"
+      ],
+      [
+        "◎",
+        "bullseye"
+      ],
+      [
+        "⌖",
+        "position indicator"
+      ],
+      [
+        "▲",
+        "triangle"
+      ],
+      [
+        "◆",
+        "black diamond"
+      ],
+      [
+        "✖",
+        "heavy cross"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "✪",
+        "circled star"
+      ],
+      [
+        "ツ",
+        "smiling katakana tsu"
+      ],
+      [
+        "乡",
+        "xiang character"
+      ]
+    ],
+    "combos": [
+      "꧁arjun꧂",
+      "☬arjun☬",
+      "꧁☬arjun☬꧂",
+      "★arjun★",
+      "乡arjun",
+      "arjunツ",
+      "⚔arjun⚔",
+      "♛arjun♛"
+    ],
+    "note": "PUBG Mobile, BGMI and New State display these; PUBG on PC and consoles reject them. Because each symbol counts toward the 14-character limit, ꧁☬name☬꧂ leaves only 8 for the name itself. For full stylish alphabets, use the [Free Fire font generator](/free-fire-font-generator.html) or the [cool text generator](/cool-text-generator.html)."
+  },
+  "guide": {
+    "title": "How Our PUBG Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to PUBG or Krafton. PUBG usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a PUBG noun instead."
+      ],
+      [
+        "PUBG vocabulary.",
+        "Each of the eight styles has its own hand-written list — sniper, fragger and IGL for pro; AWM, Kar98 and headshot for roles; king, raja and bhai for the BGMI classics — so a funny result never borrows a pro word by accident."
+      ],
+      [
+        "Lobby patterns.",
+        "Adjective + name, name + op, clan tag + name, name + gun, king + name, underscore joins and reference numbers. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Length awareness.",
+        "The Short filter keeps results at 8 characters or fewer, leaving room for a clan tag or a symbol pair inside PUBG Mobile's 14-character limit."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a name is free — the rename screen tells you when you try."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "PUBG Username Rules and Rename Cards",
+  "uniqueBody": [
+    "PUBG Mobile and BGMI names are capped at **14 characters** and can include letters, numbers, underscores and a wide range of Unicode symbols — which is why lobbies are full of ꧁☬ brackets and small-text letters. Changing your name costs a **Rename Card**: you get one free at level 10, and after that they come from the shop, events or the Royale Pass, so most players change their name rarely and should test it here first. PUBG: Battlegrounds on PC and console is stricter — 4 to 16 characters, letters, numbers, underscores and hyphens only, no symbols — and PUBG New State allows 2 to 16 characters.",
+    "That is why this PUBG username generator keeps symbols off by default and offers a Short filter: an 8-character plain name leaves six characters for a clan tag or a symbol pair, works on every PUBG version, and can be typed by a friend sending a request. Style only the display version. For gamertags beyond PUBG, the [gaming username generator](/gaming-username-generator.html) covers every console and launcher; the [Fortnite username generator](/fortnite-username-generator.html) and [Roblox username generator](/roblox-username-generator.html) build each game's rules in; and the main [username generator](/username-generator.html) mixes gaming with cool, dark and funny styles."
+  ],
+  "source": {
+    "before": "Name limits and the Rename Card system are described in ",
+    "name": "PUBG Mobile's official support pages",
+    "href": "https://www.pubgmobile.com/en-US/support.shtml",
+    "after": "."
+  },
+  "faqTitle": "PUBG Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a PUBG username generator?",
+      "It is a tool that combines a word you choose with curated PUBG vocabulary — sniper, fragger, AWM, clan tags, king and boss — and lobby naming patterns to produce PUBG Mobile, BGMI and PC name ideas within the character limits. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some stylish PUBG username ideas?",
+      "Examples from the styles above: prosniper, silentawm, txsquad, hollowvoid, noobwithpan, kingarjun, ironwolf and neonvortex. Type your own name to get versions built around it, such as proarjun or arjunop, then style it with Unicode letters if you want the decorated look."
+    ],
+    [
+      "How many characters can a PUBG username have?",
+      "PUBG Mobile and BGMI allow up to 14 characters including symbols. PUBG: Battlegrounds on PC allows 4–16 characters with letters, numbers, underscores and hyphens only. PUBG New State allows 2–16. Use the Short filter to leave room for a clan tag or symbols."
+    ],
+    [
+      "How do I change my PUBG username?",
+      "In PUBG Mobile or BGMI, go to Settings → Basic → Rename and use a Rename Card; you get one free at level 10, and later ones come from the shop, events or the Royale Pass. Because cards are limited, test the name here and copy it exactly before you spend one."
+    ],
+    [
+      "Can I use symbols in my PUBG username?",
+      "Yes on PUBG Mobile, BGMI and New State — ꧁, ☬, ★ and small-text Unicode letters all work in the name field. No on PC and console. Every symbol counts toward the 14-character limit, so ꧁☬name☬꧂ leaves only 8 characters for the name itself."
+    ],
+    [
+      "Does this PUBG username generator check availability?",
+      "No. Nothing here talks to PUBG, Krafton or Tencent, so it cannot know whether a name is taken. Copy the one you like and try it on the rename screen — it tells you immediately if the name is unavailable, before the Rename Card is spent."
+    ],
+    [
+      "What is a good PUBG squad or clan username format?",
+      "A two-letter clan tag in front of each member's name — TXArjun, TXSam, TXNova — is the standard BGMI format. Pick the Squad & Clan style above to generate tags, or take one base and change only the name after the tag for each player."
+    ],
+    [
+      "Can I copy and paste the generated PUBG usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. For the decorated look, paste the plain name into the [Free Fire font generator](/free-fire-font-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators & Stylish Fonts",
+    "intro": "Pick a different game, or decorate your PUBG name with Unicode letters."
+  },
+  "links": [
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for Xbox, PlayStation, Steam and Discord in eight styles.",
+      "⌁"
+    ],
+    [
+      "Fortnite Username Generator",
+      "/fortnite-username-generator.html",
+      "Sweaty, cool, funny and OG Fortnite names within Epic's rules.",
+      "🎯"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Cool, cute and gaming names that follow Roblox's username format.",
+      "🎮"
+    ],
+    [
+      "Free Fire Font Generator",
+      "/free-fire-font-generator.html",
+      "Stylish Unicode name text that works in PUBG Mobile and BGMI too.",
+      "🔥"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for decorated names.",
+      "𝕮"
+    ],
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and gamer-ready handles from your name."
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord."
+    ],
+    [
+      "Call of Duty Username Generator",
+      "/call-of-duty-username-generator.html",
+      "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "Fortnite username generator",
+      "/fortnite-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "Free Fire font generator",
+      "/free-fire-font-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "small text generator",
+      "/small-text-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "linkNote": "Pro, sniper and clan-tag PUBG Mobile and BGMI names.",
+  "maxLength": 14
+}

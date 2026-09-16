@@ -1,0 +1,1016 @@
+{
+  "type": "username",
+  "keyword": "rare username generator",
+  "file": "rare-username-generator.html",
+  "label": "Rare",
+  "title": "Rare Username Generator – Unique, Uncommon & OG Names",
+  "description": "Rare username generator: uncommon, one-word and OG-style username ideas built from rare dictionary words, old names and short forms that are rarely taken.",
+  "h1": "Rare Username Generator",
+  "appName": "Rare Username Generator",
+  "kicker": "Free · 8 rare styles · 24 ideas per batch · copy & paste",
+  "sub": "Uncommon words, forgotten names, one-word handles and OG-style short forms",
+  "intro": "This rare username generator builds usernames from words most people never think to use — obsolete dictionary words, forgotten first names, minerals, weather terms, Latin roots and four-to-six-letter forms — so the result is far less likely to be taken than anything from a \"500 cool usernames\" list. Pick a style, generate 24 rare usernames at a time, filter by length, heart the ones you like and copy them for Instagram, TikTok, Discord, Roblox or a brand.",
+  "perks": [
+    "Uncommon vocabulary, not the usual list",
+    "Short filter for OG-style handles",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "nova",
+  "seed": 31337,
+  "defaults": {
+    "symbols": "none",
+    "numbers": "none"
+  },
+  "placeholder": "nova, iris, ash, kai, wren…",
+  "stylesLegend": "Choose a rare style",
+  "resultsTitle": "Rare username ideas",
+  "common": {
+    "prefixes": [
+      "ex",
+      "un",
+      "re",
+      "im",
+      "de",
+      "so",
+      "no",
+      "sub",
+      "in",
+      "ur",
+      "al",
+      "el"
+    ],
+    "suffixes": [
+      "ix",
+      "ae",
+      "um",
+      "er",
+      "ly",
+      "oe",
+      "ia",
+      "ux",
+      "io",
+      "ae"
+    ]
+  },
+  "styles": {
+    "obscure": {
+      "label": "Obscure Words",
+      "icon": "📖",
+      "adjectives": [
+        "sere",
+        "wan",
+        "lorn",
+        "fey",
+        "dour",
+        "lief",
+        "eldritch",
+        "wroth",
+        "nimble",
+        "gaunt",
+        "sundry",
+        "quaint"
+      ],
+      "nouns": [
+        "sonder",
+        "vellichor",
+        "petrichor",
+        "murmur",
+        "lacuna",
+        "quire",
+        "thole",
+        "ember",
+        "halcyon",
+        "eidolon",
+        "lumen",
+        "cynosure",
+        "rune",
+        "susurrus",
+        "quell",
+        "tarn",
+        "wold",
+        "fen"
+      ],
+      "suffixes": [
+        "ix",
+        "ae",
+        "um",
+        "ly",
+        "ish",
+        "ling"
+      ],
+      "symbols": [
+        "·",
+        "⋆",
+        "˚",
+        "⊹"
+      ]
+    },
+    "oldnames": {
+      "label": "Forgotten Names",
+      "icon": "📜",
+      "adjectives": [
+        "old",
+        "little",
+        "saint",
+        "fair",
+        "young",
+        "dear",
+        "true",
+        "lone",
+        "still",
+        "wild",
+        "high",
+        "elder"
+      ],
+      "nouns": [
+        "ophelia",
+        "ambrose",
+        "ignatius",
+        "wilhelmina",
+        "cornelius",
+        "theodora",
+        "leopold",
+        "octavia",
+        "bartholomew",
+        "isolde",
+        "lucius",
+        "marguerite",
+        "percival",
+        "rosalind",
+        "silas",
+        "elowen",
+        "cassius",
+        "beatrix"
+      ],
+      "suffixes": [
+        "ine",
+        "ette",
+        "wyn",
+        "ius",
+        "ella",
+        "lin"
+      ],
+      "symbols": [
+        "❦",
+        "⋆",
+        "·",
+        "✧"
+      ]
+    },
+    "minerals": {
+      "label": "Minerals & Metals",
+      "icon": "◇",
+      "adjectives": [
+        "raw",
+        "cold",
+        "pale",
+        "dark",
+        "burnt",
+        "cut",
+        "rough",
+        "black",
+        "grey",
+        "ashen",
+        "polished",
+        "veined"
+      ],
+      "nouns": [
+        "onyx",
+        "jasper",
+        "beryl",
+        "garnet",
+        "cobalt",
+        "slate",
+        "flint",
+        "opal",
+        "quartz",
+        "agate",
+        "basalt",
+        "zircon",
+        "topaz",
+        "obsidian",
+        "peridot",
+        "pewter",
+        "ochre",
+        "umber"
+      ],
+      "suffixes": [
+        "ite",
+        "ine",
+        "um",
+        "ix",
+        "co",
+        "ore"
+      ],
+      "symbols": [
+        "◇",
+        "◆",
+        "⋆",
+        "·",
+        "▲",
+        "⊹"
+      ]
+    },
+    "weather": {
+      "label": "Weather & Sky",
+      "icon": "☁",
+      "adjectives": [
+        "pale",
+        "low",
+        "late",
+        "grey",
+        "still",
+        "cold",
+        "thin",
+        "high",
+        "wet",
+        "wild",
+        "north",
+        "east"
+      ],
+      "nouns": [
+        "gale",
+        "sleet",
+        "haar",
+        "rime",
+        "squall",
+        "zephyr",
+        "gloaming",
+        "nimbus",
+        "brume",
+        "eddy",
+        "dusk",
+        "aurora",
+        "mistral",
+        "fog",
+        "hoar",
+        "drizzle",
+        "cirrus",
+        "thaw"
+      ],
+      "suffixes": [
+        "ly",
+        "ish",
+        "fall",
+        "wind",
+        "sky",
+        "ae"
+      ],
+      "symbols": [
+        "☁",
+        "☾",
+        "⋆",
+        "✧",
+        "˚",
+        "☀"
+      ]
+    },
+    "latin": {
+      "label": "Latin & Greek",
+      "icon": "Ω",
+      "adjectives": [
+        "alba",
+        "nox",
+        "prima",
+        "ultima",
+        "vera",
+        "sola",
+        "magna",
+        "terra",
+        "aeterna",
+        "clara",
+        "nova",
+        "lux"
+      ],
+      "nouns": [
+        "lumen",
+        "aether",
+        "umbra",
+        "astra",
+        "veritas",
+        "solum",
+        "ignis",
+        "aqua",
+        "caelum",
+        "ventus",
+        "silva",
+        "arcus",
+        "vox",
+        "nihil",
+        "orbis",
+        "kairos",
+        "logos",
+        "ethos"
+      ],
+      "suffixes": [
+        "ix",
+        "um",
+        "ae",
+        "us",
+        "is",
+        "os"
+      ],
+      "symbols": [
+        "Ω",
+        "⋆",
+        "·",
+        "✧",
+        "✵",
+        "⊹"
+      ]
+    },
+    "short": {
+      "label": "Short Forms",
+      "icon": "·",
+      "adjectives": [
+        "ex",
+        "un",
+        "re",
+        "de",
+        "so",
+        "no",
+        "al",
+        "el",
+        "im",
+        "ur",
+        "ok",
+        "ah"
+      ],
+      "nouns": [
+        "vex",
+        "lux",
+        "nyx",
+        "ryn",
+        "kai",
+        "zed",
+        "ivo",
+        "oxe",
+        "ash",
+        "ely",
+        "ora",
+        "uma",
+        "ivy",
+        "rue",
+        "fen",
+        "ode",
+        "eos",
+        "ren"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "e",
+        "y"
+      ],
+      "symbols": [
+        "·",
+        "⋆",
+        "˚"
+      ]
+    },
+    "botanical": {
+      "label": "Botanical",
+      "icon": "❀",
+      "adjectives": [
+        "wild",
+        "pale",
+        "dwarf",
+        "creeping",
+        "night",
+        "sea",
+        "moss",
+        "bog",
+        "wood",
+        "hedge",
+        "meadow",
+        "wall"
+      ],
+      "nouns": [
+        "yarrow",
+        "sorrel",
+        "vetch",
+        "bryony",
+        "teasel",
+        "burnet",
+        "clary",
+        "tansy",
+        "rue",
+        "woad",
+        "madder",
+        "vervain",
+        "sedge",
+        "linden",
+        "alder",
+        "rowan",
+        "hawthorn",
+        "juniper"
+      ],
+      "suffixes": [
+        "wort",
+        "bane",
+        "leaf",
+        "root",
+        "ling",
+        "ae"
+      ],
+      "symbols": [
+        "❀",
+        "✿",
+        "⋆",
+        "ꕤ",
+        "˚",
+        "❦"
+      ]
+    },
+    "abstract": {
+      "label": "Abstract",
+      "icon": "⊹",
+      "adjectives": [
+        "null",
+        "void",
+        "mono",
+        "meta",
+        "para",
+        "quasi",
+        "proto",
+        "ultra",
+        "hyper",
+        "anti",
+        "omni",
+        "semi"
+      ],
+      "nouns": [
+        "axiom",
+        "tangent",
+        "vector",
+        "cipher",
+        "quanta",
+        "entropy",
+        "vertex",
+        "matrix",
+        "prism",
+        "nadir",
+        "apex",
+        "epoch",
+        "flux",
+        "sigma",
+        "delta",
+        "theta",
+        "lambda",
+        "index"
+      ],
+      "suffixes": [
+        "ix",
+        "um",
+        "io",
+        "os",
+        "on",
+        "ex"
+      ],
+      "symbols": [
+        "⊹",
+        "·",
+        "◇",
+        "⋆",
+        "Ω",
+        "▲"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:obscure",
+      "Obscure"
+    ],
+    [
+      "style:oldnames",
+      "Old Names"
+    ],
+    [
+      "style:minerals",
+      "Minerals"
+    ],
+    [
+      "style:latin",
+      "Latin"
+    ],
+    [
+      "style:short",
+      "Short Forms"
+    ],
+    [
+      "short",
+      "≤ 8 letters"
+    ],
+    [
+      "nosymbols",
+      "Plain"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Keep It Plain — Style the Display Name",
+    "text": "A rare username is worth more without decoration. Copy it as-is for the handle, then style only your display name with a font tool.",
+    "links": [
+      [
+        "Fancy text generator",
+        "/fancy-text-generator.html"
+      ],
+      [
+        "Small Text",
+        "/small-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Rare Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the rare style you choose, and the options under Customize. Numbers and symbols are off by default — a rare username should not need them — and the ≤ 8 letters filter narrows to the OG-style short forms that are hardest to find.",
+      "Leave the word blank and the generator pairs two rare words instead — palehalcyon, flintore, oldophelia — which is usually where the rarest results come from, because neither half is on anyone's list."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a word you like. The generator keeps it whole and pairs it with rare vocabulary: nova becomes novaix, palenova or nova.rime."
+      ],
+      [
+        "Pick a rare username style",
+        "Obscure words, forgotten names, minerals, weather, Latin and Greek, short forms, botanical or abstract. Each is a different corner of the dictionary; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use the ≤ 8 letters filter for OG-style handles, heart the ones you like, then copy and paste them into the platform to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Rare Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Every word here was chosen because it is real, pronounceable and uncommon — the rarity comes from the word list, not from adding numbers. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "obscure",
+        "title": "Rare Dictionary-Word Usernames",
+        "blurb": "Sonder, petrichor, halcyon, lacuna — real words most people have never typed into a username field.",
+        "examples": [
+          "sonder",
+          "vellichor",
+          "palehalcyon",
+          "lornember",
+          "lacunae",
+          "susurrus",
+          "feyquire",
+          "tarnwold"
+        ]
+      },
+      {
+        "key": "oldnames",
+        "title": "Rare Old-Name Usernames",
+        "blurb": "Ophelia, Ambrose, Wilhelmina, Percival — names that fell out of fashion a century ago and are wide open online.",
+        "examples": [
+          "oldophelia",
+          "ambroseine",
+          "wilhelmina",
+          "stillisolde",
+          "leopoldlin",
+          "elowen",
+          "saintcassius",
+          "beatrixwyn"
+        ]
+      },
+      {
+        "key": "minerals",
+        "title": "Mineral & Metal Usernames",
+        "blurb": "Onyx, jasper, beryl, cobalt — short, hard and mostly untaken past the obvious ones.",
+        "examples": [
+          "rawjasper",
+          "beryl",
+          "coldcobalt",
+          "flintore",
+          "peridot",
+          "ashenslate",
+          "umberite",
+          "pewterco"
+        ]
+      },
+      {
+        "key": "weather",
+        "title": "Weather & Sky Usernames",
+        "blurb": "Haar, rime, squall, gloaming — weather words from old dialects, one syllable each.",
+        "examples": [
+          "haar",
+          "palerime",
+          "gloaming",
+          "northsquall",
+          "brume",
+          "hoarfall",
+          "cirrusly",
+          "lowzephyr"
+        ]
+      },
+      {
+        "key": "latin",
+        "title": "Latin & Greek Usernames",
+        "blurb": "Umbra, lumen, kairos, veritas — roots that sound like a brand and read the same in any language.",
+        "examples": [
+          "umbra",
+          "novalumen",
+          "kairos",
+          "albaignis",
+          "aetherum",
+          "veritasix",
+          "noxsilva",
+          "solumos"
+        ]
+      },
+      {
+        "key": "short",
+        "title": "Rare Short-Form Usernames",
+        "blurb": "Three-to-five-letter handles — vex, nyx, ryn, ivo — the OG tier that is nearly impossible to find by guessing. The [short username generator](/short-username-generator.html) enforces the length.",
+        "examples": [
+          "vex",
+          "nyxo",
+          "ryn",
+          "ivoz",
+          "exnova",
+          "eos",
+          "rue",
+          "novai"
+        ]
+      },
+      {
+        "key": "botanical",
+        "title": "Botanical Usernames",
+        "blurb": "Yarrow, sorrel, bryony, woad — plant names outside the rose-and-lily set everyone already took.",
+        "examples": [
+          "yarrow",
+          "wildsorrel",
+          "bryony",
+          "teaselwort",
+          "woad",
+          "nightvervain",
+          "madderleaf",
+          "hedgerowan"
+        ]
+      },
+      {
+        "key": "abstract",
+        "title": "Abstract & Scientific Usernames",
+        "blurb": "Axiom, nadir, entropy, lambda — clean, brandable words with no personal detail.",
+        "examples": [
+          "axiom",
+          "nullvector",
+          "nadir",
+          "protoflux",
+          "entropyx",
+          "metaprism",
+          "sigmaon",
+          "quasiepoch"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "novaix",
+      "palenova",
+      "sonder",
+      "wilhelmina",
+      "haar",
+      "umbra"
+    ],
+    "alt": "Rare username generator example: the word nova turned into novaix, palenova, sonder, wilhelmina and other rare username ideas",
+    "caption": "One word in, eight corners of the dictionary out — every result on the page comes from the vocabulary above.",
+    "tagline": "OBSCURE · OLD NAMES · MINERALS · LATIN · SHORT",
+    "sample": "nova",
+    "src": "/assets/previews/rare-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Where rarity matters",
+    "title": "Rare Usernames for Instagram, Roblox, Discord & Brands",
+    "intro": "Rarity means something different on each platform. These shortcuts pick settings that suit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Rare Instagram Usernames",
+        "text": "Instagram has over two billion accounts, so every common word is gone. Obscure words and old names, lowercase, no numbers, are the handles still available.",
+        "examples": [
+          "vellichor",
+          "stillisolde",
+          "nova.rime"
+        ],
+        "preset": {
+          "style": "obscure",
+          "symbols": "none",
+          "numbers": "none"
+        },
+        "button": "Generate for Instagram ↑",
+        "link": [
+          "Instagram usernames",
+          "/instagram-username-generator.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Rare Roblox Usernames",
+        "text": "On Roblox a rare username means a short, pronounceable, un-numbered name — the kind people trade. Use the ≤ 8 letters filter and Short Forms.",
+        "examples": [
+          "nyxo",
+          "flint",
+          "ryn_x"
+        ],
+        "preset": {
+          "style": "short",
+          "symbols": "none",
+          "numbers": "none",
+          "length": "short"
+        },
+        "button": "Generate for Roblox ↑",
+        "link": [
+          "Roblox username generator",
+          "/roblox-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Rare Discord Usernames",
+        "text": "Since Discord dropped the #1234 tags, short unique usernames are scarce. Minerals, weather and Latin words fit the lowercase format and are rarely claimed.",
+        "examples": [
+          "haar",
+          "umbra",
+          "coldcobalt"
+        ],
+        "preset": {
+          "style": "weather",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate for Discord ↑",
+        "link": [
+          "Fonts for Discord",
+          "/fonts-for-discord.html"
+        ]
+      },
+      {
+        "icon": "◇",
+        "title": "Rare Brand & Handle Names",
+        "text": "For a brand you want a name that is free on every platform at once. Abstract and Latin words with an -ix, -um or -io suffix are the most consistently available.",
+        "examples": [
+          "axiomix",
+          "lumenio",
+          "protoflux"
+        ],
+        "preset": {
+          "style": "abstract",
+          "symbols": "none",
+          "numbers": "none",
+          "separator": "none"
+        },
+        "button": "Generate brand names ↑"
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Find a Rare Username",
+    "intro": "Rarity is a property of the word list, not the decoration. These are the formulas the generator uses — and the ones that actually produce untaken names.",
+    "rows": [
+      [
+        "One obscure word",
+        "**Sonder**, **Haar**, **Umbra** → a real word nobody else thought of; the rarest and cleanest kind",
+        [
+          "sonder",
+          "haar"
+        ]
+      ],
+      [
+        "Rare adjective + name",
+        "**Pale** / **Lorn** / **Wan** + **Nova** → an uncommon adjective makes a common name rare",
+        [
+          "palenova",
+          "lornnova"
+        ]
+      ],
+      [
+        "Name + Latin suffix",
+        "**Nova** + **-ix** / **-um** / **-ae** → a two-letter tail that almost never collides",
+        [
+          "novaix",
+          "novae"
+        ]
+      ],
+      [
+        "Two rare words",
+        "**Flint** + **Ore**, **Old** + **Ophelia** → neither half is on a list, so the pair is nearly unique",
+        [
+          "flintore",
+          "oldophelia"
+        ]
+      ],
+      [
+        "Forgotten first name",
+        "**Wilhelmina**, **Isolde**, **Percival** → names that were popular in 1890 and empty online",
+        [
+          "wilhelmina",
+          "isolde"
+        ]
+      ],
+      [
+        "Short form",
+        "**Nova** → **Nva**, **Nyx** → **Nyxo** → three-to-five letters, the OG tier",
+        [
+          "nva",
+          "nyxo"
+        ]
+      ],
+      [
+        "Prefix particle + name",
+        "**ex** / **un** / **re** + **Nova** → a two-letter prefix that reads as a word",
+        [
+          "exnova",
+          "unnova"
+        ]
+      ],
+      [
+        "Name . rare word",
+        "**Nova** + **.** + **Rime** → a period keeps both halves readable when the joined form is taken",
+        [
+          "nova.rime"
+        ]
+      ]
+    ],
+    "note": "What does *not* make a username rare: adding 123, xx, an underscore or a symbol to a common word. *shadow_wolf_777* is not rare; *haar* is. If the plain rare word is somehow taken, add a Latin suffix before you add anything else."
+  },
+  "guide": {
+    "title": "How Our Rare Username Generator Works",
+    "intro": "There is no AI behind this page and no database of taken names. Rare usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a rare word instead — usually the better option on this page."
+      ],
+      [
+        "Rare vocabulary.",
+        "Each of the eight styles is a corner of the dictionary most username lists never visit — obsolete English words, names from 1890s census records, mineral names, dialect weather terms, Latin and Greek roots, botanical names. No word here appears in the standard cool, cute or aesthetic lists."
+      ],
+      [
+        "Quiet patterns.",
+        "One word alone, rare adjective + name, Latin suffixes, two-word compounds, short forms and two-letter prefix particles. Loud patterns — numbers, xx, symbols — are off by default because they signal a fallback, not rarity."
+      ],
+      [
+        "Defaults.",
+        "Numbers off, symbols off, separators on Mix. Turn numbers on only if you want a birth-year style; a rare word should stand on its own."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a name is free — but the vocabulary is chosen so that most of them are."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "What Actually Makes a Username Rare?",
+  "uniqueBody": [
+    "A username is rare when the string itself is uncommon, not when a common string has been patched. Instagram has more than two billion accounts, Roblox and Discord hundreds of millions each; every English word in everyday use, every popular first name and every name on a \"cool usernames\" list has been claimed for years. What is still open are **words people do not know** (sonder, haar, vellichor), **names people stopped using** (Wilhelmina, Ignatius, Elowen), **specialist vocabulary** (peridot, vervain, mistral) and **very short strings that happen not to spell anything obvious** (nyxo, ryn, ivoz). Those four categories are what this rare username generator draws from.",
+    "The second thing that makes a name rare is restraint. A three-letter handle with no numbers is worth more than a ten-letter one with 777 on the end, which is why the defaults here turn numbers and symbols off and why the ≤ 8 letters filter exists. On Roblox and Discord in particular, short un-numbered names are the ones people describe as OG or rare and sometimes trade. If you specifically need the shortest possible handle, the [short username generator](/short-username-generator.html) caps every result at eight characters; if you want a rare name in a particular mood, the [aesthetic username generator](/aesthetic-username-generator.html) and [cool username generator](/cool-username-generator.html) have quieter styles; and the main [username generator](/username-generator.html) mixes rare words with every other style in one tool."
+  ],
+  "source": {
+    "before": "Several of the obscure words above come from ",
+    "name": "Wiktionary's Appendix of English archaic and obsolete words",
+    "href": "https://en.wiktionary.org/wiki/Appendix:English_archaic_and_obsolete_words",
+    "after": ", which is a good place to keep digging once you have exhausted the generator."
+  },
+  "faqTitle": "Rare Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a rare username generator?",
+      "It is a tool that builds usernames from uncommon vocabulary — obsolete words, forgotten names, minerals, weather terms, Latin roots and short forms — so the results are far less likely to be taken than names from a standard list. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some rare username ideas?",
+      "Examples from the styles above: sonder, vellichor, wilhelmina, elowen, beryl, haar, umbra, kairos, nyxo, yarrow and axiom. Type your own name for rare pairings built around it, such as novaix or palenova, or leave it blank for the rarest two-word results."
+    ],
+    [
+      "Does this rare username generator check availability?",
+      "No. Nothing here talks to Instagram, Roblox, Discord or any other service, so it cannot confirm a name is free. The vocabulary is chosen so that most results are, but always check on the platform itself — and if a plain rare word is taken, add a Latin suffix like -ix or -um before anything else."
+    ],
+    [
+      "What makes a username rare instead of just random?",
+      "A rare username is a real, pronounceable word or name that almost nobody uses — haar, isolde, peridot. A random username is letters or a common word with numbers attached — xk7shadow_99. The first is memorable and available; the second is available but forgettable. This generator only produces the first kind."
+    ],
+    [
+      "How do I get a rare Roblox username?",
+      "On Roblox, rare means short, pronounceable and un-numbered. Pick Short Forms, turn on the ≤ 8 letters filter and keep numbers off; results like nyxo, ryn and flint are the OG tier. For Roblox's format rules, use the [Roblox username generator](/roblox-username-generator.html)."
+    ],
+    [
+      "Are rare usernames good for Instagram?",
+      "Yes — with two billion accounts, uncommon words are the only single-word handles still open. Obscure words and old names, lowercase and without numbers, look intentional and are easy to remember. Pair one with a styled display name from the [fancy text generator](/fancy-text-generator.html)."
+    ],
+    [
+      "Can I use a rare username for a brand?",
+      "Yes. Abstract and Latin words with an -ix, -um or -io suffix (axiomix, lumenio) are the most consistently available across platforms at once, which is what a brand handle needs. Check the domain and every platform before you commit."
+    ],
+    [
+      "Can I copy and paste the generated rare usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Keep the handle plain; style only the display name."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators",
+    "intro": "Pick another vibe, or go even shorter."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html",
+      "Sixteen aesthetics from coquette to minimal.",
+      "⋆"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and minimal handles.",
+      "⚡"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Short, pronounceable names that follow Roblox's format.",
+      "⌁"
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "300+ Unicode styles for the display name — keep the handle plain.",
+      "𝓕"
+    ],
+    [
+      "Small Text Generator",
+      "/small-text-generator.html",
+      "Tiny Unicode letters for a compact display name or bio.",
+      "ᴀ"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for Xbox, PlayStation, Steam and Discord."
+    ],
+    [
+      "Fantasy Username Generator",
+      "/fantasy-username-generator.html",
+      "Elven, draconic, arcane and royal names for RPGs and D&D."
+    ],
+    [
+      "Reddit Username Generator",
+      "/reddit-username-generator.html",
+      "Anonymous, funny and throwaway u/ names that follow Reddit's rules."
+    ],
+    [
+      "Email Username Generator",
+      "/email-username-generator.html",
+      "Gmail-safe address ideas — professional, personal, brand and anonymous — under 30 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "aesthetic username generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "fancy text generator",
+      "/fancy-text-generator.html"
+    ],
+    [
+      "small text generator",
+      "/small-text-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "linkNote": "Obscure words, old names and OG short forms that are rarely taken."
+}

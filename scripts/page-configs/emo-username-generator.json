@@ -1,0 +1,1125 @@
+{
+  "type": "username",
+  "keyword": "emo username generator",
+  "file": "emo-username-generator.html",
+  "label": "Emo",
+  "title": "Emo Username Generator – Emo, Scene & Goth Usernames",
+  "description": "Emo username generator: turn your name into emo, scene, goth, grunge, sad or dark usernames with xx, underscores and ✞ for Instagram, TikTok and Discord.",
+  "h1": "Emo Username Generator",
+  "appName": "Emo Username Generator",
+  "kicker": "Free · 8 emo styles · 24 ideas per batch · copy & paste",
+  "sub": "Emo, scene, goth, grunge and sadcore username ideas — xx and ✞ optional",
+  "intro": "This emo username generator turns your name or a word into usernames that sound like a 2007 MySpace page or a 2026 TikTok alt — static, eyeliner, hoodies, cassette tapes, xx and underscores. Pick a style, generate 24 emo usernames at a time, filter by symbols or length, heart the ones you like and copy them for Instagram, TikTok, Discord, Roblox or anywhere else.",
+  "perks": [
+    "Works with or without a name",
+    "xx, underscores & ✞ optional",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "raven",
+  "seed": 2007,
+  "placeholder": "raven, alex, ash, luna, static…",
+  "stylesLegend": "Choose an emo style",
+  "resultsTitle": "Emo username ideas",
+  "common": {
+    "prefixes": [
+      "xx",
+      "its",
+      "not",
+      "im",
+      "just",
+      "only",
+      "dead",
+      "sad",
+      "lil",
+      "the",
+      "sorry",
+      "ur"
+    ],
+    "suffixes": [
+      "xx",
+      "x",
+      "core",
+      "scene",
+      "rawr",
+      "666",
+      "xo",
+      "tears",
+      "static",
+      "again"
+    ]
+  },
+  "styles": {
+    "emo": {
+      "label": "Emo",
+      "icon": "✞",
+      "adjectives": [
+        "faded",
+        "lonely",
+        "sad",
+        "lost",
+        "numb",
+        "hollow",
+        "static",
+        "sleepless",
+        "checkered",
+        "midnight",
+        "bitter",
+        "broken"
+      ],
+      "nouns": [
+        "heart",
+        "tears",
+        "static",
+        "skull",
+        "hoodie",
+        "eyeliner",
+        "mixtape",
+        "rain",
+        "sorrow",
+        "wreck",
+        "echo",
+        "cassette",
+        "nightmare",
+        "ghost",
+        "ink",
+        "bruise",
+        "fringe",
+        "vans"
+      ],
+      "suffixes": [
+        "xx",
+        "core",
+        "x",
+        "scene",
+        "rawr",
+        "tears"
+      ],
+      "symbols": [
+        "✞",
+        "☾",
+        "♡",
+        "✦",
+        "xx",
+        "⋆"
+      ]
+    },
+    "scene": {
+      "label": "Scene",
+      "icon": "🦇",
+      "adjectives": [
+        "rawr",
+        "neon",
+        "electric",
+        "glitter",
+        "toxic",
+        "candy",
+        "wild",
+        "loud",
+        "pixel",
+        "zebra",
+        "rainbow",
+        "shattered"
+      ],
+      "nouns": [
+        "rawr",
+        "dino",
+        "kitty",
+        "bat",
+        "skittles",
+        "hairspray",
+        "myspace",
+        "stripes",
+        "bows",
+        "cupcake",
+        "starz",
+        "hearts",
+        "xcore",
+        "kandi",
+        "monster",
+        "ninja",
+        "panda",
+        "gore"
+      ],
+      "suffixes": [
+        "rawr",
+        "xcore",
+        "zz",
+        "xx",
+        "kitty",
+        "666"
+      ],
+      "symbols": [
+        "🦇",
+        "★",
+        "✖",
+        "♡",
+        "⚡",
+        "☠"
+      ]
+    },
+    "goth": {
+      "label": "Goth",
+      "icon": "☽",
+      "adjectives": [
+        "gothic",
+        "velvet",
+        "crimson",
+        "haunted",
+        "morbid",
+        "dreary",
+        "sombre",
+        "obsidian",
+        "cursed",
+        "funeral",
+        "pale",
+        "graveyard"
+      ],
+      "nouns": [
+        "raven",
+        "grave",
+        "cathedral",
+        "lilith",
+        "belladonna",
+        "crypt",
+        "moth",
+        "nocturne",
+        "requiem",
+        "thorn",
+        "veil",
+        "mourning",
+        "bat",
+        "sepulchre",
+        "gargoyle",
+        "candle",
+        "coffin",
+        "wraith"
+      ],
+      "suffixes": [
+        "noir",
+        "veil",
+        "moth",
+        "requiem",
+        "crypt",
+        "xx"
+      ],
+      "symbols": [
+        "☽",
+        "✞",
+        "☾",
+        "⚰",
+        "⋆",
+        "✧"
+      ]
+    },
+    "grunge": {
+      "label": "Grunge",
+      "icon": "🎸",
+      "adjectives": [
+        "dirty",
+        "faded",
+        "torn",
+        "rusty",
+        "worn",
+        "dusty",
+        "smudged",
+        "flannel",
+        "muddy",
+        "burnt",
+        "thrifted",
+        "loud"
+      ],
+      "nouns": [
+        "flannel",
+        "cigarette",
+        "garage",
+        "static",
+        "amp",
+        "denim",
+        "polaroid",
+        "tape",
+        "distortion",
+        "basement",
+        "feedback",
+        "vinyl",
+        "rust",
+        "gasoline",
+        "ashtray",
+        "wire",
+        "riot",
+        "grime"
+      ],
+      "suffixes": [
+        "94",
+        "static",
+        "core",
+        "tape",
+        "xx",
+        "riot"
+      ],
+      "symbols": [
+        "✖",
+        "☠",
+        "⚡",
+        "★",
+        "✦",
+        "☾"
+      ]
+    },
+    "sad": {
+      "label": "Sadcore",
+      "icon": "🖤",
+      "adjectives": [
+        "sad",
+        "empty",
+        "lonely",
+        "tired",
+        "crying",
+        "numb",
+        "aching",
+        "sleepless",
+        "hopeless",
+        "quiet",
+        "fragile",
+        "unloved"
+      ],
+      "nouns": [
+        "tears",
+        "void",
+        "ache",
+        "silence",
+        "pillow",
+        "rain",
+        "ghost",
+        "wound",
+        "sorrow",
+        "shadow",
+        "insomnia",
+        "heartbreak",
+        "goodbye",
+        "nobody",
+        "regret",
+        "mercy",
+        "dusk",
+        "sigh"
+      ],
+      "suffixes": [
+        "tears",
+        "again",
+        "forever",
+        "xx",
+        "core",
+        "x"
+      ],
+      "symbols": [
+        "🖤",
+        "♡",
+        "☾",
+        "✧",
+        "⋆",
+        "✞"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "silent",
+        "cold",
+        "grim",
+        "wicked",
+        "cursed",
+        "shadow",
+        "midnight",
+        "phantom",
+        "bleak",
+        "dead"
+      ],
+      "nouns": [
+        "void",
+        "noir",
+        "shadow",
+        "midnight",
+        "venom",
+        "ash",
+        "thorn",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "ruin",
+        "omen",
+        "specter",
+        "crow",
+        "plague",
+        "reaper",
+        "nocturne"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "core",
+        "xx",
+        "ash",
+        "666"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "✞",
+        "☠",
+        "⋆"
+      ]
+    },
+    "punk": {
+      "label": "Punk",
+      "icon": "⚡",
+      "adjectives": [
+        "riot",
+        "rebel",
+        "loud",
+        "broken",
+        "spiked",
+        "toxic",
+        "wasted",
+        "reckless",
+        "trashy",
+        "safety",
+        "anarchy",
+        "raw"
+      ],
+      "nouns": [
+        "riot",
+        "spike",
+        "chaos",
+        "anarchy",
+        "misfit",
+        "vandal",
+        "mohawk",
+        "patch",
+        "rebel",
+        "nihil",
+        "wreckage",
+        "menace",
+        "trash",
+        "leather",
+        "pin",
+        "sneer",
+        "rage",
+        "ruin"
+      ],
+      "suffixes": [
+        "77",
+        "xx",
+        "core",
+        "riot",
+        "x",
+        "punk"
+      ],
+      "symbols": [
+        "⚡",
+        "✖",
+        "☠",
+        "Ⓐ",
+        "★",
+        "✦"
+      ]
+    },
+    "y2kemo": {
+      "label": "Y2K Emo",
+      "icon": "💔",
+      "adjectives": [
+        "cyber",
+        "glitchy",
+        "digital",
+        "pixel",
+        "broken",
+        "plastic",
+        "neon",
+        "static",
+        "razor",
+        "crushed",
+        "bleeding",
+        "electric"
+      ],
+      "nouns": [
+        "heart",
+        "doll",
+        "angel",
+        "razor",
+        "glitch",
+        "pixel",
+        "cassette",
+        "diary",
+        "mp3",
+        "myspace",
+        "emoji",
+        "dollz",
+        "tears",
+        "crush",
+        "bunny",
+        "skull",
+        "starz",
+        "wire"
+      ],
+      "suffixes": [
+        "2000",
+        "xx",
+        "xo",
+        "2k",
+        "666",
+        "x"
+      ],
+      "symbols": [
+        "💔",
+        "★",
+        "✖",
+        "♡",
+        "✦",
+        "☾"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:emo",
+      "Emo"
+    ],
+    [
+      "style:scene",
+      "Scene"
+    ],
+    [
+      "style:goth",
+      "Goth"
+    ],
+    [
+      "style:grunge",
+      "Grunge"
+    ],
+    [
+      "style:sad",
+      "Sadcore"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ],
+    [
+      "nosymbols",
+      "No Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Make It Look Emo Too",
+    "text": "Copy an emo username, then paste it into a font tool to give your display name matching gothic, glitch or strikethrough letters.",
+    "links": [
+      [
+        "Gothic font generator",
+        "/gothic-font-generator.html"
+      ],
+      [
+        "Glitch text generator",
+        "/glitch-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Emo Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the emo style you choose, and the options under Customize. Leave the word blank and the generator pairs two emo words instead — staticheart, velvetcrypt, fadedflannel — so it doubles as a random emo name maker for alts and anonymous accounts.",
+      "Nothing is sent anywhere. The word lists live in the page, favorites live in your browser, and there is no AI pretending to have feelings."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a band, a lyric fragment. The generator keeps it whole and builds around it: raven becomes xxravenxx, fadedraven or raven_tears."
+      ],
+      [
+        "Pick an emo username style",
+        "Emo, scene, goth, grunge, sadcore, dark, punk or Y2K emo. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Narrow the batch with the quick filters, heart the ones you like, then copy one or all of them. Generate More adds a fresh batch without losing the first."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Emo Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Classic emo and scene are the 2000s revival; goth and sadcore are the moodier end; grunge and punk are louder — but every style here works for anyone. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "emo",
+        "title": "Classic Emo Usernames",
+        "blurb": "Static, eyeliner, hoodies, mixtapes and xx — the MySpace era, back for another round.",
+        "examples": [
+          "xxstaticheartxx",
+          "fadedeyeliner",
+          "sleeplessmixtape",
+          "hollowcassette",
+          "bitterfringe",
+          "numb_nightmare",
+          "checkeredvans",
+          "lostinkxx"
+        ]
+      },
+      {
+        "key": "scene",
+        "title": "Scene Usernames",
+        "blurb": "Rawr, dino, kandi, hairspray and zebra stripes — the neon side of emo.",
+        "examples": [
+          "rawrxdino",
+          "neonkittyxcore",
+          "glitterbat",
+          "toxicskittles",
+          "candyhairspray",
+          "electricstarz",
+          "zebrakandi",
+          "ravenrawr"
+        ]
+      },
+      {
+        "key": "goth",
+        "title": "Goth Usernames",
+        "blurb": "Raven, crypt, belladonna, requiem — velvet and candlelight. The [gothic font generator](/gothic-font-generator.html) has matching letters.",
+        "examples": [
+          "velvetcrypt",
+          "crimsonbelladonna",
+          "hauntedcathedral",
+          "morbidmoth",
+          "ravenrequiem",
+          "sombreveil",
+          "obsidiannocturne",
+          "gargoylenoir"
+        ]
+      },
+      {
+        "key": "grunge",
+        "title": "Grunge Usernames",
+        "blurb": "Flannel, static, garage, distortion — 1994 in a username.",
+        "examples": [
+          "fadedflannel",
+          "dirtystatic",
+          "rustyamp",
+          "torndenim",
+          "basementfeedback",
+          "burntpolaroid",
+          "raven94",
+          "gasolineriot"
+        ]
+      },
+      {
+        "key": "sad",
+        "title": "Sad Emo Usernames",
+        "blurb": "Tears, void, insomnia, regret — the sadcore end of the spectrum, mostly lowercase.",
+        "examples": [
+          "emptytears",
+          "lonelyvoid",
+          "tiredghost",
+          "cryingpillow",
+          "sleeplessache",
+          "nobodyagain",
+          "quietheartbreak",
+          "raven.forever"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Emo Usernames",
+        "blurb": "Void, wraith, omen, plague — crossover with the [cool username generator](/cool-username-generator.html)'s dark style, heavier here.",
+        "examples": [
+          "hollowvoid",
+          "midnightwraith",
+          "cursedomen",
+          "phantomplague",
+          "deadnocturne",
+          "ravennoir",
+          "grimeclipse",
+          "silentcrow666"
+        ]
+      },
+      {
+        "key": "punk",
+        "title": "Punk & Riot Usernames",
+        "blurb": "Riot, spike, anarchy, misfit — loud names with a safety pin through them.",
+        "examples": [
+          "riotspike",
+          "rebelmisfit",
+          "toxicmohawk",
+          "wastedvandal",
+          "anarchypatch",
+          "raven77",
+          "brokenleather",
+          "trashmenace"
+        ]
+      },
+      {
+        "key": "y2kemo",
+        "title": "Y2K Emo Usernames",
+        "blurb": "Broken hearts, razors, glitches, dollz and 2000 — the digital-era emo revival. See the [Y2K font generator](/y2k-font-generator.html) for matching text.",
+        "examples": [
+          "brokenheart2000",
+          "cyberrazor",
+          "glitchydollz",
+          "pixelcassette",
+          "bleedingdiary",
+          "plasticangelxx",
+          "ravencrush2k",
+          "staticmp3"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "xxravenxx",
+      "fadedraven",
+      "raven_tears",
+      "velvetcrypt",
+      "rawrxdino",
+      "brokenheart2000"
+    ],
+    "alt": "Emo username generator example: the name raven turned into xxravenxx, fadedraven, raven_tears, velvetcrypt and other emo username ideas",
+    "caption": "One name in, eight emo styles out — every result on the page comes from the vocabulary above.",
+    "tagline": "EMO · SCENE · GOTH · GRUNGE · SADCORE",
+    "sample": "raven",
+    "src": "/assets/previews/emo-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "title": "Emo Usernames for Instagram, TikTok, Discord & Roblox",
+    "intro": "The same generator works for every platform; these shortcuts pick settings that suit each one's username rules.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Emo Instagram Usernames",
+        "text": "Instagram handles allow letters, numbers, periods and underscores — so xx and _ work, ✞ does not. Lowercase sadcore or goth, one underscore, and save the symbols for your name field.",
+        "examples": [
+          "xxravenxx",
+          "raven_tears",
+          "velvet.crypt"
+        ],
+        "preset": {
+          "style": "sad",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate for Instagram ↑",
+        "link": [
+          "Instagram usernames",
+          "/instagram-username-generator.html"
+        ]
+      },
+      {
+        "icon": "♪",
+        "title": "Emo TikTok Usernames",
+        "text": "TikTok's emo and alt side runs on classic emo and Y2K emo names — short, lowercase, a period or a number. Handles cap at 24 characters, so use Short.",
+        "examples": [
+          "fadedraven",
+          "raven.static",
+          "brokenheart2k"
+        ],
+        "preset": {
+          "style": "y2kemo",
+          "symbols": "none",
+          "length": "short"
+        },
+        "button": "Generate for TikTok ↑",
+        "link": [
+          "TikTok fonts",
+          "/tiktok-font-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Emo Discord Usernames",
+        "text": "Discord usernames are plain lowercase; the display name is where ✞, ☾ and gothic letters go. Generate a plain handle here, then decorate the display name.",
+        "examples": [
+          "hollowraven",
+          "raven.noir",
+          "✞raven✞"
+        ],
+        "preset": {
+          "style": "dark",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate for Discord ↑",
+        "link": [
+          "Discord fonts",
+          "/fonts-for-discord.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Emo Roblox Usernames",
+        "text": "Roblox allows letters, numbers and one underscore, 3–20 characters, no symbols. Scene and grunge names with xx or a number travel best.",
+        "examples": [
+          "xxravenxx",
+          "raven_rawr",
+          "static94"
+        ],
+        "preset": {
+          "style": "scene",
+          "symbols": "none",
+          "separator": "none"
+        },
+        "button": "Generate for Roblox ↑",
+        "link": [
+          "Roblox username generator",
+          "/roblox-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make an Emo Username",
+    "intro": "The generator follows a handful of formulas — most of them invented on MySpace around 2006. Knowing them helps you tweak a result or build your own.",
+    "rows": [
+      [
+        "xx + name + xx",
+        "**xx** + **Raven** + **xx** → the original emo username formula; still works, still recognisable",
+        [
+          "xxravenxx"
+        ]
+      ],
+      [
+        "Sad adjective + name",
+        "**Faded** / **Hollow** / **Numb** + **Raven** → describes the mood before your name lands",
+        [
+          "fadedraven",
+          "numbraven"
+        ]
+      ],
+      [
+        "Name + emo noun",
+        "**Raven** + **Tears** / **Static** → the noun sets the scene",
+        [
+          "raventears",
+          "ravenstatic"
+        ]
+      ],
+      [
+        "Name _ word",
+        "**Raven** + **_** + **Tears** → the underscore is the emo separator; periods read more aesthetic",
+        [
+          "raven_tears"
+        ]
+      ],
+      [
+        "Two emo words",
+        "**Static** + **Heart** → no name at all, just the feeling",
+        [
+          "staticheart"
+        ]
+      ],
+      [
+        "Name + core / rawr / 666",
+        "**Raven** + **core** / **rawr** / **666** → a scene-era suffix; pick one",
+        [
+          "ravencore",
+          "ravenrawr"
+        ]
+      ],
+      [
+        "Name + year",
+        "**Raven** + **2000** / **94** / **77** → a year that means something — Y2K, grunge, punk",
+        [
+          "raven2000",
+          "raven94"
+        ]
+      ],
+      [
+        "Name + symbol",
+        "**Raven** + ✞ / ☾ / 🖤 → one mark, only where the platform allows it",
+        [
+          "✞raven✞",
+          "raven🖤"
+        ]
+      ]
+    ],
+    "note": "One trick per username. *xxravenxx* is emo; *xXx_sAd_RaVeN_tEaRs_666_xXx* is a parody of emo. Keep the alternating caps for scene display names and off the handle, and add a symbol only where the platform supports it."
+  },
+  "symbols": {
+    "title": "Emo Symbols for Usernames",
+    "intro": "Click a symbol to copy it, then paste it before, after or between the words of your username — in a display name or bio, since most handles reject them.",
+    "items": [
+      [
+        "✞",
+        "shadowed cross"
+      ],
+      [
+        "✝",
+        "cross"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "☽",
+        "first quarter moon"
+      ],
+      [
+        "🖤",
+        "black heart"
+      ],
+      [
+        "💔",
+        "broken heart"
+      ],
+      [
+        "♡",
+        "white heart"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "⚰",
+        "coffin"
+      ],
+      [
+        "🦇",
+        "bat"
+      ],
+      [
+        "✖",
+        "heavy cross"
+      ],
+      [
+        "⚡",
+        "lightning"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "Ⓐ",
+        "circled A"
+      ],
+      [
+        "⋆",
+        "star operator"
+      ],
+      [
+        "✧",
+        "white four-pointed star"
+      ],
+      [
+        "☹",
+        "frowning face"
+      ],
+      [
+        "𝔁",
+        "fraktur x"
+      ],
+      [
+        "꧁",
+        "ornate bracket left"
+      ],
+      [
+        "꧂",
+        "ornate bracket right"
+      ]
+    ],
+    "combos": [
+      "✞raven✞",
+      "xx raven xx",
+      "☾raven☽",
+      "🖤raven🖤",
+      "꧁raven꧂",
+      "raven ☠",
+      "✖raven✖",
+      "𝔁𝔁raven𝔁𝔁"
+    ],
+    "note": "Symbol support varies by platform. Display names on Discord, TikTok and Tumblr accept these; username fields usually allow only letters, numbers, periods and underscores — which is why xx and _ survived as the emo markers that work everywhere. For full gothic and glitch alphabets, try the [gothic font generator](/gothic-font-generator.html), the [glitch text generator](/glitch-text-generator.html) or the [strikethrough text generator](/strikethrough-text-generator.html)."
+  },
+  "guide": {
+    "title": "How Our Emo Username Generator Works",
+    "intro": "There is no AI behind this page and no database of taken names. Emo usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks an emo noun instead."
+      ],
+      [
+        "Emo vocabulary.",
+        "Each of the eight styles has its own hand-written list — static, eyeliner and mixtape for classic emo; rawr, kandi and hairspray for scene; crypt, moth and requiem for goth — so a sadcore result never borrows a scene word by accident."
+      ],
+      [
+        "Era patterns.",
+        "xx-wrapping, sad adjective + name, name + noun, underscore joins, two emo words, -core and -rawr suffixes, and era numbers like 2000, 94 and 77. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Separators and numbers.",
+        "Underscores are weighted higher than periods here because they are the emo separator; 666 and era years appear alongside the usual lucky numbers."
+      ],
+      [
+        "Symbols.",
+        "Crosses, moons, black hearts and bats from the style's own set, placed before, after or around the word — only when you keep symbols on."
+      ]
+    ],
+    "outro": [
+      "Results and favorites never leave your device, and because nothing here talks to Instagram, TikTok, Discord or Roblox, the generator cannot tell you whether a name is free — always check on the platform itself."
+    ]
+  },
+  "uniqueH2": "Emo vs Scene vs Goth Usernames — What Is the Difference?",
+  "uniqueBody": [
+    "The three get lumped together, but the usernames look different. **Emo** (2003–2009, revived on TikTok) is lowercase, sad and wrapped in xx: *xxstaticheartxx*, *fadedeyeliner*. **Scene** (2006–2010) is emo's loud cousin — neon, rawr, dino, kandi, alternating caps in display names: *rawrxdino*, *neonkittyxcore*. **Goth** is older (1980s) and more literary — velvet, crypt, belladonna, requiem — with no xx and no numbers: *velvetcrypt*, *ravenrequiem*. **Grunge** is 1990s flannel and static; **punk** is 1977 and riot; **sadcore** is the 2020s lowercase-tears end; **Y2K emo** is the digital revival with razors, dollz and 2000.",
+    "That is why this emo username generator keeps eight separate vocabularies rather than one \"dark\" list: a goth result with xx around it, or a scene result with no energy, reads wrong to anyone who was there. If you want the wider dark spectrum without the subculture markers, the [cool username generator](/cool-username-generator.html) has a dark style; for aesthetic-dark rather than emo-dark, the [aesthetic username generator](/aesthetic-username-generator.html) has dark, gothic and vintage; and the main [username generator](/username-generator.html) mixes emo with every other style in one tool."
+  ],
+  "source": {
+    "before": "The eras above follow the timeline in ",
+    "name": "Wikipedia's article on emo",
+    "href": "https://en.wikipedia.org/wiki/Emo",
+    "after": ", which traces the subculture from 1980s hardcore to the 2020s revival."
+  },
+  "faqTitle": "Emo Username Generator FAQ",
+  "faqs": [
+    [
+      "What is an emo username generator?",
+      "It is a tool that combines a word you choose with curated emo vocabulary — static, eyeliner, tears, crypt, rawr, flannel — and era-specific patterns like xx-wrapping and underscore joins to produce emo username ideas. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good emo username ideas?",
+      "Examples from the styles above: xxstaticheartxx, fadedeyeliner, rawrxdino, velvetcrypt, fadedflannel, emptytears, hollowvoid and brokenheart2000. Type your own name to get versions built around it, such as xxravenxx or raven_tears."
+    ],
+    [
+      "How do I make an emo username with my name?",
+      "Wrap it in xx (xxravenxx), put a sad adjective in front (fadedraven), add an emo noun with an underscore (raven_tears), or add a scene suffix (ravenrawr, ravencore). The formulas section walks through each option — pick one per name."
+    ],
+    [
+      "Do xx and underscores work in usernames?",
+      "Yes, almost everywhere — Instagram, TikTok, Discord, Roblox and Twitter all allow letters, numbers and underscores in the handle, which is exactly why xx and _ became the emo markers. Symbols like ✞ and ☾ only work in display names and bios."
+    ],
+    [
+      "What is the difference between emo and goth usernames?",
+      "Emo usernames are lowercase, sad and wrapped in xx, from the 2000s: xxstaticheartxx. Goth usernames are older and more literary — velvet, crypt, requiem — with no xx and no numbers: velvetcrypt. Pick the Emo or Goth style above to stay on one side; the comparison section explains scene, grunge and punk too."
+    ],
+    [
+      "Can I use these emo usernames on Roblox?",
+      "Yes. Pick Scene, Grunge or Emo, set Symbols to None and Separator to None, and the results are plain names Roblox accepts (3–20 characters, one underscore). For Roblox-specific formatting, use the [Roblox username generator](/roblox-username-generator.html)."
+    ],
+    [
+      "What should I do if my emo username is taken?",
+      "Click Generate More for another batch, add or remove the xx, swap the underscore for a period, or add an era number (2000, 94, 77, 666). Small changes like raven_tears or xxraventearsxx usually free up a name."
+    ],
+    [
+      "Can I copy and paste the generated emo usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style it afterwards, paste it into the [gothic font generator](/gothic-font-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators & Emo Fonts",
+    "intro": "Pick another vibe, or give your new emo username matching gothic or glitch letters."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles without the subculture markers.",
+      "⚡"
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html",
+      "Dark, gothic, vintage and Y2K on the aesthetic side.",
+      "⋆"
+    ],
+    [
+      "Gothic Font Generator",
+      "/gothic-font-generator.html",
+      "Blackletter and dark Unicode letters for display names.",
+      "✞"
+    ],
+    [
+      "Glitch Text Generator",
+      "/glitch-text-generator.html",
+      "Zalgo and corrupted text for bios and display names.",
+      "▓"
+    ],
+    [
+      "Y2K Font Generator",
+      "/y2k-font-generator.html",
+      "Cyber and 2000s-style text for the Y2K emo look.",
+      "💔"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags for Xbox, PlayStation, Steam and Discord."
+    ],
+    [
+      "Fantasy Username Generator",
+      "/fantasy-username-generator.html",
+      "Elven, draconic, arcane and royal names for RPGs and D&D."
+    ],
+    [
+      "PUBG Username Generator",
+      "/pubg-username-generator.html",
+      "Pro, sniper and clan-tag PUBG Mobile and BGMI names."
+    ],
+    [
+      "Reddit Username Generator",
+      "/reddit-username-generator.html",
+      "Anonymous, funny and throwaway u/ names that follow Reddit's rules."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "aesthetic username generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "gothic font generator",
+      "/gothic-font-generator.html"
+    ],
+    [
+      "glitch text generator",
+      "/glitch-text-generator.html"
+    ],
+    [
+      "strikethrough text generator",
+      "/strikethrough-text-generator.html"
+    ],
+    [
+      "Y2K font generator",
+      "/y2k-font-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "linkNote": "Emo, scene, goth and grunge names with xx and ✞."
+}

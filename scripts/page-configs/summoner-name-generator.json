@@ -1,0 +1,1005 @@
+{
+  "type": "username",
+  "keyword": "summoner name generator",
+  "file": "summoner-name-generator.html",
+  "label": "Summoner",
+  "title": "Summoner Name Generator – League of Legends Riot IDs",
+  "description": "Summoner name generator for League of Legends: turn your name into champion, role, sweaty, funny or lore-themed Riot IDs under 16 characters. Free.",
+  "h1": "Summoner Name Generator",
+  "appName": "Summoner Name Generator",
+  "crumb": [
+    "Gaming Usernames",
+    "/gaming-username-generator.html"
+  ],
+  "linkNote": "League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters.",
+  "kicker": "Free · 8 League styles · 24 summoner names per batch · 16-character Riot rule",
+  "sub": "Champion, role, sweaty, funny and lore-themed League of Legends username ideas",
+  "intro": "This summoner name generator builds League of Legends names around your name or a word — champion and ability references, lane and role tags, sweaty challenger names, funny ARAM names and Runeterra lore — and keeps every result inside Riot's 3–16 character Riot ID rule. Pick a style, generate 24 summoner names at a time, heart the ones you like and copy them into your Riot account, then add a #tagline.",
+  "perks": [
+    "Fits Riot's 3–16 character Riot ID rule",
+    "Champion, role and lore vocabulary built in",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "kai",
+  "seed": 2009,
+  "maxLength": 16,
+  "defaults": {
+    "symbols": "none",
+    "letters": "mixed",
+    "separator": "none"
+  },
+  "placeholder": "kai, luna, ghost, nova, yasuo…",
+  "stylesLegend": "Choose a League style",
+  "resultsTitle": "Summoner name ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "not",
+      "real",
+      "lil",
+      "big",
+      "mr",
+      "just",
+      "sir",
+      "lord"
+    ],
+    "suffixes": [
+      "lol",
+      "ttv",
+      "yt",
+      "gg",
+      "x",
+      "z",
+      "one",
+      "main",
+      "otp",
+      "diff"
+    ]
+  },
+  "styles": {
+    "champions": {
+      "label": "Champions",
+      "icon": "⚜",
+      "adjectives": [
+        "yasuo",
+        "ahri",
+        "jinx",
+        "lux",
+        "zed",
+        "yone",
+        "lulu",
+        "thresh",
+        "ezreal",
+        "vayne",
+        "kayn",
+        "sett"
+      ],
+      "nouns": [
+        "main",
+        "otp",
+        "enjoyer",
+        "andy",
+        "gaming",
+        "diff",
+        "abuser",
+        "player",
+        "onetrick",
+        "flash",
+        "ult",
+        "passive",
+        "spirit",
+        "blade",
+        "wind",
+        "shadow",
+        "light",
+        "rocket"
+      ],
+      "suffixes": [
+        "main",
+        "otp",
+        "andy",
+        "diff",
+        "lol",
+        "x"
+      ],
+      "symbols": [
+        "⚜",
+        "✦",
+        "★",
+        "⚔",
+        "✧",
+        "◆"
+      ]
+    },
+    "roles": {
+      "label": "Roles & Lanes",
+      "icon": "◎",
+      "adjectives": [
+        "top",
+        "mid",
+        "bot",
+        "jungle",
+        "support",
+        "adc",
+        "carry",
+        "tank",
+        "roaming",
+        "split",
+        "enchanter",
+        "assassin"
+      ],
+      "nouns": [
+        "diff",
+        "gap",
+        "main",
+        "lane",
+        "pusher",
+        "carry",
+        "peeler",
+        "roamer",
+        "ganker",
+        "farmer",
+        "enchanter",
+        "tank",
+        "bruiser",
+        "mage",
+        "marksman",
+        "assassin",
+        "fighter",
+        "shotcaller"
+      ],
+      "suffixes": [
+        "diff",
+        "gap",
+        "main",
+        "lol",
+        "x",
+        "gg"
+      ],
+      "symbols": [
+        "◎",
+        "✦",
+        "★",
+        "⚔",
+        "⌁",
+        "◆"
+      ]
+    },
+    "sweaty": {
+      "label": "Sweaty",
+      "icon": "⚔",
+      "adjectives": [
+        "cracked",
+        "clutch",
+        "rapid",
+        "lethal",
+        "silent",
+        "swift",
+        "elite",
+        "prime",
+        "challenger",
+        "grandmaster",
+        "ruthless",
+        "sharp"
+      ],
+      "nouns": [
+        "ace",
+        "penta",
+        "outplay",
+        "flash",
+        "smite",
+        "combo",
+        "mechanics",
+        "macro",
+        "tempo",
+        "reset",
+        "dash",
+        "burst",
+        "snowball",
+        "carry",
+        "climber",
+        "grinder",
+        "slayer",
+        "hunter"
+      ],
+      "suffixes": [
+        "lol",
+        "gg",
+        "x",
+        "one",
+        "ttv",
+        "diff"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "iron",
+        "bronze"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "llama",
+        "inter",
+        "feeder",
+        "minion",
+        "poro"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "xd",
+        "lol",
+        "aram"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "lore": {
+      "label": "Runeterra Lore",
+      "icon": "✧",
+      "adjectives": [
+        "demacian",
+        "noxian",
+        "ionian",
+        "shadow",
+        "void",
+        "freljord",
+        "piltover",
+        "zaun",
+        "shurima",
+        "targon",
+        "bilgewater",
+        "ixtal"
+      ],
+      "nouns": [
+        "isles",
+        "vanguard",
+        "sentinel",
+        "ascended",
+        "darkin",
+        "vastaya",
+        "yordle",
+        "hextech",
+        "chembaron",
+        "aspect",
+        "watcher",
+        "ruination",
+        "kinkou",
+        "solari",
+        "lunari",
+        "wraith",
+        "revenant",
+        "harrowing"
+      ],
+      "suffixes": [
+        "lol",
+        "x",
+        "one",
+        "main",
+        "z",
+        "og"
+      ],
+      "symbols": [
+        "✧",
+        "⚔",
+        "☽",
+        "✦",
+        "⋆",
+        "✵"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "jet"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "hq",
+        "one",
+        "zero",
+        "lol"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "duo": {
+      "label": "Duo & Team",
+      "icon": "⚡",
+      "adjectives": [
+        "twin",
+        "double",
+        "dual",
+        "mirror",
+        "echo",
+        "duo",
+        "trio",
+        "squad",
+        "clone",
+        "tandem",
+        "paired",
+        "shadow"
+      ],
+      "nouns": [
+        "twin",
+        "mirror",
+        "echo",
+        "clone",
+        "partner",
+        "wingman",
+        "shadow",
+        "backup",
+        "second",
+        "sidekick",
+        "botlane",
+        "duoq",
+        "flex",
+        "anchor",
+        "carry",
+        "support",
+        "peel",
+        "engage"
+      ],
+      "suffixes": [
+        "one",
+        "two",
+        "x",
+        "z",
+        "lol",
+        "ii"
+      ],
+      "symbols": [
+        "⚡",
+        "✦",
+        "★",
+        "◆",
+        "⌁",
+        "✪"
+      ]
+    },
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "hazy",
+        "velvet",
+        "lunar",
+        "pale",
+        "dreamy",
+        "golden",
+        "quiet",
+        "misty",
+        "faded",
+        "honeyed",
+        "dusty"
+      ],
+      "nouns": [
+        "moon",
+        "bloom",
+        "cloud",
+        "haze",
+        "muse",
+        "aura",
+        "dusk",
+        "petal",
+        "glow",
+        "echo",
+        "dawn",
+        "nova",
+        "velvet",
+        "halo",
+        "mist",
+        "sky",
+        "reverie",
+        "star"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "era",
+        "muse",
+        "lol",
+        "ly"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹",
+        "☾"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:champions",
+      "Champions"
+    ],
+    [
+      "style:roles",
+      "Roles"
+    ],
+    [
+      "style:sweaty",
+      "Sweaty"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:lore",
+      "Lore"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Riot-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style It for Discord & Twitch",
+    "text": "Riot IDs are plain text, but your Discord and Twitch names can carry fancy letters. Copy a summoner name here, then style it for those.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Fonts for Discord",
+        "/fonts-for-discord.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Summoner Name Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the League style you choose, and the options under Customize. Symbols are off, Mixed case is on and every result is capped at 16 characters, so anything you see passes the Riot ID field — then you add a 3–5 character #tagline yourself.",
+      "Leave the word blank and the generator pairs two League words instead — YasuoMain, MidDiff, NoxianVanguard — so it also works as a random summoner name generator for a smurf or a duo."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, your main champion. The generator keeps it whole and builds around it: kai becomes CrackedKai, KaiMain or KaiLoL."
+      ],
+      [
+        "Pick a summoner name style",
+        "Champions, roles & lanes, sweaty, funny, Runeterra lore, cool, duo & team or aesthetic. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy summoner names",
+        "Keep Riot-safe on, heart the ones you like, then copy into account.riotgames.com → Riot ID and choose a tagline — the page checks availability as you type."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Summoner Name Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Champion mains and role tags dominate ranked; funny names live in ARAM; lore names suit a curated profile — but every style here works for anyone. Click any summoner name to copy it.",
+    "groups": [
+      {
+        "key": "champions",
+        "title": "Champion Summoner Names",
+        "blurb": "Yasuo main, Ahri OTP, Jinx enjoyer — names that say who you play before champ select.",
+        "examples": [
+          "YasuoMain",
+          "AhriOTP",
+          "JinxEnjoyer",
+          "ZedAndy",
+          "LuxDiff",
+          "KaiOTP",
+          "ThreshAbuser",
+          "YoneWind"
+        ]
+      },
+      {
+        "key": "roles",
+        "title": "Role & Lane Summoner Names",
+        "blurb": "Mid diff, top gap, jungle main — lane tags that double as a taunt.",
+        "examples": [
+          "MidDiff",
+          "TopGap",
+          "JungleMain",
+          "SupportPeeler",
+          "ADCFarmer",
+          "KaiRoamer",
+          "SplitPusher",
+          "TankEnchanter"
+        ]
+      },
+      {
+        "key": "sweaty",
+        "title": "Sweaty Summoner Names",
+        "blurb": "Penta, outplay, macro, tempo — challenger-lobby names for ranked climbers.",
+        "examples": [
+          "CrackedPenta",
+          "ClutchOutplay",
+          "SilentMacro",
+          "ChallengerKai",
+          "LethalBurst",
+          "PrimeTempo",
+          "SwiftSnowball",
+          "EliteClimber"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Summoner Names",
+        "blurb": "Iron inter, bronze feeder, spicy poro — ARAM-lobby names that get a laugh.",
+        "examples": [
+          "IronInter",
+          "BronzeFeeder",
+          "SpicyPoro",
+          "SleepyMinion",
+          "WobblyToast",
+          "GrumpyGoose",
+          "KaiPants",
+          "TacoLord"
+        ]
+      },
+      {
+        "key": "lore",
+        "title": "Runeterra Lore Summoner Names",
+        "blurb": "Noxian vanguard, Shadow Isles wraith, Ionian sentinel — names from the map itself.",
+        "examples": [
+          "NoxianVanguard",
+          "ShadowWraith",
+          "IonianSentinel",
+          "VoidWatcher",
+          "FreljordAspect",
+          "KaiDarkin",
+          "ZaunChembaron",
+          "TargonSolari"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Summoner Names",
+        "blurb": "Frost, vortex, apex, nova — sharp names that look good on op.gg. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "FrostVortex",
+          "SilentApex",
+          "OnyxDrift",
+          "KaiZero",
+          "PhantomRift",
+          "NeonJet",
+          "ArcticWolf",
+          "VaporHQ"
+        ]
+      },
+      {
+        "key": "duo",
+        "title": "Duo & Team Summoner Names",
+        "blurb": "Twin, mirror, botlane, duoq — matching names for a duo; generate two and swap the suffix.",
+        "examples": [
+          "TwinBotlane",
+          "MirrorKai",
+          "EchoDuoq",
+          "DualEngage",
+          "KaiOne",
+          "KaiTwo",
+          "ShadowPeel",
+          "TandemCarry"
+        ]
+      },
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Summoner Names",
+        "blurb": "Soft, dreamy, lowercase — moons, clouds and haze for a Lulu or Seraphine main. The [aesthetic username generator](/aesthetic-username-generator.html) has sixteen sub-styles.",
+        "examples": [
+          "lunahaze",
+          "velvetmoon",
+          "softkai",
+          "cloudmuse",
+          "hazydawn",
+          "kaiglow",
+          "mistyhalo",
+          "goldenstar"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "CrackedKai",
+      "KaiMain",
+      "MidDiff",
+      "IronInter",
+      "NoxianVanguard",
+      "TwinBotlane"
+    ],
+    "alt": "Summoner name generator example: the name kai turned into CrackedKai, KaiMain, MidDiff, IronInter and other League of Legends Riot ID ideas",
+    "caption": "One name in, eight League styles out — every result fits Riot's 16-character Riot ID rule.",
+    "tagline": "CHAMPIONS · ROLES · SWEATY · FUNNY · LORE",
+    "sample": "kai",
+    "src": "/assets/previews/summoner-name-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Riot's rules",
+    "title": "Summoner Name vs Riot ID vs Tagline",
+    "intro": "Since 2023 your League name is a Riot ID plus a #tagline, shared with Valorant, TFT and Wild Rift. These shortcuts fit each part.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Riot ID Summoner Names",
+        "text": "3–16 characters, letters, numbers and spaces, no symbols; the #tagline makes it unique, so the same name can exist with different tags. Change it once every 30 days.",
+        "examples": [
+          "CrackedKai",
+          "Mid Diff",
+          "KaiMain"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate Riot-safe names ↑"
+      },
+      {
+        "icon": "#",
+        "title": "Summoner Name Taglines",
+        "text": "3–5 characters after the #, letters and numbers. #EUW, #NA1, #OTP, #DIFF and #GAP are the League classics; keep the joke here and the name clean.",
+        "examples": [
+          "Kai#OTP",
+          "MidDiff#GAP",
+          "Nyxo#EUW"
+        ],
+        "preset": {
+          "style": "champions",
+          "symbols": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate short names for a tagline ↑"
+      },
+      {
+        "icon": "⚡",
+        "title": "Duo Summoner Names",
+        "text": "Botlane duos often share a base with different suffixes or mirror each other — KaiOne / KaiTwo, TwinBotlane / MirrorKai.",
+        "examples": [
+          "KaiOne",
+          "KaiTwo",
+          "TwinBotlane"
+        ],
+        "preset": {
+          "style": "duo",
+          "symbols": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate duo names ↑"
+      },
+      {
+        "icon": "⌁",
+        "title": "Same Summoner Name in Valorant & Discord",
+        "text": "Your Riot ID already carries over to Valorant and TFT. For Discord and Twitch, which reject spaces and capitals, use a one-word lowercase result.",
+        "examples": [
+          "frostvortex",
+          "kaimain",
+          "middiff"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "none",
+          "separator": "none",
+          "letters": "lower"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Valorant names",
+          "/valorant-name-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Summoner Name",
+    "intro": "The generator follows a handful of formulas you will recognise from any champ select. Knowing them helps you tweak a result or build your own summoner name by hand.",
+    "rows": [
+      [
+        "Champion + main / OTP",
+        "**Yasuo** + **Main**, **Ahri** + **OTP** → the League classic; says who you play",
+        [
+          "YasuoMain",
+          "AhriOTP"
+        ]
+      ],
+      [
+        "Role + diff / gap",
+        "**Mid** + **Diff**, **Top** + **Gap** → the taunt format; funniest when you are the one who lost lane",
+        [
+          "MidDiff",
+          "TopGap"
+        ]
+      ],
+      [
+        "Sweaty adjective + name",
+        "**Cracked** / **Clutch** + **Kai** → says how you play before your name lands",
+        [
+          "CrackedKai",
+          "ClutchKai"
+        ]
+      ],
+      [
+        "Region + lore noun",
+        "**Noxian** + **Vanguard**, **Ionian** + **Sentinel** → Runeterra in one word",
+        [
+          "NoxianVanguard",
+          "IonianSentinel"
+        ]
+      ],
+      [
+        "Rank joke + noun",
+        "**Iron** / **Bronze** + **Inter** / **Feeder** → self-deprecating ARAM names",
+        [
+          "IronInter",
+          "BronzeFeeder"
+        ]
+      ],
+      [
+        "Name + space + word",
+        "**Kai** + **Main** with a space → Riot IDs allow spaces; most other platforms do not",
+        [
+          "Kai Main"
+        ]
+      ],
+      [
+        "Duo pair",
+        "**Kai** + **One** / **Two** → matching names for a botlane duo; swap the suffix",
+        [
+          "KaiOne",
+          "KaiTwo"
+        ]
+      ],
+      [
+        "Name + #tagline",
+        "**Kai** + **#OTP** → the tagline is where a joke or a region goes",
+        [
+          "Kai#OTP",
+          "MidDiff#GAP"
+        ]
+      ]
+    ],
+    "note": "One trick per name, and put the joke in the tagline. *YasuoMain#OTP* is a summoner name; *xX_Y4su0_M41n_Xx#1337* is not, and Riot would reject the underscores anyway. Riot only lets you change the ID every 30 days, so generate a few before you commit."
+  },
+  "guide": {
+    "title": "How Our Summoner Name Generator Works",
+    "intro": "There is no AI behind this page and no connection to Riot Games. Summoner names are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a League noun instead."
+      ],
+      [
+        "League vocabulary.",
+        "Each of the eight styles has its own hand-written list — Yasuo, Ahri and Jinx with main/OTP for champions; mid, top and diff for roles; Noxian, Ionian and Darkin for lore — so a funny result never borrows a sweaty word by accident."
+      ],
+      [
+        "Champ-select patterns.",
+        "Champion + main, role + diff, adjective + name, region + lore noun, rank jokes, spaced two-word names, duo suffixes and tagline pairing. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Riot-safe defaults.",
+        "Symbols off, Mixed case on and a hard 16-character cap, so every result fits the Riot ID field as written."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a Riot ID + tagline is free — the Riot account page checks as you type."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Summoner Name Rules — From Summoner Names to Riot IDs",
+  "uniqueBody": [
+    "League of Legends retired the old **summoner name** system in late 2023: your in-game name is now a **Riot ID** — a name of **3 to 16 characters** (letters, numbers and spaces, no symbols) plus a **#tagline** of 3 to 5 characters — and it is shared across League, TFT, Wild Rift and Valorant. The combination has to be unique, not the name alone, so *Kai#OTP* and *Kai#EUW* can both exist, which makes good names far easier to get than they were when summoner names were unique per region. You change it from **account.riotgames.com → Riot ID** once every **30 days**.",
+    "People still search for a summoner name generator because the term stuck, and the formats did too: champion + main, role + diff, region + lore noun. This page keeps those formats, caps the name at 16 characters and offers a Short preset for names that leave room for a meaningful tagline. The [Valorant name generator](/valorant-name-generator.html) uses the same Riot ID rules with agent vocabulary; for a name that also fits a console, the [gamertag generator](/gamertag-generator.html) keeps it under Xbox's 12 characters; the [Discord username generator](/discord-username-generator.html) handles the lowercase handle for your team's server; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The switch from summoner names to Riot IDs and the character rules are documented in ",
+    "name": "Riot's support article on Riot IDs in League",
+    "href": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/19314958585107",
+    "after": "."
+  },
+  "faqTitle": "Summoner Name Generator FAQ",
+  "faqs": [
+    [
+      "What is a summoner name generator?",
+      "It is a tool that combines a word you choose with curated League of Legends vocabulary — champions, roles, lore regions, sweaty terms, rank jokes — and champ-select naming patterns to produce Riot IDs that fit the 3–16 character rule. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good summoner name ideas?",
+      "Examples from the styles above: YasuoMain, MidDiff, CrackedPenta, IronInter, NoxianVanguard, FrostVortex, TwinBotlane and lunahaze. Type your own name to get versions built around it, such as CrackedKai or KaiMain, then add a tagline like #OTP."
+    ],
+    [
+      "Are summoner names still a thing in League of Legends?",
+      "Not as a separate system. Since late 2023 League uses Riot IDs — name plus #tagline — shared with Valorant, TFT and Wild Rift. People still call them summoner names, and the formats (champion + main, role + diff) carried over, which is what this generator produces."
+    ],
+    [
+      "How many characters can a League of Legends name have?",
+      "The Riot ID name is 3–16 characters of letters, numbers and spaces; the tagline after the # is 3–5 letters or numbers. No symbols, underscores or periods in either. This generator caps every result at 16 characters so it fits as written."
+    ],
+    [
+      "How do I change my summoner name?",
+      "Sign in at account.riotgames.com, open Riot ID and edit the name and tagline. Riot allows one change every 30 days, and the change applies to League, TFT, Wild Rift and Valorant at once. The page shows immediately whether the combination is available."
+    ],
+    [
+      "Does this summoner name generator check availability?",
+      "No. Nothing here talks to Riot, so it cannot know whether a Riot ID + tagline is taken. Because the tagline makes the combination unique, most names are available with some tagline — copy the one you like and try it on the Riot account page."
+    ],
+    [
+      "What is a good League of Legends tagline?",
+      "A region (#EUW, #NA1, #KR), a role or champion joke (#OTP, #DIFF, #GAP, #MID) or a number that means something. Keep the joke in the tagline and the name clean, so the name still works if you change the tagline later."
+    ],
+    [
+      "Can I copy and paste the generated summoner names?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Paste the name into the Riot ID field and choose your tagline there."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators",
+    "intro": "Pick another game, or style your summoner name for Discord and Twitch."
+  },
+  "links": [
+    [
+      "Valorant Name Generator",
+      "/valorant-name-generator.html",
+      "Riot IDs with agent and ability vocabulary — same rules, different game.",
+      "◎"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Every console and launcher in eight styles.",
+      "⌁"
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "12-character gamertags that fit Xbox and match your Riot ID.",
+      "🎮"
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles for your team's server.",
+      "💬"
+    ],
+    [
+      "Fantasy Username Generator",
+      "/fantasy-username-generator.html",
+      "Elven, draconic and arcane names for a lore-flavoured profile.",
+      "✧"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for Discord and Twitch.",
+      "𝕮"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "Valorant name generator",
+      "/valorant-name-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "gamertag generator",
+      "/gamertag-generator.html"
+    ],
+    [
+      "Discord username generator",
+      "/discord-username-generator.html"
+    ],
+    [
+      "fantasy username generator",
+      "/fantasy-username-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "Twitch username generator",
+      "/twitch-username-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ]
+  ]
+}

@@ -1,0 +1,1104 @@
+{
+  "type": "username",
+  "keyword": "steam username generator",
+  "file": "steam-username-generator.html",
+  "label": "Steam",
+  "title": "Steam Username Generator – Steam Names & Profile URLs",
+  "description": "Steam username generator: turn your name into cool, funny, sweaty, OG or meme-style Steam profile names, plus a matching custom URL. Free, copy in one click.",
+  "h1": "Steam Username Generator",
+  "appName": "Steam Username Generator",
+  "crumb": [
+    "Gaming Usernames",
+    "/gaming-username-generator.html"
+  ],
+  "linkNote": "Steam profile names with symbols allowed, plus a plain custom URL that matches.",
+  "kicker": "Free · 8 Steam styles · 24 names per batch · profile name + custom URL",
+  "sub": "Cool, funny, sweaty, OG and meme-style Steam profile name ideas from your own name",
+  "intro": "This Steam username generator builds profile names around your name or a word — and unlike consoles, Steam lets the profile name carry symbols, spaces and Unicode, so the generator offers both a decorated display version and a plain one for your custom profile URL. Pick a style, generate 24 Steam usernames at a time, heart the ones you like and copy them into Edit Profile.",
+  "perks": [
+    "Profile name and custom URL in one pass",
+    "Symbols allowed — Steam shows them",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "leo",
+  "seed": 2003,
+  "maxLength": 32,
+  "defaults": {
+    "letters": "mixed"
+  },
+  "placeholder": "leo, ace, gabe, nova, ghost…",
+  "stylesLegend": "Choose a Steam style",
+  "resultsTitle": "Steam username ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "og",
+      "im",
+      "mr",
+      "sir",
+      "big",
+      "lil",
+      "dr",
+      "real",
+      "not",
+      "captain"
+    ],
+    "suffixes": [
+      "x",
+      "z",
+      "gg",
+      "hq",
+      "one",
+      "zero",
+      "io",
+      "tf2",
+      "cs",
+      "afk"
+    ]
+  },
+  "styles": {
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "jet"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "hq",
+        "one",
+        "zero",
+        "io"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "☆",
+        "◆",
+        "⌁"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "confused"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "hamster",
+        "cabbage",
+        "walrus"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "supreme",
+        "xd",
+        "afk"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "sweaty": {
+      "label": "Sweaty",
+      "icon": "⚔",
+      "adjectives": [
+        "clutch",
+        "rapid",
+        "elite",
+        "lethal",
+        "swift",
+        "prime",
+        "apex",
+        "cracked",
+        "sharp",
+        "silent",
+        "quick",
+        "pro"
+      ],
+      "nouns": [
+        "sniper",
+        "striker",
+        "reaper",
+        "titan",
+        "blitz",
+        "warden",
+        "raider",
+        "ranger",
+        "havoc",
+        "slayer",
+        "hunter",
+        "flick",
+        "aim",
+        "demon",
+        "goat",
+        "spectre",
+        "wraith",
+        "awper"
+      ],
+      "suffixes": [
+        "gg",
+        "x",
+        "one",
+        "zero",
+        "cs",
+        "z"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "og": {
+      "label": "OG",
+      "icon": "◇",
+      "adjectives": [
+        "og",
+        "old",
+        "true",
+        "real",
+        "pure",
+        "raw",
+        "prime",
+        "first",
+        "beta",
+        "iron",
+        "grey",
+        "ash"
+      ],
+      "nouns": [
+        "vex",
+        "nyx",
+        "ryn",
+        "kai",
+        "zed",
+        "ivo",
+        "ash",
+        "ely",
+        "ora",
+        "ren",
+        "flint",
+        "haar",
+        "rime",
+        "onyx",
+        "jinx",
+        "zane",
+        "arc",
+        "sol"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "og",
+        "one"
+      ],
+      "symbols": [
+        "◇",
+        "★",
+        "✦",
+        "⋆",
+        "◆",
+        "▲"
+      ]
+    },
+    "meme": {
+      "label": "Meme",
+      "icon": "🐸",
+      "adjectives": [
+        "certified",
+        "professional",
+        "local",
+        "average",
+        "definitely",
+        "not",
+        "literally",
+        "sussy",
+        "based",
+        "cursed",
+        "unpaid",
+        "tactical"
+      ],
+      "nouns": [
+        "gamer",
+        "enjoyer",
+        "moment",
+        "enthusiast",
+        "intern",
+        "npc",
+        "crab",
+        "frog",
+        "goblin",
+        "andy",
+        "main",
+        "bot",
+        "hater",
+        "fan",
+        "critic",
+        "expert",
+        "survivor",
+        "victim"
+      ],
+      "suffixes": [
+        "enjoyer",
+        "moment",
+        "andy",
+        "main",
+        "irl",
+        "fr"
+      ],
+      "symbols": [
+        "🐸",
+        "☺",
+        "★",
+        "✌",
+        "⚡",
+        "☠"
+      ]
+    },
+    "beast": {
+      "label": "Beast",
+      "icon": "🐺",
+      "adjectives": [
+        "iron",
+        "steel",
+        "savage",
+        "alpha",
+        "wild",
+        "black",
+        "blood",
+        "thunder",
+        "grim",
+        "feral",
+        "silver",
+        "rabid"
+      ],
+      "nouns": [
+        "wolf",
+        "viper",
+        "hawk",
+        "bear",
+        "panther",
+        "cobra",
+        "shark",
+        "jackal",
+        "bull",
+        "raptor",
+        "lion",
+        "tiger",
+        "falcon",
+        "rhino",
+        "hound",
+        "mantis",
+        "kraken",
+        "eagle"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "one",
+        "king",
+        "gg",
+        "z"
+      ],
+      "symbols": [
+        "☠",
+        "⚔",
+        "✖",
+        "★",
+        "⚡",
+        "☬"
+      ]
+    },
+    "retro": {
+      "label": "Retro",
+      "icon": "▶",
+      "adjectives": [
+        "pixel",
+        "retro",
+        "arcade",
+        "neon",
+        "8bit",
+        "analog",
+        "chrome",
+        "laser",
+        "cosmic",
+        "turbo",
+        "mega",
+        "super"
+      ],
+      "nouns": [
+        "pixel",
+        "arcade",
+        "sprite",
+        "coin",
+        "combo",
+        "warp",
+        "boss",
+        "level",
+        "glitch",
+        "byte",
+        "bit",
+        "pong",
+        "joystick",
+        "cart",
+        "cabinet",
+        "player",
+        "score",
+        "zone"
+      ],
+      "suffixes": [
+        "64",
+        "8bit",
+        "2000",
+        "gg",
+        "one",
+        "xd"
+      ],
+      "symbols": [
+        "▶",
+        "★",
+        "☆",
+        "✦",
+        "⌁",
+        "▲"
+      ]
+    },
+    "scifi": {
+      "label": "Sci-Fi",
+      "icon": "✧",
+      "adjectives": [
+        "cyber",
+        "neon",
+        "quantum",
+        "zero",
+        "hyper",
+        "orbital",
+        "cosmic",
+        "nano",
+        "astral",
+        "binary",
+        "plasma",
+        "void"
+      ],
+      "nouns": [
+        "nova",
+        "orbit",
+        "vector",
+        "cipher",
+        "matrix",
+        "pulsar",
+        "reactor",
+        "android",
+        "nexus",
+        "flux",
+        "drone",
+        "mech",
+        "photon",
+        "signal",
+        "core",
+        "unit",
+        "vertex",
+        "probe"
+      ],
+      "suffixes": [
+        "x",
+        "zero",
+        "one",
+        "io",
+        "v2",
+        "hq"
+      ],
+      "symbols": [
+        "✧",
+        "✦",
+        "⌁",
+        "◆",
+        "▲",
+        "✵"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:sweaty",
+      "Sweaty"
+    ],
+    [
+      "style:og",
+      "OG"
+    ],
+    [
+      "style:meme",
+      "Meme"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "URL-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Give Your Steam Name Fancy Letters",
+    "text": "Steam profile names render Unicode, so gothic, double-struck and small-caps letters show up in friends lists and lobbies. Copy a name here, then style it.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Glitch text generator",
+        "/glitch-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Steam Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the Steam style you choose, and the options under Customize. Symbols are on Mix by default because Steam profile names accept them; switch to URL-safe when you want the plain version for your custom profile URL.",
+      "Leave the word blank and the generator pairs two Steam words instead — Frost Vortex, certified_goblin, Pixel Sprite — so it also works as a random Steam name generator for an alt or a smurf."
+    ],
+    "steps": [
+      [
+        "Type your name or a word",
+        "Your name, a nickname, a favorite game word. The generator keeps it whole and builds around it: leo becomes FrostLeo, ✦Leo✦ or leo_enjoyer."
+      ],
+      [
+        "Pick a Steam username style",
+        "Cool, funny, sweaty, OG, meme, beast, retro or sci-fi. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use With Symbols for the profile name and URL-safe for the custom URL, heart the ones you like, then copy into Steam → Edit Profile → General."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Steam Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Sweaty and beast names dominate Counter-Strike and Dota lobbies; meme names are the Steam house style; cool and OG suit a curated profile — but every style here works for anyone. Click any Steam name to copy it.",
+    "groups": [
+      {
+        "key": "cool",
+        "title": "Cool Steam Usernames",
+        "blurb": "Frost, vortex, apex, nova — sharp names that look good next to a level badge. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "Frost Vortex",
+          "SilentApex",
+          "✦ Onyx ✦",
+          "Leo Zero",
+          "PhantomRift",
+          "NeonJet",
+          "Arctic Wolf",
+          "VaporHQ"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Steam Usernames",
+        "blurb": "Toast, goose, potato, walrus — the names that get a laugh in a Deep Rock lobby.",
+        "examples": [
+          "Wobbly Toast",
+          "GrumpyGoose",
+          "Spicy Noodle",
+          "Sleepy Yeti",
+          "confused_walrus",
+          "Leo Pants",
+          "SoggyCabbage",
+          "Taco Lord ☺"
+        ]
+      },
+      {
+        "key": "sweaty",
+        "title": "Sweaty Steam Usernames",
+        "blurb": "Sniper, AWPer, reaper, clutch — tryhard names for CS2, Valorant and Apex.",
+        "examples": [
+          "Clutch Reaper",
+          "RapidAWPer",
+          "Elite Warden",
+          "LeoGG",
+          "LethalFlick",
+          "Prime Demon",
+          "SwiftGoat",
+          "CrackedAim"
+        ]
+      },
+      {
+        "key": "og",
+        "title": "OG Steam Usernames",
+        "blurb": "Vex, nyx, flint, sol — short names that read like a 2004 account. The [rare username generator](/rare-username-generator.html) digs deeper.",
+        "examples": [
+          "Vex",
+          "Nyxo",
+          "OG Leo",
+          "Flint",
+          "True Sol",
+          "RynX",
+          "Iron Arc",
+          "Zane"
+        ]
+      },
+      {
+        "key": "meme",
+        "title": "Meme Steam Usernames",
+        "blurb": "Certified goblin, average enjoyer, local NPC — the format Steam is famous for.",
+        "examples": [
+          "certified_goblin",
+          "Average Frog Enjoyer",
+          "Local NPC",
+          "Leo Moment",
+          "Definitely Not Leo",
+          "based_intern",
+          "Professional Crab",
+          "Sussy Andy"
+        ]
+      },
+      {
+        "key": "beast",
+        "title": "Beast Steam Usernames",
+        "blurb": "Wolf, viper, kraken, raptor — the heaviest words in the list.",
+        "examples": [
+          "Iron Wolf",
+          "SteelViper",
+          "Alpha Hawk",
+          "Leo Kraken",
+          "BloodRaptor",
+          "Grim Jackal",
+          "WildMantis",
+          "Thunder Bull"
+        ]
+      },
+      {
+        "key": "retro",
+        "title": "Retro Steam Usernames",
+        "blurb": "Pixel, arcade, sprite, warp — names for a library full of indie platformers.",
+        "examples": [
+          "Pixel Sprite",
+          "NeonArcade",
+          "Leo 64",
+          "ChromeCombo",
+          "8bit Boss",
+          "LaserWarp",
+          "Turbo Pong",
+          "MegaScore"
+        ]
+      },
+      {
+        "key": "scifi",
+        "title": "Sci-Fi Steam Usernames",
+        "blurb": "Nova, cipher, reactor, nexus — names for Stellaris, Factorio and space sims.",
+        "examples": [
+          "Quantum Nova",
+          "CyberCipher",
+          "Zero Reactor",
+          "Leo Nexus",
+          "PlasmaDrone",
+          "Nano Probe",
+          "VoidVertex",
+          "Astral Mech"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "FrostLeo",
+      "✦Leo✦",
+      "leo_enjoyer",
+      "Wobbly Toast",
+      "OG Leo",
+      "Iron Wolf"
+    ],
+    "alt": "Steam username generator example: the name leo turned into FrostLeo, ✦Leo✦, leo_enjoyer, Wobbly Toast and other Steam profile name ideas",
+    "caption": "One name in, eight Steam styles out — decorated versions for the profile name, plain versions for the custom URL.",
+    "tagline": "COOL · FUNNY · SWEATY · OG · MEME",
+    "sample": "leo",
+    "src": "/assets/previews/steam-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Steam's three names",
+    "title": "Steam Username vs Profile Name vs Custom URL",
+    "intro": "Steam has three different names and only one of them is public. These shortcuts generate ideas that fit each one.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Steam Profile Names",
+        "text": "The public name in friends lists and lobbies: up to 32 characters, spaces, symbols and Unicode allowed, not unique, changeable any time. Steam keeps a history of your last few names.",
+        "examples": [
+          "Frost Leo",
+          "✦ Leo ✦",
+          "Leo Moment"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "auto",
+          "letters": "mixed",
+          "separator": "none"
+        },
+        "button": "Generate profile names ↑"
+      },
+      {
+        "icon": "🔗",
+        "title": "Steam Custom URL Names",
+        "text": "steamcommunity.com/id/yourname — letters, numbers, underscores and hyphens only, unique across Steam. Use URL-safe results here.",
+        "examples": [
+          "frostleo",
+          "leo_enjoyer",
+          "iron-wolf"
+        ],
+        "preset": {
+          "style": "all",
+          "symbols": "none",
+          "separator": "underscore",
+          "letters": "lower"
+        },
+        "button": "Generate URL-safe names ↑"
+      },
+      {
+        "icon": "⚔",
+        "title": "Steam Usernames for CS2 & Dota",
+        "text": "Competitive lobbies show the profile name in scoreboards, so keep it short and readable — sweaty or beast, no more than one symbol.",
+        "examples": [
+          "Clutch Reaper",
+          "LeoGG",
+          "Iron Wolf"
+        ],
+        "preset": {
+          "style": "sweaty",
+          "symbols": "none",
+          "letters": "mixed"
+        },
+        "button": "Generate a lobby name ↑",
+        "link": [
+          "Gaming usernames",
+          "/gaming-username-generator.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Same Steam Username on Xbox & Discord",
+        "text": "If the name should match your console gamertag, keep it under 12 characters with no symbols; Discord's unique username also needs lowercase.",
+        "examples": [
+          "FrostLeo",
+          "leo_zero",
+          "PixelLeo"
+        ],
+        "preset": {
+          "style": "cool",
+          "symbols": "none",
+          "separator": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Gamertag generator",
+          "/gamertag-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Steam Username",
+    "intro": "The generator follows a handful of formulas — the ones you see in every friends list. Knowing them helps you tweak a result or build your own Steam name by hand.",
+    "rows": [
+      [
+        "Adjective + name",
+        "**Frost** / **Silent** + **Leo** → describes your playstyle before your name lands",
+        [
+          "FrostLeo",
+          "Silent Leo"
+        ]
+      ],
+      [
+        "Name in symbols",
+        "✦ + **Leo** + ✦ → Steam renders it; consoles would not",
+        [
+          "✦Leo✦",
+          "꧁Leo꧂"
+        ]
+      ],
+      [
+        "Meme format",
+        "**Certified** / **Average** + **Goblin** / **Enjoyer** → the Steam house style, spaces allowed",
+        [
+          "certified_goblin",
+          "Average Leo Enjoyer"
+        ]
+      ],
+      [
+        "Two Steam words",
+        "**Pixel** + **Sprite** → no name at all, for an alt",
+        [
+          "Pixel Sprite"
+        ]
+      ],
+      [
+        "Name + GG / AFK",
+        "**Leo** + **GG** / **AFK** → a gaming tail that doubles as a status",
+        [
+          "LeoGG",
+          "Leo AFK"
+        ]
+      ],
+      [
+        "Name _ word (URL)",
+        "**leo** + **_** + **enjoyer** → the custom-URL form: lowercase, underscore, no symbols",
+        [
+          "leo_enjoyer"
+        ]
+      ],
+      [
+        "Definitely Not + name",
+        "**Definitely Not** + **Leo** → the smurf joke everyone recognises",
+        [
+          "Definitely Not Leo"
+        ]
+      ],
+      [
+        "Dropped vowel",
+        "**Vortex** → **Vrtx**, **Leo** → **Lo** → the tryhard respelling",
+        [
+          "Leo Vrtx",
+          "LoX"
+        ]
+      ]
+    ],
+    "note": "Steam allows almost anything, which is exactly why one trick per name matters more here. *Frost Leo* reads on a scoreboard; *꧁☬✦𝕱𝖗𝖔𝖘𝖙 𝕷𝖊𝖔✦☬꧂* gets you muted. Keep the profile name to one symbol and put the plain version in your custom URL."
+  },
+  "symbols": {
+    "title": "Steam Username Symbols",
+    "intro": "Steam profile names show all of these. Click a symbol to copy it — then use one, not five.",
+    "items": [
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "✧",
+        "white four-pointed star"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "☆",
+        "white star"
+      ],
+      [
+        "⚡",
+        "lightning"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "⚔",
+        "crossed swords"
+      ],
+      [
+        "◆",
+        "black diamond"
+      ],
+      [
+        "◇",
+        "white diamond"
+      ],
+      [
+        "▲",
+        "triangle"
+      ],
+      [
+        "⌁",
+        "electric arrow"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "✵",
+        "eight-pointed star"
+      ],
+      [
+        "☬",
+        "adi shakti"
+      ],
+      [
+        "♛",
+        "crown"
+      ],
+      [
+        "⚙",
+        "gear"
+      ],
+      [
+        "꧁",
+        "ornate bracket left"
+      ],
+      [
+        "꧂",
+        "ornate bracket right"
+      ],
+      [
+        "ツ",
+        "smiling tsu"
+      ],
+      [
+        "乡",
+        "xiang character"
+      ]
+    ],
+    "combos": [
+      "꧁Leo꧂",
+      "✦ Leo ✦",
+      "⚔Leo⚔",
+      "Leo ☠",
+      "♛ Leo",
+      "▲Leo▲",
+      "Leoツ",
+      "乡Leo"
+    ],
+    "note": "Steam profile names, Discord display names and Twitch chat show these; the Steam custom URL, Xbox, PSN and most in-game name fields do not. For full decorative alphabets that Steam also renders, try the [cool text generator](/cool-text-generator.html) or the [glitch text generator](/glitch-text-generator.html)."
+  },
+  "guide": {
+    "title": "How Our Steam Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Steam or Valve. Steam names are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a Steam noun instead."
+      ],
+      [
+        "Steam vocabulary.",
+        "Each of the eight styles has its own hand-written list — vortex, apex and nova for cool; certified, enjoyer and NPC for meme; sniper, AWPer and clutch for sweaty — so a meme result never borrows a sci-fi word by accident."
+      ],
+      [
+        "Friends-list patterns.",
+        "Adjective + name, symbol wrapping, the meme format, two Steam words, GG/AFK tails, underscore URL forms, the Definitely Not joke and dropped vowels. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Steam defaults.",
+        "Symbols on Mix and Mixed case, because Steam profile names render both. The URL-safe filter shows only the results that also work as a custom profile URL."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a custom URL is free — Edit Profile tells you when you try."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Steam Username Rules — Why Steam Has Three Names",
+  "uniqueBody": [
+    "Steam is unusual: the **account name** you log in with is private and can never be changed; the **profile name** everyone sees is free-form — up to 32 characters, spaces, symbols and Unicode allowed, not unique, changeable as often as you like (Steam keeps a public history of your recent names); and the **custom URL** at steamcommunity.com/id/ is unique, plain letters, numbers, underscores and hyphens. Most \"Steam username generator\" searches want the profile name, which is why symbols are on by default here — but the custom URL is the one that has to be free, so the URL-safe filter exists too.",
+    "Because the profile name allows anything, Steam culture developed its own formats — the *certified_goblin* and *Average X Enjoyer* meme names, the *Definitely Not* smurf joke, the single ✦ or ☠ — and those are built into this generator's Meme and symbol patterns. If the same name has to work on a console, the [gamertag generator](/gamertag-generator.html) keeps it under Xbox's 12 characters and the [PSN name generator](/psn-name-generator.html) follows PlayStation's format; the [Discord username generator](/discord-username-generator.html) handles the lowercase handle for your friends' server; and the main [username generator](/username-generator.html) mixes every style in one tool."
+  ],
+  "source": {
+    "before": "The three-name system and the custom URL rules are described in ",
+    "name": "Steam's profile help pages",
+    "href": "https://help.steampowered.com/en/faqs/view/2816-BE67-5B69-0FEC",
+    "after": "."
+  },
+  "faqTitle": "Steam Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Steam username generator?",
+      "It is a tool that combines a word you choose with curated gaming vocabulary — cool, funny, sweaty, OG, meme, beast, retro and sci-fi — and friends-list naming patterns to produce Steam profile names, with a URL-safe filter for the custom profile URL. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Steam username ideas?",
+      "Examples from the styles above: Frost Vortex, Wobbly Toast, Clutch Reaper, Nyxo, certified_goblin, Iron Wolf, Pixel Sprite and Quantum Nova. Type your own name to get versions built around it, such as FrostLeo or Leo Moment."
+    ],
+    [
+      "Can I change my Steam username?",
+      "The login account name never changes, but the profile name can be changed any time from Edit Profile → General with no cooldown; Steam shows your recent names to others. The custom URL can also be edited there, as long as the new one is free."
+    ],
+    [
+      "Can I use symbols in my Steam username?",
+      "In the profile name, yes — ✦, ☠, ⚔ and most Unicode render in friends lists and lobbies. In the custom URL, no — only letters, numbers, underscores and hyphens. Use the With Symbols filter for the first and URL-safe for the second."
+    ],
+    [
+      "Does this Steam username generator check availability?",
+      "Profile names do not need to be unique, so any result works as one. Custom URLs do: nothing here talks to Steam, so paste the URL-safe result into Edit Profile → Custom URL and Steam tells you immediately if it is taken."
+    ],
+    [
+      "What is the Steam meme name format?",
+      "Adjective + noun + enjoyer/moment/andy — certified_goblin, Average Frog Enjoyer, Local NPC, Definitely Not Leo. Pick the Meme style above; spaces are allowed in profile names, so results keep them."
+    ],
+    [
+      "Should my Steam username match my Discord or Xbox name?",
+      "If your friends know you by one name, yes. Use the cross-platform preset — under 12 characters, no symbols — so the same name fits Xbox, PlayStation and Discord's lowercase handle. The [gamertag generator](/gamertag-generator.html) is built for that case."
+    ],
+    [
+      "Can I copy and paste the generated Steam usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Paste a decorated one into the profile name and a plain one into the custom URL."
+    ]
+  ],
+  "related": {
+    "title": "More Gaming Username Generators",
+    "intro": "Pick another platform, or style your Steam name with fancy letters."
+  },
+  "links": [
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Every console and launcher in eight styles.",
+      "⌁"
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "12-character gamertags that fit Xbox and match your Steam name.",
+      "🎮"
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles for the friends' server.",
+      "💬"
+    ],
+    [
+      "PSN Name Generator",
+      "/psn-name-generator.html",
+      "PlayStation online IDs in the same styles.",
+      "◎"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters that Steam renders.",
+      "𝕮"
+    ],
+    [
+      "Glitch Text Generator",
+      "/glitch-text-generator.html",
+      "Zalgo and corrupted text for a cursed profile name.",
+      "▓"
+    ]
+  ],
+  "asideLinks": [
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "gamertag generator",
+      "/gamertag-generator.html"
+    ],
+    [
+      "Discord username generator",
+      "/discord-username-generator.html"
+    ],
+    [
+      "PSN name generator",
+      "/psn-name-generator.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "glitch text generator",
+      "/glitch-text-generator.html"
+    ],
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ]
+  ]
+}

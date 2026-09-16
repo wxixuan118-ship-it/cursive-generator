@@ -1,0 +1,1009 @@
+{
+  "type": "username",
+  "keyword": "short username generator",
+  "file": "short-username-generator.html",
+  "label": "Short",
+  "title": "Short Username Generator – 3 to 8 Letter Usernames",
+  "description": "Short username generator: every result is 8 characters or fewer. Get 3, 4, 5 and 6-letter username ideas that are easy to type, easy to say and fit anywhere.",
+  "h1": "Short Username Generator",
+  "appName": "Short Username Generator",
+  "kicker": "Free · every result ≤ 8 characters · 24 ideas per batch",
+  "sub": "3, 4, 5 and 6-letter username ideas — easy to type, hard to find",
+  "intro": "This short username generator caps every result at eight characters, so you get 3, 4, 5 and 6-letter usernames instead of the long compound names most tools produce. Type your name or a word, pick a style — minimal, cute, cool, aesthetic, gamer, one-word — and generate 24 short usernames at a time for Instagram, TikTok, Roblox, Discord, Xbox or anywhere a long name gets cut off.",
+  "perks": [
+    "Length capped at 8 characters",
+    "3–5 letter forms included",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "zoe",
+  "seed": 808,
+  "defaults": {
+    "length": "short",
+    "symbols": "none",
+    "numbers": "none"
+  },
+  "placeholder": "zoe, kai, max, ava, leo…",
+  "stylesLegend": "Choose a style",
+  "resultsTitle": "Short username ideas",
+  "common": {
+    "prefixes": [
+      "im",
+      "its",
+      "xo",
+      "mr",
+      "ms",
+      "ok",
+      "so",
+      "oh",
+      "el",
+      "la",
+      "de",
+      "ur"
+    ],
+    "suffixes": [
+      "x",
+      "z",
+      "o",
+      "i",
+      "y",
+      "xo",
+      "ie",
+      "ee",
+      "ah",
+      "co"
+    ]
+  },
+  "styles": {
+    "minimal": {
+      "label": "Minimal",
+      "icon": "·",
+      "adjectives": [
+        "mono",
+        "pure",
+        "bare",
+        "raw",
+        "so",
+        "no",
+        "un",
+        "re",
+        "less",
+        "just",
+        "only",
+        "plain"
+      ],
+      "nouns": [
+        "ink",
+        "hue",
+        "tone",
+        "form",
+        "line",
+        "noon",
+        "salt",
+        "sand",
+        "grey",
+        "ivy",
+        "ash",
+        "ora",
+        "eve",
+        "ode",
+        "key",
+        "co",
+        "ren",
+        "elm"
+      ],
+      "suffixes": [
+        "co",
+        "ly",
+        "ie",
+        "o",
+        "x",
+        "ish"
+      ],
+      "symbols": [
+        "·",
+        "⋆",
+        "˚"
+      ]
+    },
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "lil",
+        "tiny",
+        "wee",
+        "sweet",
+        "cozy",
+        "sunny",
+        "soft",
+        "puffy",
+        "silly",
+        "peachy",
+        "bubbly",
+        "fuzzy"
+      ],
+      "nouns": [
+        "bun",
+        "bee",
+        "pea",
+        "boo",
+        "kit",
+        "pup",
+        "cub",
+        "bean",
+        "bub",
+        "mochi",
+        "peach",
+        "boba",
+        "pom",
+        "bug",
+        "duck",
+        "puff",
+        "coco",
+        "momo"
+      ],
+      "suffixes": [
+        "xo",
+        "bun",
+        "boo",
+        "ie",
+        "y",
+        "pie"
+      ],
+      "symbols": [
+        "♡",
+        "✿",
+        "˚",
+        "⋆",
+        "୨୧"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "ice",
+        "neo",
+        "onyx",
+        "zero",
+        "jet",
+        "vex",
+        "nyx",
+        "arc",
+        "axe",
+        "sly",
+        "dusk",
+        "volt"
+      ],
+      "nouns": [
+        "ace",
+        "rex",
+        "vex",
+        "zed",
+        "kai",
+        "jax",
+        "nyx",
+        "onyx",
+        "flux",
+        "apex",
+        "riot",
+        "ash",
+        "byte",
+        "volt",
+        "arc",
+        "rift",
+        "echo",
+        "jet"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "z",
+        "hq",
+        "one",
+        "io"
+      ],
+      "symbols": [
+        "✦",
+        "★",
+        "⚡",
+        "◆"
+      ]
+    },
+    "aesthetic": {
+      "label": "Aesthetic",
+      "icon": "⋆",
+      "adjectives": [
+        "soft",
+        "pale",
+        "hazy",
+        "dewy",
+        "misty",
+        "faded",
+        "muted",
+        "lunar",
+        "rosy",
+        "milky",
+        "airy",
+        "dusky"
+      ],
+      "nouns": [
+        "moon",
+        "haze",
+        "dusk",
+        "dawn",
+        "glow",
+        "bloom",
+        "mist",
+        "muse",
+        "aura",
+        "halo",
+        "dove",
+        "fern",
+        "lull",
+        "hush",
+        "echo",
+        "sky",
+        "petal",
+        "nova"
+      ],
+      "suffixes": [
+        "xo",
+        "ly",
+        "ie",
+        "glow",
+        "haze",
+        "sky"
+      ],
+      "symbols": [
+        "⋆",
+        "˚",
+        "✧",
+        "♡",
+        "⊹"
+      ]
+    },
+    "gamer": {
+      "label": "Gamer",
+      "icon": "⌁",
+      "adjectives": [
+        "pro",
+        "og",
+        "gg",
+        "mvp",
+        "ace",
+        "epic",
+        "pixel",
+        "turbo",
+        "mega",
+        "ninja",
+        "boss",
+        "elite"
+      ],
+      "nouns": [
+        "ace",
+        "nova",
+        "blitz",
+        "rush",
+        "byte",
+        "bot",
+        "ghost",
+        "wolf",
+        "hawk",
+        "tank",
+        "mage",
+        "rogue",
+        "jinx",
+        "zap",
+        "nuke",
+        "loot",
+        "ping",
+        "kd"
+      ],
+      "suffixes": [
+        "gg",
+        "yt",
+        "xd",
+        "x",
+        "z",
+        "ttv"
+      ],
+      "symbols": [
+        "⌁",
+        "✦",
+        "★",
+        "⚔"
+      ]
+    },
+    "oneword": {
+      "label": "One Word",
+      "icon": "◇",
+      "adjectives": [
+        "ever",
+        "over",
+        "under",
+        "after",
+        "night",
+        "day",
+        "sun",
+        "sea",
+        "sky",
+        "snow",
+        "rain",
+        "wild"
+      ],
+      "nouns": [
+        "haar",
+        "rime",
+        "umbra",
+        "lumen",
+        "vale",
+        "wren",
+        "sage",
+        "onyx",
+        "beryl",
+        "flint",
+        "fern",
+        "moss",
+        "reed",
+        "isla",
+        "juno",
+        "cleo",
+        "ruby",
+        "opal"
+      ],
+      "suffixes": [
+        "ix",
+        "ae",
+        "um",
+        "ly",
+        "o",
+        "a"
+      ],
+      "symbols": [
+        "◇",
+        "·",
+        "⋆"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "big",
+        "sad",
+        "mad",
+        "wet",
+        "odd",
+        "meh",
+        "lol",
+        "ok",
+        "soggy",
+        "dizzy",
+        "goofy",
+        "silly"
+      ],
+      "nouns": [
+        "toast",
+        "spud",
+        "goose",
+        "yeet",
+        "taco",
+        "nug",
+        "bloop",
+        "duck",
+        "frog",
+        "blob",
+        "noodle",
+        "waffle",
+        "pickle",
+        "beans",
+        "crumb",
+        "goob",
+        "yeti",
+        "moo"
+      ],
+      "suffixes": [
+        "lol",
+        "xd",
+        "o",
+        "z",
+        "y",
+        "ee"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌"
+      ]
+    },
+    "initials": {
+      "label": "Initials & Letters",
+      "icon": "A",
+      "adjectives": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "j",
+        "k",
+        "m",
+        "n",
+        "r",
+        "s",
+        "t",
+        "z"
+      ],
+      "nouns": [
+        "jay",
+        "kay",
+        "dee",
+        "bee",
+        "ell",
+        "ess",
+        "zee",
+        "tee",
+        "vee",
+        "em",
+        "en",
+        "ar",
+        "que",
+        "ex",
+        "wye",
+        "oh",
+        "eye",
+        "you"
+      ],
+      "suffixes": [
+        "x",
+        "z",
+        "o",
+        "i",
+        "y",
+        "e"
+      ],
+      "symbols": [
+        "·",
+        "⋆"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:minimal",
+      "Minimal"
+    ],
+    [
+      "style:cute",
+      "Cute"
+    ],
+    [
+      "style:cool",
+      "Cool"
+    ],
+    [
+      "style:aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "style:oneword",
+      "One Word"
+    ],
+    [
+      "short",
+      "≤ 8"
+    ],
+    [
+      "nosymbols",
+      "Plain"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Short Handle, Styled Display Name",
+    "text": "A short username leaves room for a decorated display name. Copy the handle here, then style only the display name with a font tool.",
+    "links": [
+      [
+        "Small Text",
+        "/small-text-generator.html"
+      ],
+      [
+        "Fancy text generator",
+        "/fancy-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Short Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the style you choose, and the length cap — which is set to Short (8 characters or fewer) by default and cannot produce anything longer unless you change it under Customize. Numbers and symbols are off too, since they eat characters.",
+      "Leave the word blank and the generator pairs two short words instead — inkco, nyxo, bigspud — which is how the 4 and 5-letter results usually appear."
+    ],
+    "steps": [
+      [
+        "Type your name or a short word",
+        "Three to six letters works best: zoe becomes zoex, lilzoe or zoe.co. A long word leaves no room, so the generator will shorten around it."
+      ],
+      [
+        "Pick a short username style",
+        "Minimal, cute, cool, aesthetic, gamer, one word, funny or initials. Each style's vocabulary is already short — no word over six letters — so results stay under the cap."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Sort by the ≤ 8 filter (already on), heart the ones you like, then copy and paste into the platform. Short names go fast — check availability immediately."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Short Username Ideas by Style",
+    "intro": "Hand-picked examples per style, all eight characters or fewer. 3 and 4-letter usernames are nearly impossible to find by guessing; 5 and 6-letter ones are the sweet spot between available and memorable. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "minimal",
+        "title": "Minimal Short Usernames",
+        "blurb": "One quiet word, four to six letters, no decoration — the cleanest kind of short username.",
+        "examples": [
+          "ink",
+          "noon",
+          "greyco",
+          "salt",
+          "monoink",
+          "zoe.ly",
+          "elm",
+          "oraish"
+        ]
+      },
+      {
+        "key": "cute",
+        "title": "Cute Short Usernames",
+        "blurb": "Bun, bee, pea, boo — three-letter cute words that stack into five-letter names.",
+        "examples": [
+          "lilbun",
+          "zoebee",
+          "peaboo",
+          "cozykit",
+          "bubxo",
+          "momo",
+          "sweetpea",
+          "pupie"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Short Usernames",
+        "blurb": "Ace, rex, vex, nyx — hard three-letter words with an x in them.",
+        "examples": [
+          "nyx",
+          "vexx",
+          "zoeace",
+          "onyxz",
+          "jetflux",
+          "zeroarc",
+          "kaix",
+          "riot.io"
+        ]
+      },
+      {
+        "key": "aesthetic",
+        "title": "Aesthetic Short Usernames",
+        "blurb": "Moon, haze, dusk, glow — soft four-letter words, lowercase. The [aesthetic username generator](/aesthetic-username-generator.html) has the longer versions.",
+        "examples": [
+          "haze",
+          "softzoe",
+          "dusk.ly",
+          "palemoon",
+          "zoeglow",
+          "mistie",
+          "lull",
+          "dewyfern"
+        ]
+      },
+      {
+        "key": "gamer",
+        "title": "Short Gamer Usernames",
+        "blurb": "Ace, blitz, nuke, loot — gamertags that fit Xbox's 12-character limit with room to spare. See the [gaming username generator](/gaming-username-generator.html) for the full set.",
+        "examples": [
+          "zoegg",
+          "acebot",
+          "ogblitz",
+          "nukez",
+          "proghost",
+          "zapxd",
+          "lootyt",
+          "mvpwolf"
+        ]
+      },
+      {
+        "key": "oneword",
+        "title": "One-Word Short Usernames",
+        "blurb": "Haar, rime, wren, isla — real words and names under six letters that are rarely taken. The [rare username generator](/rare-username-generator.html) digs deeper into this list.",
+        "examples": [
+          "haar",
+          "wren",
+          "isla",
+          "rimeo",
+          "juno",
+          "flint",
+          "sagea",
+          "beryl"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Short Usernames",
+        "blurb": "Spud, goose, yeet, blob — short enough to be a punchline.",
+        "examples": [
+          "bigspud",
+          "sadgoose",
+          "yeet",
+          "zoelol",
+          "wetduck",
+          "okfrog",
+          "blobz",
+          "mehtoast"
+        ]
+      },
+      {
+        "key": "initials",
+        "title": "Initial & Letter Usernames",
+        "blurb": "Jay, kay, dee, zee — spelled-out letters and initials, the shortest handles that still read as names.",
+        "examples": [
+          "jayx",
+          "kzoe",
+          "deeo",
+          "zeez",
+          "zoej",
+          "emandem",
+          "essie",
+          "tvee"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "zoex",
+      "lilzoe",
+      "zoe.co",
+      "nyx",
+      "haze",
+      "wren"
+    ],
+    "alt": "Short username generator example: the name zoe turned into zoex, lilzoe, zoe.co, nyx and other short username ideas under 8 characters",
+    "caption": "One name in, eight styles out — every result on the page is eight characters or fewer.",
+    "tagline": "3 · 4 · 5 · 6 LETTERS",
+    "sample": "zoe",
+    "src": "/assets/previews/short-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Where length matters",
+    "title": "Short Usernames for Roblox, Xbox, Instagram & Discord",
+    "intro": "Every platform truncates or caps names somewhere. These shortcuts generate short usernames that fit each one comfortably.",
+    "cards": [
+      {
+        "icon": "⌁",
+        "title": "Short Roblox Usernames",
+        "text": "Roblox allows 3–20 characters, and short un-numbered names are the ones players call OG. Three to five letters, no underscore, is the goal.",
+        "examples": [
+          "nyxo",
+          "zoex",
+          "wren"
+        ],
+        "preset": {
+          "style": "oneword",
+          "symbols": "none",
+          "numbers": "none",
+          "separator": "none",
+          "length": "short"
+        },
+        "button": "Generate for Roblox ↑",
+        "link": [
+          "Roblox username generator",
+          "/roblox-username-generator.html"
+        ]
+      },
+      {
+        "icon": "◎",
+        "title": "Short Xbox Gamertags",
+        "text": "Xbox caps gamertags at 12 characters and appends #1234 if yours is taken, so a 6-letter tag leaves room to stay clean.",
+        "examples": [
+          "ZoeGG",
+          "AceBot",
+          "NukeZ"
+        ],
+        "preset": {
+          "style": "gamer",
+          "symbols": "none",
+          "numbers": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate a gamertag ↑",
+        "link": [
+          "Gaming usernames",
+          "/gaming-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✎",
+        "title": "Short Instagram Usernames",
+        "text": "Instagram allows 30 characters, but short handles get typed from memory and fit on a business card. A period keeps a 3-letter name available.",
+        "examples": [
+          "zoe.co",
+          "haze",
+          "softzoe"
+        ],
+        "preset": {
+          "style": "aesthetic",
+          "symbols": "none",
+          "numbers": "none",
+          "length": "short"
+        },
+        "button": "Generate for Instagram ↑",
+        "link": [
+          "Instagram usernames",
+          "/instagram-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Short Discord Usernames",
+        "text": "Discord's unique usernames start at 2 characters; since the #tags went away, short ones are scarce. Minimal and one-word styles fit the lowercase format.",
+        "examples": [
+          "ink",
+          "greyco",
+          "zoe.ly"
+        ],
+        "preset": {
+          "style": "minimal",
+          "symbols": "none",
+          "length": "short",
+          "letters": "lower"
+        },
+        "button": "Generate for Discord ↑",
+        "link": [
+          "Fonts for Discord",
+          "/fonts-for-discord.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Short Username",
+    "intro": "The generator follows a handful of formulas, all of them built to stay under eight characters. Knowing them helps you tweak a result or shorten a name you already have.",
+    "rows": [
+      [
+        "Name + one letter",
+        "**Zoe** + **x** / **z** / **o** → the shortest possible change; four letters total",
+        [
+          "zoex",
+          "zoeo"
+        ]
+      ],
+      [
+        "Short prefix + name",
+        "**lil** / **im** / **xo** + **Zoe** → five or six letters, reads as a caption",
+        [
+          "lilzoe",
+          "imzoe"
+        ]
+      ],
+      [
+        "Name + 3-letter word",
+        "**Zoe** + **Bee** / **Ace** → two short words, six letters",
+        [
+          "zoebee",
+          "zoeace"
+        ]
+      ],
+      [
+        "Name . short word",
+        "**Zoe** + **.** + **co** / **ly** → a period plus two letters frees a taken 3-letter name",
+        [
+          "zoe.co",
+          "zoe.ly"
+        ]
+      ],
+      [
+        "One short word",
+        "**Haze**, **Wren**, **Nyx** → no name at all; the rarest and cleanest short handles",
+        [
+          "haze",
+          "nyx"
+        ]
+      ],
+      [
+        "Drop the vowels",
+        "**Zoe** → **Zo**, **Vortex** → **Vrtx** → the classic way to shorten a longer name",
+        [
+          "zo",
+          "vrtx"
+        ]
+      ],
+      [
+        "Initials + word",
+        "**Z** + **Bee**, **K** + **Zoe** → an initial in front adds one letter and a lot of availability",
+        [
+          "zbee",
+          "kzoe"
+        ]
+      ],
+      [
+        "Doubled last letter",
+        "**Zoe** → **Zoee**, **Vex** → **Vexx** → same sound, one extra character",
+        [
+          "zoee",
+          "vexx"
+        ]
+      ]
+    ],
+    "note": "The rule for short usernames is one addition, never two. *zoex* is short; *xo_zoe.x* has spent five characters saying nothing. If a 4-letter result is taken, go to 5 with a period or a prefix before you go to 6."
+  },
+  "guide": {
+    "title": "How Our Short Username Generator Works",
+    "intro": "There is no AI behind this page and no database of taken names. Short usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole. If it is already six letters, only one or two-letter additions fit under the cap, so shorter input gives more variety."
+      ],
+      [
+        "Short vocabulary.",
+        "Every word in the eight styles is six letters or fewer — bun, bee, ace, nyx, haze, wren, spud, jay — so two of them together still fit. No style here shares a list with the long-form generators."
+      ],
+      [
+        "Length enforcement.",
+        "The engine measures each candidate before it is accepted and rejects anything over eight characters while the Short setting is on. If your word is too long to fit anything, it tells you rather than quietly producing long names."
+      ],
+      [
+        "Defaults.",
+        "Numbers and symbols are off because each one costs a character. Separators are on Mix, so a period appears in some results; a period is the one addition worth spending a character on."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check availability — short names go fast, so check immediately."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Why Short Usernames Are Worth the Effort",
+  "uniqueBody": [
+    "Short usernames are the only ones that survive every platform intact. Xbox truncates gamertags at 12 characters, Nintendo at 10, PlayStation at 16, Discord display names get cut in narrow sidebars, and Instagram bios wrap a long handle onto a second line. A 4 to 6-letter username fits everywhere, is typed from memory without a typo, and can be said in voice chat in one breath. It also reads as established: on Roblox and Discord, short un-numbered names are what players call OG and sometimes trade, because they could only have been registered early.",
+    "The trade-off is availability. Every 3-letter combination that spells a word or a common name has been taken for years, and most 4-letter words too; what remains are uncommon words (haar, rime, wren), short forms (nyxo, ryn), initial-plus-word combinations (zbee, kzoe) and name-plus-one-letter forms (zoex). That is exactly the vocabulary this short username generator is built from. If a 4-letter result is taken, the fastest fix is a period plus two letters — zoe.co — which stays at six characters and looks intentional. For longer names in a specific mood, the [aesthetic username generator](/aesthetic-username-generator.html), [cute username generator](/cute-username-generator.html) and [cool username generator](/cool-username-generator.html) each go up to twenty characters; the [rare username generator](/rare-username-generator.html) shares this page's one-word list and adds obsolete words and old names; and the main [username generator](/username-generator.html) mixes every style with a Short filter you can switch on."
+  ],
+  "source": {
+    "before": "Platform limits above are from each service's own rules — for example ",
+    "name": "Xbox's gamertag FAQ",
+    "href": "https://support.xbox.com/en-US/help/account-profile/profile/gamertag-update-faq",
+    "after": " documents the 12-character cap and the automatic #suffix."
+  },
+  "faqTitle": "Short Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a short username generator?",
+      "It is a tool that builds usernames from short vocabulary — three to six-letter words, initials and short forms — and rejects anything over eight characters, so every result is a short username. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some short username ideas?",
+      "Examples from the styles above: ink, noon, lilbun, nyx, haze, haar, wren, bigspud, jayx and zoe.co. Type your own short name for versions built around it, such as zoex or lilzoe; leave it blank for one-word and two-word results."
+    ],
+    [
+      "How short can a username be?",
+      "Discord allows 2 characters, Roblox 3, Instagram and TikTok 1, Xbox 3 and Steam 2 — but anything under 3 letters that spells something has been taken since each platform launched. Realistically, 4 and 5-letter usernames are the shortest you can still find, and that is where this generator concentrates."
+    ],
+    [
+      "Are short usernames still available?",
+      "Some. Common words and names under five letters are gone, but uncommon words (haar, rime, wren), short forms (nyxo, ryn), initial-plus-word combinations (zbee) and name-plus-letter forms (zoex) are still open on most platforms. The generator draws from those categories, and a period plus two letters (zoe.co) frees almost any 3-letter name."
+    ],
+    [
+      "Does this short username generator check availability?",
+      "No. Nothing here talks to Roblox, Instagram, Discord or any other service. Copy the result and try it on the platform right away — short names are claimed quickly, and every service tells you instantly if a name is taken."
+    ],
+    [
+      "Can I make a short Roblox username?",
+      "Yes. Pick One Word or Cool, keep Numbers and Symbols off and Separator on None (Roblox does not allow periods), and the results are 3 to 8-letter names Roblox accepts. Short un-numbered Roblox names are the ones players call OG. For Roblox's format rules, use the [Roblox username generator](/roblox-username-generator.html)."
+    ],
+    [
+      "Why are my results longer than 8 characters?",
+      "They should not be while the Short setting is on. If you typed a long word — say, seven letters — nothing can be added under the cap, so the engine relaxes the limit and tells you with a message. Use a shorter word, or a nickname, to get true short results."
+    ],
+    [
+      "Can I copy and paste the generated short usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. Keep the handle plain and style only the display name with the [fancy text generator](/fancy-text-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators",
+    "intro": "Pick another vibe, or go rarer."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Rare Username Generator",
+      "/rare-username-generator.html",
+      "Obscure words, old names and OG short forms that are rarely taken.",
+      "◇"
+    ],
+    [
+      "Cute Username Generator",
+      "/cute-username-generator.html",
+      "Sweet, kawaii, soft and pastel names.",
+      "♡"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles.",
+      "⚡"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Short, pronounceable names that follow Roblox's format.",
+      "⌁"
+    ],
+    [
+      "Small Text Generator",
+      "/small-text-generator.html",
+      "Tiny Unicode letters for a compact display name or bio.",
+      "ᵃ"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles that follow Instagram's username rules."
+    ],
+    [
+      "Twitter Username Generator",
+      "/twitter-username-generator.html",
+      "Short X handles under the 15-character limit — funny, professional, anonymous."
+    ],
+    [
+      "Email Username Generator",
+      "/email-username-generator.html",
+      "Gmail-safe address ideas — professional, personal, brand and anonymous — under 30 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "rare username generator",
+      "/rare-username-generator.html"
+    ],
+    [
+      "cute username generator",
+      "/cute-username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "small text generator",
+      "/small-text-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "linkNote": "Every result 8 characters or fewer — 3 to 6-letter handles."
+}

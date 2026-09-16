@@ -1,0 +1,1117 @@
+{
+  "type": "username",
+  "keyword": "cute username generator",
+  "file": "cute-username-generator.html",
+  "label": "Cute",
+  "title": "Cute Username Generator – Sweet & Kawaii Username Ideas",
+  "description": "Cute username generator: type your name, pick sweet, kawaii, soft, pastel or animal vibes and copy 24 cute username ideas for Instagram, TikTok and Roblox.",
+  "h1": "Cute Username Generator",
+  "appName": "Cute Username Generator",
+  "kicker": "Free · 8 cute styles · 24 ideas per batch · copy & paste",
+  "sub": "Sweet, kawaii, soft and pastel username ideas — hearts and bows optional",
+  "intro": "Use this cute username generator to turn your name or a favorite word into sweet usernames built from bunnies, peaches, honey, mochi and clouds. Pick a cute style, generate 24 ideas at a time, heart the ones you love and copy them for Instagram, TikTok, Roblox, Discord or any profile that could use a little softness.",
+  "perks": [
+    "Works with or without a name",
+    "Hearts, bows & sparkles optional",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "mia",
+  "seed": 4242,
+  "placeholder": "mia, emma, bunny, honey, peach…",
+  "stylesLegend": "Choose a cute style",
+  "resultsTitle": "Cute username ideas",
+  "common": {
+    "prefixes": [
+      "its",
+      "just",
+      "xo",
+      "hey",
+      "lil",
+      "iam",
+      "only",
+      "miss",
+      "the",
+      "oh",
+      "dear",
+      "tiny"
+    ],
+    "suffixes": [
+      "xo",
+      "bun",
+      "pie",
+      "boo",
+      "love",
+      "bear",
+      "baby",
+      "pop",
+      "cake",
+      "chan"
+    ]
+  },
+  "styles": {
+    "cute": {
+      "label": "Cute",
+      "icon": "♡",
+      "adjectives": [
+        "sweet",
+        "tiny",
+        "cozy",
+        "fluffy",
+        "sunny",
+        "silly",
+        "lovely",
+        "puffy",
+        "happy",
+        "bubbly",
+        "snuggly",
+        "giggly"
+      ],
+      "nouns": [
+        "bunny",
+        "peach",
+        "cherry",
+        "honey",
+        "kitty",
+        "berry",
+        "sugar",
+        "mochi",
+        "cupcake",
+        "boba",
+        "puff",
+        "panda",
+        "cookie",
+        "daisy",
+        "sprinkle",
+        "bean",
+        "button",
+        "muffin"
+      ],
+      "suffixes": [
+        "xo",
+        "bear",
+        "pie",
+        "bun",
+        "pop",
+        "cake"
+      ],
+      "symbols": [
+        "♡",
+        "୨୧",
+        "✿",
+        "˚",
+        "ꕤ",
+        "⋆"
+      ]
+    },
+    "kawaii": {
+      "label": "Kawaii",
+      "icon": "★",
+      "adjectives": [
+        "kawaii",
+        "chibi",
+        "sugoi",
+        "tiny",
+        "sparkly",
+        "fluffy",
+        "pastel",
+        "happy",
+        "squishy",
+        "bubbly",
+        "sleepy",
+        "dreamy"
+      ],
+      "nouns": [
+        "mochi",
+        "neko",
+        "chibi",
+        "miku",
+        "pocky",
+        "usagi",
+        "sakura",
+        "ichigo",
+        "hoshi",
+        "mimi",
+        "pudding",
+        "dango",
+        "kuma",
+        "yume",
+        "momo",
+        "nyan",
+        "tofu",
+        "onigiri"
+      ],
+      "suffixes": [
+        "chan",
+        "nyan",
+        "chii",
+        "pyon",
+        "kun",
+        "tan"
+      ],
+      "symbols": [
+        "★",
+        "♡",
+        "✿",
+        "✩",
+        "˚",
+        "✧"
+      ]
+    },
+    "sweet": {
+      "label": "Sweet Treats",
+      "icon": "🍰",
+      "adjectives": [
+        "sugary",
+        "frosted",
+        "creamy",
+        "glazed",
+        "honeyed",
+        "sprinkled",
+        "caramel",
+        "vanilla",
+        "candied",
+        "buttery",
+        "fizzy",
+        "jammy"
+      ],
+      "nouns": [
+        "cupcake",
+        "macaron",
+        "waffle",
+        "donut",
+        "cookie",
+        "toffee",
+        "pudding",
+        "sundae",
+        "marshmallow",
+        "brownie",
+        "cocoa",
+        "lollipop",
+        "gummy",
+        "custard",
+        "eclair",
+        "bonbon",
+        "truffle",
+        "sorbet"
+      ],
+      "suffixes": [
+        "cake",
+        "pie",
+        "pop",
+        "bite",
+        "puff",
+        "swirl"
+      ],
+      "symbols": [
+        "♡",
+        "✿",
+        "⋆",
+        "˚",
+        "୨୧",
+        "ꕤ"
+      ]
+    },
+    "animal": {
+      "label": "Animals",
+      "icon": "🐾",
+      "adjectives": [
+        "fluffy",
+        "tiny",
+        "sleepy",
+        "fuzzy",
+        "wiggly",
+        "cuddly",
+        "chubby",
+        "bouncy",
+        "little",
+        "snowy",
+        "spotty",
+        "peppy"
+      ],
+      "nouns": [
+        "bunny",
+        "kitten",
+        "puppy",
+        "panda",
+        "otter",
+        "duckling",
+        "fawn",
+        "koala",
+        "hamster",
+        "piglet",
+        "lamb",
+        "chick",
+        "hedgehog",
+        "fox",
+        "quokka",
+        "seal",
+        "penguin",
+        "corgi"
+      ],
+      "suffixes": [
+        "paws",
+        "cub",
+        "pup",
+        "tail",
+        "bun",
+        "ears"
+      ],
+      "symbols": [
+        "♡",
+        "✿",
+        "⋆",
+        "˚",
+        "ꕤ",
+        "☆"
+      ]
+    },
+    "soft": {
+      "label": "Soft",
+      "icon": "˚",
+      "adjectives": [
+        "soft",
+        "gentle",
+        "pale",
+        "quiet",
+        "tender",
+        "hazy",
+        "mellow",
+        "calm",
+        "faded",
+        "muted",
+        "cozy",
+        "dreamy"
+      ],
+      "nouns": [
+        "cloud",
+        "moon",
+        "bloom",
+        "mist",
+        "dream",
+        "glow",
+        "dove",
+        "velvet",
+        "haze",
+        "petal",
+        "dawn",
+        "hush",
+        "linen",
+        "blush",
+        "lull",
+        "fog",
+        "pillow",
+        "cotton"
+      ],
+      "suffixes": [
+        "glow",
+        "haze",
+        "dew",
+        "hush",
+        "ish",
+        "cloud"
+      ],
+      "symbols": [
+        "˚",
+        "⋆",
+        "⊹",
+        "·",
+        "♡",
+        "☁"
+      ]
+    },
+    "pastel": {
+      "label": "Pastel",
+      "icon": "🎀",
+      "adjectives": [
+        "pastel",
+        "pink",
+        "lilac",
+        "minty",
+        "peachy",
+        "lavender",
+        "baby",
+        "blushing",
+        "rosy",
+        "creamy",
+        "powder",
+        "milky"
+      ],
+      "nouns": [
+        "bow",
+        "ribbon",
+        "macaron",
+        "cloud",
+        "cotton",
+        "candy",
+        "petal",
+        "blossom",
+        "bubble",
+        "sherbet",
+        "sprinkle",
+        "balloon",
+        "tulle",
+        "lace",
+        "sorbet",
+        "peony",
+        "doll",
+        "angel"
+      ],
+      "suffixes": [
+        "bow",
+        "doll",
+        "xo",
+        "candy",
+        "pop",
+        "baby"
+      ],
+      "symbols": [
+        "🎀",
+        "♡",
+        "୨୧",
+        "⋆",
+        "˚",
+        "✿"
+      ]
+    },
+    "coquette": {
+      "label": "Coquette",
+      "icon": "୨୧",
+      "adjectives": [
+        "pretty",
+        "dainty",
+        "rosy",
+        "sweet",
+        "blushing",
+        "lacey",
+        "girly",
+        "darling",
+        "frilly",
+        "pink",
+        "dreamy",
+        "dolly"
+      ],
+      "nouns": [
+        "bow",
+        "lace",
+        "doll",
+        "angel",
+        "rose",
+        "pearl",
+        "ribbon",
+        "cherie",
+        "ballet",
+        "satin",
+        "cherub",
+        "tulle",
+        "blush",
+        "bisou",
+        "amour",
+        "locket",
+        "peony",
+        "swan"
+      ],
+      "suffixes": [
+        "cherie",
+        "doll",
+        "amour",
+        "bow",
+        "xo",
+        "belle"
+      ],
+      "symbols": [
+        "♡",
+        "୨୧",
+        "⋆",
+        "˚",
+        "🎀",
+        "✧"
+      ]
+    },
+    "playful": {
+      "label": "Playful",
+      "icon": "☺",
+      "adjectives": [
+        "silly",
+        "giggly",
+        "wobbly",
+        "sleepy",
+        "bouncy",
+        "cheeky",
+        "dizzy",
+        "goofy",
+        "peppy",
+        "zippy",
+        "jolly",
+        "sunny"
+      ],
+      "nouns": [
+        "bean",
+        "button",
+        "peanut",
+        "pickle",
+        "noodle",
+        "nugget",
+        "pumpkin",
+        "sprout",
+        "jellybean",
+        "waffle",
+        "bubble",
+        "doodle",
+        "pebble",
+        "cupcake",
+        "goose",
+        "tater",
+        "biscuit",
+        "muffin"
+      ],
+      "suffixes": [
+        "boo",
+        "bug",
+        "bean",
+        "pop",
+        "pants",
+        "kins"
+      ],
+      "symbols": [
+        "☺",
+        "♡",
+        "✿",
+        "⋆",
+        "☆",
+        "✧"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:cute",
+      "Cute"
+    ],
+    [
+      "style:kawaii",
+      "Kawaii"
+    ],
+    [
+      "style:sweet",
+      "Sweet"
+    ],
+    [
+      "style:animal",
+      "Animals"
+    ],
+    [
+      "style:soft",
+      "Soft"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ],
+    [
+      "nosymbols",
+      "No Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Make It Look Cute Too",
+    "text": "Copy a cute username, then paste it into a font tool to give your display name matching bubbly, cursive or heart-decorated letters.",
+    "links": [
+      [
+        "Cute fonts",
+        "/cute-fonts.html"
+      ],
+      [
+        "Heart font generator",
+        "/heart-font-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Cute Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the cute style you choose, and the options under Customize. Leave the word blank and the generator pairs two cute words instead — bunnypeach, honeymochi, cozybean — so it doubles as a random cute name maker.",
+      "Nothing is sent anywhere. The word lists live in the page, favorites live in your browser, and there is no AI making things up."
+    ],
+    "steps": [
+      [
+        "Type a name or word",
+        "Your name, a pet, a favorite snack — anything short. The generator keeps it whole and wraps cute words around it: mia becomes miabun, honeymia or mia.cloud."
+      ],
+      [
+        "Pick a cute style",
+        "Cute, kawaii, sweet treats, animals, soft, pastel, coquette or playful. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter, copy",
+        "Narrow the batch with the quick filters, heart the ones you like, then copy one or all of them. Generate More adds a fresh batch without losing the first one."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Cute Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Cute usernames for girls tend to lean coquette and pastel, kawaii and animals skew unisex — but every style works for anyone. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "cute",
+        "title": "Cute Usernames",
+        "blurb": "Sweet, playful and a little bit squishy — bunnies, peaches, honey and mochi.",
+        "examples": [
+          "bunnypeach",
+          "honeykitty",
+          "sugarberry",
+          "cherrymochi",
+          "peachpuff",
+          "cozycupcake",
+          "sweetboba",
+          "lilbunnyxo"
+        ]
+      },
+      {
+        "key": "kawaii",
+        "title": "Kawaii Usernames",
+        "blurb": "Japanese-flavored cute — mochi, neko, sakura and pudding, often with a -chan or -nyan tail.",
+        "examples": [
+          "mochineko",
+          "sakurachan",
+          "usagipudding",
+          "chibihoshi",
+          "nyanmomo",
+          "tofupyon",
+          "kumakun",
+          "ichigotan"
+        ]
+      },
+      {
+        "key": "sweet",
+        "title": "Sweet Treat Usernames",
+        "blurb": "Dessert names — cupcakes, macarons, marshmallows and cocoa — that read cute without a single symbol.",
+        "examples": [
+          "frostedmacaron",
+          "glazeddonut",
+          "cocoapuff",
+          "sugarsundae",
+          "jammywaffle",
+          "honeyedtoffee",
+          "bonbonbite",
+          "creamyeclair"
+        ]
+      },
+      {
+        "key": "animal",
+        "title": "Cute Animal Usernames",
+        "blurb": "Kittens, otters, ducklings and corgis — the easiest way to make any name cute.",
+        "examples": [
+          "fluffyotter",
+          "sleepykoala",
+          "tinyduckling",
+          "chubbycorgi",
+          "bouncyfawn",
+          "snowypenguin",
+          "quokkapaws",
+          "wigglypiglet"
+        ]
+      },
+      {
+        "key": "soft",
+        "title": "Soft Cute Usernames",
+        "blurb": "Muted, gentle words — clouds, mist, velvet and dawn — for a calm, pastel-adjacent profile.",
+        "examples": [
+          "cloudbloom",
+          "softmist",
+          "velvetdove",
+          "hazydawn",
+          "gentleglow",
+          "petalhush",
+          "blushmoon",
+          "cottonlull"
+        ]
+      },
+      {
+        "key": "pastel",
+        "title": "Pastel Usernames",
+        "blurb": "Pink, lilac, minty and peachy — color words plus bows, ribbons and candy.",
+        "examples": [
+          "lilacbow",
+          "peachyribbon",
+          "mintymacaron",
+          "pastelcandy",
+          "milkysherbet",
+          "rosyballoon",
+          "powderpeony",
+          "babyblossom"
+        ]
+      },
+      {
+        "key": "coquette",
+        "title": "Coquette Usernames",
+        "blurb": "Bows, lace, dolls and pearls — dainty and a little dramatic. See the [aesthetic username generator](/aesthetic-username-generator.html) for the full coquette set.",
+        "examples": [
+          "dollybow",
+          "laceycherie",
+          "pearlamour",
+          "rosysatin",
+          "blushingswan",
+          "ribbonbelle",
+          "dainty.locket",
+          "cherubtulle"
+        ]
+      },
+      {
+        "key": "playful",
+        "title": "Playful Cute Usernames",
+        "blurb": "Beans, buttons, nuggets and pumpkins — silly words that make people smile.",
+        "examples": [
+          "gigglybean",
+          "wobblynugget",
+          "sleepybutton",
+          "cheekypumpkin",
+          "jellybeanboo",
+          "peppydoodle",
+          "zippysprout",
+          "biscuitkins"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "miabun",
+      "honeymia",
+      "mochineko",
+      "fluffyotter",
+      "lilacbow",
+      "cloudbloom"
+    ],
+    "alt": "Cute username generator example: the name mia turned into miabun, honeymia, mochineko, fluffyotter and other cute username ideas",
+    "caption": "One name in, eight cute styles out — every result on the page comes from the vocabulary above.",
+    "tagline": "SWEET · KAWAII · SOFT · PASTEL",
+    "sample": "mia",
+    "src": "/assets/previews/cute-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "title": "Cute Usernames for Instagram, TikTok, Roblox & Discord",
+    "intro": "The same generator works for every platform; these shortcuts pick settings that suit each one's username rules.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Cute Instagram Usernames",
+        "text": "Instagram handles allow letters, numbers, periods and underscores. Lowercase, one cute word, a period if the plain version is taken — and save the hearts for your name field.",
+        "examples": [
+          "mia.bun",
+          "honeymia",
+          "peachymia"
+        ],
+        "preset": {
+          "style": "cute",
+          "symbols": "none",
+          "numbers": "none"
+        },
+        "button": "Generate for Instagram ↑",
+        "link": [
+          "Instagram usernames",
+          "/instagram-username-generator.html"
+        ]
+      },
+      {
+        "icon": "♪",
+        "title": "Cute TikTok Usernames",
+        "text": "TikTok names get read aloud, so pick ones that are easy to say — sweet-treat and animal pairings are the most memorable.",
+        "examples": [
+          "cocoapuff",
+          "fluffyotter",
+          "miacupcake"
+        ],
+        "preset": {
+          "style": "sweet",
+          "symbols": "none"
+        },
+        "button": "Generate for TikTok ↑",
+        "link": [
+          "TikTok fonts",
+          "/tiktok-font-generator.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Cute Roblox Usernames",
+        "text": "Roblox allows letters, numbers and one underscore, 3–20 characters, no symbols. Animal and kawaii names travel best.",
+        "examples": [
+          "mochineko",
+          "tiny_duckling",
+          "miabun22"
+        ],
+        "preset": {
+          "style": "animal",
+          "symbols": "none",
+          "separator": "none"
+        },
+        "button": "Generate for Roblox ↑",
+        "link": [
+          "Roblox username generator",
+          "/roblox-username-generator.html"
+        ]
+      },
+      {
+        "icon": "✦",
+        "title": "Cute Discord Usernames",
+        "text": "Discord usernames are plain lowercase; the display name is where the ♡ and ୨୧ can go. Generate a plain handle here and decorate the display name with a font tool.",
+        "examples": [
+          "softmia",
+          "cloudbloom",
+          "mia.pudding"
+        ],
+        "preset": {
+          "style": "soft",
+          "symbols": "none",
+          "letters": "lower"
+        },
+        "button": "Generate for Discord ↑",
+        "link": [
+          "Discord fonts",
+          "/fonts-for-discord.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Cute Username",
+    "intro": "The generator follows a handful of formulas. Knowing them helps you tweak a result — or build your own cute username by hand.",
+    "rows": [
+      [
+        "Name + cute noun",
+        "**Mia** + **Bun** → the most natural pairing; the noun does the cute work",
+        [
+          "miabun"
+        ]
+      ],
+      [
+        "Cute adjective + name",
+        "**Honey** / **Fluffy** + **Mia** → describes you before your name lands",
+        [
+          "honeymia",
+          "fluffymia"
+        ]
+      ],
+      [
+        "Two cute words",
+        "**Bunny** + **Peach** → no name at all, just softness",
+        [
+          "bunnypeach"
+        ]
+      ],
+      [
+        "Name + diminutive",
+        "**Mia** + **-boo** / **-kins** / **-chan** → a nickname suffix reads instantly cute",
+        [
+          "miaboo",
+          "miakins",
+          "miachan"
+        ]
+      ],
+      [
+        "Name + separator",
+        "**Mia** + **Cloud** with a period or underscore → frees up a taken name",
+        [
+          "mia.cloud",
+          "mia_cloud"
+        ]
+      ],
+      [
+        "Doubled letter",
+        "**Mia** → **miia**, **miaa** → keeps the sound, changes the string",
+        [
+          "miaa",
+          "miia"
+        ]
+      ],
+      [
+        "Name + symbol",
+        "**Mia** + ♡ / ୨୧ → one decorative mark, where the platform allows it",
+        [
+          "mia♡",
+          "୨୧mia"
+        ]
+      ],
+      [
+        "Prefix + name",
+        "**lil** / **xo** / **its** + **Mia** → reads like a caption, easy to remember",
+        [
+          "lilmia",
+          "xomia"
+        ]
+      ]
+    ],
+    "note": "One trick per username is the rule. *miabun* is cute; *xo_miia.bun♡22* is trying too hard. If the plain version is taken, add a period first, a number second, and a symbol only where the platform supports it."
+  },
+  "symbols": {
+    "title": "Cute Symbols for Usernames",
+    "intro": "Click a symbol to copy it, then paste it before, after or between the words of your username — in a display name or bio, since most handles reject them.",
+    "items": [
+      [
+        "♡",
+        "white heart"
+      ],
+      [
+        "♥",
+        "black heart"
+      ],
+      [
+        "୨୧",
+        "bow"
+      ],
+      [
+        "🎀",
+        "ribbon emoji"
+      ],
+      [
+        "✿",
+        "black florette"
+      ],
+      [
+        "❀",
+        "white florette"
+      ],
+      [
+        "ꕤ",
+        "flower"
+      ],
+      [
+        "⋆",
+        "star operator"
+      ],
+      [
+        "☆",
+        "white star"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "✩",
+        "outlined star"
+      ],
+      [
+        "✧",
+        "sparkle"
+      ],
+      [
+        "˚",
+        "ring"
+      ],
+      [
+        "⊹",
+        "dotted cross"
+      ],
+      [
+        "☁",
+        "cloud"
+      ],
+      [
+        "ღ",
+        "heart letter"
+      ],
+      [
+        "❥",
+        "rotated heart"
+      ],
+      [
+        "ʚ",
+        "left bunny ear"
+      ],
+      [
+        "ɞ",
+        "right bunny ear"
+      ],
+      [
+        "ೀ",
+        "sparkle accent"
+      ]
+    ],
+    "combos": [
+      "ʚ♡ɞ",
+      "₊˚♡",
+      "⋆｡°✩",
+      "୨୧ ⋆",
+      "✿˚₊",
+      "♡⸝⸝",
+      "(ᐢ. .ᐢ)",
+      "ᕱ⑅ᕱ"
+    ],
+    "note": "Symbol support varies by platform. Most bios and display names accept these characters, but username fields usually allow only letters, numbers, periods and underscores. Keep a plain version for the handle and use the decorated one where it displays. For more, browse [aesthetic symbols](/aesthetic-symbols.html) and the [heart font generator](/heart-font-generator.html)."
+  },
+  "guide": {
+    "title": "How Our Cute Username Generator Works",
+    "intro": "There is no AI behind this page and no database of taken names. Cute usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a cute noun instead."
+      ],
+      [
+        "Cute vocabulary.",
+        "Each of the eight styles has its own hand-written list — bunny, peach and honey for cute; mochi, neko and sakura for kawaii; otter, koala and corgi for animals — so a pastel result never borrows a dessert word by accident."
+      ],
+      [
+        "Naming patterns.",
+        "Name + noun, adjective + name, prefix + name, two cute words, diminutive suffixes like -boo and -chan, doubled letters, and short numbers. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Separators and numbers.",
+        "Periods, underscores, lucky numbers like 444 or 777, and birth-year-style digits. On the default Mix setting only some results get them."
+      ],
+      [
+        "Cute symbols.",
+        "Hearts, bows, florettes and sparkles from the style's own set, placed before, after, around or between the words — only when you keep symbols on."
+      ]
+    ],
+    "outro": [
+      "Results and favorites never leave your device, and because nothing here talks to Instagram, TikTok, Roblox or Discord, the generator cannot tell you whether a name is free — always check on the platform itself."
+    ]
+  },
+  "uniqueH2": "What Makes a Username Cute?",
+  "uniqueBody": [
+    "Cute usernames share a few habits. They are **lowercase**, because capital letters read as shouting. They use **soft consonants and open vowels** — mochi, bunny, boba, mia — rather than hard clusters like *strk* or *xzr*. They borrow from a small set of **cute domains**: baby animals, desserts, pastel colors, small things (button, bean, pebble) and Japanese kawaii culture. And they usually carry **one diminutive** — a -boo, -kins, -bun or -chan, a doubled vowel, or a single heart — never all of them at once.",
+    "That is why this cute username generator keeps eight separate vocabularies rather than one big list: a kawaii result should sound Japanese, an animal result should sound like a pet name, and a pastel result should sound like a color. Mixing them (*sakuracorgimacaron*) reads as random, not cute. If you want the wider aesthetic spectrum — coquette, angelcore, fairycore, cottagecore — the [aesthetic username generator](/aesthetic-username-generator.html) has sixteen styles; if you need the name to fit a game's format, the [Roblox username generator](/roblox-username-generator.html) enforces its rules; and for a general-purpose tool with cool, gaming and funny styles too, start from the main [username generator](/username-generator.html)."
+  ],
+  "source": {
+    "before": "Many of the kawaii words here come from Japanese — the cultural background is summarised well on ",
+    "name": "Wikipedia's article on kawaii",
+    "href": "https://en.wikipedia.org/wiki/Kawaii",
+    "after": "."
+  },
+  "faqTitle": "Cute Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a cute username generator?",
+      "It is a tool that combines a word you choose with curated cute vocabulary — bunnies, peaches, mochi, clouds, bows — and naming patterns to produce sweet username ideas. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some cute username ideas?",
+      "Examples from the styles above: bunnypeach, honeykitty, mochineko, fluffyotter, cloudbloom, lilacbow, dollybow and gigglybean. Type your own name to get versions built around it, such as miabun or honeymia."
+    ],
+    [
+      "How do I make my name into a cute username?",
+      "Type your name and pick a style. The generator keeps your name whole and adds a cute word before or after it, a diminutive like -boo or -chan, a doubled vowel, or a symbol — so every result still reads as yours."
+    ],
+    [
+      "Can I make cute usernames for Roblox?",
+      "Yes. Choose the Animals or Kawaii style, set Symbols to None and Separator to None, and the results are plain names Roblox accepts. For Roblox-specific formatting, use the [Roblox username generator](/roblox-username-generator.html)."
+    ],
+    [
+      "Do cute symbols like ♡ work in usernames?",
+      "Rarely in the handle itself — Instagram, TikTok, Discord and Roblox only allow letters, numbers, periods and underscores there. They do work in display names and bios, which is where the symbol section on this page is meant to go."
+    ],
+    [
+      "What is the difference between cute and aesthetic usernames?",
+      "Cute usernames lean on sweetness — animals, desserts, pastel, kawaii. Aesthetic usernames cover a wider mood spectrum, including dark, vintage, Y2K and minimal. If you want that range, the [aesthetic username generator](/aesthetic-username-generator.html) has sixteen styles."
+    ],
+    [
+      "What should I do if my cute username is taken?",
+      "Click Generate More for another batch, add a period or underscore, try a diminutive (miabun → miabunny), or add a lucky number. Small changes like mia.bun or miabun777 usually free up a name."
+    ],
+    [
+      "Can I copy and paste the generated usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style it afterwards, paste it into [cute fonts](/cute-fonts.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators & Cute Fonts",
+    "intro": "Pick another vibe, or give your new cute username matching letters."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html",
+      "Sixteen aesthetics from coquette to cottagecore.",
+      "⋆"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Cute and gaming names that follow Roblox's username format.",
+      "⌁"
+    ],
+    [
+      "Cute Fonts",
+      "/cute-fonts.html",
+      "Bubbly, rounded and decorated letters to paste into a display name.",
+      "♡"
+    ],
+    [
+      "Heart Font Generator",
+      "/heart-font-generator.html",
+      "Heart symbols, love text and heart-decorated styles to copy.",
+      "♥"
+    ],
+    [
+      "Aesthetic Symbols",
+      "/aesthetic-symbols.html",
+      "Bows, sparkles, stars and flowers to copy and paste.",
+      "✿"
+    ],
+    [
+      "Nickname Generator",
+      "/nickname-generator.html",
+      "Cute, funny and cool nicknames built from a real name."
+    ],
+    [
+      "TikTok Username Generator",
+      "/tiktok-username-generator.html",
+      "TikTok-safe handles that are easy to say out loud, plus display-name ideas."
+    ],
+    [
+      "Snapchat Username Generator",
+      "/snapchat-username-generator.html",
+      "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "aesthetic username generator",
+      "/aesthetic-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "cute fonts",
+      "/cute-fonts.html"
+    ],
+    [
+      "aesthetic fonts",
+      "/aesthetic-fonts.html"
+    ],
+    [
+      "heart font generator",
+      "/heart-font-generator.html"
+    ],
+    [
+      "aesthetic symbols",
+      "/aesthetic-symbols.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "linkNote": "Sweet, kawaii, soft and pastel username ideas from your name."
+}

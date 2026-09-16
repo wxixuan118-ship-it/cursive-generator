@@ -1,0 +1,982 @@
+{
+  "type": "username",
+  "keyword": "reddit username generator",
+  "file": "reddit-username-generator.html",
+  "label": "Reddit",
+  "title": "Reddit Username Generator – Anonymous & Funny u/ Names",
+  "description": "Reddit username generator: anonymous, funny, nerdy, minimal or throwaway u/ name ideas that follow Reddit's 3–20 character rules and reveal nothing about you.",
+  "h1": "Reddit Username Generator",
+  "appName": "Reddit Username Generator",
+  "kicker": "Free · 8 Reddit styles · 24 names per batch · anonymous by default",
+  "sub": "Anonymous, funny, nerdy and throwaway u/ name ideas that follow Reddit's rules",
+  "intro": "This Reddit username generator builds u/ names that follow Reddit's rules — 3 to 20 characters, letters, numbers, underscores and hyphens, no periods, no symbols — and that reveal nothing about you unless you want them to. Pick a style, generate 24 Reddit usernames at a time, filter by length, heart the ones you like and copy one before you sign up, because Reddit usernames can never be changed.",
+  "perks": [
+    "Reddit-safe: no periods, no symbols",
+    "Anonymous two-word mode (leave the box empty)",
+    "Favorites saved in your browser",
+    "No account needed"
+  ],
+  "sampleWord": "",
+  "seed": 2005,
+  "defaults": {
+    "symbols": "none",
+    "separator": "underscore"
+  },
+  "placeholder": "leave blank for anonymous names — or type a word",
+  "stylesLegend": "Choose a Reddit style",
+  "resultsTitle": "Reddit username ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "just",
+      "not",
+      "a",
+      "some",
+      "your",
+      "local",
+      "average",
+      "casual",
+      "definitely",
+      "probably",
+      "actual"
+    ],
+    "suffixes": [
+      "throwaway",
+      "alt",
+      "lurker",
+      "posts",
+      "again",
+      "ta",
+      "acct",
+      "here",
+      "irl",
+      "reads"
+    ]
+  },
+  "styles": {
+    "anonymous": {
+      "label": "Anonymous",
+      "icon": "◎",
+      "adjectives": [
+        "random",
+        "quiet",
+        "casual",
+        "some",
+        "local",
+        "average",
+        "regular",
+        "anonymous",
+        "curious",
+        "passing",
+        "ordinary",
+        "certain"
+      ],
+      "nouns": [
+        "lurker",
+        "commenter",
+        "redditor",
+        "user",
+        "person",
+        "stranger",
+        "reader",
+        "poster",
+        "bystander",
+        "observer",
+        "visitor",
+        "account",
+        "human",
+        "someone",
+        "nobody",
+        "wanderer",
+        "citizen",
+        "guest"
+      ],
+      "suffixes": [
+        "lurker",
+        "acct",
+        "here",
+        "again",
+        "reads",
+        "posts"
+      ],
+      "symbols": [
+        "·"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "confused"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "hamster",
+        "cabbage",
+        "walrus"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "supreme",
+        "2000",
+        "enthusiast"
+      ],
+      "symbols": [
+        "☺"
+      ]
+    },
+    "nerdy": {
+      "label": "Nerdy",
+      "icon": "⚙",
+      "adjectives": [
+        "quantum",
+        "binary",
+        "recursive",
+        "null",
+        "async",
+        "meta",
+        "proto",
+        "sudo",
+        "beta",
+        "legacy",
+        "verbose",
+        "cursed"
+      ],
+      "nouns": [
+        "pointer",
+        "segfault",
+        "kernel",
+        "compiler",
+        "byte",
+        "packet",
+        "lambda",
+        "regex",
+        "cache",
+        "thread",
+        "daemon",
+        "entropy",
+        "vector",
+        "tensor",
+        "syntax",
+        "stack",
+        "heap",
+        "commit"
+      ],
+      "suffixes": [
+        "dev",
+        "404",
+        "exe",
+        "sh",
+        "bit",
+        "io"
+      ],
+      "symbols": [
+        "⚙",
+        "·"
+      ]
+    },
+    "minimal": {
+      "label": "Minimal",
+      "icon": "·",
+      "adjectives": [
+        "plain",
+        "simple",
+        "quiet",
+        "bare",
+        "still",
+        "pure",
+        "clean",
+        "less",
+        "mono",
+        "blank",
+        "north",
+        "east"
+      ],
+      "nouns": [
+        "line",
+        "tone",
+        "form",
+        "hue",
+        "grey",
+        "stone",
+        "space",
+        "echo",
+        "mono",
+        "noon",
+        "sand",
+        "ink",
+        "salt",
+        "reed",
+        "elm",
+        "wren",
+        "vale",
+        "moss"
+      ],
+      "suffixes": [
+        "ish",
+        "ly",
+        "co",
+        "ink",
+        "one",
+        "two"
+      ],
+      "symbols": [
+        "·"
+      ]
+    },
+    "throwaway": {
+      "label": "Throwaway",
+      "icon": "↻",
+      "adjectives": [
+        "temp",
+        "one",
+        "single",
+        "quick",
+        "brief",
+        "burner",
+        "spare",
+        "extra",
+        "second",
+        "new",
+        "fresh",
+        "another"
+      ],
+      "nouns": [
+        "throwaway",
+        "burner",
+        "alt",
+        "account",
+        "question",
+        "post",
+        "story",
+        "confession",
+        "advice",
+        "update",
+        "ask",
+        "reply",
+        "thread",
+        "comment",
+        "vent",
+        "rant",
+        "query",
+        "aita"
+      ],
+      "suffixes": [
+        "throwaway",
+        "ta",
+        "alt",
+        "acct",
+        "2026",
+        "temp"
+      ],
+      "symbols": [
+        "↻"
+      ]
+    },
+    "hobby": {
+      "label": "Hobby",
+      "icon": "✎",
+      "adjectives": [
+        "amateur",
+        "weekend",
+        "beginner",
+        "casual",
+        "daily",
+        "midnight",
+        "backyard",
+        "budget",
+        "vintage",
+        "lifelong",
+        "reluctant",
+        "aspiring"
+      ],
+      "nouns": [
+        "gardener",
+        "baker",
+        "hiker",
+        "reader",
+        "painter",
+        "brewer",
+        "climber",
+        "knitter",
+        "cyclist",
+        "birder",
+        "modder",
+        "sim",
+        "collector",
+        "woodworker",
+        "runner",
+        "cook",
+        "angler",
+        "tinkerer"
+      ],
+      "suffixes": [
+        "hobbyist",
+        "enjoyer",
+        "fan",
+        "guy",
+        "gal",
+        "nerd"
+      ],
+      "symbols": [
+        "✎"
+      ]
+    },
+    "animal": {
+      "label": "Animal",
+      "icon": "🦉",
+      "adjectives": [
+        "sleepy",
+        "grumpy",
+        "tiny",
+        "wise",
+        "sneaky",
+        "lazy",
+        "nervous",
+        "polite",
+        "feral",
+        "dapper",
+        "salty",
+        "cosmic"
+      ],
+      "nouns": [
+        "owl",
+        "raccoon",
+        "otter",
+        "capybara",
+        "possum",
+        "pigeon",
+        "goose",
+        "ferret",
+        "moth",
+        "frog",
+        "newt",
+        "badger",
+        "heron",
+        "crow",
+        "axolotl",
+        "wombat",
+        "gecko",
+        "snail"
+      ],
+      "suffixes": [
+        "enjoyer",
+        "fan",
+        "irl",
+        "posts",
+        "here",
+        "again"
+      ],
+      "symbols": [
+        "🦉"
+      ]
+    },
+    "cool": {
+      "label": "Cool",
+      "icon": "✦",
+      "adjectives": [
+        "frost",
+        "neon",
+        "silent",
+        "arctic",
+        "steel",
+        "swift",
+        "onyx",
+        "phantom",
+        "storm",
+        "cold",
+        "dark",
+        "vapor"
+      ],
+      "nouns": [
+        "vortex",
+        "rift",
+        "drift",
+        "echo",
+        "spark",
+        "pulse",
+        "wolf",
+        "hawk",
+        "edge",
+        "flux",
+        "blaze",
+        "viper",
+        "zero",
+        "ace",
+        "apex",
+        "nova",
+        "raven",
+        "byte"
+      ],
+      "suffixes": [
+        "x",
+        "hq",
+        "zero",
+        "one",
+        "io",
+        "z"
+      ],
+      "symbols": [
+        "✦"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:anonymous",
+      "Anonymous"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:nerdy",
+      "Nerdy"
+    ],
+    [
+      "style:throwaway",
+      "Throwaway"
+    ],
+    [
+      "style:hobby",
+      "Hobby"
+    ],
+    [
+      "short",
+      "Short"
+    ],
+    [
+      "nosymbols",
+      "Reddit-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Reddit Display Names Can Be Styled",
+    "text": "Your u/ name is permanent and plain, but Reddit's separate display name accepts Unicode. Copy a username here, then style the display name if you like.",
+    "links": [
+      [
+        "Fancy text generator",
+        "/fancy-text-generator.html"
+      ],
+      [
+        "Small Text",
+        "/small-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Reddit Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type (or nothing), the Reddit style you choose, and the options under Customize. The word box is empty by default because most people want a Reddit name that is not connected to them; symbols are off and the separator is an underscore, matching Reddit's rules.",
+      "Type a word only if you want it in the name — a hobby, a pet, a joke. Never your real name: Reddit usernames are permanent and searchable."
+    ],
+    "steps": [
+      [
+        "Leave the box empty (or type a word)",
+        "Empty gives two-word anonymous names like quiet_lurker or sleepy_capybara. A word like 'sourdough' gives weekend_sourdough or sourdough_lurker — still nothing personal."
+      ],
+      [
+        "Pick a Reddit username style",
+        "Anonymous, funny, nerdy, minimal, throwaway, hobby, animal or cool. Each has its own vocabulary; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use Reddit-safe to hide anything with symbols, heart the ones you like, then copy one into the sign-up form — and remember you cannot change it later."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Reddit Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Anonymous and throwaway names reveal nothing; funny and animal names are the ones other redditors remember; nerdy names fit r/programming and r/linux — but every style here works anywhere. Click any username to copy it.",
+    "groups": [
+      {
+        "key": "anonymous",
+        "title": "Anonymous Reddit Usernames",
+        "blurb": "Lurker, commenter, stranger, bystander — names that describe a redditor and nothing else.",
+        "examples": [
+          "quiet_lurker",
+          "casual_commenter",
+          "some_stranger",
+          "average_redditor",
+          "passing_observer",
+          "local_bystander",
+          "certain_nobody",
+          "random_reader"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Reddit Usernames",
+        "blurb": "Toast, potato, goose, walrus — the names that get upvoted in the comments.",
+        "examples": [
+          "wobbly_toast",
+          "grumpy_walrus",
+          "spicy_noodle",
+          "confused_goose",
+          "soggy_cabbage",
+          "angry_hamster",
+          "sleepy_yeti",
+          "taco_enthusiast"
+        ]
+      },
+      {
+        "key": "nerdy",
+        "title": "Nerdy Reddit Usernames",
+        "blurb": "Segfault, kernel, regex, lambda — for r/programming, r/linux and r/sysadmin.",
+        "examples": [
+          "null_pointer",
+          "recursive_segfault",
+          "sudo_kernel",
+          "async_lambda",
+          "cursed_regex",
+          "verbose_daemon",
+          "legacy_compiler",
+          "meta_entropy"
+        ]
+      },
+      {
+        "key": "minimal",
+        "title": "Minimal Reddit Usernames",
+        "blurb": "One quiet word, no underscore — the rarest kind on Reddit after twenty years of sign-ups. The [rare username generator](/rare-username-generator.html) has more of these.",
+        "examples": [
+          "stillreed",
+          "greytone",
+          "plainink",
+          "quietelm",
+          "monowren",
+          "northvale",
+          "bareline",
+          "saltish"
+        ]
+      },
+      {
+        "key": "throwaway",
+        "title": "Throwaway Reddit Usernames",
+        "blurb": "Burner, temp, aita, confession — names that announce they are single-use, which is the Reddit convention.",
+        "examples": [
+          "temp_throwaway",
+          "one_question_ta",
+          "burner_account",
+          "quick_confession",
+          "spare_alt",
+          "brief_story_ta",
+          "aita_throwaway",
+          "another_vent"
+        ]
+      },
+      {
+        "key": "hobby",
+        "title": "Hobby Reddit Usernames",
+        "blurb": "Weekend gardener, amateur baker, reluctant cyclist — names for the subreddit you actually post in.",
+        "examples": [
+          "weekend_gardener",
+          "amateur_baker",
+          "reluctant_cyclist",
+          "midnight_knitter",
+          "budget_brewer",
+          "backyard_birder",
+          "lifelong_reader",
+          "aspiring_woodworker"
+        ]
+      },
+      {
+        "key": "animal",
+        "title": "Animal Reddit Usernames",
+        "blurb": "Capybara, possum, axolotl, wombat — Reddit's favorite animals, with an adjective.",
+        "examples": [
+          "sleepy_capybara",
+          "dapper_possum",
+          "nervous_axolotl",
+          "polite_wombat",
+          "feral_pigeon",
+          "wise_owl_irl",
+          "salty_gecko",
+          "cosmic_snail"
+        ]
+      },
+      {
+        "key": "cool",
+        "title": "Cool Reddit Usernames",
+        "blurb": "Frost, vortex, apex, nova — for gaming and tech subreddits where a handle should look sharp. The [cool username generator](/cool-username-generator.html) has eight edgier styles.",
+        "examples": [
+          "frost_vortex",
+          "silent_apex",
+          "onyx_drift",
+          "phantom_rift",
+          "neon_byte",
+          "arctic_hawk",
+          "vapor_nova",
+          "steel_echo"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "sample": "(no word)",
+    "examples": [
+      "quiet_lurker",
+      "wobbly_toast",
+      "null_pointer",
+      "sleepy_capybara",
+      "temp_throwaway",
+      "weekend_gardener"
+    ],
+    "alt": "Reddit username generator example: anonymous u/ names like quiet_lurker, wobbly_toast, null_pointer and sleepy_capybara generated from an empty box",
+    "caption": "Leave the box empty and every result is two words with nothing personal in it — the way most Reddit usernames are made.",
+    "tagline": "ANONYMOUS · FUNNY · NERDY · THROWAWAY",
+    "src": "/assets/previews/reddit-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Reddit's rules",
+    "title": "What Reddit Allows in a Username",
+    "intro": "Reddit's username field is one of the strictest and the only one you can never edit. These shortcuts generate names that fit each situation.",
+    "cards": [
+      {
+        "icon": "◎",
+        "title": "Main Reddit Usernames",
+        "text": "3–20 characters, letters, numbers, underscores and hyphens. No periods, no spaces, no symbols, and it is permanent. Anonymous or hobby names age best.",
+        "examples": [
+          "quiet_lurker",
+          "weekend_gardener",
+          "stillreed"
+        ],
+        "preset": {
+          "style": "anonymous",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate a main account name ↑"
+      },
+      {
+        "icon": "↻",
+        "title": "Throwaway Reddit Usernames",
+        "text": "For one post you do not want linked to your main. Reddit convention is to say so in the name: throwaway, ta, burner, alt.",
+        "examples": [
+          "temp_throwaway",
+          "aita_throwaway",
+          "burner_account"
+        ],
+        "preset": {
+          "style": "throwaway",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate a throwaway ↑"
+      },
+      {
+        "icon": "✎",
+        "title": "Reddit Display Names",
+        "text": "Since 2023 Reddit has a separate display name that accepts spaces, emoji and Unicode and can be changed any time. Generate here with symbols on, or style a plain name with a font tool.",
+        "examples": [
+          "quiet lurker ✦",
+          "ᴡᴏʙʙʟʏ ᴛᴏᴀsᴛ",
+          "sleepy capybara"
+        ],
+        "preset": {
+          "style": "funny",
+          "symbols": "auto",
+          "separator": "none"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Fancy text",
+          "/fancy-text-generator.html"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Same Name on Discord",
+        "text": "Discord usernames use the same lowercase letters, numbers and underscores (plus periods), so a Reddit-safe name usually works there too for the community server.",
+        "examples": [
+          "null_pointer",
+          "frost_vortex",
+          "cosmic_snail"
+        ],
+        "preset": {
+          "style": "nerdy",
+          "symbols": "none",
+          "separator": "underscore",
+          "letters": "lower"
+        },
+        "button": "Generate cross-platform ↑",
+        "link": [
+          "Fonts for Discord",
+          "/fonts-for-discord.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Reddit Username",
+    "intro": "The generator follows a handful of formulas — the same ones you see in every comment section. Knowing them helps you tweak a result or build your own u/ name by hand.",
+    "rows": [
+      [
+        "Adjective _ noun",
+        "**Quiet** + **_** + **Lurker** → the classic Reddit format; two words, one underscore, nothing personal",
+        [
+          "quiet_lurker"
+        ]
+      ],
+      [
+        "Adjective _ animal",
+        "**Sleepy** + **_** + **Capybara** → the most upvoted format on the site",
+        [
+          "sleepy_capybara"
+        ]
+      ],
+      [
+        "Hobby role",
+        "**Weekend** + **Gardener** → tells people which subreddit you live in",
+        [
+          "weekend_gardener"
+        ]
+      ],
+      [
+        "Word + throwaway / ta",
+        "**Aita** + **throwaway** → the throwaway convention; ta is the short form",
+        [
+          "aita_throwaway",
+          "one_question_ta"
+        ]
+      ],
+      [
+        "the / not / just + word",
+        "**not** / **just** / **the** + **a_lurker** → reads like a comment",
+        [
+          "not_a_lurker",
+          "just_here_reading"
+        ]
+      ],
+      [
+        "Word + enthusiast / enjoyer",
+        "**Taco** + **enthusiast** → a hobby or a joke, Reddit-flavoured",
+        [
+          "taco_enthusiast",
+          "capybara_enjoyer"
+        ]
+      ],
+      [
+        "One quiet word",
+        "**Stillreed**, **Greytone** → no underscore, rare after twenty years of sign-ups",
+        [
+          "stillreed",
+          "greytone"
+        ]
+      ],
+      [
+        "Word + year",
+        "**Lurker** + **2026** → a number that says when you joined, not when you were born",
+        [
+          "lurker_2026",
+          "new_here_2026"
+        ]
+      ]
+    ],
+    "note": "One rule matters more on Reddit than anywhere else: nothing personal. No real name, no birth year, no city, no employer. *quiet_lurker* is a Reddit username; *john_smith_1994_boston* is a doxxing kit. And it is permanent — pick one you can live with."
+  },
+  "guide": {
+    "title": "How Our Reddit Username Generator Works",
+    "intro": "There is no AI behind this page and no connection to Reddit. Reddit usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word — or nothing.",
+        "The box is empty by default, so the generator pairs two vocabulary words with nothing personal in them. If you type a word it is kept whole, cleaned to letters and numbers, and used as one half of the name."
+      ],
+      [
+        "Reddit vocabulary.",
+        "Each of the eight styles has its own hand-written list — lurker, commenter and bystander for anonymous; segfault, kernel and regex for nerdy; capybara, possum and axolotl for animals — so a throwaway result never borrows a hobby word by accident."
+      ],
+      [
+        "Comment-section patterns.",
+        "Adjective _ noun, adjective _ animal, hobby roles, throwaway markers, the/not/just prefixes, enthusiast and enjoyer suffixes, and join-year numbers. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Reddit-safe defaults.",
+        "Symbols are off and the separator is an underscore, so every result uses only letters, numbers and underscores — Reddit rejects periods and everything else. Names are capped at 20 characters by the vocabulary."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a u/ name is free — the sign-up form tells you instantly."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Reddit Username Rules — and Why You Cannot Change It",
+  "uniqueBody": [
+    "Reddit usernames are **3 to 20 characters** of letters, numbers, underscores and hyphens. No periods, no spaces, no symbols, no emoji — and, unlike almost every other platform, **no changes, ever**: the u/ name you pick at sign-up is the one your account keeps. (Reddit added a separate editable display name in 2023, but the u/ handle underneath is fixed.) Because Reddit is searchable and comments last for years, the second rule is unwritten but stronger: nothing in the name should identify you. Reddit's own help pages recommend against using your real name, and most long-time users follow the two-word anonymous pattern this page generates by default.",
+    "That is why this Reddit username generator starts with an empty box, keeps symbols off and joins words with an underscore: the result is a u/ name that is valid on the first try and says nothing about you. Type a word only if it is a hobby, a joke or a pet — never a name, a year or a place. If you want a personal handle for a platform where that is normal, the [Instagram username generator](/instagram-username-generator.html) and the main [username generator](/username-generator.html) are built around your name; for gaming subreddits the [gaming username generator](/gaming-username-generator.html) gives you a gamertag that doubles as a u/ name; and the [short username generator](/short-username-generator.html) finds the rare single-word handles that are still open."
+  ],
+  "source": {
+    "before": "The character rules and the permanence of u/ names are set out in ",
+    "name": "Reddit's help article on usernames",
+    "href": "https://support.reddithelp.com/hc/en-us/articles/204536422-Can-I-change-my-username",
+    "after": "."
+  },
+  "faqTitle": "Reddit Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a Reddit username generator?",
+      "It is a tool that builds u/ names from curated vocabulary — anonymous, funny, nerdy, hobby, animal and throwaway words — joined with an underscore in Reddit's 3–20 character format, so the result is valid and reveals nothing about you. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good Reddit username ideas?",
+      "Examples from the styles above: quiet_lurker, wobbly_toast, null_pointer, sleepy_capybara, weekend_gardener, temp_throwaway, stillreed and frost_vortex. Leave the box empty for anonymous two-word names, or type a hobby word to build the name around it."
+    ],
+    [
+      "Can I change my Reddit username?",
+      "No. The u/ username is permanent once the account is created. Since 2023 Reddit has a separate display name you can edit any time, but the handle underneath stays. That is why it is worth generating a few options and checking them on the sign-up form before you commit."
+    ],
+    [
+      "What characters does Reddit allow in a username?",
+      "Letters, numbers, underscores and hyphens, 3 to 20 characters. No periods, spaces, symbols or emoji. This generator keeps symbols off and joins words with an underscore by default, so every result is Reddit-safe."
+    ],
+    [
+      "How do I make an anonymous Reddit username?",
+      "Leave the word box empty and pick Anonymous, Animal or Funny. The generator pairs two vocabulary words — quiet_lurker, sleepy_capybara, grumpy_walrus — with no name, year, city or employer in them. Do not add your real name, birth year or location afterwards."
+    ],
+    [
+      "What is a throwaway Reddit username?",
+      "A single-use account for one post you do not want linked to your main. Reddit convention is to put throwaway, ta, burner or alt in the name so other users understand — pick the Throwaway style above for names like aita_throwaway or one_question_ta."
+    ],
+    [
+      "Does this Reddit username generator check availability?",
+      "No. Nothing here talks to Reddit, so it cannot know whether a u/ name is taken. Copy the one you like into the sign-up form; Reddit shows a red warning immediately if the name is unavailable, before you create the account."
+    ],
+    [
+      "Can I copy and paste the generated Reddit usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style the editable display name, paste a result into the [fancy text generator](/fancy-text-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators",
+    "intro": "Pick another platform, or style your Reddit display name."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Instagram Username Generator",
+      "/instagram-username-generator.html",
+      "IG-safe handles built around your name — the opposite of anonymous.",
+      "◎"
+    ],
+    [
+      "Gaming Username Generator",
+      "/gaming-username-generator.html",
+      "Gamertags that double as u/ names for gaming subreddits.",
+      "⌁"
+    ],
+    [
+      "Short Username Generator",
+      "/short-username-generator.html",
+      "3 to 8-letter handles — the rare single-word Reddit names.",
+      "·"
+    ],
+    [
+      "Rare Username Generator",
+      "/rare-username-generator.html",
+      "Obscure words and old names that are still open after twenty years.",
+      "◇"
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "300+ Unicode styles for Reddit's editable display name.",
+      "𝓕"
+    ],
+    [
+      "Nickname Generator",
+      "/nickname-generator.html",
+      "Cute, funny and cool nicknames built from a real name."
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles that pass Discord's rules, plus styled display names."
+    ],
+    [
+      "Twitter Username Generator",
+      "/twitter-username-generator.html",
+      "Short X handles under the 15-character limit — funny, professional, anonymous."
+    ],
+    [
+      "Email Username Generator",
+      "/email-username-generator.html",
+      "Gmail-safe address ideas — professional, personal, brand and anonymous — under 30 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "Instagram username generator",
+      "/instagram-username-generator.html"
+    ],
+    [
+      "gaming username generator",
+      "/gaming-username-generator.html"
+    ],
+    [
+      "short username generator",
+      "/short-username-generator.html"
+    ],
+    [
+      "rare username generator",
+      "/rare-username-generator.html"
+    ],
+    [
+      "fancy text generator",
+      "/fancy-text-generator.html"
+    ],
+    [
+      "small text generator",
+      "/small-text-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ]
+  ],
+  "linkNote": "Anonymous, funny and throwaway u/ names that follow Reddit's rules.",
+  "maxLength": 20
+}

@@ -1,0 +1,1156 @@
+{
+  "type": "username",
+  "keyword": "gaming username generator",
+  "file": "gaming-username-generator.html",
+  "label": "Gaming",
+  "title": "Gaming Username Generator – Free Gamertag Ideas",
+  "description": "Gaming username generator: type a name, pick sweaty, funny, dark, retro, fantasy or beast vibes and copy 24 gamertag ideas for Xbox, PlayStation and Discord.",
+  "h1": "Gaming Username Generator",
+  "appName": "Gaming Username Generator",
+  "kicker": "Free · 8 gamer styles · 24 gamertags per batch · console-safe characters",
+  "sub": "Gamertag and gamer name ideas for Xbox, PlayStation, Steam, Discord and Twitch",
+  "intro": "This gaming username generator builds gamertags around your name or a word — knights, snipers, titans, ghosts, glitches — instead of spitting out random letters. Pick a gamer style, generate 24 gaming usernames at a time, keep them short enough for a console, and copy the ones you like for any console, PC launcher, Discord server or game.",
+  "perks": [
+    "Console-safe by default (no symbols)",
+    "Short filter for 12-character gamertags",
+    "Favorites saved in your browser",
+    "No account, no AI, no data sent anywhere"
+  ],
+  "sampleWord": "leo",
+  "seed": 1337,
+  "defaults": {
+    "symbols": "none"
+  },
+  "placeholder": "leo, ace, shadow, nova, pixel…",
+  "stylesLegend": "Choose a gamer style",
+  "resultsTitle": "Gaming username ideas",
+  "common": {
+    "prefixes": [
+      "the",
+      "its",
+      "real",
+      "og",
+      "mr",
+      "im",
+      "sir",
+      "captain",
+      "lord",
+      "not",
+      "big",
+      "lil"
+    ],
+    "suffixes": [
+      "gg",
+      "yt",
+      "ttv",
+      "xd",
+      "plays",
+      "gaming",
+      "x",
+      "hq",
+      "one",
+      "zero"
+    ]
+  },
+  "styles": {
+    "sweaty": {
+      "label": "Sweaty",
+      "icon": "⚔",
+      "adjectives": [
+        "silent",
+        "rapid",
+        "elite",
+        "lethal",
+        "swift",
+        "clutch",
+        "prime",
+        "apex",
+        "cracked",
+        "sharp",
+        "ruthless",
+        "instant"
+      ],
+      "nouns": [
+        "sniper",
+        "striker",
+        "reaper",
+        "titan",
+        "blitz",
+        "warden",
+        "raider",
+        "ranger",
+        "havoc",
+        "slayer",
+        "hunter",
+        "vanguard",
+        "phantom",
+        "assassin",
+        "marksman",
+        "spectre",
+        "predator",
+        "enforcer"
+      ],
+      "suffixes": [
+        "gg",
+        "x",
+        "one",
+        "zero",
+        "prime",
+        "ttv"
+      ],
+      "symbols": [
+        "⚔",
+        "✦",
+        "★",
+        "☠",
+        "⌁",
+        "✪"
+      ]
+    },
+    "funny": {
+      "label": "Funny",
+      "icon": "☺",
+      "adjectives": [
+        "wobbly",
+        "sleepy",
+        "silly",
+        "grumpy",
+        "spicy",
+        "soggy",
+        "chunky",
+        "dizzy",
+        "sneaky",
+        "goofy",
+        "angry",
+        "confused"
+      ],
+      "nouns": [
+        "toast",
+        "waffle",
+        "noodle",
+        "potato",
+        "pickle",
+        "goose",
+        "taco",
+        "banana",
+        "goblin",
+        "gremlin",
+        "duck",
+        "yeti",
+        "raccoon",
+        "burrito",
+        "llama",
+        "hamster",
+        "nugget",
+        "cabbage"
+      ],
+      "suffixes": [
+        "pants",
+        "boss",
+        "lord",
+        "ninja",
+        "supreme",
+        "2000"
+      ],
+      "symbols": [
+        "☺",
+        "★",
+        "✌",
+        "☆",
+        "⚡",
+        "☠"
+      ]
+    },
+    "dark": {
+      "label": "Dark",
+      "icon": "☾",
+      "adjectives": [
+        "dark",
+        "hollow",
+        "grim",
+        "bitter",
+        "cold",
+        "lost",
+        "wicked",
+        "cursed",
+        "silent",
+        "shadow",
+        "midnight",
+        "phantom"
+      ],
+      "nouns": [
+        "void",
+        "raven",
+        "shadow",
+        "venom",
+        "ash",
+        "thorn",
+        "ghost",
+        "eclipse",
+        "abyss",
+        "wraith",
+        "smoke",
+        "omen",
+        "reaper",
+        "specter",
+        "nocturne",
+        "crow",
+        "doom",
+        "plague"
+      ],
+      "suffixes": [
+        "noir",
+        "void",
+        "xx",
+        "ash",
+        "x"
+      ],
+      "symbols": [
+        "☾",
+        "✦",
+        "✧",
+        "☽",
+        "✞",
+        "☠"
+      ]
+    },
+    "retro": {
+      "label": "Retro",
+      "icon": "▶",
+      "adjectives": [
+        "pixel",
+        "retro",
+        "arcade",
+        "neon",
+        "8bit",
+        "analog",
+        "classic",
+        "chrome",
+        "laser",
+        "cosmic",
+        "turbo",
+        "mega"
+      ],
+      "nouns": [
+        "pixel",
+        "arcade",
+        "joystick",
+        "cartridge",
+        "sprite",
+        "coin",
+        "combo",
+        "warp",
+        "boss",
+        "level",
+        "glitch",
+        "byte",
+        "bit",
+        "cabinet",
+        "highscore",
+        "player",
+        "console",
+        "pong"
+      ],
+      "suffixes": [
+        "64",
+        "8bit",
+        "2000",
+        "gg",
+        "one",
+        "xd"
+      ],
+      "symbols": [
+        "▶",
+        "★",
+        "☆",
+        "✦",
+        "⌁",
+        "▲"
+      ]
+    },
+    "fantasy": {
+      "label": "Fantasy",
+      "icon": "✧",
+      "adjectives": [
+        "ancient",
+        "silver",
+        "ember",
+        "arcane",
+        "wild",
+        "shadow",
+        "mystic",
+        "elder",
+        "frost",
+        "storm",
+        "iron",
+        "runic"
+      ],
+      "nouns": [
+        "dragon",
+        "knight",
+        "wizard",
+        "rune",
+        "phoenix",
+        "oracle",
+        "griffin",
+        "sorcerer",
+        "mage",
+        "paladin",
+        "rogue",
+        "warlock",
+        "druid",
+        "ranger",
+        "titan",
+        "golem",
+        "wyvern",
+        "lich"
+      ],
+      "suffixes": [
+        "born",
+        "fall",
+        "wing",
+        "bane",
+        "song",
+        "fire"
+      ],
+      "symbols": [
+        "✧",
+        "⚔",
+        "☽",
+        "✦",
+        "⋆",
+        "✵"
+      ]
+    },
+    "scifi": {
+      "label": "Sci-Fi",
+      "icon": "✦",
+      "adjectives": [
+        "cyber",
+        "neon",
+        "quantum",
+        "zero",
+        "hyper",
+        "orbital",
+        "cosmic",
+        "nano",
+        "astral",
+        "binary",
+        "plasma",
+        "void"
+      ],
+      "nouns": [
+        "nova",
+        "orbit",
+        "vector",
+        "cipher",
+        "matrix",
+        "pulsar",
+        "reactor",
+        "android",
+        "protocol",
+        "nexus",
+        "flux",
+        "drone",
+        "mech",
+        "photon",
+        "signal",
+        "core",
+        "unit",
+        "vertex"
+      ],
+      "suffixes": [
+        "x",
+        "zero",
+        "one",
+        "io",
+        "v2",
+        "hq"
+      ],
+      "symbols": [
+        "✦",
+        "✧",
+        "⌁",
+        "◆",
+        "▲",
+        "✵"
+      ]
+    },
+    "beast": {
+      "label": "Beast",
+      "icon": "🐺",
+      "adjectives": [
+        "iron",
+        "steel",
+        "savage",
+        "alpha",
+        "wild",
+        "black",
+        "blood",
+        "thunder",
+        "grim",
+        "feral",
+        "silver",
+        "rabid"
+      ],
+      "nouns": [
+        "wolf",
+        "viper",
+        "hawk",
+        "bear",
+        "panther",
+        "cobra",
+        "shark",
+        "jackal",
+        "bull",
+        "raptor",
+        "lion",
+        "tiger",
+        "falcon",
+        "rhino",
+        "hound",
+        "mantis",
+        "scorpion",
+        "kraken"
+      ],
+      "suffixes": [
+        "x",
+        "xx",
+        "prime",
+        "one",
+        "king",
+        "gg"
+      ],
+      "symbols": [
+        "☠",
+        "⚔",
+        "✖",
+        "★",
+        "⚡",
+        "☬"
+      ]
+    },
+    "chill": {
+      "label": "Chill",
+      "icon": "☁",
+      "adjectives": [
+        "lazy",
+        "sleepy",
+        "cozy",
+        "casual",
+        "mellow",
+        "chill",
+        "slow",
+        "quiet",
+        "soft",
+        "easy",
+        "sunday",
+        "lofi"
+      ],
+      "nouns": [
+        "cloud",
+        "couch",
+        "nap",
+        "tea",
+        "pillow",
+        "hoodie",
+        "lofi",
+        "noodle",
+        "mochi",
+        "bean",
+        "panda",
+        "otter",
+        "cat",
+        "frog",
+        "duck",
+        "boba",
+        "toast",
+        "blanket"
+      ],
+      "suffixes": [
+        "plays",
+        "gaming",
+        "xd",
+        "gg",
+        "yt",
+        "zz"
+      ],
+      "symbols": [
+        "☁",
+        "☺",
+        "⋆",
+        "♡",
+        "☆",
+        "˚"
+      ]
+    }
+  },
+  "filters": [
+    [
+      "style:sweaty",
+      "Sweaty"
+    ],
+    [
+      "style:funny",
+      "Funny"
+    ],
+    [
+      "style:dark",
+      "Dark"
+    ],
+    [
+      "style:fantasy",
+      "Fantasy"
+    ],
+    [
+      "style:beast",
+      "Beast"
+    ],
+    [
+      "short",
+      "Short (≤8)"
+    ],
+    [
+      "nosymbols",
+      "Console-safe"
+    ],
+    [
+      "symbols",
+      "With Symbols"
+    ]
+  ],
+  "cta": {
+    "title": "Style Your Gamertag",
+    "text": "Steam, Discord and Twitch display names accept fancy Unicode letters. Copy a gamertag here, then give it gothic, glitch or bold letters.",
+    "links": [
+      [
+        "Cool text generator",
+        "/cool-text-generator.html"
+      ],
+      [
+        "Glitch text generator",
+        "/glitch-text-generator.html"
+      ]
+    ]
+  },
+  "howTo": {
+    "title": "How to Use the Gaming Username Generator",
+    "lead": [
+      "Every batch mixes three things: the word you type, the gamer style you choose, and the options under Customize. Symbols are off by default because consoles reject them; the Short filter keeps results under Xbox's 12-character limit.",
+      "Leave the word blank and the generator pairs two gaming words instead — silentsniper, pixelwarden, ironkraken — so it also works as a random gamertag generator for a smurf or an alt."
+    ],
+    "steps": [
+      [
+        "Type your gamer name or a word",
+        "Your name, a nickname, a favorite game word. The generator keeps it whole and builds around it: leo becomes silentleo, leosniper or leo_gg."
+      ],
+      [
+        "Pick a gaming username style",
+        "Sweaty, funny, dark, retro, fantasy, sci-fi, beast or chill. Each has its own vocabulary and its own symbol set; All Styles mixes them."
+      ],
+      [
+        "Generate, filter and copy usernames",
+        "Use Short for console gamertags and Console-safe to hide symbols, heart the ones you like, then copy and paste into the game or launcher to check availability."
+      ]
+    ]
+  },
+  "ideas": {
+    "title": "Gaming Username Ideas by Style",
+    "intro": "Hand-picked examples per style so you can see the vocabulary before you generate. Sweaty and beast names dominate competitive lobbies; funny and chill names get remembered in Discord servers — but every style here works for anyone. Click any gamertag to copy it.",
+    "groups": [
+      {
+        "key": "sweaty",
+        "title": "Sweaty Gaming Usernames",
+        "blurb": "Sniper, striker, reaper, blitz — tryhard gamertags for ranked lobbies.",
+        "examples": [
+          "silentsniper",
+          "clutchreaper",
+          "eliteblitz",
+          "apexwarden",
+          "lethalstriker",
+          "crackedslayer",
+          "leoprime",
+          "rapidphantom"
+        ]
+      },
+      {
+        "key": "funny",
+        "title": "Funny Gaming Usernames",
+        "blurb": "Toast, potato, goblin, goose — the names everyone in the lobby remembers.",
+        "examples": [
+          "wobblytoast",
+          "grumpygoose",
+          "spicynoodle",
+          "sleepyyeti",
+          "angrypotato",
+          "confusedllama",
+          "leopants",
+          "tacogoblin"
+        ]
+      },
+      {
+        "key": "dark",
+        "title": "Dark Gaming Usernames",
+        "blurb": "Void, wraith, plague, doom — moody names for horror games and edgy profiles. The [emo username generator](/emo-username-generator.html) goes further.",
+        "examples": [
+          "hollowvoid",
+          "grimwraith",
+          "cursedcrow",
+          "leoplague",
+          "phantomdoom",
+          "midnightash",
+          "voidreaper",
+          "wickedomen"
+        ]
+      },
+      {
+        "key": "retro",
+        "title": "Retro & Pixel Gaming Usernames",
+        "blurb": "Arcade, joystick, sprite, highscore — names with an 8-bit feel. Pair one with the [Mario font generator](/mario-font-generator.html) for a matching profile banner.",
+        "examples": [
+          "pixelsprite",
+          "arcadejoystick",
+          "neoncartridge",
+          "leo64",
+          "chromecombo",
+          "8bitboss",
+          "laserwarp",
+          "megahighscore"
+        ]
+      },
+      {
+        "key": "fantasy",
+        "title": "Fantasy & RPG Gaming Usernames",
+        "blurb": "Dragon, paladin, warlock, wyvern — character names for MMOs and D&D. The [fantasy username generator](/fantasy-username-generator.html) has races, classes and realms.",
+        "examples": [
+          "emberdragon",
+          "arcanepaladin",
+          "frostwarlock",
+          "leobane",
+          "silverwyvern",
+          "elderdruid",
+          "runicgolem",
+          "stormlich"
+        ]
+      },
+      {
+        "key": "scifi",
+        "title": "Sci-Fi Gaming Usernames",
+        "blurb": "Nova, cipher, reactor, protocol — names for shooters and space games.",
+        "examples": [
+          "quantumnova",
+          "cybercipher",
+          "zeroreactor",
+          "leo.protocol",
+          "plasmadrone",
+          "binarynexus",
+          "orbitalmech",
+          "nanophoton"
+        ]
+      },
+      {
+        "key": "beast",
+        "title": "Beast Gaming Usernames",
+        "blurb": "Wolf, viper, kraken, raptor — the heaviest words in the list.",
+        "examples": [
+          "ironwolf",
+          "savageviper",
+          "alphakraken",
+          "leohawk",
+          "bloodraptor",
+          "thunderjackal",
+          "feralmantis",
+          "steelscorpion"
+        ]
+      },
+      {
+        "key": "chill",
+        "title": "Chill & Casual Gaming Usernames",
+        "blurb": "Cloud, couch, lofi, panda — for cozy games, co-op nights and Stardew saves.",
+        "examples": [
+          "lazypanda",
+          "cozyotter",
+          "lofinoodle",
+          "leoplays",
+          "sleepyfrog",
+          "sundaytoast",
+          "mellowmochi",
+          "chillduck"
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "examples": [
+      "silentleo",
+      "leosniper",
+      "wobblytoast",
+      "emberdragon",
+      "ironwolf",
+      "lazypanda"
+    ],
+    "alt": "Gaming username generator example: the name leo turned into silentleo, leosniper, wobblytoast, emberdragon and other gamertag ideas",
+    "caption": "One name in, eight gamer styles out — every gamertag on the page comes from the vocabulary above.",
+    "tagline": "SWEATY · FUNNY · DARK · FANTASY · BEAST",
+    "sample": "leo",
+    "src": "/assets/previews/gaming-username-generator.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "platforms": {
+    "eyebrow": "Platform rules",
+    "title": "Gaming Usernames for Consoles, PC & Discord",
+    "intro": "Every platform caps gamertags differently. These shortcuts generate ideas that fit each one; the linked pages go deeper on specific games.",
+    "cards": [
+      {
+        "icon": "⌁",
+        "title": "Xbox Gaming Usernames",
+        "text": "Up to 12 characters, letters, numbers and spaces; Xbox adds a #1234 suffix if your pick is taken. Use the Short filter and Console-safe.",
+        "examples": [
+          "SilentLeo",
+          "LeoSniper",
+          "IronWolf"
+        ],
+        "preset": {
+          "style": "sweaty",
+          "symbols": "none",
+          "separator": "none",
+          "length": "short",
+          "letters": "mixed"
+        },
+        "button": "Generate Xbox gamertags ↑"
+      },
+      {
+        "icon": "◎",
+        "title": "PlayStation Gaming Usernames",
+        "text": "3–16 characters, letters, numbers, hyphens and underscores; cannot start with a number. Beast and dark styles fit the length well.",
+        "examples": [
+          "leo_reaper",
+          "alpha-kraken",
+          "voidleo"
+        ],
+        "preset": {
+          "style": "beast",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate PSN IDs ↑"
+      },
+      {
+        "icon": "✦",
+        "title": "Steam & Discord Gaming Usernames",
+        "text": "Steam display names and Discord display names accept almost anything, including ✦ and ⚔ — this is where symbols and fancy letters go. Discord's unique username stays plain lowercase.",
+        "examples": [
+          "✦leo✦",
+          "leo.plays",
+          "hollowvoid"
+        ],
+        "preset": {
+          "style": "dark",
+          "symbols": "auto"
+        },
+        "button": "Generate a display name ↑",
+        "link": [
+          "Discord fonts",
+          "/fonts-for-discord.html"
+        ]
+      },
+      {
+        "icon": "▶",
+        "title": "Twitch & YouTube Gaming Usernames",
+        "text": "Twitch usernames are 4–25 letters, numbers and underscores; channel names carry a -ttv or -yt suffix so viewers know where to find you.",
+        "examples": [
+          "leottv",
+          "leoplays_yt",
+          "cozyotter"
+        ],
+        "preset": {
+          "style": "chill",
+          "symbols": "none",
+          "separator": "underscore"
+        },
+        "button": "Generate a channel name ↑",
+        "link": [
+          "Roblox username generator",
+          "/roblox-username-generator.html"
+        ]
+      }
+    ]
+  },
+  "formulas": {
+    "title": "How to Make a Good Gaming Username",
+    "intro": "The generator follows a handful of formulas. Knowing them helps you tweak a result — or build your own gamertag by hand.",
+    "rows": [
+      [
+        "Adjective + name",
+        "**Silent** / **Iron** + **Leo** → describes your playstyle before your name lands",
+        [
+          "silentleo",
+          "ironleo"
+        ]
+      ],
+      [
+        "Name + role noun",
+        "**Leo** + **Sniper** / **Warden** → the noun says what you main",
+        [
+          "leosniper",
+          "leowarden"
+        ]
+      ],
+      [
+        "Two gaming words",
+        "**Pixel** + **Warden** → no name at all, for a smurf or a squad",
+        [
+          "pixelwarden"
+        ]
+      ],
+      [
+        "Name + gg / ttv / yt",
+        "**Leo** + **gg** → the classic gaming suffix; ttv and yt point at your channel",
+        [
+          "leogg",
+          "leottv"
+        ]
+      ],
+      [
+        "Name + underscore",
+        "**Leo** + **_** + **Reaper** → frees a taken tag; PSN and Discord allow it",
+        [
+          "leo_reaper"
+        ]
+      ],
+      [
+        "Prefix + name",
+        "**the** / **og** / **captain** + **Leo** → confident, easy to call out in voice chat",
+        [
+          "theleo",
+          "captainleo"
+        ]
+      ],
+      [
+        "Dropped vowel",
+        "**Sniper** → **snpr**, **Reaper** → **rpr** → a classic tryhard respelling, keep it to one word",
+        [
+          "leosnpr",
+          "rprleo"
+        ]
+      ],
+      [
+        "Name + meaningful number",
+        "**Leo** + **64** / **07** / birth year → a number with a reason looks intentional",
+        [
+          "leo64",
+          "leo07"
+        ]
+      ]
+    ],
+    "note": "One trick per gamertag. *silentleo* is clean; *xXx_SiLeNtLeO_420_xXx* is a 2008 Halo lobby. Keep it pronounceable so teammates can call it out, and keep it under 12 characters if you ever want to use it on Xbox."
+  },
+  "symbols": {
+    "title": "Gaming Symbols for Usernames",
+    "intro": "Click a symbol to copy it, then paste it into a Steam, Discord or Twitch display name — consoles and most in-game username fields reject them.",
+    "items": [
+      [
+        "⚔",
+        "crossed swords"
+      ],
+      [
+        "☠",
+        "skull"
+      ],
+      [
+        "⚡",
+        "lightning"
+      ],
+      [
+        "✦",
+        "four-pointed star"
+      ],
+      [
+        "★",
+        "black star"
+      ],
+      [
+        "☆",
+        "white star"
+      ],
+      [
+        "✪",
+        "circled star"
+      ],
+      [
+        "⌁",
+        "electric arrow"
+      ],
+      [
+        "▲",
+        "triangle"
+      ],
+      [
+        "◆",
+        "black diamond"
+      ],
+      [
+        "✖",
+        "heavy cross"
+      ],
+      [
+        "☾",
+        "crescent moon"
+      ],
+      [
+        "✧",
+        "white four-pointed star"
+      ],
+      [
+        "✵",
+        "eight-pointed star"
+      ],
+      [
+        "☬",
+        "adi shakti"
+      ],
+      [
+        "♛",
+        "crown"
+      ],
+      [
+        "♜",
+        "rook"
+      ],
+      [
+        "⚙",
+        "gear"
+      ],
+      [
+        "꧁",
+        "ornate bracket left"
+      ],
+      [
+        "꧂",
+        "ornate bracket right"
+      ]
+    ],
+    "combos": [
+      "꧁leo꧂",
+      "⚔leo⚔",
+      "✦leo✦",
+      "leo☠",
+      "♛leo",
+      "▲leo▲",
+      "⚡leo⚡",
+      "[leo]"
+    ],
+    "note": "Symbol support varies by platform. Steam, Discord display names and Twitch chat show these fine; Xbox, PSN, Roblox and most in-game name fields allow only letters, numbers and an underscore. Keep a plain version for the account and use the decorated one where it displays. For full decorative alphabets, try the [cool text generator](/cool-text-generator.html) or the [glitch text generator](/glitch-text-generator.html)."
+  },
+  "guide": {
+    "title": "How Our Gaming Username Generator Works",
+    "intro": "There is no AI behind this page and no database of taken gamertags. Gaming usernames are assembled in your browser from five ingredients:",
+    "bullets": [
+      [
+        "Your word.",
+        "The name or word you type is cleaned to letters and numbers and kept whole in every result. Leave it blank and the generator picks a noun from the style instead."
+      ],
+      [
+        "Gamer vocabulary.",
+        "Each of the eight styles has its own hand-written list — sniper, reaper and blitz for sweaty; toast, goose and potato for funny; wolf, viper and kraken for beast — so a chill result never borrows a sweaty word by accident."
+      ],
+      [
+        "Naming patterns.",
+        "Adjective + name, name + role, prefix + name, two gaming words, dropped-vowel respellings, and gaming suffixes like gg, ttv and yt. Patterns rotate within a batch so you never get 24 versions of the same idea."
+      ],
+      [
+        "Console-safe defaults.",
+        "Symbols are off, so every result uses only letters, numbers and separators. Use the Short filter for the 12-character Xbox limit; Mixed letter style capitalises each word for gamertags that show case."
+      ],
+      [
+        "Favorites.",
+        "The heart saves a name to your browser's localStorage. Nothing is sent to a server, and the generator cannot check whether a gamertag is free — the platform tells you when you try to set it."
+      ]
+    ],
+    "outro": []
+  },
+  "uniqueH2": "Gaming Username Rules on Every Platform",
+  "uniqueBody": [
+    "Every platform has its own limits, and most \"gamertag unavailable\" errors are format errors, not taken names. **Xbox**: 12 characters, letters, numbers and spaces; a #suffix is added automatically if the base name is taken. **PlayStation Network**: 3–16 characters, letters, numbers, hyphens and underscores, must start with a letter. **Steam**: the account name is private; the display name is free-form and can change any time. **Discord**: the unique username is lowercase letters, numbers, periods and underscores, 2–32 characters; the display name is free-form. **Twitch**: 4–25 letters, numbers and underscores. **Nintendo**: a 10-character nickname that does not need to be unique.",
+    "That is why this gaming username generator defaults to plain letters and gives you a Short filter: a name that works on Xbox works everywhere else too. For game-specific formats use the [Roblox username generator](/roblox-username-generator.html) (3–20 characters, one underscore), the [Fortnite username generator](/fortnite-username-generator.html) or the [PUBG username generator](/pubg-username-generator.html), each with its own vocabulary. For names that sound less like a lobby and more like a person, the [cool username generator](/cool-username-generator.html) and the main [username generator](/username-generator.html) cover the softer styles."
+  ],
+  "source": {
+    "before": "Xbox's limits above are from ",
+    "name": "Microsoft's gamertag FAQ",
+    "href": "https://support.xbox.com/en-US/help/account-profile/profile/gamertag-update-faq",
+    "after": ", which also explains the automatic #suffix."
+  },
+  "faqTitle": "Gaming Username Generator FAQ",
+  "faqs": [
+    [
+      "What is a gaming username generator?",
+      "It is a tool that combines a word you choose with curated gaming vocabulary — sniper, reaper, wolf, pixel, dragon — and naming patterns to produce gamertag ideas that follow console character rules. This one runs in your browser, is free, and lets you copy any result with one click."
+    ],
+    [
+      "What are some good gaming username ideas?",
+      "Examples from the styles above: silentsniper, wobblytoast, hollowvoid, pixelsprite, emberdragon, quantumnova, ironwolf and lazypanda. Type your own name to get versions built around it, such as silentleo or leosniper."
+    ],
+    [
+      "How do I make a gaming username that is not taken?",
+      "Start from your own name or a word that is specific to you, then add one style word — leo + warden is far less likely to be taken than shadowwolf. If it is still gone, add an underscore, a meaningful number or a gaming suffix like gg. Names built from a personal word beat names copied from a list."
+    ],
+    [
+      "Does this gaming username generator check availability?",
+      "No. Nothing here talks to Xbox, PlayStation, Steam, Discord or any game, so it cannot know whether a gamertag is free. Copy the one you like and try it on the platform — every service tells you instantly if a name is taken."
+    ],
+    [
+      "What characters can I use in a gaming username?",
+      "Xbox: letters, numbers and spaces, 12 characters. PSN: letters, numbers, hyphens and underscores, 3–16 characters. Discord usernames: lowercase letters, numbers, periods and underscores. Symbols like ⚔ and ✦ only work in display names on Steam, Discord and Twitch — that is what the symbol section is for."
+    ],
+    [
+      "Can I use these gaming usernames on Roblox, Fortnite or PUBG?",
+      "Yes, with Console-safe on. Roblox allows 3–20 characters with one underscore; Fortnite display names allow letters, numbers, spaces and a few punctuation marks; PUBG allows letters, numbers and underscores. The [Roblox username generator](/roblox-username-generator.html), [Fortnite username generator](/fortnite-username-generator.html) and [PUBG username generator](/pubg-username-generator.html) each build those rules in."
+    ],
+    [
+      "What makes a gaming username cool?",
+      "Short, pronounceable, one texture. Two syllables per word, strong consonants, no filler like xX or 420, and a style you can say in voice chat without spelling it. The [cool username generator](/cool-username-generator.html) focuses on that end of the spectrum."
+    ],
+    [
+      "Can I copy and paste the generated gaming usernames?",
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style it for a Steam or Discord display name, paste it into the [cool text generator](/cool-text-generator.html)."
+    ]
+  ],
+  "related": {
+    "title": "More Username Generators & Gaming Fonts",
+    "intro": "Pick a specific game, or give your new gamertag matching letters for a display name."
+  },
+  "links": [
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, funny and more.",
+      "✦"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and badass handles that work off-console too.",
+      "⚡"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Cool, cute and gaming names that follow Roblox's username format.",
+      "⌁"
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html",
+      "Copy-and-paste text styles that work in Discord display names.",
+      "💬"
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming letters for Steam and Twitch names.",
+      "𝕮"
+    ],
+    [
+      "Mario Font Generator",
+      "/mario-font-generator.html",
+      "Pixel-style text art for retro gaming banners.",
+      "🍄"
+    ],
+    [
+      "Emo Username Generator",
+      "/emo-username-generator.html",
+      "Emo, scene, goth and grunge names with xx and ✞."
+    ],
+    [
+      "Short Username Generator",
+      "/short-username-generator.html",
+      "Every result 8 characters or fewer — 3 to 6-letter handles."
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles that pass Discord's rules, plus styled display names."
+    ],
+    [
+      "Gamertag Generator",
+      "/gamertag-generator.html",
+      "Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord."
+    ],
+    [
+      "YouTube Channel Name Generator",
+      "/youtube-channel-name-generator.html",
+      "Channel names and @handles for gaming, vlog, tech, music and faceless channels."
+    ],
+    [
+      "Twitch Username Generator",
+      "/twitch-username-generator.html",
+      "Streamer names that fit Twitch's rules and can be said in a raid message."
+    ],
+    [
+      "PSN Name Generator",
+      "/psn-name-generator.html",
+      "PlayStation online IDs that follow PSN's 3–16 character, letter-first rule."
+    ],
+    [
+      "Minecraft Username Generator",
+      "/minecraft-username-generator.html",
+      "Java-rule Minecraft names (3–16 characters, underscores only) that fit Bedrock too."
+    ],
+    [
+      "Steam Username Generator",
+      "/steam-username-generator.html",
+      "Steam profile names with symbols allowed, plus a plain custom URL that matches."
+    ],
+    [
+      "Valorant Name Generator",
+      "/valorant-name-generator.html",
+      "Riot IDs under 16 characters — sweaty, agent-themed and duo names with a #tagline."
+    ],
+    [
+      "Summoner Name Generator",
+      "/summoner-name-generator.html",
+      "League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters."
+    ],
+    [
+      "Call of Duty Username Generator",
+      "/call-of-duty-username-generator.html",
+      "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters."
+    ]
+  ],
+  "asideLinks": [
+    [
+      "username generator",
+      "/username-generator.html"
+    ],
+    [
+      "cool username generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "Roblox username generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "fonts for Discord",
+      "/fonts-for-discord.html"
+    ],
+    [
+      "cool text generator",
+      "/cool-text-generator.html"
+    ],
+    [
+      "glitch text generator",
+      "/glitch-text-generator.html"
+    ],
+    [
+      "Free Fire font generator",
+      "/free-fire-font-generator.html"
+    ],
+    [
+      "Mario font generator",
+      "/mario-font-generator.html"
+    ]
+  ],
+  "linkNote": "Gamertags for Xbox, PlayStation, Steam and Discord."
+}
