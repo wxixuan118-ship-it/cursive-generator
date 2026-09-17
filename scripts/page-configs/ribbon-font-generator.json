@@ -1,0 +1,174 @@
+{
+  "keyword": "ribbon font generator",
+  "file": "ribbon-font-generator.html",
+  "label": "Ribbon",
+  "appName": "Ribbon Font Generator",
+  "crumb": "Ribbon Fonts",
+  "sample": "Gift Wrapped",
+  "linkName": "Ribbon Font Generator",
+  "linkNote": "🎀 ━🎀━ ౨ৎ ribbon frames and banners around cursive text.",
+  "title": "Ribbon Font Generator – 🎀 Ribbon Text Copy & Paste",
+  "description": "Free ribbon font generator: tie 🎀 ribbons, ━🎀━ banners and ౨ৎ ribbon frames around any name in cursive or bold letters. Copy and paste into bios and captions.",
+  "h1": "Ribbon Font Generator",
+  "kicker": "Ribbons, banners and tied frames for names and gift notes",
+  "intro": "This ribbon font generator ties a ribbon around any name or phrase: the 🎀 emoji on its own, the ━🎀━ banner that runs a line through the bow, the 🎀 ⋆ sparkle version, the ౨ৎ and ⋆୨୧˚ text ribbons, and the ೃ⁀➷ curl, each paired with cursive, bold cursive or plain letters. The output is Unicode text, so the ribbon stays tied when you paste it into an Instagram bio, a gift tag, a TikTok display name or a party invitation.",
+  "ids": "dec-d-t-ri1,dec-d-t-ri2,dec-d-t-ri3,dec-d-t-ri4,dec-d-bow2,dec-d-bow4,dec-d-t-la5,boldScript-d-t-ri1,script-d-t-ri1,boldScript-d-t-ri2,script-d-t-ri2,boldScript-d-bow2,script-d-bow2,boldScript-d-bow4,boldScript-d-h10",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "ribbon",
+      "Ribbons"
+    ],
+    [
+      "cursive",
+      "Cursive"
+    ],
+    [
+      "love",
+      "Hearts"
+    ],
+    [
+      "aesthetic",
+      "Aesthetic"
+    ]
+  ],
+  "copyHeading": "Ribbon Fonts Copy and Paste",
+  "copyBody": "Type your text once and every ribbon preset updates live. Press Copy beside the row you want and paste it into the destination. The 🎀 is an emoji, the ━ line is a box-drawing character and the ౨ৎ and ୨୧ ribbons are letters borrowed from Indic scripts, so a ribbon font generator result keeps its bow in a bio, a display name, a caption, a gift note or an invitation without any font installed on the other end.",
+  "popularTitle": "Popular Ribbon Font Styles",
+  "popular": "The plain 🎀 around bold cursive (🎀 𝓖𝓲𝓯𝓽 𝓦𝓻𝓪𝓹𝓹𝓮𝓭 🎀) is the everyday bio and birthday style. The ━🎀━ banner is the one that actually looks tied, a line running into the bow on each side, and it suits headers, gift tags and shop names. The ౨ৎ text ribbon is the monochrome option that renders in every font, and the ⋆୨୧˚ soft ribbon is its aesthetic cousin. The ೃ⁀➷ curl is a single-sided trailing ribbon for the end of a name, and the 🎀 ⋆ sparkle row lands between ribbon and glitter.",
+  "howToTitle": "How to Use the Ribbon Font Generator",
+  "steps": [
+    [
+      "1. Type your text",
+      "Enter a name, a gift message, a shop name or a short caption. The banner frames add several characters each side, so keep display names short."
+    ],
+    [
+      "2. Tie a ribbon",
+      "Use the chips to filter Ribbons, Cursive, Hearts or Aesthetic rows. Each row pairs a ribbon frame with a lettering style."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside a result and paste it into your bio, display name, caption, invitation or message."
+    ]
+  ],
+  "socialTitle": "Ribbon Fonts for Instagram, Gift Tags and Invitations",
+  "social": "Ribbon text has a social side and a practical side. On Instagram and TikTok it decorates coquette and soft-girl bios, birthday and baby-shower captions, and small-business display names for bakeries, florists and gift shops. Off social media it goes into digital gift tags, e-card messages, WhatsApp party invitations, Etsy listing titles and Notion or Canva text boxes where a real ribbon graphic is not available. Display names and bios accept every row on this page; actual @usernames do not, so keep the handle plain.",
+  "limitNote": "the 🎀 emoji is pink on every platform but drawn differently on iPhone, Android and Windows, while the ౨ৎ ୨୧ text ribbons look the same everywhere.",
+  "specificTitle": "Ribbon Font Generator vs Bow Fonts",
+  "specific": "Bows and ribbons overlap, and this site has a page for each. The bow font generator centres on the ୨୧ coquette bow and its heart pairings, the small tied knot that defines the coquette aesthetic. This ribbon font generator centres on the 🎀 emoji and on frames that suggest a length of ribbon rather than a knot: the ━🎀━ banner, the ೃ⁀➷ curl and the wider ⋆୨୧˚ frame. If you want the knot alone, use the bow page; if you want the ribbon to run across or trail off the name, start here.",
+  "source": {
+    "before": "The 🎀 ribbon emoji is defined in the Unicode ",
+    "name": "emoji list",
+    "href": "https://www.unicode.org/emoji/charts/full-emoji-list.html",
+    "after": " as U+1F380, and the ౨ৎ text ribbon is made of Telugu and Bengali letters that happen to curl like a bow."
+  },
+  "uniqueH2": "How the Ribbon Font Banners Are Built",
+  "uniqueBody": [
+    "The ━🎀━ banner is a box-drawing heavy horizontal line (U+2501) on each side of the ribbon emoji. Box-drawing characters were designed to join edge to edge, so two of them read as one continuous line and the bow sits in the middle as if tied around it. Because the line is text, it inherits the colour of the surrounding characters, and you can lengthen it by pasting extra ━ characters if a field is wide enough.",
+    "The text ribbons come from an older tradition. ౨ৎ pairs a Telugu digit-like letter with a Bengali letter whose shapes, side by side, look like a small tied ribbon; ୨୧ uses two Odia digits the same way and became the coquette bow. Neither is meant to be a ribbon, which is exactly why they render everywhere: they are ordinary letters in fonts that ship with every operating system. The ೃ⁀➷ curl adds a Kannada vowel sign, an undertie and a heavy arrow to make a trailing tail.",
+    "A ribbon font generator pairs each kind with lettering that suits it. Bold cursive stands up to the colour and weight of the 🎀 emoji and the ━ line. Cursive script keeps the monochrome ౨ৎ ribbons delicate. The soft-heart ෆ row bridges ribbon and love styles for couple bios. Preview the exact text you plan to use, because a banner on both sides of a long name can exceed a display-name field, and trim to a single 🎀 if it does."
+  ],
+  "examplesTitle": "Ribbon Font Examples",
+  "examplesIntro": "Paste any of these into the generator to compare the emoji ribbon, the banner and the text ribbons on the same words.",
+  "examples": [
+    [
+      "Gift Wrapped",
+      "gift tag or e-card message"
+    ],
+    [
+      "Sweet Crumbs Bakery",
+      "small business display name"
+    ],
+    [
+      "birthday girl",
+      "Instagram caption"
+    ]
+  ],
+  "linksTitle": "More Ribbon and Coquette Fonts",
+  "links": [
+    [
+      "Bow Font Generator",
+      "/bow-font-generator.html",
+      "The ୨୧ coquette bow with heart pairings."
+    ],
+    [
+      "Coquette Font Generator",
+      "/coquette-font-generator.html",
+      "Bows, ribbons and soft-girl aesthetic text."
+    ],
+    [
+      "Girly Fonts",
+      "/girly-fonts.html",
+      "Hearts, bows and pastel-feel text styles."
+    ],
+    [
+      "Heart Font Generator",
+      "/heart-font-generator.html",
+      "♡ ❤ heart frames for couple bios and captions."
+    ],
+    [
+      "Cute Fonts",
+      "/cute-fonts.html",
+      "Kawaii brackets, tiny letters and soft decorations."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond ribbons."
+    ],
+    [
+      "Lace Font Generator",
+      "/lace-font-generator.html",
+      "❈ ꧁❦ ✧･ﾟ: * lace borders and ornaments around cursive text."
+    ],
+    [
+      "Cherry Font Generator",
+      "/cherry-font-generator.html",
+      "🍒 cherry frames and ♡ 🍒 pairings around cursive and bold text."
+    ]
+  ],
+  "faqTitle": "Ribbon Font FAQ",
+  "faqs": [
+    [
+      "What is a ribbon font?",
+      "Online, a ribbon font means text decorated with ribbon or bow symbols, such as 🎀 𝓝𝓪𝓶𝓮 🎀 or ━🎀━ Name ━🎀━. It is Unicode text you can copy and paste, not an installed typeface."
+    ],
+    [
+      "Is this ribbon font generator free?",
+      "Yes. It runs in your browser, needs no account or download, and every result can be copied without limits."
+    ],
+    [
+      "What is the difference between the ribbon and bow pages?",
+      "The bow page centres on the ୨୧ coquette knot. This page centres on the 🎀 emoji and on banner and trailing frames that suggest a length of ribbon."
+    ],
+    [
+      "Can I use ribbon text on Instagram?",
+      "Yes. Paste it into your bio, display name or a caption. Instagram shows the 🎀 emoji and the ౨ৎ text ribbons."
+    ],
+    [
+      "Why does the ribbon show as a box?",
+      "The device is missing the 🎀 emoji, which is rare, or a font for the Indic letters in the text ribbons, which happens on some older systems. Try the other kind of ribbon."
+    ],
+    [
+      "Can I make the banner longer?",
+      "Yes. The ━ line is a box-drawing character, so paste extra ━ characters on either side of the 🎀 and they join into one longer line."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "boldScript-d-t-ri1",
+      "script-d-t-ri2",
+      "dec-d-bow2"
+    ],
+    "sample": "Gift Wrapped",
+    "tagline": "EMOJI 🎀 · BANNER · TEXT RIBBON",
+    "alt": "Gift Wrapped written with the ribbon font generator as 🎀 bold cursive, a ━🎀━ banner in script and the ౨ৎ text ribbon",
+    "src": "/assets/previews/ribbon-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Gift Wrapped” rendered by the Ribbon Font Generator in Bold Cursive Ribbon Bow, Cursive Script Ribbon Banner, Ribbon Frame presets"
+  }
+}

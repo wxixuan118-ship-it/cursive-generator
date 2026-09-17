@@ -1,0 +1,189 @@
+{
+  "keyword": "sparkle font generator",
+  "file": "sparkle-font-generator.html",
+  "label": "Sparkle",
+  "appName": "Sparkle Font Generator",
+  "crumb": "Sparkle Fonts",
+  "sample": "Glow Up",
+  "linkName": "Sparkle Font Generator",
+  "linkNote": "✦ ✧ ✨ ˖° sparkle and glitter frames around cursive text.",
+  "title": "Sparkle Font Generator – ✨ Sparkle Text Copy & Paste",
+  "description": "Free sparkle font generator: add ✦ ✧ ✨ ⊹ ˖° sparkles and glitter frames to any name in cursive or bold letters. Copy and paste into Instagram and TikTok.",
+  "h1": "Sparkle Font Generator",
+  "kicker": "Four-point sparkles, glitter dust and shine for any name",
+  "intro": "This sparkle font generator adds shine to any name or caption: the four-point ✦ and ✧ sparkles, the ✨ emoji, the tiny ⊹ and ⟡ marks, the ✧˖° glitter trail and the ˗ˏˋ ✩ ˎˊ˗ banner, each paired with cursive, bold cursive or plain letters. Everything it produces is Unicode text, so the sparkles stay attached when you paste them into an Instagram bio, a TikTok display name, a Discord nickname or a caption.",
+  "ids": "dec-d-sp1,dec-d-sp2,dec-d-sp3,dec-d-cu3,dec-d-t-sp1,dec-d-t-sp2,dec-d-t-sp3,dec-d-t-sp4,boldScript-d-sp1,boldScript-d-sp2,script-d-sp2,boldScript-d-t-sp1,script-d-t-sp1,boldScript-d-t-sp2,script-d-t-sp2,boldItalic-d-sp1,superscript-d-cu3",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "sparkle",
+      "Sparkles"
+    ],
+    [
+      "cursive",
+      "Cursive"
+    ],
+    [
+      "aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "cute",
+      "Cute"
+    ]
+  ],
+  "copyHeading": "Sparkle Fonts Copy and Paste",
+  "copyBody": "Type your text once and every sparkle preset updates as you go. Press Copy beside the row you want and paste it into the destination. The ✦ ✧ ⊹ ⟡ marks are ordinary Unicode symbols and ✨ is an emoji, so a sparkle font generator result keeps its shine in a bio, display name, caption, comment or playlist title without any font installed on the other end.",
+  "popularTitle": "Popular Sparkle Font Styles",
+  "popular": "The ✦ four-point sparkle around bold cursive (✦ 𝓖𝓵𝓸𝔀 𝓤𝓹 ✦) is the strongest single frame and the usual bio choice. The hollow ✧ is its lighter twin for script and italic. The ✨ emoji is the colour option and the one people mean when they say sparkle text on TikTok. The ✧˖° glitter trail and ⋆˙⟡ dots are the aesthetic versions, wider and softer, and the ˗ˏˋ ✩ ˎˊ˗ banner is a Tumblr-era classic for headers. The ⊹ tiny sparkle with superscript letters is the smallest possible sparkly name.",
+  "howToTitle": "How to Use the Sparkle Font Generator",
+  "steps": [
+    [
+      "1. Type your text",
+      "Enter a name, caption or short phrase. Glitter trails add several characters each side, so keep display names short."
+    ],
+    [
+      "2. Pick a sparkle",
+      "Use the chips to filter Sparkles, Cursive, Aesthetic or Cute rows. Each row pairs a sparkle frame with a lettering style."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside a result and paste it into your bio, display name, caption or message."
+    ]
+  ],
+  "socialTitle": "Sparkle Fonts for Instagram, TikTok and Discord",
+  "social": "Sparkle text is the default decoration of beauty, fashion, self-care and glow-up content: Instagram bios and highlight covers, TikTok display names and captions, Pinterest board titles, Discord nicknames on aesthetic servers and YouTube video titles. Display names and bios accept every row on this page. Actual @usernames are stricter almost everywhere, so keep the handle plain and sparkle the display name. One sparkling line at the top of a caption reads as a title; a sparkle on every line reads as spam.",
+  "limitNote": "the ✨ emoji is drawn differently on iPhone, Android and Windows, while the ✦ ✧ ⊹ symbols look the same everywhere.",
+  "specificTitle": "Sparkle Font Generator vs Star Text",
+  "specific": "Sparkles and stars are neighbours, not twins. A sparkle font generator uses four-point and burst shapes (✦ ✧ ✨ ⊹ ⟡) and the small ˖° glitter marks, which read as shine and movement. A star font generator uses five-point shapes (★ ☆ ✩ 🌟) that read as a badge, a rating or a frame. Sparkles suit captions and bios about glow, beauty and celebration; stars suit names, titles and game tags. This page keeps a couple of ✩ marks inside the aesthetic banners because that is how they are used, and the star page covers the rest.",
+  "source": {
+    "before": "The ✦ ✧ sparkles are the Black and White Four Pointed Star characters in the ",
+    "name": "Dingbats block",
+    "href": "https://www.unicode.org/charts/PDF/U2700.pdf",
+    "after": " of the Unicode Standard, which is why they render identically on every device."
+  },
+  "uniqueH2": "Building a Glitter Trail with a Sparkle Font",
+  "uniqueBody": [
+    "A glitter trail like ✧˖° is three separate characters doing different jobs. The ✧ is the anchor, a four-point star from the Dingbats block. The ˖ is a small plus-like mark from the Modifier Letters block that sits high on the line, and the ° is the degree sign. Stacked in sequence they suggest particles drifting away from the star. Because each piece is a standard character, the trail renders anywhere plain text does, and the whole frame can be typed, copied or trimmed like any other text.",
+    "The same logic builds the other aesthetic frames. ⋆˙⟡ uses a small star, a dot above and a diamond-like ⟡ outline; ˗ˏˋ ✩ ˎˊ˗ uses accent marks arranged into a rising and falling banner around a star. These frames are wide, so a sparkle font generator result using them can exceed a short display-name field; if a name is trimmed, the plain ✦ or ✧ rows carry most of the same shine in two characters.",
+    "Lettering pairs with the sparkle weight. Bold cursive stands up to the solid ✦ and the coloured ✨. Cursive script and italic suit the hollow ✧ and the glitter trails, where a heavy letter would swamp the tiny marks. Superscript letters with the ⊹ tiny sparkle make the smallest sparkly name possible, useful for a subtitle under a display name. Preview the exact text you plan to use and pick one frame plus one lettering style; stacking sparkles on both sides plus a combining-mark style makes the line hard to read."
+  ],
+  "examplesTitle": "Sparkle Font Examples",
+  "examplesIntro": "Paste any of these into the generator to compare solid, hollow, emoji and glitter-trail sparkles on the same words.",
+  "examples": [
+    [
+      "Glow Up",
+      "Instagram bio heading"
+    ],
+    [
+      "shine bright",
+      "TikTok display name"
+    ],
+    [
+      "new nails who dis",
+      "caption for a beauty post"
+    ]
+  ],
+  "linksTitle": "More Sparkle and Aesthetic Fonts",
+  "links": [
+    [
+      "Star Font Generator",
+      "/star-font-generator.html",
+      "★ ☆ ✩ star frames for names and game tags."
+    ],
+    [
+      "Diamond Font Generator",
+      "/diamond-font-generator.html",
+      "◆ ❖ 💎 diamond frames for luxe text."
+    ],
+    [
+      "Aesthetic Fonts",
+      "/aesthetic-fonts.html",
+      "Every aesthetic mood in one place."
+    ],
+    [
+      "Girly Fonts",
+      "/girly-fonts.html",
+      "Hearts, bows and pastel-feel text styles."
+    ],
+    [
+      "Aesthetic Symbols",
+      "/aesthetic-symbols.html",
+      "Sparkles, stars and dividers to pair with your text."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond sparkles."
+    ],
+    [
+      "Angel Font Generator",
+      "/angel-font-generator.html",
+      "Halo °。, wings ᯓ, clouds ☁ and 👼 frames around cursive text."
+    ],
+    [
+      "Fairy Font Generator",
+      "/fairy-font-generator.html",
+      "🧚 fairies, ✨ fairy dust and ⋆｡˚ ✧ glitter rings around cursive text."
+    ],
+    [
+      "Rainbow Font Generator",
+      "/rainbow-font-generator.html",
+      "🌈 rainbow frames and ☁ 🌈 ☁ sky text in cursive and bubble letters."
+    ],
+    [
+      "Zodiac Font Generator",
+      "/zodiac-font-generator.html",
+      "♈ ♉ ♊ … ♓ star-sign symbols around cursive and aesthetic text."
+    ],
+    [
+      "Butterfly Font Generator",
+      "/butterfly-font-generator.html",
+      "🦋 and Ƹ̵̡Ӝ̵̨̄Ʒ butterfly frames around cursive and script text."
+    ]
+  ],
+  "faqTitle": "Sparkle Font FAQ",
+  "faqs": [
+    [
+      "What is a sparkle font?",
+      "Online, a sparkle font means text decorated with sparkle symbols, such as ✦ 𝓝𝓪𝓶𝓮 ✦ or ✧˖° name °˖✧. It is Unicode text you can copy and paste, not an installed typeface."
+    ],
+    [
+      "Is this sparkle font generator free?",
+      "Yes. It runs in your browser, needs no account or download, and every result can be copied without limits."
+    ],
+    [
+      "How do I type the ✧ sparkle symbol?",
+      "You do not need to. Copy any row on this page, or type a single space and copy a row to get the frame alone. ✦ is Unicode U+2726 and ✧ is U+2727."
+    ],
+    [
+      "Can I use sparkle text on TikTok?",
+      "Yes. Paste it into your display name, bio or caption. TikTok shows both the ✦ ✧ symbols and the ✨ emoji."
+    ],
+    [
+      "Why does the glitter trail look uneven?",
+      "The ˖° marks are tiny and some fonts draw them at different heights. Switch to a single ✦ or ✧ frame for a cleaner line."
+    ],
+    [
+      "Do sparkles work in usernames?",
+      "Rarely. Most platforms restrict @usernames to letters, numbers and underscores. Use the display name, nickname or bio field instead."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "boldScript-d-sp1",
+      "script-d-t-sp1",
+      "dec-d-t-sp4"
+    ],
+    "sample": "Glow Up",
+    "tagline": "SPARKLE ✦ · GLITTER ˖° · BANNER",
+    "alt": "Glow Up written with the sparkle font generator as ✦ bold cursive, ✧˖° glitter-trail script and a ˗ˏˋ ✩ ˎˊ˗ banner",
+    "src": "/assets/previews/sparkle-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Glow Up” rendered by the Sparkle Font Generator in Bold Cursive Four Sparkle, Cursive Script Sparkle Trail, Sparkle Banner presets"
+  }
+}

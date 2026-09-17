@@ -1,0 +1,179 @@
+{
+  "keyword": "butterfly font generator",
+  "file": "butterfly-font-generator.html",
+  "label": "Butterfly",
+  "appName": "Butterfly Font Generator",
+  "crumb": "Butterfly Fonts",
+  "sample": "Fly Free",
+  "linkName": "Butterfly Font Generator",
+  "linkNote": "🦋 and Ƹ̵̡Ӝ̵̨̄Ʒ butterfly frames around cursive and script text.",
+  "title": "Butterfly Font Generator – 🦋 Butterfly Text Copy & Paste",
+  "description": "Free butterfly font generator: frame any name in 🦋 emoji, ʚ🦋ɞ wings or the classic Ƹ̵̡Ӝ̵̨̄Ʒ text butterfly with cursive letters. Copy and paste into any bio.",
+  "h1": "Butterfly Font Generator",
+  "kicker": "Emoji wings, text butterflies and cursive script",
+  "intro": "This butterfly font generator surrounds any name or phrase with butterflies: the 🦋 emoji on its own, the ʚ🦋ɞ winged frame, a 🦋 ⋆｡˚ trail of sparkles, and the classic Ƹ̵̡Ӝ̵̨̄Ʒ text butterfly built from letters and accents. Pair any of them with cursive, bold cursive or plain letters, then copy the result as real Unicode text that keeps its wings in an Instagram bio, TikTok display name, Discord nickname or caption.",
+  "ids": "dec-d-t-bf1,dec-d-t-bf2,dec-d-t-bf3,dec-d-t-bf4,boldScript-d-t-bf1,script-d-t-bf1,boldScript-d-t-bf2,script-d-t-bf2,boldScript-d-s4,script-d-cu1,boldScript-d-sp1,script-d-cel1,italic-d-f1,boldScript-d-h10",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "butterfly",
+      "Butterflies"
+    ],
+    [
+      "cursive",
+      "Cursive"
+    ],
+    [
+      "aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "cute",
+      "Cute"
+    ]
+  ],
+  "copyHeading": "Butterfly Fonts Copy and Paste",
+  "copyBody": "Type once, scan the previews and press Copy beside the row you want. The 🦋 rows use the blue butterfly emoji, the ʚ🦋ɞ rows add small wing marks either side of it, and the Ƹ̵̡Ӝ̵̨̄Ʒ rows use a butterfly drawn entirely from letters and combining marks. All of it is plain text, which is why a butterfly font generator result pastes cleanly into bios, display names and comments where images and formatting are not allowed.",
+  "popularTitle": "Popular Butterfly Font Styles",
+  "popular": "Three looks dominate. The single 🦋 frame around bold cursive (🦋 𝓕𝓵𝔂 𝓕𝓻𝓮𝓮 🦋) is the everyday bio style. The ʚ🦋ɞ wing frame is softer and reads as a whole set of wings rather than one insect, which suits coquette and soft-girl aesthetics. The Ƹ̵̡Ӝ̵̨̄Ʒ text butterfly is the oldest of the three, a MySpace-era classic that still shows up in usernames because it renders in monochrome anywhere text does. The 🦋 ⋆｡˚ trail and sparkle rows are for captions that need a little movement.",
+  "howToTitle": "How to Use the Butterfly Font Generator",
+  "steps": [
+    [
+      "1. Type your text",
+      "Enter a name, caption or short phrase. Short text works best in display names because the butterflies count toward the character limit."
+    ],
+    [
+      "2. Pick your wings",
+      "Use the chips to filter Butterflies, Cursive, Aesthetic or Cute rows, or scroll the full list. Each row pairs a frame with a lettering style."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside the result and paste it into your bio, display name, caption, comment or message."
+    ]
+  ],
+  "socialTitle": "Butterfly Fonts for Instagram, TikTok and Discord",
+  "social": "Butterfly text belongs to the soft-aesthetic side of social media: Instagram bios and highlight covers, TikTok display names, Pinterest board titles, Discord nicknames on aesthetic servers, and captions for spring, travel and transformation posts. Display names and bios accept every preset on this page. Actual @usernames are stricter almost everywhere, so keep the handle plain and put the butterflies in the display name. One framed line at the top of a caption is a title; butterflies on every line lose their effect.",
+  "limitNote": "the Ƹ̵̡Ӝ̵̨̄Ʒ butterfly is built from combining marks, and a few apps that strip accents will flatten it to plain letters.",
+  "specificTitle": "Butterfly Font Generator vs Butterfly Symbols",
+  "specific": "A butterfly symbol page gives you the characters; a butterfly font generator gives you the whole line, lettering included, sized and spaced so the frame and the name read as one piece. This page also keeps the two kinds of butterfly separate on purpose: the 🦋 emoji is drawn in colour by each platform and looks slightly different on iPhone, Android and Windows, while the Ƹ̵̡Ӝ̵̨̄Ʒ version is monochrome text that looks the same everywhere. Choose emoji for colour and text butterflies for consistency.",
+  "source": {
+    "before": "The 🦋 butterfly was added in ",
+    "name": "Emoji 3.0 (Unicode 9.0, 2016)",
+    "href": "https://www.unicode.org/emoji/charts/emoji-versions.html",
+    "after": ", so it renders on every current phone but not on some very old systems, which is when the text butterfly is the safer choice."
+  },
+  "uniqueH2": "How the Text Butterfly Font Ƹ̵̡Ӝ̵̨̄Ʒ Is Built",
+  "uniqueBody": [
+    "The text butterfly is not one character. It is the letters Ʒ and Ӝ with several combining marks stacked on them: Ƹ (a reversed ezh) and Ʒ (ezh) form the two wings, Ӝ (a Cyrillic zhe with diaeresis) makes the body and antennae, and the small strokes above and through them come from combining marks that sit on the letters without taking up extra width. Because every piece is standard Unicode, the whole butterfly renders anywhere plain text does and needs no emoji font at all.",
+    "That construction is also its weakness. Apps that normalise text, strip diacritics or limit the number of combining marks per character will simplify it, so it may show as ƸӜƷ without the fine strokes. That still reads as a butterfly, just a plainer one. Usernames with strict character rules will reject it entirely, which is why the generator keeps a plain 🦋 row and cursive-only rows as fallbacks.",
+    "The butterfly font generator pairs each butterfly with lettering that suits it. Cursive script next to the text butterfly keeps the whole line in a monochrome, hand-drawn register; bold cursive next to the 🦋 emoji matches its weight and colour; sparkle and moon frames on the remaining rows give options for captions where a butterfly on both sides would be too much. Preview the exact name you plan to use, since wide frames plus a long name can exceed a display-name field."
+  ],
+  "examplesTitle": "Butterfly Font Examples",
+  "examplesIntro": "Paste any of these into the generator to compare emoji, winged and text-butterfly versions of the same words.",
+  "examples": [
+    [
+      "Fly Free",
+      "Instagram bio heading"
+    ],
+    [
+      "Mariposa",
+      "TikTok display name"
+    ],
+    [
+      "new chapter",
+      "caption for a fresh-start post"
+    ]
+  ],
+  "linksTitle": "More Butterfly and Cute Fonts",
+  "links": [
+    [
+      "Flower Font Generator",
+      "/flower-font-generator.html",
+      "✿ ❀ 🌸 blossoms around cursive and bold text."
+    ],
+    [
+      "Cute Fonts",
+      "/cute-fonts.html",
+      "Kawaii brackets, tiny letters and soft decorations."
+    ],
+    [
+      "Coquette Font Generator",
+      "/coquette-font-generator.html",
+      "Bows, ribbons and soft-girl aesthetic text."
+    ],
+    [
+      "Aesthetic Fonts",
+      "/aesthetic-fonts.html",
+      "Every aesthetic mood in one place."
+    ],
+    [
+      "Aesthetic Symbols",
+      "/aesthetic-symbols.html",
+      "Butterflies, stars and dividers to pair with your text."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond butterflies."
+    ],
+    [
+      "Fairy Font Generator",
+      "/fairy-font-generator.html",
+      "🧚 fairies, ✨ fairy dust and ⋆｡˚ ✧ glitter rings around cursive text."
+    ],
+    [
+      "Ribbon Font Generator",
+      "/ribbon-font-generator.html",
+      "🎀 ━🎀━ ౨ৎ ribbon frames and banners around cursive text."
+    ],
+    [
+      "Cherry Font Generator",
+      "/cherry-font-generator.html",
+      "🍒 cherry frames and ♡ 🍒 pairings around cursive and bold text."
+    ]
+  ],
+  "faqTitle": "Butterfly Font FAQ",
+  "faqs": [
+    [
+      "What is a butterfly font?",
+      "Online, a butterfly font means text decorated with butterfly symbols, such as 🦋 𝓝𝓪𝓶𝓮 🦋 or Ƹ̵̡Ӝ̵̨̄Ʒ Name Ƹ̵̡Ӝ̵̨̄Ʒ. It is Unicode text you can copy and paste, not an installed typeface."
+    ],
+    [
+      "Is this butterfly font generator free?",
+      "Yes. It runs in your browser, needs no account or download, and every result can be copied without limits."
+    ],
+    [
+      "How do I make the Ƹ̵̡Ӝ̵̨̄Ʒ butterfly?",
+      "You do not have to type it. Choose any Text Butterfly row on this page and copy it; the butterfly is built from the letters Ƹ Ӝ Ʒ plus combining marks."
+    ],
+    [
+      "Can I use butterfly text on Instagram?",
+      "Yes. Paste it into your bio, display name or a caption. Instagram shows both the 🦋 emoji and the text butterfly."
+    ],
+    [
+      "Why does the butterfly show as a box?",
+      "The device is missing the 🦋 emoji, which happens on systems older than 2016. Switch to a Text Butterfly row, which uses ordinary letters and renders everywhere."
+    ],
+    [
+      "Do butterflies work in usernames?",
+      "Rarely. Most platforms restrict @usernames to letters, numbers and underscores. Use the display name, nickname or bio field instead."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "boldScript-d-t-bf1",
+      "script-d-t-bf2",
+      "dec-d-t-bf4"
+    ],
+    "sample": "Fly Free",
+    "tagline": "EMOJI · WINGS · TEXT BUTTERFLY",
+    "alt": "Fly Free written with the butterfly font generator as 🦋 bold cursive, ʚ🦋ɞ winged script and the Ƹ̵̡Ӝ̵̨̄Ʒ text butterfly",
+    "src": "/assets/previews/butterfly-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Fly Free” rendered by the Butterfly Font Generator in Bold Cursive Butterfly, Cursive Script Butterfly Wings, Text Butterfly presets"
+  }
+}

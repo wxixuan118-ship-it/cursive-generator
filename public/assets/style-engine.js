@@ -265,6 +265,194 @@ var DECOS = [
   {id:'d-wd5', name:'Upside Marks',     cats:'weird freaky symbols',  p:'¡ ',   s:' !'},
 ];
 
+// ── Theme decorations (symbol/emoji font pages, 2026-09-16) ──────────────────
+// Each theme word is included in `cats` so a page's filter chips can select on
+// it by substring; none of these words are added to ALL_CATS.
+var THEME_DECOS = [
+  // Flower
+  {id:'d-t-fl1', name:'Cherry Blossom',    cats:'cute aesthetic flower',      p:'🌸 ',   s:' 🌸'},
+  {id:'d-t-fl2', name:'Tulip',             cats:'cute aesthetic flower',      p:'🌷 ',   s:' 🌷'},
+  {id:'d-t-fl3', name:'Hibiscus',          cats:'cute flower',                p:'🌺 ',   s:' 🌺'},
+  {id:'d-t-fl4', name:'Flower Chain',      cats:'cute aesthetic flower',      p:'❀✿❀ ', s:' ❀✿❀'},
+  // Butterfly
+  {id:'d-t-bf1', name:'Butterfly',         cats:'cute aesthetic butterfly',   p:'🦋 ',   s:' 🦋'},
+  {id:'d-t-bf2', name:'Butterfly Wings',   cats:'cute aesthetic butterfly',   p:'ʚ🦋ɞ ', s:' ʚ🦋ɞ'},
+  {id:'d-t-bf3', name:'Butterfly Trail',   cats:'cute aesthetic butterfly',   p:'🦋 ⋆｡˚ ', s:' ˚｡⋆ 🦋'},
+  {id:'d-t-bf4', name:'Text Butterfly',    cats:'cute butterfly symbols',     p:'Ƹ̵̡Ӝ̵̨̄Ʒ ', s:' Ƹ̵̡Ӝ̵̨̄Ʒ'},
+  // Crown
+  {id:'d-t-cr1', name:'Gold Crown',        cats:'fancy crown royal',          p:'👑 ',   s:' 👑'},
+  {id:'d-t-cr2', name:'White Queen',       cats:'fancy crown royal',          p:'♕ ',    s:' ♕'},
+  {id:'d-t-cr3', name:'Black King',        cats:'fancy crown royal gaming',   p:'♚ ',    s:' ♚'},
+  {id:'d-t-cr4', name:'Crown Sparkle',     cats:'fancy crown royal cute',     p:'✧ 👑 ', s:' 👑 ✧'},
+  // Star
+  {id:'d-t-st1', name:'Glowing Star',      cats:'fancy aesthetic star',       p:'🌟 ',   s:' 🌟'},
+  {id:'d-t-st2', name:'Gold Star',         cats:'fancy star cute',            p:'⭐ ',   s:' ⭐'},
+  {id:'d-t-st3', name:'Star Rise',         cats:'aesthetic star cute',        p:'✩₊˚ ',  s:' ˚₊✩'},
+  {id:'d-t-st4', name:'Shooting Star',     cats:'aesthetic star',             p:'˚ ༘ ✶ ', s:' ✶ ༘ ˚'},
+  // Moon
+  {id:'d-t-mo1', name:'Crescent Moon',     cats:'aesthetic moon',             p:'🌙 ',   s:' 🌙'},
+  {id:'d-t-mo2', name:'Moon Dust',         cats:'aesthetic moon cute',        p:'⋆ ☾ ',  s:' ☽ ⋆'},
+  {id:'d-t-mo3', name:'Moon Faces',        cats:'aesthetic moon cute',        p:'🌛 ',   s:' 🌜'},
+  {id:'d-t-mo4', name:'Night Sky',         cats:'aesthetic moon',             p:'🌙 ˚ ✩ ', s:' ✩ ˚ 🌙'},
+  // Sparkle
+  {id:'d-t-sp1', name:'Sparkle Trail',     cats:'cute aesthetic sparkle',     p:'✧˖° ',  s:' °˖✧'},
+  {id:'d-t-sp2', name:'Sparkle Dot',       cats:'cute aesthetic sparkle',     p:'⋆˙⟡ ',  s:' ⟡˙⋆'},
+  {id:'d-t-sp3', name:'Sparkle Burst',     cats:'cute aesthetic sparkle',     p:'✨✧ ',  s:' ✧✨'},
+  {id:'d-t-sp4', name:'Sparkle Banner',    cats:'aesthetic sparkle fancy',    p:'˗ˏˋ ✩ ', s:' ✩ ˎˊ˗'},
+  // Ribbon
+  {id:'d-t-ri1', name:'Ribbon Bow',        cats:'cute aesthetic ribbon',      p:'🎀 ',   s:' 🎀'},
+  {id:'d-t-ri2', name:'Ribbon Banner',     cats:'cute aesthetic ribbon',      p:'━🎀━ ', s:' ━🎀━'},
+  {id:'d-t-ri3', name:'Ribbon Sparkle',    cats:'cute aesthetic ribbon',      p:'🎀 ⋆ ', s:' ⋆ 🎀'},
+  {id:'d-t-ri4', name:'Ribbon Curl',       cats:'cute ribbon',                p:'⊹ ୨୧ 🎀 ', s:' 🎀 ୨୧ ⊹'},
+  // Angel
+  {id:'d-t-an1', name:'Angel',             cats:'cute aesthetic angel',       p:'👼 ',   s:' 👼'},
+  {id:'d-t-an2', name:'Halo Face',         cats:'cute aesthetic angel',       p:'😇 ',   s:' 😇'},
+  {id:'d-t-an3', name:'Angel Cloud',       cats:'cute aesthetic angel',       p:'☁ ✧ ',  s:' ✧ ☁'},
+  {id:'d-t-an4', name:'Angel Wings',       cats:'cute aesthetic angel',       p:'ᯓ ',    s:' ᯓ'},
+  // Fairy
+  {id:'d-t-fa1', name:'Fairy',             cats:'cute aesthetic fairy',       p:'🧚 ',   s:' 🧚'},
+  {id:'d-t-fa2', name:'Fairy Dust',        cats:'cute aesthetic fairy',       p:'🧚 ✨ ', s:' ✨ 🧚'},
+  {id:'d-t-fa3', name:'Fairy Ring',        cats:'cute aesthetic fairy',       p:'⁺˚⋆｡°✩ ', s:' ✩°｡⋆˚⁺'},
+  {id:'d-t-fa4', name:'Fairy Glow',        cats:'cute aesthetic fairy',       p:'⋆｡˚ ✧ ', s:' ✧ ˚｡⋆'},
+  // Cherry
+  {id:'d-t-ch1', name:'Cherry',            cats:'cute cherry',                p:'🍒 ',   s:' 🍒'},
+  {id:'d-t-ch2', name:'Cherry Pair',       cats:'cute cherry',                p:'🍒🍒 ', s:' 🍒🍒'},
+  {id:'d-t-ch3', name:'Cherry Sweet',      cats:'cute cherry aesthetic',      p:'🍒 ˚ ', s:' ˚ 🍒'},
+  {id:'d-t-ch4', name:'Cherry Heart',      cats:'cute cherry love',           p:'♡ 🍒 ', s:' 🍒 ♡'},
+  // Strawberry
+  {id:'d-t-sb1', name:'Strawberry',        cats:'cute strawberry',            p:'🍓 ',   s:' 🍓'},
+  {id:'d-t-sb2', name:'Strawberry Pair',   cats:'cute strawberry',            p:'🍓🍓 ', s:' 🍓🍓'},
+  {id:'d-t-sb3', name:'Strawberry Milk',   cats:'cute strawberry aesthetic',  p:'🍓 ˚ ', s:' ˚ 🍓'},
+  {id:'d-t-sb4', name:'Strawberry Heart',  cats:'cute strawberry love',       p:'♡ 🍓 ', s:' 🍓 ♡'},
+  // Sunflower
+  {id:'d-t-sf1', name:'Sunflower',         cats:'cute aesthetic sunflower',   p:'🌻 ',   s:' 🌻'},
+  {id:'d-t-sf2', name:'Sunflower Field',   cats:'cute aesthetic sunflower',   p:'🌻🌻 ', s:' 🌻🌻'},
+  {id:'d-t-sf3', name:'Sunflower Sun',     cats:'cute aesthetic sunflower',   p:'☀ 🌻 ', s:' 🌻 ☀'},
+  {id:'d-t-sf4', name:'Sunflower Petal',   cats:'cute sunflower',             p:'🌻 ˚ ', s:' ˚ 🌻'},
+  // Daisy
+  {id:'d-t-da1', name:'Daisy',             cats:'cute aesthetic daisy',       p:'🌼 ',   s:' 🌼'},
+  {id:'d-t-da2', name:'Daisy Line',        cats:'cute aesthetic daisy',       p:'❁ ',    s:' ❁'},
+  {id:'d-t-da3', name:'Daisy Sprig',       cats:'cute aesthetic daisy',       p:'⚘ ',    s:' ⚘'},
+  {id:'d-t-da4', name:'Daisy Chain',       cats:'cute daisy',                 p:'🌼 ˚ ', s:' ˚ 🌼'},
+  // Vine
+  {id:'d-t-vi1', name:'Vine Leaf',         cats:'aesthetic vine nature',      p:'🌿 ',   s:' 🌿'},
+  {id:'d-t-vi2', name:'Vine Curl',         cats:'aesthetic vine nature',      p:'❦ ',    s:' ❦'},
+  {id:'d-t-vi3', name:'Vine Trail',        cats:'aesthetic vine nature',      p:'༄ 🌿 ', s:' 🌿 ༄'},
+  {id:'d-t-vi4', name:'Vine Bloom',        cats:'aesthetic vine nature cute', p:'🌿 ✿ ', s:' ✿ 🌿'},
+  // Leaf
+  {id:'d-t-le1', name:'Green Leaf',        cats:'aesthetic leaf nature',      p:'🍃 ',   s:' 🍃'},
+  {id:'d-t-le2', name:'Autumn Leaf',       cats:'aesthetic leaf nature',      p:'🍂 ',   s:' 🍂'},
+  {id:'d-t-le3', name:'Maple Leaf',        cats:'aesthetic leaf nature',      p:'🍁 ',   s:' 🍁'},
+  {id:'d-t-le4', name:'Leaf Drift',        cats:'aesthetic leaf nature',      p:'🍃 ˚ ', s:' ˚ 🍃'},
+  // Flame
+  {id:'d-t-fm1', name:'Flame',             cats:'gaming flame fire',          p:'🔥 ',   s:' 🔥'},
+  {id:'d-t-fm2', name:'Double Flame',      cats:'gaming flame fire',          p:'🔥🔥 ', s:' 🔥🔥'},
+  {id:'d-t-fm3', name:'Flame Bolt',        cats:'gaming flame fire',          p:'🔥 ⚡ ', s:' ⚡ 🔥'},
+  {id:'d-t-fm4', name:'Hot Springs',       cats:'gaming flame fire symbols',  p:'♨ ',    s:' ♨'},
+  // Lightning
+  {id:'d-t-li1', name:'Bolt Letter',       cats:'gaming lightning symbols',   p:'ϟ ',    s:' ϟ'},
+  {id:'d-t-li2', name:'Double Bolt',       cats:'gaming lightning',           p:'⚡⚡ ', s:' ⚡⚡'},
+  {id:'d-t-li3', name:'Storm Bolt',        cats:'gaming lightning symbols',   p:'☇ ',    s:' ☇'},
+  {id:'d-t-li4', name:'Bolt Mix',          cats:'gaming lightning',           p:'⚡ ϟ ', s:' ϟ ⚡'},
+  // Skull
+  {id:'d-t-sk1', name:'Skull Emoji',       cats:'scary creepy skull gaming',  p:'💀 ',   s:' 💀'},
+  {id:'d-t-sk2', name:'Skull Cross',       cats:'scary creepy skull',         p:'☠ ✖ ',  s:' ✖ ☠'},
+  {id:'d-t-sk3', name:'Skull Sword',       cats:'scary skull gaming',         p:'💀 ⚔ ', s:' ⚔ 💀'},
+  {id:'d-t-sk4', name:'Skull Text',        cats:'scary creepy skull symbols', p:'☠︎ ',   s:' ☠︎'},
+  // Ghost
+  {id:'d-t-gh1', name:'Ghost Night',       cats:'creepy scary ghost',         p:'👻 ☾ ', s:' ☽ 👻'},
+  {id:'d-t-gh2', name:'Ghost Pair',        cats:'creepy scary ghost',         p:'👻👻 ', s:' 👻👻'},
+  {id:'d-t-gh3', name:'Ghost Drift',       cats:'creepy ghost cute',          p:'👻 ⋆ ', s:' ⋆ 👻'},
+  {id:'d-t-gh4', name:'Ghost Cloud',       cats:'creepy ghost cute',          p:'☁ 👻 ', s:' 👻 ☁'},
+  // Spider
+  {id:'d-t-sd1', name:'Spider & Web',      cats:'scary creepy spider',        p:'🕷 🕸 ', s:' 🕸 🕷'},
+  {id:'d-t-sd2', name:'Web Corner',        cats:'scary creepy spider',        p:'🕸 ˚ ', s:' ˚ 🕸'},
+  {id:'d-t-sd3', name:'Spider Pair',       cats:'scary creepy spider',        p:'🕷🕷 ', s:' 🕷🕷'},
+  {id:'d-t-sd4', name:'Web Line',          cats:'scary creepy spider',        p:'🕸 ─ ', s:' ─ 🕸'},
+  // Snake
+  {id:'d-t-sn1', name:'Snake',             cats:'gaming snake creepy',        p:'🐍 ',   s:' 🐍'},
+  {id:'d-t-sn2', name:'Snake Trail',       cats:'gaming snake creepy',        p:'༄ 🐍 ', s:' 🐍 ༄'},
+  {id:'d-t-sn3', name:'Snake Pair',        cats:'gaming snake',               p:'🐍🐍 ', s:' 🐍🐍'},
+  {id:'d-t-sn4', name:'Snake Curl',        cats:'gaming snake symbols',       p:'〰 🐍 ', s:' 🐍 〰'},
+  // Dragon
+  {id:'d-t-dr1', name:'Dragon',            cats:'gaming dragon fantasy',      p:'🐉 ',   s:' 🐉'},
+  {id:'d-t-dr2', name:'Dragon Face',       cats:'gaming dragon fantasy',      p:'🐲 ',   s:' 🐲'},
+  {id:'d-t-dr3', name:'Dragon Fire',       cats:'gaming dragon fantasy',      p:'🐉 🔥 ', s:' 🔥 🐉'},
+  {id:'d-t-dr4', name:'Dragon Pair',       cats:'gaming dragon fantasy',      p:'🐉🐉 ', s:' 🐉🐉'},
+  // Cat
+  {id:'d-t-ca1', name:'Cat Face',          cats:'cute cat animal',            p:'🐱 ',   s:' 🐱'},
+  {id:'d-t-ca2', name:'Text Cat',          cats:'cute cat animal symbols',    p:'ᓚᘏᗢ ',  s:' ᓚᘏᗢ'},
+  {id:'d-t-ca3', name:'Kitty Face',        cats:'cute cat animal symbols',    p:'=^..^= ', s:' =^..^='},
+  {id:'d-t-ca4', name:'Paw Prints',        cats:'cute cat animal',            p:'🐾 ',   s:' 🐾'},
+  {id:'d-t-ca5', name:'Peeking Cat',       cats:'cute cat animal symbols',    p:'/ᐠ｡ꞈ｡ᐟ\\ ', s:''},
+  // Bunny
+  {id:'d-t-bu1', name:'Bunny Face',        cats:'cute bunny animal',          p:'🐰 ',   s:' 🐰'},
+  {id:'d-t-bu2', name:'Rabbit',            cats:'cute bunny animal',          p:'🐇 ',   s:' 🐇'},
+  {id:'d-t-bu3', name:'Text Bunny',        cats:'cute bunny animal symbols',  p:'₍ᐢ. .ᐢ₎ ', s:' ₍ᐢ. .ᐢ₎'},
+  {id:'d-t-bu4', name:'Bunny Sparkle',     cats:'cute bunny animal',          p:'🐰 ⋆ ', s:' ⋆ 🐰'},
+  // Bear
+  {id:'d-t-be1', name:'Bear Face',         cats:'cute bear animal',           p:'🐻 ',   s:' 🐻'},
+  {id:'d-t-be2', name:'Text Bear',         cats:'cute bear animal symbols',   p:'ʕ•ᴥ•ʔ ', s:' ʕ•ᴥ•ʔ'},
+  {id:'d-t-be3', name:'Teddy Bear',        cats:'cute bear animal',           p:'🧸 ',   s:' 🧸'},
+  {id:'d-t-be4', name:'Bear Hug',          cats:'cute bear animal love',      p:'ʕっ•ᴥ•ʔっ ', s:''},
+  // Cloud
+  {id:'d-t-cl1', name:'Cloud',             cats:'aesthetic cloud cute',       p:'☁ ',    s:' ☁'},
+  {id:'d-t-cl2', name:'Cloud Sparkle',     cats:'aesthetic cloud cute',       p:'☁ ⋆ ',  s:' ⋆ ☁'},
+  {id:'d-t-cl3', name:'Sun & Cloud',       cats:'aesthetic cloud cute',       p:'⛅ ',   s:' ⛅'},
+  {id:'d-t-cl4', name:'Cloud Pair',        cats:'aesthetic cloud',            p:'☁☁ ',  s:' ☁☁'},
+  // Rainbow
+  {id:'d-t-rb1', name:'Rainbow',           cats:'cute rainbow aesthetic',     p:'🌈 ',   s:' 🌈'},
+  {id:'d-t-rb2', name:'Rainbow Sky',       cats:'cute rainbow aesthetic',     p:'☁ 🌈 ', s:' 🌈 ☁'},
+  {id:'d-t-rb3', name:'Rainbow Sparkle',   cats:'cute rainbow aesthetic',     p:'🌈 ⋆ ', s:' ⋆ 🌈'},
+  {id:'d-t-rb4', name:'Rainbow Pair',      cats:'cute rainbow',               p:'🌈🌈 ', s:' 🌈🌈'},
+  // Mushroom
+  {id:'d-t-mu1', name:'Mushroom',          cats:'cute mushroom aesthetic',    p:'🍄 ',   s:' 🍄'},
+  {id:'d-t-mu2', name:'Mushroom Patch',    cats:'cute mushroom aesthetic',    p:'🍄🍄 ', s:' 🍄🍄'},
+  {id:'d-t-mu3', name:'Forest Floor',      cats:'cute mushroom aesthetic nature', p:'🌿 🍄 ', s:' 🍄 🌿'},
+  {id:'d-t-mu4', name:'Mushroom Dot',      cats:'cute mushroom aesthetic',    p:'🍄 ˚ ', s:' ˚ 🍄'},
+  // Lace
+  {id:'d-t-la1', name:'Lace Ornament',     cats:'aesthetic lace fancy',       p:'❈ ',    s:' ❈'},
+  {id:'d-t-la2', name:'Lace Border',       cats:'aesthetic lace fancy',       p:'꧁❦ ',   s:' ❦꧂'},
+  {id:'d-t-la3', name:'Lace Trim',         cats:'aesthetic lace cute',        p:'⋆｡‧˚ʚ ', s:' ɞ˚‧｡⋆'},
+  {id:'d-t-la4', name:'Lace Sparkle',      cats:'aesthetic lace fancy',       p:'✧･ﾟ: * ', s:' * :･ﾟ✧'},
+  {id:'d-t-la5', name:'Lace Ribbon',       cats:'aesthetic lace cute',        p:'ೃ⁀➷ ',  s:''},
+  // Cross
+  {id:'d-t-cx1', name:'Shadowed Cross',    cats:'gothic cross symbols',       p:'✞ ',    s:' ✞'},
+  {id:'d-t-cx2', name:'Lorraine Cross',    cats:'gothic cross symbols',       p:'☨ ',    s:' ☨'},
+  {id:'d-t-cx3', name:'Outlined Cross',    cats:'gothic cross symbols',       p:'✟ ',    s:' ✟'},
+  {id:'d-t-cx4', name:'Triple Cross',      cats:'gothic cross symbols',       p:'† ✝ † ', s:' † ✝ †'},
+  // Zodiac
+  {id:'d-t-zo1',  name:'Aries ♈',        cats:'zodiac aesthetic symbols',   p:'♈ ',    s:' ♈'},
+  {id:'d-t-zo2',  name:'Taurus ♉',       cats:'zodiac aesthetic symbols',   p:'♉ ',    s:' ♉'},
+  {id:'d-t-zo3',  name:'Gemini ♊',       cats:'zodiac aesthetic symbols',   p:'♊ ',    s:' ♊'},
+  {id:'d-t-zo4',  name:'Cancer ♋',       cats:'zodiac aesthetic symbols',   p:'♋ ',    s:' ♋'},
+  {id:'d-t-zo5',  name:'Leo ♌',          cats:'zodiac aesthetic symbols',   p:'♌ ',    s:' ♌'},
+  {id:'d-t-zo6',  name:'Virgo ♍',        cats:'zodiac aesthetic symbols',   p:'♍ ',    s:' ♍'},
+  {id:'d-t-zo7',  name:'Libra ♎',        cats:'zodiac aesthetic symbols',   p:'♎ ',    s:' ♎'},
+  {id:'d-t-zo8',  name:'Scorpio ♏',      cats:'zodiac aesthetic symbols',   p:'♏ ',    s:' ♏'},
+  {id:'d-t-zo9',  name:'Sagittarius ♐',  cats:'zodiac aesthetic symbols',   p:'♐ ',    s:' ♐'},
+  {id:'d-t-zo10', name:'Capricorn ♑',    cats:'zodiac aesthetic symbols',   p:'♑ ',    s:' ♑'},
+  {id:'d-t-zo11', name:'Aquarius ♒',     cats:'zodiac aesthetic symbols',   p:'♒ ',    s:' ♒'},
+  {id:'d-t-zo12', name:'Pisces ♓',       cats:'zodiac aesthetic symbols',   p:'♓ ',    s:' ♓'},
+  {id:'d-t-zo13', name:'Zodiac Stars',    cats:'zodiac aesthetic',           p:'✩ ♈ ', s:' ♓ ✩'},
+];
+THEME_DECOS.forEach(function(d){ DECOS.push(d); });
+
+// Base alphabets each theme decoration is combined with (Layer 5 picks these up).
+// Two bases per decoration keeps the count sane: the theme pages list 10–16 ids.
+var THEME_COMBO_BASES = {
+  cute:   ['boldScript', 'script'],
+  dark:   ['fraktur', 'sansBold'],
+  gaming: ['sansBold', 'boldFraktur'],
+  fancy:  ['boldScript', 'sansBold'],
+};
+var THEME_COMBO_KIND = {
+  fl:'cute', bf:'cute', cr:'fancy', st:'fancy', mo:'cute', sp:'cute', ri:'cute', an:'cute', fa:'cute',
+  ch:'cute', sb:'cute', sf:'cute', da:'cute', vi:'cute', le:'cute', fm:'gaming', li:'gaming',
+  sk:'dark', gh:'dark', sd:'dark', sn:'gaming', dr:'gaming', ca:'cute', bu:'cute', be:'cute',
+  cl:'cute', rb:'cute', mu:'cute', la:'fancy', cx:'dark', zo:'fancy',
+};
+
 // ── BUILD STYLES ARRAY ────────────────────────────────────────────────────────
 var STYLES = [];
 var seenOutputs = {};
@@ -362,6 +550,19 @@ var COMBO_MATRIX = {
   superscript:['d-h1','d-s4','d-cu3','d-j1','d-ae8','d-wd1','d-wd5'],
   subscript:  ['d-ae1','d-ae4','d-s5','d-h4'],
 };
+
+// Theme decorations → combos (see THEME_COMBO_BASES above).
+THEME_DECOS.forEach(function(d) {
+  // Only the first two decorations of each theme get combos (the zodiac set
+  // combines its "Zodiac Stars" frame only), so the engine stays lean.
+  var stem = d.id.split('-')[2], n = parseInt(stem.replace(/^\D+/, ''), 10), key = stem.replace(/\d+$/, '');
+  if (key === 'zo' ? n !== 13 : n > 2) return;
+  var kind = THEME_COMBO_KIND[key] || 'cute';
+  THEME_COMBO_BASES[kind].forEach(function(baseKey) {
+    if (!COMBO_MATRIX[baseKey]) COMBO_MATRIX[baseKey] = [];
+    COMBO_MATRIX[baseKey].push(d.id);
+  });
+});
 
 // Build a lookup from deco id to deco object
 var decoById = {};

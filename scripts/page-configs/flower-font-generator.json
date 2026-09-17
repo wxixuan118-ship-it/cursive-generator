@@ -1,0 +1,199 @@
+{
+  "keyword": "flower font generator",
+  "file": "flower-font-generator.html",
+  "label": "Flower",
+  "appName": "Flower Font Generator",
+  "crumb": "Flower Fonts",
+  "sample": "Bloom Season",
+  "linkName": "Flower Font Generator",
+  "linkNote": "Cursive and bold text framed with ✿ ❀ 🌸 🌷 flowers.",
+  "title": "Flower Font Generator – ✿ Flower Text Copy & Paste",
+  "description": "Free flower font generator: wrap any name or caption in ✿ ❀ 🌸 🌷 blossoms with cursive, bold and small caps letters. Copy and paste into Instagram and TikTok.",
+  "h1": "Flower Font Generator",
+  "kicker": "Blossom frames around cursive, bold and small caps text",
+  "intro": "This flower font generator turns any name, caption or bio line into text framed with flowers: the classic ✿ and ❀ blossoms, the 🌸 cherry blossom, 🌷 tulip and 🌺 hibiscus emoji, and a full ❀✿❀ flower chain. The letters themselves can stay plain or switch to cursive, bold cursive, italic or small caps. Every result is real Unicode text, so the flowers and the lettering survive when you paste them into Instagram, TikTok, Discord or a document.",
+  "ids": "dec-d-f1,dec-d-f2,dec-d-t-fl1,dec-d-t-fl2,dec-d-t-fl3,dec-d-t-fl4,boldScript-d-f1,script-d-f1,boldScript-d-f2,script-d-f2,boldScript-d-t-fl1,script-d-t-fl1,boldScript-d-t-fl2,script-d-t-fl2,italic-d-f1,smallCaps-d-f1",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "flower",
+      "Blossoms"
+    ],
+    [
+      "cursive",
+      "Cursive"
+    ],
+    [
+      "aesthetic",
+      "Aesthetic"
+    ],
+    [
+      "cute",
+      "Cute"
+    ]
+  ],
+  "copyHeading": "Flower Fonts Copy and Paste",
+  "copyBody": "Type your text once and every flower preset updates as you go. Press Copy beside the version you like and paste it wherever the text is going. The ✿ and ❀ symbols are Unicode dingbats and the 🌸 🌷 🌺 flowers are emoji, so a flower font generator result keeps its blossoms in an Instagram bio, a TikTok display name, a Discord nickname, a Pinterest board title or an email signature without any font being installed on the other end.",
+  "popularTitle": "Popular Flower Font Styles",
+  "popular": "Two families cover most of what people want. The dingbat flowers (✿ ❀ ❁) are monochrome, render in every font, and look hand-drawn next to cursive script, which is why ✿ 𝓑𝓵𝓸𝓸𝓶 ✿ is the single most pasted flower style. The emoji flowers (🌸 🌷 🌺) are in colour and read as a mood: cherry blossom for soft spring bios, tulip for clean and preppy names, hibiscus for summer and travel captions. The ❀✿❀ chain and the italic and small caps rows give quieter options when a single blossom is too much.",
+  "howToTitle": "How to Use the Flower Font Generator",
+  "steps": [
+    [
+      "1. Type your text",
+      "Enter a name, a caption, a shop name or a short bio line. Keep it short if it is going into a display name, since flowers count toward the character limit."
+    ],
+    [
+      "2. Choose blossoms and lettering",
+      "Use the chips to see only Blossoms, Cursive, Aesthetic or Cute presets. Each row pairs a flower frame with plain, cursive, bold, italic or small caps letters."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside a result and paste it into your bio, display name, caption, comment or message."
+    ]
+  ],
+  "socialTitle": "Flower Fonts for Instagram, TikTok and Pinterest",
+  "social": "Flower text lives mostly in places where one styled line sets the tone: an Instagram bio or highlight cover, a TikTok display name, a Pinterest board title, a Discord nickname, an Etsy shop header or a wedding hashtag. Display names and bios accept every preset on this page. Usernames are stricter on almost every platform, so keep the @handle plain and put the flowers in the display name. In a caption, one framed line at the top reads as a title; a flower on every line quickly looks like spam.",
+  "limitNote": "emoji flowers are drawn by each platform, so 🌸 looks slightly different on iPhone, Android and Windows, while the ✿ ❀ dingbats look the same everywhere.",
+  "specificTitle": "Flower Font Generator vs Rose and Sunflower Text",
+  "specific": "This page is the general flower font generator: mixed blossoms in dingbat and emoji form around any lettering. The rose, sunflower and daisy pages linked below each commit to one flower with its own frames and colour mood, which suits a brand or a bio built around that flower. If you want variety, or you are not sure which flower fits, start here and narrow down; if you already know it is roses, the rose page has more rose-specific frames than this one.",
+  "source": {
+    "before": "The ✿ ❀ ❁ blossoms are part of the ",
+    "name": "Dingbats block",
+    "href": "https://www.unicode.org/charts/PDF/U2700.pdf",
+    "after": " of the Unicode Standard, which is why they render in plain text on every device, unlike emoji flowers that depend on each platform's emoji font."
+  },
+  "uniqueH2": "Dingbat Flower Fonts vs Emoji Flower Fonts",
+  "uniqueBody": [
+    "The difference matters more than it looks. Dingbat flowers (✿ ❀ ❁ ✾) are ordinary text characters from the same Unicode block as ✓ and ✂. They take one character each, they are monochrome, they inherit the colour of the surrounding text, and they render identically on every phone and desktop. That makes them the safe choice for usernames with tight limits, for places that render text in a single colour, and for anything that will be printed.",
+    "Emoji flowers (🌸 🌷 🌺 🌼 🌻) are picture characters. They are drawn in colour by the platform's own emoji font, so a 🌸 on iOS is a different illustration from the same 🌸 on Android or Windows, and a few older systems show them as a box. They also count as two characters in some length limits. In exchange they carry colour and personality that a dingbat cannot, which is why they dominate bios and captions.",
+    "A flower font generator is most useful when it offers both, and this page pairs each kind with lettering that suits it: dingbats with cursive and italic for a hand-drawn feel, emoji with bold cursive and small caps for something that pops on a coloured background. Preview the exact text you plan to use, since a long name with a flower chain on both sides can be wider than a display-name field allows."
+  ],
+  "examplesTitle": "Flower Font Examples",
+  "examplesIntro": "Paste any of these into the generator to compare how the same words look with dingbat and emoji flowers.",
+  "examples": [
+    [
+      "Bloom Season",
+      "Instagram bio heading"
+    ],
+    [
+      "Petal & Co",
+      "small shop or Etsy name"
+    ],
+    [
+      "garden diaries",
+      "Pinterest board title"
+    ]
+  ],
+  "linksTitle": "More Flower and Nature Fonts",
+  "links": [
+    [
+      "Rose Font Generator",
+      "/rose-font-generator.html",
+      "Rose frames, petals and thorn-style text."
+    ],
+    [
+      "Cute Fonts",
+      "/cute-fonts.html",
+      "Kawaii brackets, tiny letters and soft decorations."
+    ],
+    [
+      "Aesthetic Fonts",
+      "/aesthetic-fonts.html",
+      "Every aesthetic mood in one place."
+    ],
+    [
+      "Girly Fonts",
+      "/girly-fonts.html",
+      "Hearts, bows and pastel-feel text styles."
+    ],
+    [
+      "Aesthetic Symbols",
+      "/aesthetic-symbols.html",
+      "Flowers, stars and dividers to pair with your text."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond flowers."
+    ],
+    [
+      "Butterfly Font Generator",
+      "/butterfly-font-generator.html",
+      "🦋 and Ƹ̵̡Ӝ̵̨̄Ʒ butterfly frames around cursive and script text."
+    ],
+    [
+      "Fairy Font Generator",
+      "/fairy-font-generator.html",
+      "🧚 fairies, ✨ fairy dust and ⋆｡˚ ✧ glitter rings around cursive text."
+    ],
+    [
+      "Strawberry Font Generator",
+      "/strawberry-font-generator.html",
+      "🍓 strawberry frames and ♡ 🍓 pairings around cursive text."
+    ],
+    [
+      "Sunflower Font Generator",
+      "/sunflower-font-generator.html",
+      "🌻 sunflower frames and ☀ 🌻 sun pairings around cursive text."
+    ],
+    [
+      "Daisy Font Generator",
+      "/daisy-font-generator.html",
+      "🌼 ❁ ⚘ daisy frames and chains around cursive and kawaii text."
+    ],
+    [
+      "Vine Font Generator",
+      "/vine-font-generator.html",
+      "🌿 ❦ ✾ vine and tendril frames around cursive text."
+    ],
+    [
+      "Leaf Font Generator",
+      "/leaf-font-generator.html",
+      "🍃 🍂 🍁 ❧ leaf frames for seasonal and nature names."
+    ]
+  ],
+  "faqTitle": "Flower Font FAQ",
+  "faqs": [
+    [
+      "What is a flower font?",
+      "Online, a flower font usually means text decorated with flower symbols or emoji, such as ✿ 𝓑𝓵𝓸𝓸𝓶 ✿. It is not an installed typeface; the flowers and fancy letters are Unicode characters you can copy and paste."
+    ],
+    [
+      "Is this flower font generator free?",
+      "Yes. It runs in your browser, needs no account or download, and every result can be copied without limits."
+    ],
+    [
+      "Can I use flower text in my Instagram bio?",
+      "Yes. Copy a result and paste it into your bio or display name. Instagram shows both the dingbat flowers and the emoji flowers."
+    ],
+    [
+      "Why does the flower show as a box for someone?",
+      "Their device is missing a glyph for that character. This happens mainly with emoji on very old systems; the ✿ and ❀ dingbats render almost everywhere, so switch to one of those rows."
+    ],
+    [
+      "Do the flowers work in usernames?",
+      "Usually not. Most platforms limit @usernames to letters, numbers and underscores. Display names, bios and captions accept flowers."
+    ],
+    [
+      "Can I copy just the flower symbol?",
+      "Yes. Type a single space, copy any row, and you get the frame on its own, or open the aesthetic symbols page for a full list of flower and nature symbols."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "boldScript-d-f1",
+      "script-d-t-fl1",
+      "dec-d-t-fl4"
+    ],
+    "sample": "Bloom Season",
+    "tagline": "DINGBAT · EMOJI · CHAIN",
+    "alt": "Bloom Season written with the flower font generator as ✿ bold cursive, 🌸 cherry blossom script and a ❀✿❀ flower chain",
+    "src": "/assets/previews/flower-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Bloom Season” rendered by the Flower Font Generator in Bold Cursive Flower, Cursive Script Cherry Blossom, Flower Chain presets"
+  }
+}

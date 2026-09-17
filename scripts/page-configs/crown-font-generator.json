@@ -1,0 +1,174 @@
+{
+  "keyword": "crown font generator",
+  "file": "crown-font-generator.html",
+  "label": "Crown",
+  "appName": "Crown Font Generator",
+  "crumb": "Crown Fonts",
+  "sample": "Queen Ava",
+  "linkName": "Crown Font Generator",
+  "linkNote": "♛ ♔ 👑 crown frames around cursive, gothic and bold text.",
+  "title": "Crown Font Generator – ♛ Crown Text Copy & Paste",
+  "description": "Free crown font generator: add ♛ ♔ ♚ 👑 crowns and the ꧁꧂ royal frame to any name in cursive, gothic or bold letters. Copy and paste into game tags and bios.",
+  "h1": "Crown Font Generator",
+  "kicker": "Queen, king and gold crown frames for names and tags",
+  "intro": "This crown font generator puts a crown on any name: the chess-piece crowns ♛ ♕ ♚ ♔, the gold 👑 emoji, the ⚜ fleur-de-lis and the ꧁꧂ frame that gamers call the crown frame, each paired with cursive, bold cursive, gothic or bold sans letters. The result is plain Unicode text, so the crown stays attached when you paste it into a Free Fire or PUBG name, a Discord nickname, an Instagram bio or a birthday post.",
+  "ids": "dec-d-c1,dec-d-c2,dec-d-t-cr1,dec-d-t-cr2,dec-d-t-cr3,dec-d-t-cr4,dec-d-c3,boldScript-d-c1,script-d-c1,fraktur-d-c1,fraktur-d-c2,sansBold-d-c1,boldScript-d-t-cr1,sansBold-d-t-cr1,boldScript-d-t-cr2,sansBold-d-t-cr2,boldScript-d-fn1,smallCaps-d-c1",
+  "chips": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "crown",
+      "Crowns"
+    ],
+    [
+      "cursive",
+      "Cursive"
+    ],
+    [
+      "gothic",
+      "Gothic"
+    ],
+    [
+      "gaming",
+      "Gaming"
+    ]
+  ],
+  "copyHeading": "Crown Fonts Copy and Paste",
+  "copyBody": "Type a name, pick the crown that fits and press Copy beside it. The ♛ ♕ ♚ ♔ crowns are chess symbols from the Unicode standard, the 👑 is an emoji, and the ꧁꧂ frame is a pair of Javanese punctuation marks that happen to look like ornate wings, which is why they became the default crown font generator frame for gaming names. All three kinds are text, so they paste into any name field, bio or message that accepts Unicode.",
+  "popularTitle": "Popular Crown Font Styles",
+  "popular": "The black queen ♛ around bold cursive (♛ 𝓠𝓾𝓮𝓮𝓷 𝓐𝓿𝓪 ♛) is the classic bio and birthday style. The white king ♔ and queen ♕ are lighter and suit gothic or small caps letters where a solid crown would look heavy. The 👑 emoji is the colour option, best on bold sans text for TikTok and Instagram display names. For game tags, the ꧁꧂ frame and the ♚ black king with gothic lettering are what Free Fire, PUBG and Fortnite players actually use, and the ⚜ fleur-de-lis is the subtle royal mark for people who find a crown too literal.",
+  "howToTitle": "How to Use the Crown Font Generator",
+  "steps": [
+    [
+      "1. Type your name",
+      "Enter a name, gamertag, clan tag or short phrase. Crowns count toward character limits, so keep game names short."
+    ],
+    [
+      "2. Choose a crown",
+      "Use the chips to see only Crowns, Cursive, Gothic or Gaming rows. Each row pairs a crown with a lettering style."
+    ],
+    [
+      "3. Copy and paste",
+      "Press Copy beside a result and paste it into your game profile, Discord nickname, bio or post."
+    ]
+  ],
+  "socialTitle": "Crown Fonts for Game Names, Discord and Instagram",
+  "social": "Crown text has two homes. In games, ♛ and ꧁꧂ names are everywhere in Free Fire, PUBG Mobile, Fortnite, Roblox display names and Discord gaming servers, usually paired with gothic or bold letters. On Instagram and TikTok, crowns mark birthdays, queen and king captions, pageant and dance accounts and couple bios, usually with cursive. Display names and bios accept every row on this page; actual @usernames and some game name fields only accept plain letters, so test the plain ♛ row first if a decorated one is rejected.",
+  "limitNote": "the 👑 emoji is drawn differently on iPhone, Android and Windows, while the ♛ ♔ chess crowns look the same everywhere.",
+  "specificTitle": "Crown Font Generator vs Royal Frame ꧁꧂",
+  "specific": "People search for a crown font and often mean the ꧁꧂ frame, so this page includes both. The chess crowns and 👑 are literal crowns placed before and after the name. The ꧁꧂ frame is not a crown at all but two Javanese punctuation marks whose curled shape reads as wings or a crest; it became the standard gaming frame because it renders in almost every game font. If your name field rejects emoji, the ꧁꧂ and ♛ rows are the ones most likely to be accepted.",
+  "source": {
+    "before": "The ♔ ♕ ♚ ♛ crowns are chess symbols from the ",
+    "name": "Miscellaneous Symbols block",
+    "href": "https://www.unicode.org/charts/PDF/U2600.pdf",
+    "after": " of the Unicode Standard, which is why they render as plain text on every platform without an emoji font."
+  },
+  "uniqueH2": "Which Crown Font Renders in Games",
+  "uniqueBody": [
+    "Game name fields are the strictest place a crown font generator result will go, and the four crown types behave differently there. The chess crowns ♛ ♕ ♚ ♔ are in the basic Miscellaneous Symbols block, so nearly every game font includes them; they are the safest choice. The ꧁꧂ frame is from the Javanese block, which most mobile games render but some console and PC games show as boxes. The 👑 emoji depends on the game shipping an emoji font, which many do not.",
+    "Lettering matters as much as the crown. Gothic (Fraktur) and bold cursive letters come from the Mathematical Alphanumeric Symbols block, which Free Fire, PUBG Mobile and most Unity-based mobile games render fine, while a few older titles show the letters but drop the crown or the reverse. Bold sans and small caps are the most conservative pairings. If a decorated name is rejected, the usual fix is to keep the crown and switch the letters to plain text, or keep the fancy letters and drop to a single ♛.",
+    "Outside games, none of this applies: Discord, Instagram, TikTok and WhatsApp render every row on this page. The one practical limit is length. A ꧁꧂ frame plus a ♛ crown plus gothic letters can push a 16-character game name over its limit because some crowns count as two characters, so preview the exact name and trim before you copy."
+  ],
+  "examplesTitle": "Crown Font Examples",
+  "examplesIntro": "Paste any of these into the generator to compare chess crowns, the gold emoji and the ꧁꧂ frame on the same words.",
+  "examples": [
+    [
+      "Queen Ava",
+      "birthday post or bio"
+    ],
+    [
+      "KingSlayer",
+      "Free Fire or PUBG name"
+    ],
+    [
+      "Royal Duo",
+      "couple account display name"
+    ]
+  ],
+  "linksTitle": "More Crown and Gaming Fonts",
+  "links": [
+    [
+      "Free Fire Font Generator",
+      "/free-fire-font-generator.html",
+      "꧁꧂ frames and stylish names for FF and PUBG."
+    ],
+    [
+      "Gothic Font Generator",
+      "/gothic-font-generator.html",
+      "Blackletter and Fraktur text for dark, royal names."
+    ],
+    [
+      "Diamond Font Generator",
+      "/diamond-font-generator.html",
+      "◆ ❖ 💎 diamond frames for luxe text."
+    ],
+    [
+      "Cool Text Generator",
+      "/cool-text-generator.html",
+      "Gothic, double-struck and gaming styles in one list."
+    ],
+    [
+      "Fonts for Discord",
+      "/fonts-for-discord.html",
+      "Styles that survive Discord names and channels."
+    ],
+    [
+      "Fancy Text Generator",
+      "/fancy-text-generator.html",
+      "Browse 300+ Unicode styles beyond crowns."
+    ],
+    [
+      "Dragon Font Generator",
+      "/dragon-font-generator.html",
+      "🐉 🐲 dragon frames with gothic, crown and fire text for fantasy names."
+    ],
+    [
+      "Cross Font Generator",
+      "/cross-font-generator.html",
+      "✝ † ✞ ☨ cross symbols with gothic, bold and small caps text."
+    ]
+  ],
+  "faqTitle": "Crown Font FAQ",
+  "faqs": [
+    [
+      "What is a crown font?",
+      "Online, a crown font means text decorated with crown symbols, such as ♛ 𝓠𝓾𝓮𝓮𝓷 ♛ or 👑 Name 👑. It is Unicode text you can copy and paste, not an installed typeface."
+    ],
+    [
+      "Is this crown font generator free?",
+      "Yes. It runs in your browser, needs no account or download, and every result can be copied without limits."
+    ],
+    [
+      "How do I put a crown in my Free Fire name?",
+      "Type your name, copy a ♛ or ꧁꧂ row, open your Free Fire profile, paste it into the name field and save. Chess crowns render most reliably in game fonts."
+    ],
+    [
+      "What is the ꧁꧂ symbol?",
+      "It is a pair of Javanese punctuation marks. Gamers call it the crown or wing frame because of its shape, and it renders in most mobile game fonts."
+    ],
+    [
+      "Why does the crown show as a box?",
+      "The app is missing a glyph for that character, most often the 👑 emoji or the ꧁꧂ frame in a game. Switch to a ♛ or ♔ row, which uses the most widely supported crown."
+    ],
+    [
+      "Can I use a crown in my Instagram username?",
+      "Not in the @username, which only allows letters, numbers, periods and underscores. Display names, bios and captions accept crowns."
+    ]
+  ],
+  "figure": {
+    "styles": [
+      "boldScript-d-c1",
+      "fraktur-d-c2",
+      "sansBold-d-t-cr1"
+    ],
+    "sample": "Queen Ava",
+    "tagline": "QUEEN ♛ · KING ♔ · GOLD 👑",
+    "alt": "Queen Ava written with the crown font generator as ♛ bold cursive, ♔ gothic Fraktur and 👑 bold sans text",
+    "src": "/assets/previews/crown-font-generator.svg",
+    "width": 1200,
+    "height": 630,
+    "caption": "“Queen Ava” rendered by the Crown Font Generator in Bold Cursive Queen Crown, Fraktur Gothic King Crown, Sans Bold Gold Crown presets"
+  }
+}
