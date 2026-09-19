@@ -1,0 +1,231 @@
+{
+ "_comment": "Per-page differentiation for build-nation-pages.py (added 2026-09-19 after 37/38 titles and H2 skeletons were found to be identical templates). title: short hook for <title>; howto: the How-to-Write H2; uses: the occasions H2; image: second line drawn in the page's PNG (must use characters the Everly font has — no macrons/carons). `explore` (optional) replaces the page's Explore paragraph — used by the six kept pages after the hub and 31 sibling pages were retired on 2026-09-19.",
+ "mexico": {
+  "title": "Joining the Tricky x, Viva México",
+  "howto": "How to Write Mexico in Cursive: Joining the x",
+  "uses": "Independence Day, Día de los Muertos and Other Times to Use Mexico in Cursive",
+  "image": "Viva México"
+ },
+ "brazil": {
+  "title": "Looped z, Brazil or Brasil",
+  "howto": "How to Write Brazil in Cursive: the Looped z",
+  "uses": "Carnival, Independence Day and Football Captions in Cursive Brazil",
+  "image": "Brasil"
+ },
+ "costa-rica": {
+  "title": "Two Capitals, Pura Vida",
+  "howto": "How to Write Costa Rica in Cursive: Two Capitals and a Space",
+  "uses": "Destination Weddings and Travel Posts: Where Costa Rica in Cursive Fits",
+  "image": "Pura Vida"
+ },
+ "guatemala": {
+  "title": "Four a's, Independence Day",
+  "howto": "How to Write Guatemala in Cursive: Nine Letters, Four a's",
+  "uses": "Independence Day and Antigua Captions for Guatemala in Cursive",
+  "image": "Antigua Guatemala"
+ },
+ "jamaica": {
+  "title": "Looped Capital J, One Love",
+  "howto": "How to Write Jamaica in Cursive: the Looped Capital J",
+  "uses": "Independence Day, Emancipation Day and One Love Posts in Cursive Jamaica",
+  "image": "One Love"
+ },
+ "peru": {
+  "title": "Non-Joining P, Perú Accent",
+  "howto": "How to Write Peru in Cursive: the Non-Joining P and the r",
+  "uses": "Fiestas Patrias and Machu Picchu Captions for Peru in Cursive",
+  "image": "Machu Picchu"
+ },
+ "venezuela": {
+  "title": "Top-Joining V, Looped z",
+  "howto": "How to Write Venezuela in Cursive: the Top-Joining V",
+  "uses": "Independence Day and Angel Falls Captions for Venezuela in Cursive",
+  "image": "Angel Falls"
+ },
+ "america": {
+  "title": "Capital A, July 4 Phrases",
+  "howto": "How to Write America in Cursive: the Capital A and Three a's",
+  "uses": "July 4, Memorial Day and Veterans Day: When America in Cursive Is Used",
+  "image": "God Bless America",
+  "explore": "<p>The formal two-word name is on the <a href=\"/united-states-in-cursive/\">United States in cursive</a> page, and <a href=\"/canada-in-cursive/\">Canada in cursive</a> is the North American neighbour. For the capital that starts this word, see <a href=\"/cursive-letters/a-in-cursive/\">A in cursive</a>; every other letter is on the <a href=\"/cursive-letters-a-z.html\">cursive letters A–Z</a> page, and the <a href=\"/cursive-name-generator.html\">cursive name generator</a> handles any name or phrase.</p>"
+ },
+ "united-states": {
+  "title": "Two Capitals, USA & U.S.",
+  "howto": "How to Write United States in Cursive: Two Capitals and the d-S Gap",
+  "uses": "Citizenship Ceremonies, Veterans' Events and Civics Projects in Cursive",
+  "image": "United States of America",
+  "explore": "<p>The short form is on the <a href=\"/america-in-cursive/\">America in cursive</a> page, and <a href=\"/canada-in-cursive/\">Canada in cursive</a> is the other North American name here. The two capitals are covered on <a href=\"/cursive-letters/u-in-cursive/\">U in cursive</a> and <a href=\"/cursive-letters/s-in-cursive/\">S in cursive</a>; the full alphabet is on <a href=\"/cursive-letters-a-z.html\">cursive letters A–Z</a>.</p>"
+ },
+ "canada": {
+  "title": "Three a's, Two d's, Canada Day",
+  "howto": "How to Write Canada in Cursive: Three a's and Two d's",
+  "uses": "Canada Day, Hockey Nights and Travel Posts in Cursive Canada",
+  "image": "O Canada",
+  "explore": "<p>Neighbours include <a href=\"/america-in-cursive/\">America in cursive</a> and <a href=\"/united-states-in-cursive/\">United States in cursive</a>. The capital is on <a href=\"/cursive-letters/c-in-cursive/\">C in cursive</a>, the three a's on <a href=\"/cursive-letters/a-in-cursive/\">a in cursive</a>, and every letter on the <a href=\"/cursive-letters-a-z.html\">cursive letters A–Z</a> page.</p>"
+ },
+ "australia": {
+  "title": "Tall l, State Cursive Styles",
+  "howto": "How to Write Australia in Cursive: Nine Letters and a Tall l",
+  "uses": "Australia Day, ANZAC Day and Travel Captions in Cursive Australia",
+  "image": "Down Under",
+  "explore": "<p>The other English-speaking names here are <a href=\"/england-in-cursive/\">England in cursive</a>, <a href=\"/ireland-in-cursive/\">Ireland in cursive</a> and <a href=\"/canada-in-cursive/\">Canada in cursive</a>. The capital is on <a href=\"/cursive-letters/a-in-cursive/\">A in cursive</a>, the tall l on <a href=\"/cursive-letters/l-in-cursive/\">L in cursive</a>, and the whole alphabet on <a href=\"/cursive-letters-a-z.html\">cursive letters A–Z</a>.</p>"
+ },
+ "england": {
+  "title": "Capital E, g Descender, vs Britain",
+  "howto": "How to Write England in Cursive: Capital E and the g Descender",
+  "uses": "St George's Day, Three Lions and Cricket Posts in Cursive England",
+  "image": "London, England",
+  "explore": "<p>Neighbours include <a href=\"/ireland-in-cursive/\">Ireland in cursive</a>, and <a href=\"/australia-in-cursive/\">Australia in cursive</a> and <a href=\"/america-in-cursive/\">America in cursive</a> are the other English-speaking names here. The capital is on <a href=\"/cursive-letters/e-in-cursive/\">E in cursive</a> and the g descender on <a href=\"/cursive-letters/g-in-cursive/\">G in cursive</a>; see <a href=\"/cursive-letters-a-z.html\">cursive letters A–Z</a> for the rest.</p>"
+ },
+ "ireland": {
+  "title": "I into r, Éire & Gaelic Script",
+  "howto": "How to Write Ireland in Cursive: Capital I into r",
+  "uses": "St Patrick's Day Flyers and Party Invites in Cursive Ireland",
+  "image": "Erin go Bragh",
+  "explore": "<p>Neighbours include <a href=\"/england-in-cursive/\">England in cursive</a>, and <a href=\"/australia-in-cursive/\">Australia in cursive</a> and <a href=\"/canada-in-cursive/\">Canada in cursive</a> round out the English-speaking names here. The capital is on <a href=\"/cursive-letters/i-in-cursive/\">I in cursive</a>, the r on <a href=\"/cursive-letters/r-in-cursive/\">R in cursive</a>, and every letter on <a href=\"/cursive-letters-a-z.html\">cursive letters A–Z</a>.</p>"
+ },
+ "japan": {
+  "title": "Looped J, p Descender, Nippon",
+  "howto": "How to Write Japan in Cursive: Looped J and the p Descender",
+  "uses": "Cherry-Blossom Season and Golden Week Captions in Cursive Japan",
+  "image": "Tokyo, Japan"
+ },
+ "china": {
+  "title": "Joining C, Tall h, Lunar New Year",
+  "howto": "How to Write China in Cursive: the Joining Capital C and Tall h",
+  "uses": "National Day and Lunar New Year Posts in Cursive China",
+  "image": "Beijing, China"
+ },
+ "india": {
+  "title": "d Ascender, Bharat, Devanagari",
+  "howto": "How to Write India in Cursive: Five Letters and One d Ascender",
+  "uses": "Independence Day, Republic Day and Diwali Cards in Cursive India",
+  "image": "Incredible India"
+ },
+ "israel": {
+  "title": "The s-r Join, Hebrew Cursive",
+  "howto": "How to Write Israel in Cursive: the Awkward s-r Join",
+  "uses": "Yom Ha'atzmaut and Jerusalem Captions for Israel in Cursive",
+  "image": "Jerusalem, Israel"
+ },
+ "malaysia": {
+  "title": "Ascender Meets Descender, Merdeka",
+  "howto": "How to Write Malaysia in Cursive: an Ascender Next to a Descender",
+  "uses": "Merdeka Day and Malaysia Day Posts in Cursive Malaysia",
+  "image": "Merdeka"
+ },
+ "philippines": {
+  "title": "Double p, Four i's, Mabuhay",
+  "howto": "How to Write Philippines in Cursive: Double p and Four i's",
+  "uses": "Independence Day and Palawan Captions for Philippines in Cursive",
+  "image": "Mabuhay"
+ },
+ "egypt": {
+  "title": "Three Descenders, Ancient Cursive",
+  "howto": "How to Write Egypt in Cursive: Three Descenders in a Row",
+  "uses": "Revolution Day and Pyramids Captions for Egypt in Cursive",
+  "image": "Cairo, Egypt"
+ },
+ "kenya": {
+  "title": "Cursive Capital K, Harambee",
+  "howto": "How to Write Kenya in Cursive: the Capital K",
+  "uses": "Jamhuri Day, Madaraka Day and Safari Captions in Cursive Kenya",
+  "image": "Karibu Kenya"
+ },
+ "france": {
+  "title": "Pen Lift after F, Bastille Day",
+  "howto": "How to Write France in Cursive: One Pen Lift after the F",
+  "uses": "Bastille Day, Paris Captions and Wine Labels in Cursive France",
+  "image": "Vive la France"
+ },
+ "italy": {
+  "title": "Three Heights, Bella Italia",
+  "howto": "How to Write Italy in Cursive: Five Letters at Three Heights",
+  "uses": "Festa della Repubblica and Travel Posts in Cursive Italy",
+  "image": "Bella Italia"
+ },
+ "greece": {
+  "title": "Double e, c-e Curves, Hellas",
+  "howto": "How to Write Greece in Cursive: the Double e and c-e Curves",
+  "uses": "Independence Day, Ohi Day and Santorini Captions in Cursive Greece",
+  "image": "Santorini, Greece"
+ },
+ "germany": {
+  "title": "The r-m Join, Deutschland",
+  "howto": "How to Write Germany in Cursive: the r-m Join",
+  "uses": "Unity Day and Oktoberfest Posts in Cursive Germany",
+  "image": "Deutschland"
+ },
+ "spain": {
+  "title": "Capital S, Early p, España",
+  "howto": "How to Write Spain in Cursive: Capital S and an Early p Descender",
+  "uses": "Fiesta Nacional and Barcelona Captions for Spain in Cursive",
+  "image": "España"
+ },
+ "turkey": {
+  "title": "Non-Joining T, Looped k, Türkiye",
+  "howto": "How to Write Turkey in Cursive: the Non-Joining T and Looped k",
+  "uses": "Republic Day and Istanbul Captions for Turkey in Cursive",
+  "image": "Türkiye"
+ },
+ "russian": {
+  "title": "The Word + Cyrillic Handwriting",
+  "howto": "How to Write the Word Russian in Cursive",
+  "uses": "Class Covers, Ballet Programmes and Journals: Where the Word Russian in Cursive Is Used",
+  "image": "Learn Russian"
+ },
+ "english": {
+  "title": "Copperplate to D'Nealian",
+  "howto": "How to Write the Word English in Cursive",
+  "uses": "ESL Covers, Tutoring Cards and Reading Lists in Cursive English",
+  "image": "English Language"
+ },
+ "french": {
+  "title": "Écriture Cursive on Seyès Paper",
+  "howto": "How to Write the Word French in Cursive",
+  "uses": "French-Class Covers, Café Signs and Tutoring Flyers in Cursive French",
+  "image": "Bonjour"
+ },
+ "spanish": {
+  "title": "The ñ and Accents",
+  "howto": "How to Write the Word Spanish in Cursive",
+  "uses": "Spanish-Class Covers and Hispanic Heritage Month Posts in Cursive Spanish",
+  "image": "Hola"
+ },
+ "greek": {
+  "title": "Is Greek Handwriting Joined?",
+  "howto": "How to Write the Word Greek in Cursive",
+  "uses": "Classics Covers, Orthodox Programmes and Greek Life in Cursive",
+  "image": "Greek Life"
+ },
+ "italian": {
+  "title": "Corsivo, Chancery & Italic",
+  "howto": "How to Write the Word Italian in Cursive",
+  "uses": "Trattoria Menus, Class Covers and Heritage Posts in Cursive Italian",
+  "image": "Ciao Bella"
+ },
+ "korean": {
+  "title": "Heullimche & Pilgiche",
+  "howto": "How to Write the Word Korean in Cursive",
+  "uses": "K-pop Bios, Café Menus and Class Covers in Cursive Korean",
+  "image": "Annyeong"
+ },
+ "german": {
+  "title": "Kurrent & Sütterlin",
+  "howto": "How to Write the Word German in Cursive",
+  "uses": "Oktoberfest Flyers, Christmas Markets and Class Covers in Cursive German",
+  "image": "Danke"
+ },
+ "japanese": {
+  "title": "Sōsho, Gyōsho & Hiragana",
+  "howto": "How to Write the Word Japanese in Cursive",
+  "uses": "Anime Bios, Ramen Menus and Class Covers in Cursive Japanese",
+  "image": "Arigatou"
+ },
+ "chinese": {
+  "title": "Cǎoshū, the Original Cursive",
+  "howto": "How to Write the Word Chinese in Cursive",
+  "uses": "Lunar New Year Posts, Menus and HSK Notes in Cursive Chinese",
+  "image": "Ni Hao"
+ }
+}

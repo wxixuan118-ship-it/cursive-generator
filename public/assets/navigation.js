@@ -136,9 +136,8 @@
   ];
   sections.themes = sections.theme.concat(sections.pixel.filter(([, href]) => href.includes("mario") || href.includes("undertale")));
 
-  // Nation pages live in the footer only (hub + the six original countries).
+  // Nation pages live in the footer only (the six original countries).
   const nationLinks = [
-    ["All Nations", "/nation-in-cursive/"],
     ["America in Cursive", "/america-in-cursive/"],
     ["United States in Cursive", "/united-states-in-cursive/"],
     ["Canada in Cursive", "/canada-in-cursive/"],

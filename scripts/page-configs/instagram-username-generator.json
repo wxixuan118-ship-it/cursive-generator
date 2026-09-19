@@ -3,6 +3,7 @@
   "keyword": "instagram username generator",
   "file": "instagram-username-generator.html",
   "label": "Instagram",
+  "platformName": "Instagram",
   "title": "Instagram Username Generator – IG Username Ideas",
   "description": "Instagram username generator: turn your name into aesthetic, cute, cool, baddie or minimal IG username ideas that follow Instagram's rules. Free, no sign-up.",
   "h1": "Instagram Username Generator",
@@ -985,6 +986,11 @@
       "Snapchat Username Generator",
       "/snapchat-username-generator.html",
       "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes."
+    ],
+    [
+      "Stylish Text Generator",
+      "/stylish-text-generator.html",
+      "Stylish fonts and small caps for names, bios and captions."
     ]
   ],
   "asideLinks": [

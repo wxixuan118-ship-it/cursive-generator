@@ -3,6 +3,7 @@
   "keyword": "fortnite username generator",
   "file": "fortnite-username-generator.html",
   "label": "Fortnite",
+  "platformName": "Epic Games",
   "title": "Fortnite Username Generator – Sweaty & Cool Fortnite Names",
   "description": "Fortnite username generator: turn your name into sweaty, cool, funny, OG or duo Fortnite display names that fit Epic's 3–16 character rules. Free, no sign-up.",
   "h1": "Fortnite Username Generator",
@@ -977,6 +978,11 @@
       "Call of Duty Username Generator",
       "/call-of-duty-username-generator.html",
       "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters."
+    ],
+    [
+      "Invisible Text Generator",
+      "/invisible-text-generator.html",
+      "Blank and empty characters for usernames, Fortnite and Discord."
     ]
   ],
   "asideLinks": [

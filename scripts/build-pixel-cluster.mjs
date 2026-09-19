@@ -118,7 +118,7 @@ const pages = {
       ['College Block Font Generator', '/college-block-font-generator.html', 'Heavy block lettering for team and varsity text.'],
       ['Stranger Things Font Generator', '/stranger-things-font-generator.html', 'Another franchise-flavoured styling tool.'],
       ['Cursive Text Generator', '/', 'The main Unicode script generator.'],
-    ,['Minecraft Username Generator','/minecraft-username-generator.html','Java-rule Minecraft names (3–16 characters, underscores only) that fit Bedrock too.']],
+    ,['Minecraft Username Generator','/minecraft-username-generator.html','Java-rule Minecraft names (3–16 characters, underscores only) that fit Bedrock too.'],['Adopt Me Font Generator','/adopt-me-font-generator.html','Cute fonts for Adopt Me pet names, trades and bios.']],
 
     faqTitle: 'Mario Font Generator FAQ',
     faqs: [
@@ -227,7 +227,7 @@ const pages = {
       ['Fonts for Discord', '/fonts-for-discord.html', 'What renders and what breaks in Discord.'],
       ['Stranger Things Font Generator', '/stranger-things-font-generator.html', 'Another franchise-flavoured styling tool.'],
       ['Cursive Text Generator', '/', 'The main Unicode script generator.'],
-    ],
+    ,['Adopt Me Font Generator','/adopt-me-font-generator.html','Cute fonts for Adopt Me pet names, trades and bios.']],
 
     faqTitle: 'Undertale Font Generator FAQ',
     faqs: [

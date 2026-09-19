@@ -61,7 +61,7 @@ const pages = {
       ['Creepy Font Generator', '/creepy-font-generator.html', 'Quieter, eerier text for an unsettling mood.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'The wider hub of Unicode style categories.'],
       ['Cursive Text Generator', '/', 'Flowing script instead of chaos.'],
-    ],
+    ,['Scary Font Generator','/scary-font-generator.html','Horror and spooky text styles for Halloween and dark profiles.']],
     faqTitle: 'Freaky Font FAQ',
     faqs: [
       ['What is a freaky font generator?', 'It is a tool that maps ordinary letters onto strange Unicode characters and adds symbols or combining marks, producing text that looks distorted, flipped or corrupted. No font is installed — the result is plain text made of unusual characters.'],
@@ -117,7 +117,7 @@ const pages = {
       ['Freaky Font Generator', '/freaky-font-generator.html', 'Chaotic and distorted rather than haunted.'],
       ['Glitch Text Generator', '/glitch-text-generator.html', 'Turn the corruption up with controlled zalgo.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Browse every Unicode style category.'],
-    ],
+    ,['Weird Font Generator','/weird-font-generator.html','Strange, distorted and unusual Unicode fonts to copy.']],
     faqTitle: 'Creepy Font FAQ',
     faqs: [
       ['How do I make creepy-looking text?', 'Type your phrase above and choose a style that combines an unusual letterform with a light mark or a dark symbol. Subtle effects read as creepy; heavy ones read as horror.'],
@@ -172,7 +172,7 @@ const pages = {
       ['Glitch Text Generator', '/glitch-text-generator.html', 'Corrupted and zalgo text with intensity levels.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Cleaner Unicode styles for bios and captions.'],
       ['Cursive Text Generator', '/', 'The classic flowing script generator.'],
-    ],
+    ,['Upside Down Text Generator','/upside-down-text-generator.html','Flip and mirror any text (uʍop ǝpᴉsdn) to copy and paste.'],['Scary Font Generator','/scary-font-generator.html','Horror and spooky text styles for Halloween and dark profiles.']],
     faqTitle: 'Weird Font FAQ',
     faqs: [
       ['How do I make weird text?', 'Type a word above and compare the alternative alphabets — flipped, tiny, circled, stretched and mirrored. Copy whichever looks strangest for your purpose.'],
@@ -230,7 +230,7 @@ const pages = {
       ['Scary Font Generator', '/scary-font-generator.html', 'Pair corruption with horror symbols.'],
       ['Creepy Font Generator', '/creepy-font-generator.html', 'Use corruption sparingly for an eerie mood.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'The full catalogue of Unicode text styles.'],
-    ,['Cool Username Generator','/cool-username-generator.html','Edgy, sleek, dark and gamer-ready handles from your name.'],['Steam Username Generator','/steam-username-generator.html','Steam profile names with symbols allowed, plus a plain custom URL that matches.'],['Twitch Username Generator','/twitch-username-generator.html','Streamer names that fit Twitch\'s rules and can be said in a raid message.']],
+    ,['Cool Username Generator','/cool-username-generator.html','Edgy, sleek, dark and gamer-ready handles from your name.'],['Steam Username Generator','/steam-username-generator.html','Steam profile names with symbols allowed, plus a plain custom URL that matches.'],['Twitch Username Generator','/twitch-username-generator.html','Streamer names that fit Twitch\'s rules and can be said in a raid message.'],['Upside Down Text Generator','/upside-down-text-generator.html','Flip and mirror any text (uʍop ǝpᴉsdn) to copy and paste.']],
     faqTitle: 'Glitch Text FAQ',
     faqs: [
       ['What is glitch text?', 'Glitch text is ordinary text with combining marks stacked over, through and under each character so it looks corrupted or damaged, as if the rendering had failed.'],
@@ -287,7 +287,7 @@ const pages = {
       ['Glitch Text Generator', '/glitch-text-generator.html', 'Add controlled corruption at three intensities.'],
       ['Freaky Font Generator', '/freaky-font-generator.html', 'Chaotic and strange rather than frightening.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Every Unicode style category in one place.'],
-    ],
+    ,['Weird Font Generator','/weird-font-generator.html','Strange, distorted and unusual Unicode fonts to copy.']],
     faqTitle: 'Scary Font FAQ',
     faqs: [
       ['How do I make scary text?', 'Type your phrase above and choose a heavy gothic style, optionally framed with a skull, bat or spider. Copy the result and paste it wherever you need it.'],
@@ -344,7 +344,7 @@ const pages = {
       ['Cursive Text Generator', '/', 'Flowing script for a softer, more classical look.'],
       ['Old English Font Generator', '/old-english-font-generator.html', 'The tattoo and certificate flavour of the same blackletter family.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse 300+ Unicode styles beyond blackletter.'],
-    ,['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Emo Username Generator','/emo-username-generator.html','Emo, scene, goth and grunge names with xx and ✞.'],['Fantasy Username Generator','/fantasy-username-generator.html','Elven, draconic, arcane and royal names for RPGs and D&D.'],['Summoner Name Generator','/summoner-name-generator.html','League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters.'],['Crown Font Generator','/crown-font-generator.html','♛ ♔ 👑 crown frames around cursive, gothic and bold text.'],['Moon Font Generator','/moon-font-generator.html','☾ ☽ 🌙 crescent frames and night-sky text in cursive and italic.']],
+    ,['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Emo Username Generator','/emo-username-generator.html','Emo, scene, goth and grunge names with xx and ✞.'],['Fantasy Username Generator','/fantasy-username-generator.html','Elven, draconic, arcane and royal names for RPGs and D&D.'],['Summoner Name Generator','/summoner-name-generator.html','League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters.'],['Crown Font Generator','/crown-font-generator.html','♛ ♔ 👑 crown frames around cursive, gothic and bold text.'],['Moon Font Generator','/moon-font-generator.html','☾ ☽ 🌙 crescent frames and night-sky text in cursive and italic.'],['Weird Font Generator','/weird-font-generator.html','Strange, distorted and unusual Unicode fonts to copy.']],
     figure: { src: '/assets/previews/gothic-font-generator.svg', width: 1200, height: 630, alt: 'Dark Romance written with the gothic font generator in bold Fraktur, ornate-framed Fraktur and bold blackletter — the gothic font copy and paste styles on this page', caption: '“Dark Romance” rendered by the Gothic Font Generator in Bold Gothic, Fraktur Gothic Cross Ornate, Bold Gothic Dagger Cross presets' },
     source: { before: 'The letters here come from the ', name: 'Mathematical Alphanumeric Symbols block', href: 'https://www.unicode.org/charts/PDF/U1D400.pdf', after: ' of the Unicode Standard, which is why they render without a font install.' },
     faqTitle: 'Gothic Font FAQ',

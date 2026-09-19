@@ -1,0 +1,159 @@
+{
+  "_comment": "Per-letter differentiation for scripts/letters-differentiate.py (2026-09-19: all 26 /cursive-letters/ pages shared one <title> pattern, one 12-H2 skeleton and no image). title: hook appended to '<X> in Cursive —'; join / mistakes: replacement H2 text for the 'Joining x to the Next Letter' and 'Common Mistakes with Cursive X' sections; name: the sample name drawn under the letter pair in the page's PNG.",
+  "a": {
+    "title": "Why a Turns Into o",
+    "join": "Joining Cursive a: Close the Bowl Before You Leave",
+    "mistakes": "Cursive A Mistakes: No Stem, Open Bowl, Stem Too Tall",
+    "name": "Amelia"
+  },
+  "b": {
+    "title": "Why b Gets Mistaken for v",
+    "join": "Joining Cursive b: the High Exit That Trips Everyone",
+    "mistakes": "Cursive B Mistakes: Equal Bowls and a Baseline Ending",
+    "name": "Benjamin"
+  },
+  "c": {
+    "title": "Stop c Looking Like e",
+    "join": "Joining Cursive c: Leave the Curve Open",
+    "mistakes": "Cursive C Mistakes: Closing the Curve, Pinching It Narrow",
+    "name": "Charlotte"
+  },
+  "d": {
+    "title": "Why a Rushed d Reads as cl",
+    "join": "Joining Cursive d: Close the Bowl, Then Climb",
+    "mistakes": "Cursive D Mistakes: Open Bowl, Short Stem, Looped Stem",
+    "name": "Daniel"
+  },
+  "e": {
+    "title": "Why e Collapses Into i",
+    "join": "Joining Cursive e: Keep the Loop Open",
+    "mistakes": "Cursive E Mistakes: A Closed Loop and a Loop Too Tall",
+    "name": "Emma"
+  },
+  "f": {
+    "title": "Above and Below the Line",
+    "join": "Joining Cursive f: Out of the Descender Loop",
+    "mistakes": "Cursive F Mistakes: No Descender Loop, Crossing Too High",
+    "name": "Felix"
+  },
+  "g": {
+    "title": "Telling g From q",
+    "join": "Joining Cursive g: Bring the Tail Back to the Baseline",
+    "mistakes": "Cursive G Mistakes: Tail Looped Right, Bowl Left Open",
+    "name": "Grace"
+  },
+  "h": {
+    "title": "Stop h Reading as b",
+    "join": "Joining Cursive h: Exit on the Baseline",
+    "mistakes": "Cursive H Mistakes: A Second Arch, Exiting High",
+    "name": "Henry"
+  },
+  "i": {
+    "title": "Why the Dot Goes On Last",
+    "join": "Joining Cursive i: Dot It After the Word",
+    "mistakes": "Cursive I Mistakes: Dotting As You Go, Dot Too High",
+    "name": "Isabella"
+  },
+  "j": {
+    "title": "Why the j Dot Goes On Last",
+    "join": "Joining Cursive j: Out of the Descender",
+    "mistakes": "Cursive J Mistakes: Dotting Mid-Word, a Bowl at the Top",
+    "name": "James"
+  },
+  "k": {
+    "title": "Stop k Reading as h",
+    "join": "Joining Cursive k: Land the Leg on the Line",
+    "mistakes": "Cursive K Mistakes: No Loop, a Leg That Stops Short",
+    "name": "Katherine"
+  },
+  "l": {
+    "title": "Stop l Collapsing Into e",
+    "join": "Joining Cursive l: Full Height, Open Loop",
+    "mistakes": "Cursive L Mistakes: A Closed Loop, Not Enough Height",
+    "name": "Luna"
+  },
+  "m": {
+    "title": "The m and n Mix-Up",
+    "join": "Joining Cursive m: Three Humps, Then Out",
+    "mistakes": "Cursive M Mistakes: One Arch, Rounded Tops",
+    "name": "Michael"
+  },
+  "n": {
+    "title": "The n and m Mix-Up",
+    "join": "Joining Cursive n: Two Humps, Then Out",
+    "mistakes": "Cursive N Mistakes: Two Arches, a Tall Stem",
+    "name": "Noah"
+  },
+  "o": {
+    "title": "One of Four High-Exit Letters",
+    "join": "Joining Cursive o: Exit High, Not at the Baseline",
+    "mistakes": "Cursive O Mistakes: Exiting Low, an Open Oval",
+    "name": "Olivia"
+  },
+  "p": {
+    "title": "Telling p From q",
+    "join": "Joining Cursive p: Back Up the Stem First",
+    "mistakes": "Cursive P Mistakes: Bowl Below the Line, Tail Kicking Right",
+    "name": "Penelope"
+  },
+  "q": {
+    "title": "How the q Tail Differs From g",
+    "join": "Joining Cursive q: Kick the Tail Outward",
+    "mistakes": "Cursive Q Mistakes: Tail Looped Left, Bowl Left Open",
+    "name": "Quinn"
+  },
+  "r": {
+    "title": "The Shoulder n Doesn't Have",
+    "join": "Joining Cursive r: Off the Shoulder",
+    "mistakes": "Cursive R Mistakes: A Rounded or Overlong Shoulder",
+    "name": "Rachel"
+  },
+  "s": {
+    "title": "Why It Looks Nothing Like Print",
+    "join": "Joining Cursive s: From the Open Bottom Bowl",
+    "mistakes": "Cursive S Mistakes: Open Bottom, Rounded Top, Printed s",
+    "name": "Sophia"
+  },
+  "t": {
+    "title": "Why the Crossbar Goes On Last",
+    "join": "Joining Cursive t: Bar It After the Word",
+    "mistakes": "Cursive T Mistakes: Crossing As You Go, Full Height",
+    "name": "Thomas"
+  },
+  "u": {
+    "title": "Told From w by the Exit",
+    "join": "Joining Cursive u: Exit Low, Points Not Curves",
+    "mistakes": "Cursive U Mistakes: Exiting High, Rounded Valleys",
+    "name": "Ulysses"
+  },
+  "v": {
+    "title": "Why v Exits High Like w",
+    "join": "Joining Cursive v: the High Exit Curl",
+    "mistakes": "Cursive V Mistakes: A Rounded Bottom, Two Valleys",
+    "name": "Violet"
+  },
+  "w": {
+    "title": "The Hard Part Is the Join",
+    "join": null,
+    "mistakes": "Cursive W Mistakes: Ending at the Baseline, Rounded Valleys",
+    "name": "William"
+  },
+  "x": {
+    "title": "The Letter That Needs a Pen Lift",
+    "join": "Joining Cursive x: From the First Diagonal",
+    "mistakes": "Cursive X Mistakes: Crossing Mid-Word, Wrong Stroke",
+    "name": "Xavier"
+  },
+  "y": {
+    "title": "How the y Tail Differs From g",
+    "join": "Joining Cursive y: Swing the Tail Left, Then Back",
+    "mistakes": "Cursive Y Mistakes: A Rounded Top, Tail Looped Right",
+    "name": "Yara"
+  },
+  "z": {
+    "title": "Nothing Like Printed z",
+    "join": "Joining Cursive z: Out of the Descender Loop",
+    "mistakes": "Cursive Z Mistakes: Printed Zigzag, No Descender Loop",
+    "name": "Zoe"
+  }
+}

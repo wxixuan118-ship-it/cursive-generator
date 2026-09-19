@@ -3,6 +3,7 @@
   "keyword": "minecraft username generator",
   "file": "minecraft-username-generator.html",
   "label": "Minecraft",
+  "platformName": "minecraft.net",
   "title": "Minecraft Username Generator – Cool & OG Minecraft Names",
   "description": "Minecraft username generator: turn your name into cool, OG, funny, builder, PvP or cozy Minecraft names that fit Java's 3–16 character rules and Bedrock too.",
   "h1": "Minecraft Username Generator",
@@ -1068,6 +1069,11 @@
       "/fonts-for-discord.html",
       "Copy-and-paste text styles that work in server Discords.",
       "💬"
+    ],
+    [
+      "Adopt Me Font Generator",
+      "/adopt-me-font-generator.html",
+      "Cute fonts for Adopt Me pet names, trades and bios."
     ]
   ],
   "asideLinks": [

@@ -12,6 +12,16 @@
 // original) so the engine's data-ug-* hooks line up; only the copy, the
 // vocabulary and the links are per page. Paragraph fields accept a tiny
 // markdown subset — **bold**, *em*, [text](/href) — everything else is escaped.
+//
+// Differentiation (added 2026-09-19 after a site-wide similarity audit found
+// 29–50% of each username page's long paragraphs twinned on a sibling page):
+//   • `#vocabulary` — a section rendered FROM the page's own style word lists
+//     (counts, sample adjectives/nouns/endings per style). It is unique per page
+//     by construction because no two configs share a vocabulary. Set
+//     `"vocab": false` to drop it, or `"vocab": {title, intro, per}` to override.
+//   • `platformName` — the service this page targets ("TikTok", "Riot's servers");
+//     the availability note, favorites hint and empty state are phrased around it
+//     (and around `maxLength` when set) instead of one sentence shared by 27 pages.
 
 export const DOMAIN = 'https://www.cursive-text-generator.net';
 
@@ -129,6 +139,54 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
       </div>
     </section>` : '';
 
+  // ---- vocabulary section: built from the page's own word lists, so it differs on every page
+  const platformName = p.platformName || label || 'the platform';
+  const vocab = p.vocab === false ? null : (p.vocab || {});
+  const per = vocab ? Math.max(3, Math.min(8, vocab.per || 5)) : 0;
+  const uniq = (a) => [...new Set((a || []).map((w) => String(w).trim()).filter(Boolean))];
+  const totals = styleKeys.reduce((t, k) => {
+    const st = p.styles[k];
+    t.adj += uniq(st.adjectives).length; t.noun += uniq(st.nouns).length; t.suf += uniq(st.suffixes).length; return t;
+  }, { adj: 0, noun: 0, suf: 0 });
+  const sharedPre = uniq(p.common?.prefixes), sharedSuf = uniq(p.common?.suffixes);
+  const vocabTotal = totals.adj + totals.noun + totals.suf + sharedPre.length + sharedSuf.length;
+  const firstStyle = p.styles[styleKeys[0]]?.label || '', lastStyle = p.styles[styleKeys[styleKeys.length - 1]]?.label || '';
+  const an = (w) => (/^[aeiou]/i.test(w) ? 'an' : 'a') + ' ' + w;
+  // "a cute username" but "a TikTok username": only generic adjectives lose their capital
+  const GENERIC_LABELS = new Set(['cool', 'cute', 'emo', 'fantasy', 'gaming', 'rare', 'short', 'summoner', 'email', 'nickname']);
+  const lc = label ? (GENERIC_LABELS.has(label.toLowerCase()) ? label.toLowerCase() : label) + ' ' : '';
+  const vocabTitle = vocab?.title || `${appName} Vocabulary`;
+  const vocabIntro = vocab?.intro || `Every ${lc}username on this page is assembled from **${vocabTotal} hand-picked words** — ${totals.adj} adjectives, ${totals.noun} nouns and ${totals.suf} style endings spread over ${styleKeys.length} styles, plus ${sharedPre.length} prefixes and ${sharedSuf.length} endings every style can borrow. The lists were written for this page, which is why ${an(firstStyle)} result never sounds like ${an(lastStyle)} one${p.maxLength ? `, and why nothing runs past ${platformName}'s ${p.maxLength}-character limit` : ''}.`;
+  const vocabRows = styleKeys.map((k) => {
+    const st = p.styles[k];
+    const adj = uniq(st.adjectives), nouns = uniq(st.nouns), suf = uniq(st.suffixes), sym = uniq(st.symbols);
+    const meta = `${adj.length} adjectives · ${nouns.length} nouns · ${suf.length} endings${sym.length ? ` · ${sym.slice(0, 4).join(' ')}` : ''}`;
+    const sample = uniq([...adj.slice(0, per), ...nouns.slice(0, per), ...suf.slice(0, Math.max(2, per - 2))]);
+    return `<div class="ug-formula ug-vocab-row"><strong>${st.icon ? `<i aria-hidden="true">${esc(st.icon)}</i> ` : ''}${esc(st.label)}</strong><span>${esc(meta)}</span><ul class="ug-examples" aria-label="${esc(st.label)} sample words">${sample.map(copyChip).join('')}</ul></div>`;
+  }).join('\n          ');
+  const vocabNote = vocab?.note || `Shared prefixes: ${sharedPre.slice(0, 8).join(', ')}${sharedPre.length > 8 ? '…' : ''}. Shared endings: ${sharedSuf.slice(0, 8).join(', ')}${sharedSuf.length > 8 ? '…' : ''}. Click any word to copy it and build your own ${lc}username by hand.`;
+  const vocabHtml = vocab ? `
+    <section class="font-section" id="vocabulary">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">${esc(vocab.eyebrow || 'What you will get')}</span>
+          <h2>${esc(vocabTitle)}</h2>
+          <p>${md(vocabIntro)}</p>
+        </div>
+        <div class="ug-formulas ug-vocab">
+          ${vocabRows}
+        </div>
+        <p class="ug-formula-note">${md(vocabNote)}</p>
+      </div>
+    </section>` : '';
+
+  // ---- UI copy phrased around this page's platform, not one sentence shared by every page
+  const availability = p.availabilityNote || (p.maxLength
+    ? `Availability changes by the minute and this page never contacts ${platformName}. Copy a ${lc}name you like, keep it inside the ${p.maxLength}-character limit, and check it in ${platformName}'s own name field before you settle on it.`
+    : `Nothing here talks to ${platformName}, so a ${lc}username that looks free may already be taken. Copy the ones you like and test them in ${platformName}'s username field — the rejection there is instant, and this list refreshes as often as you press Generate.`);
+  const favEmpty = p.favEmpty || `Heart a ${lc}username and it lands here. Favorites live in this browser only — nothing is uploaded.`;
+  const emptyMsg = p.emptyMessage || `No ${lc}usernames fit this filter yet — press Generate More, or switch to a different filter.`;
+
   const guide = p.guide;
   const guideHtml = `<h2>${esc(guide.title)}</h2>${(guide.intro ? [guide.intro] : []).map((t) => `<p>${md(t)}</p>`).join('')}${guide.bullets?.length ? `<ul>${guide.bullets.map(([s, t]) => `<li><strong>${esc(s)}</strong> ${md(t)}</li>`).join('')}</ul>` : ''}${(guide.outro || []).map((t) => `<p>${md(t)}</p>`).join('')}`;
   const uniqueHtml = p.uniqueH2 ? `<h2>${esc(p.uniqueH2)}</h2>${(Array.isArray(p.uniqueBody) ? p.uniqueBody : [p.uniqueBody]).map((t) => `<p>${md(t)}</p>`).join('')}` : '';
@@ -184,7 +242,7 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="preload" href="/assets/styles.css?v=20260913" as="style">
   <link rel="stylesheet" href="/assets/styles.css?v=20260913">
-  <link rel="stylesheet" href="/assets/username-cluster.css?v=20260915">
+  <link rel="stylesheet" href="/assets/username-cluster.css?v=20260919">
 
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebApplication', name: appName, url, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', browserRequirements: 'Requires JavaScript for generation', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description: p.description })}</script>
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${domain}/` }, { '@type': 'ListItem', position: 2, name: crumb[0], item: `${domain}${crumb[1]}` }, { '@type': 'ListItem', position: 3, name: appName, item: url }] })}</script>
@@ -266,10 +324,10 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
             <ul class="ug-grid" data-ug-results aria-label="Generated usernames">
               ${cardHtml}
             </ul>
-            <p class="ug-empty" data-ug-empty hidden>No results match this filter yet — try Generate More or pick a different filter.</p>
+            <p class="ug-empty" data-ug-empty hidden>${esc(emptyMsg)}</p>
             <div class="ug-foot"><span>Copy one, heart the ones you like, or copy the whole list.</span><span>Generate More adds another batch of unique ideas without reloading.</span></div>
 
-            <div class="ug-availability"><span aria-hidden="true">ⓘ</span><p>${md(p.availabilityNote || 'Username availability changes constantly. Copy your favorite and check it directly on the platform you want to use — this tool does not check Instagram, TikTok, Discord, Roblox or any other service.')}</p></div>
+            <div class="ug-availability"><span aria-hidden="true">ⓘ</span><p>${md(availability)}</p></div>
 
             <div class="ug-cta">
               <div>
@@ -289,7 +347,7 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
                 <button type="button" class="ug-btn" data-ug-fav-action="clear" disabled>Clear favorites</button>
               </div>
             </div>
-            <p class="ug-fav-empty" data-ug-favs-empty>Tap the ♡ on any username to save it here. Favorites stay in this browser only — no account needed.</p>
+            <p class="ug-fav-empty" data-ug-favs-empty>${esc(favEmpty)}</p>
             <ul class="ug-fav-list" data-ug-favs aria-label="Favorite usernames"></ul>
           </div>
         </div>
@@ -353,7 +411,7 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
         <p class="ug-formula-note">${md(formulas.note)}</p>
       </div>
     </section>
-${symbolsHtml}
+${vocabHtml}${symbolsHtml}
     <section class="seo-section" id="guide">
       <div class="wrap seo-layout">
         <aside class="seo-aside">
@@ -414,7 +472,7 @@ ${symbolsHtml}
   var USERNAME_CONFIG = ${JSON.stringify(engineCfg)};
   if (window.UsernameGenerator) UsernameGenerator.mount(USERNAME_CONFIG);
   </script>
-  <script src="/assets/navigation.js?v=20260914c" defer></script>
+  <script src="/assets/navigation.js?v=20260919" defer></script>
 </body>
 </html>
 `;

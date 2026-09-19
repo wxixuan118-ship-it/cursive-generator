@@ -152,6 +152,11 @@ fieldset.ug-fs{border:0;margin:0;padding:0;min-width:0}
 .ug-formula span b{color:var(--ink);font-weight:600}
 .ug-formula .ug-examples button{font-weight:600}
 .ug-formula-note{margin:18px 0 0;color:var(--muted);font-size:15px;line-height:1.7;max-width:760px}
+.ug-vocab .ug-vocab-row{grid-template-columns:170px minmax(0,1fr)}
+.ug-vocab .ug-vocab-row strong i{font-style:normal;margin-right:4px;color:var(--sage)}
+.ug-vocab .ug-vocab-row span{font-size:13px;grid-column:2}
+.ug-vocab .ug-vocab-row .ug-examples{grid-column:1 / -1}
+.ug-vocab .ug-vocab-row .ug-examples button{font-weight:500;min-height:28px;font-size:12.5px}
 
 /* symbols */
 .ug-symbols{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
@@ -183,6 +188,8 @@ fieldset.ug-fs{border:0;margin:0;padding:0;min-width:0}
   .ug-results,.ug-favorites{padding-left:16px;padding-right:16px}
   .ug-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .ug-formula{grid-template-columns:1fr;gap:6px}
+  .ug-vocab .ug-vocab-row{grid-template-columns:1fr}
+  .ug-vocab .ug-vocab-row span{grid-column:1}
   .ug-steps{grid-template-columns:1fr;gap:18px}
 }
 @media (max-width:600px){

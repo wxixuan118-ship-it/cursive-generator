@@ -67,7 +67,7 @@ const pages = {
       ['Small Text Generator', '/small-text-generator.html', 'Small caps, superscript and tiny letters.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every style in one place.'],
       ['Cursive Text Generator', '/', 'The site’s classic flowing script styles.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.'],['Baseball Font Generator','/baseball-font.html','Jersey block capitals, team-logo script and starred numbers as text.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.'],['Baseball Font Generator','/baseball-font.html','Jersey block capitals, team-logo script and starred numbers as text.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Wide Text Generator','/wide-text-generator.html','Full-width vaporwave letters (ｗｉｄｅ) for bios and captions.'],['Strikethrough Text Generator','/strikethrough-text-generator.html','Cross out, underline or double-strike text for any app.'],['Stylish Text Generator','/stylish-text-generator.html','Stylish fonts and small caps for names, bios and captions.']],
     faqTitle: 'Bold Font FAQ',
     faqs: [
       ['How does a bold font generator work?', 'It swaps each ordinary letter for the matching character in a Unicode bold alphabet, such as 𝐀 for A. Because the result is made of real characters, it can be copied and pasted anywhere text is allowed.'],
@@ -124,7 +124,7 @@ const pages = {
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Wide, spaced and softly decorated styles.'],
       ['Small Text Generator', '/small-text-generator.html', 'Small caps and tiny letters for subtle bios.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Every Unicode style in one searchable list.'],
-    ,['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.']],
+    ,['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Wide Text Generator','/wide-text-generator.html','Full-width vaporwave letters (ｗｉｄｅ) for bios and captions.'],['Strikethrough Text Generator','/strikethrough-text-generator.html','Cross out, underline or double-strike text for any app.'],['Stylish Text Generator','/stylish-text-generator.html','Stylish fonts and small caps for names, bios and captions.']],
     faqTitle: 'Italic Font FAQ',
     faqs: [
       ['How do I make italic text without a formatting button?', 'Type your text here, copy an italic style, and paste it. The slant is built into the Unicode characters, so it works in apps that have no italic option.'],
@@ -180,7 +180,7 @@ const pages = {
       ['Bold Font Generator', '/bold-font-generator.html', 'Go the other way with heavy Unicode bold.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'Spaced, wide and minimal styles.'],
       ['Cursive Text Generator', '/', 'Flowing script for names and signatures.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Short Username Generator','/short-username-generator.html','Every result 8 characters or fewer — 3 to 6-letter handles.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Short Username Generator','/short-username-generator.html','Every result 8 characters or fewer — 3 to 6-letter handles.'],['Wide Text Generator','/wide-text-generator.html','Full-width vaporwave letters (ｗｉｄｅ) for bios and captions.'],['Invisible Text Generator','/invisible-text-generator.html','Blank and empty characters for usernames, Fortnite and Discord.'],['Strikethrough Text Generator','/strikethrough-text-generator.html','Cross out, underline or double-strike text for any app.']],
     faqTitle: 'Small Text FAQ',
     faqs: [
       ['How do I make text smaller in my bio?', 'Bios have no font-size setting, so use small Unicode characters instead. Type your text here, copy the superscript or small-caps version, and paste it into the bio.'],
@@ -237,7 +237,7 @@ const pages = {
       ['Heart Font Generator', '/heart-font-generator.html', 'Frame any style with heart symbols.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style in one list.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer look.'],
-    ,['Y2K Font Generator','/y2k-font-generator.html','Bubble letters, chrome-style bold and star frames from the 2000s.'],['Comic Sans Font Generator','/comic-sans-font-generator.html','Casual, rounded, hand-drawn-feel Unicode text in the Comic Sans spirit.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.']],
+    ,['Y2K Font Generator','/y2k-font-generator.html','Bubble letters, chrome-style bold and star frames from the 2000s.'],['Comic Sans Font Generator','/comic-sans-font-generator.html','Casual, rounded, hand-drawn-feel Unicode text in the Comic Sans spirit.'],['Copy and Paste Fonts','/copy-and-paste-fonts.html','Every style in one place: cursive, bold, gothic, bubble, small and more.'],['Wide Text Generator','/wide-text-generator.html','Full-width vaporwave letters (ｗｉｄｅ) for bios and captions.'],['Adopt Me Font Generator','/adopt-me-font-generator.html','Cute fonts for Adopt Me pet names, trades and bios.']],
     faqTitle: 'Bubble Text FAQ',
     faqs: [
       ['What is a bubble text generator?', 'It converts normal letters into Unicode enclosed characters — mainly circled letters like ⓑ — that look like bubbles. The output is text you can copy and paste, not an image.'],
@@ -293,7 +293,7 @@ const pages = {
       ['Upside Down Text Generator', '/upside-down-text-generator.html', 'Flip your text 180 degrees.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Every style in one searchable list.'],
       ['Cursive Text Generator', '/', 'Flowing script without any lines.'],
-    ],
+    ,['Invisible Text Generator','/invisible-text-generator.html','Blank and empty characters for usernames, Fortnite and Discord.']],
     faqTitle: 'Strikethrough Text FAQ',
     faqs: [
       ['How do I strikethrough text on Instagram or X?', 'Neither app has a strikethrough button. Type your text here, copy the strikethrough version and paste it — the line is part of the Unicode text, so it displays in captions, bios and posts.'],
@@ -405,7 +405,7 @@ const pages = {
       ['Discord Font Generator', '/fonts-for-discord.html', 'Fonts tuned for Discord names and servers.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse all 400+ Unicode styles.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer look.'],
-    ,['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Call of Duty Username Generator','/call-of-duty-username-generator.html','Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters.'],['Cool Username Generator','/cool-username-generator.html','Edgy, sleek, dark and gamer-ready handles from your name.'],['Gamertag Generator','/gamertag-generator.html','Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord.'],['PSN Name Generator','/psn-name-generator.html','PlayStation online IDs that follow PSN\'s 3–16 character, letter-first rule.'],['Steam Username Generator','/steam-username-generator.html','Steam profile names with symbols allowed, plus a plain custom URL that matches.'],['YouTube Channel Name Generator','/youtube-channel-name-generator.html','Channel names and @handles for gaming, vlog, tech, music and faceless channels.'],['Crown Font Generator','/crown-font-generator.html','♛ ♔ 👑 crown frames around cursive, gothic and bold text.']],
+    ,['Brat Font Generator','/brat-font-generator.html','Lowercase, plain-sans, deliberately unpolished text for the brat look.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Call of Duty Username Generator','/call-of-duty-username-generator.html','Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters.'],['Cool Username Generator','/cool-username-generator.html','Edgy, sleek, dark and gamer-ready handles from your name.'],['Gamertag Generator','/gamertag-generator.html','Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord.'],['PSN Name Generator','/psn-name-generator.html','PlayStation online IDs that follow PSN\'s 3–16 character, letter-first rule.'],['Steam Username Generator','/steam-username-generator.html','Steam profile names with symbols allowed, plus a plain custom URL that matches.'],['YouTube Channel Name Generator','/youtube-channel-name-generator.html','Channel names and @handles for gaming, vlog, tech, music and faceless channels.'],['Crown Font Generator','/crown-font-generator.html','♛ ♔ 👑 crown frames around cursive, gothic and bold text.'],['Wide Text Generator','/wide-text-generator.html','Full-width vaporwave letters (ｗｉｄｅ) for bios and captions.'],['Upside Down Text Generator','/upside-down-text-generator.html','Flip and mirror any text (uʍop ǝpᴉsdn) to copy and paste.'],['Invisible Text Generator','/invisible-text-generator.html','Blank and empty characters for usernames, Fortnite and Discord.'],['Weird Font Generator','/weird-font-generator.html','Strange, distorted and unusual Unicode fonts to copy.']],
     faqTitle: 'Cool Text FAQ',
     faqs: [
       ['What is a cool text generator?', 'It converts normal letters into Unicode characters that look like gothic, outlined, bold or monospace fonts and optionally wraps them in symbols. The result is copyable text, not an image.'],
@@ -702,7 +702,7 @@ const pages = {
       ['Small Text Generator', '/small-text-generator.html', 'Small caps and tiny letters.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style.'],
       ['Cursive Text Generator', '/', 'Flowing script at the other end of the scale.'],
-    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.']],
+    ,['Blockletter Font Generator','/blockletter-font.html','Heavy sans bold, squared fullwidth and bracketed block letters.'],['Serif Font Generator','/serif-font-generator.html','Bold, italic, double-struck and typewriter serif text you can copy.'],['Minecraft Small Text Generator','/minecraft-small-font.html','Tiny small-caps and superscript letters for Minecraft names and signs.'],['Strikethrough Text Generator','/strikethrough-text-generator.html','Cross out, underline or double-strike text for any app.']],
     faqTitle: 'Monospace Text FAQ',
     faqs: [
       ['What is monospace text?', 'Text where every character has the same width, like a typewriter or code editor. Unicode includes a monospace alphabet, so the look can be carried in the characters themselves.'],
@@ -758,7 +758,7 @@ const pages = {
       ['Glitch Text Generator', '/glitch-text-generator.html', 'Zalgo and corrupted text.'],
       ['Fancy Text Generator', '/fancy-text-generator.html', 'Browse every Unicode style.'],
       ['Cursive Text Generator', '/', 'Flowing script for a softer look.'],
-    ],
+    ,['Strikethrough Text Generator','/strikethrough-text-generator.html','Cross out, underline or double-strike text for any app.']],
     faqTitle: 'Wide Text FAQ',
     faqs: [
       ['What is wide text?', 'Text written in full-width Unicode letters, where each character fills a full square cell. It is the same style people call vaporwave or aesthetic text.'],
