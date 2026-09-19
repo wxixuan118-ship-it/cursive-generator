@@ -76,7 +76,10 @@ def load_pages():
     dead = re.compile(r'<a href="/(?!(?:' + "|".join(re.escape(k) for k in kept if k != "nation") + r')-in-cursive/)[a-z-]+-in-cursive/">([^<]*)</a>')
     for p in pages:
         p["hooks"] = hooks[p["slug"]]
-        p["related"] = [r for r in p["related"] if r in kept and r != "nation"]
+        rel = [r for r in p["related"] if r in kept and r != "nation"]
+        if len(rel) < 3:  # neighbours retired — top up with other live pages so the aside is not empty
+            rel += [r for r in slugs if r != p["slug"] and r not in rel][: 3 - len(rel)]
+        p["related"] = rel
         # links to retired pages (and the removed hub) become plain text
         p["explore"] = hooks[p["slug"]].get("explore") or dead.sub(r"\1", p["explore"])
         p["howto"] = [dead.sub(r"\1", x) for x in p["howto"]]

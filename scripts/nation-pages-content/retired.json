@@ -1,7 +1,6 @@
 {
- "_comment": "Slugs retired 2026-09-19: these 31 pages sat in Search Console as 'Discovered \u2013 currently not indexed' for weeks and were taken down (404) rather than left to dilute the crawl budget. Their content stays in the *.py files so a slug can be revived by removing it from this list and rebuilding. The /nation-in-cursive/ hub was removed at the same time; the six kept pages (america, australia, canada, england, ireland, united-states) had clicks.",
+ "_comment": "Slugs retired 2026-09-19: these 31 pages sat in Search Console as 'Discovered \u2013 currently not indexed' for weeks and were taken down (404) rather than left to dilute the crawl budget. Their content stays in the *.py files so a slug can be revived by removing it from this list and rebuilding. The /nation-in-cursive/ hub was removed at the same time; the six kept pages (america, australia, canada, england, ireland, united-states) had clicks. brazil was restored on 2026-09-19 the same day \u2014 it turned out to be indexed already.",
  "slugs": [
-  "brazil",
   "china",
   "chinese",
   "costa-rica",
