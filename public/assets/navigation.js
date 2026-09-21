@@ -8,6 +8,7 @@
     ["Blog", "/blog/"]
   ];
 
+  // Retired pages (scripts/retired-pages.txt) are intentionally absent from every list below.
   const sections = {
     generator: [
       ["Cursive Text", "/"],
@@ -27,10 +28,7 @@
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
       ["Roblox Usernames", "/roblox-username-generator.html"],
-      ["Aesthetic Usernames", "/aesthetic-username-generator.html"],
-      ["Username Generator", "/username-generator.html"],
-      ["Nickname Generator", "/nickname-generator.html"],
-      ["Gamertag Generator", "/gamertag-generator.html"]
+      ["Aesthetic Usernames", "/aesthetic-username-generator.html"]
     ],
     fonts: [
       ["Cursive Fonts", "/cursive-fonts.html"],
@@ -39,8 +37,6 @@
       ["Discord Fonts", "/fonts-for-discord.html"]
     ],
     emoji: [
-      ["Aesthetic Symbols", "/aesthetic-symbols.html"],
-      ["Invisible Text", "/invisible-text-generator.html"],
       ["Heart Fonts", "/heart-font-generator.html"],
       ["Rose Fonts", "/rose-font-generator.html"],
       ["Diamond Fonts", "/diamond-font-generator.html"],
@@ -54,21 +50,6 @@
       ["Harry Potter", "/harry-potter-font-generator.html"],
       ["Barbie", "/barbie-font-generator.html"]
     ],
-    pixel: [
-      ["Mario Fonts", "/mario-font-generator.html"],
-      ["Undertale Fonts", "/undertale-font-generator.html"],
-      ["Glitch Text", "/glitch-text-generator.html"],
-      ["Fancy Text", "/fancy-text-generator.html"]
-    ],
-    lettering: [
-      ["Tattoo Fonts", "/tattoo-font-generator.html"],
-      ["Cursive Tattoo", "/cursive-tattoo-font.html"],
-      ["Chicano Lettering", "/chicano-font-generator.html"],
-      ["Gangster Fonts", "/gangster-font-generator.html"],
-      ["Old English", "/old-english-font-generator.html"],
-      ["College Block", "/college-block-font-generator.html"],
-      ["Varsity Fonts", "/varsity-font-generator.html"]
-    ],
     // Styles is a grouped section: the sub-nav shows every group with a label.
     // Its groups reuse the lists above so each family stays defined once.
     styles: { groups: [] },
@@ -78,33 +59,21 @@
       ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
-      ["Alphabet Sheet", "/cursive-alphabet-practice-sheet.html"],
+      ["Alphabet Sheet", "/cursive-alphabet-practice-sheet.html"]
     ],
     alternative: [
       ["Aesthetic Fonts", "/aesthetic-fonts.html"],
-      ["Preppy Fonts", "/preppy-fonts.html"],
       ["Bow Fonts", "/bow-font-generator.html"],
-      ["Coquette Fonts", "/coquette-font-generator.html"],
       ["Cute Fonts", "/cute-fonts.html"],
-      ["Girly Fonts", "/girly-fonts.html"],
       ["Heart Fonts", "/heart-font-generator.html"]
     ],
     text: [
       ["Bold Fonts", "/bold-font-generator.html"],
-      ["Italic Fonts", "/italic-font-generator.html"],
-      ["Small Text", "/small-text-generator.html"],
       ["Bubble Text", "/bubble-text-generator.html"],
-      ["Strikethrough", "/strikethrough-text-generator.html"],
-      ["Upside Down", "/upside-down-text-generator.html"],
-      ["Cool Text", "/cool-text-generator.html"],
-      ["Stylish Text", "/stylish-text-generator.html"],
-      ["Monospace", "/monospace-text-generator.html"],
-      ["Wide Text", "/wide-text-generator.html"]
+      ["Cool Text", "/cool-text-generator.html"]
     ],
     social: [
-      ["Instagram Fonts", "/instagram-font-generator.html"],
       ["Discord Fonts", "/fonts-for-discord.html"],
-      ["Free Fire Fonts", "/free-fire-font-generator.html"],
       ["Adopt Me Fonts", "/adopt-me-font-generator.html"],
       ["Roblox Usernames", "/roblox-username-generator.html"]
     ],
@@ -117,12 +86,7 @@
       ["Cursive Text on Instagram", "/blog/cursive-text-instagram/"]
     ],
     dark: [
-      ["Gothic Fonts", "/gothic-font-generator.html"],
-      ["Glitch Text", "/glitch-text-generator.html"],
-      ["Scary Fonts", "/scary-font-generator.html"],
-      ["Creepy Fonts", "/creepy-font-generator.html"],
-      ["Freaky Fonts", "/freaky-font-generator.html"],
-      ["Weird Fonts", "/weird-font-generator.html"]
+      ["Freaky Fonts", "/freaky-font-generator.html"]
     ]
   };
 
@@ -131,10 +95,9 @@
     ["Text", sections.text],
     ["Social & Gaming", sections.social],
     ["Dark", sections.dark],
-    ["Lettering", sections.lettering],
     ["Symbols", sections.emoji.filter(([, href]) => href !== "/fancy-text-generator.html" && href !== "/copy-and-paste/")]
   ];
-  sections.themes = sections.theme.concat(sections.pixel.filter(([, href]) => href.includes("mario") || href.includes("undertale")));
+  sections.themes = sections.theme;
 
   // Nation pages live in the footer only (the six original countries).
   const nationLinks = [
@@ -160,33 +123,29 @@
   const inPath = (parts) => parts.some((part) => path.includes(part));
   let current = "generator";
   if (path.startsWith("/letters/") || inPath(["letters", "alphabet", "converter"])) current = "letters";
-  if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "username-generator", "nickname-generator", "gamertag-generator"])) current = "names";
+  if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "username-generator"])) current = "names";
   if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "handwriting-practice", "name-tracing", "name-practice"])) current = "worksheets";
-  if (inPath(["aesthetic-fonts", "preppy-fonts", "bow-font", "coquette-font", "cute-fonts", "girly-fonts"])) current = "alternative";
+  if (inPath(["aesthetic-fonts", "bow-font", "cute-fonts"])) current = "alternative";
   // alternative / dark font tools — add new slugs here as the section grows
-  if (inPath(["freaky-font", "creepy-font", "weird-font", "glitch-text", "scary-font", "gothic-font"])) current = "dark";
+  if (inPath(["freaky-font"])) current = "dark";
   // core text-style generators — after "fonts" so bold-font-generator is not caught by its "bold" check
-  if (inPath(["bold-font-generator", "italic-font", "small-text", "bubble-text", "strikethrough-text", "upside-down-text", "cool-text", "stylish-text", "monospace-text", "wide-text"])) current = "text";
+  if (inPath(["bold-font-generator", "bubble-text", "cool-text"])) current = "text";
   // platform / game nickname generators (discord + roblox keep their original sections)
-  if (inPath(["instagram-font", "free-fire-font", "adopt-me-font"])) current = "social";
+  if (inPath(["adopt-me-font"])) current = "social";
   // emoji / symbol tools — add new slugs here as the section grows
-  if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol", "invisible-text"])) current = "emoji";
+  if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
   // seasonal / event theme tools — add new slugs here as the section grows
   if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
-  // lettering-style generators — keep LAST so these slugs win over the checks above
-  if (inPath(["chicano-font", "tattoo-font", "cursive-tattoo-font", "gangster-font", "old-english-font", "college-block-font", "varsity-font"])) current = "lettering";
-  // pixel / retro-game renderer pages — add new slugs here as the section grows
-  if (inPath(["mario-font", "undertale-font"])) current = "pixel";
   // blog hub + posts — keep after the slug checks so a post slug never lands in a tool section
   if (path === "/blog" || path.startsWith("/blog/")) current = "blog";
 
   // Which top-bar item lights up for a given section.
   const primaryFor = { generator: "generator", fonts: "fonts", names: "names", letters: "", worksheets: "",
-    alternative: "styles", dark: "styles", text: "styles", social: "styles", lettering: "styles", emoji: "styles", theme: "themes", pixel: "themes", blog: "blog" }[current];
+    alternative: "styles", dark: "styles", text: "styles", social: "styles", emoji: "styles", theme: "themes", blog: "blog" }[current];
   const isPrimary = ([label]) => label.toLowerCase() === primaryFor;
-  const subnavSource = ["alternative", "dark", "text", "social", "lettering", "emoji"].includes(current) ? "styles"
-    : ["theme", "pixel"].includes(current) ? "themes" : current;
+  const subnavSource = ["alternative", "dark", "text", "social", "emoji"].includes(current) ? "styles"
+    : current === "theme" ? "themes" : current;
 
   const link = ([label, href], active) =>
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;
