@@ -12,6 +12,18 @@ www.cursive-text-generator.net {
   root * /public
   file_server
 
+  # ─── Consolidation 2026-09-21 (mirrors public/_redirects) ───
+  @cfonts path /cursive-fonts.html /cursive-fonts /cursive-fonts/ /cursive-fonts/index.html
+  redir @cfonts /cursive-font-generator.html permanent
+  @cpfont path /copy-and-paste-cursive-font.html /copy-and-paste-cursive-font /copy-and-paste-cursive-font/ /copy-and-paste/cursive-font/ /copy-and-paste-cursive-writing.html /copy-and-paste-cursive-writing /copy-and-paste-cursive-writing/ /copy-and-paste/cursive-writing/
+  redir @cpfont /copy-and-paste/ permanent
+  @tohome path /cursive-converter.html /cursive-converter /cursive-converter/ /type-cursive.html /type-cursive /type-cursive/ /cursive-writing-generator.html /cursive-writing-generator /cursive-writing-generator/
+  redir @tohome / permanent
+  @tracing path /cursive-name-tracing-generator.html /cursive-name-tracing-generator /cursive-name-tracing-generator/
+  redir @tracing /cursive-name-practice-generator.html permanent
+  @sigstyles path /fancy-cursive-signature.html /elegant-cursive-signature.html /cursive-signature-generator.html
+  redir @sigstyles /copy-and-paste-cursive-signature.html permanent
+
   # ─── URL Consolidation (301 redirects) ───
   # Every legacy directory-style URL (bare / trailing-slash / index.html)
   # 301s to its canonical flat .html page. Kept in sync with public/_redirects.

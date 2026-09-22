@@ -1,7 +1,7 @@
 (function () {
   const primary = [
     ["Generator", "/"],
-    ["Fonts", "/cursive-fonts.html"],
+    ["Fonts", "/cursive-font-generator.html"],
     ["Names", "/cursive-name-generator.html"],
     ["Styles", "/aesthetic-fonts.html"],
     ["Themes", "/super-bowl-2027-font-generator.html"],
@@ -12,26 +12,23 @@
   const sections = {
     generator: [
       ["Cursive Text", "/"],
-      ["Writing Generator", "/cursive-writing-generator.html"],
       ["Font Generator", "/cursive-font-generator.html"],
       ["Fancy Text", "/fancy-text-generator.html"],
       ["Calligraphy", "/calligraphy-text-generator.html"]
     ],
     letters: [
       ["Letters Generator", "/cursive-letters-generator.html"],
-      ["Letters A–Z", "/cursive-letters-a-z.html"],
-      ["Converter", "/cursive-converter.html"]
+      ["Letters A–Z", "/cursive-letters-a-z.html"]
     ],
     names: [
       ["Name Generator", "/cursive-name-generator.html"],
       ["Signature Generator", "/copy-and-paste-cursive-signature.html"],
-      ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
       ["Roblox Usernames", "/roblox-username-generator.html"],
       ["Aesthetic Usernames", "/aesthetic-username-generator.html"]
     ],
     fonts: [
-      ["Cursive Fonts", "/cursive-fonts.html"],
+      ["Font Generator", "/cursive-font-generator.html"],
       ["Copy & Paste", "/copy-and-paste/"],
       ["Bold Cursive", "/cursive-bold-generator.html"],
       ["Discord Fonts", "/fonts-for-discord.html"]
@@ -57,7 +54,6 @@
     worksheets: [
       ["Printable Sheets", "/printable-cursive-handwriting-practice-sheets.html"],
       ["Practice Sheets", "/cursive-practice-sheets.html"],
-      ["Name Tracing", "/cursive-name-tracing-generator.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
       ["Alphabet Sheet", "/cursive-alphabet-practice-sheet.html"]
     ],
@@ -122,10 +118,10 @@
   const path = location.pathname.replace(/\/index\.html$/, "/");
   const inPath = (parts) => parts.some((part) => path.includes(part));
   let current = "generator";
-  if (path.startsWith("/letters/") || inPath(["letters", "alphabet", "converter"])) current = "letters";
+  if (path.startsWith("/letters/") || inPath(["letters", "alphabet"])) current = "letters";
   if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "username-generator"])) current = "names";
-  if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-fonts", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
-  if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "handwriting-practice", "name-tracing", "name-practice"])) current = "worksheets";
+  if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-font-generator", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
+  if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "handwriting-practice", "name-practice"])) current = "worksheets";
   if (inPath(["aesthetic-fonts", "bow-font", "cute-fonts"])) current = "alternative";
   // alternative / dark font tools — add new slugs here as the section grows
   if (inPath(["freaky-font"])) current = "dark";

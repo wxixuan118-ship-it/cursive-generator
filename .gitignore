@@ -16,3 +16,6 @@ public/cursive-extension.zip
 
 # per-page audit reports from scripts/new-page/audit.mjs
 scripts/page-configs/*.audit.json
+
+# retired/merged page archives live outside the repo (../cursive-generator-archive-*) — never deploy them
+archive/
