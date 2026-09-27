@@ -3,12 +3,13 @@
   "order": 3,
   "navLabel": "Fix Boxes & Question Marks",
   "title": "Why Cursive Text Shows as Boxes or Question Marks (and How to Fix It)",
-  "seoTitle": "Cursive Text Showing as Boxes or Question Marks? Causes and Fixes",
-  "description": "Cursive text turning into boxes, question marks or blank squares is a missing-font problem, not a broken generator. Learn why it happens and five fixes that work on any device.",
+  "seoTitle": "Cursive Text Shows as Boxes? Causes and Fixes",
+  "description": "Fix cursive text that appears as boxes, question marks or blank squares. Learn why fonts and encoding fail and which safer styles work across devices.",
   "excerpt": "Cursive text turning into boxes or question marks is a missing-font issue, not a broken generator. Here is why it happens and five fixes that work on any device.",
   "tag": "Troubleshooting",
   "date": "2026-09-13",
-  "readMinutes": 5,
+  "modified": "2026-09-27",
+  "readMinutes": 16,
   "lede": "You pasted cursive text and someone sees ▯▯▯▯ or ???? instead. The characters are fine; their device cannot draw them. Here is what is going on and how to get a result that shows up everywhere.",
   "related": [
     [

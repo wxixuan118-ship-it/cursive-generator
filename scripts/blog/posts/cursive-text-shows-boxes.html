@@ -60,6 +60,80 @@
 
 <p>You see this with older email systems, SMS routes that fall back to a limited alphabet, some legacy web forms and certain export tools. There is no style switch that fixes an encoding drop. The only reliable option is plain text in those channels, with cursive saved for platforms that handle full Unicode.</p>
 
+<h2>Diagnose the problem with the compatibility tool</h2>
+
+<p>Before changing a profile or deleting text, copy the failing phrase into the <a href="/cursive-compatibility.html">cursive compatibility test</a>. Compare the same words in Cursive Script, Bold Cursive and a plain fallback. If every style works in the test but one app still shows boxes, the app or its embedded font is the likely limit. If a particular style fails in several places, switch the character set rather than troubleshooting each app separately.</p>
+
+<p>Test one variable at a time. First remove hearts, stars, combining marks and unusual punctuation. Then shorten the text to one word. Next change from a thin script to Bold Cursive. Finally test the word on a second device. This sequence tells you whether the failure comes from a decoration, a specific letter range, the destination app or the operating system. Changing everything at once may make the text work, but it does not tell you what caused the failure.</p>
+
+<p>Keep a copy of the plain phrase during testing. If a platform turns unsupported characters into question marks and saves the change, the original characters are gone from that field. You cannot recover them by switching fonts. Return to the generator using the plain phrase, create a safer style and paste the fresh result.</p>
+
+<h2>Understand missing glyphs in simple terms</h2>
+
+<p>A digital character and its visible drawing are separate things. Unicode assigns a number and meaning to a character. A font supplies the shape, called a glyph, that appears on screen. When the character arrives correctly but the active font has no matching glyph, the system displays a placeholder: an empty rectangle, a rectangle with a cross, a question mark in a box or another “tofu” symbol.</p>
+
+<p>The generator can produce a valid character without controlling the font on every reader’s device. Social apps often use their own interface fonts, and those fonts may cover fewer characters than the browser font used on the generator page. That is why text can look correct before copying and fail after pasting. It is also why installing a font on your phone does not guarantee that an app will use it.</p>
+
+<p>Bold mathematical script tends to work more often because major system fonts include broad support for that range. Rare symbols, historical alphabets and stacked combining marks have less consistent support. “More decorative” usually means “more font dependencies,” so reliability falls as a style combines more character blocks.</p>
+
+<h2>Fix boxes on iPhone, iPad and Mac</h2>
+
+<p>Apple devices generally include strong Unicode coverage, but an older operating system or a specific app can still fail. Update the operating system and the affected app, then restart the app so it reloads fonts. Paste the same text into Notes and Safari. If it works there but not in the destination app, use a simpler style in that app; changing system settings is unlikely to help.</p>
+
+<p>On macOS, a browser may fall back to one font while a design or messaging app uses another. Compare Safari, Chrome and a plain text editor. If the character works in browsers but not in a document, choose a real cursive font inside the document rather than pasted Unicode. For web pages you control, load a tested web font and provide sensible fallbacks.</p>
+
+<p>If only an emoji or symbol fails, remove it and keep the cursive letters. Emoji presentation can change between text and color forms, and some variants require an additional variation selector. A plain heart or star is usually safer than a recent or highly specific emoji.</p>
+
+<h2>Fix boxes on Android and Windows</h2>
+
+<p>Android font coverage varies by device manufacturer and operating-system version. Test in Chrome or another current browser first. If the text works in the browser but fails in a social app, update the app and use Bold Cursive. If it fails everywhere, an operating-system update may add the missing glyphs, but the practical immediate fix is a simpler style or plain text.</p>
+
+<p>On Windows, browser fallback is often better than fallback in older desktop programs. Paste the phrase into a current browser and Notepad, then compare it with the target application. Microsoft Word can display the character only if a font with that glyph is available and selected or chosen as fallback. If you are creating a document, use a cursive typeface through the font menu; do not rely on Unicode script for long passages.</p>
+
+<p>Corporate and school computers may restrict font installation and run older software. Keep a plain version for these environments. If the message must be understood by every recipient, decorative cursive should be optional rather than the only carrier of information.</p>
+
+<h2>Platform-specific checks</h2>
+
+<p>Instagram and TikTok accept many script characters in display names, bios and captions, but usernames have stricter rules. A rejected username is a validation issue, not a missing-font issue. Keep the handle plain and use cursive in the display field. The <a href="/instagram-font-generator.html">Instagram font generator</a> and <a href="/tiktok-font-generator.html">TikTok font generator</a> provide styles suited to those visible fields.</p>
+
+<p>Discord may show a style correctly in the main app while a bot, game overlay or notification truncates it. Use a readable display name and test a message in the channels where the audience will see it. The <a href="/fonts-for-discord.html">Discord font generator</a> offers multiple fallback styles, so you can preserve the mood without depending on one character range.</p>
+
+<p>SMS is less predictable because carriers and devices may convert messages between encodings. Modern messaging apps usually preserve Unicode, but old SMS gateways can replace characters with question marks. Use ordinary text for appointment reminders, verification messages and other essential communication. Email can preserve Unicode but still depends on the receiving client’s fonts.</p>
+
+<h2>When the text is not actually broken</h2>
+
+<p>Some script characters resemble boxes, circles or unfamiliar letterforms by design. Double-struck text has outlined strokes, and enclosed-alphanumeric styles place letters inside circles or squares. Compare the output with the preview in the <a href="/cursive-font-generator.html">cursive font generator</a>. If every character has a consistent outlined style, you may be seeing the intended alphabet rather than an error.</p>
+
+<p>Mixed alphabets can also look like a rendering fault. Mathematical script does not provide a special form for every possible character. Digits, punctuation and certain letters may fall back to ordinary shapes. This is valid Unicode, but the visual inconsistency can be surprising. Choose a style whose preview includes the kinds of characters you need, especially numbers and accented letters.</p>
+
+<p>Line-height clipping is another separate issue. If the top or bottom of letters is cut off but the shapes are recognizable, the container is too short. Increase line height or padding when you control the design. In a third-party app, shorten the phrase or use a style with fewer tall capitals and descenders.</p>
+
+<h2>Use a real cursive font for controlled designs</h2>
+
+<p>When you control the website, document, slide or image, a real font gives you more reliable output. Select a licensed typeface, embed or package it correctly, and export the final design to PDF or an image when recipients should see an identical result. The <a href="/cursive-fonts.html">cursive fonts guide</a> explains installation, licensing and practical choices.</p>
+
+<p>On a website, use <code>@font-face</code> with modern formats and declare fallback fonts. Keep body copy in an ordinary readable typeface and reserve script for a short heading or signature. This reduces layout shifts, improves accessibility and avoids asking a decorative font to carry long information. Check the page with web-font loading disabled so the fallback remains usable.</p>
+
+<p>For a logo, invitation or printed card, convert final lettering to vector outlines only after proofreading it. Outlines preserve the design without requiring the printer to own the font, but the text becomes harder to edit and less accessible. Keep the editable source with the original font information.</p>
+
+<h2>A reliable fallback strategy</h2>
+
+<p>Create three levels of output for important uses. Level one is your preferred decorative style. Level two is Bold Cursive, which has broad support and stronger strokes. Level three is ordinary text. Test in that order and stop at the first level that works reliably for the destination. This preserves as much style as the environment can support without hiding the message.</p>
+
+<p>For profiles, save all three versions in a note. For a website, define a font stack and ensure the plain fallback has comparable proportions. For documents, include a PDF export. For messages, keep dates, addresses, links and instructions plain even when a decorative greeting works.</p>
+
+<p>Reliability is part of design. A simpler style that every reader sees is more effective than an elaborate style that becomes boxes for a portion of the audience. Use the generator to compare options, the compatibility tool to test them and the real destination to make the final decision.</p>
+
+<h2>Record a useful compatibility result</h2>
+
+<p>When a style fails, record the device, operating-system version, app, app version and exact style name. “Cursive does not work” is too broad to help; “Old Style Script shows boxes in this Android app version” is actionable. Save a screenshot and the original plain phrase. If you manage a brand or community, add the result to a short internal compatibility note so other editors do not repeat the same test.</p>
+
+<p>Retest after major app and operating-system updates because bundled fonts change. A failure today may disappear later, while an embedded browser or lightweight app may continue using a limited font set. Do not assume that one successful device represents the entire audience. Test at least one iOS device, one Android device and a desktop browser when the text will be widely published.</p>
+
+<p>For critical information, the compatibility result should never determine whether the message is understandable. Keep the essential plain-text version by design. Then a test failure only changes the decoration, not the meaning. This is the most durable fix for boxes, question marks and inconsistent glyphs.</p>
+
+<p>Share the fallback with anyone who publishes on the account. A consistent recovery plan prevents rushed substitutions and keeps names, links and campaign wording accurate across every channel.</p>
+
 <h2>Conclusion</h2>
 
 <p>When cursive text shows as boxes or question marks, the cause is nearly always a missing font or a lossy encoding on the reader's side, not the generator. Regenerate the text in Bold Cursive, drop the decorations, test on a second device, and keep anything important in plain text. For pages and documents you control, use a cursive font instead and the problem disappears.</p>

@@ -26,6 +26,19 @@ const today = args.includes('--date') ? dateArg : new Date().toISOString().slice
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#x27;');
 const escText = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const ld = (o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`;
+const words = (html) => html.replace(/<[^>]+>/g, ' ').replace(/&[a-z0-9#]+;/gi, ' ').trim().split(/\s+/).filter(Boolean).length;
+const slugify = (s) => s.toLowerCase().replace(/&[^;]+;/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const enrichBody = (body) => {
+  const headings = [];
+  const html = body.replace(/<h2>([\s\S]*?)<\/h2>/g, (_, label) => {
+    const plain = label.replace(/<[^>]+>/g, '');
+    const id = slugify(plain);
+    headings.push([plain, id]);
+    return `<h2 id="${id}">${label}</h2>`;
+  });
+  const toc = `<nav class="post-toc" aria-label="Article contents"><strong>In this guide</strong><ol>${headings.map(([label, id]) => `<li><a href="#${id}">${label}</a></li>`).join('')}</ol></nav>`;
+  return { html, toc };
+};
 const write = (rel, content) => {
   for (const base of [root, path.join(root, 'public')]) {
     const file = path.join(base, rel);
@@ -62,7 +75,7 @@ const head = (p) => `<!doctype html>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-L34V5ZL59H');</script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6697313643773879" crossorigin="anonymous"></script>
   <script>window.addEventListener('load',function(){setTimeout(function(){(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","xtizgdek92");},2000);});</script>
-  <title>${esc(p.seoTitle)} | Cursive Text Generator</title>
+  <title>${esc(p.seoTitle)}</title>
   <meta name="description" content="${esc(p.description)}">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="${p.url}">
@@ -75,12 +88,12 @@ const head = (p) => `<!doctype html>
   <meta name="twitter:card" content="summary_large_image">
   <meta property="article:published_time" content="${p.date}">
   <meta property="article:modified_time" content="${p.modified || p.date}">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260927">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="preload" href="/assets/styles.css?v=20260913" as="style">
   <link rel="stylesheet" href="/assets/styles.css?v=20260913">
-  <link rel="stylesheet" href="/assets/blog.css?v=20260913">
+  <link rel="stylesheet" href="/assets/blog.css?v=20260927">
+  <link rel="stylesheet" href="/assets/site-layout.css?v=20260927b">
   ${ld({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
     { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog/` },
@@ -90,11 +103,12 @@ const head = (p) => `<!doctype html>
     image: `${SITE}/assets/cursive-generator-hero.png`,
     author: { '@type': 'Organization', name: 'Cursive Text Generator', url: `${SITE}/about.html` },
     publisher: { '@type': 'Organization', name: 'Cursive Text Generator', url: `${SITE}/`, logo: { '@type': 'ImageObject', url: `${SITE}/assets/android-chrome-512x512.png` } },
-    isPartOf: { '@type': 'Blog', name: 'Cursive Text Generator Blog', url: `${SITE}/blog/` } })}
+    isPartOf: { '@type': 'Blog', name: 'Cursive Text Generator Blog', url: `${SITE}/blog/` }, wordCount: words(p.body) })}
   ${ld({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: p.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) })}
 </head>`;
 
 const chrome = (crumb) => `<body>
+  <aside class="house-ad" aria-label="Cursive Text Generator promotion" data-house-ad="top"><a href="/" aria-label="Open the Cursive Text Generator"><span class="house-ad-copy"><strong>Cursive Text Generator</strong><small>Turn plain words into beautiful script — free, instant, no signup.</small></span><span class="house-ad-samples" aria-hidden="true"><i>𝒞𝓊𝓇𝓈𝒾𝓋ℯ</i><i>𝓒𝓾𝓻𝓼𝓲𝓿𝓮</i><i>𝔠𝔲𝔯𝔰𝔦𝔳𝔢</i></span><span class="house-ad-cta">Try it free →</span></a></aside>
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="/"><span class="brand-mark">C</span><span>Cursive Generator</span></a>
@@ -165,10 +179,11 @@ const renderPost = (p, i) => {
   const prev = live[i - 1];
   const next = live[i + 1];
   const others = live.map((o) => `        <a href="${o.path}"${o === p ? ' aria-current="page"' : ''}>${escText(o.title)}</a>`).join('\n');
+  const body = enrichBody(p.body);
   return `${head(p)}
 ${chrome(`<li><a href="/blog/">Blog</a></li>
         <li aria-current="page">${escText(p.title)}</li>`)}
-  <main class="page">
+  <div class="site-layout"><main class="page">
     <section class="post-section">
       <div class="wrap post-layout">
         <article class="post-article">
@@ -183,8 +198,11 @@ ${chrome(`<li><a href="/blog/">Blog</a></li>
             </div>
           </header>
 
+          <figure class="post-hero-figure"><img src="/assets/cursive-generator-hero.png" width="1200" height="630" loading="eager" alt="Cursive Text Generator showing several readable cursive text styles"><figcaption>Use the generator while you follow the steps in this guide.</figcaption></figure>
+
           <div class="post-body">
-${p.body}
+${body.toc}
+${body.html}
 
             <section class="post-faq" aria-labelledby="faq-heading">
               <h2 id="faq-heading">Frequently asked questions</h2>
@@ -218,7 +236,7 @@ ${others}
         </aside>
       </div>
     </section>
-  </main>
+  </main></div>
 ${footer}`;
 };
 
@@ -256,12 +274,12 @@ const renderHub = () => {
   <meta property="og:image" content="${SITE}/assets/cursive-generator-hero.png">
   <meta property="og:site_name" content="Cursive Text Generator">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260927">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="preload" href="/assets/styles.css?v=20260913" as="style">
   <link rel="stylesheet" href="/assets/styles.css?v=20260913">
-  <link rel="stylesheet" href="/assets/blog.css?v=20260913">
+  <link rel="stylesheet" href="/assets/blog.css?v=20260927">
+  <link rel="stylesheet" href="/assets/site-layout.css?v=20260927b">
   ${ld({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
     { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog/` }] })}
@@ -271,7 +289,7 @@ const renderHub = () => {
     blogPost: newest.map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: p.url, datePublished: p.date })) })}
 </head>
 ${chrome('<li aria-current="page">Blog</li>')}
-  <main class="page">
+  <div class="site-layout"><main class="page">
     <section class="blog-hero">
       <div class="wrap">
         <span class="eyebrow">Blog</span>
@@ -287,7 +305,7 @@ ${cards}
         </ul>
       </div>
     </section>
-  </main>
+  </main></div>
 ${footer}`;
 };
 

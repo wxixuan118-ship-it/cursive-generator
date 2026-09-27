@@ -3,12 +3,13 @@
   "order": 2,
   "navLabel": "Unicode Cursive vs Fonts",
   "title": "Unicode Cursive vs Cursive Fonts: What Is the Difference?",
-  "seoTitle": "Unicode Cursive vs Cursive Fonts: Which One Do You Actually Need?",
-  "description": "Unicode cursive is copy-and-paste text; a cursive font is a file you install. Learn how each works, where each one fails, and which to use for bios, documents, logos and print.",
+  "seoTitle": "Unicode Cursive vs Cursive Fonts: Key Differences",
+  "description": "Compare Unicode cursive with installed cursive fonts. Learn how each works and what to use for social bios, websites, documents, logos and print.",
   "excerpt": "Unicode cursive is text you paste anywhere; a cursive font is a file you install. Here is how each works, where each fails, and which to pick for your project.",
   "tag": "Explainer",
   "date": "2026-09-13",
-  "readMinutes": 7,
+  "modified": "2026-09-27",
+  "readMinutes": 16,
   "lede": "A cursive generator and a cursive font look similar on screen but behave very differently once you try to use them. This explainer draws the line between the two so you can pick the right tool.",
   "related": [
     [
@@ -21,7 +22,7 @@
     ],
     [
       "Free Commercial Cursive Fonts",
-      "/free-commercial-cursive-fonts.html"
+      "/free-commercial-cursive-fonts/"
     ],
     [
       "Copy & Paste Cursive",

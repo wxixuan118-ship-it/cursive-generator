@@ -204,6 +204,16 @@
   text-underline-offset: 2px;
 }
 
+.post-hero-figure { margin: 0 0 28px; }
+.post-hero-figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 14px; }
+.post-hero-figure figcaption { margin-top: 7px; color: var(--muted); font-size: 12px; }
+.post-toc { margin: 0 0 34px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: var(--soft); }
+.post-toc strong { display: block; margin-bottom: 8px; font-size: 15px; }
+.post-toc ol { columns: 2; column-gap: 28px; margin: 0; padding-left: 20px; }
+.post-toc li { break-inside: avoid; margin: 5px 0; font-size: 14px; }
+.post-toc a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+@media (max-width: 680px) { .post-toc ol { columns: 1; } }
+
 .post-body a:hover {
   color: var(--ink);
 }
