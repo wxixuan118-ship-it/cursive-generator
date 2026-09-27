@@ -34,6 +34,58 @@ body {
   line-height: 1.58;
 }
 
+/* Universal desktop advertising rails; hidden when the viewport cannot
+   accommodate the content and both standard 160 x 600 placements. */
+.side-ad-rails {
+  display: none;
+}
+
+@media (min-width: 1360px) {
+  .has-side-ad-rails .wrap,
+  .has-side-ad-rails .nav,
+  .has-side-ad-rails .subnav-inner,
+  .has-side-ad-rails .footer-inner,
+  .has-side-ad-rails .footer-body,
+  .has-side-ad-rails .footer-nav-inner {
+    max-width: 1020px;
+  }
+
+  .side-ad-rails {
+    display: block;
+  }
+
+  .side-ad-slot {
+    position: fixed;
+    top: 132px;
+    z-index: 5;
+    width: clamp(140px, calc((100vw - 1052px) / 2 - 16px), 160px);
+    height: 600px;
+    border: 1px dashed rgba(93, 106, 99, 0.32);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.48);
+    color: rgba(93, 106, 99, 0.58);
+    pointer-events: none;
+  }
+
+  .side-ad-slot-left {
+    left: max(12px, calc(50% - 700px));
+  }
+
+  .side-ad-slot-right {
+    right: max(12px, calc(50% - 700px));
+  }
+
+  .side-ad-slot span {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+  }
+}
+
 a {
   color: inherit;
 }
@@ -1653,7 +1705,8 @@ select {
 .input-panel-search {
   position: relative !important;
   top: auto;
-  max-width: 620px;
+  width: 100%;
+  max-width: none;
   padding: 0 !important;
   border: 2px solid var(--ink) !important;
   border-radius: 999px !important;
@@ -1662,20 +1715,65 @@ select {
 }
 .input-panel-search textarea {
   display: block;
-  min-height: 42px;
-  height: 42px;
-  padding: 10px 44px 10px 40px;
+  min-height: 68px;
+  height: 68px;
+  padding: 18px 58px 18px 54px;
   border: 0;
   border-radius: 999px;
   resize: none;
   background: transparent;
-  font-size: 15px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 30px;
 }
 .input-panel-search textarea:focus { outline: 0; }
-.search-mark { position: absolute; top: 14px; left: 16px; width: 14px; height: 14px; border: 2px solid #9aa0a0; border-radius: 50%; }
+.search-mark { position: absolute; top: 24px; left: 22px; width: 16px; height: 16px; border: 2px solid #9aa0a0; border-radius: 50%; }
 .search-mark::after { content: ""; position: absolute; right: -5px; bottom: -3px; width: 7px; height: 2px; background: #9aa0a0; transform: rotate(45deg); }
-.clear-search { position: absolute; top: 4px; right: 10px; width: 30px; height: 30px; padding: 0; border: 0; background: transparent; color: var(--ink); cursor: pointer; font-size: 21px; line-height: 1; }
+.clear-search { position: absolute; top: 14px; right: 14px; width: 40px; height: 40px; padding: 0; border: 0; background: transparent; color: var(--ink); cursor: pointer; font-size: 24px; line-height: 1; }
+
+/* Homepage spacing rhythm: keep sections and their inner content evenly distributed. */
+.tool-section {
+  padding: 20px 0 48px;
+}
+.tool-intro {
+  margin-bottom: 16px;
+}
+.generator-shell {
+  gap: 22px;
+}
+.font-choice,
+.selected-output {
+  margin-top: 0;
+}
+.style-showcase,
+.related-tools,
+.use-cases-section,
+.seo-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section-heading {
+  margin-bottom: 28px;
+}
+.style-showcase-grid,
+.use-cases-grid {
+  margin-top: 0;
+}
+.style-showcase-grid,
+.tool-grid,
+.use-cases-grid {
+  gap: 20px;
+}
+
+/* Skip layout and paint work for homepage content until it nears the viewport. */
+.style-showcase,
+.related-tools,
+.use-cases-section,
+.seo-section,
+.partner-section,
+.site-footer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 700px;
+}
 .result-tabs { display: inline-flex; margin-bottom: 14px; padding: 3px; border-radius: 10px; background: #f1f2f4; color: #9aa3b5; font-size: 13px; font-weight: 750; }
 .result-tabs span { padding: 6px 12px; border-radius: 7px; }
 .result-tabs .active { background: #fff; color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.06); }
@@ -1704,4 +1802,33 @@ select {
   .results-compact .output { font-size: 19px; }
   .style-strip { grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); }
   .generator-section-heading { align-items: flex-start; flex-direction: column; }
+  .input-panel-search textarea {
+    min-height: 60px;
+    height: 60px;
+    padding: 15px 52px 15px 48px;
+    font-size: 18px;
+  }
+  .search-mark { top: 20px; left: 19px; }
+  .clear-search { top: 10px; right: 10px; }
+  .tool-section {
+    padding: 16px 0 36px;
+  }
+  .generator-shell {
+    gap: 18px;
+  }
+  .style-showcase,
+  .related-tools,
+  .use-cases-section,
+  .seo-section {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+  .section-heading {
+    margin-bottom: 22px;
+  }
+  .style-showcase-grid,
+  .tool-grid,
+  .use-cases-grid {
+    gap: 14px;
+  }
 }
