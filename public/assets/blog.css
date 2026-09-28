@@ -76,19 +76,22 @@
   background: var(--sage-soft);
 }
 
-.blog-card h2 {
+.blog-card h2,
+.blog-card h3 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 23px;
   line-height: 1.25;
 }
 
-.blog-card h2 a {
+.blog-card h2 a,
+.blog-card h3 a {
   color: var(--ink);
   text-decoration: none;
 }
 
-.blog-card h2 a:hover {
+.blog-card h2 a:hover,
+.blog-card h3 a:hover {
   color: var(--sage);
 }
 

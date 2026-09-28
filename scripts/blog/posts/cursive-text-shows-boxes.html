@@ -4,7 +4,7 @@
 
 <h2>Why cursive text shows as boxes: fonts, not the generator</h2>
 
-<p>Every character in your pasted text is a Unicode code point. The script-style letters used by cursive generators live mostly in the <em>Mathematical Alphanumeric Symbols</em> block, which sits outside the basic ranges that every font is guaranteed to cover. When a device meets a code point that none of its installed fonts include, the operating system substitutes a placeholder:</p>
+<p>Every character in your pasted text is a Unicode code point. The script-style letters used by cursive generators live mostly in the <a href="https://www.unicode.org/charts/PDF/U1D400.pdf" target="_blank" rel="noopener">Mathematical Alphanumeric Symbols</a> block, which sits outside the basic ranges that every font is guaranteed to cover. When a device meets a code point that none of its installed fonts include, the operating system substitutes a placeholder:</p>
 
 <ul>
   <li><strong>A hollow rectangle (▯ or ☐)</strong>, often nicknamed "tofu", is the most common fallback on Android, Windows and Linux.</li>

@@ -1,21 +1,36 @@
 {
   "slug": "cursive-signature-styles",
   "navLabel": "Choosing a Signature Style",
-  "title": "How to Choose a Cursive Signature Style That Looks Like You",
+  "title": "Cursive Signature Styles: How to Choose One That Looks Like You",
   "seoTitle": "Cursive Signature Styles: How to Choose Yours",
-  "description": "Elegant, bold, fancy or simple? Learn how to pick a cursive signature style for your name, what makes a signature readable, and how to copy it anywhere.",
+  "description": "Elegant, bold, fancy or simple? Compare cursive signature styles, learn what makes a signature readable, and copy the one you pick anywhere.",
   "excerpt": "Elegant, bold, fancy or simple: a practical way to pick a cursive signature style that suits your name and holds up in a bio, an email footer or a video caption.",
   "tag": "Guide",
   "date": "2026-09-15",
   "modified": "2026-09-27",
   "readMinutes": 16,
-  "lede": "A signature is the shortest piece of writing that still has to say something about you. Here is how to pick a cursive signature style on purpose instead of scrolling until something looks nice.",
+  "lede": "A signature is the shortest piece of writing that still has to say something about you. Here is how to choose between cursive signature styles on purpose instead of scrolling until something looks nice.",
   "related": [
-    ["Cursive Signature Generator", "/copy-and-paste-cursive-signature.html"],
-    ["Elegant Cursive Signature", "/elegant-cursive-signature.html"],
-    ["Fancy Cursive Signature", "/fancy-cursive-signature.html"],
-    ["Cursive Signature With a Heart", "/cursive-signature-with-heart.html"],
-    ["Cursive Name Generator", "/cursive-name-generator.html"]
+    [
+      "Cursive Signature Generator",
+      "/copy-and-paste-cursive-signature.html"
+    ],
+    [
+      "Elegant Cursive Signature",
+      "/elegant-cursive-signature.html"
+    ],
+    [
+      "Fancy Cursive Signature",
+      "/fancy-cursive-signature.html"
+    ],
+    [
+      "Cursive Signature With a Heart",
+      "/cursive-signature-with-heart.html"
+    ],
+    [
+      "Cursive Name Generator",
+      "/cursive-name-generator.html"
+    ]
   ],
   "cta": {
     "title": "Build your signature",
@@ -25,8 +40,8 @@
   },
   "faq": [
     {
-      "q": "Which cursive signature style is the most readable?",
-      "a": "Bold Cursive. Its strokes are thicker, every letter comes from one widely supported Unicode range, and it stays legible at small sizes such as an Instagram bio or an email footer. Lighter script styles look more elegant but lose detail on small screens."
+      "q": "Which cursive signature styles are the most readable?",
+      "a": "Bold Cursive is the safest pick. Its strokes are thicker, every letter comes from one widely supported Unicode range, and it stays legible at small sizes such as an Instagram bio or an email footer. Lighter script styles look more elegant but lose detail on small screens."
     },
     {
       "q": "Can I use a Unicode cursive signature on legal documents?",
@@ -40,5 +55,6 @@
       "q": "Do decorative symbols around a signature cause display problems?",
       "a": "They can. Symbols such as ꧁ and ꧂ come from scripts that not every device includes, so some viewers may see boxes. Plain hearts (♡) and stars (★) are safer. If in doubt, copy the signature without symbols and test it on a second phone."
     }
-  ]
+  ],
+  "heroAlt": "Generator mock-up comparing cursive signature styles such as Signature, Classic and Romantic beside a handwritten alphabet"
 }

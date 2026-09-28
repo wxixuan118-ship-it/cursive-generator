@@ -1,10 +1,10 @@
-<p>Unicode cursive and a cursive font both put script-style letters on a screen, and that is roughly where the similarity ends. <strong>Unicode cursive</strong> is text: a string of special characters that look like handwriting and can be pasted into almost any text box. A <strong>cursive font</strong> is software: a file that tells a program how to draw ordinary letters in a script style, and it only works where that file is installed or loaded.</p>
+<p>The short answer to Unicode cursive vs cursive fonts is that one is text and the other is software. Both put script-style letters on a screen, and that is roughly where the similarity ends. <strong>Unicode cursive</strong> is text: a string of special characters that look like handwriting and can be pasted into almost any text box. A <strong>cursive font</strong> is software: a file that tells a program how to draw ordinary letters in a script style, and it only works where that file is installed or loaded.</p>
 
 <p>Knowing which one you are dealing with saves a lot of frustration, because most "why doesn't this work" questions about cursive text come down to using one when the situation calls for the other.</p>
 
 <h2>What Unicode cursive is and how a cursive text generator makes it</h2>
 
-<p>Unicode cursive is built from characters that were never meant for decoration. The Unicode standard includes a block called <em>Mathematical Alphanumeric Symbols</em> that provides script, bold script, fraktur, double-struck and other variants of the Latin alphabet so that mathematicians can write formulas where 𝒜 and A mean different things. A cursive text generator simply maps each letter you type to its script-variant code point and hands you the result.</p>
+<p>Unicode cursive is built from characters that were never meant for decoration. The Unicode standard includes a block called <a href="https://www.unicode.org/charts/PDF/U1D400.pdf" target="_blank" rel="noopener">Mathematical Alphanumeric Symbols</a> that provides script, bold script, fraktur, double-struck and other variants of the Latin alphabet so that mathematicians can write formulas where 𝒜 and A mean different things. A cursive text generator simply maps each letter you type to its script-variant code point and hands you the result.</p>
 
 <div class="post-sample">Hello → 𝓗𝓮𝓵𝓵𝓸 → 𝐻𝑒𝓁𝓁𝑜<small>Plain text, Bold Cursive, Cursive Script (all three are Unicode text)</small></div>
 
@@ -60,7 +60,7 @@
 
 <p><strong>"Unicode cursive is accessible because it is text."</strong> It is text, but not ordinary text. Screen readers may announce each character's long technical name. Treat it as decoration.</p>
 
-<h2>Try the same phrase in both systems</h2>
+<h2>Try the same phrase in Unicode cursive and a cursive font</h2>
 
 <p>The difference becomes clear with a practical test. Open the <a href="/">cursive text generator</a>, enter a short phrase and copy Bold Cursive. Paste it into a social bio, a message and a plain text editor. The shape travels because the copied string contains special script characters. Now type the same ordinary phrase in a document and apply a cursive font from the font menu. Copy that line into a plain text editor. The letters return to their ordinary appearance because the typeface was formatting attached to the document, not part of the characters.</p>
 
@@ -68,7 +68,7 @@
 
 <p>Use the <a href="/cursive-font-generator.html">cursive font generator</a> to compare portable Unicode styles quickly. When a result needs precise spacing, ligatures or print quality, move to the <a href="/cursive-fonts.html">cursive fonts library</a> and recreate the text in a design or document application.</p>
 
-<h2>How copying and pasting behaves</h2>
+<h2>How copying and pasting Unicode cursive behaves</h2>
 
 <p>Copying transfers characters and, in rich applications, may also transfer formatting. A social profile usually accepts plain text only, so it discards font-family styling but retains Unicode characters. That is why Unicode cursive remains cursive in a bio while text formatted with a desktop script font becomes plain. The destination decides which parts of the clipboard it will accept.</p>
 
@@ -84,7 +84,7 @@
 
 <p>Control carries responsibility. You must respect the licence, package web fonts correctly, avoid excessive download weight and choose readable fallback fonts. If a commercial project needs a script face, consult the licence rather than assuming “free download” means unrestricted use. The <a href="/free-commercial-cursive-fonts/">free commercial cursive fonts</a> guide highlights options intended for broader use.</p>
 
-<h2>Search, accessibility and semantics</h2>
+<h2>Search, accessibility and Unicode cursive</h2>
 
 <p>Ordinary letters styled with a font remain ordinary letters to search engines, browsers and assistive technology. A heading that visually uses a cursive web font can still have clean HTML text underneath. Unicode cursive consists of different code points originally intended for mathematical notation. A human may see the word “Hello,” while software sees a sequence of mathematical script characters.</p>
 
@@ -92,7 +92,7 @@
 
 <p>Keep important information in ordinary text. On a website, use CSS and a real font for visible styling. On a social platform that offers no font control, use Unicode cursive for one decorative phrase and provide the plain meaning nearby. The <a href="/cursive-compatibility.html">cursive compatibility test</a> helps you compare readable fallbacks without abandoning visual personality.</p>
 
-<h2>Performance and web implementation</h2>
+<h2>Web fonts vs Unicode cursive on your own site</h2>
 
 <p>Unicode cursive does not require you to download a custom font, but the device may still load or select a fallback font internally. A web font adds a network request and can cause a visible change while it loads. Good implementation reduces that cost with a modern WOFF2 file, a limited character subset, appropriate preload only when necessary and a fallback stack with similar proportions.</p>
 
@@ -116,7 +116,7 @@
 
 <p>When sending an editable document, confirm that recipients have the font or embed it according to the licence. When sending a finished piece, export PDF and inspect it on another device. If a print service requests outlined text, retain an editable master before converting the letters.</p>
 
-<h2>Decision checklist</h2>
+<h2>Decision checklist: Unicode cursive or a cursive font?</h2>
 
 <ul>
   <li>If the destination has no font menu and accepts text, start with Unicode cursive.</li>

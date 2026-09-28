@@ -3,13 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L34V5ZL59H"></script>
+  <!-- Keep analytics off the critical rendering path. -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-L34V5ZL59H');
+    window.addEventListener('load', function () {
+      var loadAnalytics = function () {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-L34V5ZL59H';
+        document.head.appendChild(script);
+      };
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadAnalytics, { timeout: 2500 });
+      } else {
+        setTimeout(loadAnalytics, 1200);
+      }
+    }, { once: true });
   </script>
   <script>
     window.addEventListener('load',function(){setTimeout(function(){
@@ -21,16 +33,16 @@
     },2000);});
   </script>
   <title>Cursive Generator - 𝓒𝓸𝓹𝔂 &amp; 𝓟𝓪𝓼𝓽𝓮 Cursive Text Free</title>
-  <meta name="description" content="Free cursive text generator to create stylish cursive fonts instantly. No signup. Works everywhere - Instagram bios, WhatsApp, signatures, and more.">
+  <meta name="description" content="Free cursive generator: type any text and copy stylish cursive fonts instantly. No signup. Works in Instagram bios, WhatsApp, signatures and more.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://www.cursive-text-generator.net/">
   <meta property="og:title" content="Cursive Generator - Copy & Paste Cursive Text Free">
-  <meta property="og:description" content="Free cursive text generator — type any text and instantly copy bold cursive, script, calligraphy and more. Paste into Instagram, TikTok, WhatsApp, Discord and anywhere else. No signup.">
+  <meta property="og:description" content="Free cursive generator — type any text and instantly copy bold cursive, script, calligraphy and more. Paste into Instagram, TikTok, WhatsApp, Discord and anywhere else. No signup.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cursive Generator - Copy &amp; Paste Cursive Text Free">
-  <meta name="twitter:description" content="Free cursive text generator — type any text and instantly copy bold cursive, script, calligraphy and more. Paste into Instagram, TikTok, WhatsApp, Discord and anywhere else. No signup.">
+  <meta name="twitter:description" content="Free cursive generator — type any text and instantly copy bold cursive, script, calligraphy and more. Paste into Instagram, TikTok, WhatsApp, Discord and anywhere else. No signup.">
   <meta name="twitter:image" content="https://www.cursive-text-generator.net/assets/cursive-generator-hero.png">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260927">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
@@ -59,7 +71,7 @@
     "operatingSystem": "Any",
     "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
     "url": "https://www.cursive-text-generator.net/",
-    "description": "A free cursive text generator for converting plain text into copyable cursive fonts, script styles, and fancy Unicode text."
+    "description": "A free cursive generator for converting plain text into copyable cursive fonts, script styles, and fancy Unicode text."
   }
   </script>
 
@@ -182,7 +194,7 @@
         <div class="tool-intro">
           <div>
             <h1>Cursive Generator - Copy &amp; Paste 𝓒𝓾𝓻𝓼𝓲𝓿𝓮 Text Free</h1>
-            <p>Type any text and instantly generate cursive fonts — Bold Cursive, Script, Calligraphy, and more. Copy with one click and paste anywhere: Instagram bio, TikTok username, Discord name, WhatsApp status, or any invitation.</p>
+            <p>Type any text into this cursive generator and instantly get cursive fonts — Bold Cursive, Script, Calligraphy, and more. Copy the cursive text with one click and paste it anywhere — an Instagram bio, TikTok username, Discord name, WhatsApp status or invitation.</p>
           </div>
           </div>
 
@@ -366,7 +378,7 @@
       <div class="wrap">
         <div class="section-heading">
           <span class="eyebrow">Where to use it</span>
-          <h2>Cursive Text Use Cases</h2>
+          <h2>Cursive Generator Use Cases</h2>
           <p>From social media profiles to printed invitations — here are the most popular ways people use our cursive font generator.</p>
         </div>
         <div class="use-cases-grid">
@@ -408,7 +420,7 @@
     <section class="seo-section" id="guide">
       <div class="wrap seo-layout">
         <aside class="seo-aside">
-          <h2>Popular Searches</h2>
+          <h2>Popular Cursive Searches</h2>
           <div class="keyword-list">
             <span>cursive generator</span>
             <span>free cursive generator</span>
@@ -424,28 +436,34 @@
           </div>
         </aside>
         <article class="seo-copy">
-          <h2>What Is a Cursive Text Generator?</h2>
+          <h2>What Is a Cursive Generator?</h2>
           <p>A cursive text generator is an online tool that converts ordinary letters into decorative Unicode characters resembling handwriting, calligraphy, or script fonts. You type a word, name, quote, or short phrase, and the tool instantly outputs copyable cursive text you can paste into Instagram, TikTok, Discord, documents, or design projects — no font installation required.</p>
 
           <h3>Why Use a Cursive Font Generator?</h3>
           <p>People search for a cursive font generator when they want text that looks elegant without opening a design app. The most common use cases are Instagram bios, TikTok display names, Discord profiles, digital wedding invitations, email signatures, and social media captions. A cursive name generator is especially popular for users who want their personal name to look stylish on social platforms.</p>
 
           <h3>How the Cursive Generator Works</h3>
-          <p>The tool maps each standard letter to its Unicode equivalent in the selected cursive alphabet. Unicode contains several mathematical and script character sets that happen to look like cursive fonts — including Cursive Script (𝒶𝒷𝒸), Bold Cursive (𝓪𝓫𝓬), Old Style Script (𝔞𝔟𝔠), and more. Because these are standard text characters rather than a font file, they travel with the text wherever you paste it.</p>
+          <p>The tool maps each standard letter to its Unicode equivalent in the selected cursive alphabet. Unicode contains several mathematical and script character sets that happen to look like cursive fonts — including Cursive Script (𝒶𝒷𝒸), Bold Cursive (𝓪𝓫𝓬), Old Style Script (𝔞𝔟𝔠), and more. Because these are standard text characters rather than a font file, they travel with the text wherever you paste it. The script letters come from the <a href="https://www.unicode.org/charts/PDF/U1D400.pdf" target="_blank" rel="noopener">Unicode Mathematical Alphanumeric Symbols</a> block, which most modern phones and browsers can display.</p>
+
+          <figure class="page-preview" style="margin:28px 0;max-width:560px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper)">
+          <img src="assets/previews/cursive-text-generator.svg" width="1200" height="630" loading="lazy" decoding="async"
+          style="display:block;width:100%;height:auto" alt="The words &quot;Cursive Text&quot; turned into script letters by the cursive generator">
+          <figcaption style="font-size:13px;color:var(--muted);padding:8px 14px">Plain text in, copyable cursive out: what the cursive generator does to &ldquo;Cursive Text&rdquo;</figcaption>
+          </figure>
 
           <h3>Cursive Generator vs Real Cursive Fonts</h3>
           <p>A real cursive font is a typeface file that a designer or developer loads into a website, app, or document. It gives precise control over spacing, weight, and ligatures. Generated cursive text uses Unicode characters, which means it is portable and immediate — ideal for social media — but the visual result depends on each device's system font fallback. For professional print or brand work, visit our <a href="/cursive-font-generator.html">cursive fonts</a> page instead. The generator on this page is the canonical cursive text generator.</p>
 
-          <h3>Cursive Alphabet and Learning</h3>
+          <h3>The Full Cursive Alphabet</h3>
           <p>If you want to see how every letter looks in cursive before typing a full phrase, visit our <a href="/cursive-letters-a-z.html">cursive alphabet</a> reference. It shows all 26 uppercase and lowercase cursive letters across multiple styles so you can make an informed choice before generating your text.</p>
 
-          <h3>Best Practices for Cursive Text</h3>
+          <h3>Tips for Using the Cursive Generator</h3>
           <p>Cursive text works best for short phrases — names, signatures, single-line quotes, and decorative headings. Long sentences in cursive become hard to read, especially on small mobile screens. Always paste the generated text into the destination app and check how it renders before publishing. Choose Bold Cursive for stronger visual impact, Cursive Script for elegance, and Clean Fancy for readability.</p>
 
-          <h3>Platform Compatibility</h3>
+          <h3>Where Cursive Text Works</h3>
           <p>Generated cursive text works on most modern platforms: Instagram, TikTok, Facebook, Twitter/X, Discord, WhatsApp, Telegram, Reddit, YouTube, and standard text editors. Some older apps or niche platforms may not support Unicode script characters — always test before saving. For Instagram cursive text specifically, Bold Cursive and Cursive Script both render well on iOS and Android.</p>
 
-          <h2>Cursive Text Generator FAQ</h2>
+          <h2>Cursive Generator FAQ</h2>
 
           <h3>What is the best cursive generator for copy and paste text?</h3>
           <p>The best cursive generator lets you type once, compare multiple readable cursive styles, and copy the result without downloading anything. This tool offers five distinct Unicode cursive styles for names, bios, captions, and short creative phrases.</p>
@@ -502,43 +520,43 @@
           </span>
         </a>
         <a href="https://toolfio.com" target="_blank" rel="noopener" aria-label="Featured on Toolfio">
-          <img src="https://toolfio.com/toolfio-light-badge.png" alt="Featured on Toolfio" width="200" height="54" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
+          <img src="https://toolfio.com/toolfio-light-badge.png" alt="Featured on Toolfio" width="200" height="54" loading="lazy" decoding="async" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://earlyhunt.com/project/cursive-generator" target="_blank" rel="noopener" aria-label="Featured on EarlyHunt">
-          <img src="https://earlyhunt.com/badges/earlyhunt-badge-light.svg" alt="Featured on EarlyHunt" width="265" height="58" style="display:block;width:265px;max-width:100%;height:auto;border:0;" />
+          <img src="https://earlyhunt.com/badges/earlyhunt-badge-light.svg" alt="Featured on EarlyHunt" width="265" height="58" loading="lazy" decoding="async" style="display:block;width:265px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://dododirectory.com" target="_blank" rel="dofollow noopener" aria-label="Featured on DodoDirectory">
-          <img src="https://dododirectory.com/badge-light.png" alt="Featured on DodoDirectory" width="200" height="54" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
+          <img src="https://dododirectory.com/badge-light.png" alt="Featured on DodoDirectory" width="200" height="54" loading="lazy" decoding="async" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://alternative.tools/item/cursive-generator?utm_source=badge&amp;utm_medium=referral&amp;utm_campaign=featured-badge" target="_blank" rel="dofollow noopener" aria-label="Featured on Alternative.tools">
           <img src="https://alternative.tools/badge.svg?theme=light&amp;width=200&amp;height=54" alt="Featured on Alternative.tools" width="200" height="54" loading="lazy" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://fazier.com/launches/www.cursive-text-generator.net" target="_blank" rel="noopener" aria-label="Launched on Fazier">
-          <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&amp;theme=light" width="120" alt="Fazier badge" style="display:block;width:120px;max-width:100%;height:auto;border:0;" />
+          <img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&amp;theme=light" width="120" alt="Fazier badge" loading="lazy" decoding="async" style="display:block;width:120px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://dang.ai" target="_blank" rel="dofollow noopener" style="display:inline-block;text-decoration:none;" aria-label="Verified on DANG!">
-          <img src="https://assets.dang.ai/badges/dang-verified-light.png" alt="Verified on DANG!" width="260" height="94" style="display:block;width:260px;max-width:100%;height:auto;border:0;outline:none;text-decoration:none;" />
+          <img src="https://assets.dang.ai/badges/dang-verified-light.png" alt="Verified on DANG!" width="260" height="94" loading="lazy" decoding="async" style="display:block;width:260px;max-width:100%;height:auto;border:0;outline:none;text-decoration:none;" />
         </a>
         <a href="https://twelve.tools" target="_blank" rel="noopener" aria-label="Featured on Twelve Tools">
-          <img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width="148" height="40" style="display:block;width:148px;max-width:100%;height:auto;border:0;" />
+          <img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width="148" height="40" loading="lazy" decoding="async" style="display:block;width:148px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://findly.tools/cursive-generator-2?utm_source=cursive-generator-2" target="_blank" rel="noopener noreferrer" aria-label="Featured on Findly.tools">
-          <img src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="Featured on Findly.tools" width="175" height="55" style="display:block;width:175px;max-width:100%;height:auto;border:0;" />
+          <img src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="Featured on Findly.tools" width="175" height="55" loading="lazy" decoding="async" style="display:block;width:175px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://smollaunch.com" target="_blank" rel="noopener" aria-label="Featured on Smol Launch">
           <img src="https://smollaunch.com/badges/featured.svg" alt="Cursive Text Generator — Featured on Smol Launch" loading="lazy" width="250" height="60" style="display:block;width:250px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://neeed.directory" target="_blank" rel="noopener" aria-label="Featured on neeed.directory">
-          <img src="https://neeed.directory/badges/neeed-badge-light.svg" alt="Featured on neeed.directory" width="139" style="display:block;width:139px;max-width:100%;height:auto;border:0;" />
+          <img src="https://neeed.directory/badges/neeed-badge-light.svg" alt="Featured on neeed.directory" width="139" loading="lazy" decoding="async" style="display:block;width:139px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://www.foundrlist.com/product/cursivegenerator-3?utm_source=badge&amp;utm_medium=embed" target="_blank" rel="noopener" aria-label="Featured on FoundrList">
-          <img src="https://www.foundrlist.com/api/badge/cursivegenerator-3" alt="Featured on FoundrList" width="150" height="48" style="display:block;width:150px;max-width:100%;height:auto;border:0;" />
+          <img src="https://www.foundrlist.com/api/badge/cursivegenerator-3" alt="Featured on FoundrList" width="150" height="48" loading="lazy" decoding="async" style="display:block;width:150px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://openhunts.com" target="_blank" title="OpenHunts Club">
-          <img alt="OpenHunts Club Member" height="105" src="https://cdn.openhunts.com/badges/club.webp" style="width: 195px; height: auto;" width="486" />
+          <img alt="OpenHunts Club Member" height="105" src="https://cdn.openhunts.com/badges/club.webp" loading="lazy" decoding="async" style="width: 195px; height: auto;" width="486" />
         </a>
         <a href="https://www.nxgntools.com/tools/cursive-generator-1?utm_source=cursive-generator-1" target="_blank" rel="noopener" style="display: inline-block; width: auto;" aria-label="Launching soon on NxGn Tools">
-          <img src="https://www.nxgntools.com/api/embed/cursive-generator-1?type=LAUNCHING_SOON_ON" alt="Launching soon on NxGn Tools" style="height: 48px; width: auto;" />
+          <img src="https://www.nxgntools.com/api/embed/cursive-generator-1?type=LAUNCHING_SOON_ON" alt="Launching soon on NxGn Tools" loading="lazy" decoding="async" style="height: 48px; width: auto;" />
         </a>
         <a target="_blank" href="https://acidtools.com/ai/cursive-text-generator" aria-label="Featured on Acid Tools">
           <img src="https://acidtools.com/assets/images/badge.png" alt="Acid Tools" height="54" loading="lazy" style="display:block;max-width:100%;width:auto;border:0;" />
@@ -554,7 +572,7 @@
           />
         </a>
         <a href="https://wired.business" target="_blank" rel="noopener noreferrer" aria-label="Featured on Wired Business">
-          <img src="https://wired.business/badge1-white.svg" alt="Featured on Wired Business" width="200" height="54" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
+          <img src="https://wired.business/badge1-white.svg" alt="Featured on Wired Business" width="200" height="54" loading="lazy" decoding="async" style="display:block;width:200px;max-width:100%;height:auto;border:0;" />
         </a>
         <a href="https://saascity.io" target="_blank" rel="noopener" aria-label="Featured on SaaSCity">
           <img src="https://saascity.io/badges/featured-dark.svg" alt="Featured on SaaSCity" width="150" height="54" loading="lazy" style="display:block;width:150px;max-width:100%;height:auto;border:0;" />
@@ -660,6 +678,10 @@
         <a href="https://themicrosaasdir.com/product/cursive-generator?ref=badge" target="_blank" rel="dofollow noopener" aria-label="Featured on TheMicroSaaSDir">
           <img src="https://themicrosaasdir.com/badge/cursive-generator.svg" alt="Featured on TheMicroSaaSDir" width="160" height="44" loading="lazy" style="display:block;width:160px;max-width:100%;height:auto;border:0;" />
         </a>
+        <a href="https://vintagephotoprompt.com/" target="_blank" rel="noopener" aria-label="Partner site: Vintage Photo Prompt" title="Vintage Photo Prompt – 1980s AI photo prompts" style="display:inline-flex;align-items:center;gap:8px;width:200px;max-width:100%;height:50px;box-sizing:border-box;background:#fff;color:#1b1408;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;padding:6px 10px;border-radius:8px;text-decoration:none;border:1px solid #e8e8e8;">
+          <span aria-hidden="true" style="display:grid;place-items:center;flex:0 0 30px;width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#e8a24a,#c4492f);"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="#1b1408" stroke-width="2"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg></span>
+          <span style="display:block;min-width:0;font-size:12px;font-weight:700;line-height:1.15;text-align:left;">Vintage Photo Prompt</span>
+        </a>
         </div>
           <button class="partner-carousel-btn" type="button" data-partner-next aria-label="Show more partners">&rsaquo;</button>
         </div>
@@ -739,6 +761,6 @@
       });
     });
   </script>
-  <script src="/assets/navigation.js?v=20260922" defer></script>
+  <script src="/assets/navigation.js?v=20260927" defer></script>
 </body>
 </html>

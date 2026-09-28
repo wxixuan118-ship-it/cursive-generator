@@ -31,10 +31,10 @@ PAGES = [
         ),
         phrases=["God Bless America", "America the Beautiful", "Made in America", "Happy Fourth of July", "American Pride"],
         faq=[
-            ("How do you write the capital A in America in cursive?", "As a large version of the lowercase a: a closed oval, then a stroke down the right side that finishes at the baseline and connects straight into the m. It is one of the joining capitals, so there is no pen lift."),
+            ("How do you write the cursive capital A in America?", "As a large version of the lowercase a: a closed oval, then a stroke down the right side that finishes at the baseline and connects straight into the m. It is one of the joining capitals, so there is no pen lift."),
             ("How do you stop the r-i in America from looking like a u?", "Make the point of the r clearly higher than the top of the i, and keep the dip after the r shallow. The height difference is what separates r-i from u or w."),
             ("Should I write America or United States in cursive?", "America is the informal name and reads naturally in captions and phrases such as God Bless America. United States is the formal name and suits official or ceremonial designs. Both convert fully in the generator."),
-            ("Does America in cursive have any ascenders or descenders?", "No. After the capital A every letter sits between the baseline and the midline, so the word runs flat and the capital carries all the height."),
+            ("Does cursive America have any ascenders or descenders?", "No. After the capital A every letter sits between the baseline and the midline, so the word runs flat and the capital carries all the height."),
         ],
         related=["united-states", "canada", "mexico", "england", "jamaica", "english", "australia"],
         explore="<p>The formal two-word name is on the <a href=\"/united-states-in-cursive/\">United States in cursive</a> page. North American neighbours include <a href=\"/canada-in-cursive/\">Canada in cursive</a> and <a href=\"/mexico-in-cursive/\">Mexico in cursive</a>, and the <a href=\"/nation-in-cursive/\">Nation in Cursive</a> hub lists every page.</p>",

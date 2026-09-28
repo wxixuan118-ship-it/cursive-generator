@@ -4,13 +4,13 @@
   "navLabel": "Fix Boxes & Question Marks",
   "title": "Why Cursive Text Shows as Boxes or Question Marks (and How to Fix It)",
   "seoTitle": "Cursive Text Shows as Boxes? Causes and Fixes",
-  "description": "Fix cursive text that appears as boxes, question marks or blank squares. Learn why fonts and encoding fail and which safer styles work across devices.",
+  "description": "Cursive text shows as boxes or question marks? Learn why fonts and encoding fail, how to fix it, and which safer styles work across devices.",
   "excerpt": "Cursive text turning into boxes or question marks is a missing-font issue, not a broken generator. Here is why it happens and five fixes that work on any device.",
   "tag": "Troubleshooting",
   "date": "2026-09-13",
   "modified": "2026-09-27",
   "readMinutes": 16,
-  "lede": "You pasted cursive text and someone sees ▯▯▯▯ or ???? instead. The characters are fine; their device cannot draw them. Here is what is going on and how to get a result that shows up everywhere.",
+  "lede": "You pasted cursive text and someone sees ▯▯▯▯ or ???? instead. When cursive text shows as boxes, the characters are fine; the device cannot draw them. Here is what is going on and how to get a result that shows up everywhere.",
   "related": [
     [
       "Cursive Compatibility Guide",
@@ -46,5 +46,6 @@
       "q": "Do boxes mean the platform blocks cursive text?",
       "a": "Usually not. Boxes appear after the platform has already accepted the text; they show the characters exist but cannot be drawn. A platform that blocks special characters, such as Instagram usernames, rejects or strips them instead."
     }
-  ]
+  ],
+  "heroAlt": "Cursive text generator mock-up with several script styles; when cursive text shows as boxes, a simpler style usually fixes it"
 }

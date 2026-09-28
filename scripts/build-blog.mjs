@@ -28,7 +28,7 @@ const escText = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').re
 const ld = (o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`;
 const words = (html) => html.replace(/<[^>]+>/g, ' ').replace(/&[a-z0-9#]+;/gi, ' ').trim().split(/\s+/).filter(Boolean).length;
 const slugify = (s) => s.toLowerCase().replace(/&[^;]+;/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const enrichBody = (body) => {
+const enrichBody = (body, base = '') => {
   const headings = [];
   const html = body.replace(/<h2>([\s\S]*?)<\/h2>/g, (_, label) => {
     const plain = label.replace(/<[^>]+>/g, '');
@@ -36,7 +36,7 @@ const enrichBody = (body) => {
     headings.push([plain, id]);
     return `<h2 id="${id}">${label}</h2>`;
   });
-  const toc = `<nav class="post-toc" aria-label="Article contents"><strong>In this guide</strong><ol>${headings.map(([label, id]) => `<li><a href="#${id}">${label}</a></li>`).join('')}</ol></nav>`;
+  const toc = `<nav class="post-toc" aria-label="Article contents"><strong>In this guide</strong><ol>${headings.map(([label, id]) => `<li><a href="${base}#${id}">${label}</a></li>`).join('')}</ol></nav>`;
   return { html, toc };
 };
 const write = (rel, content) => {
@@ -46,6 +46,9 @@ const write = (rel, content) => {
     fs.writeFileSync(file, content);
   }
 };
+
+// Hero illustration: webp for browsers that take it, the original png as fallback.
+const heroPicture = (alt, loading = 'lazy') => `<picture><source srcset="/assets/cursive-generator-hero.webp" type="image/webp"><img src="/assets/cursive-generator-hero.png" width="1200" height="641" loading="${loading}" alt="${esc(alt)}"></picture>`;
 
 // ── load ──────────────────────────────────────────────────────────────────
 const posts = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.json')).map((f) => {
@@ -92,7 +95,7 @@ const head = (p) => `<!doctype html>
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="preload" href="/assets/styles.css?v=20260913" as="style">
   <link rel="stylesheet" href="/assets/styles.css?v=20260913">
-  <link rel="stylesheet" href="/assets/blog.css?v=20260927">
+  <link rel="stylesheet" href="/assets/blog.css?v=20260928">
   <link rel="stylesheet" href="/assets/site-layout.css?v=20260927b">
   ${ld({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
@@ -179,7 +182,7 @@ const renderPost = (p, i) => {
   const prev = live[i - 1];
   const next = live[i + 1];
   const others = live.map((o) => `        <a href="${o.path}"${o === p ? ' aria-current="page"' : ''}>${escText(o.title)}</a>`).join('\n');
-  const body = enrichBody(p.body);
+  const body = enrichBody(p.body, p.path);
   return `${head(p)}
 ${chrome(`<li><a href="/blog/">Blog</a></li>
         <li aria-current="page">${escText(p.title)}</li>`)}
@@ -198,7 +201,7 @@ ${chrome(`<li><a href="/blog/">Blog</a></li>
             </div>
           </header>
 
-          <figure class="post-hero-figure"><img src="/assets/cursive-generator-hero.png" width="1200" height="630" loading="eager" alt="Cursive Text Generator showing several readable cursive text styles"><figcaption>Use the generator while you follow the steps in this guide.</figcaption></figure>
+          <figure class="post-hero-figure">${heroPicture(p.heroAlt || 'Cursive Text Generator showing several readable cursive text styles', 'eager')}<figcaption>Use the generator while you follow the steps in this guide.</figcaption></figure>
 
           <div class="post-body">
 ${body.toc}
@@ -245,14 +248,14 @@ const renderHub = () => {
   const newest = [...live].reverse();
   const cards = newest.map((p) => `        <li class="blog-card">
           <div class="blog-card-meta"><span class="blog-card-tag">${escText(p.tag)}</span><time datetime="${p.date}">${p.date}</time><span>${p.readMinutes} min read</span></div>
-          <h2><a href="${p.path}">${escText(p.title)}</a></h2>
+          <h3><a href="${p.path}">${escText(p.title)}</a></h3>
           <p>${escText(p.excerpt)}</p>
           <a class="blog-card-more" href="${p.path}" aria-label="Read: ${esc(p.title)}">Read the guide &rarr;</a>
         </li>`).join('\n');
   const hubPost = {
-    seoTitle: 'Blog: Cursive Text Guides, Tips and Fixes',
-    description: 'Practical guides on cursive text: how to use it on Instagram and Discord, Unicode cursive vs cursive fonts, fixing boxes and question marks, signatures and handwriting practice.',
-    excerpt: 'Guides on using cursive text across apps, how Unicode cursive works, fixing display problems, signature styles and cursive handwriting practice.',
+    seoTitle: 'Cursive Text Guides, Tips and Fixes',
+    description: 'Practical cursive text guides: using cursive on Instagram, Unicode cursive vs cursive fonts, fixing boxes and question marks, and picking a signature style.',
+    excerpt: 'Practical cursive text guides on using cursive across apps, how Unicode cursive works, fixing display problems and choosing a signature style.',
   };
   return `<!doctype html>
 <html lang="en">
@@ -267,7 +270,7 @@ const renderHub = () => {
   <meta name="description" content="${hubPost.description}">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="${SITE}/blog/">
-  <meta property="og:title" content="Cursive Text Generator Blog">
+  <meta property="og:title" content="${hubPost.seoTitle}">
   <meta property="og:description" content="${hubPost.excerpt}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${SITE}/blog/">
@@ -278,13 +281,13 @@ const renderHub = () => {
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="preload" href="/assets/styles.css?v=20260913" as="style">
   <link rel="stylesheet" href="/assets/styles.css?v=20260913">
-  <link rel="stylesheet" href="/assets/blog.css?v=20260927">
+  <link rel="stylesheet" href="/assets/blog.css?v=20260928">
   <link rel="stylesheet" href="/assets/site-layout.css?v=20260927b">
   ${ld({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
     { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog/` }] })}
   ${ld({ '@context': 'https://schema.org', '@type': 'Blog', name: 'Cursive Text Generator Blog', url: `${SITE}/blog/`,
-    description: 'Guides on cursive text, Unicode fonts, platform compatibility, signatures and handwriting practice from Cursive Text Generator.',
+    description: hubPost.excerpt,
     publisher: { '@type': 'Organization', name: 'Cursive Text Generator', url: `${SITE}/` },
     blogPost: newest.map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: p.url, datePublished: p.date })) })}
 </head>
@@ -294,15 +297,42 @@ ${chrome('<li aria-current="page">Blog</li>')}
       <div class="wrap">
         <span class="eyebrow">Blog</span>
         <h1>Cursive Text Guides, Tips and Fixes</h1>
-        <p>Short, practical articles on how cursive text works, where it displays correctly, and how to get the most out of the generator. New guides are added every week.</p>
+        <p>These cursive text guides are short, practical articles on how copy-and-paste cursive works, where it displays correctly, and how to get the most out of the generator, with each one answering a single question through examples you can paste and test on your own phone.</p>
       </div>
     </section>
 
     <section class="blog-list">
       <div class="wrap">
+        <h2 class="blog-list-title" style="margin:0 0 20px;font-family:Georgia,'Times New Roman',serif;font-size:27px">Latest cursive text guides</h2>
         <ul class="blog-grid">
 ${cards}
         </ul>
+      </div>
+    </section>
+
+    <section class="blog-guide" style="padding:0 0 70px">
+      <div class="wrap">
+        <div class="post-body" style="max-width:780px">
+          <figure class="post-hero-figure">${heroPicture('Cursive text generator with script style options beside a handwritten cursive alphabet, the tool these cursive text guides use')}<figcaption>Every guide ends with something to try in the generator.</figcaption></figure>
+
+          <h2 id="what-the-guides-cover">What the cursive text guides cover</h2>
+          <p>Cursive text from a generator looks like a font but behaves like a set of special characters, and most questions about it come from that difference. Every article is written around real use: the fields that accept cursive, the styles that survive older devices, and the quick checks worth doing before you publish. The articles fall into four groups.</p>
+
+          <h3>Using cursive on social apps</h3>
+          <p>Where copied cursive works, where it is rejected, and how to keep a profile readable. The <a href="/blog/cursive-text-instagram/">Instagram guide</a> covers the Name field, bio, captions, Stories and Notes, and explains why the @username has to stay plain. For quick styling, the <a href="/instagram-font-generator.html">Instagram font generator</a> puts the most reliable styles side by side.</p>
+
+          <h3>How Unicode cursive works</h3>
+          <p>The script letters you copy are not a font file. Most come from the <a href="https://www.unicode.org/charts/PDF/U1D400.pdf" target="_blank" rel="noopener">Mathematical Alphanumeric Symbols</a> block of the Unicode standard, so they travel inside the text itself. <a href="/blog/unicode-cursive-vs-cursive-fonts/">Unicode cursive vs cursive fonts</a> explains when to paste characters and when to install a real <a href="/cursive-fonts.html">cursive font</a> instead.</p>
+
+          <h3>Fixing cursive display problems</h3>
+          <p>When a reader sees boxes, question marks or blank squares, the characters are usually fine and the device is missing a font. The guide to <a href="/blog/cursive-text-shows-boxes/">cursive text that shows as boxes</a> walks through the causes and fixes, and the <a href="/cursive-compatibility.html">cursive compatibility test</a> lets you check a style before you publish it.</p>
+
+          <h3>Cursive signatures and names</h3>
+          <p>A name is the most common thing people turn into cursive. The article on <a href="/blog/cursive-signature-styles/">cursive signature styles</a> shows how to match a style to the length of a name and the place it will appear, and the <a href="/cursive-name-generator.html">cursive name generator</a> and <a href="/copy-and-paste-cursive-signature.html">cursive signature generator</a> let you compare options with your real name.</p>
+
+          <h2 id="where-to-start">Where to start with cursive text</h2>
+          <p>If you are new to cursive text, read the Unicode explainer first: it makes every other article easier to follow. If something already looks broken, go straight to the boxes guide. If you just want a nicer bio, open the Instagram guide and the <a href="/">cursive text generator</a> in two tabs and work through the steps together. Every guide is free to read, and nothing on the site needs an account or a download.</p>
+        </div>
       </div>
     </section>
   </main></div>

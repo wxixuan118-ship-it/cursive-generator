@@ -61,7 +61,8 @@ const pages = {
       ['Creepy Font Generator', '/creepy-font-generator.html', 'Quieter, eerier text for an unsettling mood.'],
       ['Aesthetic Fonts', '/aesthetic-fonts.html', 'The wider hub of Unicode style categories.'],
       ['Cursive Text Generator', '/', 'Flowing script instead of chaos.'],
-    ,['Scary Font Generator','/scary-font-generator.html','Horror and spooky text styles for Halloween and dark profiles.']],
+    ,['Scary Font Generator','/scary-font-generator.html','Horror and spooky text styles for Halloween and dark profiles.'],['Cool Text Generator','/cool-text-generator.html','Gothic, double-struck and gaming-style text with symbol frames.'],['Fancy Text Generator','/fancy-text-generator.html','Browse every Unicode style, from clean to chaotic.'],['Fonts for Discord','/fonts-for-discord.html','Strange and stylish fonts for Discord names and servers.']],
+    figure: {src: "/assets/previews/freaky-font-generator.svg", width: 1200, height: 630, alt: "Freak Show flipped upside down, set in monospace between signal-bar glitches and chained in Fraktur by the freaky font generator", caption: "“Freak Show” rendered by the Freaky Font Generator in Upside Down, Monospace Signal Bars, Fraktur Gothic Iron Chain presets"},
     faqTitle: 'Freaky Font FAQ',
     faqs: [
       ['What is a freaky font generator?', 'It is a tool that maps ordinary letters onto strange Unicode characters and adds symbols or combining marks, producing text that looks distorted, flipped or corrupted. No font is installed — the result is plain text made of unusual characters.'],

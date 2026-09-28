@@ -4,13 +4,13 @@
   "navLabel": "Unicode Cursive vs Fonts",
   "title": "Unicode Cursive vs Cursive Fonts: What Is the Difference?",
   "seoTitle": "Unicode Cursive vs Cursive Fonts: Key Differences",
-  "description": "Compare Unicode cursive with installed cursive fonts. Learn how each works and what to use for social bios, websites, documents, logos and print.",
+  "description": "Unicode cursive vs cursive fonts: how each one works, where each fails, and which to use for social bios, websites, documents, logos and print.",
   "excerpt": "Unicode cursive is text you paste anywhere; a cursive font is a file you install. Here is how each works, where each fails, and which to pick for your project.",
   "tag": "Explainer",
   "date": "2026-09-13",
   "modified": "2026-09-27",
   "readMinutes": 16,
-  "lede": "A cursive generator and a cursive font look similar on screen but behave very differently once you try to use them. This explainer draws the line between the two so you can pick the right tool.",
+  "lede": "Comparing Unicode cursive vs cursive fonts? A generator and a font file look similar on screen but behave very differently once you try to use them. This explainer draws the line between the two so you can pick the right tool.",
   "related": [
     [
       "Cursive Fonts",
@@ -46,5 +46,6 @@
       "q": "Does Unicode cursive hurt SEO or accessibility?",
       "a": "It can. Search engines and screen readers see the technical characters rather than ordinary letters, so text in Unicode cursive may not be matched by a plain-text search and may be read aloud awkwardly. Keep headings, names and key information in normal text."
     }
-  ]
+  ],
+  "heroAlt": "Unicode cursive vs cursive fonts: a generator mock-up with script font styles beside a handwritten cursive alphabet"
 }
