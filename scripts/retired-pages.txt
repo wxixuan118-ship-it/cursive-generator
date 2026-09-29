@@ -3,7 +3,7 @@
 # They return 404 on purpose. Do NOT mirror them back into public/, sitemap.xml, sitemap.html,
 # indexnow-urls.txt or assets/navigation.js without deciding to re-launch them.
 # The 31 nation pages retired on 2026-09-19 are tracked in scripts/nation-pages-content/retired.json.
-/aesthetic-symbols.html
+# Re-launched 2026-09-30 (removed from this list): stylish-text-generator.html, instagram-font-generator.html, aesthetic-symbols.html, invisible-text-generator.html, small-text-generator.html, italic-font-generator.html, glitch-text-generator.html, monospace-text-generator.html, strikethrough-text-generator.html, wide-text-generator.html, upside-down-text-generator.html, free-fire-font-generator.html.
 /angel-font-generator.html
 /baseball-font.html
 /blockletter-font.html
@@ -51,24 +51,18 @@
 /fantasy-username-generator.html
 /flower-font-generator.html
 /fortnite-username-generator.html
-/free-fire-font-generator.html
 /free-fonts/ctg-everly-script.html
 /free-fonts/ctg-signature-script.html
 /gamertag-generator.html
 /gaming-username-generator.html
 /gangster-font-generator.html
 /girly-fonts.html
-/glitch-text-generator.html
 /gothic-font-generator.html
-/instagram-font-generator.html
 /instagram-username-generator.html
-/invisible-text-generator.html
-/italic-font-generator.html
 /leaf-font-generator.html
 /mario-font-generator.html
 /minecraft-small-font.html
 /minecraft-username-generator.html
-/monospace-text-generator.html
 /moon-font-generator.html
 /nickname-generator.html
 /old-english-font-generator.html
@@ -81,14 +75,11 @@
 /scary-font-generator.html
 /serif-font-generator.html
 /short-username-generator.html
-/small-text-generator.html
 /snapchat-username-generator.html
 /sparkle-font-generator.html
 /star-font-generator.html
 /steam-username-generator.html
 /strawberry-font-generator.html
-/strikethrough-text-generator.html
-/stylish-text-generator.html
 /summoner-name-generator.html
 /sunflower-font-generator.html
 /tattoo-cursive-letters-fonts.html
@@ -98,12 +89,10 @@
 /twitch-username-generator.html
 /twitter-username-generator.html
 /undertale-font-generator.html
-/upside-down-text-generator.html
 /username-generator.html
 /valorant-name-generator.html
 /varsity-font-generator.html
 /vine-font-generator.html
 /weird-font-generator.html
-/wide-text-generator.html
 /y2k-font-generator.html
 /youtube-channel-name-generator.html

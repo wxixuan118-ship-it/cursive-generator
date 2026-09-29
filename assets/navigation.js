@@ -37,6 +37,7 @@
       ["Heart Fonts", "/heart-font-generator.html"],
       ["Rose Fonts", "/rose-font-generator.html"],
       ["Diamond Fonts", "/diamond-font-generator.html"],
+      ["Aesthetic Symbols", "/aesthetic-symbols.html"],
       ["Fancy Text", "/fancy-text-generator.html"],
       ["Copy & Paste", "/copy-and-paste/"]
     ],
@@ -66,11 +67,21 @@
     text: [
       ["Bold Fonts", "/bold-font-generator.html"],
       ["Bubble Text", "/bubble-text-generator.html"],
-      ["Cool Text", "/cool-text-generator.html"]
+      ["Cool Text", "/cool-text-generator.html"],
+      ["Stylish Text", "/stylish-text-generator.html"],
+      ["Small Text", "/small-text-generator.html"],
+      ["Italic Fonts", "/italic-font-generator.html"],
+      ["Wide Text", "/wide-text-generator.html"],
+      ["Monospace Text", "/monospace-text-generator.html"],
+      ["Strikethrough Text", "/strikethrough-text-generator.html"],
+      ["Upside Down Text", "/upside-down-text-generator.html"],
+      ["Invisible Text", "/invisible-text-generator.html"]
     ],
     social: [
       ["Discord Fonts", "/fonts-for-discord.html"],
       ["Adopt Me Fonts", "/adopt-me-font-generator.html"],
+      ["Instagram Fonts", "/instagram-font-generator.html"],
+      ["Free Fire Fonts", "/free-fire-font-generator.html"],
       ["Roblox Usernames", "/roblox-username-generator.html"]
     ],
     // Blog posts — newest first. Add a new post here and on /blog/index.html.
@@ -82,13 +93,18 @@
       ["Cursive Text on Instagram", "/blog/cursive-text-instagram/"]
     ],
     dark: [
-      ["Freaky Fonts", "/freaky-font-generator.html"]
+      ["Freaky Fonts", "/freaky-font-generator.html"],
+      ["Glitch Text", "/glitch-text-generator.html"]
     ]
   };
 
+  // Unicode effect tools get their own Styles row so the Text row fits on one line.
+  const effects = ["/wide-text-generator.html", "/monospace-text-generator.html", "/strikethrough-text-generator.html",
+    "/upside-down-text-generator.html", "/invisible-text-generator.html"];
   sections.styles.groups = [
     ["Aesthetic", sections.alternative.filter(([, href]) => href !== "/heart-font-generator.html")],
-    ["Text", sections.text],
+    ["Text", sections.text.filter(([, href]) => !effects.includes(href))],
+    ["Effects", sections.text.filter(([, href]) => effects.includes(href))],
     ["Social & Gaming", sections.social],
     ["Dark", sections.dark],
     ["Symbols", sections.emoji.filter(([, href]) => href !== "/fancy-text-generator.html" && href !== "/copy-and-paste/")]
@@ -124,11 +140,11 @@
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "handwriting-practice", "name-practice"])) current = "worksheets";
   if (inPath(["aesthetic-fonts", "bow-font", "cute-fonts"])) current = "alternative";
   // alternative / dark font tools — add new slugs here as the section grows
-  if (inPath(["freaky-font"])) current = "dark";
+  if (inPath(["freaky-font", "glitch-text"])) current = "dark";
   // core text-style generators — after "fonts" so bold-font-generator is not caught by its "bold" check
-  if (inPath(["bold-font-generator", "bubble-text", "cool-text"])) current = "text";
+  if (inPath(["bold-font-generator", "bubble-text", "cool-text", "stylish-text", "small-text", "italic-font", "wide-text", "monospace-text", "strikethrough-text", "upside-down-text", "invisible-text"])) current = "text";
   // platform / game nickname generators (discord + roblox keep their original sections)
-  if (inPath(["adopt-me-font"])) current = "social";
+  if (inPath(["adopt-me-font", "instagram-font", "free-fire-font"])) current = "social";
   // emoji / symbol tools — add new slugs here as the section grows
   if (inPath(["heart-font", "rose-font", "diamond-font", "emoji", "symbol"])) current = "emoji";
   // seasonal / event theme tools — add new slugs here as the section grows
