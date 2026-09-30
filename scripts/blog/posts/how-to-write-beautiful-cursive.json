@@ -1,0 +1,63 @@
+{
+  "slug": "how-to-write-beautiful-cursive",
+  "navLabel": "Writing Beautiful Cursive",
+  "title": "How to Write Beautiful Cursive with Better Slant, Spacing and Rhythm",
+  "seoTitle": "How to Write Beautiful Cursive in 2 Weeks",
+  "description": "Already write cursive but want it to look elegant? Learn the slant, sizing, spacing and rhythm behind beautiful cursive, plus a 2-week refinement drill.",
+  "excerpt": "You already write cursive. Here is how to make it look elegant: grip and paper angle, a steady slant, consistent letter heights, even spacing, smooth rhythm and a two-week drill.",
+  "tag": "How-to",
+  "date": "2026-10-02",
+  "readMinutes": 10,
+  "lede": "Messy cursive is rarely a knowledge problem, because you already know the cursive letters. Beautiful cursive comes from consistency in four habits you can check and train, namely slant, height, spacing and rhythm.",
+  "related": [
+    [
+      "Cursive Practice Sheets Generator",
+      "/cursive-practice-sheets.html"
+    ],
+    [
+      "Cursive Letters A–Z",
+      "/cursive-letters-a-z.html"
+    ],
+    [
+      "Cursive Alphabet Practice Sheet",
+      "/cursive-alphabet-practice-sheet.html"
+    ],
+    [
+      "Calligraphy Text Generator",
+      "/calligraphy-text-generator.html"
+    ],
+    [
+      "Printable Cursive Practice Sheets",
+      "/printable-cursive-handwriting-practice-sheets.html"
+    ]
+  ],
+  "cta": {
+    "title": "Print a cursive practice sheet",
+    "text": "Type the letters, words or sentence you are polishing, choose the number of lines and print a cursive practice sheet in seconds. Free, no login.",
+    "href": "/cursive-practice-sheets.html",
+    "label": "Open the practice sheet generator"
+  },
+  "faq": [
+    {
+      "q": "How long does it take to make cursive look beautiful?",
+      "a": "If you already write cursive, most people see a clear difference in two weeks of 15–20 minutes a day. The letters are already learned; you are training consistency of slant, height and spacing, which responds quickly to short daily practice."
+    },
+    {
+      "q": "What is the best slant for beautiful cursive?",
+      "a": "Somewhere between about 55° and 65° from the baseline is a common guide, which is a gentle forward lean. The exact angle matters less than keeping it the same on every downstroke. A steady 60° looks far better than a slant that wanders between 50° and 80°."
+    },
+    {
+      "q": "Which pen makes cursive look the most elegant?",
+      "a": "A smooth pen that needs little pressure. Gel pens and fountain pens glide and reward a light hand; fineliners give a clean, even line. Avoid scratchy ballpoints that force you to press, because pressing makes strokes shaky and slows your rhythm."
+    },
+    {
+      "q": "Should I write cursive fast or slow to make it neat?",
+      "a": "Slow down to learn, then settle at a steady, moderate speed. Very slow writing gets wobbly, and very fast writing collapses letters. Aim for an even rhythm where every downstroke takes about the same time."
+    },
+    {
+      "q": "Can I get beautiful cursive text without handwriting it?",
+      "a": "Yes, for screens. A cursive or calligraphy text generator turns typed text into script-style Unicode characters you can paste into bios, captions and messages. It is decorative text for digital use, not a substitute for handwriting on paper."
+    }
+  ],
+  "heroAlt": "Beautiful cursive handwriting sample beside a cursive text generator mock-up with elegant script styles"
+}

@@ -87,10 +87,11 @@
     // Blog posts — newest first. Add a new post here and on /blog/index.html.
     blog: [
       ["All Posts", "/blog/"],
-      ["Choosing a Signature Style", "/blog/cursive-signature-styles/"],
-      ["Fix Boxes & Question Marks", "/blog/cursive-text-shows-boxes/"],
-      ["Unicode Cursive vs Fonts", "/blog/unicode-cursive-vs-cursive-fonts/"],
-      ["Cursive Text on Instagram", "/blog/cursive-text-instagram/"]
+      ["How to Type in Cursive", "/blog/how-to-type-in-cursive/"],
+      ["Cursive on iPhone", "/blog/cursive-font-on-iphone/"],
+      ["Cursive Text & Screen Readers", "/blog/is-cursive-text-accessible/"],
+      ["Cursive Text by Platform", "/blog/cursive-text-platform-guide/"],
+      ["Using Practice Sheets", "/blog/how-to-use-cursive-practice-sheets/"]
     ],
     dark: [
       ["Freaky Fonts", "/freaky-font-generator.html"],

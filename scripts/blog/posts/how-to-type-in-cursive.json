@@ -1,0 +1,63 @@
+{
+  "slug": "how-to-type-in-cursive",
+  "navLabel": "How to Type in Cursive",
+  "title": "How to Type in Cursive on Any Phone, Computer or App",
+  "seoTitle": "How to Type in Cursive: Phone, PC & Apps Guide",
+  "description": "How to type in cursive on iPhone, Android, Windows, Mac, Word and Google Docs: copy-paste Unicode cursive for texts and bios, or use a real cursive font.",
+  "excerpt": "There are two ways to type in cursive: paste Unicode cursive letters that work in texts, bios and usernames, or switch to a cursive font in a document you control. Here is which to use where.",
+  "tag": "How-to",
+  "date": "2026-09-30",
+  "readMinutes": 9,
+  "lede": "You can type in cursive on any phone or computer, but not with a keyboard setting. Pasted Unicode cursive works in texts and profiles; a cursive font works in documents you control.",
+  "related": [
+    [
+      "Cursive Text Generator",
+      "/"
+    ],
+    [
+      "Copy & Paste Cursive",
+      "/copy-and-paste/"
+    ],
+    [
+      "Unicode Cursive vs Cursive Fonts",
+      "/blog/unicode-cursive-vs-cursive-fonts/"
+    ],
+    [
+      "Cursive Fonts Guide",
+      "/cursive-fonts.html"
+    ],
+    [
+      "Cursive Text Platform Guide",
+      "/blog/cursive-text-platform-guide/"
+    ]
+  ],
+  "cta": {
+    "title": "Type in cursive now",
+    "text": "Type your words once and get them in many cursive and script styles, each with a copy button. Free, no sign-up.",
+    "href": "/",
+    "label": "Open the cursive text generator"
+  },
+  "faq": [
+    {
+      "q": "How do you type in cursive on a phone keyboard?",
+      "a": "Phone keyboards cannot produce cursive letters directly. Type your text in a cursive text generator, tap copy on the style you like, then paste it into your message, bio or caption. The result is Unicode characters, so it stays cursive after you send it."
+    },
+    {
+      "q": "Can I make my whole keyboard type in cursive?",
+      "a": "Some third-party keyboard apps offer font styles, but they work the same way as a generator: they swap your letters for Unicode lookalikes. They also ask for full keyboard access, which lets the app see everything you type. Copying from a web generator avoids that permission."
+    },
+    {
+      "q": "Why does changing the font to cursive not work when I text someone?",
+      "a": "A font setting only changes how text looks on your own screen or inside your own document. Text messages carry the characters, not the font, so the other person sees their default font. To text in cursive, you have to send cursive Unicode characters instead."
+    },
+    {
+      "q": "Is it okay to type in cursive for a username?",
+      "a": "Most platforms reject special characters in usernames and handles, and cursive usernames are hard for others to search or type. Keep the handle plain and put the cursive version in the display name or bio, where it is allowed and still readable."
+    },
+    {
+      "q": "What is the best cursive font for Word or Google Docs?",
+      "a": "For readable documents, pick a clear connected script rather than a heavily looped one, and use it only for headings, names or short lines. Google Docs includes several script fonts under More fonts; in Word, any cursive font installed on your computer will appear in the font menu."
+    }
+  ],
+  "heroAlt": "Cursive text generator showing several script styles with copy buttons, the quickest way to type in cursive on a phone or computer"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "what-is-cursive",
+  "navLabel": "What Is Cursive?",
+  "title": "What Is Cursive? Meaning, History and Types of Cursive Writing",
+  "seoTitle": "What Is Cursive? Meaning, History and Types",
+  "description": "What is cursive? A clear definition of cursive writing, where the word comes from, how the main styles developed, and how it differs from print and italic.",
+  "excerpt": "Cursive is joined-up handwriting written with few pen lifts. Here is what the word means, where it comes from, how the major styles developed, and how cursive differs from print, italic and calligraphy.",
+  "tag": "Explainer",
+  "date": "2026-10-03",
+  "readMinutes": 9,
+  "lede": "What is cursive, exactly? Most people recognize it at a glance, but fewer can say what makes handwriting cursive, or how it differs from italic, calligraphy or a script font. This explainer starts with a plain definition and works outward.",
+  "related": [
+    [
+      "Cursive Text Generator",
+      "/"
+    ],
+    [
+      "Cursive Letters A–Z",
+      "/cursive-letters-a-z.html"
+    ],
+    [
+      "Cursive Fonts",
+      "/cursive-fonts.html"
+    ],
+    [
+      "Cursive Practice Sheets Generator",
+      "/cursive-practice-sheets.html"
+    ],
+    [
+      "Unicode Cursive vs Cursive Fonts",
+      "/blog/unicode-cursive-vs-cursive-fonts/"
+    ]
+  ],
+  "cta": {
+    "title": "See your words in cursive",
+    "text": "Type any text and get copy-and-paste cursive in dozens of Unicode script styles for bios, captions, names and messages. Free, no login.",
+    "href": "/",
+    "label": "Open the cursive text generator"
+  },
+  "faq": [
+    {
+      "q": "What is cursive in simple words?",
+      "a": "Cursive is handwriting in which the letters of a word are joined together, so you can write the whole word, or most of it, without lifting the pen. The joins and the usual slant make it faster and smoother to write than separate printed letters."
+    },
+    {
+      "q": "What does the word cursive mean?",
+      "a": "It comes from Medieval Latin cursivus, which goes back to the Latin verb currere, meaning \"to run.\" The idea is running or flowing writing, where the pen keeps moving from one letter to the next."
+    },
+    {
+      "q": "Is italic the same as cursive?",
+      "a": "Not quite. Italic grew out of a Renaissance cursive handwriting, but in type today italic usually means slanted letters that are not joined. Cursive handwriting joins the letters; an italic font simply leans them."
+    },
+    {
+      "q": "Is cursive still taught in schools?",
+      "a": "In many places, yes. In the United States cursive became optional in a lot of schools in the 2010s, and a number of states have since passed laws requiring it again. Practice varies by state, district and country."
+    },
+    {
+      "q": "Is copy-and-paste cursive text real cursive?",
+      "a": "It is cursive-looking text made from Unicode Mathematical Script characters. The letters look like script handwriting, but they are separate symbols rather than joined strokes, and they are technically math characters, not ordinary letters."
+    }
+  ],
+  "heroAlt": "What is cursive: a handwritten cursive alphabet with joined letters beside printed letters and a cursive text generator preview"
+}

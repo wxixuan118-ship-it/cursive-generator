@@ -1,0 +1,63 @@
+{
+  "slug": "how-to-write-cursive-words",
+  "navLabel": "Writing Cursive Words",
+  "title": "How to Write Cursive Words: Joining Letters into Words and Sentences",
+  "seoTitle": "How to Write Cursive Words: Joins, Spacing & Practice",
+  "description": "Learn to write cursive words: the four letter joins, the tricky bridge after b, o, v and w, spacing, slant, and stroke-by-stroke examples you can practise.",
+  "excerpt": "Knowing the cursive alphabet is not the same as writing cursive words. Here are the four joins, the awkward bridge letters, spacing and slant, and four words spelled out stroke by stroke.",
+  "tag": "How-to",
+  "date": "2026-10-01",
+  "readMinutes": 9,
+  "lede": "Plenty of people can form every cursive letter on its own and still produce words that look broken. The skill that turns letters into cursive words is the join: where one letter ends, how the next one begins, and when to lift the pen.",
+  "related": [
+    [
+      "Cursive Practice Sheets Generator",
+      "/cursive-practice-sheets.html"
+    ],
+    [
+      "Cursive Letters A–Z",
+      "/cursive-letters-a-z.html"
+    ],
+    [
+      "Cursive Alphabet Practice Sheet",
+      "/cursive-alphabet-practice-sheet.html"
+    ],
+    [
+      "Printable Cursive Practice Sheets",
+      "/printable-cursive-handwriting-practice-sheets.html"
+    ],
+    [
+      "How to Use Cursive Practice Sheets",
+      "/blog/how-to-use-cursive-practice-sheets/"
+    ]
+  ],
+  "cta": {
+    "title": "Print a sheet of any word",
+    "text": "Type the word or sentence you are practising, choose the number of lines and print a cursive practice sheet to trace and copy. Free, no login.",
+    "href": "/cursive-practice-sheets.html",
+    "label": "Open the practice sheet generator"
+  },
+  "faq": [
+    {
+      "q": "Do you lift the pen when writing cursive words?",
+      "a": "Only at a few planned points. The letters of a lowercase word are written in one continuous line, and the pen comes up at the end to dot every i and j and cross every t and x. Some capitals also end with a lift before the next letter."
+    },
+    {
+      "q": "How do you write a word in cursive if you only know the letters?",
+      "a": "Learn the four joins first: undercurve, downcurve, overcurve and the bridge after b, o, v and w. Then practise two-letter pairs such as il, ea, in and ob before moving on to short words built only from letters you already know."
+    },
+    {
+      "q": "How much space should go between cursive words?",
+      "a": "About the width of a lowercase o, or roughly two finger-widths for a child writing on wide-ruled paper. Keep the gap the same across the line; uneven gaps make a sentence harder to read than uneven letters do."
+    },
+    {
+      "q": "Why do my cursive words lean in different directions?",
+      "a": "The paper is usually moving, or the downstrokes are being pulled toward the body at different angles. Tilt the paper once, keep it there, and draw every downstroke parallel. Light slant lines under the writing help while the habit forms."
+    },
+    {
+      "q": "How can I see how to write this in cursive before I practise it?",
+      "a": "Type the word or phrase into the cursive practice sheets generator and print it. The sheet shows it joined in a clear cursive model, followed by ruled lines where you copy it, so you can study every connection before you write."
+    }
+  ],
+  "heroAlt": "Cursive text generator mock-up beside a handwritten cursive alphabet, a reference for joining letters into cursive words"
+}

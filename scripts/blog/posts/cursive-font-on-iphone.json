@@ -1,0 +1,63 @@
+{
+  "slug": "cursive-font-on-iphone",
+  "navLabel": "Cursive on iPhone",
+  "title": "How to Get a Cursive Font on iPhone: 5 Methods That Work",
+  "seoTitle": "Cursive Font on iPhone: 5 Methods That Actually Work",
+  "description": "iOS has no cursive keyboard, but you can still get a cursive font on iPhone: copy-paste Unicode, Text Replacement, keyboards, fonts and iMessage handwriting.",
+  "excerpt": "iOS has no built-in cursive keyboard. Here are five ways to get cursive on iPhone anyway, from copy-paste Unicode and Text Replacement to installed fonts and iMessage handwriting.",
+  "tag": "How-to",
+  "date": "2026-09-30",
+  "readMinutes": 9,
+  "lede": "There is no setting that turns your keyboard into a cursive font on iPhone. There are five workarounds that do the job, though, and each one fits a different place the cursive needs to appear.",
+  "related": [
+    [
+      "Cursive Text Generator",
+      "/"
+    ],
+    [
+      "How to Type in Cursive",
+      "/blog/how-to-type-in-cursive/"
+    ],
+    [
+      "Cursive Name Generator",
+      "/cursive-name-generator.html"
+    ],
+    [
+      "Cursive Compatibility Guide",
+      "/cursive-compatibility.html"
+    ],
+    [
+      "Cursive Text on Instagram",
+      "/blog/cursive-text-instagram/"
+    ]
+  ],
+  "cta": {
+    "title": "Make cursive text on your iPhone",
+    "text": "Open the generator in Safari, type your text and tap copy on any cursive style. Paste it into Messages, Instagram, TikTok or Notes. Free, no sign-up.",
+    "href": "/",
+    "label": "Open the cursive generator"
+  },
+  "faq": [
+    {
+      "q": "Does the iPhone have a built-in cursive font?",
+      "a": "Not for typing. iOS has no cursive keyboard and does not let you change the system typeface. You can paste Unicode cursive characters into any app, or install cursive font files for use in apps with a font picker such as Pages and Keynote."
+    },
+    {
+      "q": "How do I get cursive on iPhone for Instagram and texts?",
+      "a": "Type your text in a Unicode cursive generator in Safari, tap copy on the style you like, and paste it into Instagram, Messages or TikTok. The cursive is built into the characters, so other people see it too."
+    },
+    {
+      "q": "Is an iPhone cursive keyboard app safe?",
+      "a": "It depends on the app. Keyboards that ask for Full Access can send data off the device, so read the privacy policy, avoid granting Full Access if the cursive feature works without it, and switch to the Apple keyboard for passwords and private messages."
+    },
+    {
+      "q": "Will installing a cursive font change my iPhone keyboard?",
+      "a": "No. Installed fonts only appear in apps that let you choose a font, like Pages, Keynote and Numbers. Messages, Instagram and your keyboard keep using their own fonts."
+    },
+    {
+      "q": "How do I write in real handwriting on iPhone?",
+      "a": "In Messages, rotate your iPhone to landscape and tap the handwriting button on the keyboard. Write with your finger and tap Done. The recipient sees your handwriting animate in iMessage."
+    }
+  ],
+  "heroAlt": "Cursive text generator open in Safari showing script styles to copy, the easiest way to get a cursive font on iPhone"
+}

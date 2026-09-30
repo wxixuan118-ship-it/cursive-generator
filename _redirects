@@ -188,3 +188,20 @@
 /fancy-cursive-signature.html              /copy-and-paste-cursive-signature.html     301!
 /elegant-cursive-signature.html            /copy-and-paste-cursive-signature.html     301!
 /cursive-signature-generator.html          /copy-and-paste-cursive-signature.html     301!
+
+# Trust pages (2026-09-30): canonical URLs are the .html files, but auditors and
+# AdSense reviewers probe the extensionless / conventional paths, which 404'd.
+/about                                     /about.html                                301
+/about/                                    /about.html                                301
+/contact                                   /contact.html                              301
+/contact/                                  /contact.html                              301
+/privacy                                   /privacy.html                              301
+/privacy/                                  /privacy.html                              301
+/privacy-policy                            /privacy.html                              301
+/privacy-policy/                           /privacy.html                              301
+/privacy-policy.html                       /privacy.html                              301
+/terms                                     /terms.html                                301
+/terms/                                    /terms.html                                301
+/terms-of-service                          /terms.html                                301
+/terms-of-service/                         /terms.html                                301
+/terms-of-service.html                     /terms.html                                301

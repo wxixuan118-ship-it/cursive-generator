@@ -130,6 +130,16 @@ www.cursive-text-generator.net {
   @letterIndex path_regexp letteridx ^/cursive-letters/([a-z])-in-cursive/index\.html$
   redir @letterIndex /cursive-letters/{re.letteridx.1}-in-cursive/ permanent
 
+  # Trust pages (2026-09-30): extensionless / conventional paths -> canonical .html
+  @about path /about /about/
+  redir @about /about.html permanent
+  @contact path /contact /contact/
+  redir @contact /contact.html permanent
+  @privacy path /privacy /privacy/ /privacy-policy /privacy-policy/ /privacy-policy.html
+  redir @privacy /privacy.html permanent
+  @terms path /terms /terms/ /terms-of-service /terms-of-service/ /terms-of-service.html
+  redir @terms /terms.html permanent
+
   # ─── Handle 404s ───
   error /404.html 404
 
