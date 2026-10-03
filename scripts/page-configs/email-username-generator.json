@@ -507,10 +507,6 @@
       [
         "Username generator",
         "/username-generator.html"
-      ],
-      [
-        "Instagram username generator",
-        "/instagram-username-generator.html"
       ]
     ]
   },
@@ -617,7 +613,7 @@
       {
         "key": "minimal",
         "title": "Minimal Email Usernames",
-        "blurb": "One quiet word plus a period — the addresses that look most like a real person. The [rare username generator](/rare-username-generator.html) has more uncommon words.",
+        "blurb": "One quiet word plus a period — the addresses that look most like a real person.",
         "examples": [
           "sarah.mail",
           "just.sarah",
@@ -748,11 +744,7 @@
           "symbols": "none",
           "separator": "period"
         },
-        "button": "Generate an alias ↑",
-        "link": [
-          "Reddit usernames",
-          "/reddit-username-generator.html"
-        ]
+        "button": "Generate an alias ↑"
       }
     ]
   },
@@ -853,7 +845,7 @@
   "uniqueH2": "Email Username Rules — Gmail, Outlook and Recruiters",
   "uniqueBody": [
     "**Gmail** usernames are 6 to 30 characters of letters, numbers and periods — and Gmail **ignores periods**, so sarah.smith, sarahsmith and s.a.r.a.h.smith all deliver to the same inbox and count as the same username when you sign up. Underscores and hyphens are not allowed. **Outlook** and Hotmail allow letters, numbers, periods, underscores and hyphens up to 64 characters; **iCloud** allows 3 to 20 with periods and underscores; **Proton** allows letters, numbers, periods, underscores and hyphens. None of them let you rename an existing address — you can only create a new one and forward the old — which is why an email username generator is worth using before you sign up rather than after.",
-    "The unwritten rule is about audience. A professional address is your name and nothing else (sarah.smith, s.smith); adding a nickname, a birth year or a hobby costs credibility on a CV and leaks personal data to every list the address ends up on. A personal address can carry a word; an alias for sign-ups should carry nothing. This page keeps those three apart as separate styles. If you want the same name across social platforms, the main [username generator](/username-generator.html) and the [Instagram username generator](/instagram-username-generator.html) check the same handle formats; for a private alias that also works as a Reddit account, the [Reddit username generator](/reddit-username-generator.html) shares the two-word anonymous pattern; and for the shortest possible address, the [short username generator](/short-username-generator.html) keeps everything under eight characters."
+    "The unwritten rule is about audience. A professional address is your name and nothing else (sarah.smith, s.smith); adding a nickname, a birth year or a hobby costs credibility on a CV and leaks personal data to every list the address ends up on. A personal address can carry a word; an alias for sign-ups should carry nothing. This page keeps those three apart as separate styles. If you want the same name across social platforms, the main [username generator](/username-generator.html) checks the same handle formats; for a private alias, the Anonymous style here leaves your real name out entirely; and for the shortest possible address, set Username length to Short to keep everything under eight characters."
   ],
   "source": {
     "before": "Gmail's character rules and the fact that periods are ignored are documented in ",
@@ -908,56 +900,40 @@
       "✦"
     ],
     [
-      "Instagram Username Generator",
-      "/instagram-username-generator.html",
-      "IG-safe handles that can match your email address.",
-      "◎"
-    ],
-    [
-      "Reddit Username Generator",
-      "/reddit-username-generator.html",
-      "Anonymous u/ names built the same two-word way as an alias.",
-      "👾"
-    ],
-    [
-      "Short Username Generator",
-      "/short-username-generator.html",
-      "3 to 8-letter handles — the shortest possible address.",
-      "·"
-    ],
-    [
-      "Rare Username Generator",
-      "/rare-username-generator.html",
-      "Uncommon words for addresses that are still available.",
-      "◇"
-    ],
-    [
       "Cursive Name Generator",
       "/cursive-name-generator.html",
       "Write your name in cursive for an email signature.",
       "✎"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and gamer-ready handles.",
+      "⚡"
+    ],
+    [
+      "Cute Username Generator",
+      "/cute-username-generator.html",
+      "Sweet, kawaii, soft and pastel names for a pastel feed.",
+      "♡"
+    ],
+    [
+      "Aesthetic Username Generator",
+      "/aesthetic-username-generator.html",
+      "Sixteen aesthetics from coquette to cottagecore and Y2K.",
+      "⋆"
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles for your community server.",
+      "💬"
     ]
   ],
   "asideLinks": [
     [
       "username generator",
       "/username-generator.html"
-    ],
-    [
-      "Instagram username generator",
-      "/instagram-username-generator.html"
-    ],
-    [
-      "Reddit username generator",
-      "/reddit-username-generator.html"
-    ],
-    [
-      "short username generator",
-      "/short-username-generator.html"
-    ],
-    [
-      "rare username generator",
-      "/rare-username-generator.html"
     ],
     [
       "cursive name generator",
@@ -968,8 +944,16 @@
       "/copy-and-paste-cursive-signature.html"
     ],
     [
-      "nickname generator",
-      "/nickname-generator.html"
+      "cool Username Generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "cute Username Generator",
+      "/cute-username-generator.html"
+    ],
+    [
+      "aesthetic Username Generator",
+      "/aesthetic-username-generator.html"
     ]
   ]
 }

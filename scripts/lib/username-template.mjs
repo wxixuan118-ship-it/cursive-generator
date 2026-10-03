@@ -201,7 +201,7 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
     `<a class="tool-card" href="${href}"><span>${esc(icon || '✦')}</span><strong>${esc(name)}</strong><em>${esc(note)}</em></a>`).join('\n          ');
 
   const footerCols = (p.footer || [
-    ['Username Generators', [['Username Generator', '/username-generator.html'], ['Aesthetic Usernames', '/aesthetic-username-generator.html'], ['Cute Usernames', '/cute-username-generator.html'], ['Cool Usernames', '/cool-username-generator.html'], ['Instagram Usernames', '/instagram-username-generator.html'], ['Gaming Usernames', '/gaming-username-generator.html']]],
+    ['Username Generators', [['Username Generator', '/username-generator.html'], ['Aesthetic Usernames', '/aesthetic-username-generator.html'], ['Cute Usernames', '/cute-username-generator.html'], ['Cool Usernames', '/cool-username-generator.html'], ['Discord Usernames', '/discord-username-generator.html'], ['Roblox Usernames', '/roblox-username-generator.html']]],
     ['Cursive Tools', [['Cursive Generator', '/'], ['Font Generator', '/cursive-font-generator.html'], ['Name Generator', '/cursive-name-generator.html'], ['Fancy Text', '/fancy-text-generator.html']]],
   ]).map(([t, items]) => `<div class="footer-col"><strong class="footer-col-title">${esc(t)}</strong>${items.map(([n, h]) => `<a href="${h}">${esc(n)}</a>`).join('')}</div>`).join('\n      ');
 
@@ -237,8 +237,7 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
   <meta name="twitter:title" content="${esc(p.title)}">
   <meta name="twitter:description" content="${esc(p.description)}">
   <meta name="twitter:image" content="${ogImage}">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260927">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="preload" href="/assets/styles.css?v=20260913" as="style">
   <link rel="stylesheet" href="/assets/styles.css?v=20260913">
@@ -247,12 +246,15 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebApplication', name: appName, url, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', browserRequirements: 'Requires JavaScript for generation', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description: p.description })}</script>
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${domain}/` }, { '@type': 'ListItem', position: 2, name: crumb[0], item: `${domain}${crumb[1]}` }, { '@type': 'ListItem', position: 3, name: appName, item: url }] })}</script>
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqJson })}</script>
+<link rel="stylesheet" href="/assets/site-layout.css?v=20260927b">
 </head>
 <body>
-  <header class="site-header"></header>
+  <aside class="house-ad" aria-label="Cursive Text Generator promotion" data-house-ad="top"><a href="/" aria-label="Open the Cursive Text Generator"><span class="house-ad-copy"><strong>Cursive Text Generator</strong><small>Turn plain words into beautiful script — free, instant, no signup.</small></span><span class="house-ad-samples" aria-hidden="true"><i>𝒞𝓊𝓇𝓈𝒾𝓋ℯ</i><i>𝓒𝓾𝓻𝓼𝓲𝓿𝓮</i><i>𝔠𝔲𝔯𝔰𝔦𝔳𝔢</i></span><span class="house-ad-cta">Try it free →</span></a></aside>
+<header class="site-header"></header>
   <nav class="nav-mobile-drawer" id="nav-drawer" aria-label="Mobile navigation"></nav>
 
-  <main class="page">
+  <div class="site-layout">
+<main class="page">
 
     <section class="tool-section" id="tool">
       <div class="wrap">
@@ -446,6 +448,7 @@ ${vocabHtml}${symbolsHtml}
       </div>
     </section>
   </main>
+</div>
 
   <footer class="site-footer">
     <div class="footer-body">
@@ -472,7 +475,7 @@ ${vocabHtml}${symbolsHtml}
   var USERNAME_CONFIG = ${JSON.stringify(engineCfg)};
   if (window.UsernameGenerator) UsernameGenerator.mount(USERNAME_CONFIG);
   </script>
-  <script src="/assets/navigation.js?v=20260919" defer></script>
+  <script src="/assets/navigation.js?v=20260930" defer></script>
 </body>
 </html>
 `;

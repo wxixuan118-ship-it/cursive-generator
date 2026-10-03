@@ -520,8 +520,8 @@
         "/cool-text-generator.html"
       ],
       [
-        "Gothic font generator",
-        "/gothic-font-generator.html"
+        "Glitch text generator",
+        "/glitch-text-generator.html"
       ]
     ]
   },
@@ -643,7 +643,7 @@
       {
         "key": "minimal",
         "title": "Minimal Cool Usernames",
-        "blurb": "One quiet word, four to eight letters, no decoration — the rarest kind. The [short username generator](/short-username-generator.html) enforces the length.",
+        "blurb": "One quiet word, four to eight letters, no decoration — the rarest kind. Set Username length to Short to keep it under eight characters.",
         "examples": [
           "maxink",
           "stilltone",
@@ -709,8 +709,8 @@
         },
         "button": "Generate for Instagram ↑",
         "link": [
-          "Instagram usernames",
-          "/instagram-username-generator.html"
+          "Instagram fonts",
+          "/instagram-font-generator.html"
         ]
       },
       {
@@ -748,11 +748,7 @@
           "separator": "none",
           "letters": "mixed"
         },
-        "button": "Generate a gamertag ↑",
-        "link": [
-          "Gaming usernames",
-          "/gaming-username-generator.html"
-        ]
+        "button": "Generate a gamertag ↑"
       },
       {
         "icon": "▶",
@@ -977,7 +973,7 @@
   "uniqueH2": "What Makes a Username Cool?",
   "uniqueBody": [
     "Cool usernames have less in them, not more. They use **hard, short words** — frost, onyx, blade, void, nova — with strong consonants and one or two syllables. They avoid **filler**: no *xX*, no *_69_*, no *123* unless the number means something. They pick **one texture** — cold, dark, metallic, cosmic — and stay in it, which is why *silentonyx* works and *silentbunny* does not. And they read the same out loud as on screen, so a friend can find you after hearing the name once.",
-    "That is why this cool username generator keeps eight separate vocabularies instead of one big list, and why the minimal style exists at all: sometimes the coolest handle is one plain word nobody else thought to take. If you need a name for a specific game, the [gaming username generator](/gaming-username-generator.html) and the [Roblox username generator](/roblox-username-generator.html) enforce each platform's format; for the softer end of the spectrum, the [aesthetic username generator](/aesthetic-username-generator.html) covers dreamy, vintage and Y2K; and the main [username generator](/username-generator.html) mixes every style in one tool."
+    "That is why this cool username generator keeps eight separate vocabularies instead of one big list, and why the minimal style exists at all: sometimes the coolest handle is one plain word nobody else thought to take. If you need a name for a specific game, the [Call of Duty username generator](/call-of-duty-username-generator.html) and the [Roblox username generator](/roblox-username-generator.html) enforce each platform's format; for the softer end of the spectrum, the [aesthetic username generator](/aesthetic-username-generator.html) covers dreamy, vintage and Y2K; and the main [username generator](/username-generator.html) mixes every style in one tool."
   ],
   "source": {
     "before": "Gamertag rules differ by console — ",
@@ -1056,22 +1052,6 @@
       "𝕮"
     ],
     [
-      "Gothic Font Generator",
-      "/gothic-font-generator.html",
-      "Blackletter and dark Unicode styles to paste anywhere.",
-      "✞"
-    ],
-    [
-      "Fortnite Username Generator",
-      "/fortnite-username-generator.html",
-      "Sweaty, funny and OG Fortnite names within Epic's rules."
-    ],
-    [
-      "PUBG Username Generator",
-      "/pubg-username-generator.html",
-      "Pro, sniper and clan-tag PUBG Mobile and BGMI names."
-    ],
-    [
       "Discord Username Generator",
       "/discord-username-generator.html",
       "Lowercase handles that pass Discord's rules, plus styled display names."
@@ -1097,10 +1077,6 @@
     [
       "cool text generator",
       "/cool-text-generator.html"
-    ],
-    [
-      "gothic font generator",
-      "/gothic-font-generator.html"
     ],
     [
       "glitch text generator",

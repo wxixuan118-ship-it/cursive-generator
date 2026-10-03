@@ -716,8 +716,8 @@
         },
         "button": "Generate for Instagram ↑",
         "link": [
-          "Instagram usernames",
-          "/instagram-username-generator.html"
+          "Instagram fonts",
+          "/instagram-font-generator.html"
         ]
       },
       {
@@ -733,11 +733,7 @@
           "style": "sweet",
           "symbols": "none"
         },
-        "button": "Generate for TikTok ↑",
-        "link": [
-          "TikTok fonts",
-          "/tiktok-font-generator.html"
-        ]
+        "button": "Generate for TikTok ↑"
       },
       {
         "icon": "⌁",
@@ -1063,21 +1059,6 @@
       "/aesthetic-symbols.html",
       "Bows, sparkles, stars and flowers to copy and paste.",
       "✿"
-    ],
-    [
-      "Nickname Generator",
-      "/nickname-generator.html",
-      "Cute, funny and cool nicknames built from a real name."
-    ],
-    [
-      "TikTok Username Generator",
-      "/tiktok-username-generator.html",
-      "TikTok-safe handles that are easy to say out loud, plus display-name ideas."
-    ],
-    [
-      "Snapchat Username Generator",
-      "/snapchat-username-generator.html",
-      "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes."
     ]
   ],
   "asideLinks": [

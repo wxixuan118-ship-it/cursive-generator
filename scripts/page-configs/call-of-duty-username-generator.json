@@ -8,10 +8,6 @@
   "description": "Call of Duty username generator: turn your name into sweaty, military, funny, clan-tag or OG COD and Warzone Activision IDs under 16 characters. Free.",
   "h1": "Call of Duty Username Generator",
   "appName": "Call of Duty Username Generator",
-  "crumb": [
-    "Gaming Usernames",
-    "/gaming-username-generator.html"
-  ],
   "linkNote": "Activision IDs for COD and Warzone — sweaty, military and clan-tag names under 16 characters.",
   "kicker": "Free · 8 COD styles · 24 names per batch · 16-character Activision rule",
   "sub": "Sweaty, military, funny, clan-tag and OG COD name ideas from your own name",
@@ -631,7 +627,7 @@
       {
         "key": "og",
         "title": "OG Call of Duty Usernames",
-        "blurb": "Vex, nyx, flint, sol — short names that read like a 2009 Modern Warfare 2 lobby. The [rare username generator](/rare-username-generator.html) digs deeper.",
+        "blurb": "Vex, nyx, flint, sol — short names that read like a 2009 Modern Warfare 2 lobby. Set Username length to Short to keep them under eight characters.",
         "examples": [
           "Vex",
           "Nyxo",
@@ -743,11 +739,7 @@
           "separator": "underscore",
           "letters": "mixed"
         },
-        "button": "Generate PSN-safe names ↑",
-        "link": [
-          "PSN name generator",
-          "/psn-name-generator.html"
-        ]
+        "button": "Generate PSN-safe names ↑"
       },
       {
         "icon": "▶",
@@ -764,11 +756,7 @@
           "length": "short",
           "letters": "mixed"
         },
-        "button": "Generate Xbox-length names ↑",
-        "link": [
-          "Gamertag generator",
-          "/gamertag-generator.html"
-        ]
+        "button": "Generate Xbox-length names ↑"
       },
       {
         "icon": "✦",
@@ -894,7 +882,7 @@
   "uniqueH2": "COD Username Rules — Activision IDs and Rename Tokens",
   "uniqueBody": [
     "Your Call of Duty name is your **Activision ID**: a display name of up to **16 characters** plus a **#digits** suffix that Activision adds automatically, so the name itself does not have to be unique. It is the name shown in Warzone, Modern Warfare, Black Ops and Mobile lobbies regardless of whether you play on PlayStation, Xbox or PC. Changing it is done at **profile.callofduty.com → Activision ID** and costs a **rename token**; Activision grants tokens periodically rather than letting you change the name freely, which is why it is worth generating several options here before you spend one.",
-    "That is why this COD name generator keeps every result under 16 characters with no symbols, and offers a Short preset for players who also want the name to fit an Xbox gamertag. For console-specific rules, the [gamertag generator](/gamertag-generator.html) keeps names under Xbox's 12 characters and the [PSN name generator](/psn-name-generator.html) follows PlayStation's format; the [gaming username generator](/gaming-username-generator.html) covers Steam, Nintendo and Discord; the [Fortnite username generator](/fortnite-username-generator.html) and [PUBG username generator](/pubg-username-generator.html) handle the other battle royales; and the main [username generator](/username-generator.html) mixes every style in one tool."
+    "That is why this COD name generator keeps every result under 16 characters with no symbols, and offers a Short preset for players who also want the name to fit an Xbox gamertag. Console rules are stricter than Activision's: Xbox gamertags stop at 12 characters, so pick the Short preset when the same name has to work there too. For Discord's lowercase handles, the [Discord username generator](/discord-username-generator.html) follows that format; the [Roblox username generator](/roblox-username-generator.html) covers Roblox; and the main [username generator](/username-generator.html) mixes every style in one tool."
   ],
   "source": {
     "before": "Activision ID rules and the rename-token system are described in ",
@@ -943,63 +931,49 @@
   },
   "links": [
     [
-      "Gamertag Generator",
-      "/gamertag-generator.html",
-      "12-character gamertags that fit Xbox and match your COD name.",
-      "🎮"
-    ],
-    [
-      "PSN Name Generator",
-      "/psn-name-generator.html",
-      "PlayStation online IDs in the same styles.",
-      "◎"
-    ],
-    [
-      "Gaming Username Generator",
-      "/gaming-username-generator.html",
-      "Every console and launcher in eight styles.",
-      "⌁"
-    ],
-    [
-      "Fortnite Username Generator",
-      "/fortnite-username-generator.html",
-      "Sweaty, funny and OG Fortnite names within Epic's rules.",
-      "🎯"
-    ],
-    [
-      "PUBG Username Generator",
-      "/pubg-username-generator.html",
-      "Pro, sniper and clan-tag PUBG Mobile names.",
-      "🔫"
-    ],
-    [
       "Cool Text Generator",
       "/cool-text-generator.html",
       "Gothic, double-struck and gaming letters for Discord and Twitch.",
       "𝕮"
+    ],
+    [
+      "Username Generator",
+      "/username-generator.html",
+      "The all-styles hub — aesthetic, cute, cool, gaming, funny and more.",
+      "✦"
+    ],
+    [
+      "Cool Username Generator",
+      "/cool-username-generator.html",
+      "Edgy, sleek, dark and gamer-ready handles.",
+      "⚡"
+    ],
+    [
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles for your community server.",
+      "💬"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html",
+      "Cool, cute and gaming names that follow Roblox's username format.",
+      "🎮"
+    ],
+    [
+      "Free Fire Font Generator",
+      "/free-fire-font-generator.html",
+      "Stylish Unicode name text that works in PUBG Mobile and BGMI too.",
+      "🔥"
+    ],
+    [
+      "Glitch Text Generator",
+      "/glitch-text-generator.html",
+      "Zalgo and corrupted text for bios and display names.",
+      "▓"
     ]
   ],
   "asideLinks": [
-    [
-      "gamertag generator",
-      "/gamertag-generator.html"
-    ],
-    [
-      "PSN name generator",
-      "/psn-name-generator.html"
-    ],
-    [
-      "gaming username generator",
-      "/gaming-username-generator.html"
-    ],
-    [
-      "Fortnite username generator",
-      "/fortnite-username-generator.html"
-    ],
-    [
-      "PUBG username generator",
-      "/pubg-username-generator.html"
-    ],
     [
       "cool text generator",
       "/cool-text-generator.html"
@@ -1011,6 +985,18 @@
     [
       "username generator",
       "/username-generator.html"
+    ],
+    [
+      "cool Username Generator",
+      "/cool-username-generator.html"
+    ],
+    [
+      "Roblox Username Generator",
+      "/roblox-username-generator.html"
+    ],
+    [
+      "Free Fire Font Generator",
+      "/free-fire-font-generator.html"
     ]
   ]
 }

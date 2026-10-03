@@ -523,10 +523,6 @@
     "text": "Copy an emo username, then paste it into a font tool to give your display name matching gothic, glitch or strikethrough letters.",
     "links": [
       [
-        "Gothic font generator",
-        "/gothic-font-generator.html"
-      ],
-      [
         "Glitch text generator",
         "/glitch-text-generator.html"
       ]
@@ -590,7 +586,7 @@
       {
         "key": "goth",
         "title": "Goth Usernames",
-        "blurb": "Raven, crypt, belladonna, requiem — velvet and candlelight. The [gothic font generator](/gothic-font-generator.html) has matching letters.",
+        "blurb": "Raven, crypt, belladonna, requiem — velvet and candlelight. The [freaky font generator](/freaky-font-generator.html) has matching dark letters.",
         "examples": [
           "velvetcrypt",
           "crimsonbelladonna",
@@ -665,7 +661,7 @@
       {
         "key": "y2kemo",
         "title": "Y2K Emo Usernames",
-        "blurb": "Broken hearts, razors, glitches, dollz and 2000 — the digital-era emo revival. See the [Y2K font generator](/y2k-font-generator.html) for matching text.",
+        "blurb": "Broken hearts, razors, glitches, dollz and 2000 — the digital-era emo revival. See the [glitch text generator](/glitch-text-generator.html) for matching text.",
         "examples": [
           "brokenheart2000",
           "cyberrazor",
@@ -716,8 +712,8 @@
         },
         "button": "Generate for Instagram ↑",
         "link": [
-          "Instagram usernames",
-          "/instagram-username-generator.html"
+          "Instagram fonts",
+          "/instagram-font-generator.html"
         ]
       },
       {
@@ -734,11 +730,7 @@
           "symbols": "none",
           "length": "short"
         },
-        "button": "Generate for TikTok ↑",
-        "link": [
-          "TikTok fonts",
-          "/tiktok-font-generator.html"
-        ]
+        "button": "Generate for TikTok ↑"
       },
       {
         "icon": "✦",
@@ -949,7 +941,7 @@
       "✖raven✖",
       "𝔁𝔁raven𝔁𝔁"
     ],
-    "note": "Symbol support varies by platform. Display names on Discord, TikTok and Tumblr accept these; username fields usually allow only letters, numbers, periods and underscores — which is why xx and _ survived as the emo markers that work everywhere. For full gothic and glitch alphabets, try the [gothic font generator](/gothic-font-generator.html), the [glitch text generator](/glitch-text-generator.html) or the [strikethrough text generator](/strikethrough-text-generator.html)."
+    "note": "Symbol support varies by platform. Display names on Discord, TikTok and Tumblr accept these; username fields usually allow only letters, numbers, periods and underscores — which is why xx and _ survived as the emo markers that work everywhere. For full gothic and glitch alphabets, try the [freaky font generator](/freaky-font-generator.html), the [glitch text generator](/glitch-text-generator.html) or the [strikethrough text generator](/strikethrough-text-generator.html)."
   },
   "guide": {
     "title": "How Our Emo Username Generator Works",
@@ -1023,7 +1015,7 @@
     ],
     [
       "Can I copy and paste the generated emo usernames?",
-      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style it afterwards, paste it into the [gothic font generator](/gothic-font-generator.html)."
+      "Yes. Every result has a Copy button, Copy All Usernames copies the visible list one per line, and the heart saves a name to My Favorites in your browser. To style it afterwards, paste it into the [freaky font generator](/freaky-font-generator.html)."
     ]
   ],
   "related": {
@@ -1050,42 +1042,22 @@
       "⋆"
     ],
     [
-      "Gothic Font Generator",
-      "/gothic-font-generator.html",
-      "Blackletter and dark Unicode letters for display names.",
-      "✞"
-    ],
-    [
       "Glitch Text Generator",
       "/glitch-text-generator.html",
       "Zalgo and corrupted text for bios and display names.",
       "▓"
     ],
     [
-      "Y2K Font Generator",
-      "/y2k-font-generator.html",
-      "Cyber and 2000s-style text for the Y2K emo look.",
-      "💔"
+      "Freaky Font Generator",
+      "/freaky-font-generator.html",
+      "Dark, distorted letters to match an emo username.",
+      "✝"
     ],
     [
-      "Gaming Username Generator",
-      "/gaming-username-generator.html",
-      "Gamertags for Xbox, PlayStation, Steam and Discord."
-    ],
-    [
-      "Fantasy Username Generator",
-      "/fantasy-username-generator.html",
-      "Elven, draconic, arcane and royal names for RPGs and D&D."
-    ],
-    [
-      "PUBG Username Generator",
-      "/pubg-username-generator.html",
-      "Pro, sniper and clan-tag PUBG Mobile and BGMI names."
-    ],
-    [
-      "Reddit Username Generator",
-      "/reddit-username-generator.html",
-      "Anonymous, funny and throwaway u/ names that follow Reddit's rules."
+      "Discord Username Generator",
+      "/discord-username-generator.html",
+      "Lowercase handles for your community server.",
+      "💬"
     ]
   ],
   "asideLinks": [
@@ -1102,20 +1074,12 @@
       "/aesthetic-username-generator.html"
     ],
     [
-      "gothic font generator",
-      "/gothic-font-generator.html"
-    ],
-    [
       "glitch text generator",
       "/glitch-text-generator.html"
     ],
     [
       "strikethrough text generator",
       "/strikethrough-text-generator.html"
-    ],
-    [
-      "Y2K font generator",
-      "/y2k-font-generator.html"
     ],
     [
       "fonts for Discord",

@@ -4,18 +4,17 @@
 # indexnow-urls.txt or assets/navigation.js without deciding to re-launch them.
 # The 31 nation pages retired on 2026-09-19 are tracked in scripts/nation-pages-content/retired.json.
 # Re-launched 2026-09-30 (removed from this list): stylish-text-generator.html, instagram-font-generator.html, aesthetic-symbols.html, invisible-text-generator.html, small-text-generator.html, italic-font-generator.html, glitch-text-generator.html, monospace-text-generator.html, strikethrough-text-generator.html, wide-text-generator.html, upside-down-text-generator.html, free-fire-font-generator.html.
+# Re-launched 2026-10-03 (removed from this list): call-of-duty-username-generator.html, cool-username-generator.html, cute-username-generator.html, discord-username-generator.html, email-username-generator.html, emo-username-generator.html.
 /angel-font-generator.html
 /baseball-font.html
 /blockletter-font.html
 /brat-font-generator.html
 /brush-script-handwriting-font.html
 /butterfly-font-generator.html
-/call-of-duty-username-generator.html
 /cherry-font-generator.html
 /chicano-font-generator.html
 /college-block-font-generator.html
 /comic-sans-font-generator.html
-/cool-username-generator.html
 /copy-and-paste-fonts.html
 /coquette-font-generator.html
 /creepy-font-generator.html
@@ -41,12 +40,8 @@
 /cursive-letters/y-in-cursive/
 /cursive-letters/z-in-cursive/
 /cursive-tattoo-font.html
-/cute-username-generator.html
 /daisy-font-generator.html
 /dancing-script-font.html
-/discord-username-generator.html
-/email-username-generator.html
-/emo-username-generator.html
 /fairy-font-generator.html
 /fantasy-username-generator.html
 /flower-font-generator.html
