@@ -13,16 +13,16 @@
   "lede": "Comparing Unicode cursive vs cursive fonts? A generator and a font file look similar on screen but behave very differently once you try to use them. This explainer draws the line between the two so you can pick the right tool.",
   "related": [
     [
-      "Cursive Fonts",
-      "/cursive-fonts.html"
+      "Cursive Compatibility Test",
+      "/cursive-compatibility.html"
     ],
     [
       "Cursive Font Generator",
       "/cursive-font-generator.html"
     ],
     [
-      "Free Commercial Cursive Fonts",
-      "/free-commercial-cursive-fonts/"
+      "Fancy Text Generator",
+      "/fancy-text-generator.html"
     ],
     [
       "Copy & Paste Cursive",

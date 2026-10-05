@@ -462,7 +462,7 @@ const pages = {
       ['Cursive Text Generator', '/', 'Every cursive script the site offers.'],
       ['Calligraphy Text Generator', '/calligraphy-text-generator.html', 'Formal calligraphic script styles.'],
       ['Brush Script Handwriting Font', '/brush-script-handwriting-font.html', 'Heavy, loose brush-pen-style script.'],
-      ['Cursive Signature Generator', '/cursive-signature-generator.html', 'Preview a name as a flowing signature.'],
+      ['Cursive Signature Generator', '/copy-and-paste-cursive-signature.html', 'Preview a name as a flowing signature.'],
       ['Bold Font Generator', '/bold-font-generator.html', 'Serif, sans, italic and script bold.'],
       ['Italic Font Generator', '/italic-font-generator.html', 'Slanted serif, sans and script letters.'],
       ['Serif Font Generator', '/serif-font-generator.html', 'Editorial serif text: bold, italic, double-struck.'],
