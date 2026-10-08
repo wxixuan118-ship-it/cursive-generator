@@ -166,18 +166,15 @@
 
   // Shared desktop ad rails. They are deliberately empty placeholders so an
   // ad provider can mount units without changing every generated page.
-  if (!document.querySelector(".side-ad-rails")) {
+  // Pages that lay out their own rails (the homepage's .side-rail) skip these.
+  if (!document.querySelector(".side-ad-rails, .side-rail")) {
     document.body.classList.add("has-side-ad-rails");
     const rails = document.createElement("div");
     rails.className = "side-ad-rails";
-    rails.setAttribute("aria-label", "Advertisement spaces");
+    rails.setAttribute("aria-hidden", "true");
     rails.innerHTML = `
-      <aside class="side-ad-slot side-ad-slot-left" aria-label="Left advertisement">
-        <span>Advertisement</span>
-      </aside>
-      <aside class="side-ad-slot side-ad-slot-right" aria-label="Right advertisement">
-        <span>Advertisement</span>
-      </aside>`;
+      <aside class="side-ad-slot side-ad-slot-left"></aside>
+      <aside class="side-ad-slot side-ad-slot-right"></aside>`;
     document.body.appendChild(rails);
   }
 
