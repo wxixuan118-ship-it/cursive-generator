@@ -133,9 +133,14 @@ function lint(cfg) {
   const GENERIC = new Set(['click here', 'here', 'read more', 'learn more', 'more', 'link', 'this page']);
   const links = cfg.links || [];
   if (links.length < 5) warn('links', `${links.length} related-tool cards — need 5+`);
+  // Check against public/ (the served tree), not the root: retired pages keep their source
+  // in the root but 404 in production. Forced redirect sources are flagged too.
+  const redirected = new Set(fs.readFileSync(path.join(root, 'public/_redirects'), 'utf8').split('\n')
+    .map((l) => l.trim().split(/\s+/)).filter((p) => p.length >= 3 && p[0].startsWith('/') && p[2].endsWith('!')).map((p) => p[0]));
   const checkHref = (field, name, href) => {
     if (href === '/' || href.startsWith('#')) return;
-    if (!href.startsWith('/') || !fs.existsSync(path.join(root, href.replace(/^\//, '').replace(/\/$/, '/index.html')))) warn(field, `"${href}" does not resolve to a file in the site root`);
+    if (!href.startsWith('/') || !fs.existsSync(path.join(root, 'public', href.replace(/^\//, '').replace(/\/$/, '/index.html')))) warn(field, `"${href}" does not resolve to a live page in public/`);
+    else if (redirected.has(href)) warn(field, `"${href}" is a redirect source — link the destination instead`);
     if (GENERIC.has((name || '').toLowerCase())) warn(field, `anchor "${name}" is generic`);
   };
   for (const [name, href] of links) checkHref('links', name, href);

@@ -117,7 +117,7 @@ const chrome = (crumb) => `<body>
       <a class="brand" href="/"><span class="brand-mark">C</span><span>Cursive Generator</span></a>
       <div class="nav-links">
         <a href="/">Generator</a>
-        <a href="/cursive-fonts.html">Fonts</a>
+        <a href="/cursive-font-generator.html">Fonts</a>
         <a href="/cursive-name-generator.html">Names</a>
         <a href="/aesthetic-fonts.html">Styles</a>
         <a href="/super-bowl-2027-font-generator.html">Themes</a>
@@ -138,7 +138,7 @@ const chrome = (crumb) => `<body>
     <div class="nav-mobile-section">
       <div class="nav-mobile-label">Explore</div>
       <a href="/">Generator</a>
-        <a href="/cursive-fonts.html">Fonts</a>
+        <a href="/cursive-font-generator.html">Fonts</a>
         <a href="/cursive-name-generator.html">Names</a>
         <a href="/aesthetic-fonts.html">Styles</a>
         <a href="/super-bowl-2027-font-generator.html">Themes</a>
@@ -322,7 +322,7 @@ ${cards}
           <p>Where copied cursive works, where it is rejected, and how to keep a profile readable. The <a href="/blog/cursive-text-instagram/">Instagram guide</a> covers the Name field, bio, captions, Stories and Notes, and explains why the @username has to stay plain. For quick styling, the <a href="/instagram-font-generator.html">Instagram font generator</a> puts the most reliable styles side by side.</p>
 
           <h3>How Unicode cursive works</h3>
-          <p>The script letters you copy are not a font file. Most come from the <a href="https://www.unicode.org/charts/PDF/U1D400.pdf" target="_blank" rel="noopener">Mathematical Alphanumeric Symbols</a> block of the Unicode standard, so they travel inside the text itself. <a href="/blog/unicode-cursive-vs-cursive-fonts/">Unicode cursive vs cursive fonts</a> explains when to paste characters and when to install a real <a href="/cursive-fonts.html">cursive font</a> instead.</p>
+          <p>The script letters you copy are not a font file. Most come from the <a href="https://www.unicode.org/charts/PDF/U1D400.pdf" target="_blank" rel="noopener">Mathematical Alphanumeric Symbols</a> block of the Unicode standard, so they travel inside the text itself. <a href="/blog/unicode-cursive-vs-cursive-fonts/">Unicode cursive vs cursive fonts</a> explains when to paste characters and when to install a real cursive font instead.</p>
 
           <h3>Fixing cursive display problems</h3>
           <p>When a reader sees boxes, question marks or blank squares, the characters are usually fine and the device is missing a font. The guide to <a href="/blog/cursive-text-shows-boxes/">cursive text that shows as boxes</a> walks through the causes and fixes, and the <a href="/cursive-compatibility.html">cursive compatibility test</a> lets you check a style before you publish it.</p>

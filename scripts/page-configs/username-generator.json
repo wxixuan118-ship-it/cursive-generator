@@ -685,7 +685,7 @@
     "links": [
       [
         "Cursive Text Generator",
-        "/cursive-text-generator.html"
+        "/"
       ],
       [
         "Fancy & cute fonts",
@@ -760,7 +760,7 @@
       {
         "key": "gaming",
         "title": "Gaming Usernames",
-        "blurb": "Gamertags that fit Xbox, PlayStation, Steam and Discord — knights, snipers, titans and ghosts. See the [gaming usernames page](/gaming-username-generator.html).",
+        "blurb": "Gamertags that fit Xbox, PlayStation, Steam and Discord — knights, snipers, titans and ghosts. For Activision IDs, the [Call of Duty usernames page](/call-of-duty-username-generator.html) follows the 16-character rule.",
         "examples": [
           "pixelknight",
           "alexgg",
@@ -799,7 +799,7 @@
       {
         "key": "fantasy",
         "title": "Fantasy Usernames",
-        "blurb": "Dragons, runes, elves and oracles — names for RPG characters and D&D handles. The [fantasy usernames page](/fantasy-username-generator.html) goes deeper.",
+        "blurb": "Dragons, runes, elves and oracles — names for RPG characters and D&D handles.",
         "examples": [
           "emberdragon",
           "alexborn",
@@ -812,7 +812,7 @@
       {
         "key": "minimal",
         "title": "Minimal & Short Usernames",
-        "blurb": "One quiet word, four to eight letters, no decoration. If you specifically need short handles, the [short usernames page](/short-username-generator.html) enforces the length.",
+        "blurb": "One quiet word, four to eight letters, no decoration.",
         "examples": [
           "alexink",
           "stillhue",
@@ -874,8 +874,8 @@
         },
         "button": "Generate for Instagram ↑",
         "link": [
-          "Instagram username generator",
-          "/instagram-username-generator.html"
+          "Instagram fonts",
+          "/instagram-font-generator.html"
         ]
       },
       {
@@ -893,8 +893,8 @@
         },
         "button": "Generate for TikTok ↑",
         "link": [
-          "TikTok fonts",
-          "/tiktok-font-generator.html"
+          "Cute usernames",
+          "/cute-username-generator.html"
         ]
       },
       {
@@ -1038,7 +1038,7 @@
   "uniqueH2": "Username Generator vs Username Lists",
   "uniqueBody": [
     "A list of 500 username ideas is only useful until the 499 other people who read it take the good ones. A username generator built around *your* word is different: **alexhaze** or **frostalex** is far less likely to be taken than **moonchild**, because it starts from something specific to you. That is why every pattern on this page keeps your word whole rather than replacing it.",
-    "If you want a name that has nothing to do with you — for an anonymous account, an alt or a brand — leave the box empty. The generator then combines two vocabulary words from the chosen style, which behaves like a random username maker with a consistent mood. The dedicated pages for [aesthetic](/aesthetic-username-generator.html), [cute](/cute-username-generator.html), [cool](/cool-username-generator.html), [gaming](/gaming-username-generator.html), [fantasy](/fantasy-username-generator.html), [emo](/emo-username-generator.html), [rare](/rare-username-generator.html) and [short](/short-username-generator.html) usernames each carry a much larger word list than the shared styles here, so if you already know the vibe you want, start there.",
+    "If you want a name that has nothing to do with you — for an anonymous account, an alt or a brand — leave the box empty. The generator then combines two vocabulary words from the chosen style, which behaves like a random username maker with a consistent mood. The dedicated pages for [aesthetic](/aesthetic-username-generator.html), [cute](/cute-username-generator.html), [cool](/cool-username-generator.html) and [emo](/emo-username-generator.html) usernames each carry a much larger word list than the shared styles here, so if you already know the vibe you want, start there.",
     "Whatever you pick, check the platform's rules before you commit: Instagram and Discord allow periods and underscores but no symbols in the handle, Roblox allows one underscore, Reddit allows underscores and hyphens, and most games cap the length at 12 to 20 characters."
   ],
   "source": {
@@ -1067,7 +1067,7 @@
     ],
     [
       "Which username styles are included?",
-      "Aesthetic, cute, cool, gaming, funny, dark, fantasy, minimal, emo, preppy, retro and nature. Each style has its own vocabulary and symbol set, and most of them also have a dedicated page with a larger word list, for example the [cute usernames page](/cute-username-generator.html) and the [gaming usernames page](/gaming-username-generator.html)."
+      "Aesthetic, cute, cool, gaming, funny, dark, fantasy, minimal, emo, preppy, retro and nature. Each style has its own vocabulary and symbol set, and most of them also have a dedicated page with a larger word list, for example the [cute usernames page](/cute-username-generator.html) and the [emo usernames page](/emo-username-generator.html)."
     ],
     [
       "What characters can I use in a username?",
@@ -1075,11 +1075,11 @@
     ],
     [
       "Can I use these usernames for gaming?",
-      "Yes. Pick the Gaming style, set Symbols to None and Separator to None, and the results are plain gamertags that Xbox, PlayStation, Steam and most games accept. For game-specific rules use the [Roblox usernames page](/roblox-username-generator.html) or the [gaming usernames page](/gaming-username-generator.html)."
+      "Yes. Pick the Gaming style, set Symbols to None and Separator to None, and the results are plain gamertags that Xbox, PlayStation, Steam and most games accept. For game-specific rules use the [Roblox usernames page](/roblox-username-generator.html) or the [Call of Duty usernames page](/call-of-duty-username-generator.html)."
     ],
     [
       "How do I make my username look fancy?",
-      "Generate the plain username here, then paste it into the [cursive text generator](/cursive-text-generator.html) or the [fancy text generator](/fancy-text-generator.html) to convert it into cursive, bold, bubble or aesthetic Unicode letters for your display name or bio."
+      "Generate the plain username here, then paste it into the [cursive text generator](/) or the [fancy text generator](/fancy-text-generator.html) to convert it into cursive, bold, bubble or aesthetic Unicode letters for your display name or bio."
     ]
   ],
   "related": {
@@ -1106,40 +1106,10 @@
       "⚡"
     ],
     [
-      "Instagram Usernames",
-      "/instagram-username-generator.html",
-      "IG-safe handles that follow Instagram's username rules.",
-      "◎"
-    ],
-    [
-      "Gaming Usernames",
-      "/gaming-username-generator.html",
-      "Gamertags for Xbox, PlayStation, Steam and Discord.",
-      "⌁"
-    ],
-    [
-      "Fantasy Usernames",
-      "/fantasy-username-generator.html",
-      "Elven, draconic, arcane and royal names for RPGs and D&D.",
-      "✧"
-    ],
-    [
       "Emo Usernames",
       "/emo-username-generator.html",
       "Emo, scene, goth and grunge names with xx and ✞.",
       "✞"
-    ],
-    [
-      "Rare Usernames",
-      "/rare-username-generator.html",
-      "Obscure words, old names and OG short forms that are rarely taken.",
-      "◇"
-    ],
-    [
-      "Short Usernames",
-      "/short-username-generator.html",
-      "Every result 8 characters or fewer — 3 to 6-letter handles.",
-      "·"
     ],
     [
       "Roblox Usernames",
@@ -1148,88 +1118,9 @@
       "🎮"
     ],
     [
-      "Fortnite Usernames",
-      "/fortnite-username-generator.html",
-      "Sweaty, funny and OG Fortnite names within Epic's rules.",
-      "🎯"
-    ],
-    [
-      "PUBG Usernames",
-      "/pubg-username-generator.html",
-      "Pro, sniper and clan-tag PUBG Mobile and BGMI names.",
-      "🔫"
-    ],
-    [
-      "Reddit Usernames",
-      "/reddit-username-generator.html",
-      "Anonymous, funny and throwaway u/ names that follow Reddit's rules.",
-      "👾"
-    ],
-    [
-      "Nickname Generator",
-      "/nickname-generator.html",
-      "Cute, funny and cool nicknames built from a real name.",
-      "✎"
-    ],
-    [
       "Discord Usernames",
       "/discord-username-generator.html",
       "Lowercase handles that pass Discord's rules, plus styled display names."
-    ],
-    [
-      "TikTok Usernames",
-      "/tiktok-username-generator.html",
-      "TikTok-safe handles that are easy to say out loud, plus display-name ideas."
-    ],
-    [
-      "Gamertag Generator",
-      "/gamertag-generator.html",
-      "Xbox-length gamertags (12 characters) that also work on PSN, Steam and Discord."
-    ],
-    [
-      "YouTube Channel Names",
-      "/youtube-channel-name-generator.html",
-      "Channel names and @handles for gaming, vlog, tech, music and faceless channels."
-    ],
-    [
-      "Twitter Usernames",
-      "/twitter-username-generator.html",
-      "Short X handles under the 15-character limit — funny, professional, anonymous."
-    ],
-    [
-      "Twitch Usernames",
-      "/twitch-username-generator.html",
-      "Streamer names that fit Twitch's rules and can be said in a raid message."
-    ],
-    [
-      "PSN Names",
-      "/psn-name-generator.html",
-      "PlayStation online IDs that follow PSN's 3–16 character, letter-first rule."
-    ],
-    [
-      "Minecraft Usernames",
-      "/minecraft-username-generator.html",
-      "Java-rule Minecraft names (3–16 characters, underscores only) that fit Bedrock too."
-    ],
-    [
-      "Snapchat Usernames",
-      "/snapchat-username-generator.html",
-      "Snap-safe usernames under the 15-character, letter-first rule — pick once, it barely changes."
-    ],
-    [
-      "Steam Usernames",
-      "/steam-username-generator.html",
-      "Steam profile names with symbols allowed, plus a plain custom URL that matches."
-    ],
-    [
-      "Valorant Names",
-      "/valorant-name-generator.html",
-      "Riot IDs under 16 characters — sweaty, agent-themed and duo names with a #tagline."
-    ],
-    [
-      "Summoner Names",
-      "/summoner-name-generator.html",
-      "League of Legends Riot IDs — champion, role, lore and sweaty summoner names under 16 characters."
     ],
     [
       "Call of Duty Usernames",
@@ -1269,7 +1160,7 @@
     ],
     [
       "cursive text generator",
-      "/cursive-text-generator.html"
+      "/"
     ],
     [
       "aesthetic symbols",

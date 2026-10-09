@@ -5,6 +5,7 @@
 # The 31 nation pages retired on 2026-09-19 are tracked in scripts/nation-pages-content/retired.json.
 # Re-launched 2026-09-30 (removed from this list): stylish-text-generator.html, instagram-font-generator.html, aesthetic-symbols.html, invisible-text-generator.html, small-text-generator.html, italic-font-generator.html, glitch-text-generator.html, monospace-text-generator.html, strikethrough-text-generator.html, wide-text-generator.html, upside-down-text-generator.html, free-fire-font-generator.html.
 # Re-launched 2026-10-03 (removed from this list): call-of-duty-username-generator.html, cool-username-generator.html, cute-username-generator.html, discord-username-generator.html, email-username-generator.html, emo-username-generator.html.
+# Served again since 8856510 (2026-09-27) and removed from this list 2026-10-05: /username-generator.html, /cursive-letters/c-in-cursive/, /cursive-letters/k-in-cursive/.
 /angel-font-generator.html
 /baseball-font.html
 /blockletter-font.html
@@ -19,13 +20,11 @@
 /coquette-font-generator.html
 /creepy-font-generator.html
 /crown-font-generator.html
-/cursive-letters/c-in-cursive/
 /cursive-letters/d-in-cursive/
 /cursive-letters/f-in-cursive/
 /cursive-letters/g-in-cursive/
 /cursive-letters/h-in-cursive/
 /cursive-letters/i-in-cursive/
-/cursive-letters/k-in-cursive/
 /cursive-letters/l-in-cursive/
 /cursive-letters/m-in-cursive/
 /cursive-letters/n-in-cursive/
@@ -84,7 +83,6 @@
 /twitch-username-generator.html
 /twitter-username-generator.html
 /undertale-font-generator.html
-/username-generator.html
 /valorant-name-generator.html
 /varsity-font-generator.html
 /vine-font-generator.html
