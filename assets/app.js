@@ -228,8 +228,8 @@ function showToast(message) {
 
 async function copyText(text) {
   try {
-    await navigator.clipboard.writeText(`${text}\nhttps://www.cursive-text-generator.net/`);
-    showToast("Copied with our site link included");
+    await navigator.clipboard.writeText(text);
+    showToast("Copied");
   } catch {
     showToast("Select and copy the text manually");
   }

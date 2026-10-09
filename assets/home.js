@@ -1,5 +1,4 @@
 (() => {
-const SITE = "https://www.cursive-text-generator.net/";
 
 const STYLES = [
   { key: "script", cat: "pretty", name: "Cursive Script",
@@ -113,6 +112,36 @@ function flash(btn, label) {
   btn.innerHTML = label;
   clearTimeout(btn._t);
   btn._t = setTimeout(() => { btn.classList.remove("is-done"); btn.innerHTML = html; }, 1300);
+}
+
+// After a copy, offer the next step right under the copied row: where people paste
+// cursive text, plus one page matching the style family they picked.
+const NEXT_BY_CAT = {
+  pretty: ["/cursive-name-generator.html", "Cursive names"],
+  bold: ["/cursive-bold-generator.html", "More bold cursive"],
+  italic: ["/italic-font-generator.html", "More italic fonts"],
+  gothic: ["/fancy-text-generator.html", "More fancy text"],
+  clean: ["/aesthetic-fonts.html", "Aesthetic fonts"]
+};
+const NEXT_LINKS = [
+  ["/instagram-font-generator.html", "Instagram fonts"],
+  ["/fonts-for-discord.html", "Discord fonts"],
+  ["/copy-and-paste-cursive-signature.html", "Cursive signatures"]
+];
+let nextBar = null;
+function showNext(btn, key) {
+  const row = btn.closest(".hg-result");
+  const style = STYLES.find((s) => s.key === key);
+  if (!row || !style) return;
+  if (!nextBar) {
+    nextBar = document.createElement("nav");
+    nextBar.className = "hg-next";
+    nextBar.setAttribute("aria-label", "Next steps");
+  }
+  const links = [NEXT_BY_CAT[style.cat], ...NEXT_LINKS].filter(Boolean)
+    .map(([href, label]) => `<a href="${href}">${label}</a>`).join("");
+  nextBar.innerHTML = `<span class="hg-next-title">Next:</span>${links}<button type="button" class="hg-next-img" data-tab="graphic">Need an image? Graphic fonts</button>`;
+  row.after(nextBar);
 }
 
 const pressed = (on) => `aria-pressed="${on ? "true" : "false"}"`;
@@ -284,7 +313,7 @@ sizeInput?.addEventListener("input", () => {
 
 function setTab(tab) {
   state.tab = tab;
-  document.querySelectorAll("[data-tab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === tab ? "true" : "false"));
+  document.querySelectorAll(".hg-tab[data-tab]").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === tab ? "true" : "false"));
   document.querySelectorAll("[data-panel]").forEach((p) => { p.hidden = p.dataset.panel !== tab; });
   if (tab === "graphic") { loadGraphicFonts(); renderGraphicControls(); renderGraphicFonts(); }
 }
@@ -293,15 +322,20 @@ document.addEventListener("click", async (e) => {
   const t = e.target.closest("button");
   if (!t) return;
   const d = t.dataset;
-  if (d.tab) return setTab(d.tab);
+  if (d.tab) {
+    setTab(d.tab);
+    if (t.classList.contains("hg-next-img")) $(".hg-tabs")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
   if (d.decoCat) { state.decoCat = d.decoCat; return renderDecoBar(); }
   if (d.deco !== undefined) { state.deco = d.deco || null; renderDecoBar(); return renderResults(); }
   if (d.styleCat) { state.styleCat = d.styleCat; renderStyleCats(); return renderResults(); }
   if (d.copy) {
     const out = $(`[data-out="${d.copy}"]`);
     if (!out) return;
-    try { await navigator.clipboard.writeText(`${out.textContent}\n${SITE}`); flash(t, `${ICON_COPY}Copied`); showToast("Copied with our site link included"); }
+    try { await navigator.clipboard.writeText(out.textContent); flash(t, `${ICON_COPY}Copied`); showToast("Copied"); }
     catch { showToast("Select and copy the text manually"); }
+    showNext(t, d.copy);
     return;
   }
   if (d.png) {
