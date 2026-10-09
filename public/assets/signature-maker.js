@@ -50,8 +50,10 @@
   var grid = root.querySelector('[data-sig-grid]');
   var inkRow = root.querySelector('[data-sig-inks]');
   var weightSel = root.querySelector('[data-sig-weight]');
+  var sizeIn = root.querySelector('[data-sig-size]');
+  var sizeOut = root.querySelector('[data-sig-size-out]');
   var toast = document.querySelector('[data-sig-toast]');
-  var ink = INKS[0][0], weight = 0;
+  var timer, ink = INKS[0][0], weight = 0, fontPx = sizeIn ? Number(sizeIn.value) || 48 : 48;
 
   function say(msg) {
     if (!toast) return;
@@ -80,26 +82,28 @@
     return raw.split(/\s+/).map(function (w) { return w.charAt(0).toUpperCase(); }).join('');
   }
   function build(s) {
-    var f = FONTS[s.font], size = 96 * (s.size || 1) * (f.size || 1) * (s.initials ? 1.25 : 1);
+    /* fontPx is the chosen font size; padding and strokes scale with it */
+    var k = fontPx / 96, wt = weight * k;
+    var f = FONTS[s.font], size = fontPx * (s.size || 1) * (f.size || 1) * (s.initials ? 1.25 : 1);
     var str = textFor(s), sp = s.spacing || 0;
     var m = measure(str, f.family, size, sp);
     /* script swashes overhang the advance width; use the ink box when wider */
     var inkW = Math.max(m.w, m.left + m.right);
     var slant = s.slant || 0, skew = Math.tan(Math.abs(slant) * Math.PI / 180) * (m.asc + m.desc);
-    var padX = 36, padY = 28;
-    var w = Math.ceil(inkW + skew + padX * 2), h = Math.ceil(m.asc + m.desc + padY * 2 + (s.underline ? 22 : 0));
+    var padX = Math.round(36 * k), padY = Math.round(28 * k);
+    var w = Math.ceil(inkW + skew + padX * 2), h = Math.ceil(m.asc + m.desc + padY * 2 + (s.underline ? 22 * k : 0));
     var svg = el('svg', { xmlns: NS, viewBox: '0 0 ' + w + ' ' + h, width: w, height: h, role: 'img',
                           'aria-label': str + ' as a ' + s.name.toLowerCase() + ' signature' });
     var baseline = padY + m.asc, x = padX + m.left + (slant < 0 ? skew : 0);
     var t = el('text', { x: x, y: baseline, 'font-family': "'" + f.family + "'", 'font-size': size, fill: ink });
     if (sp) t.setAttribute('letter-spacing', sp);
-    if (weight) { t.setAttribute('stroke', ink); t.setAttribute('stroke-width', weight); t.setAttribute('paint-order', 'stroke'); t.setAttribute('stroke-linejoin', 'round'); }
+    if (weight) { t.setAttribute('stroke', ink); t.setAttribute('stroke-width', wt); t.setAttribute('paint-order', 'stroke'); t.setAttribute('stroke-linejoin', 'round'); }
     if (slant) t.setAttribute('transform', 'skewX(' + slant + ')');
     t.textContent = str; svg.appendChild(t);
     if (s.underline) {
-      var y = baseline + Math.max(14, m.desc * 0.55), x1 = padX - 6, x2 = padX + inkW + 10;
-      var d = 'M' + x1 + ' ' + (y + 6) + ' C ' + (x1 + inkW * 0.25) + ' ' + (y - 8) + ', ' + (x1 + inkW * 0.6) + ' ' + (y + 10) + ', ' + x2 + ' ' + (y - 2);
-      svg.appendChild(el('path', { d: d, fill: 'none', stroke: ink, 'stroke-width': 2.2 + weight, 'stroke-linecap': 'round' }));
+      var y = baseline + Math.max(14 * k, m.desc * 0.55), x1 = padX - 6 * k, x2 = padX + inkW + 10 * k;
+      var d = 'M' + x1 + ' ' + (y + 6 * k) + ' C ' + (x1 + inkW * 0.25) + ' ' + (y - 8 * k) + ', ' + (x1 + inkW * 0.6) + ' ' + (y + 10 * k) + ', ' + x2 + ' ' + (y - 2 * k);
+      svg.appendChild(el('path', { d: d, fill: 'none', stroke: ink, 'stroke-width': (2.2 + weight) * k, 'stroke-linecap': 'round' }));
     }
     return svg;
   }
@@ -178,7 +182,7 @@
       sv.addEventListener('click', function () { exportSvg(s, base); });
       actions.appendChild(png); actions.appendChild(sv); head.appendChild(actions);
       var box = document.createElement('div'); box.className = 'sm-preview';
-      var svg = build(s); svg.setAttribute('width', '100%'); svg.removeAttribute('height');
+      var svg = build(s);   /* real pixel size; CSS max-width shrinks it only when wider than the card */
       box.appendChild(svg);
       card.appendChild(head); card.appendChild(box); grid.appendChild(card);
     });
@@ -195,7 +199,11 @@
     render(); pad.setColor(ink);
   });
   if (weightSel) weightSel.addEventListener('change', function () { weight = Number(weightSel.value) || 0; render(); });
-  var timer;
+  if (sizeIn) sizeIn.addEventListener('input', function () {
+    fontPx = Number(sizeIn.value) || 48;
+    if (sizeOut) sizeOut.textContent = fontPx + 'px';
+    clearTimeout(timer); timer = setTimeout(render, 40);
+  });
   input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(render, 60); });
 
   /* ---------- draw pad ---------- */
