@@ -92,6 +92,8 @@
 /y2k-font-generator.html
 /youtube-channel-name-generator.html
 # Retired 2026-10-09 with 301s (see _redirects): GSC showed 0 clicks / 31 impressions in 3 months across all nine.
+# The host was not loading _redirects/Caddyfile changes made after 2026-09-22, so public/ holds a
+# meta-refresh stub at each of these paths (source page stays in the repo root). Rules use 301! so they win once reloaded.
 /username-generator.html
 /email-username-generator.html
 /aesthetic-username-generator.html
