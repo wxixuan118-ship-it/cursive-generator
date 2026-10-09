@@ -91,3 +91,13 @@
 /weird-font-generator.html
 /y2k-font-generator.html
 /youtube-channel-name-generator.html
+# Retired 2026-10-09 with 301s (see _redirects): GSC showed 0 clicks / 31 impressions in 3 months across all nine.
+/username-generator.html
+/email-username-generator.html
+/aesthetic-username-generator.html
+/discord-username-generator.html
+/cool-username-generator.html
+/cute-username-generator.html
+/roblox-username-generator.html
+/call-of-duty-username-generator.html
+/emo-username-generator.html

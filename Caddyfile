@@ -63,11 +63,25 @@ www.cursive-text-generator.net {
   @boldfont path /cursive-bold-font-generator /cursive-bold-font-generator/ /cursive-bold-font-generator/index.html
   redir @boldfont /cursive-bold-generator.html permanent
 
-  # Username generators (2026-09-13) -> flat .html
-  @robloxug path /roblox-username-generator /roblox-username-generator/ /roblox-username-generator/index.html
-  redir @robloxug /roblox-username-generator.html permanent
-  @aestheticug path /aesthetic-username-generator /aesthetic-username-generator/ /aesthetic-username-generator/index.html
-  redir @aestheticug /aesthetic-username-generator.html permanent
+  # Username generators retired 2026-10-09 -> nearest live tool (mirrors public/_redirects)
+  @ug0 path /username-generator.html /username-generator /username-generator/ /username-generator/index.html
+  redir @ug0 /cursive-name-generator.html permanent
+  @ug1 path /email-username-generator.html /email-username-generator /email-username-generator/ /email-username-generator/index.html
+  redir @ug1 /cursive-name-generator.html permanent
+  @ug2 path /aesthetic-username-generator.html /aesthetic-username-generator /aesthetic-username-generator/ /aesthetic-username-generator/index.html
+  redir @ug2 /aesthetic-fonts.html permanent
+  @ug3 path /discord-username-generator.html /discord-username-generator /discord-username-generator/ /discord-username-generator/index.html
+  redir @ug3 /fonts-for-discord.html permanent
+  @ug4 path /cool-username-generator.html /cool-username-generator /cool-username-generator/ /cool-username-generator/index.html
+  redir @ug4 /cool-text-generator.html permanent
+  @ug5 path /cute-username-generator.html /cute-username-generator /cute-username-generator/ /cute-username-generator/index.html
+  redir @ug5 /cute-fonts.html permanent
+  @ug6 path /roblox-username-generator.html /roblox-username-generator /roblox-username-generator/ /roblox-username-generator/index.html
+  redir @ug6 /fancy-text-generator.html permanent
+  @ug7 path /call-of-duty-username-generator.html /call-of-duty-username-generator /call-of-duty-username-generator/ /call-of-duty-username-generator/index.html
+  redir @ug7 /fancy-text-generator.html permanent
+  @ug8 path /emo-username-generator.html /emo-username-generator /emo-username-generator/ /emo-username-generator/index.html
+  redir @ug8 /fancy-text-generator.html permanent
 
   # Text style cluster (2026-09-13) -> flat .html
   @boldtxt path /bold-font-generator /bold-font-generator/ /bold-font-generator/index.html

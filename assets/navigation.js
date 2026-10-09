@@ -23,9 +23,7 @@
     names: [
       ["Name Generator", "/cursive-name-generator.html"],
       ["Signature Generator", "/copy-and-paste-cursive-signature.html"],
-      ["Name Practice", "/cursive-name-practice-generator.html"],
-      ["Roblox Usernames", "/roblox-username-generator.html"],
-      ["Aesthetic Usernames", "/aesthetic-username-generator.html"]
+      ["Name Practice", "/cursive-name-practice-generator.html"]
     ],
     fonts: [
       ["Font Generator", "/cursive-font-generator.html"],
@@ -81,8 +79,7 @@
       ["Discord Fonts", "/fonts-for-discord.html"],
       ["Adopt Me Fonts", "/adopt-me-font-generator.html"],
       ["Instagram Fonts", "/instagram-font-generator.html"],
-      ["Free Fire Fonts", "/free-fire-font-generator.html"],
-      ["Roblox Usernames", "/roblox-username-generator.html"]
+      ["Free Fire Fonts", "/free-fire-font-generator.html"]
     ],
     // Blog posts — newest first. Add a new post here and on /blog/index.html.
     blog: [
