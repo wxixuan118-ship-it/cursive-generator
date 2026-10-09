@@ -172,7 +172,6 @@
   .home-sec h2{font-size:23px}
   .home-cta{padding:28px 20px}
   /* Compact first screen: get the first result row above the fold */
-  .house-ad[data-house-ad=top]{display:none}
   .site-layout .home-hero{margin:4px auto 14px}
   .site-layout .home-hero h1{font-size:21px;margin-bottom:6px}
   .site-layout .home-hero p{font-size:14px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
