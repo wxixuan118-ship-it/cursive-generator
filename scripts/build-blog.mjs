@@ -108,10 +108,10 @@ const head = (p) => `<!doctype html>
     publisher: { '@type': 'Organization', name: 'Cursive Text Generator', url: `${SITE}/`, logo: { '@type': 'ImageObject', url: `${SITE}/assets/android-chrome-512x512.png` } },
     isPartOf: { '@type': 'Blog', name: 'Cursive Text Generator Blog', url: `${SITE}/blog/` }, wordCount: words(p.body) })}
   ${ld({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: p.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) })}
+<link rel="stylesheet" href="/assets/unified-layout.css?v=20261013a">
 </head>`;
 
 const chrome = (crumb) => `<body>
-  <aside class="house-ad" aria-label="Cursive Text Generator promotion" data-house-ad="top"><a href="/" aria-label="Open the Cursive Text Generator"><span class="house-ad-copy"><strong>Cursive Text Generator</strong><small>Turn plain words into beautiful script — free, instant, no signup.</small></span><span class="house-ad-samples" aria-hidden="true"><i>𝒞𝓊𝓇𝓈𝒾𝓋ℯ</i><i>𝓒𝓾𝓻𝓼𝓲𝓿𝓮</i><i>𝔠𝔲𝔯𝔰𝔦𝔳𝔢</i></span><span class="house-ad-cta">Try it free →</span></a></aside>
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="/"><span class="brand-mark">C</span><span>Cursive Generator</span></a>
@@ -290,6 +290,7 @@ const renderHub = () => {
     description: hubPost.excerpt,
     publisher: { '@type': 'Organization', name: 'Cursive Text Generator', url: `${SITE}/` },
     blogPost: newest.map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: p.url, datePublished: p.date })) })}
+<link rel="stylesheet" href="/assets/unified-layout.css?v=20261013a">
 </head>
 ${chrome('<li aria-current="page">Blog</li>')}
   <div class="site-layout"><main class="page">

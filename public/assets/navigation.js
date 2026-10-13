@@ -161,20 +161,6 @@
     `<a href="${href}"${active ? ' class="active" aria-current="page"' : ""}>${label}</a>`;
   const isExact = (href) => href === "/" ? path === "/" : path === href || path === href.replace(/\.html$/, "/");
 
-  // Shared desktop ad rails. They are deliberately empty placeholders so an
-  // ad provider can mount units without changing every generated page.
-  // Pages that lay out their own rails (the homepage's .side-rail) skip these.
-  if (!document.querySelector(".side-ad-rails, .side-rail")) {
-    document.body.classList.add("has-side-ad-rails");
-    const rails = document.createElement("div");
-    rails.className = "side-ad-rails";
-    rails.setAttribute("aria-hidden", "true");
-    rails.innerHTML = `
-      <aside class="side-ad-slot side-ad-slot-left"></aside>
-      <aside class="side-ad-slot side-ad-slot-right"></aside>`;
-    document.body.appendChild(rails);
-  }
-
   const header = document.querySelector(".site-header");
   if (!header) return;
 
@@ -189,18 +175,39 @@
   const sectionTitle = (key) => key[0].toUpperCase() + key.slice(1);
   // "Blog tools" reads wrong; the blog sub-nav lists posts.
   const sectionLabel = (key) => key === "blog" ? "Blog posts" : sectionTitle(key) + " tools";
+  const stylesMenu = `<div class="styles-menu">
+    <button class="styles-menu-trigger${primaryFor === "styles" ? " active" : ""}" type="button" aria-expanded="false" aria-controls="styles-dropdown">Styles <span aria-hidden="true">⌄</span></button>
+    <div class="styles-dropdown" id="styles-dropdown" hidden>
+      <a class="styles-all-link" href="/aesthetic-fonts.html">All Styles</a>
+      <div class="styles-dropdown-grid">${sections.styles.groups.map(([label, items]) =>
+        `<div class="styles-dropdown-group"><strong>${label}</strong>${items.map((item) => link(item, isExact(item[1]))).join("")}</div>`).join("")}</div>
+    </div>
+  </div>`;
 
   header.innerHTML = `
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="/"><span class="brand-mark">C</span><span>Cursive Generator</span></a>
       <div class="nav-links nav-primary-links">
-        ${primary.map((item) => link(item, isPrimary(item))).join("")}
+        ${primary.map((item) => item[0] === "Styles" ? stylesMenu : link(item, isPrimary(item))).join("")}
       </div>
       <button class="nav-burger" aria-label="Open menu" aria-expanded="false" onclick="toggleNav(this)"><span></span><span></span><span></span></button>
     </nav>
-    <nav class="subnav" aria-label="${sectionLabel(subnavSource)}">
-      ${renderSubnav(subnavSource)}
-    </nav>`;
+    ${subnavSource === "styles" ? "" : `<nav class="subnav" aria-label="${sectionLabel(subnavSource)}">${renderSubnav(subnavSource)}</nav>`}`;
+
+  const stylesTrigger = header.querySelector(".styles-menu-trigger");
+  const stylesDropdown = header.querySelector(".styles-dropdown");
+  const closeStyles = () => {
+    stylesDropdown.hidden = true;
+    stylesTrigger.setAttribute("aria-expanded", "false");
+  };
+  stylesTrigger.addEventListener("click", () => {
+    const nextOpen = stylesDropdown.hidden;
+    stylesDropdown.hidden = !nextOpen;
+    stylesTrigger.setAttribute("aria-expanded", String(nextOpen));
+  });
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".styles-menu")) closeStyles();
+  });
 
   const oldDrawer = document.querySelector("#nav-drawer");
   if (oldDrawer) {
@@ -263,7 +270,7 @@
     });
   }
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeDrawer();
+    if (event.key === "Escape") { closeDrawer(); closeStyles(); stylesTrigger.focus(); }
   });
 
   window.toggleNav = function (button) {

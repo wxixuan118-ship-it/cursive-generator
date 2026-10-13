@@ -34,57 +34,7 @@ body {
   line-height: 1.58;
 }
 
-/* Universal desktop advertising rails; hidden when the viewport cannot
-   accommodate the content and both standard 160 x 600 placements. */
-.side-ad-rails {
-  display: none;
-}
 
-@media (min-width: 1360px) {
-  .has-side-ad-rails .wrap,
-  .has-side-ad-rails .nav,
-  .has-side-ad-rails .subnav-inner,
-  .has-side-ad-rails .footer-inner,
-  .has-side-ad-rails .footer-body,
-  .has-side-ad-rails .footer-nav-inner {
-    max-width: 1020px;
-  }
-
-  .side-ad-rails {
-    display: block;
-  }
-
-  .side-ad-slot {
-    position: fixed;
-    top: 132px;
-    z-index: 5;
-    width: clamp(140px, calc((100vw - 1052px) / 2 - 16px), 160px);
-    height: 600px;
-    border: 1px dashed rgba(93, 106, 99, 0.32);
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.48);
-    color: rgba(93, 106, 99, 0.58);
-    pointer-events: none;
-  }
-
-  .side-ad-slot-left {
-    left: max(12px, calc(50% - 700px));
-  }
-
-  .side-ad-slot-right {
-    right: max(12px, calc(50% - 700px));
-  }
-
-  .side-ad-slot span {
-    position: absolute;
-    top: 12px;
-    left: 50%;
-    font-size: 10px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    transform: translateX(-50%);
-  }
-}
 
 a {
   color: inherit;

@@ -247,9 +247,9 @@ export function renderUsernamePage(p, samples = [], domain = DOMAIN) {
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${domain}/` }, { '@type': 'ListItem', position: 2, name: crumb[0], item: `${domain}${crumb[1]}` }, { '@type': 'ListItem', position: 3, name: appName, item: url }] })}</script>
   <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqJson })}</script>
 <link rel="stylesheet" href="/assets/site-layout.css?v=20260927b">
+<link rel="stylesheet" href="/assets/unified-layout.css?v=20261013a">
 </head>
 <body>
-  <aside class="house-ad" aria-label="Cursive Text Generator promotion" data-house-ad="top"><a href="/" aria-label="Open the Cursive Text Generator"><span class="house-ad-copy"><strong>Cursive Text Generator</strong><small>Turn plain words into beautiful script — free, instant, no signup.</small></span><span class="house-ad-samples" aria-hidden="true"><i>𝒞𝓊𝓇𝓈𝒾𝓋ℯ</i><i>𝓒𝓾𝓻𝓼𝓲𝓿𝓮</i><i>𝔠𝔲𝔯𝔰𝔦𝔳𝔢</i></span><span class="house-ad-cta">Try it free →</span></a></aside>
 <header class="site-header"></header>
   <nav class="nav-mobile-drawer" id="nav-drawer" aria-label="Mobile navigation"></nav>
 

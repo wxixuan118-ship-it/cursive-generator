@@ -1,0 +1,33 @@
+/* Shared page frame with clear, empty desktop margins. */
+:root{--paper:#f7f7f9;--soft:#f0eef6;--panel:#fff;--ink:#24212b;--muted:#716d7b;--line:#e7e4ed;--sage:#7846dc;--sage-soft:#f2ebff;--coral:#8652db}
+body{background:var(--paper)}
+.site-header{background:#fff}
+.brand-mark{background:var(--sage)}
+.site-layout{box-sizing:border-box;width:100%;max-width:1440px;margin-inline:auto;padding:28px 24px 48px}
+.site-layout>main{min-width:0;width:100%;max-width:1040px;margin-inline:auto}
+.site-layout .wrap{max-width:100%}
+body>main{box-sizing:border-box;width:100%;max-width:1040px;margin-inline:auto}
+@media(min-width:1280px){
+  .site-layout{max-width:1088px}
+  body>main{max-width:1040px}
+}
+@media(max-width:640px){.site-layout{padding:18px 14px 32px}}
+@media print{.site-layout{display:block!important;padding:0}}
+
+/* Styles opens as a compact grouped menu from the primary navigation. */
+.nav{position:relative;z-index:30}
+.styles-menu{position:relative}
+.styles-menu-trigger{display:flex;align-items:center;gap:5px;padding:0;border:0;background:none;color:var(--muted);font:inherit;cursor:pointer}
+.styles-menu-trigger:hover,.styles-menu-trigger.active,.styles-menu-trigger[aria-expanded=true]{color:var(--sage)}
+.styles-menu-trigger.active{font-weight:800}
+.styles-menu-trigger:focus-visible{outline:2px solid var(--sage);outline-offset:5px;border-radius:3px}
+.styles-dropdown{position:absolute;top:calc(100% + 23px);right:-150px;z-index:50;width:min(760px,calc(100vw - 48px));max-height:min(72vh,680px);overflow:auto;padding:22px 26px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 18px 50px rgba(35,25,55,.17)}
+.styles-dropdown[hidden]{display:none}
+.styles-all-link{display:inline-block;margin-bottom:17px;font-weight:800;color:var(--sage)!important}
+.styles-dropdown-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 28px}
+.styles-dropdown-group{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
+.styles-dropdown-group strong{margin-bottom:3px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.styles-dropdown-group a{font-size:13px;line-height:1.4;color:var(--muted);white-space:normal}
+.styles-dropdown-group a:hover,.styles-dropdown-group a.active{color:var(--sage)}
+@media(max-width:1100px){.styles-dropdown{right:-80px}}
+@media(max-width:900px){.styles-menu{display:none}}
