@@ -222,6 +222,7 @@ const pages = {
     ],
     examplesTitle: 'Glitch Text Examples',
     examplesIntro: 'Paste these into the generator and step through Light, Medium and Heavy to compare the intensity levels on the same string.',
+    figure: {"src": "/assets/previews/glitch-text-generator.svg", "og": "/assets/previews/glitch-text-generator.png", "width": 1200, "height": 630, "alt": "SYSTEM ERROR corrupted by the glitch text generator with light Zalgo marks, a strikethrough and static-noise monospace", "caption": "“SYSTEM ERROR” rendered by the Glitch Text Generator in Glitch Light, Strikethrough, Monospace Static Noise presets"},
     examples: [['SYSTEM ERROR', 'Classic glitch line'], ['NO SIGNAL', 'Status or bio line'], ['ACCESS DENIED', 'Gaming profile text']],
     linksTitle: 'Explore the Alternative Font Cluster',
     links: [

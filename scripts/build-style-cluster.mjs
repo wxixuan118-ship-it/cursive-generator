@@ -116,6 +116,7 @@ const pages = {
     ],
     examplesTitle: 'Italic Text Examples',
     examplesIntro: 'Paste one of these into the generator and compare the serif, sans and script versions.',
+    figure: {"src": "/assets/previews/italic-font-generator.svg", "og": "/assets/previews/italic-font-generator.png", "width": 1200, "height": 630, "alt": "Italic Text written with the italic font generator in serif italic, sans italic and bold italic Unicode letters", "caption": "“Italic Text” rendered by the Italic Font Generator in Math Italic, Sans Italic, Bold Italic presets"},
     examples: [['the art of slowing down', 'Quoted caption line'], ['Mara Ellis', 'Italic display name'], ['currently reading: Dune', 'Title in a bio']],
     linksTitle: 'Explore Related Text Styles',
     links: [
@@ -287,6 +288,7 @@ const pages = {
     ],
     examplesTitle: 'Strikethrough Text Examples',
     examplesIntro: 'Try these in the generator and compare the long strike, slash and underline versions.',
+    figure: {"src": "/assets/previews/strikethrough-text-generator.svg", "og": "/assets/previews/strikethrough-text-generator.png", "width": 1200, "height": 630, "alt": "Strike this crossed out by the strikethrough text generator with a single strikethrough line, a slash and a double underline", "caption": "“Strike this” rendered by the Strikethrough Text Generator in Strikethrough, Slashed, Double Underline presets"},
     examples: [['was $40 now $25', 'Price cross-out'], ['definitely not obsessed', 'Caption joke'], ['read the pinned post', 'Underlined bio line']],
     linksTitle: 'Explore Related Text Styles',
     links: [
@@ -343,6 +345,7 @@ const pages = {
     ],
     examplesTitle: 'Upside Down Text Examples',
     examplesIntro: 'Paste one of these into the generator and compare the full flip, letter flip and reversed versions.',
+    figure: {"src": "/assets/previews/upside-down-text-generator.svg", "og": "/assets/previews/upside-down-text-generator.png", "width": 1200, "height": 630, "alt": "The words Upside Down flipped 180 degrees, written backwards and with flipped letters by the upside down text generator", "caption": "“Upside Down” rendered by the Upside Down Text Generator in Upside Down, Reversed Text, Flipped Letters presets"},
     examples: [['turn your phone', 'Flipped caption'], ['Riley', 'Upside down display name'], ['read this again', 'Reversed joke line']],
     linksTitle: 'Explore Related Text Styles',
     links: [
@@ -529,6 +532,7 @@ const pages = {
     ],
     examplesTitle: 'Instagram Font Examples',
     examplesIntro: 'Try these in the generator and compare how they look as a display name, a bio line and a caption heading.',
+    figure: {"src": "/assets/previews/instagram-font-generator.svg", "og": "/assets/previews/instagram-font-generator.png", "width": 1200, "height": 630, "alt": "Your Name styled by the Instagram font generator in bold cursive, sans bold and small caps for an Instagram bio or name", "caption": "“Your Name” rendered by the Instagram Font Generator in Bold Cursive, Sans Bold, Small Caps presets"},
     examples: [['Sofia Marie', 'Display name'], ['link in bio', 'Bio call to action'], ['weekend recap', 'Caption heading']],
     linksTitle: 'Explore Related Text Styles',
     links: [
@@ -699,6 +703,7 @@ const pages = {
     ],
     examplesTitle: 'Monospace Text Examples',
     examplesIntro: 'Try these in the generator and compare the plain, bracketed and glitch-framed versions.',
+    figure: {"src": "/assets/previews/monospace-text-generator.svg", "og": "/assets/previews/monospace-text-generator.png", "width": 1200, "height": 630, "alt": "The word monospace converted by the monospace text generator into fixed-width Unicode letters, with bracket and signal-bar frames", "caption": "“monospace” rendered by the Monospace Text Generator in Monospace, Monospace Double Bracket, Monospace HP Bar presets"},
     examples: [['jane_dev', 'Developer handle'], ['run coffee.exe', 'Playful caption'], ['system online', 'Retro status line']],
     linksTitle: 'Explore Related Text Styles',
     links: [
@@ -755,6 +760,7 @@ const pages = {
     ],
     examplesTitle: 'Wide Text Examples',
     examplesIntro: 'Try these in the generator and compare the full-width, spaced and framed versions.',
+    figure: {"src": "/assets/previews/wide-text-generator.svg", "og": "/assets/previews/wide-text-generator.png", "width": 1200, "height": 630, "alt": "The words wide text stretched by the wide text generator into full-width vaporwave letters, spaced full-width letters and a flower-framed full-width style", "caption": "“wide text” rendered by the Wide Text Generator in Aesthetic Wide, Spaced Full-Width and Aesthetic Wide Flower presets"},
     examples: [['midnight drive', 'Playlist title'], ['aesthetic', 'Vaporwave bio word'], ['lo fi radio', 'Channel name']],
     linksTitle: 'Explore Related Text Styles',
     links: [

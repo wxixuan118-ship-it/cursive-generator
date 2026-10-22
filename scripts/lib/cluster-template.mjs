@@ -86,7 +86,7 @@ export function renderClusterPage(p, domain = DOMAIN) {
         p.figure.caption ? `<figcaption>${esc(p.figure.caption)}</figcaption>` : ''
       }</figure>`
     : '';
-  const ogImage = p.figure ? `${domain}${p.figure.src}` : `${domain}/assets/cursive-generator-hero.png`;
+  const ogImage = p.figure ? `${domain}${p.figure.og || p.figure.src}` : `${domain}/assets/cursive-generator-hero.png`;
 
   // Optional outbound citation: { before, name, href, after }. Rendered as one
   // sentence with the link in the middle, e.g. "The bold letters come from the
