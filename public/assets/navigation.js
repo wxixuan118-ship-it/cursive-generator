@@ -2,10 +2,8 @@
   const primary = [
     ["Generator", "/"],
     ["Fonts", "/cursive-font-generator.html"],
-    ["Names", "/cursive-name-generator.html"],
     ["Styles", "/aesthetic-fonts.html"],
     ["Themes", "/super-bowl-2027-font-generator.html"],
-    ["Blog", "/blog/"]
   ];
 
   // Retired pages (scripts/retired-pages.txt) are intentionally absent from every list below.
@@ -21,13 +19,11 @@
       ["Letters A–Z", "/cursive-letters-a-z.html"]
     ],
     names: [
-      ["Name Generator", "/cursive-name-generator.html"],
       ["Signature Generator", "/copy-and-paste-cursive-signature.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"]
     ],
     fonts: [
       ["Font Generator", "/cursive-font-generator.html"],
-      ["Copy & Paste", "/copy-and-paste/"],
       ["Bold Cursive", "/cursive-bold-generator.html"],
       ["Discord Fonts", "/fonts-for-discord.html"]
     ],
@@ -37,7 +33,6 @@
       ["Diamond Fonts", "/diamond-font-generator.html"],
       ["Aesthetic Symbols", "/aesthetic-symbols.html"],
       ["Fancy Text", "/fancy-text-generator.html"],
-      ["Copy & Paste", "/copy-and-paste/"]
     ],
     theme: [
       ["Super Bowl 2027", "/super-bowl-2027-font-generator.html"],
@@ -52,7 +47,6 @@
     themes: [],
     worksheets: [
       ["Printable Sheets", "/printable-cursive-handwriting-practice-sheets.html"],
-      ["Practice Sheets", "/cursive-practice-sheets.html"],
       ["Name Practice", "/cursive-name-practice-generator.html"],
       ["Alphabet Sheet", "/cursive-alphabet-practice-sheet.html"]
     ],
@@ -67,7 +61,6 @@
       ["Bubble Text", "/bubble-text-generator.html"],
       ["Cool Text", "/cool-text-generator.html"],
       ["Stylish Text", "/stylish-text-generator.html"],
-      ["Small Text", "/small-text-generator.html"],
       ["Italic Fonts", "/italic-font-generator.html"],
       ["Wide Text", "/wide-text-generator.html"],
       ["Monospace Text", "/monospace-text-generator.html"],
@@ -79,16 +72,9 @@
       ["Discord Fonts", "/fonts-for-discord.html"],
       ["Adopt Me Fonts", "/adopt-me-font-generator.html"],
       ["Instagram Fonts", "/instagram-font-generator.html"],
-      ["Free Fire Fonts", "/free-fire-font-generator.html"]
     ],
     // Blog posts — newest first. Add a new post here and on /blog/index.html.
     blog: [
-      ["All Posts", "/blog/"],
-      ["How to Type in Cursive", "/blog/how-to-type-in-cursive/"],
-      ["Cursive on iPhone", "/blog/cursive-font-on-iphone/"],
-      ["Cursive Text & Screen Readers", "/blog/is-cursive-text-accessible/"],
-      ["Cursive Text by Platform", "/blog/cursive-text-platform-guide/"],
-      ["Using Practice Sheets", "/blog/how-to-use-cursive-practice-sheets/"]
     ],
     dark: [
       ["Freaky Fonts", "/freaky-font-generator.html"],
@@ -105,7 +91,6 @@
     ["Effects", sections.text.filter(([, href]) => effects.includes(href))],
     ["Social & Gaming", sections.social],
     ["Dark", sections.dark],
-    ["Symbols", sections.emoji.filter(([, href]) => href !== "/fancy-text-generator.html" && href !== "/copy-and-paste/")]
   ];
   sections.themes = sections.theme;
 
@@ -126,7 +111,6 @@
     ["Terms of Use", "/terms.html"],
     ["About", "/about.html"],
     ["Contact", "/contact.html"],
-    ["Blog", "/blog/"]
   ];
 
   const path = location.pathname.replace(/\/index\.html$/, "/");
@@ -134,7 +118,6 @@
   let current = "generator";
   if (path.startsWith("/letters/") || inPath(["letters", "alphabet"])) current = "letters";
   if (path.startsWith("/names/") || inPath(["name-generator", "signature-generator", "username-generator"])) current = "names";
-  if (path.startsWith("/fonts/") || path.startsWith("/copy-and-paste/") || inPath(["cursive-font-generator", "fonts-for-discord", "bold", "compatibility", "copy-and-paste"])) current = "fonts";
   if (path.startsWith("/worksheets/") || inPath(["practice-sheets", "alphabet-practice", "handwriting-practice", "name-practice"])) current = "worksheets";
   if (inPath(["aesthetic-fonts", "bow-font", "cute-fonts"])) current = "alternative";
   // alternative / dark font tools — add new slugs here as the section grows
@@ -148,7 +131,6 @@
   // seasonal / event theme tools — add new slugs here as the section grows
   if (inPath(["super-bowl", "stranger-things", "marvel", "harry-potter", "barbie", "theme"])) current = "theme";
   // blog hub + posts — keep after the slug checks so a post slug never lands in a tool section
-  if (path === "/blog" || path.startsWith("/blog/")) current = "blog";
 
   // Which top-bar item lights up for a given section.
   const primaryFor = { generator: "generator", fonts: "fonts", names: "names", letters: "", worksheets: "",

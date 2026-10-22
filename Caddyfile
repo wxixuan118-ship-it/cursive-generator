@@ -38,26 +38,21 @@ www.cursive-text-generator.net {
   # Navigation category labels -> primary tool
   @letters path /letters /letters/ /letters/index.html
   redir @letters /cursive-letters-generator.html permanent
-  @names path /names /names/ /names/index.html
-  redir @names /cursive-name-generator.html permanent
+
   @fonts path /fonts /fonts/ /fonts/index.html
   redir @fonts /cursive-fonts.html permanent
-  @worksheets path /worksheets /worksheets/ /worksheets/index.html
-  redir @worksheets /cursive-practice-sheets.html permanent
+
 
   # Legacy directory-style tool pages removed 2026-08-28 -> flat .html
   @conv path /cursive-converter /cursive-converter/ /cursive-converter/index.html
   redir @conv /cursive-converter.html permanent
-  @compat path /cursive-compatibility /cursive-compatibility/ /cursive-compatibility/index.html
-  redir @compat /cursive-compatibility.html permanent
-  @nameg path /cursive-name-generator /cursive-name-generator/ /cursive-name-generator/index.html
-  redir @nameg /cursive-name-generator.html permanent
+
+
   @namep path /cursive-name-practice-generator /cursive-name-practice-generator/ /cursive-name-practice-generator/index.html
   redir @namep /cursive-name-practice-generator.html permanent
   @namet path /cursive-name-tracing-generator /cursive-name-tracing-generator/ /cursive-name-tracing-generator/index.html
   redir @namet /cursive-name-tracing-generator.html permanent
-  @sheets path /cursive-practice-sheets /cursive-practice-sheets/ /cursive-practice-sheets/index.html
-  redir @sheets /cursive-practice-sheets.html permanent
+
   @sig path /cursive-signature-generator.html /cursive-signature-generator /cursive-signature-generator/ /cursive-signature-generator/index.html
   redir @sig /copy-and-paste-cursive-signature.html permanent
   @boldfont path /cursive-bold-font-generator /cursive-bold-font-generator/ /cursive-bold-font-generator/index.html
@@ -88,8 +83,7 @@ www.cursive-text-generator.net {
   redir @boldtxt /bold-font-generator.html permanent
   @italictxt path /italic-font-generator /italic-font-generator/ /italic-font-generator/index.html
   redir @italictxt /italic-font-generator.html permanent
-  @smalltxt path /small-text-generator /small-text-generator/ /small-text-generator/index.html
-  redir @smalltxt /small-text-generator.html permanent
+
   @bubbletxt path /bubble-text-generator /bubble-text-generator/ /bubble-text-generator/index.html
   redir @bubbletxt /bubble-text-generator.html permanent
   @striketxt path /strikethrough-text-generator /strikethrough-text-generator/ /strikethrough-text-generator/index.html
@@ -102,8 +96,7 @@ www.cursive-text-generator.net {
   redir @stylishtxt /stylish-text-generator.html permanent
   @igfont path /instagram-font-generator /instagram-font-generator/ /instagram-font-generator/index.html
   redir @igfont /instagram-font-generator.html permanent
-  @fffont path /free-fire-font-generator /free-fire-font-generator/ /free-fire-font-generator/index.html
-  redir @fffont /free-fire-font-generator.html permanent
+
   @adoptfont path /adopt-me-font-generator /adopt-me-font-generator/ /adopt-me-font-generator/index.html
   redir @adoptfont /adopt-me-font-generator.html permanent
   @monotxt path /monospace-text-generator /monospace-text-generator/ /monospace-text-generator/index.html

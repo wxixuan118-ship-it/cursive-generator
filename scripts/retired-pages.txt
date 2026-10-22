@@ -103,3 +103,20 @@
 /roblox-username-generator.html
 /call-of-duty-username-generator.html
 /emo-username-generator.html
+# Retired 2026-10-23 from the Search Console coverage drilldown.
+/blog/
+/blog/cursive-font-on-iphone/
+/blog/cursive-signature-styles/
+/blog/cursive-text-platform-guide/
+/blog/cursive-text-shows-boxes/
+/blog/how-to-type-in-cursive/
+/blog/how-to-use-cursive-practice-sheets/
+/blog/is-cursive-text-accessible/
+/blog/unicode-cursive-vs-cursive-fonts/
+/copy-and-paste/
+/cursive-compatibility.html
+/cursive-name-generator.html
+/cursive-practice-sheets.html
+/cursive-signature-with-heart.html
+/free-fire-font-generator.html
+/small-text-generator.html

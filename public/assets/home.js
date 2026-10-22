@@ -117,7 +117,7 @@ function flash(btn, label) {
 // After a copy, offer the next step right under the copied row: where people paste
 // cursive text, plus one page matching the style family they picked.
 const NEXT_BY_CAT = {
-  pretty: ["/cursive-name-generator.html", "Cursive names"],
+  pretty: ["/cursive-font-generator.html", "Cursive fonts"],
   bold: ["/cursive-bold-generator.html", "More bold cursive"],
   italic: ["/italic-font-generator.html", "More italic fonts"],
   gothic: ["/fancy-text-generator.html", "More fancy text"],
