@@ -3,17 +3,16 @@
   "navLabel": "Cursive Text by Platform",
   "title": "Where Cursive Text Works: Discord, TikTok, X, WhatsApp, Facebook and More",
   "seoTitle": "Where Cursive Text Works: Discord, TikTok, X & WhatsApp",
-  "description": "A platform-by-platform guide to cursive text: which apps show it in names, bios, posts and messages, where it gets stripped, and which style to use on each.",
+  "description": "A platform-by-platform guide to where cursive text works: which apps show it in names, bios, posts and messages, where it is stripped, and which style to use.",
   "excerpt": "Cursive text behaves differently on every platform. This guide covers Discord, TikTok, X, WhatsApp, Facebook, YouTube, Roblox and email: where it shows, where it is stripped, and which style to pick.",
   "tag": "Explainer",
   "date": "2026-09-17",
   "readMinutes": 7,
-  "lede": "The same cursive text can be a display name on Discord, a caption on TikTok and a rejected username on Roblox. Here is what each major platform does with it, field by field, so you know before you paste.",
+  "lede": "The same cursive text can be a display name on Discord, a caption on TikTok and a rejected username on Roblox. Here is where cursive text works on each major platform, field by field, so you know before you paste.",
   "related": [
     ["Discord Font Generator", "/fonts-for-discord.html"],
     ["TikTok Font Generator", "/tiktok-font-generator.html"],
     ["Instagram Font Generator", "/instagram-font-generator.html"],
-    ["Roblox Username Generator", "/roblox-username-generator.html"],
     ["Cursive Compatibility Test", "/cursive-compatibility.html"]
   ],
   "faq": [

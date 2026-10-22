@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Three invisible characters shown as outlined blank spaces: the Hangul Filler U+3164, the Braille Pattern Blank U+2800 and the zero-width Zero Width Space U+200B">
+  <rect width="1200" height="630" fill="#fbfaf7"/>
+  <rect x="16" y="16" width="1168" height="598" rx="20" fill="#ffffff" stroke="#dfe6df" stroke-width="2"/>
+  <text x="80" y="110" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="#2f6b4f">INVISIBLE TEXT GENERATOR</text>
+  <text x="1120" y="110" text-anchor="end" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="4" fill="#c96f59">BLANK CHARACTERS</text>
+  <text x="80" y="200" font-family="Georgia, Times New Roman, serif" font-size="44" fill="#5d6a63">Three characters that look like nothing:</text>
+  <rect x="80" y="248" width="96" height="68" rx="8" fill="#fbfaf7" stroke="#c96f59" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="128" y="300" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="56" fill="#17201b">ㅤ</text>
+  <text x="210" y="296" font-family="Georgia, Times New Roman, serif" font-size="40" fill="#17201b">Hangul Filler</text>
+  <text x="210" y="326" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#5d6a63">U+3164 · BLANK, HAS WIDTH</text>
+  <rect x="80" y="343" width="56" height="68" rx="8" fill="#fbfaf7" stroke="#c96f59" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="108" y="395" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="56" fill="#17201b">⠀</text>
+  <text x="210" y="391" font-family="Georgia, Times New Roman, serif" font-size="40" fill="#17201b">Braille Pattern Blank</text>
+  <text x="210" y="421" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#5d6a63">U+2800 · BLANK, HAS WIDTH</text>
+  <rect x="96" y="438" width="4" height="68" rx="2" fill="#c96f59"/>
+  <text x="210" y="486" font-family="Georgia, Times New Roman, serif" font-size="40" fill="#17201b">Zero Width Space</text>
+  <text x="210" y="516" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#5d6a63">U+200B · ZERO WIDTH</text>
+
+  <text x="1120" y="590" text-anchor="end" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="22" fill="#5d6a63">cursive-text-generator.net</text>
+</svg>
