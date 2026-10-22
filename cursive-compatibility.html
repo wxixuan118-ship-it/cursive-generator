@@ -153,7 +153,7 @@
         <p>Because all three styles draw from the same Unicode block, their cursive Unicode compatibility is identical — if one renders, all three render. The difference is purely visual.</p>
 
         <h2>Cursive Unicode Compatibility by Platform and Field</h2>
-        <p>This is the most common confusion: the same app that renders cursive in your bio will silently strip it from your @username. The table below lists every relevant field for each platform.</p>
+        <p>This is the most common confusion: the same app that renders cursive in your bio will silently strip it from your @username. The table below lists every relevant field for each platform. For Discord, X, Facebook, YouTube and Roblox as well, see our guide to <a href="/blog/cursive-text-platform-guide/">where cursive text works on each platform</a>.</p>
 
         <div class="compat-wrap">
           <table class="compat-table">
@@ -421,7 +421,7 @@
         <p>WhatsApp Business display names that use Unicode cursive are accepted by WhatsApp but may be reviewed during business account verification if the name is not clearly legible.</p>
 
         <h2>Searchability Warning</h2>
-        <p>This applies to all platforms: Unicode Mathematical Script characters are indexed as their Unicode code points, not as Latin letters. A TikTok display name written as <span class="char-demo">𝒮𝒶𝓇𝒶𝒽</span> cannot be found by someone searching "Sarah." For discoverability, always keep your @username in plain ASCII. Reserve cursive for fields where visual distinction matters more than search reach — typically bio, display name, and captions.</p>
+        <p>This applies to all platforms: Unicode Mathematical Script characters are indexed as their Unicode code points, not as Latin letters. A TikTok display name written as <span class="char-demo">𝒮𝒶𝓇𝒶𝒽</span> cannot be found by someone searching "Sarah." Screen readers stumble over the same characters — see <a href="/blog/is-cursive-text-accessible/">is cursive text accessible?</a> for what they actually announce. For discoverability, always keep your @username in plain ASCII. Reserve cursive for fields where visual distinction matters more than search reach — typically bio, display name, and captions.</p>
 
         <h2>Character Count Reference</h2>
         <p>Each Unicode Mathematical Script character counts as a single character in most platform character counters. The one exception to watch: some very old Instagram API endpoints counted supplementary Unicode characters (above U+FFFF) as 2 characters. The modern Instagram app counts them as 1.</p>
