@@ -72,8 +72,12 @@
     /* override legal-panel p colour so body text is readable */
     .legal-panel p { color: var(--ink); }
     .legal-panel p.tested-note, .legal-panel td { color: var(--ink); }
+    /* h1 sits inside section > article, where browsers shrink an unsized h1 */
+    .legal-panel h1 { margin: 0 0 14px; color: var(--sage); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: clamp(30px, 3vw, 46px); font-weight: 600; letter-spacing: -1px; line-height: 1.2; }
+    .legal-section { padding-top: 24px; }
     @media (max-width: 560px) {
       .style-grid { grid-template-columns: 1fr; }
+      .legal-panel { padding: 24px 18px; }
     }
   </style>
 <link rel="stylesheet" href="/assets/site-layout.css?v=20260927b">
