@@ -10,13 +10,10 @@
 # including the homepage. If apex ever stops redirecting, check that rule first.
 
 # Duplicate URL consolidation
-# /cursive-text-generator.html was consolidated into the homepage 2026-09-05 — both
-# targeted the same intent. All of its variants now 301 to /.
-# These are forced (301!) because the .html file is still in the repo, and on
-# Cloudflare Pages a static asset wins over an unforced redirect rule.
-/cursive-text-generator.html               /                                          301!
-/cursive-text-generator                    /                                          301!
-/cursive-text-generator/                   /                                          301!
+# /cursive-text-generator.html is a live standalone page again (restored 2026-11-17).
+# Only its directory-style variants redirect to the canonical .html URL.
+/cursive-text-generator                    /cursive-text-generator.html               301!
+/cursive-text-generator/                   /cursive-text-generator.html               301!
 /index.html                                /                                          301
 /letters                                  /cursive-letters-generator.html             301!
 /letters/                                 /cursive-letters-generator.html             301!
@@ -56,7 +53,7 @@
 /cursive-name-practice-generator/index.html /cursive-name-practice-generator.html     301
 /cursive-name-tracing-generator/index.html /cursive-name-tracing-generator.html       301
 /cursive-signature-generator/index.html    /copy-and-paste-cursive-signature.html     301
-/cursive-text-generator/index.html         /                                          301!
+/cursive-text-generator/index.html         /cursive-text-generator.html               301!
 
 # Letter pages: the nested index.html serves 200 as a duplicate of the trailing-slash
 # canonical. Forced (301!) because the file really exists and a static asset otherwise

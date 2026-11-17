@@ -29,11 +29,12 @@ www.cursive-text-generator.net {
   # 301s to its canonical flat .html page. Kept in sync with public/_redirects.
 
   # Homepage variants
-  # /cursive-text-generator.html was consolidated into the homepage 2026-09-05 —
-  # both targeted the same intent, so every variant now 301s to /.
   redir /index.html / permanent
-  @ctgdir path /cursive-text-generator.html /cursive-text-generator /cursive-text-generator/ /cursive-text-generator/index.html
-  redir @ctgdir / permanent
+
+  # /cursive-text-generator.html is a live standalone page again (restored 2026-11-17).
+  # Only its directory-style variants 301 to the canonical .html page.
+  @ctgdir path /cursive-text-generator /cursive-text-generator/ /cursive-text-generator/index.html
+  redir @ctgdir /cursive-text-generator.html permanent
 
   # Navigation category labels -> primary tool
   @letters path /letters /letters/ /letters/index.html
